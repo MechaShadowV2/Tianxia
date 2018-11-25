@@ -1,4 +1,4 @@
-max_provinces = 2078
+max_provinces = 2180
 definitions = "definition.csv"
 provinces = "provinces.bmp"
 positions = "positions.txt"
@@ -36,10 +36,8 @@ sea_zones = { 1382 1407 }
 sea_zones = { 1409 1412 }
 sea_zones = { 1293 1293 }
 # Tianxia additions
-sea_zones = { 1995 1997 } # East Africa
-sea_zones = { 1998 2029 } # Indian Ocean
-sea_zones = { 2030 2059 } # Indonesia
-sea_zones = { 2060 2077 } # Indochina-Borneo-Philippines (WIP)
+sea_zones = { 1995 1998 } # Horn of Africa
+sea_zones = { 1990 2179 } # Far Eastern seas
 
 # Non-accessible sea zones
 sea_zones = { 944 944 }
@@ -55,7 +53,7 @@ ocean_region = {	# European Ocean
 }
 
 ocean_region = {	# Indian Ocean
-	sea_zones = { 14 15 16 17 18 19 20 21 }
+	sea_zones = { 14 15 16 17 18 19 }
 }
 
 # Define which indices in trees.bmp palette which should count as trees for automatic terrain assignment
