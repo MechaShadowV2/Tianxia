@@ -1,0 +1,60 @@
+# The limiting slots for equipped artifacts. Dynamic system (you can add new types of slots freely)
+slots = {
+	library = 4
+}
+
+
+#############################
+##### Books and similar #####
+#############################
+
+kojiki = {
+	quality = 5
+	monthly_character_piety = 0.5
+	learning = 3
+	active = {
+		religion = shinto
+	}
+	allowed_gift = {
+		religion = shinto
+	}
+	flags = { religious japanese shinto book }
+	picture = "GFX_book"
+	stacking = no
+	slot = library
+}
+
+nihon_shoki = {
+	quality = 5
+	learning = 1
+	diplomacy = 1
+	stewardship = 1
+	flags = { religious japanese shinto book }
+	picture = "GFX_book"
+	stacking = no
+	slot = library
+}
+
+epic_of_darkness = {
+	quality = 5
+	monthly_character_piety = 0.5
+	learning = 3
+	active = {
+		OR = {
+			religion = taoist
+			religion = chinese_pagan
+			religion = chinese_pagan_reformed
+		}
+	}
+	allowed_gift = {
+		OR = {
+			religion = taoist
+			religion = chinese_pagan
+			religion = chinese_pagan_reformed
+		}
+	}
+	flags = { religious chinese taoist chinese_pagan book }
+	picture = "GFX_book"
+	stacking = no
+	slot = library
+}

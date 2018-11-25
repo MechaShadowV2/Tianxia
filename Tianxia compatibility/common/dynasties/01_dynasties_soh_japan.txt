@@ -1,0 +1,180 @@
+# SONS OF HEAVEN (Japan) Dynasty Range 1000027000 - 1000078075
+
+1000027000 = {
+	name="Yamato"
+	culture="japanese"
+	religion="shinto"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 3
+			color = 0
+		}
+		religion="shinto"
+	}
+	used_for_random=no
+}
+1000027001 = {
+	name="Fujiwara"
+	culture="japanese"
+	religion="shinto"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 13
+			emblem = 0
+			color = 1
+			color = 5
+			color = 0
+		}
+		religion="shinto"
+	}
+	used_for_random=no
+}
+1000027002 = {
+	name="Minamoto"
+	culture="japanese"
+	religion="shinto"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 12
+			emblem = 0
+			color = 2
+			color = 1
+			color = 0
+		}
+		religion="shinto"
+	}
+	used_for_random=no
+}
+1000027003 = {
+	name="Taira"
+	culture="japanese"
+	religion="shinto"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 10
+			emblem = 0
+			color = 8
+			color = 1
+			color = 0
+		}
+		religion="shinto"
+	}
+	used_for_random=no
+}
+1000027004 = {
+	name="Tachibana"
+	culture="japanese"
+	religion="shinto"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 14
+			emblem = 0
+			color = 1
+			color = 5
+			color = 0
+		}
+		religion="shinto"
+	}
+	used_for_random=no
+}
+1000027005 = {
+	name="Saga-Minamoto"
+	culture="japanese"
+	religion="shinto"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 12
+			emblem = 0
+			color = 2
+			color = 1
+			color = 0
+		}
+		religion="shinto"
+	}
+	used_for_random=no
+}
+1000027006 = {
+	name="Seiwa-Minamoto"
+	culture="japanese"
+	religion="shinto"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 12
+			emblem = 0
+			color = 2
+			color = 1
+			color = 0
+		}
+		religion="shinto"
+	}
+	used_for_random=no
+}
+1000027007 = {
+	name="Dewa-Kiyohara"
+	culture="japanese"
+}
+1000027008 = {
+	name="Kofukuji"
+	culture="japanese"
+}
+1000027009 = {
+	name="Enryakuji"
+	culture="japanese"
+}
+1000027010 = {
+	name="Oshmaushi"
+	culture="ainu"
+}
+1000027011 = {
+	name="Ishkarun"
+	culture="ainu"
+}
+1000027012 = {
+	name="Kushru"
+	culture="ainu"
+}
+1000027013 = {
+	name="Karput"
+	culture="ainu"
+}
+1000078073 = {
+	name="Kuye"
+	culture="ainu"
+}
+1000027014 = {
+	name="Uchinaa"
+	culture="ryukyuan"
+}
+1000027015 = {
+	name="Amamikiyo"
+	culture="ryukyuan"
+}
+1000027016 = {
+	name="Sachishima"
+	culture="ryukyuan"
+}
+1000078074 = {
+	name="Shunten"
+	culture="ryukyuan"
+}
+1000078075 = {
+	name="Eiso"
+	culture="ryukyuan"
+}
