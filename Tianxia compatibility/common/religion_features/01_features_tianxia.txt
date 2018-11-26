@@ -1,0 +1,303 @@
+# TODO: Localization, proper event pictures, check that everything makes sense
+
+religion_doctrine = {
+	buttons = { doctrine1 doctrine2 }
+	
+	religion_feature_sanamahi = {
+		picture = GFX_evt_china_golden_age # TODO
+		potential = {
+			has_game_started = yes
+			religion = sanamahi_pagan_reformed
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		trigger = {
+			religion = sanamahi_pagan_reformed
+			NOR = { 
+				has_selected_religion_feature = religion_beatification
+				has_selected_religion_feature = religion_animistic
+			}
+		}
+		effect = {
+			custom_tooltip = { text = tooltip_religion_feature_beatification }
+			custom_tooltip = { text = tooltip_religion_feature_eldership }
+			custom_tooltip = { text = tooltip_religion_feature_land_morale }
+			custom_tooltip = { text = tooltip_religion_feature_adulthood_rite }
+			hidden_tooltip = { 
+				set_unit_modifier = { 
+					land_morale = 0.05
+					key = "ANIMISTIC_RELIGION"
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+	}
+	
+	religion_feature_chinese = {
+		picture = GFX_evt_china_golden_age
+		potential = {
+			has_game_started = yes
+			religion = chinese_pagan_reformed
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		trigger = {
+			religion = chinese_pagan_reformed
+			NOR = { 
+				has_selected_religion_feature = religion_meritocratic
+				has_selected_religion_feature = religion_astrology
+			}
+		}
+		effect = {
+			custom_tooltip = { text = tooltip_religion_feature_meritocratic }
+			hidden_tooltip = {
+				set_heir_designation = yes
+			}
+			effect = {
+				custom_tooltip = { text = tooltip_religion_feature_astrology }
+				custom_tooltip = { text = tooltip_religion_feature_hermetics }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+	}
+	
+	religion_feature_korean = {
+		picture = GFX_evt_china_golden_age # TODO
+		potential = {
+			has_game_started = yes
+			religion = korean_pagan_reformed
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		trigger = {
+			religion = korean_pagan_reformed
+			NOR = { 
+				has_selected_religion_feature = religion_meritocratic
+				has_selected_religion_feature = religion_animistic
+			}
+		}
+		effect = {
+			custom_tooltip = { text = tooltip_religion_feature_meritocratic }
+			hidden_tooltip = {
+				set_heir_designation = yes
+			}
+			custom_tooltip = { text = tooltip_religion_feature_land_morale }
+			custom_tooltip = { text = tooltip_religion_feature_adulthood_rite }
+			hidden_tooltip = { 
+				set_unit_modifier = { 
+					land_morale = 0.05
+					key = "ANIMISTIC_RELIGION"
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+	}
+	
+	religion_feature_ryukyuan = { # Three Mountains
+		picture = GFX_evt_china_golden_age # TODO
+		potential = {
+			has_game_started = yes
+			religion = ryukyuan_pagan_reformed
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		trigger = {
+			religion = ryukyuan_pagan_reformed
+			NOR = { 
+				has_selected_religion_feature = religion_equal
+				has_selected_religion_feature = religion_relentless
+			}
+		}
+		effect = {
+			custom_tooltip = { text = tooltip_religion_feature_cognatic }
+			custom_tooltip = { text = tooltip_religion_feature_feminist }
+			hidden_tooltip = { 
+				set_allows_matrilineal_marriage = yes
+				set_feminist = yes
+				set_women_can_take_consorts = yes
+				set_men_can_take_consorts = yes
+				set_female_temple_holders = yes
+				set_male_temple_holders = yes
+				#FROM = { any_demesne_title = { add_law = status_of_women_4 } } 
+			}
+			custom_tooltip = { text = tooltip_religion_feature_anti_attrition }
+			custom_tooltip = { text = tooltip_religion_feature_offensive }
+			hidden_tooltip = { 
+				set_ignores_defensive_attrition = yes
+				set_unit_modifier = { 
+					light_infantry_offensive = 0.1
+					heavy_infantry_offensive = 0.1
+					light_cavalry_offensive = 0.1 
+					knights_offensive = 0.1 
+					pikemen_offensive = 0.1 
+					archers_offensive = 0.1
+					horse_archers_offensive = 0.1
+					camel_cavalry_offensive = 0.1
+					war_elephants_offensive = 0.1
+					key = "RELENTLESS_RELIGION"
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+	}
+	
+	religion_feature_melanesian = {
+		picture = GFX_evt_china_golden_age # TODO
+		potential = {
+			has_game_started = yes
+			religion = melanesian_pagan_reformed
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		trigger = {
+			religion = melanesian_pagan_reformed
+			NOR = { 
+				has_selected_religion_feature = religion_seafaring
+				has_selected_religion_feature = religion_animistic
+			}
+		}
+		effect = {
+			custom_tooltip = { text = tooltip_religion_feature_rivermovement }
+			custom_tooltip = { text = tooltip_religion_feature_ship_maintenance }
+			custom_tooltip = { text = tooltip_religion_feature_seafaring }
+			hidden_tooltip = {
+				set_seafaring = yes
+				set_allow_rivermovement = yes
+				if = {
+					limit = { #Unlock looting for religions which do not have it already.
+						FROM = { 
+						character = yes 
+							NOT = { has_selected_religion_feature = religion_peaceful }
+							OR = { 
+								religion = pagan 
+								religion = zun_pagan
+								religion = aztec
+								religion = hellenic_pagan
+							}
+						}
+					}
+					set_allow_looting = yes
+				}
+			}
+			custom_tooltip = { text = tooltip_religion_feature_land_morale }
+			custom_tooltip = { text = tooltip_religion_feature_adulthood_rite }
+			hidden_tooltip = { 
+				set_unit_modifier = { 
+					land_morale = 0.05
+					key = "ANIMISTIC_RELIGION"
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+	}
+	
+	religion_feature_viet = {
+		picture = GFX_evt_china_golden_age # TODO
+		potential = {
+			has_game_started = yes
+			religion = viet_pagan_reformed
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		trigger = {
+			religion = viet_pagan_reformed
+			NOR = { 
+				has_selected_religion_feature = religion_meritocratic
+				has_selected_religion_feature = religion_beatification
+			}
+		}
+		effect = {
+			custom_tooltip = { text = tooltip_religion_feature_meritocratic }
+			hidden_tooltip = {
+				set_heir_designation = yes
+			}
+			custom_tooltip = { text = tooltip_religion_feature_beatification }
+			custom_tooltip = { text = tooltip_religion_feature_eldership }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+	}
+	
+	religion_feature_dayak = {
+		picture = GFX_evt_china_golden_age # TODO
+		potential = {
+			has_game_started = yes
+			religion = dayak_pagan_reformed
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		trigger = {
+			religion = dayak_pagan_reformed
+			NOR = { 
+				has_selected_religion_feature = religion_haruspicy
+				has_selected_religion_feature = religion_beatification
+			}
+		}
+		effect = {
+			custom_tooltip = { text = tooltip_religion_feature_haruspicy }
+			custom_tooltip = { text = tooltip_religion_feature_beatification }
+			custom_tooltip = { text = tooltip_religion_feature_eldership }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+	}
+	
+	religion_feature_ainu = {
+		picture = GFX_evt_china_golden_age # TODO
+		potential = {
+			has_game_started = yes
+			religion = ainu_pagan_reformed
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		trigger = {
+			religion = ainu_pagan_reformed
+			NOR = { 
+				has_selected_religion_feature = religion_haruspicy
+				has_selected_religion_feature = religion_animistic
+			}
+		}
+		effect = {
+			custom_tooltip = { text = tooltip_religion_feature_haruspicy }
+			custom_tooltip = { text = tooltip_religion_feature_land_morale }
+			custom_tooltip = { text = tooltip_religion_feature_adulthood_rite }
+			hidden_tooltip = { 
+				set_unit_modifier = { 
+					land_morale = 0.05
+					key = "ANIMISTIC_RELIGION"
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+	}
+}

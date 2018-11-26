@@ -6307,6 +6307,9 @@ proselytize_convert_independent_trigger = {
 			FROM = { has_religion_feature = religion_proselytizing }
 		}
 		independent = yes
+		NOT = {
+			religion = shinto # The Shinto religion is not proselytizing
+		}
 		NOT = { religion = FROM }
 		religion_group = pagan_group
 		OR = {

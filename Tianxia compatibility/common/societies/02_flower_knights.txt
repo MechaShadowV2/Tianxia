@@ -35,6 +35,12 @@ flower_knights = { #society code name
 		NOT = { age = 21 }
 		is_female = no
 		culture_group = koreanic
+		OR = {
+			religion = taoist
+			religion = buddhist
+			religion = korean_pagan
+			religion = korean_pagan_reformed
+		}
 		trigger_if = {
 			limit = { prisoner = yes }
 			prisoner = no

@@ -63,6 +63,9 @@ pagan_group = {
 		allow_in_ruler_designer = no
 		
 		intermarry = ainu_pagan
+		intermarry = tengri_pagan
+		intermarry = tengri_pagan_reformed
+		intermarry = shinto
 	}		
 
 	ainu_pagan = {
@@ -129,6 +132,9 @@ pagan_group = {
 		can_demand_religious_conversion = no
 		
 		intermarry = ainu_pagan_reformed
+		intermarry = tengri_pagan
+		intermarry = tengri_pagan_reformed
+		intermarry = shinto
 	}
 
 	chinese_pagan_reformed = { # Shenist/Wuist/Nuoist
@@ -192,6 +198,11 @@ pagan_group = {
 		
 		intermarry = taoist
 		intermarry = chinese_pagan
+		intermarry = viet_pagan
+		intermarry = viet_pagan_reformed
+		intermarry = korean_pagan
+		intermarry = korean_pagan_reformed
+		intermarry = buddhist
 
 		allow_in_ruler_designer = no
 	}
@@ -254,6 +265,11 @@ pagan_group = {
 		
 		intermarry = taoist
 		intermarry = chinese_pagan_reformed
+		intermarry = viet_pagan
+		intermarry = viet_pagan_reformed
+		intermarry = korean_pagan
+		intermarry = korean_pagan_reformed
+		intermarry = buddhist
 		
 		dislike_tribal_organization = yes
 		can_demand_religious_conversion = no
@@ -321,6 +337,10 @@ pagan_group = {
 		intermarry = taoist
 		intermarry = buddhist
 		intermarry = korean_pagan
+		intermarry = chinese_pagan
+		intermarry = chinese_pagan_reformed
+		intermarry = ryukyuan_pagan
+		intermarry = ryukyuan_pagan_reformed
 
 		allow_in_ruler_designer = no
 	}
@@ -384,6 +404,10 @@ pagan_group = {
 		intermarry = taoist
 		intermarry = buddhist
 		intermarry = korean_pagan_reformed
+		intermarry = chinese_pagan
+		intermarry = chinese_pagan_reformed
+		intermarry = ryukyuan_pagan
+		intermarry = ryukyuan_pagan_reformed
 		
 		dislike_tribal_organization = yes	
 		can_demand_religious_conversion = no
@@ -451,6 +475,9 @@ pagan_group = {
 		religious_clothing_priest = 10
 		
 		intermarry = ryukyuan_pagan
+		intermarry = shinto
+		intermarry = korean_pagan
+		intermarry = korean_pagan_reformed
 		
 		allow_in_ruler_designer = no
 	}
@@ -513,6 +540,9 @@ pagan_group = {
 		religious_clothing_priest = 10
 		
 		intermarry = ryukyuan_pagan_reformed
+		intermarry = shinto
+		intermarry = korean_pagan
+		intermarry = korean_pagan_reformed
 		
 		dislike_tribal_organization = yes
 		can_demand_religious_conversion = no
@@ -520,7 +550,7 @@ pagan_group = {
 }
 
 indian_group = { # Eastern
-	# TODO: Update features, add subjugations/holy wars/etc., possibly intermarriage
+	# TODO: Update features, possibly intermarriage
 	# TODO: Check for indian_group and enable/disable as necessary
 	shinto = {
 		graphical_culture = buddhistgfx
@@ -567,5 +597,9 @@ indian_group = { # Eastern
 		religious_clothing_priest = 10
 		
 		intermarry = buddhist
+		intermarry = ainu_pagan
+		intermarry = ainu_pagan_reformed
+		intermarry = ryukyuan_pagan
+		intermarry = ryukyuan_pagan_reformed
 	}
 }

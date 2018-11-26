@@ -1186,6 +1186,8 @@ pagan_group = {
 		intermarry = tengri_pagan # Missing in vanilla, but should be there...
 		intermarry = buddhist
 		intermarry = zoroastrian_group
+		intermarry = ainu_pagan
+		intermarry = ainu_pagan_reformed
 	}		
 	
 	
@@ -1241,6 +1243,8 @@ pagan_group = {
 		intermarry = tengri_pagan_reformed # Missing in vanilla, but should be there...
 		intermarry = buddhist
 		intermarry = zoroastrian_group
+		intermarry = ainu_pagan
+		intermarry = ainu_pagan_reformed
 		can_demand_religious_conversion = no
 	}
 	
@@ -2687,6 +2691,10 @@ indian_group = {
 		intermarry = zun_pagan_reformed
 		intermarry = bon
 		intermarry = bon_reformed
+		intermarry = dayak_pagan
+		intermarry = dayak_pagan_reformed
+		intermarry = sanamahi_pagan
+		intermarry = sanamahi_pagan_reformed
 		
 	}
 	buddhist = {
@@ -2742,6 +2750,16 @@ indian_group = {
 		intermarry = tengri_pagan_reformed
 		intermarry = nestorian
 		intermarry = shinto
+		intermarry = chinese_pagan
+		intermarry = chinese_pagan_reformed
+		intermarry = korean_pagan
+		intermarry = korean_pagan_reformed
+		intermarry = dayak_pagan
+		intermarry = dayak_pagan_reformed
+		intermarry = sanamahi_pagan
+		intermarry = sanamahi_pagan_reformed
+		intermarry = viet_pagan
+		intermarry = viet_pagan_reformed
 	}
 	jain = {
 		graphical_culture = jaingfx
@@ -2786,6 +2804,10 @@ indian_group = {
 		intermarry = zun_pagan_reformed
 		intermarry = bon
 		intermarry = bon_reformed
+		intermarry = dayak_pagan
+		intermarry = dayak_pagan_reformed
+		intermarry = sanamahi_pagan
+		intermarry = sanamahi_pagan_reformed
 	}
 	taoist = {
 		graphical_culture = chinesegfx

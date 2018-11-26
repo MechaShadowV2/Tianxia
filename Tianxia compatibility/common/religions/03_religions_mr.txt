@@ -65,6 +65,8 @@ pagan_group = {
 		intermarry = taoist
 		
 		intermarry = dayak_pagan
+		intermarry = melanesian_pagan
+		intermarry = melanesian_pagan_reformed
 
 		allow_in_ruler_designer = no
 	}
@@ -132,6 +134,8 @@ pagan_group = {
 		intermarry = taoist
 		
 		intermarry = dayak_pagan_reformed
+		intermarry = melanesian_pagan
+		intermarry = melanesian_pagan_reformed
 
 		dislike_tribal_organization = yes
 		can_demand_religious_conversion = no
@@ -194,6 +198,8 @@ pagan_group = {
 		religious_clothing_priest = 6
 		
 		intermarry = melanesian_pagan
+		intermarry = dayak_pagan
+		intermarry = dayak_pagan_reformed
 
 		allow_in_ruler_designer = no
 	}
@@ -258,6 +264,8 @@ pagan_group = {
 		religious_clothing_priest = 6
 		
 		intermarry = melanesian_pagan_reformed
+		intermarry = dayak_pagan
+		intermarry = dayak_pagan_reformed
 
 		dislike_tribal_organization = yes
 		can_demand_religious_conversion = no
@@ -453,6 +461,8 @@ pagan_group = {
 		intermarry = taoist
 		intermarry = buddhist
 		intermarry = viet_pagan
+		intermarry = chinese_pagan
+		intermarry = chinese_pagan_reformed
 
 		allow_in_ruler_designer = no
 	}
@@ -514,6 +524,8 @@ pagan_group = {
 		intermarry = taoist
 		intermarry = buddhist
 		intermarry = viet_pagan_reformed
+		intermarry = chinese_pagan
+		intermarry = chinese_pagan_reformed
 
 		dislike_tribal_organization = yes
 		can_demand_religious_conversion = no
