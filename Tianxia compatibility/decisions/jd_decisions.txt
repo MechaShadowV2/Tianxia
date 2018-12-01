@@ -637,11 +637,46 @@ decisions = {
 		effect = {
 			if = {
 				limit = {
-					suzerain = {
-						is_chinese_emperor_trigger = yes
-					}
+					has_dlc = "Jade Dragon"
+					is_chinese_emperor_trigger = no
 				}
-				detract_grace_massive_effect = yes
+				if = {
+					limit = {
+						suzerain = {
+							is_chinese_emperor_trigger = yes
+						}
+					}
+					detract_grace_super_huge_effect = yes
+				}
+				if = {
+					limit = {
+						suzerain = {
+							is_chinese_emperor_trigger = no
+							any_close_relative = {
+								dynasty = PREV
+								is_chinese_emperor_trigger = yes
+							}
+						}
+					}
+					detract_grace_massive_effect = yes
+				}
+				if = {
+					limit = {
+						suzerain = {
+							is_chinese_emperor_trigger = no
+							NOT = {
+								any_close_relative = {
+									dynasty = PREV
+									is_chinese_emperor_trigger = yes
+								}
+							}
+							any_dynasty_member = {
+								is_chinese_emperor_trigger = yes
+							}
+						}
+					}
+					detract_grace_major_effect = yes
+				}
 			}
 			any_suzerain = {
 				character_event = { id = JD.2200 }

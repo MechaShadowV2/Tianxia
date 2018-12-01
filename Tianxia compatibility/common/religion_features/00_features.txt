@@ -617,14 +617,6 @@ religion_doctrine = {
 				set_max_consorts = 0
 				set_max_wives = 4
 			}
-			modifier = {
-				factor = 2
-				religion = ainu_pagan # Potentially suitable
-				FROM = {
-					character = yes
-					is_female = no
-				}
-			}
 		}
 	}
 	religion_meritocratic = {

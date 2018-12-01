@@ -1,10 +1,10 @@
-# TODO: Localization, proper event pictures, check that everything makes sense
+# TODO: Localization, proper pictures, check that everything makes sense
 
 religion_doctrine = {
 	buttons = { doctrine1 doctrine2 }
 	
 	religion_feature_sanamahi = {
-		picture = GFX_evt_china_golden_age # TODO
+		picture = GFX_religion_feature_cosmopolitan # TODO
 		potential = {
 			has_game_started = yes
 			religion = sanamahi_pagan_reformed
@@ -38,7 +38,7 @@ religion_doctrine = {
 	}
 	
 	religion_feature_chinese = {
-		picture = GFX_evt_china_golden_age
+		picture = GFX_religion_feature_cosmopolitan # TODO
 		potential = {
 			has_game_started = yes
 			religion = chinese_pagan_reformed
@@ -70,7 +70,7 @@ religion_doctrine = {
 	}
 	
 	religion_feature_korean = {
-		picture = GFX_evt_china_golden_age # TODO
+		picture = GFX_religion_feature_cosmopolitan # TODO
 		potential = {
 			has_game_started = yes
 			religion = korean_pagan_reformed
@@ -106,7 +106,7 @@ religion_doctrine = {
 	}
 	
 	religion_feature_ryukyuan = { # Three Mountains
-		picture = GFX_evt_china_golden_age # TODO
+		picture = GFX_religion_feature_cosmopolitan # TODO
 		potential = {
 			has_game_started = yes
 			religion = ryukyuan_pagan_reformed
@@ -158,7 +158,7 @@ religion_doctrine = {
 	}
 	
 	religion_feature_melanesian = {
-		picture = GFX_evt_china_golden_age # TODO
+		picture = GFX_religion_feature_cosmopolitan # TODO
 		potential = {
 			has_game_started = yes
 			religion = melanesian_pagan_reformed
@@ -174,12 +174,12 @@ religion_doctrine = {
 			}
 		}
 		effect = {
-			custom_tooltip = { text = tooltip_religion_feature_rivermovement }
+			#custom_tooltip = { text = tooltip_religion_feature_rivermovement } # Melanesians mainly need the ship mainenance and coast looting stuff...
 			custom_tooltip = { text = tooltip_religion_feature_ship_maintenance }
 			custom_tooltip = { text = tooltip_religion_feature_seafaring }
 			hidden_tooltip = {
 				set_seafaring = yes
-				set_allow_rivermovement = yes
+				#set_allow_rivermovement = yes
 				if = {
 					limit = { #Unlock looting for religions which do not have it already.
 						FROM = { 
@@ -212,7 +212,7 @@ religion_doctrine = {
 	}
 	
 	religion_feature_viet = {
-		picture = GFX_evt_china_golden_age # TODO
+		picture = GFX_religion_feature_cosmopolitan # TODO
 		potential = {
 			has_game_started = yes
 			religion = viet_pagan_reformed
@@ -242,7 +242,7 @@ religion_doctrine = {
 	}
 	
 	religion_feature_dayak = {
-		picture = GFX_evt_china_golden_age # TODO
+		picture = GFX_religion_feature_cosmopolitan # TODO
 		potential = {
 			has_game_started = yes
 			religion = dayak_pagan_reformed
@@ -269,7 +269,7 @@ religion_doctrine = {
 	}
 	
 	religion_feature_ainu = {
-		picture = GFX_evt_china_golden_age # TODO
+		picture = GFX_religion_feature_cosmopolitan # TODO
 		potential = {
 			has_game_started = yes
 			religion = ainu_pagan_reformed

@@ -1784,8 +1784,10 @@ gender_laws = {
 							is_nomadic = no
 							#is_merchant_republic = no
 							#is_patrician = no
+						}
 						has_religion_feature = religion_equal
 						has_religion_feature = religion_feature_bon
+						has_religion_feature = religion_feature_ryukuan
 						AND = {
 							has_dlc = "Zeus"
 							ROOT = { holder_scope = { primary_title = { has_law = status_of_women_4 } } }

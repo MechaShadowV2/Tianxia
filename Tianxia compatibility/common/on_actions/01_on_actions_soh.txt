@@ -232,20 +232,20 @@ on_bi_yearly_pulse = {
 	
 	
 	random_events = {
-		#South East Asia
-		50 = 1000400076 #Spicy Food
-		100 = 1000400000 #Sufi Sailors
-		50 = 1000400204 #Walls
-		100 = 1000400203 #Islamic Merchant insults realm
-		50 = 1000400200 #Bodily Comparings
-		50 = 1000400100 #Gift of Instruments
-		50 = 1000400073 #Naga
-		50 = 1000400205 #Horses not native
-		50 = 1000400206 #Horses not native (plauge edition)
-		50 = 1000400207 #Feed to crocodiles
-		50 = 1000400209 #Flowers
+		#South East Asia - disabled due to missing a lot of checks when it comes to AI logic or general sense for the events to fire (e.g. *BEING* in SEA)
+#		50 = 1000400076 #Spicy Food
+		100 = indonesia.1 #Sufi Sailors
+#		50 = 1000400204 #Walls
+#		100 = 1000400203 #Islamic Merchant insults realm
+#		50 = 1000400200 #Bodily Comparings
+#		50 = 1000400100 #Gift of Instruments
+#		50 = 1000400073 #Naga
+#		50 = 1000400205 #Horses not native
+#		50 = 1000400206 #Horses not native (plauge edition)
+#		50 = 1000400207 #Feed to crocodiles
+#		50 = 1000400209 #Flowers
 		
-		#Korea
+		#Korea - disabled due to the file being a mess
 #		100 = ko.300 #Your dynasty is false
 #		100 = ko.278 #Mongols introduce Soju
 #		100 = ko.277 #Gaya introduces Soju

@@ -1,5 +1,5 @@
 pagan_group = {
-	# TODO: Add reformation effects + unique Doctrines + reformation logic + intermarriage
+	# TODO: Add reformation effects
 	# TODO: Possibly add new HF stuff (Eldership pre-reformation, male consorts, etc.)
 	# TODO: Warrior lodges (where desired)
 	# TODO: Random world stuff (not a priority)
@@ -62,7 +62,6 @@ pagan_group = {
 		intermarry = hindu
 		intermarry = buddhist
 		intermarry = jain
-		intermarry = taoist
 		
 		intermarry = dayak_pagan
 		intermarry = melanesian_pagan
@@ -131,7 +130,6 @@ pagan_group = {
 		intermarry = hindu
 		intermarry = buddhist
 		intermarry = jain
-		intermarry = taoist
 		
 		intermarry = dayak_pagan_reformed
 		intermarry = melanesian_pagan

@@ -106,6 +106,8 @@ can_use_grace_decisions_from_trigger = {
 	e_china = {
 		holder_scope = {
 			is_chinese_emperor_trigger = yes
+			is_inaccessible_trigger = no
+			has_regent = no
 		}
 	}
 }
@@ -193,6 +195,8 @@ can_use_grace_decisions_root_trigger = {
 	e_china = {
 		holder_scope = {
 			is_chinese_emperor_trigger = yes
+			is_inaccessible_trigger = no
+			has_regent = no
 		}
 	}
 }
