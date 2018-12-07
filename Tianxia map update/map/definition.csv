@@ -2177,60 +2177,60 @@ province;red;green;blue;x;x
 2176;44;138;88;RENAME - EASTERN SEAS 178;x
 2177;86;141;216;RENAME - EASTERN SEAS 179;x
 2178;128;144;89;RENAME - EASTERN SEAS 180;x
-2179;170;147;217;RENAME - EASTERN SEAS 181;x
-2180;2;150;90;;x
-2181;44;153;218;;x
-2182;86;156;91;;x
-2183;128;159;219;;x
-2184;170;162;92;;x
-2185;2;165;220;;x
-2186;44;168;93;;x
-2187;86;171;221;;x
-2188;128;174;94;;x
-2189;170;177;222;;x
-2190;2;180;95;;x
-2191;44;183;223;;x
-2192;86;186;96;;x
-2193;128;189;224;;x
-2194;170;192;97;;x
-2195;2;195;225;;x
-2196;44;198;98;;x
-2197;86;201;226;;x
-2198;128;204;99;;x
-2199;170;207;227;;x
-2200;2;210;0;;x
-2201;44;0;128;;x
-2202;86;3;1;;x
-2203;128;6;129;;x
-2204;170;9;2;;x
-2205;2;12;130;;x
-2206;44;15;3;;x
-2207;86;18;131;;x
-2208;128;21;4;;x
-2209;170;24;132;;x
-2210;2;27;5;;x
-2211;44;30;133;;x
-2212;86;33;6;;x
-2213;128;36;134;;x
-2214;170;39;7;;x
-2215;2;42;135;;x
-2216;44;45;8;;x
-2217;86;48;136;;x
-2218;128;51;9;;x
-2219;170;54;137;;x
-2220;2;57;10;;x
-2221;44;60;138;;x
-2222;86;63;11;;x
-2223;128;66;139;;x
-2224;170;69;12;;x
-2225;2;72;140;;x
-2226;44;75;13;;x
-2227;86;78;141;;x
-2228;128;81;14;;x
-2229;170;84;142;;x
-2230;2;87;15;;x
-2231;44;90;143;;x
-2232;86;93;16;;x
+2179;170;147;217;RENAME - EASTERN SEAS 181;x # End seas
+2180;2;150;90;Greenland;x
+2181;44;153;218;Chao Praya River;x
+2182;86;156;91;Chao Praya River;x
+2183;128;159;219;Mekong River;x
+2184;170;162;92;Mekong River;x
+2185;2;165;220;Mekong River;x
+2186;44;168;93;Mekong River;x
+2187;86;171;221;Mekong River;x
+2188;128;174;94;Mekong River;x
+2189;170;177;222;Mekong River;x
+2190;2;180;95;Mekong River;x
+2191;44;183;223;Mekong River;x
+2192;86;186;96;Mekong River;x
+2193;128;189;224;Mekong River;x
+2194;170;192;97;Xijiang River;x
+2195;2;195;225;Xijiang River;x
+2196;44;198;98;Xijiang River;x
+2197;86;201;226;Xijiang River;x
+2198;128;204;99;Xijiang River;x
+2199;170;207;227;Xijiang River;x
+2200;2;210;0;Xijiang River;x
+2201;44;0;128;Yangtze River;x
+2202;86;3;1;Yangtze River;x
+2203;128;6;129;Yangtze River;x
+2204;170;9;2;Yangtze River;x
+2205;2;12;130;Yangtze River;x
+2206;44;15;3;Yangtze River;x
+2207;86;18;131;Yangtze River;x
+2208;128;21;4;Yangtze River;x
+2209;170;24;132;Yangtze River;x
+2210;2;27;5;Yangtze River;x
+2211;44;30;133;Yangtze River;x
+2212;86;33;6;Yangtze River;x
+2213;128;36;134;Yangtze River;x
+2214;170;39;7;Yangtze River;x
+2215;2;42;135;Yangtze River;x
+2216;44;45;8;Yangtze River;x
+2217;86;48;136;Huang He River;x
+2218;128;51;9;Huang He River;x
+2219;170;54;137;Huang He River;x
+2220;2;57;10;Huang He River;x
+2221;44;60;138;Huang He River;x
+2222;86;63;11;Huang He River;x
+2223;128;66;139;Huang He River;x
+2224;170;69;12;Huang He River;x # End rivers
+2225;2;72;140;Lake Toba;x
+2226;44;75;13;Tonlé Sap;x
+2227;86;78;141;Dongting Lake;x
+2228;128;81;14;Poyang Lake;x
+2229;170;84;142;Lake Taihu;x
+2230;2;87;15;Lake Hongze;x
+2231;44;90;143;Lake Xingkai;x
+2232;86;93;16;Lake Biwa;x# End lakes
 2233;128;96;144;;x
 2234;170;99;17;;x
 2235;2;102;145;;x
