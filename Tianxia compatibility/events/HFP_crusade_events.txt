@@ -244,6 +244,7 @@ character_event = {
                     limit = {
                         any_owned_bloodline = {
                             has_bloodline_flag = grand_crusader_bloodline
+                            bloodline_is_active_for = PREV
                         } 
                     }
                     set_crusade_pot_multiplier = 1.2
@@ -428,7 +429,6 @@ narrative_event = {
         }
 
         trigger = {
-            age = 16
             NOT = { trait = incapable }
             rightful_religious_head_scope = {
                 character = FROM
@@ -2970,6 +2970,11 @@ character_event = {
 
     immediate = {
         cancel_crusade = yes
+        add_character_modifier = {
+            name = cancel_crusade_cooldown
+            duration = 3650
+            hidden = yes
+        }
     }
 }
 
@@ -3047,6 +3052,7 @@ character_event = {
     		age = 16
     		higher_tier_than = BARON
     		NOT = { has_character_flag = asked_to_pledge }
+            NOT = { any_war = { using_cb = crusade } }
     		is_within_diplo_range = ROOT
             rightful_religious_head_scope = {
                 character = ROOT
@@ -3068,6 +3074,7 @@ character_event = {
     			age = 16
     			higher_tier_than = BARON
     			NOT = { has_character_flag = asked_to_pledge }
+                NOT = { any_war = { using_cb = crusade } }
     			is_within_diplo_range = ROOT
                 rightful_religious_head_scope = {
                     character = ROOT
@@ -3095,6 +3102,7 @@ letter_event = {
     	higher_tier_than = BARON
     	ai = no
     	NOT = { has_character_flag = asked_to_pledge }
+        NOT = { any_war = { using_cb = crusade } }
         rightful_religious_head_scope = {
             character = FROM
             NOT = {
@@ -3158,6 +3166,7 @@ character_event = {
     trigger = {
         is_preparing_crusade = yes
         crusade_preparation_time_remaining >= 20
+        age = 16
     }
 
     immediate = {
@@ -3559,6 +3568,7 @@ character_event = {
                 }
             }
         }
+        age = 16
         check_if_alternate_crusades_trigger = yes
         check_if_not_fourth_crusade_trigger = yes
     }
@@ -3971,6 +3981,7 @@ character_event = {
     		age = 16
     		higher_tier_than = BARON
     		NOT = { has_character_flag = asked_to_pledge }
+            NOT = { any_war = { using_cb = crusade } }
             rightful_religious_head_scope = {
                 character = ROOT
                 NOT = {
@@ -3990,6 +4001,7 @@ character_event = {
     			age = 16
     			higher_tier_than = BARON
     			NOT = { has_character_flag = asked_to_pledge }
+                NOT = { any_war = { using_cb = crusade } }
                 rightful_religious_head_scope = {
                     character = ROOT
                 }
@@ -4014,6 +4026,7 @@ letter_event = {
     	age = 16
     	higher_tier_than = BARON
     	NOT = { has_character_flag = asked_to_pledge }
+        NOT = { any_war = { using_cb = crusade } }
     	has_pledged_crusade_participation = no
         rightful_religious_head_scope = {
             character = FROM
@@ -5712,6 +5725,7 @@ character_event = {
                 limit = {
                     any_owned_bloodline = {
                         has_bloodline_flag = grand_crusader_bloodline
+                        bloodline_is_active_for = PREV
                     } 
                 }
                 set_crusade_pot_multiplier = 1.4
@@ -5743,6 +5757,7 @@ character_event = {
                 limit = {
                     any_owned_bloodline = {
                         has_bloodline_flag = grand_crusader_bloodline
+                        bloodline_is_active_for = PREV
                     } 
                 }
                 set_crusade_pot_multiplier = 1.2
@@ -5772,6 +5787,7 @@ character_event = {
                 limit = {
                     any_owned_bloodline = {
                         has_bloodline_flag = grand_crusader_bloodline
+                        bloodline_is_active_for = PREV
                     } 
                 }
                 set_crusade_pot_multiplier = 1.1
@@ -5798,6 +5814,7 @@ character_event = {
                 limit = {
                     any_owned_bloodline = {
                         has_bloodline_flag = grand_crusader_bloodline
+                        bloodline_is_active_for = PREV
                     } 
                 }
                 set_crusade_pot_multiplier = 0.2

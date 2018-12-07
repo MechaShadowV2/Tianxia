@@ -2931,6 +2931,11 @@ character_event = {
 		ai_chance = { 
 			factor = 50 
 			modifier = { 
+				factor = 1.35
+				is_ruler = no
+				FROM = { is_ruler = yes }
+			}
+			modifier = { 
 				factor = 1.2
 				trait = patient
 			}
@@ -3037,6 +3042,11 @@ character_event = {
 		ai_chance = { 
 			factor = 60 
 			modifier = { 
+				factor = 1.35
+				is_ruler = no
+				FROM = { is_ruler = yes }
+			}
+			modifier = { 
 				factor = 1.2
 				trait = temperate
 			}
@@ -3135,6 +3145,11 @@ character_event = {
 		}
 		ai_chance = { 
 			factor = 50 
+			modifier = { 
+				factor = 1.35
+				is_ruler = no
+				FROM = { is_ruler = yes }
+			}
 			modifier = { 
 				factor = 1.5
 				trait = trusting
@@ -3351,6 +3366,11 @@ character_event = {
 		}
 		ai_chance = { 
 			factor = 50 
+			modifier = { 
+				factor = 1.35
+				is_ruler = no
+				FROM = { is_ruler = yes }
+			}
 			modifier = { 
 				factor = 1.5
 				trait = trusting
@@ -3608,6 +3628,11 @@ character_event = {
  		}
 		ai_chance = { 
 			factor = 50 
+			modifier = { 
+				factor = 1.35
+				is_ruler = no
+				FROM = { is_ruler = yes }
+			}
 			modifier = { 
 				factor = 1.5
 				trait = trusting
@@ -7844,7 +7869,10 @@ character_event = {
 		clr_character_flag = flag_mother_festival_chaste
 		clr_character_flag = flag_mother_festival_lustful
 		any_lover = {  
-			limit = { ai = no }
+			limit = {
+				ai = no
+				is_female = no # So lesbian lovers will not believe the child is theirs.
+			}
 			character_event = { id = HFP.20067 }
 		}
 		#First pregnancy scare. 
@@ -8434,7 +8462,7 @@ character_event = {
 				character_event = { id = HFP.20571 days = 15 random = 8 }
 			}
 			#Nothing
-			35 = {
+			45 = {
 				modifier = { 
 					factor = 0.5
 					NOT = { num_of_children = 1 }
@@ -8502,7 +8530,7 @@ character_event = {
 					trait = gluttonous
 				}
 				modifier = { 
-					factor = 0.5
+					factor = 0.35
 					trait = temperate
 				}
 				character_event = { id = HFP.20573 days = 40 random = 10 }
@@ -8667,7 +8695,7 @@ character_event = {
 				}
 			}
 			#Spouse organizes Gossiping
-			50 = {
+			40 = {
 				modifier = { 
 					factor = 0.5
 					has_game_rule = {
@@ -9470,9 +9498,9 @@ character_event = {
 		custom_tooltip = { text = tooltip_mary_vow }
 		hidden_tooltip = { character_event = { id = HFP.20570 } } #Pick one.
 		ai_chance = { 
-			factor = 70 
+			factor = 80 
 			modifier = { 
-				factor = 0.5 
+				factor = 0.35 
 				trait = cynical
 			}
 		}
@@ -9503,7 +9531,7 @@ character_event = {
 			}
 		}
 		ai_chance = { 
-			factor = 30 
+			factor = 20 
 			modifier = { 
 				factor = 0.5 
 				trait = zealous
@@ -9651,9 +9679,9 @@ character_event = {
 			duration = 60
 		}
 		ai_chance = { 
-			factor = 50 
+			factor = 70 
 			modifier = { 
-				factor = 0.5 
+				factor = 0.35 
 				trait = cynical
 			}
 			modifier = { 
@@ -9704,7 +9732,7 @@ character_event = {
 			}
 		}
 		ai_chance = { 
-			factor = 50 
+			factor = 30 
 			modifier = { 
 				factor = 0.5 
 				trait = zealous
@@ -9938,7 +9966,7 @@ character_event = {
 			} 
 		}
 		ai_chance = { 
-			factor = 50
+			factor = 20
 		}
 	}
 	option = { #Quail's leg
@@ -9991,7 +10019,7 @@ character_event = {
 			}
 		}
 		ai_chance = { 
-			factor = 50
+			factor = 70
 		}
 	}
 }
@@ -10173,7 +10201,7 @@ character_event = {
 		#	}
 		#}
 		ai_chance = { 
-			factor = 40
+			factor = 30
 			modifier = { 
 				factor = 1.75
 				trait = shy
@@ -10259,7 +10287,7 @@ character_event = {
 		}
 		hidden_tooltip = { FROM = { character_event = { id = HFP.20580 } } }
 		ai_chance = { 
-			factor = 50
+			factor = 70
 			modifier = { 
 				factor = 1.5
 				trait = brave
@@ -10273,7 +10301,7 @@ character_event = {
 	option = { #No
 		name = EVTOPTBHFP20575
 		ai_chance = { 
-			factor = 50
+			factor = 30
 			modifier = { 
 				factor = 1.75
 				trait = shy
@@ -11491,7 +11519,7 @@ character_event = {
 				hidden_tooltip = { character_event = { id = 38259 } } 
 			}
 		}
-		ai_chance = { factor = 20 } 
+		ai_chance = { factor = 40 } 
 	}
 }
 
@@ -11589,7 +11617,7 @@ character_event = {
 				hidden_tooltip = { character_event = { id = 38259 } } 
 			}
 		}
-		ai_chance = { factor = 20 } 
+		ai_chance = { factor = 50 } 
 	}
 }
 
@@ -12013,6 +12041,10 @@ character_event = {
 		}
 	}
 	picture = GFX_evt_homage_hf
+
+	trigger = { 
+		FROM = { is_alive = yes is_married = ROOT }  
+	} 
 
 	is_triggered_only = yes
 	
@@ -14158,7 +14190,6 @@ character_event = {
 					}
 				} 
 			}
-			
 			if = { #If spouse is higher tier, the child is no longer an heir.
 				limit = { 
 					spouse = { 
@@ -14181,7 +14212,18 @@ character_event = {
 				if = {
 					limit = {
 						spouse = {
-							is_chinese_emperor_trigger = yes
+							OR = {
+								is_chinese_emperor_trigger = yes
+								e_china = {
+									holder_scope = {
+										is_chinese_emperor_trigger = yes
+										current_heir = {
+											character = PREVPREVPREV
+											dynasty = PREV
+										}
+									}
+								}
+							}
 						}
 					}
 					detract_grace_super_huge_effect = yes
@@ -14190,30 +14232,29 @@ character_event = {
 					limit = {
 						spouse = {
 							is_chinese_emperor_trigger = no
-							any_close_relative = {
-								dynasty = PREV
-								is_chinese_emperor_trigger = yes
+							NOT = {
+								e_china = {
+									holder_scope = {
+										is_chinese_emperor_trigger = yes
+										current_heir = {
+											character = PREVPREVPREV
+											dynasty = PREV
+										}
+									}
+								}
+							}
+							e_china = {
+								holder_scope = {
+									is_chinese_emperor_trigger = yes
+									any_child = {
+										character = PREVPREVPREV
+										dynasty = PREV
+									}
+								}
 							}
 						}
 					}
 					detract_grace_massive_effect = yes
-				}
-				if = {
-					limit = {
-						spouse = {
-							is_chinese_emperor_trigger = no
-							NOT = {
-								any_close_relative = {
-									dynasty = PREV
-									is_chinese_emperor_trigger = yes
-								}
-							}
-							any_dynasty_member = {
-								is_chinese_emperor_trigger = yes
-							}
-						}
-					}
-					detract_grace_major_effect = yes
 				}
 			}
 		}
@@ -14253,6 +14294,10 @@ character_event = {
 	}
 	border = GFX_event_normal_frame_religion
 	picture = GFX_evt_woman_praying_hf
+
+	trigger = {
+		FROM = { is_married = ROOT is_alive = yes }
+	}
 
 	is_triggered_only = yes
 	
@@ -14574,7 +14619,18 @@ character_event = {
 				limit = {
 					FROM = {
 						spouse = {
-							is_chinese_emperor_trigger = yes
+							OR = {
+								is_chinese_emperor_trigger = yes
+								e_china = {
+									holder_scope = {
+										is_chinese_emperor_trigger = yes
+										current_heir = {
+											character = PREVPREVPREV
+											dynasty = PREV
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -14585,33 +14641,30 @@ character_event = {
 					FROM = {
 						spouse = {
 							is_chinese_emperor_trigger = no
-							any_close_relative = {
-								dynasty = PREV
-								is_chinese_emperor_trigger = yes
+							NOT = {
+								e_china = {
+									holder_scope = {
+										is_chinese_emperor_trigger = yes
+										current_heir = {
+											character = PREVPREVPREV
+											dynasty = PREV
+										}
+									}
+								}
+							}
+							e_china = {
+								holder_scope = {
+									is_chinese_emperor_trigger = yes
+									any_child = {
+										character = PREVPREVPREV
+										dynasty = PREV
+									}
+								}
 							}
 						}
 					}
 				}
 				detract_grace_massive_effect = yes
-			}
-			if = {
-				limit = {
-					FROM = {
-						spouse = {
-							is_chinese_emperor_trigger = no
-							NOT = {
-								any_close_relative = {
-									dynasty = PREV
-									is_chinese_emperor_trigger = yes
-								}
-							}
-							any_dynasty_member = {
-								is_chinese_emperor_trigger = yes
-							}
-						}
-					}
-				}
-				detract_grace_major_effect = yes
 			}
 		}
 	}

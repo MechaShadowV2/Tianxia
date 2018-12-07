@@ -1986,7 +1986,7 @@ character_event = {
 								is_chinese_emperor_trigger = yes
 							}
 							ROOT = {
-								detract_grace_super_huge_effect = yes
+								detract_grace_major_effect = yes
 							}
 						}
 						if = {
@@ -1998,7 +1998,7 @@ character_event = {
 								}
 							}
 							ROOT = {
-								detract_grace_massive_effect = yes
+								detract_grace_medium_effect = yes
 							}
 						}
 						if = {
@@ -2015,7 +2015,7 @@ character_event = {
 								}
 							}
 							ROOT = {
-								detract_grace_major_effect = yes
+								detract_grace_minor_effect = yes
 							}
 						}
 					}

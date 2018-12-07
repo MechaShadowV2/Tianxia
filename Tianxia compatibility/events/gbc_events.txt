@@ -903,12 +903,12 @@ character_event = {
 
 	immediate = {
 		random_list = {
-			10 = { # Trigger event
+			3 = { # Trigger event
 				new_character = { save_event_target_as = gbc_spouse }
 
 				FROM = { character_event = { id = GBC.100 days = 3 } }
 			}
-			90 = { } # Nothing happen
+			97 = { } # Nothing happen
 		}
 	}
 }
@@ -1011,8 +1011,8 @@ character_event = {
 								is_female = no
 								ROOT = { prefers_men_trigger = yes }
 							}
-							NOT = { is_close_relative = ROOT }
 						}
+						NOT = { is_close_relative = ROOT }
 					}
 					save_event_target_as = gbc_lover
 					break = yes
@@ -1900,6 +1900,110 @@ character_event = {
 				}
 			}
 		}
+		if = {
+			limit = {
+				has_dlc = "Jade Dragon"
+				is_chinese_emperor_trigger = no
+			}
+			if = {
+				limit = {
+					event_target:gbc_lover = {
+						OR = {
+							any_spouse = {
+								OR = {
+									is_chinese_emperor_trigger = yes
+									e_china = {
+										holder_scope = {
+											is_chinese_emperor_trigger = yes
+											current_heir = {
+												character = PREVPREVPREV
+												dynasty = PREV
+											}
+										}
+									}
+								}
+							}
+							any_consort = {
+								OR = {
+									is_chinese_emperor_trigger = yes
+									e_china = {
+										holder_scope = {
+											is_chinese_emperor_trigger = yes
+											current_heir = {
+												character = PREVPREVPREV
+												dynasty = PREV
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				detract_grace_super_huge_effect = yes
+				event_target:gbc_lover = {
+					detract_grace_super_huge_effect = yes
+				}
+			}
+			if = {
+				limit = {
+					event_target:gbc_lover = {
+						OR = {
+							any_spouse = {
+								is_chinese_emperor_trigger = no
+								NOT = {
+									e_china = {
+										holder_scope = {
+											is_chinese_emperor_trigger = yes
+											current_heir = {
+												character = PREVPREVPREV
+												dynasty = PREV
+											}
+										}
+									}
+								}
+								e_china = {
+									holder_scope = {
+										is_chinese_emperor_trigger = yes
+										any_child = {
+											character = PREVPREVPREV
+											dynasty = PREV
+										}
+									}
+								}
+							}
+							any_consort = {
+								is_chinese_emperor_trigger = no
+								NOT = {
+									e_china = {
+										holder_scope = {
+											is_chinese_emperor_trigger = yes
+											current_heir = {
+												character = PREVPREVPREV
+												dynasty = PREV
+											}
+										}
+									}
+								}
+								e_china = {
+									holder_scope = {
+										is_chinese_emperor_trigger = yes
+										any_child = {
+											character = PREVPREVPREV
+											dynasty = PREV
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				detract_grace_massive_effect = yes
+				event_target:gbc_lover = {
+					detract_grace_massive_effect = yes
+				}
+			}
+		}
 
 		if = { 
 			limit = { is_female = yes }
@@ -2329,7 +2433,7 @@ character_event = {
 						}
 					}
 				}
-				death = { death_reason = death_duel killer = event_target:gbc_rival } # Corrected vanilla mistake; ROOT shouldn't kill ROOT!
+				death = { death_reason = death_duel killer = ROOT }
 			}
 			50 = {
 				if = {

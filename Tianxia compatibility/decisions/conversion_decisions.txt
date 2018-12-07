@@ -449,6 +449,23 @@ targetted_decisions = {
 				factor = 0
 				government = chinese_imperial_government
 			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_landed_title = k_jerusalem
+					has_landed_title = e_outremer
+					any_liege = {
+						OR = {
+							has_landed_title = k_jerusalem
+							has_landed_title = e_outremer
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_landed_title = e_latin_empire
+			}
 		}
 	}
 	
@@ -1209,6 +1226,8 @@ targetted_decisions = {
 			if = {
 				limit = { religion = west_african_pagan }
 				religion = west_african_pagan_reformed
+			}
+			if = {
 				limit = { religion = bon }
 				religion = bon_reformed
 			}
@@ -1276,7 +1295,7 @@ targetted_decisions = {
 			always = no
 		}
 		ai_will_do = {
-			factor = 1 # On average ca 1 year before taken
+			factor = 1
 			modifier = {
 				factor = 0.1 # Generally quite a slow process - ca 40 years
 			}
@@ -1320,6 +1339,7 @@ targetted_decisions = {
 				any_liege = {
 					religion = ROOT
 				}
+			}
 			modifier = { #Easier for Proselytizers
 				factor = 2.0
 				OR = {
@@ -2607,7 +2627,17 @@ targetted_decisions = {
 		
 		potential = {
 			is_playable = yes
-			culture_group = latin
+			OR = {
+				culture_group = latin
+				AND = {
+					culture_group = arabic
+					religion_group = christian
+					liege = {
+						culture_group = latin
+						religion_group = christian
+					}
+				}
+			}
 			has_global_flag = christian_crusades_unlocked
 			NOR = {
 				culture = roman
@@ -2618,10 +2648,23 @@ targetted_decisions = {
 				top_liege = { religion_group = christian }
 			}
 			capital_scope = {
-				region = world_middle_east
+				capital_scope = {
+					region = world_middle_east
+				}
+				capital_scope = {
+					region = world_persia
+				}
+				capital_scope = {
+					region = world_africa
+				}
 			}
-			any_realm_province = {
-				culture_group = arabic
+			OR = {
+				any_realm_province = {
+					culture_group = arabic
+				}
+				top_liege = {
+					culture = outremer
+				}
 			}
 			NOT = { government = chinese_imperial_government }
 			NOT = {
@@ -2681,12 +2724,12 @@ targetted_decisions = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 0.01
-				capital_scope = {
-					NOT = { culture_group = arabic }
-				}
-			}
+			#modifier = {
+			#	factor = 0.01
+			#	capital_scope = {
+			#		NOT = { culture_group = arabic }
+			#	}
+			#}
 			modifier = { #Small Crusader States will balkanize with their own culture or go native.
 				factor = 0
 				top_liege = {
@@ -2889,7 +2932,7 @@ targetted_decisions = {
 						}
 					}
 					add_trait = svetambara_jain
-				}		 
+				}
 				if = {
 					limit = {
 						ROOT = {
@@ -2905,7 +2948,6 @@ targetted_decisions = {
 						}
 					}
 					add_trait = pagan_branch_2
-		
 				}
 				if = {
 					limit = {
@@ -3034,7 +3076,7 @@ decisions = {
 				is_nomadic = yes
 			}
 			controls_religion = no
-			NOT = { has_character_modifier = baptism_request_cooldown } 
+			NOT = { has_character_modifier = baptism_request_cooldown }
 			
 			war = yes
 			any_war = {
@@ -3085,6 +3127,7 @@ decisions = {
 							}
 						}
 						OR = {
+							using_cb = crusade
 							using_cb = new_crusade
 							using_cb = religious
 							using_cb = muslim_invasion
@@ -3261,6 +3304,7 @@ decisions = {
 							}
 						}
 						OR = {
+							using_cb = crusade
 							using_cb = new_crusade
 							using_cb = religious
 							using_cb = muslim_invasion
@@ -3294,6 +3338,7 @@ decisions = {
 						}
 					}
 					OR = {
+						using_cb = crusade
 						using_cb = new_crusade
 						using_cb = religious
 						using_cb = muslim_invasion
@@ -3424,6 +3469,7 @@ decisions = {
 				trait = cynical
 			}
 		}
+	}
 	# Roman Emperor may restore Roman Culture
 	roman_renaissance = {
 		ai_check_interval = 120 #check only once every 120 months.

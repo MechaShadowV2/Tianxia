@@ -188,6 +188,7 @@ title_commander = {
 	
 	monthly_salary = 0.05
 	monthly_prestige = 0.50
+	#combat_rating = 10 # Reactivate if we get this working
 	
 	revoke_allowed = no # Handled by diplomatic interaction
 	
@@ -262,7 +263,6 @@ title_commander = {
 			}
 		}
 	}
-	
 	gain_effect = {
 		if = {
 			limit = {
@@ -272,6 +272,13 @@ title_commander = {
 			}
 			character_event = { id = HFP.20805 days = 1 } 
 		}
+		hidden_effect = { # Because this cannot be added in the passive effects, for some code reason
+			add_character_modifier = {
+	        	name = hidden_commander_bonus
+	        	duration = -1
+	        	hidden = yes
+	        }
+		}
 	}
 	lose_effect = {
 		if = {
@@ -280,6 +287,9 @@ title_commander = {
 			}
 			character_event = { id = HFP.20803 days = 1 } #Make sure the commander is not being made a sub-vassal.
 			
+		}
+		hidden_effect = {
+			remove_character_modifier = hidden_commander_bonus
 		}
 	}
 	
@@ -1268,7 +1278,7 @@ title_high_admiral = {
 		is_adult = yes
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
-			female_can_hold_minor_title_trigger = yes
+			female_can_hold_minor_commander_title_trigger = yes
 		}
 		NOT = { trait = incapable } 
 	}
@@ -1345,6 +1355,7 @@ title_patrician_heir = {
 		NOT = { trait = bastard }
 		NOT = { trait = nun }
 		NOT = { trait = monk }
+		NOT = { trait = eunuch }
 		is_theocracy = no
 	}
 
@@ -1548,7 +1559,7 @@ title_marksman = {
 		is_adult = yes
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
-			female_can_hold_minor_title_trigger = yes
+			female_can_hold_minor_commander_title_trigger = yes
 		}
 		NOT = { trait = incapable } 
 	}
@@ -1908,7 +1919,7 @@ title_shahrwaraz = {
 		is_adult = yes
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
-			female_can_hold_minor_title_trigger = yes
+			female_can_hold_minor_commander_title_trigger = yes
 		}
 		martial = 15
 		NOT = { trait = incapable } 
@@ -1948,7 +1959,7 @@ title_kardarigan = {
 		is_adult = yes
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
-			female_can_hold_minor_title_trigger = yes
+			female_can_hold_minor_commander_title_trigger = yes
 		}
 		martial = 15
 		NOT = { trait = incapable } 
@@ -1988,7 +1999,7 @@ title_shahin = {
 		is_adult = yes
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
-			female_can_hold_minor_title_trigger = yes
+			female_can_hold_minor_commander_title_trigger = yes
 		}
 		martial = 15
 		NOT = { trait = incapable } 
@@ -2028,7 +2039,7 @@ title_pushtigban_salar = {
 		is_adult = yes
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
-			female_can_hold_minor_title_trigger = yes
+			female_can_hold_minor_commander_title_trigger = yes
 		}
 		NOT = { trait = incapable } 
 	}
@@ -2067,7 +2078,7 @@ title_spahbod = {
 		is_adult = yes
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
-			female_can_hold_minor_title_trigger = yes
+			female_can_hold_minor_commander_title_trigger = yes
 		}
 		NOT = { trait = incapable } 
 	}
@@ -2141,7 +2152,7 @@ title_champion = {
 		is_adult = yes
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
-			female_can_hold_minor_title_trigger = yes
+			female_can_hold_minor_commander_title_trigger = yes
 		}
 		NOT = { trait = incapable } 
 	}
@@ -2165,6 +2176,7 @@ title_champion = {
 			religion = zun_pagan_reformed
 			religion = zun_pagan
 			religion = bon
+			religion = bon_reformed
 		}
 	}
 	
@@ -2192,7 +2204,7 @@ title_master_of_the_blade = {
 		is_adult = yes
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
-			female_can_hold_minor_title_trigger = yes
+			female_can_hold_minor_commander_title_trigger = yes
 		}
 		NOT = { has_minor_title = title_master_of_the_bow }
 		NOT = { trait = incapable } 
@@ -2254,7 +2266,7 @@ title_master_of_the_bow = {
 		is_adult = yes
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
-			female_can_hold_minor_title_trigger = yes
+			female_can_hold_minor_commander_title_trigger = yes
 		}
 		NOT = { has_minor_title = title_master_of_the_blade }
 		NOT = { trait = incapable } 
@@ -2288,6 +2300,7 @@ title_master_of_the_bow = {
 			religion = zun_pagan_reformed
 			religion = zun_pagan
 			religion = bon
+			religion = bon_reformed
 		}
 	}
 	
@@ -2437,7 +2450,7 @@ title_ishad = {
 		is_adult = yes
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
-			female_can_hold_minor_title_trigger = yes
+			female_can_hold_minor_commander_title_trigger = yes
 		}
 		NOT = { trait = incapable } 
 	}
@@ -2638,7 +2651,7 @@ title_court_poet_india = {
 			primary_title = { temporary = yes } 
 		}
 		is_adult = yes
-		OR = { 
+		OR = {
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_title_trigger = yes
 		}
@@ -2967,7 +2980,7 @@ title_canjun = {
 		is_adult = yes
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
-			female_can_hold_minor_title_trigger = yes
+			female_can_hold_minor_commander_title_trigger = yes
 		}
 		NOT = { trait = incapable } 
 	}

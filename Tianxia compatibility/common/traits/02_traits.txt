@@ -911,7 +911,7 @@ decadent = {
 	customizer = no
 	random = no
 	
-	combat_rating = -1
+	combat_rating = -10 #old value: -1
 	
 	male_insult = INSULT_SYBARITE
 	female_insult = INSULT_SYBARITE
@@ -1146,7 +1146,7 @@ adventurer = {
 	martial = 1
 	diplomacy = -1
 	combat_rating = 10 #old value: 1
-	levy_size = 0.2
+	global_levy_size = 0.2
 	max_manpower_mult = 0.1
 	
 	same_opinion = 10
@@ -7318,7 +7318,6 @@ zodiac_virgo = {
 	}
 	stewardship = 1
 	monthly_character_prestige = -0.05
-	stewardship = 1
 	monthly_character_piety = 0.01
 	random = no	
 	opposite_opinion = -10
@@ -7496,7 +7495,7 @@ crusader_queen = {
 	ai_zeal = 20
 
 	martial = 3
-	levy_size = 0.2
+	global_levy_size = 0.2
 	combat_rating = 15
 	
 	command_modifier = {
@@ -7505,7 +7504,7 @@ crusader_queen = {
 
 	same_religion_opinion = 35
 	
-	customizer = yes
+	customizer = no
 	random = no
 }
 

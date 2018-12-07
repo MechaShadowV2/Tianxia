@@ -190,7 +190,7 @@ pagan_group = {
 	#	has_heir_designation = yes
 		priests_can_inherit = no
 		priests_can_marry = yes
-		allow_looting = yes
+		#allow_looting = yes
 		max_consorts = 3
 		
 		religious_clothing_head = 8
@@ -255,7 +255,7 @@ pagan_group = {
 		#has_heir_designation = yes
 		priests_can_inherit = no
 		priests_can_marry = yes
-		allow_looting = yes
+		#allow_looting = yes
 		max_consorts = 3
 		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
 		reformed = chinese_pagan_reformed
@@ -553,8 +553,11 @@ indian_group = { # Eastern
 	# TODO: Update features
 	# TODO: Check for indian_group and enable/disable as necessary
 	shinto = {
-		graphical_culture = buddhistgfx
+		graphical_culture = chinesegfx
+		#graphical_culture = buddhistgfx
 		secondary_event_pictures = sunni
+		ai_convert_same_group = 1 # try to convert if ai_zeal is high # While not proselytizing, fully blocking conversion does not seem ideal
+		ai_convert_other_group = 1	# try to convert if ai_zeal is high # While not proselytizing, fully blocking conversion does not seem ideal
 		
 		#pre_reformed = yes # Supposedly makes it not show up in the ledger, so don't use this!
 

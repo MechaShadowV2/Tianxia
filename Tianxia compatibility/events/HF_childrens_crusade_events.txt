@@ -49,6 +49,7 @@ narrative_event = {
 			name = childrens_crusade
 			value = on
 		}
+		total_years_played = 50 #Do not let it start immediately after game start, so as to make it less likely to fire together with an official Crusade.
 		OR = { 
 			is_female = no
 			top_liege = { has_law = status_of_women_4 }
@@ -59,9 +60,12 @@ narrative_event = {
 		}
 		liege = { 
 			higher_tier_than = COUNT #Scoping issues when locating starting point.
+			is_landed = yes
 		}
 		religion = catholic
 		is_ruler = no
+		is_married = no
+		is_betrothed = no
 		is_alternate_start = no	
 		has_global_flag = christian_crusades_unlocked
 		NOT = { has_global_flag = childrens_crusade_happened }
@@ -88,8 +92,8 @@ narrative_event = {
 			trait = eunuch
 			trait = blinded
 		}
-		location = { region = world_europe }
-		NOT = { location = { region = world_europe_south_east } } #Make the travel longer by not letting it start in Greece already.
+		liege = { location = { region = world_europe } }
+		liege = { NOT = { location = { region = world_europe_south_east } } } #Make the travel longer by not letting it start in Greece already.
 
 		#No crusade is already being prepared or has already started against Jerusalem.
 		NOT = { religion_head = { is_preparing_crusade = yes } }
@@ -268,6 +272,62 @@ narrative_event = {
 		health = 2.0 #Reduce chances of the child dying before the Crusade reaches destination.
 		remove_disease_trait_effect = yes #Jesus heals you.
 		add_character_modifier = { name = voice_of_jesus duration = -1 }
+		#Check starting position to determine traveling path.
+		if = {
+			limit = {
+				liege = { 
+					NOR = { 
+						location = { region = world_europe_south_italy }
+						location = { region = world_europe_south_east }
+						location = { region = world_asia_minor }
+					}
+				}
+			}
+			clr_character_flag = flag_children_at_achaia
+			clr_character_flag = flag_children_at_nikaea
+			clr_character_flag = flag_children_at_antioch
+			clr_character_flag = flag_children_at_genoa
+			set_character_flag = flag_children_at_beginning
+		}
+		else_if = {
+			limit = {
+				liege = { location = { region = world_europe_south_italy } }
+			}
+			clr_character_flag = flag_children_at_genoa
+			clr_character_flag = flag_children_at_nikaea
+			clr_character_flag = flag_children_at_antioch
+			set_character_flag = flag_children_at_achaia
+		}
+		else_if = {
+			limit = {
+				liege = { location = { region = world_europe_south_east } }
+			}
+			clr_character_flag = flag_children_at_genoa
+			clr_character_flag = flag_children_at_achaia
+			clr_character_flag = flag_children_at_antioch
+			set_character_flag = flag_children_at_nikaea
+		}
+		else_if = {
+			limit = {
+				liege = { location = { region = world_asia_minor } }
+			}
+			clr_character_flag = flag_children_at_genoa
+			clr_character_flag = flag_children_at_achaia
+			clr_character_flag = flag_children_at_nikaea
+			set_character_flag = flag_children_at_antioch
+		}
+		if = { #Safety check.
+			limit = {
+				NOR = {
+					has_character_flag = flag_children_at_beginning
+					has_character_flag = flag_children_at_genoa
+					has_character_flag = flag_children_at_achaia
+					has_character_flag = flag_children_at_nikaea
+					has_character_flag = flag_children_at_antioch
+				}
+			}
+			set_character_flag = flag_children_at_genoa
+		}
 	}
 
 	option = { 
@@ -1126,305 +1186,151 @@ narrative_event = {
 		#world_europe_south_east
 		#world_asia_minor
 
-		location = { #Check for the Crusaders' location and fire random event for a ruler who lives there.
-			trigger_switch = {
-				on_trigger = region
-				world_europe_west_iberia = { 
-					random_playable_ruler = { 
-						limit = { 
-							religion_group = christian
-							capital_scope = { region = world_europe_west_iberia }
-							NOT = { has_character_flag = flag_visited_by_childrens_crusade }
-						}
-						preferred_limit = { 
-							any_child = { 
-								age = 8
-								is_adult = no 
-								is_ruler = no
-								is_primary_heir = no
-								host = { character = ROOT }
-							}
-							ai = no
-						}
-						preferred_limit = { 
-							ai = no
-						}
-						preferred_limit = { 
-							any_child = { 
-								age = 8
-								is_adult = no 
-								is_ruler = no
-								is_primary_heir = no
-								host = { character = ROOT }
+ 		#Check for the Crusaders' location and fire random event for a ruler who lives there.
+		trigger_switch = {
+			on_trigger = has_character_flag
+			flag_children_at_beginning = { 
+				random_playable_ruler = { 
+					limit = { 
+						religion_group = christian
+						capital_scope = { 
+							OR = { 
+								region = world_europe_west_iberia 
+								region = world_europe_west_francia 
+								region = world_europe_west_germania 
+								region = world_europe_west_brittania 
+								region = world_europe_north 
+								region = world_europe_south_italy 
+								region = world_europe_east 
 							}
 						}
-						set_character_flag = flag_visited_by_childrens_crusade
-						character_event = { id = HF.25809 } #Random list.
-					} 
-				}
-				world_europe_west_francia = { 
-					random_playable_ruler = { 
-						limit = { 
-							religion_group = christian
-							capital_scope = { region = world_europe_west_francia }
-							NOT = { has_character_flag = flag_visited_by_childrens_crusade }
+						NOT = { has_character_flag = flag_visited_by_childrens_crusade }
+					}
+					preferred_limit = { 
+						any_child = { 
+							age = 8
+							is_adult = no 
+							is_ruler = no
+							is_primary_heir = no
+							host = { character = ROOT }
 						}
-						preferred_limit = { 
-							any_child = { 
-								age = 8
-								is_adult = no 
-								is_ruler = no
-								is_primary_heir = no
-								host = { character = ROOT }
-							}
-							ai = no
+						ai = no
+					}
+					preferred_limit = { 
+						ai = no
+					}
+					preferred_limit = { 
+						any_child = { 
+							age = 8
+							is_adult = no 
+							is_ruler = no
+							is_primary_heir = no
+							host = { character = ROOT }
 						}
-						preferred_limit = { 
-							ai = no
+					}
+					set_character_flag = flag_visited_by_childrens_crusade
+					character_event = { id = HF.25809 } #Random list.
+				} 
+			}
+			flag_children_at_genoa = { 
+				random_playable_ruler = { 
+					limit = { 
+						religion_group = christian
+						capital_scope = { 
+							region = world_europe_south_italy
 						}
-						preferred_limit = { 
-							any_child = { 
-								age = 8
-								is_adult = no 
-								is_ruler = no
-								is_primary_heir = no
-								host = { character = ROOT }
-							}
+						NOT = { has_character_flag = flag_visited_by_childrens_crusade }
+					}
+					preferred_limit = { 
+						any_child = { 
+							age = 8
+							is_adult = no 
+							is_ruler = no
+							is_primary_heir = no
+							host = { character = ROOT }
 						}
-						set_character_flag = flag_visited_by_childrens_crusade
-						character_event = { id = HF.25809 } #Random list.
-					} 
-				}
-				world_europe_west_germania = { 
-					random_playable_ruler = { 
-						limit = { 
-							religion_group = christian
-							capital_scope = { region = world_europe_west_germania }
-							NOT = { has_character_flag = flag_visited_by_childrens_crusade }
+						ai = no
+					}
+					preferred_limit = { 
+						ai = no
+					}
+					preferred_limit = { 
+						any_child = { 
+							age = 8
+							is_adult = no 
+							is_ruler = no
+							is_primary_heir = no
+							host = { character = ROOT }
 						}
-						preferred_limit = { 
-							any_child = { 
-								age = 8
-								is_adult = no 
-								is_ruler = no
-								is_primary_heir = no
-								host = { character = ROOT }
-							}
-							ai = no
+					}
+					set_character_flag = flag_visited_by_childrens_crusade
+					character_event = { id = HF.25809 } #Random list.
+				} 
+			}
+			flag_children_at_achaia = { 
+				random_playable_ruler = { 
+					limit = { 
+						religion_group = christian
+						capital_scope = { region = world_europe_south_east }
+						NOT = { has_character_flag = flag_visited_by_childrens_crusade }
+					}
+					preferred_limit = { 
+						any_child = { 
+							age = 8
+							is_adult = no 
+							is_ruler = no
+							is_primary_heir = no
+							host = { character = ROOT }
 						}
-						preferred_limit = { 
-							ai = no
+						ai = no
+					}
+					preferred_limit = { 
+						ai = no
+					}
+					preferred_limit = { 
+						any_child = { 
+							age = 8
+							is_adult = no 
+							is_ruler = no
+							is_primary_heir = no
+							host = { character = ROOT }
 						}
-						preferred_limit = { 
-							any_child = { 
-								age = 8
-								is_adult = no 
-								is_ruler = no
-								is_primary_heir = no
-								host = { character = ROOT }
-							}
+					}
+					set_character_flag = flag_visited_by_childrens_crusade
+					character_event = { id = HF.25809 } #Random list.
+				} 
+			}
+			flag_children_at_nikaea = { 
+				random_playable_ruler = { 
+					limit = { 
+						religion_group = christian
+						capital_scope = { region = world_asia_minor }
+						NOT = { has_character_flag = flag_visited_by_childrens_crusade }
+					}
+					preferred_limit = { 
+						any_child = { 
+							age = 8
+							is_adult = no 
+							is_ruler = no
+							is_primary_heir = no
+							host = { character = ROOT }
 						}
-						set_character_flag = flag_visited_by_childrens_crusade
-						character_event = { id = HF.25809 } #Random list.
-					} 
-				}
-				world_europe_west_brittania = { 
-					random_playable_ruler = { 
-						limit = { 
-							religion_group = christian
-							capital_scope = { region = world_europe_west_brittania }
-							NOT = { has_character_flag = flag_visited_by_childrens_crusade }
+						ai = no
+					}
+					preferred_limit = { 
+						ai = no
+					}
+					preferred_limit = { 
+						any_child = { 
+							age = 8
+							is_adult = no 
+							is_ruler = no
+							is_primary_heir = no
+							host = { character = ROOT }
 						}
-						preferred_limit = { 
-							any_child = { 
-								age = 8
-								is_adult = no 
-								is_ruler = no
-								is_primary_heir = no
-								host = { character = ROOT }
-							}
-							ai = no
-						}
-						preferred_limit = { 
-							ai = no
-						}
-						preferred_limit = { 
-							any_child = { 
-								age = 8
-								is_adult = no 
-								is_ruler = no
-								is_primary_heir = no
-								host = { character = ROOT }
-							}
-						}
-						set_character_flag = flag_visited_by_childrens_crusade
-						character_event = { id = HF.25809 } #Random list.
-					} 
-				}
-				world_europe_north = { 
-					random_playable_ruler = { 
-						limit = { 
-							religion_group = christian
-							capital_scope = { region = world_europe_north }
-							NOT = { has_character_flag = flag_visited_by_childrens_crusade }
-						}
-						preferred_limit = { 
-							any_child = { 
-								age = 8
-								is_adult = no 
-								is_ruler = no
-								is_primary_heir = no
-								host = { character = ROOT }
-							}
-							ai = no
-						}
-						preferred_limit = { 
-							ai = no
-						}
-						preferred_limit = { 
-							any_child = { 
-								age = 8
-								is_adult = no 
-								is_ruler = no
-								is_primary_heir = no
-								host = { character = ROOT }
-							}
-						}
-						set_character_flag = flag_visited_by_childrens_crusade
-						character_event = { id = HF.25809 } #Random list.
-					} 
-				}
-				world_europe_south_italy = { 
-					random_playable_ruler = { 
-						limit = { 
-							religion_group = christian
-							capital_scope = { region = world_europe_south_italy }
-							NOT = { has_character_flag = flag_visited_by_childrens_crusade }
-						}
-						preferred_limit = { 
-							any_child = { 
-								age = 8
-								is_adult = no 
-								is_ruler = no
-								is_primary_heir = no
-								host = { character = ROOT }
-							}
-							ai = no
-						}
-						preferred_limit = { 
-							ai = no
-						}
-						preferred_limit = { 
-							any_child = { 
-								age = 8
-								is_adult = no 
-								is_ruler = no
-								is_primary_heir = no
-								host = { character = ROOT }
-							}
-						}
-						set_character_flag = flag_visited_by_childrens_crusade
-						character_event = { id = HF.25809 } #Random list.
-					} 
-				}
-				world_europe_east = { 
-					random_playable_ruler = { 
-						limit = { 
-							religion_group = christian
-							capital_scope = { region = world_europe_east }
-							NOT = { has_character_flag = flag_visited_by_childrens_crusade }
-						}
-						preferred_limit = { 
-							any_child = { 
-								age = 8
-								is_adult = no 
-								is_ruler = no
-								is_primary_heir = no
-								host = { character = ROOT }
-							}
-							ai = no
-						}
-						preferred_limit = { 
-							ai = no
-						}
-						preferred_limit = { 
-							any_child = { 
-								age = 8
-								is_adult = no 
-								is_ruler = no
-								is_primary_heir = no
-								host = { character = ROOT }
-							}
-						}
-						set_character_flag = flag_visited_by_childrens_crusade
-						character_event = { id = HF.25809 } #Random list.
-					} 
-				}
-				world_europe_south_east = { 
-					random_playable_ruler = { 
-						limit = { 
-							religion_group = christian
-							capital_scope = { region = world_europe_south_east }
-							NOT = { has_character_flag = flag_visited_by_childrens_crusade }
-						}
-						preferred_limit = { 
-							any_child = { 
-								age = 8
-								is_adult = no 
-								is_ruler = no
-								is_primary_heir = no
-								host = { character = ROOT }
-							}
-							ai = no
-						}
-						preferred_limit = { 
-							ai = no
-						}
-						preferred_limit = { 
-							any_child = { 
-								age = 8
-								is_adult = no 
-								is_ruler = no
-								is_primary_heir = no
-								host = { character = ROOT }
-							}
-						}
-						set_character_flag = flag_visited_by_childrens_crusade
-						character_event = { id = HF.25809 } #Random list.
-					} 
-				}
-				world_asia_minor = { 
-					random_playable_ruler = { 
-						limit = { 
-							religion_group = christian
-							capital_scope = { region = world_asia_minor }
-							NOT = { has_character_flag = flag_visited_by_childrens_crusade }
-						}
-						preferred_limit = { 
-							any_child = { 
-								age = 8
-								is_adult = no 
-								is_ruler = no
-								is_primary_heir = no
-								host = { character = ROOT }
-							}
-							ai = no
-						}
-						preferred_limit = { 
-							ai = no
-						}
-						preferred_limit = { 
-							any_child = { 
-								age = 8
-								is_adult = no 
-								is_ruler = no
-								is_primary_heir = no
-								host = { character = ROOT }
-							}
-						}
-						set_character_flag = flag_visited_by_childrens_crusade
-						character_event = { id = HF.25809 } #Random list.
-					} 
+					}
+					set_character_flag = flag_visited_by_childrens_crusade
+					character_event = { id = HF.25809 } #Random list.
 				}
 			}
 		}

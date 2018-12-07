@@ -154,9 +154,9 @@ targetted_decisions = {
 										}
 
 										OR = {
-											capital_scope = { region = world_europe_north } # Tianxia
-											capital_scope = { region = world_steppe_west } # Tianxia
-											capital_scope = { region = world_steppe_east } # Tianxia
+											capital_scope = { region = world_europe_north }
+											capital_scope = { region = world_steppe_west }
+											capital_scope = { region = world_steppe_east }
 											capital_scope = { region = world_siberia } # Tianxia
 											capital_scope = { region = world_mongolia } # Tianxia
 											capital_scope = { region = world_manchuria } # Tianxia
@@ -1101,7 +1101,6 @@ targetted_decisions = {
 				trait = lunatic
 				graphical_culture = beargfx
 				graphical_culture = dragongfx
-				culture = bear
 			}
 		}
 
@@ -1174,6 +1173,7 @@ targetted_decisions = {
 					}
 					character_event = { id = RIP.11511 days = 1 }
 				}
+				FROM = {
 					add_blood_splatter_effect = yes
 					random_list = {
 						50 = { # Nothing happens
@@ -1359,13 +1359,21 @@ targetted_decisions = {
 			FROM = {
 				if = {
 					limit = {
-						NOT = { trait = lunatic }
+						NOR = {
+							trait = lunatic
+							graphical_culture = beargfx
+							graphical_culture = dragongfx
+						}
 					}
 					add_trait = lunatic
 				}
 				if = {
 					limit = {
-						NOT = { has_character_modifier = crazy_cannibal }
+						NOR = {
+							has_character_modifier = crazy_cannibal
+							graphical_culture = beargfx
+							graphical_culture = dragongfx
+						}
 					}
 					add_character_modifier = {
 						name = crazy_cannibal

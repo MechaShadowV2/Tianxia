@@ -17,7 +17,7 @@ slots = {
 
 loot_axe = { #The Old Gods only
 	martial = 2
-	combat_rating = 5 
+	combat_rating = 5
 	quality = 2
 	flags = { combat_weapon easter_egg }
 	stacking = no
@@ -402,10 +402,7 @@ remains_of_st_cessianus = {
 weeping_statue = {
 	monthly_character_prestige = 0.1
 	global_tax_modifier = 0.05
-	active = { 
-		religion_group = christian 
-		NOT = { religion = iconoclast } # Missing in vanilla
-	}
+	active = { religion_group = christian }
 	allowed_gift = {
 		religion_group = christian
 		NOT = {
@@ -2023,6 +2020,7 @@ sword_tier_1_new = {
 }
 
 sword_tier_2_new = {
+	monthly_character_prestige = 0.5
 	martial = 1
 	combat_rating = 7
 	command_modifier = {
@@ -2059,8 +2057,12 @@ sword_tier_3_heartseeker = {
 
 sword_tier_3_vengeance = {
 	monthly_character_prestige = 0.75
-	martial = 3
-	combat_rating = 2
+	martial = 2
+	combat_rating = 10
+	command_modifier = {
+		heavy_infantry = 0.10
+		actual_light_infantry = 0.15
+	}
 	quality = 3
 	active = {
 		is_adult = yes
@@ -2073,8 +2075,12 @@ sword_tier_3_vengeance = {
 
 sword_tier_3_fury = {
 	monthly_character_prestige = 0.75
-	martial = 3
-	combat_rating = 2
+	martial = 2
+	combat_rating = 10
+	command_modifier = {
+		heavy_infantry = 0.10
+		actual_light_infantry = 0.15
+	}
 	quality = 3
 	active = {
 		is_adult = yes
@@ -2087,8 +2093,12 @@ sword_tier_3_fury = {
 
 sword_tier_4_heartseeker = {
 	monthly_character_prestige = 1
-	martial = 4
-	combat_rating = 7
+	martial = 2
+	combat_rating = 15
+	command_modifier = {
+		heavy_infantry = 0.15
+		actual_light_infantry = 0.2
+	}
 	quality = 4
 	active = {
 		is_adult = yes
@@ -2101,8 +2111,12 @@ sword_tier_4_heartseeker = {
 
 sword_tier_4_vengeance = {
 	monthly_character_prestige = 1
-	martial = 4
-	combat_rating = 7
+	martial = 2
+	combat_rating = 15
+	command_modifier = {
+		heavy_infantry = 0.15
+		actual_light_infantry = 0.2
+	}
 	quality = 4
 	active = {
 		is_adult = yes
@@ -2115,8 +2129,12 @@ sword_tier_4_vengeance = {
 
 sword_tier_4_fury = {
 	monthly_character_prestige = 1
-	martial = 4
-	combat_rating = 7
+	martial = 2
+	combat_rating = 15
+	command_modifier = {
+		heavy_infantry = 0.15
+		actual_light_infantry = 0.2
+	}
 	quality = 4
 	active = {
 		is_adult = yes
@@ -3743,7 +3761,7 @@ random_world_mythological_heart_1 = {
 		is_adult = yes
 	}
 	stacking = no
-	picture = "GFX_relic_box"
+	picture = "GFX_mythological_beast_heart"
 }
 
 random_world_mythological_blood = {
@@ -3755,7 +3773,7 @@ random_world_mythological_blood = {
 		is_adult = yes
 	}
 	stacking = no
-	picture = "GFX_relic_box_simple"
+	picture = "GFX_mythological_beast_blood"
 }
 
 random_world_mythological_eye = {
@@ -4219,6 +4237,24 @@ crown_wrapped_helmet = {
 	slot = crown
 }
 
+#Unicorn
+crown_unicorn_helmet = { 
+	monthly_character_prestige = 0.01
+	combat_rating = 15
+	quality = 4
+	command_modifier = {
+		religious_enemy = 0.05
+	}
+	active = {
+		is_adult = yes
+		graphical_culture = horsegfx
+	}
+	flags = { crown }
+	stacking = no
+	picture = "GFX_crown_unicorn_helmet"
+	slot = crown
+}
+
 #Crucible Steel weapons 
 sword_whispering = {
 	monthly_character_prestige = 1
@@ -4283,4 +4319,13 @@ terrible_sword = {
 	stacking = no
 	picture = "GFX_sword_rusty"
 	slot = weapon
+}
+
+sparkling_mane = {
+	quality = 4
+	flags = { }
+	stacking = no
+	picture = "GFX_crown_unicorn_helmet"
+	diplomacy = 1
+	intrigue = 1
 }
