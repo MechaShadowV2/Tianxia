@@ -765,6 +765,7 @@ decisions = {
 					trait = decadent
 				}
 				remove_trait = decadent
+			}
 		}
 		revoke_allowed = {
 			always = no
@@ -1876,6 +1877,7 @@ decisions = {
 				secret_religion = jewish
 				secret_religion = karaite
 				secret_religion = samaritan
+			}
 			NOT = { government = order_government }
 		}
 		
@@ -3127,7 +3129,7 @@ decisions = {
 				NOT = { wealth = 200 }
 			}
 		}
-	
+	}
 	destroy_artifact = {
 		only_playable = yes
 		ai = no
@@ -3151,6 +3153,7 @@ decisions = {
 				destroy_artifact = yes
 			}
 		}
+	}
 	rename_artifact = {
 		only_playable = yes
 		ai = no

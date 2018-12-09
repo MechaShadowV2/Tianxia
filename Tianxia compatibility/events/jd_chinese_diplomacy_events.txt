@@ -149,7 +149,7 @@ namespace = JD
 #                            #Picks a reason for visiting
 #                            random_list = {
 #                                10 = { 
-#                                   trigger = { ROOT = { is_tributary = { type = offmap suzerain = event_target:target_governor } } 			
+#                                   trigger = { ROOT = { is_tributary = { type = offmap suzerain = event_target:target_governor } } }	
 #                                   set_character_flag = cg_oversee_tax_collection
 #                                }
 #                                10 = { 
@@ -386,7 +386,6 @@ character_event = {
  
 		#Clear-up event
 		character_event = { id = JD.20020 days = 90 }
-    	}
     }
 }
 
@@ -4207,6 +4206,7 @@ letter_event = {
                     NOT = { any_artifact = { has_artifact_flag = chinese } }
                 }
 				random_list = {
+					10 =  {
 						trigger = { ROOT = { NOT = { has_artifact = chinese_artwork } } }
 						add_artifact = chinese_artwork
 						new_artifact = {

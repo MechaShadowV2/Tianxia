@@ -735,6 +735,7 @@ character_event = {
 			trait = varangian 
 			has_character_flag = wants_varangian
 			has_character_flag = denied_varangian
+		}
 		AND = { 
 			OR = { #Updated: New gender check for ROOT, to account for special circumstances...
 				has_game_rule = { # Game rules are all on!

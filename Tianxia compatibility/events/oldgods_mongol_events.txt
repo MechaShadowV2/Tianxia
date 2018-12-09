@@ -1379,10 +1379,13 @@ character_event = {
 			NOT = { region = world_indochina } # Tianxia - TODO
 			NOT = { region = world_taiwan } # Tianxia - TODO
 		}
-		lo
 		location = {
 			county = {
-				NOT = { region = world_india }
+				NOR = {
+					region = world_india
+					region = world_indochina # Tianxia - TODO
+					region = world_indonesia # Tianxia - TODO
+				}
 			}
 		}
 	}

@@ -289,7 +289,7 @@ character_event = {
 			name = sufi_sailors
 			days = 90
 		}
-		event_target:sailor_province
+		event_target:sailor_province = {
 			add_province_modifier = {
 				name = religious_tension
 				days = 90
@@ -320,14 +320,7 @@ character_event = {
 		hidden_tooltip = { character_event = { id = indonesia.27 days = 25 } } # Gift Giving
 		hidden_tooltip = { character_event = { id = indonesia.26 days = 90 } } # Captain Leaving
 		hidden_tooltip = { character_event = { id = indonesia.33 days = 91 } } # Clearing all flags and modifiers after feast
-		set_character_flag = hosting_sufi_traders
-		random_realm_province = {
-			limit = {
-				NOT = {
-					religion_group = muslim
-				}
-				port = yes
-			}
+		event_target:sailor_province = {
 			add_province_modifier = {
 				name = religious_tension
 				days = 90

@@ -25,18 +25,18 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "Horse Lords"
-		conditional_tooltip = {
-			trigger = { 
-				has_dlc = "Jade Dragon"
-	        #NOT = { offmap_china = { governor = { character = ROOT } } }
-	        #offmap_china = {
-	        #    NOR = {
-	        #        has_status = china_civil_war
-	        #        has_status = china_plague
-			  
-	        #    }
-	        #}
-		}
+		#conditional_tooltip = {
+		#	trigger = { 
+		#		has_dlc = "Jade Dragon"
+		#	}
+	    #    NOT = { offmap_china = { governor = { character = ROOT } } }
+	    #    offmap_china = {
+	    #        NOR = {
+	    #            has_status = china_civil_war
+	    #            has_status = china_plague
+	    #        }
+	    #    }
+		#}
 		higher_tier_than = COUNT
 		NOR = {
 			has_character_flag = had_chinese_envoy
@@ -1624,6 +1624,7 @@ province_event = {
 				trait = infirm
 				has_character_flag = do_not_disturb
 			}
+		}
 		NOR = {
 			province_id = 496 # Constantinople is unlikely to have raiders in the province
 			province_id = 356 # Venezia is unlikely to have raiders in the province

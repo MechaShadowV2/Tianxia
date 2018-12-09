@@ -1138,6 +1138,7 @@ decisions = {
 				has_bottom_tier_education_trait_trigger = yes
 			}
 		}
+	}
 	bon_tolerate_indians = {
 		only_playable = yes
 		ai_check_interval = 36

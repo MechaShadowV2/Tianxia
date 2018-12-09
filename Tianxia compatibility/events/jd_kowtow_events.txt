@@ -1669,6 +1669,7 @@ narrative_event = { #Follow up from option A
 				}
 				detract_grace_major_effect = yes
 			}
+		}
 		event_target:target_host = {
 			death = {
 				death_reason = death_murder_poison
@@ -2225,12 +2226,12 @@ character_event = { # audience w/ the Emperor
 						which = kow_tow_emperor_impression_evaluation
 						value = 12
 					}
+				}
 				#modifier = {
 				#	factor = 1.1
 				#	check_variable = {	
 				#		which = kow_tow_emperor_impression_evaluation
 				#		value = 12
-	  
 				#	}
 				#}							
 				modifier = {
@@ -2877,7 +2878,7 @@ character_event = { #Mercenaries wants root to pay a "bridge fee"...
     	tooltip_info = impaler
        	custom_tooltip = {
     		text = EVTOPTC_JD_15002_tt
-
+		}
 		if = {
 			limit = {
 				has_dlc = "Jade Dragon"

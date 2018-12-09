@@ -795,6 +795,7 @@ has_crusade_trait_trigger = {
 				religion = bon_reformed
 			}
 			trait = kailash_guardian
+		}
 		AND = {
 			religion_group = muslim
 			trait = mujahid
@@ -6318,8 +6319,10 @@ proselytize_convert_independent_trigger = {
 			FROM = { has_religion_feature = religion_proselytizing }
 		}
 		independent = yes
-		NOT = {
-			religion = shinto # The Shinto religion is not proselytizing
+		FROM = {
+			NOT = {
+				religion = shinto # The Shinto religion is not proselytizing
+			}
 		}
 		NOT = { religion = FROM }
 		religion_group = pagan_group
@@ -6503,15 +6506,15 @@ this_has_terrible_opinion_modifier_of_root_trigger = {
 the_hunt_for_an_artifact_has_made_enough_progress_trigger = {
 	OR = {
 		AND = {
-			event_target:relic_ruler = { check_variable = { which = relic_score value = 8 } } #15 } } old value
+			event_target:relic_ruler = { check_variable = { which = relic_score value = 8 } } #15 old value
 			event_target:relic_ruler = { has_character_modifier = relic_rumor_minor } 
 		}
 		AND = {
-			event_target:relic_ruler = { check_variable = { which = relic_score value = 14 } } #25 } } old value
+			event_target:relic_ruler = { check_variable = { which = relic_score value = 14 } } #25 old value
 			event_target:relic_ruler = { has_character_modifier = relic_rumor_medium } 
 		}
 		AND = {
-			event_target:relic_ruler = { check_variable = { which = relic_score value = 20 } } #40 } } old value
+			event_target:relic_ruler = { check_variable = { which = relic_score value = 20 } } #40 old value
 			event_target:relic_ruler = { has_character_modifier = relic_rumor_major } 
 		}
 	}

@@ -5447,6 +5447,7 @@ faction_claimant = {
 					holder_scope = {
 						is_child_of = PREVPREV
 					}
+				}
 			}
 		}
 		

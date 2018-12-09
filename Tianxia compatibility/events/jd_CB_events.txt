@@ -520,6 +520,12 @@ character_event = { # Informed of denial
 					prisoner = yes
 					has_opinion_modifier = {
 						modifier = opinion_forced_consort
+						who = ROOT
+					}
+				}
+			}
+			if = {
+				limit = {
 					has_dlc = "Jade Dragon"
 					ROOT = {
 						is_chinese_emperor_trigger = no

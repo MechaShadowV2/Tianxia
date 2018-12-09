@@ -529,6 +529,7 @@ decisions = {
 				factor = 0.3 # Slow it down
 			}
 		}
+	}
 	# Create Dralhas Children - Reformed Bon Holy Order
 	create_dralhas_children = {
 		only_playable = yes

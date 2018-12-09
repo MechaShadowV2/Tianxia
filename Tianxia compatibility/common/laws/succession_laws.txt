@@ -974,7 +974,8 @@ succession_laws = {
 		}
 		revoke_allowed = {
 			always = no
-		}			
+		}
+	}
 	
 	succ_byzantine_elective = {
 		oldest_child_opinion = -5

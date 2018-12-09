@@ -693,6 +693,44 @@ decisions = {
 						}
 					}
 					set_character_flag = target_patrician_doge
+					if = {
+						limit = {
+							has_dlc = "Jade Dragon"
+							ROOT = {
+								is_chinese_emperor_trigger = no
+							}
+						}
+						# A vassal cannot be the EoC
+						if = {
+							limit = {
+								is_chinese_emperor_trigger = no
+								any_close_relative = {
+									dynasty = PREV
+									is_chinese_emperor_trigger = yes
+								}
+							}
+							ROOT = {
+								detract_grace_medium_effect = yes
+							}
+						}
+						if = {
+							limit = {
+								is_chinese_emperor_trigger = no
+								NOT = {
+									any_close_relative = {
+										dynasty = PREV
+										is_chinese_emperor_trigger = yes
+									}
+								}
+								any_dynasty_member = {
+									is_chinese_emperor_trigger = yes
+								}
+							}
+							ROOT = {
+								detract_grace_minor_effect = yes
+							}
+						}
+					}
 					letter_event = { id = REP.510 days = 5 tooltip = EVTTOOLTIP_REP_510 }
 				}
 			}
@@ -710,6 +748,44 @@ decisions = {
 						num_of_trade_posts = 10
 					}
 					set_character_flag = target_patrician_doge
+					if = {
+						limit = {
+							has_dlc = "Jade Dragon"
+							ROOT = {
+								is_chinese_emperor_trigger = no
+							}
+						}
+						# A vassal cannot be the EoC
+						if = {
+							limit = {
+								is_chinese_emperor_trigger = no
+								any_close_relative = {
+									dynasty = PREV
+									is_chinese_emperor_trigger = yes
+								}
+							}
+							ROOT = {
+								detract_grace_medium_effect = yes
+							}
+						}
+						if = {
+							limit = {
+								is_chinese_emperor_trigger = no
+								NOT = {
+									any_close_relative = {
+										dynasty = PREV
+										is_chinese_emperor_trigger = yes
+									}
+								}
+								any_dynasty_member = {
+									is_chinese_emperor_trigger = yes
+								}
+							}
+							ROOT = {
+								detract_grace_minor_effect = yes
+							}
+						}
+					}
 					letter_event = { id = REP.510 days = 5 tooltip = EVTTOOLTIP_REP_510 }
 				}
 			}

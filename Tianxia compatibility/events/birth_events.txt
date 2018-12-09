@@ -383,6 +383,20 @@ character_event = {
 
 	option = {
 		name = EVTOPTB452 # Dissuade
+		if = {
+			limit = {
+				has_dlc = "Jade Dragon"
+				is_chinese_emperor_trigger = no
+			}
+			if = {
+				limit = {
+					FROM = {
+						is_chinese_emperor_trigger = yes
+					}
+				}
+				detract_grace_major_effect = yes
+			}
+		}
 		trigger = {
 			NOT = { trait = lustful }
 			NOT = { trait = hedonist }
@@ -3908,6 +3922,7 @@ character_event = {
 		mother = {
 			character_event = { id = 315 }
 		}
+	}
 	option = { # Mother has troubled pregnancy.
 		name = OK
 		trigger = { 
@@ -3937,6 +3952,7 @@ character_event = {
 				mother = {
 					NOT = { num_of_children = 2 }
 				}
+			}
 			modifier = {
 				factor = 1.5
 				mother = {
@@ -3964,7 +3980,7 @@ character_event = {
 		}
 		
 		mother = {
-				character_event = { id = 316 } #Troubled pregnancy gets worse.
+			character_event = { id = 316 } #Troubled pregnancy gets worse.
 		}
 	}
 

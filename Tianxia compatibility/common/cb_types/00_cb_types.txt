@@ -3754,6 +3754,7 @@ tribal_invasion = {
 							}
 							FROM = {
 								NOT = { religion_group = pagan_group } # Should subjugate these instead
+							}
 							OR = {
 								is_tribal = yes
 								primary_title = {

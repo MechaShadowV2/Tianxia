@@ -579,7 +579,7 @@ character_event = {
 								}
 							}
 						}
-					}
+						event_target:target_child = {
 							death_reason = death_murder_poison
 							killer = ROOT
 						}
@@ -5007,6 +5007,7 @@ character_event = {
 									}
 								}
 							}
+						}
 						any_close_relative = {
 							dynasty = PREV
 							is_chinese_emperor_trigger = yes
@@ -5070,6 +5071,7 @@ character_event = {
 									}
 								}
 							}
+						}
 						any_close_relative = {
 							dynasty = PREV
 							is_chinese_emperor_trigger = yes

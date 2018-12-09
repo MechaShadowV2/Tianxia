@@ -2216,6 +2216,7 @@ letter_event = {
 				}
 				detract_grace_minor_effect = yes
 			}
+		}
 		prestige = -5
 		hidden_tooltip = {
 			FROM = {

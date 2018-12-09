@@ -3285,7 +3285,6 @@ character_event = {
 	
 	trigger = {
 		OR = {
-		OR = {
 			AND = {
 				has_focus = focus_intrigue
 				NOT = { intrigue = 8 }

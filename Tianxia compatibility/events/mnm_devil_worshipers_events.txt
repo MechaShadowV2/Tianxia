@@ -3014,6 +3014,8 @@ character_event = {
 							has_character_flag = being_recruited_by_the_procession_of_pox
 							has_character_flag = being_recruited_by_the_ghost_gatherers							
 							has_character_flag = assassins_attempted_recruitment
+						}
+					}
 				}
 				if = { limit = { has_character_flag = being_recruited_by_the_satanists }
 					random_society_member = {
