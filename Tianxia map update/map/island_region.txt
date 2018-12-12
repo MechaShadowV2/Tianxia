@@ -72,3 +72,7 @@ region_venice = {
 region_kolguyev = {
 	provinces = { 1829 }
 }
+
+region_greenland = {
+	provinces = { 2180 }
+}

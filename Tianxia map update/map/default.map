@@ -37,7 +37,7 @@ sea_zones = { 1409 1412 }
 sea_zones = { 1293 1293 }
 # Tianxia additions
 sea_zones = { 1995 1998 } # Horn of Africa
-sea_zones = { 1990 2179 } # Far Eastern seas
+sea_zones = { 1999 2179 } # Far Eastern seas
 
 # Tianxia major rivers
 sea_zones = { 2181 2182}  # Chao Praya River
