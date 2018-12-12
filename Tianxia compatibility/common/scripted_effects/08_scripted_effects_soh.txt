@@ -736,3 +736,1173 @@ change_boon_tribute_disabling_penalty_effect = {
 		break = yes
 	}
 }
+
+
+### Bloodline creation
+
+create_real_chinese_imperial_bloodline_effect = {
+	if = {
+		limit = {
+			NOT = {
+				any_owned_bloodline = {
+					has_flag = real_chinese_imperial_bloodline
+				}
+			}
+		}
+		if = {
+			limit = {
+				e_china = {
+					has_title_flag = tang_china
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_tang
+				}
+			}
+			if = {
+				limit = {
+					is_female = yes
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_tang
+					inheritance = matrilineal
+				}
+			}
+		}
+		if = {
+			limit = {
+				e_china = {
+					has_title_flag = jin_china
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_jin
+				}
+			}
+			if = {
+				limit = {
+					is_female = yes
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_jin
+					inheritance = matrilineal
+				}
+			}
+		}
+		if = {
+			limit = {
+				e_china = {
+					has_title_flag = wei_china
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_wei
+				}
+			}
+			if = {
+				limit = {
+					is_female = yes
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_wei
+					inheritance = matrilineal
+				}
+			}
+		}
+		if = {
+			limit = {
+				e_china = {
+					has_title_flag = qi_china
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_qi
+				}
+			}
+			if = {
+				limit = {
+					is_female = yes
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_qi
+					inheritance = matrilineal
+				}
+			}
+		}
+		if = {
+			limit = {
+				e_china = {
+					has_title_flag = zhou_china
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_zhou
+				}
+			}
+			if = {
+				limit = {
+					is_female = yes
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_zhou
+					inheritance = matrilineal
+				}
+			}
+		}
+		if = {
+			limit = {
+				e_china = {
+					has_title_flag = han_china
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_han
+				}
+			}
+			if = {
+				limit = {
+					is_female = yes
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_han
+					inheritance = matrilineal
+				}
+			}
+		}
+		if = {
+			limit = {
+				e_china = {
+					has_title_flag = qin_china
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_qin
+				}
+			}
+			if = {
+				limit = {
+					is_female = yes
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_qin
+					inheritance = matrilineal
+				}
+			}
+		}
+		if = {
+			limit = {
+				e_china = {
+					has_title_flag = yan_china
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_yan
+				}
+			}
+			if = {
+				limit = {
+					is_female = yes
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_yan
+					inheritance = matrilineal
+				}
+			}
+		}
+		if = {
+			limit = {
+				e_china = {
+					has_title_flag = zhao_china
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_zhao
+				}
+			}
+			if = {
+				limit = {
+					is_female = yes
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_zhao
+					inheritance = matrilineal
+				}
+			}
+		}
+		if = {
+			limit = {
+				e_china = {
+					has_title_flag = liao_china
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_liao
+				}
+			}
+			if = {
+				limit = {
+					is_female = yes
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_liao
+					inheritance = matrilineal
+				}
+			}
+		}
+		if = {
+			limit = {
+				e_china = {
+					has_title_flag = yuan_china
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_yuan
+				}
+			}
+			if = {
+				limit = {
+					is_female = yes
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_yuan
+					inheritance = matrilineal
+				}
+			}
+		}
+		if = {
+			limit = {
+				e_china = {
+					has_title_flag = xia_china
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_xia
+				}
+			}
+			if = {
+				limit = {
+					is_female = yes
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_xia
+					inheritance = matrilineal
+				}
+			}
+		}
+		if = {
+			limit = {
+				e_china = {
+					has_title_flag = qing_china
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_qing
+				}
+			}
+			if = {
+				limit = {
+					is_female = yes
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_qing
+					inheritance = matrilineal
+				}
+			}
+		}
+		if = {
+			limit = {
+				e_china = {
+					has_title_flag = dai_china
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_dai
+				}
+			}
+			if = {
+				limit = {
+					is_female = yes
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_dai
+					inheritance = matrilineal
+				}
+			}
+		}
+		if = {
+			limit = {
+				e_china = {
+					has_title_flag = cheng_china
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_cheng
+				}
+			}
+			if = {
+				limit = {
+					is_female = yes
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_cheng
+					inheritance = matrilineal
+				}
+			}
+		}
+		if = {
+			limit = {
+				e_china = {
+					has_title_flag = liang_china
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_liang
+				}
+			}
+			if = {
+				limit = {
+					is_female = yes
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_liang
+					inheritance = matrilineal
+				}
+			}
+		}
+		if = {
+			limit = {
+				e_china = {
+					has_title_flag = song_china
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_song
+				}
+			}
+			if = {
+				limit = {
+					is_female = yes
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_song
+					inheritance = matrilineal
+				}
+			}
+		}
+		if = {
+			limit = {
+				e_china = {
+					has_title_flag = ming_china
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_ming
+				}
+			}
+			if = {
+				limit = {
+					is_female = yes
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_ming
+					inheritance = matrilineal
+				}
+			}
+		}
+		if = {
+			limit = {
+				e_china = {
+					has_title_flag = shu_china
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_shu
+				}
+			}
+			if = {
+				limit = {
+					is_female = yes
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_shu
+					inheritance = matrilineal
+				}
+			}
+		}
+		if = {
+			limit = {
+				e_china = {
+					has_title_flag = wu_china
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_wu
+				}
+			}
+			if = {
+				limit = {
+					is_female = yes
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_wu
+					inheritance = matrilineal
+				}
+			}
+		}
+		if = {
+			limit = {
+				e_china = {
+					has_title_flag = chu_china
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_chu
+				}
+			}
+			if = {
+				limit = {
+					is_female = yes
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_chu
+					inheritance = matrilineal
+				}
+			}
+		}
+		if = {
+			limit = {
+				e_china = {
+					has_title_flag = yue_china
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_yue
+				}
+			}
+			if = {
+				limit = {
+					is_female = yes
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_yue
+					inheritance = matrilineal
+				}
+			}
+		}
+		if = {
+			limit = {
+				e_china = {
+					has_title_flag = yin_china
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_yin
+				}
+			}
+			if = {
+				limit = {
+					is_female = yes
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_yin
+					inheritance = matrilineal
+				}
+			}
+		}
+		if = {
+			limit = {
+				e_china = {
+					has_title_flag = shun_china
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_shun
+				}
+			}
+			if = {
+				limit = {
+					is_female = yes
+				}
+				create_bloodline = {
+					type = real_chinese_imperial_bloodline_shun
+					inheritance = matrilineal
+				}
+			}
+		}
+	}
+}
+
+create_pretender_chinese_imperial_bloodline_effect = {
+	if = {
+		limit = {
+			primary_title = {
+				has_title_flag = tang_china
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_tang
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_tang
+				inheritance = matrilineal
+			}
+		}
+	}
+	if = {
+		limit = {
+			primary_title = {
+				has_title_flag = jin_china
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_jin
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_jin
+				inheritance = matrilineal
+			}
+		}
+	}
+	if = {
+		limit = {
+			primary_title = {
+				has_title_flag = wei_china
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_wei
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_wei
+				inheritance = matrilineal
+			}
+		}
+	}
+	if = {
+		limit = {
+			primary_title = {
+				has_title_flag = qi_china
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_qi
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_qi
+				inheritance = matrilineal
+			}
+		}
+	}
+	if = {
+		limit = {
+			primary_title = {
+				has_title_flag = zhou_china
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_zhou
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_zhou
+				inheritance = matrilineal
+			}
+		}
+	}
+	if = {
+		limit = {
+			primary_title = {
+				has_title_flag = han_china
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_han
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_han
+				inheritance = matrilineal
+			}
+		}
+	}
+	if = {
+		limit = {
+			primary_title = {
+				has_title_flag = qin_china
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_qin
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_qin
+				inheritance = matrilineal
+			}
+		}
+	}
+	if = {
+		limit = {
+			primary_title = {
+				has_title_flag = yan_china
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_yan
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_yan
+				inheritance = matrilineal
+			}
+		}
+	}
+	if = {
+		limit = {
+			primary_title = {
+				has_title_flag = zhao_china
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_zhao
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_zhao
+				inheritance = matrilineal
+			}
+		}
+	}
+	if = {
+		limit = {
+			primary_title = {
+				has_title_flag = liao_china
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_liao
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_liao
+				inheritance = matrilineal
+			}
+		}
+	}
+	if = {
+		limit = {
+			primary_title = {
+				has_title_flag = yuan_china
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_yuan
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_yuan
+				inheritance = matrilineal
+			}
+		}
+	}
+	if = {
+		limit = {
+			primary_title = {
+				has_title_flag = xia_china
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_xia
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_xia
+				inheritance = matrilineal
+			}
+		}
+	}
+	if = {
+		limit = {
+			primary_title = {
+				has_title_flag = qing_china
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_qing
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_qing
+				inheritance = matrilineal
+			}
+		}
+	}
+	if = {
+		limit = {
+			primary_title = {
+				has_title_flag = dai_china
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_dai
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_dai
+				inheritance = matrilineal
+			}
+		}
+	}
+	if = {
+		limit = {
+			primary_title = {
+				has_title_flag = cheng_china
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_cheng
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_cheng
+				inheritance = matrilineal
+			}
+		}
+	}
+	if = {
+		limit = {
+			primary_title = {
+				has_title_flag = liang_china
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_liang
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_liang
+				inheritance = matrilineal
+			}
+		}
+	}
+	if = {
+		limit = {
+			primary_title = {
+				has_title_flag = song_china
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_song
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_song
+				inheritance = matrilineal
+			}
+		}
+	}
+	if = {
+		limit = {
+			primary_title = {
+				has_title_flag = ming_china
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_ming
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_ming
+				inheritance = matrilineal
+			}
+		}
+	}
+	if = {
+		limit = {
+			primary_title = {
+				has_title_flag = shu_china
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_shu
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_shu
+				inheritance = matrilineal
+			}
+		}
+	}
+	if = {
+		limit = {
+			primary_title = {
+				has_title_flag = wu_china
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_wu
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_wu
+				inheritance = matrilineal
+			}
+		}
+	}
+	if = {
+		limit = {
+			primary_title = {
+				has_title_flag = chu_china
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_chu
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_chu
+				inheritance = matrilineal
+			}
+		}
+	}
+	if = {
+		limit = {
+			primary_title = {
+				has_title_flag = yue_china
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_yue
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_yue
+				inheritance = matrilineal
+			}
+		}
+	}
+	if = {
+		limit = {
+			primary_title = {
+				has_title_flag = yin_china
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_yin
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_yin
+				inheritance = matrilineal
+			}
+		}
+	}
+	if = {
+		limit = {
+			primary_title = {
+				has_title_flag = shun_china
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_shun
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_shun
+				inheritance = matrilineal
+			}
+		}
+	}
+}

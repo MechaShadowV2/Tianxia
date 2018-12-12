@@ -1866,6 +1866,7 @@ castle = {
 				NOT = { culture = coptic }
 				NOT = { culture = arberian }
 			}
+		}
 		prerequisites = { ca_wall_2 }
 		gold_cost = 200
 		build_time = 730
@@ -5073,6 +5074,4 @@ castle = {
 		
 		extra_tech_building_start = 0.8
 	}
-}
-
 }

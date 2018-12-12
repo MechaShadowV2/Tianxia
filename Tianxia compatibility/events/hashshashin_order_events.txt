@@ -1396,56 +1396,56 @@ character_event = {
 	option = {
 		name = "EVTOPTA88012"
 		death = { death_reason = death_hashshashin } 
-	}
-	if = {
-		limit = {
-			has_dlc = "Jade Dragon"
-			d_hashshashin = {
-				holder_scope = {
-					is_chinese_emperor_trigger = no
-				}
-			}
-		}
 		if = {
 			limit = {
-				is_chinese_emperor_trigger = yes
-			}
-			d_hashshashin = {
-				holder_scope = {
-					detract_grace_super_huge_effect = yes
+				has_dlc = "Jade Dragon"
+				d_hashshashin = {
+					holder_scope = {
+						is_chinese_emperor_trigger = no
+					}
 				}
 			}
-		}
-		if = {
-			limit = {
-				is_chinese_emperor_trigger = no
-				any_close_relative = {
-					dynasty = PREV
+			if = {
+				limit = {
 					is_chinese_emperor_trigger = yes
 				}
-			}
-			d_hashshashin = {
-				holder_scope = {
-					detract_grace_massive_effect = yes
+				d_hashshashin = {
+					holder_scope = {
+						detract_grace_super_huge_effect = yes
+					}
 				}
 			}
-		}
-		if = {
-			limit = {
-				is_chinese_emperor_trigger = no
-				NOT = {
+			if = {
+				limit = {
+					is_chinese_emperor_trigger = no
 					any_close_relative = {
 						dynasty = PREV
 						is_chinese_emperor_trigger = yes
 					}
 				}
-				any_dynasty_member = {
-					is_chinese_emperor_trigger = yes
+				d_hashshashin = {
+					holder_scope = {
+						detract_grace_massive_effect = yes
+					}
 				}
 			}
-			d_hashshashin = {
-				holder_scope = {
-					detract_grace_major_effect = yes
+			if = {
+				limit = {
+					is_chinese_emperor_trigger = no
+					NOT = {
+						any_close_relative = {
+							dynasty = PREV
+							is_chinese_emperor_trigger = yes
+						}
+					}
+					any_dynasty_member = {
+						is_chinese_emperor_trigger = yes
+					}
+				}
+				d_hashshashin = {
+					holder_scope = {
+						detract_grace_major_effect = yes
+					}
 				}
 			}
 		}

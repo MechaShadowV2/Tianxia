@@ -1025,6 +1025,219 @@ china_hates_root_trigger = {
 					who = ROOT
 					modifier = opinion_forced_tributary
 				}
+				
+				### HF modifiers and traits
+				ROOT = {
+					OR = {
+						trait = bloodthirsty_gods_1
+						trait = bloodthirsty_gods_2
+						trait = bloodthirsty_gods_3
+						AND = {
+							dynasty = PREV
+							trait = tribal_kinslayer
+						}
+					} 
+				)
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_promsied_to_depose_me
+				}
+				reverse_has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_promsied_to_depose_him
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_promsied_to_depose_myantipope
+				}
+				reverse_has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_promsied_to_depose_hisantipope
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_didnot_pay_homage
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_killed_wife
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_broke_contract
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_antagonized_0
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_antagonized_1
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_antagonized_2
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_antagonized_3
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_repudiated_me
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_antagonize_slandering_spouse
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = blasphemous_pyromaniac
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = insane_heathen
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_betrayed_me_in_battle
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_injured_me_in_battle
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_mocked_me_in_battle
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_unhelpful_ally
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_useless_host
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_savage_butcher
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_cloistered_me
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_cloistered_me_family
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_mass_sacrifice_negative
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_abducted_peasants
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_disrespectful_pest
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_disapprove_of_crusade_unpledge
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_sore_loser
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_lousy_winner
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_loser
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_selfish_crusader
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_deeply_insulted
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_disrespects_me
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_tried_to_get_me_killed
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_left_me_to_die
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_unfit_ruler
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_unfavored_child
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = fourth_crusade_crusader
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_spoiled_ingrate
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_lousy_teacher
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_disrespectful_subject
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_hypocrit_ruler
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_elder_refused_demand
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_elders_displeased
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_elder_traitor
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = elder_murderer
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = disrespectful_youngster
+				}
+				ROOT = {
+					OR = {
+						has_character_modifier = uncivilized_dueler
+						has_character_modifier = crucible_weapon_caught_heretic
+						has_character_modifier = bloodthirsty_mass_sacrifice_bonus_1
+						has_character_modifier = bloodthirsty_mass_sacrifice_bonus_2
+						has_character_modifier = bloodthirsty_mass_sacrifice_bonus_3
+						has_character_modifier = battlefield_betrayal
+						has_character_modifier = sacrificed_prisoner
+						has_character_modifier = cowardly_infanticide
+					}
+				}
 			}
 		}
 	}
@@ -1853,6 +2066,219 @@ china_hates_from_trigger = {
 				has_opinion_modifier = {
 					who = FROM
 					modifier = opinion_forced_tributary
+				}
+				
+				### HF modifiers and traits
+				FROM = {
+					OR = {
+						trait = bloodthirsty_gods_1
+						trait = bloodthirsty_gods_2
+						trait = bloodthirsty_gods_3
+						AND = {
+							dynasty = PREV
+							trait = tribal_kinslayer
+						}
+					} 
+				)
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_promsied_to_depose_me
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_promsied_to_depose_him
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_promsied_to_depose_myantipope
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_promsied_to_depose_hisantipope
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_didnot_pay_homage
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_killed_wife
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_broke_contract
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_antagonized_0
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_antagonized_1
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_antagonized_2
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_antagonized_3
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_repudiated_me
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_antagonize_slandering_spouse
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = blasphemous_pyromaniac
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = insane_heathen
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_betrayed_me_in_battle
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_injured_me_in_battle
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_mocked_me_in_battle
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_unhelpful_ally
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_useless_host
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_savage_butcher
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_cloistered_me
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_cloistered_me_family
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_mass_sacrifice_negative
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_abducted_peasants
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_disrespectful_pest
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_disapprove_of_crusade_unpledge
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_sore_loser
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_lousy_winner
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_loser
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_selfish_crusader
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_deeply_insulted
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_disrespects_me
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_tried_to_get_me_killed
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_left_me_to_die
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_unfit_ruler
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_unfavored_child
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = fourth_crusade_crusader
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_spoiled_ingrate
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_lousy_teacher
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_disrespectful_subject
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_hypocrit_ruler
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_elder_refused_demand
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_elders_displeased
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_elder_traitor
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = elder_murderer
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = disrespectful_youngster
+				}
+				FROM = {
+					OR = {
+						has_character_modifier = uncivilized_dueler
+						has_character_modifier = crucible_weapon_caught_heretic
+						has_character_modifier = bloodthirsty_mass_sacrifice_bonus_1
+						has_character_modifier = bloodthirsty_mass_sacrifice_bonus_2
+						has_character_modifier = bloodthirsty_mass_sacrifice_bonus_3
+						has_character_modifier = battlefield_betrayal
+						has_character_modifier = sacrificed_prisoner
+						has_character_modifier = cowardly_infanticide
+					}
 				}
 			}
 		}
@@ -2683,6 +3109,219 @@ china_hates_fromfrom_trigger = {
 				has_opinion_modifier = {
 					who = FROMFROM
 					modifier = opinion_forced_tributary
+				}
+				
+				### HF modifiers and traits
+				FROMFROM = {
+					OR = {
+						trait = bloodthirsty_gods_1
+						trait = bloodthirsty_gods_2
+						trait = bloodthirsty_gods_3
+						AND = {
+							dynasty = PREV
+							trait = tribal_kinslayer
+						}
+					} 
+				)
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_promsied_to_depose_me
+				}
+				reverse_has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_promsied_to_depose_him
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_promsied_to_depose_myantipope
+				}
+				reverse_has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_promsied_to_depose_hisantipope
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_didnot_pay_homage
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_killed_wife
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_broke_contract
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_antagonized_0
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_antagonized_1
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_antagonized_2
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_antagonized_3
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_repudiated_me
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_antagonize_slandering_spouse
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = blasphemous_pyromaniac
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = insane_heathen
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_betrayed_me_in_battle
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_injured_me_in_battle
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_mocked_me_in_battle
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_unhelpful_ally
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_useless_host
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_savage_butcher
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_cloistered_me
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_cloistered_me_family
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_mass_sacrifice_negative
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_abducted_peasants
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_disrespectful_pest
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_disapprove_of_crusade_unpledge
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_sore_loser
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_lousy_winner
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_loser
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_selfish_crusader
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_deeply_insulted
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_disrespects_me
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_tried_to_get_me_killed
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_left_me_to_die
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_unfit_ruler
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_unfavored_child
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = fourth_crusade_crusader
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_spoiled_ingrate
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_lousy_teacher
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_disrespectful_subject
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_hypocrit_ruler
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_elder_refused_demand
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_elders_displeased
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = opinion_elder_traitor
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = elder_murderer
+				}
+				has_opinion_modifier = {
+					who = FROMFROM
+					modifier = disrespectful_youngster
+				}
+				FROMFROM = {
+					OR = {
+						has_character_modifier = uncivilized_dueler
+						has_character_modifier = crucible_weapon_caught_heretic
+						has_character_modifier = bloodthirsty_mass_sacrifice_bonus_1
+						has_character_modifier = bloodthirsty_mass_sacrifice_bonus_2
+						has_character_modifier = bloodthirsty_mass_sacrifice_bonus_3
+						has_character_modifier = battlefield_betrayal
+						has_character_modifier = sacrificed_prisoner
+						has_character_modifier = cowardly_infanticide
+					}
 				}
 			}
 		}
@@ -3515,6 +4154,219 @@ china_hates_fromfromfrom_trigger = {
 					who = FROMFROMFROM
 					modifier = opinion_forced_tributary
 				}
+				
+				### HF modifiers and traits
+				FROMFROMFROM = {
+					OR = {
+						trait = bloodthirsty_gods_1
+						trait = bloodthirsty_gods_2
+						trait = bloodthirsty_gods_3
+						AND = {
+							dynasty = PREV
+							trait = tribal_kinslayer
+						}
+					} 
+				)
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_promsied_to_depose_me
+				}
+				reverse_has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_promsied_to_depose_him
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_promsied_to_depose_myantipope
+				}
+				reverse_has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_promsied_to_depose_hisantipope
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_didnot_pay_homage
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_killed_wife
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_broke_contract
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_antagonized_0
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_antagonized_1
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_antagonized_2
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_antagonized_3
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_repudiated_me
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_antagonize_slandering_spouse
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = blasphemous_pyromaniac
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = insane_heathen
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_betrayed_me_in_battle
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_injured_me_in_battle
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_mocked_me_in_battle
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_unhelpful_ally
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_useless_host
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_savage_butcher
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_cloistered_me
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_cloistered_me_family
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_mass_sacrifice_negative
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_abducted_peasants
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_disrespectful_pest
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_disapprove_of_crusade_unpledge
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_sore_loser
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_lousy_winner
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_loser
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_selfish_crusader
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_deeply_insulted
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_disrespects_me
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_tried_to_get_me_killed
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_left_me_to_die
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_unfit_ruler
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_unfavored_child
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = fourth_crusade_crusader
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_spoiled_ingrate
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_lousy_teacher
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_disrespectful_subject
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_hypocrit_ruler
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_elder_refused_demand
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_elders_displeased
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = opinion_elder_traitor
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = elder_murderer
+				}
+				has_opinion_modifier = {
+					who = FROMFROMFROM
+					modifier = disrespectful_youngster
+				}
+				FROMFROMFROM = {
+					OR = {
+						has_character_modifier = uncivilized_dueler
+						has_character_modifier = crucible_weapon_caught_heretic
+						has_character_modifier = bloodthirsty_mass_sacrifice_bonus_1
+						has_character_modifier = bloodthirsty_mass_sacrifice_bonus_2
+						has_character_modifier = bloodthirsty_mass_sacrifice_bonus_3
+						has_character_modifier = battlefield_betrayal
+						has_character_modifier = sacrificed_prisoner
+						has_character_modifier = cowardly_infanticide
+					}
+				}
 			}
 		}
 	}
@@ -4334,6 +5186,215 @@ from_hates_china_trigger = {
 				reverse_has_opinion_modifier = {
 					who = FROM
 					modifier = opinion_forced_tributary
+				}
+				
+				### HF modifiers and traits
+				OR = {
+					trait = bloodthirsty_gods_1
+					trait = bloodthirsty_gods_2
+					trait = bloodthirsty_gods_3
+					AND = {
+						dynasty = PREV
+						trait = tribal_kinslayer
+					}
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_promsied_to_depose_me
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_promsied_to_depose_him
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_promsied_to_depose_myantipope
+				}
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_promsied_to_depose_hisantipope
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_didnot_pay_homage
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_killed_wife
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_broke_contract
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_antagonized_0
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_antagonized_1
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_antagonized_2
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_antagonized_3
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_repudiated_me
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_antagonize_slandering_spouse
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = blasphemous_pyromaniac
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = insane_heathen
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_betrayed_me_in_battle
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_injured_me_in_battle
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_mocked_me_in_battle
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_unhelpful_ally
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_useless_host
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_savage_butcher
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_cloistered_me
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_cloistered_me_family
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_mass_sacrifice_negative
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_abducted_peasants
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_disrespectful_pest
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_disapprove_of_crusade_unpledge
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_sore_loser
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_lousy_winner
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_loser
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_selfish_crusader
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_deeply_insulted
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_disrespects_me
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_tried_to_get_me_killed
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_left_me_to_die
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_unfit_ruler
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_unfavored_child
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = fourth_crusade_crusader
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_spoiled_ingrate
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_lousy_teacher
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_disrespectful_subject
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_hypocrit_ruler
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_elder_refused_demand
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_elders_displeased
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_elder_traitor
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = elder_murderer
+				}
+				reverse_has_opinion_modifier = {
+					who = FROM
+					modifier = disrespectful_youngster
+				}
+				OR = {
+					has_character_modifier = uncivilized_dueler
+					has_character_modifier = crucible_weapon_caught_heretic
+					has_character_modifier = bloodthirsty_mass_sacrifice_bonus_1
+					has_character_modifier = bloodthirsty_mass_sacrifice_bonus_2
+					has_character_modifier = bloodthirsty_mass_sacrifice_bonus_3
+					has_character_modifier = battlefield_betrayal
+					has_character_modifier = sacrificed_prisoner
+					has_character_modifier = cowardly_infanticide
 				}
 			}
 		}
@@ -5164,6 +6225,219 @@ china_hates_prevprev_trigger = {
 				has_opinion_modifier = {
 					who = PREVPREV
 					modifier = opinion_forced_tributary
+				}
+				
+				### HF modifiers and traits
+				PREVPREV = {
+					OR = {
+						trait = bloodthirsty_gods_1
+						trait = bloodthirsty_gods_2
+						trait = bloodthirsty_gods_3
+						AND = {
+							dynasty = PREV
+							trait = tribal_kinslayer
+						}
+					} 
+				)
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_promsied_to_depose_me
+				}
+				reverse_has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_promsied_to_depose_him
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_promsied_to_depose_myantipope
+				}
+				reverse_has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_promsied_to_depose_hisantipope
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_didnot_pay_homage
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_killed_wife
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_broke_contract
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_antagonized_0
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_antagonized_1
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_antagonized_2
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_antagonized_3
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_repudiated_me
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_antagonize_slandering_spouse
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = blasphemous_pyromaniac
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = insane_heathen
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_betrayed_me_in_battle
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_injured_me_in_battle
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_mocked_me_in_battle
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_unhelpful_ally
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_useless_host
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_savage_butcher
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_cloistered_me
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_cloistered_me_family
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_mass_sacrifice_negative
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_abducted_peasants
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_disrespectful_pest
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_disapprove_of_crusade_unpledge
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_sore_loser
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_lousy_winner
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_loser
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_selfish_crusader
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_deeply_insulted
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_disrespects_me
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_tried_to_get_me_killed
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_left_me_to_die
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_unfit_ruler
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_unfavored_child
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = fourth_crusade_crusader
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_spoiled_ingrate
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_lousy_teacher
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_disrespectful_subject
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_hypocrit_ruler
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_elder_refused_demand
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_elders_displeased
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = opinion_elder_traitor
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = elder_murderer
+				}
+				has_opinion_modifier = {
+					who = PREVPREV
+					modifier = disrespectful_youngster
+				}
+				PREVPREV = {
+					OR = {
+						has_character_modifier = uncivilized_dueler
+						has_character_modifier = crucible_weapon_caught_heretic
+						has_character_modifier = bloodthirsty_mass_sacrifice_bonus_1
+						has_character_modifier = bloodthirsty_mass_sacrifice_bonus_2
+						has_character_modifier = bloodthirsty_mass_sacrifice_bonus_3
+						has_character_modifier = battlefield_betrayal
+						has_character_modifier = sacrificed_prisoner
+						has_character_modifier = cowardly_infanticide
+					}
 				}
 			}
 		}

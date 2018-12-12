@@ -2330,7 +2330,7 @@ character_event = {
 				has_dlc = "Jade Dragon"
 				event_target:other_combatant = {
 					is_chinese_emperor_trigger = no
-				]
+				}
 			}
 			if = {
 				limit = {
@@ -2420,7 +2420,7 @@ character_event = {
 				has_dlc = "Jade Dragon"
 				event_target:other_combatant = {
 					is_chinese_emperor_trigger = no
-				]
+				}
 			}
 			if = {
 				limit = {
@@ -2737,7 +2737,7 @@ character_event = {
 				has_dlc = "Jade Dragon"
 				event_target:other_combatant = {
 					is_chinese_emperor_trigger = no
-				]
+				}
 			}
 			if = {
 				limit = {

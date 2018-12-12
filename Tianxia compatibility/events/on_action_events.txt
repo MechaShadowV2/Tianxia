@@ -429,7 +429,7 @@ character_event = {
 											}
 										}
 									}
-									any_spouse = {
+									any_consort = {
 										is_chinese_emperor_trigger = no
 										NOT = {
 											e_china = {

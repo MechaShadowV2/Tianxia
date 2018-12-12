@@ -1381,64 +1381,64 @@ character_event = { #Follow up from accepting the invitation
 		}
 	}
 	
-	option = {
-		name = EVTOPTD_JD_32111
-		
-		trigger = {
-			has_character_flag = possible_murder
-		}
-		
-		random_list = {
-			50 = {
-				death = {
-					death_reason = death_murder_poison
-					killer = event_target:target_host
-				}
-				if = {
-					limit = {
-						has_dlc = "Jade Dragon"
-						# event_target:target_host cannot be the EoC
-					}
-					# ROOT cannot be the EoC
-					if = {
-						limit = {
-							is_chinese_emperor_trigger = no
-							any_close_relative = {
-								dynasty = ROOT
-								is_chinese_emperor_trigger = yes
-							}
-						}
-						event_target:target_host = {
-							detract_grace_massive_effect = yes
-						}
-					}
-					if = {
-						limit = {
-							is_chinese_emperor_trigger = no
-							NOT = {
-								any_close_relative = {
-									dynasty = ROOT
-									is_chinese_emperor_trigger = yes
-								}
-							}
-							any_dynasty_member = {
-								is_chinese_emperor_trigger = yes
-							}
-						}
-						event_target:target_host = {
-							detract_grace_major_effect = yes
-						}
-					}
-				}
-			}
-			50 = {
-				custom_tooltip = {
-					text = EVTTOOLTIPD_JD_32111
-				}
-				character_event = { id = JD.32112 }
-			}
-		}
-	}
+#	option = { # Handled elsewhere!
+#		name = EVTOPTD_JD_32111
+#		
+#		trigger = {
+#			has_character_flag = possible_murder
+#		}
+#		
+#		random_list = {
+#			50 = {
+#				death = {
+#					death_reason = death_murder_poison
+#					killer = event_target:target_host
+#				}
+#				if = {
+#					limit = {
+#						has_dlc = "Jade Dragon"
+#						# event_target:target_host cannot be the EoC
+#					}
+#					# ROOT cannot be the EoC
+#					if = {
+#						limit = {
+#							is_chinese_emperor_trigger = no
+#							any_close_relative = {
+#								dynasty = ROOT
+#								is_chinese_emperor_trigger = yes
+#							}
+#						}
+#						event_target:target_host = {
+#							detract_grace_massive_effect = yes
+#						}
+#					}
+#					if = {
+#						limit = {
+#							is_chinese_emperor_trigger = no
+#							NOT = {
+#								any_close_relative = {
+#									dynasty = ROOT
+#									is_chinese_emperor_trigger = yes
+#								}
+#							}
+#							any_dynasty_member = {
+#								is_chinese_emperor_trigger = yes
+#							}
+#						}
+#						event_target:target_host = {
+#							detract_grace_major_effect = yes
+#						}
+#					}
+#				}
+#			}
+#			50 = {
+#				custom_tooltip = {
+#					text = EVTTOOLTIPD_JD_32111
+#				}
+#				character_event = { id = JD.32112 }
+#			}
+#		}
+#	}
 	
 	after = {
 		clr_character_flag = possible_murder
@@ -1594,7 +1594,7 @@ narrative_event = { #Follow up from option A
 					event_target:target_host = {
 						is_chinese_emperor_trigger = no
 						any_close_relative = {
-							dynasty = ROOT
+							dynasty = PREV
 							is_chinese_emperor_trigger = yes
 						}
 					}
@@ -1607,7 +1607,7 @@ narrative_event = { #Follow up from option A
 						is_chinese_emperor_trigger = no
 						NOT = {
 							any_close_relative = {
-								dynasty = ROOT
+								dynasty = PREV
 								is_chinese_emperor_trigger = yes
 							}
 						}
@@ -1645,7 +1645,7 @@ narrative_event = { #Follow up from option A
 					event_target:target_host = {
 						is_chinese_emperor_trigger = no
 						any_close_relative = {
-							dynasty = ROOT
+							dynasty = PREV
 							is_chinese_emperor_trigger = yes
 						}
 					}
@@ -1658,7 +1658,7 @@ narrative_event = { #Follow up from option A
 						is_chinese_emperor_trigger = no
 						NOT = {
 							any_close_relative = {
-								dynasty = ROOT
+								dynasty = PREV
 								is_chinese_emperor_trigger = yes
 							}
 						}
@@ -1700,7 +1700,7 @@ narrative_event = { #Follow up from option A
 					event_target:target_host = {
 						is_chinese_emperor_trigger = no
 						any_close_relative = {
-							dynasty = ROOT
+							dynasty = PREV
 							is_chinese_emperor_trigger = yes
 						}
 					}
@@ -1713,7 +1713,7 @@ narrative_event = { #Follow up from option A
 						is_chinese_emperor_trigger = no
 						NOT = {
 							any_close_relative = {
-								dynasty = ROOT
+								dynasty = PREV
 								is_chinese_emperor_trigger = yes
 							}
 						}
@@ -2332,7 +2332,7 @@ character_event = { # audience w/ the Emperor
 		}
 		add_trait = kow_tow_completed_tier_1
 		hidden_tooltip = {
-			character_event = { id = kowtow.21 days = 30 }
+			character_event = { id = kowtow.21 days = 365 }
 		}
 		#add_offmap_currency = {
 		#	offmap = offmap_china

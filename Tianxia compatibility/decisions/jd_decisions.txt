@@ -68,6 +68,18 @@ decisions = {
 					trait = ambitious
 					prestige = 40000
 				}
+				AND = {
+					any_owned_bloodline = {
+						has_flag = pretender_chinese_imperial_bloodline # If we already have pretensions, it is easier
+					}
+					prestige = 20000
+				}
+				AND = {
+					any_owned_bloodline = {
+						has_flag = real_chinese_imperial_bloodline # If we used to rule China, it is easier
+					}
+					prestige = 10000
+				}
 				prestige = 120000
 			}
 		}
@@ -80,12 +92,34 @@ decisions = {
 			tier = EMPEROR
 			realm_size = 200
 			conditional_tooltip = {
-				trigger = { religion = taoist }
+				trigger = {
+					OR = {
+						religion = taoist
+						# Pretenders and former rulers of China have an easier time
+						any_owned_bloodline = {
+							has_flag = pretender_chinese_imperial_bloodline
+						}
+						any_owned_bloodline = {
+							has_flag = real_chinese_imperial_bloodline
+						}
+					}
+				}
 				prestige = 8000
 				wealth = 500
 			}
 			conditional_tooltip = {
-				trigger = { NOT = { religion = taoist } }
+				trigger = {
+					NOR = {
+						religion = taoist
+						# Pretenders and former rulers of China have an easier time
+						any_owned_bloodline = {
+							has_flag = pretender_chinese_imperial_bloodline
+						}
+						any_owned_bloodline = {
+							has_flag = real_chinese_imperial_bloodline
+						}
+					}
+				}
 				prestige = 16000
 				wealth = 1000
 			}

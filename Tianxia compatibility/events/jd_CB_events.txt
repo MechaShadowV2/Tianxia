@@ -253,8 +253,10 @@ character_event = { # The target receives an event
 						detract_grace_major_effect = yes
 					}
 				}
-				death_reason = death_execution_beheading
-				killer = ROOT
+				death = {
+					death_reason = death_execution_beheading
+					killer = ROOT
+				}
 			}
 		}
 		FROM = {

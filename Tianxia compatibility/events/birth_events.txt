@@ -3138,6 +3138,61 @@ character_event = {
 		
 		custom_tooltip = { text = EVTOPTA301_DESC }
 		spouse = {
+			if = {
+				limit = {
+					has_dlc = "Jade Dragon"
+					ROOT = {
+						is_chinese_emperor_trigger = no
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							is_chinese_emperor_trigger = yes
+							e_china = {
+								holder_scope = {
+									is_chinese_emperor_trigger = yes
+									current_heir = {
+										character = PREVPREVPREV
+										dynasty = PREV
+									}
+								}
+							}
+						}
+					}
+					ROOT = {
+						detract_grace_super_huge_effect = yes
+					}
+				}
+				if = {
+					limit = {
+						is_chinese_emperor_trigger = no
+						NOT = {
+							e_china = {
+								holder_scope = {
+									is_chinese_emperor_trigger = yes
+									current_heir = {
+										character = PREVPREVPREV
+										dynasty = PREV
+									}
+								}
+							}
+						}
+						e_china = {
+							holder_scope = {
+								is_chinese_emperor_trigger = yes
+								any_child = {
+									character = PREVPREVPREV
+									dynasty = PREV
+								}
+							}
+						}
+					}
+					ROOT = {
+						detract_grace_massive_effect = yes
+					}
+				}
+			}
 			show_scope_change = no
 			tooltip = { opinion = { who = ROOT modifier = legitimized_bastard years = 10 } } # Spouse reaction.
 		}
@@ -3238,6 +3293,61 @@ character_event = {
 		custom_tooltip = { text = EVTOPTB301_DESC }
 		
 		spouse = {
+			if = {
+				limit = {
+					has_dlc = "Jade Dragon"
+					ROOT = {
+						is_chinese_emperor_trigger = no
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							is_chinese_emperor_trigger = yes
+							e_china = {
+								holder_scope = {
+									is_chinese_emperor_trigger = yes
+									current_heir = {
+										character = PREVPREVPREV
+										dynasty = PREV
+									}
+								}
+							}
+						}
+					}
+					ROOT = {
+						detract_grace_super_huge_effect = yes
+					}
+				}
+				if = {
+					limit = {
+						is_chinese_emperor_trigger = no
+						NOT = {
+							e_china = {
+								holder_scope = {
+									is_chinese_emperor_trigger = yes
+									current_heir = {
+										character = PREVPREVPREV
+										dynasty = PREV
+									}
+								}
+							}
+						}
+						e_china = {
+							holder_scope = {
+								is_chinese_emperor_trigger = yes
+								any_child = {
+									character = PREVPREVPREV
+									dynasty = PREV
+								}
+							}
+						}
+					}
+					ROOT = {
+						detract_grace_massive_effect = yes
+					}
+				}
+			}
 			show_scope_change = no
 			tooltip = { opinion = { who = ROOT modifier = acknowledged_bastard years = 10 } } # Spouse reaction.
 		}
