@@ -1,0 +1,16 @@
+# 2261 - Dawaro
+
+# County Title
+title = c_dawaro
+
+# Settlements
+max_settlements = 1
+
+b_dawaro = tribal
+# Needs baronies!
+
+# Misc
+culture = somali
+religion = sunni
+
+# History

@@ -1,0 +1,16 @@
+# 2256 - Janjilo
+
+# County Title
+title = c_janjilo
+
+# Settlements
+max_settlements = 1
+
+b_janjilo = tribal
+# Needs baronies!
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

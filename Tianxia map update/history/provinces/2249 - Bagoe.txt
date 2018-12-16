@@ -1,0 +1,16 @@
+# 2249 - Bagoe
+
+# County Title
+title = c_bagoe
+
+# Settlements
+max_settlements = 1
+
+b_bagoe = tribal
+# Needs baronies!
+
+# Misc
+culture = manden
+religion = west_african_pagan
+
+# History

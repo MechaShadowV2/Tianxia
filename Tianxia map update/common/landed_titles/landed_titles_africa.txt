@@ -1,0 +1,405 @@
+# West/Central Africa
+
+e_mali = {
+	k_mali = {
+		d_bambuk = {
+			c_futa_jallon = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_timbo = {}
+				# Needs baronies!
+			}
+			c_beafada = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_beafada = {}
+				# Needs baronies!
+			}
+		}
+	}
+	
+	k_bonoman = { # New
+		color={ 10 215 225 } # TODO
+		color2={ 255 255 255 } # TODO
+		
+		capital = 2247 # Bonoman
+		
+		culture = manden
+		
+		d_kong = { # New
+			color={ 10 215 225 } # TODO
+			color2={ 255 255 255 } # TODO
+			
+			capital = 2248 # Kong
+			
+			c_bagoe = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_tingrela = {}
+				# Needs baronies!
+			}
+			c_kong = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_kong = {}
+				# Needs baronies!
+			}
+			c_lobi = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_lobi = {}
+				# Needs baronies!
+			}
+		}
+		
+		d_bonoman = { # New
+			color={ 10 215 225 } # TODO
+			color2={ 255 255 255 } # TODO
+			
+			capital = 2247 # Bonoman
+			
+			c_bonoman = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_bono_manso = {}
+				b_begho = {}
+				b_techiman = {}
+				b_berekum = {}
+				b_kintampo = {}
+				b_nkoranza = {}
+				b_sunyani = {}
+			}
+			c_tenkodogo = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_tenkodogo = {}
+				b_bane = {}
+				b_niagho = {}
+				b_komtoega = {}
+				b_zabre = {}
+				b_garango = {}
+				b_beguedo = {}
+			}
+			c_dagbon = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_yendi = {}
+				b_tamale = {}
+				b_bole = {}
+				b_bolgatanga = {}
+				b_binduri = {}
+				b_jirapa = {}
+				b_damongo = {}
+			}
+			c_kumasi = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_kumasi = {}
+				b_kumawu = {}
+				b_asokore_mampong = {}
+				b_konongo_odumase = {}
+				b_fomena = {}
+				b_nyinahin = {}
+				b_kuntenase = {}
+			}
+		}
+	}
+}
+
+e_kanem = {
+	k_oyo = { # New
+		color={ 10 215 225 } # TODO
+		color2={ 255 255 255 } # TODO
+			
+		capital = 2238 # Oyo
+		
+		culture = yoruba
+		
+		d_oyo = { # New
+			color={ 10 215 225 } # TODO
+			color2={ 255 255 255 } # TODO
+			
+			capital = 2238 # Oyo
+			
+			c_mossi = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_mossi = {}
+				# Needs baronies!
+			}
+			c_oyo = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_oyo = {}
+				b_afijio_jobele = {}
+				b_akinyele_moniya = {}
+				b_okeho = {}
+				b_oluyole = {}
+				b_iwajowa = {}
+				b_ogbomosho = {}
+			}
+			c_borgu = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_bussa = {}
+				b_nikki = {}
+				b_illo = {}
+				# Needs baronies!
+			}
+			c_abomey = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_abomey = {}
+				b_djidja = {}
+				b_za_kpota = {}
+				b_zogbodomey = {}
+				b_zangnanado = {}
+				b_ouinhi = {}
+				b_agbangnizoun = {}
+			}
+			c_atakora = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_natitingou = {}
+				b_boukoumbe = {}
+				b_kouande = {}
+				b_pehonko = {}
+				b_toucountouna = {}
+				b_kerou = {}
+				b_tanguieta = {}
+			}
+		}
+		d_zazzau = { # New
+			color={ 10 215 225 } # TODO
+			color2={ 255 255 255 } # TODO
+			
+			capital = 2235 # Zazzau
+			
+			c_zazzau = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_zazzau = {}
+				b_kagarko = {}
+				b_kaura = {}
+				b_kachia = {}
+				b_ikara = {}
+				b_kudan = {}
+				b_kajure = {}
+			}
+			c_igala = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_idah = {}
+				# Needs baronies!
+			}
+			c_nupe = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_nupe = {}
+				# Needs baronies!
+			}
+		}
+		d_yola = { # New
+			color={ 10 215 225 } # TODO
+			color2={ 255 255 255 } # TODO
+			
+			capital = 2233 # Yola
+			
+			c_yola = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_yola = {}
+				b_demsa = {}
+				b_jada = {}
+				b_ganye = {}
+				b_mubi = {}
+				b_numan = {}
+				b_toungo = {}
+			}
+			c_wukari = {
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_wukari = {}
+				b_jalingo = {}
+				b_ardo_kola = {}
+				b_sardauna = {}
+				b_takum = {}
+				b_karim_lamido = {}
+				b_donga = {}
+			}
+		}
+	}
+}
+
+# East Africa
+
+e_abyssinia = {
+	k_hadiya = { # New
+		color={ 10 215 225 } # TODO
+		color2={ 255 255 255 } # TODO
+		
+		capital = 2258 # Hadiya
+		
+		culture = ethiopian
+		
+		d_kaffa = { # New
+			color={ 10 215 225 } # TODO
+			color2={ 255 255 255 } # TODO
+			
+			capital = 2254 # Kaffa
+			
+			c_gambela = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_gambela = {}
+				# Needs baronies!
+			}
+			c_kaffa = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_anderaccha = {}
+				# Needs baronies!
+			}
+			c_ennarea = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_yadare = {}
+				b_gowi = {}
+				# Needs baronies!
+			}
+		}
+		d_hadiya = { # New
+			color={ 10 215 225 } # TODO
+			color2={ 255 255 255 } # TODO
+			
+			capital = 2258 # Hadiya
+			
+			c_janjilo = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_janjilo = {}
+				# Needs baronies!
+			}
+			c_welayta = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_sodo = {}
+				# Needs baronies!
+			}
+			c_hadiya = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_hadiya = {}
+				# Needs baronies!
+			}
+		}
+		
+		d_arsi = { # New
+			color={ 10 215 225 } # TODO
+			color2={ 255 255 255 } # TODO
+			
+			capital = 2260 # Arsi
+			
+			c_arsi = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_asella = {}
+				# Needs baronies!
+			}
+			c_sidamo = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_irgalem = {}
+				b_awasa = {}
+				# Needs baronies!
+			}
+		}
+	}
+	
+	k_dawaro = { # New
+		color={ 10 215 225 } # TODO
+		color2={ 255 255 255 } # TODO
+		
+		capital = 2261 # Dawaro
+		
+		culture = somali
+		
+		d_dawaro = { # New
+			color={ 10 215 225 } # TODO
+			color2={ 255 255 255 } # TODO
+			
+			capital = 2261 # Dawaro
+			
+			c_degehabur = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_degehabur = {}
+				# Needs baronies!
+			}
+			c_dawaro = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_dawaro = {}
+				# Needs baronies!
+			}
+			c_togdheer = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_togdheer = {}
+				# Needs baronies!
+			}
+		}
+		
+		d_garoowe = { # New
+			color={ 10 215 225 } # TODO
+			color2={ 255 255 255 } # TODO
+			
+			capital = 2265 # Garoowe
+			
+			c_garoowe = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_garoowe = {}
+				# Needs baronies!
+			}
+			c_bayla = { # New
+				color={ 10 215 225 } # TODO
+				color2={ 255 255 255 } # TODO
+				
+				b_bayla = {}
+				# Needs baronies!
+			}
+		}
+	}
+}

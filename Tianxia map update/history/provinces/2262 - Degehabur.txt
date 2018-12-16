@@ -1,0 +1,16 @@
+# 2262 - Degehabur
+
+# County Title
+title = c_degehabur
+
+# Settlements
+max_settlements = 1
+
+b_degehabur = tribal
+# Needs baronies!
+
+# Misc
+culture = somali
+religion = sunni
+
+# History

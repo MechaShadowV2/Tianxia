@@ -1,0 +1,17 @@
+# 2259 - Sidamo
+
+# County Title
+title = c_sidamo
+
+# Settlements
+max_settlements = 1
+
+b_irgalem = tribal
+#b_awasa
+# Needs baronies!
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

@@ -1,0 +1,16 @@
+# 2246 - Lobi
+
+# County Title
+title = c_lobi
+
+# Settlements
+max_settlements = 1
+
+b_lobi = tribal
+# Needs baronies!
+
+# Misc
+culture = manden
+religion = west_african_pagan
+
+# History

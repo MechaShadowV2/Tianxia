@@ -1993,7 +1993,7 @@ province;red;green;blue;x;x
 1992;85;12;96;Lough Mask;x
 1993;127;15;224;Gezira;x
 1994;169;18;97;Bayuda;x # END VANILLA
-1995;1;21;225;RENAME - HORN OF AFRICA 1;x
+1995;1;21;225;RENAME - HORN OF AFRICA 1;x # Start seas
 1996;43;24;98;RENAME - HORN OF AFRICA 2;x
 1997;85;27;226;RENAME - HORN OF AFRICA 3;x
 1998;127;30;99;RENAME - HORN OF AFRICA 4;x
@@ -2179,7 +2179,7 @@ province;red;green;blue;x;x
 2178;128;144;89;RENAME - EASTERN SEAS 180;x
 2179;170;147;217;RENAME - EASTERN SEAS 181;x # End seas
 2180;2;150;90;Greenland;x
-2181;44;153;218;Chao Praya River;x
+2181;44;153;218;Chao Praya River;x # Start rivers
 2182;86;156;91;Chao Praya River;x
 2183;128;159;219;Mekong River;x
 2184;170;162;92;Mekong River;x
@@ -2223,7 +2223,7 @@ province;red;green;blue;x;x
 2222;86;63;11;Huang He River;x
 2223;128;66;139;Huang He River;x
 2224;170;69;12;Huang He River;x # End rivers
-2225;2;72;140;Lake Toba;x
+2225;2;72;140;Lake Toba;x # Start lakes
 2226;44;75;13;Tonlé Sap;x
 2227;86;78;141;Dongting Lake;x
 2228;128;81;14;Poyang Lake;x
@@ -2231,39 +2231,39 @@ province;red;green;blue;x;x
 2230;2;87;15;Lake Hongze;x
 2231;44;90;143;Lake Xingkai;x
 2232;86;93;16;Lake Biwa;x # End lakes
-2233;128;96;144;;x
-2234;170;99;17;;x
-2235;2;102;145;;x
-2236;44;105;18;;x
-2237;86;108;146;;x
-2238;128;111;19;;x
-2239;170;114;147;;x
-2240;2;117;20;;x
-2241;44;120;148;;x
-2242;86;123;21;;x
-2243;128;126;149;;x
-2244;170;129;22;;x
-2245;2;132;150;;x
-2246;44;135;23;;x
-2247;86;138;151;;x
-2248;128;141;24;;x
-2249;170;144;152;;x
-2250;2;147;25;;x
-2251;44;150;153;;x
-2252;86;153;26;;x
-2253;128;156;154;;x
-2254;170;159;27;;x
-2255;2;162;155;;x
-2256;44;165;28;;x
-2257;86;168;156;;x
-2258;128;171;29;;x
-2259;170;174;157;;x
-2260;2;177;30;;x
-2261;44;180;158;;x
-2262;86;183;31;;x
-2263;128;186;159;;x
-2264;170;189;32;;x
-2265;2;192;160;;x
+2233;128;96;144;Yola;x # Start West/Central Africa
+2234;170;99;17;Wukari;x
+2235;2;102;145;Zazzau;x
+2236;44;105;18;Igala;x
+2237;86;108;146;Nupe;x
+2238;128;111;19;Oyo;x
+2239;170;114;147;Mossi;x
+2240;2;117;20;Borgu;x
+2241;44;120;148;Atakora;x
+2242;86;123;21;Abomey;x
+2243;128;126;149;Tenkodogo;x
+2244;170;129;22;Dagbon;x
+2245;2;132;150;Kumasi;x
+2246;44;135;23;Lobi;x
+2247;86;138;151;Bonoman;x
+2248;128;141;24;Kong;x
+2249;170;144;152;Bagoe;x
+2250;2;147;25;Futa Jallon;x
+2251;44;150;153;Beafada;x
+2252;86;153;26;Guinea;x # End West/Central Africa
+2253;128;156;154;Gambela;x # Start East Africa
+2254;170;159;27;Kaffa;x
+2255;2;162;155;Ennarea;x
+2256;44;165;28;Janjilo;x
+2257;86;168;156;Welayta;x
+2258;128;171;29;Hadiya;x
+2259;170;174;157;Sidamo;x
+2260;2;177;30;Arsi;x
+2261;44;180;158;Dawaro;x
+2262;86;183;31;Degehabur;x
+2263;128;186;159;Togdheer;x
+2264;170;189;32;Bayla;x
+2265;2;192;160;Garoowe;x # End East Africa
 2266;44;195;33;;x
 2267;86;198;161;;x
 2268;128;201;34;;x

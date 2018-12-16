@@ -1,0 +1,17 @@
+# 2255 - Ennarea
+
+# County Title
+title = c_ennarea
+
+# Settlements
+max_settlements = 1
+
+b_yadare = tribal
+#b_gowi
+# Needs baronies!
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History
