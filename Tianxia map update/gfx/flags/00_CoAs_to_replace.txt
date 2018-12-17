@@ -2,7 +2,6 @@ c_abomey
 c_arsi
 c_atakora
 c_bagoe
-c_bayla
 c_beafada
 c_bonoman
 c_borgu
@@ -23,6 +22,7 @@ c_lobi
 c_mossi
 c_nupe
 c_oyo
+c_qardho
 c_sidamo
 c_tenkodogo
 c_togdheer
