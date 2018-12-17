@@ -1,5 +1,4 @@
 pagan_group = {
-	# TODO: Add reformation effects
 	# TODO: Possibly add new HF stuff (Eldership pre-reformation, male consorts, etc.)
 	# TODO: Warrior lodges (where desired)
 	# TODO: Random world stuff (not a priority)
@@ -190,7 +189,6 @@ pagan_group = {
 	#	has_heir_designation = yes
 		priests_can_inherit = no
 		priests_can_marry = yes
-		#allow_looting = yes
 		max_consorts = 3
 		
 		religious_clothing_head = 8
@@ -252,10 +250,9 @@ pagan_group = {
 		priest_title = WU
 		piety_name = TAO
 		
-		#has_heir_designation = yes
+		#has_heir_designation = yes # This is something you need to reform to get
 		priests_can_inherit = no
 		priests_can_marry = yes
-		#allow_looting = yes
 		max_consorts = 3
 		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
 		reformed = chinese_pagan_reformed
@@ -389,7 +386,7 @@ pagan_group = {
 		priest_title = MU
 		piety_name = TAO
 		
-		#has_heir_designation = yes
+		#has_heir_designation = yes # This is something you need to reform to get
 		priests_can_inherit = no
 		priests_can_marry = yes
 		max_consorts = 3
@@ -437,26 +434,11 @@ pagan_group = {
 	#		intrigue = 1
 	#	}
 		
-	#	unit_modifier = {		
-	#		garrison_size = 0.4
+	#	
+	#	unit_modifier = {
+	#		levy_size = 0.3
 	#		
-	#		key = "DEF_RELIGION"
-	#	}
-	#	unit_home_modifier = {
-	#		land_morale = 0.8
-	#		light_infantry_defensive = 0.8
-	#		heavy_infantry_defensive = 0.8
-	#		pikemen_defensive = 0.8
-	#		light_cavalry_defensive = 0.8
-	#		knights_defensive = 0.8
-	#		archers_defensive = 0.8
-	#		horse_archers_defensive = 0.8
-	#		camel_cavalry_defensive = 0.8
-	#		war_elephants_defensive = 0.8
-	#		
-	#		garrison_size = 0.4
-	#		
-	#		key = "DEF_RELIGION_HOME_TERRITORY"
+	#		key = "OFF_RELIGION"
 	#	}
 		
 		crusade_name = GREAT_HOLY_WAR
@@ -500,33 +482,17 @@ pagan_group = {
 			THE_DARK_SPIRITS
 		}
 		
-		unit_modifier = {		
-			garrison_size = 0.4
+		unit_modifier = {
+			levy_size = 0.3
 			
-			key = "DEF_RELIGION"
-		}
-		unit_home_modifier = {
-			land_morale = 0.8
-			light_infantry_defensive = 0.8
-			heavy_infantry_defensive = 0.8
-			pikemen_defensive = 0.8
-			light_cavalry_defensive = 0.8
-			knights_defensive = 0.8
-			archers_defensive = 0.8
-			horse_archers_defensive = 0.8
-			camel_cavalry_defensive = 0.8
-			war_elephants_defensive = 0.8
-			
-			garrison_size = 0.4
-			
-			key = "DEF_RELIGION_HOME_TERRITORY"
+			key = "OFF_RELIGION"
 		}
 		
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_LEGENDS
 		priest_title = PRIEST
 		
-		#has_heir_designation = yes
+		#has_heir_designation = yes # This is something you need to reform to get
 		priests_can_inherit = yes
 		priests_can_marry = yes
 		max_consorts = 3
@@ -550,7 +516,6 @@ pagan_group = {
 }
 
 indian_group = { # Eastern
-	# TODO: Update features
 	# TODO: Check for indian_group and enable/disable as necessary
 	shinto = {
 		graphical_culture = chinesegfx

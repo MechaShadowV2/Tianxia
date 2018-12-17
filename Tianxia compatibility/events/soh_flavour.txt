@@ -171,16 +171,16 @@ character_event = {
 				10 = { character_event = { id = SoHD.21005 days = 7 random = 5 } } # False Lead
 				50 = {} # No social event
 			}
-			random_list = { # Check for headhunt events
-				10 = { character_event = { id = SoHD.2110 days = 18 random = 7 } } # Find Local Farmers
-				10 = { character_event = { id = SoHD.2120 days = 18 random = 7 } } # Finds Enemy Band
-				10 = { character_event = { id = SoHD.2130 days = 18 random = 7 } } # Finds Japanese Outpost
-				10 = { character_event = { id = SoHD.2140 days = 18 random = 7 } } # Find Han explorers
-				10 = { character_event = { id = SoHD.2150 days = 18 random = 7 } } # Find lost ship
-				1 = { character_event =  { id = SoHD.2160 days = 18 random = 7 } } # Discover
-				10 = { character_event = { id = SoHD.2170 days = 18 random = 7 } } # Ambushed
-				10 = {} # No headhunt event
-			}
+#			random_list = { # Check for headhunt events - These events don't exist!
+#				10 = { character_event = { id = SoHD.2110 days = 18 random = 7 } } # Find Local Farmers
+#				10 = { character_event = { id = SoHD.2120 days = 18 random = 7 } } # Finds Enemy Band
+#				10 = { character_event = { id = SoHD.2130 days = 18 random = 7 } } # Finds Japanese Outpost
+#				10 = { character_event = { id = SoHD.2140 days = 18 random = 7 } } # Find Han explorers
+#				10 = { character_event = { id = SoHD.2150 days = 18 random = 7 } } # Find lost ship
+#				1 = { character_event =  { id = SoHD.2160 days = 18 random = 7 } } # Discover
+#				10 = { character_event = { id = SoHD.2170 days = 18 random = 7 } } # Ambushed
+#				10 = {} # No headhunt event
+#			}
 		}
 	}
 }
@@ -210,15 +210,33 @@ character_event = {
 				10 = { character_event = { id = SoHD.21007 days = 7 random = 5 } } # False Lead
 				50 = {} # No social event
 			}
-			random_list = { # Check for headhunt events
-				10 = { character_event = { id = SoHD.2110 days = 18 random = 7 } } # Find Local Farmers
-				10 = { character_event = { id = SoHD.2120 days = 18 random = 7 } } # Finds Enemy Band
-				10 = { character_event = { id = SoHD.2130 days = 18 random = 7 } } # Finds Japanese Outpost
-				10 = { character_event = { id = SoHD.2140 days = 18 random = 7 } } # Find Han explorers
-				10 = { character_event = { id = SoHD.2150 days = 18 random = 7 } } # Find lost ship
-				10 = { character_event = { id = SoHD.2170 days = 18 random = 7 } } # Ambushed
-				 1 = { character_event = { id = SoHD.2160 days = 18 random = 7 } } # Discover 
-				10 = {} # No headhunt event
+#			random_list = { # Check for headhunt events - These events don't exist!
+#				10 = { character_event = { id = SoHD.2110 days = 18 random = 7 } } # Find Local Farmers
+#				10 = { character_event = { id = SoHD.2120 days = 18 random = 7 } } # Finds Enemy Band
+#				10 = { character_event = { id = SoHD.2130 days = 18 random = 7 } } # Finds Japanese Outpost
+#				10 = { character_event = { id = SoHD.2140 days = 18 random = 7 } } # Find Han explorers
+#				10 = { character_event = { id = SoHD.2150 days = 18 random = 7 } } # Find lost ship
+#				1 = { character_event =  { id = SoHD.2160 days = 18 random = 7 } } # Discover
+#				10 = { character_event = { id = SoHD.2170 days = 18 random = 7 } } # Ambushed
+#				10 = {} # No headhunt event
+#			}
+		}
+	}
+}
+
+# End of hunt
+character_event = {
+	id = SoHD.2500
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = { # TODO: Weights
+		random_list = {
+			50 = {
+				character_event = { id = SoHD.2501 }
+			}
+			50 = {
+				character_event = { id = SoHD.2502 }
 			}
 		}
 	}

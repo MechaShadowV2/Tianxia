@@ -427,7 +427,7 @@ character_event = {
 						}
 					}
 				}
-				detract_grace_massibe_effect = yes
+				detract_grace_massive_effect = yes
 			}
 			if = {
 				limit = {

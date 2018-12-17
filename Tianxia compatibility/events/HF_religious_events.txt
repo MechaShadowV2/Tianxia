@@ -13327,7 +13327,7 @@ character_event = {
 	}
 	desc = { 
 		trigger = { 
-			religion = ryukuyan_pagan
+			religion = ryukyuan_pagan
 		} 
 		text = EVTDESCLHF23470 # TODO: New desc
 	}

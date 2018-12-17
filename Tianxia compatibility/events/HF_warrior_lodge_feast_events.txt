@@ -2838,7 +2838,7 @@ character_event = {
 		if = {
 			limit = {
 				has_dlc = "Jade Dragon"
-				combatant_2 = {
+				event_target:combatant_2 = {
 					is_chinese_emperor_trigger = no
 				}
 			}
@@ -2846,7 +2846,7 @@ character_event = {
 				limit = {
 					is_chinese_emperor_trigger = yes
 				}
-				combatant_2 = {
+				event_target:combatant_2 = {
 					detract_grace_major_effect = yes
 				}
 			}
@@ -2858,7 +2858,7 @@ character_event = {
 						is_chinese_emperor_trigger = yes
 					}
 				}
-				combatant_2 = {
+				event_target:combatant_2 = {
 					detract_grace_medium_effect = yes
 				}
 			}
@@ -2875,7 +2875,7 @@ character_event = {
 						is_chinese_emperor_trigger = yes
 					}
 				}
-				combatant_2 = {
+				event_target:combatant_2 = {
 					detract_grace_minor_effect = yes
 				}
 			}
@@ -3154,7 +3154,7 @@ character_event = {
 		if = {
 			limit = {
 				has_dlc = "Jade Dragon"
-				combatant_2 = {
+				event_target:combatant_2 = {
 					is_chinese_emperor_trigger = no
 				}
 			}
@@ -3162,7 +3162,7 @@ character_event = {
 				limit = {
 					is_chinese_emperor_trigger = yes
 				}
-				combatant_2 = {
+				event_target:combatant_2 = {
 					detract_grace_major_effect = yes
 				}
 			}
@@ -3174,7 +3174,7 @@ character_event = {
 						is_chinese_emperor_trigger = yes
 					}
 				}
-				combatant_2 = {
+				event_target:combatant_2 = {
 					detract_grace_medium_effect = yes
 				}
 			}
@@ -3191,7 +3191,7 @@ character_event = {
 						is_chinese_emperor_trigger = yes
 					}
 				}
-				combatant_2 = {
+				event_target:combatant_2 = {
 					detract_grace_minor_effect = yes
 				}
 			}
@@ -3419,7 +3419,7 @@ character_event = {
 		if = {
 			limit = {
 				has_dlc = "Jade Dragon"
-				combatant_2 = {
+				event_target:combatant_2 = {
 					is_chinese_emperor_trigger = no
 				}
 			}
@@ -3427,7 +3427,7 @@ character_event = {
 				limit = {
 					is_chinese_emperor_trigger = yes
 				}
-				combatant_2 = {
+				event_target:combatant_2 = {
 					detract_grace_major_effect = yes
 				}
 			}
@@ -3439,7 +3439,7 @@ character_event = {
 						is_chinese_emperor_trigger = yes
 					}
 				}
-				combatant_2 = {
+				event_target:combatant_2 = {
 					detract_grace_medium_effect = yes
 				}
 			}
@@ -3456,7 +3456,7 @@ character_event = {
 						is_chinese_emperor_trigger = yes
 					}
 				}
-				combatant_2 = {
+				event_target:combatant_2 = {
 					detract_grace_minor_effect = yes
 				}
 			}

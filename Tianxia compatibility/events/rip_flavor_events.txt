@@ -10012,7 +10012,7 @@ letter_event = {
 						is_chinese_emperor_trigger = yes
 					}
 				}
-				detract_grace_super_huge__effect = yes
+				detract_grace_super_huge_effect = yes
 			}
 			if = {
 				limit = {
@@ -10913,8 +10913,8 @@ character_event = {
 			limit = {
 				has_dlc = "Jade Dragon"
 				is_chinese_emperor_trigger = no
-			if = {
 			}
+			if = {
 				limit = {
 					event_target:suicide_duel_target = {
 						is_chinese_emperor_trigger = yes

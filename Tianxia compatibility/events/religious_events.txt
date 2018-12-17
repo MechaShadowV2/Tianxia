@@ -2406,7 +2406,7 @@ character_event = {
 						}
 					}
 					ROOT = {
-						detract_grace_minorr_effect = yes
+						detract_grace_minor_effect = yes
 					}
 				}
 			}

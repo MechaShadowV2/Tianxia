@@ -12830,9 +12830,9 @@ character_event = {
 			limit = {
 				has_dlc = "Jade Dragon"
 				is_chinese_emperor_trigger = yes
-				FROMFROMFROM = {
-					detract_grace_super_huge_effect = yes
-				}
+			}
+			FROMFROMFROM = {
+				detract_grace_super_huge_effect = yes
 			}
 			# The EoC presumably doesn't know if this happens to a relative, so don't check them!
 		}

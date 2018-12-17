@@ -507,7 +507,7 @@ character_event = { #Hero character's reaction, who then sends acceptance/refusa
 			if = {
 				limit = {
 					has_dlc = "Jade Dragon"
-					combatant_2 = {
+					event_target:combatant_2 = {
 						is_chinese_emperor_trigger = no
 					}
 				}
@@ -517,7 +517,7 @@ character_event = { #Hero character's reaction, who then sends acceptance/refusa
 							is_chinese_emperor_trigger = yes
 						}
 					}
-					combatant_2 = {
+					event_target:combatant_2 = {
 						detract_grace_major_effect = yes
 					}
 				}
@@ -531,7 +531,7 @@ character_event = { #Hero character's reaction, who then sends acceptance/refusa
 							}
 						}
 					}
-					combatant_2 = {
+					event_target:combatant_2 = {
 						detract_grace_medium_effect = yes
 					}
 				}
@@ -550,7 +550,7 @@ character_event = { #Hero character's reaction, who then sends acceptance/refusa
 							}
 						}
 					}
-					combatant_2 = {
+					event_target:combatant_2 = {
 						detract_grace_major_effect = yes
 					}
 				}

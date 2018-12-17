@@ -3232,7 +3232,7 @@ character_event = {
 			}
 			if = {
 				limit = {
-					FROM§ = {
+					FROM = {
 						is_chinese_emperor_trigger = no
 						NOT = {
 							e_china = {

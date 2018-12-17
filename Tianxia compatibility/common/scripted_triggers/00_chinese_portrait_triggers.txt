@@ -67,12 +67,17 @@ filial_piety_maiden_trigger = {					### Expected to follow filial piety but also
 song_dynasty_futou_trigger = {
 	#culture = han
 	culture_group = chinese_group
-	dynasty = 1051151 							### Song Dynasty, known in almost all official artwork as wearing their weird zhangokfutou
+	OR = {
+		dynasty = 1051151 							### Song Dynasty, known in almost all official artwork as wearing their weird zhangokfutou
+		any_owned_bloodline = {
+			has_flag = song_china # If someone creates a "Song Empire", give them the proper headgear!
+		}
+	}
 	is_female = no
 	#is_offmap_tag_including_dead = offmap_china
 	OR = {
 		has_landed_title = e_china
-		has_character_flag = dead_song_emperor # TODO
+		#trait = dead_song_emperor # TODO
 	}
 }
 
@@ -168,8 +173,8 @@ chinese_makeup_trigger = { 							### Facial makeup expected for those under tra
 		higher_real_tier_than = baron
 		spouse = { higher_real_tier_than = baron }
 		has_character_modifier = jd_princess
-		has_trait = dragon_bride_unmarried
-		has_triat = dragon_bride_married
+		trait = dragon_bride_unmarried
+		trait = dragon_bride_married
 	}
 }
 
@@ -179,8 +184,8 @@ chinese_empress_jewelry_trigger = {					### Used to display the strange facial j
 		higher_real_tier_than = duke
 		spouse = { higher_real_tier_than = duke }
 		has_character_modifier = jd_princess
-		has_trait = dragon_bride_unmarried
-		has_triat = dragon_bride_married
+		trait = dragon_bride_unmarried
+		trait = dragon_bride_married
 	}
 }
 

@@ -88,7 +88,7 @@ narrative_event = {
 	option = { name = EVTOPTA_IN_001
 		character_event = { id = indonesia.4 days = 1 }
 
-		ai_chaince = {
+		ai_chance = {
 			factor = 100
 			modifier = {
 				factor = 0
@@ -266,7 +266,7 @@ character_event = {
 	option = {
 		name = EVTOPTB_IN_024
 		add_trait = craven
-		character_event = { id = 1000400001 }
+		character_event = { id = indonesia.2 }
 	}
 }
 
@@ -898,7 +898,7 @@ character_event = {
 			}
 			modifier = {
 				factor = 0
-				religion_authorty = 0.7
+				religion_authority = 0.7
 				NOT = {
 					true_religion_group = muslim
 				}
@@ -1132,7 +1132,7 @@ character_event = {
 					}
 				}
 			}
-			flip_secret_religion_effect = yes
+			flip_to_secret_religion_effect = yes
 		}
 		if = { # If we were not in a secret_cult, pick a random religion
 			limit = {
@@ -1207,7 +1207,7 @@ character_event = {
 			}
 			modifier = {
 				factor = 0
-				religion_authorty = 0.7
+				religion_authority = 0.7
 				NOT = {
 					true_religion_group = muslim
 				}
@@ -1284,7 +1284,7 @@ character_event = {
 			}
 			modifier = {
 				factor = 0
-				religion_authorty = 0.7
+				religion_authority = 0.7
 				NOT = {
 					true_religion_group = muslim
 				}
@@ -1311,45 +1311,45 @@ character_event = {
 }
 	
 # Prophet orders - obsolete
-character_event = {
-	id = indonesia.15
-	desc = EVTDESC_IN_011
-	picture = GFX_evt_bishop_preaching_from_pulpit_muslim
-
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA_IN_011
-		random_list = {
-			50 = {
-			character_event = { id = 1000400016 }}	
-			50 = {
-			character_event = { id = 1000400017 }
-			}
-		}
-	}
-}
+#character_event = {
+#	id = indonesia.15
+#	desc = EVTDESC_IN_011
+#	picture = GFX_evt_bishop_preaching_from_pulpit_muslim
+#
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = EVTOPTA_IN_011
+#		random_list = {
+#			50 = {
+#			character_event = { id = 1000400016 }}	
+#			50 = {
+#			character_event = { id = 1000400017 }
+#			}
+#		}
+#	}
+#}
 	
 # Prophet orders two - obsolete
-character_event = {
-	id = indonesia.16
-	desc = EVTDESC_IN_012
-	picture = GFX_evt_bishop_preaching_from_pulpit_muslim
-
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA_IN_012
-		random_list = {
-			40 = {
-			character_event = { id = 1000400016 }}	
-			40 = {
-			character_event = { id = 1000400017 }}			
-			20 = { add_trait = lunatic }
-
-		}
-	}
-}
+#character_event = {
+#	id = indonesia.16
+#	desc = EVTDESC_IN_012
+#	picture = GFX_evt_bishop_preaching_from_pulpit_muslim
+#
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = EVTOPTA_IN_012
+#		random_list = {
+#			40 = {
+#			character_event = { id = 1000400016 }}	
+#			40 = {
+#			character_event = { id = 1000400017 }}			
+#			20 = { add_trait = lunatic }
+#
+#		}
+#	}
+#}
 
 # Wake up
 character_event = {
@@ -1366,7 +1366,7 @@ character_event = {
 	
 # Wake up Convinced
 character_event = {
-	id = indonesia.17
+	id = indonesia.18
 	desc = EVTDESC_IN_014
 	picture = GFX_evt_bishop_preaching_from_pulpit_muslim
 
@@ -1478,7 +1478,7 @@ character_event = {
 			}
 			modifier = {
 				factor = 0
-				religion_authorty = 0.7
+				religion_authority = 0.7
 				NOT = {
 					true_religion_group = muslim
 				}
@@ -1566,7 +1566,7 @@ character_event = {
 			}
 			modifier = {
 				factor = 0
-				religion_authorty = 0.7
+				religion_authority = 0.7
 				NOT = {
 					true_religion_group = muslim
 				}
@@ -1581,7 +1581,7 @@ character_event = {
 			}
 		}
 		name = EVTOPTD_IN_018
-		secret_religion = sunni
+		set_secret_religion = sunni
 		
 		ai_chance = {
 			factor = 100
@@ -1610,7 +1610,7 @@ character_event = {
 			}
 			modifier = {
 				factor = 0
-				religion_authorty = 0.7
+				religion_authority = 0.7
 				NOT = {
 					true_religion_group = muslim
 				}
@@ -2269,7 +2269,7 @@ character_event = {
 			}
 			modifier = {
 				factor = 0
-				religion_authorty = 0.7
+				religion_authority = 0.7
 				NOT = {
 					true_religion_group = muslim
 				}
@@ -2359,7 +2359,7 @@ character_event = {
 			}
 			modifier = {
 				factor = 0
-				religion_authorty = 0.7
+				religion_authority = 0.7
 				NOT = {
 					true_religion_group = muslim
 				}

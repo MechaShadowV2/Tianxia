@@ -73,6 +73,8 @@
 # 129 - Rain Good           - 130
 # 131 - Rain Storm          - 132
 # 133 - Sun   	            - 134
+
+
 # game\gfx\interface\modifier_icons.dds
 
 #Variables:
@@ -6988,7 +6990,7 @@ tribal_festival_bought_cheap_trinkets = {
 mud_splatter = {
 	icon = 25
 	sex_appeal_opinion = -15
-	monthly_character_prestige = 0.25
+	monthly_character_prestige = -0.25
 }
 tribal_king_of_fair = {
 	icon = 7

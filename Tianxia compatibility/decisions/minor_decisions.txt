@@ -17,9 +17,9 @@ decisions = {
 				religion_group = jewish_group
 				has_alternate_start_parameter = { key = religion_names value = random }
 			}
-			#NOT = { # Why?
-			#	religion = manichean
-			#}
+			NOT = {
+				religion = manichean
+			}
 			NOT = {
 				has_character_modifier = holding_large_feast
 			}
@@ -867,6 +867,7 @@ decisions = {
 		ai_will_do = {
 			factor = 0
 		}
+	}
 	
 	settle_iceland = {
 		only_playable = yes
@@ -1481,6 +1482,7 @@ decisions = {
 				limit = { has_character_modifier = follower_of_bida }
 				remove_character_modifier = follower_of_bida
 			}
+			if = {
 				limit = { has_character_modifier = follower_of_tsumburbura }
 				remove_character_modifier = follower_of_tsumburbura
 			}

@@ -601,7 +601,7 @@ character_event = {
 	
     option = {
         name = EVTOPTA_Hwarang_218.4
-		give_minor_title = seju
+		give_minor_title = title_seju
 		FROM = {
 			opinion = {
 				modifier = delighted
@@ -659,11 +659,11 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-			society_member_of = flower_knights
-			random_society_member = { has_trait = wounded }
+		society_member_of = flower_knights
+		random_society_member = { trait = wounded }
 	}
 	
-weight_multiplier = {
+	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 0.5
@@ -689,34 +689,52 @@ weight_multiplier = {
 			factor = 0.5
 			learning = 4
 		}		
-		}
+	}
 		
-	immediate = { random_society_member = { limit = { has_trait = wounded } save_event_target_as = wounded_hwarang }   }	
+	immediate = {
+		random_society_member = {
+			limit = {
+				trait = wounded
+			}
+			save_event_target_as = wounded_hwarang
+		}
+	}	
 
 		
 	option = {
 		name = EVTOPTA_KO_001
 		change_society_currency = 50
 		trigger = { learning = 10 }
-	event_target:wounded_hwarang  = {
-		remove_trait = wounded
-		character_event = { id = Hwarang.225 }
+		event_target:wounded_hwarang = {
+			remove_trait = wounded
+			character_event = { id = Hwarang.226 }
 		}								
 	}
-		option = {
+	
+	option = {
 		name = EVTOPTB_KO_001
 		change_society_currency = 25
-		guardian = { limit = { NOT = { has_character_flag = hwarang_guardian_passive } character_event = { id = Hwarang.228 }  } }
-	event_target:wounded_hwarang  = {
-		health = 0.1
-		character_event = { id = Hwarang.226 }
-		}			
-	}
+		
+		if = {
+			limit = {
+				guardian = {
+					NOT = {
+						has_character_flag = hwarang_guardian_passive
+					}
+				}
+			}
+			character_event = { id = Hwarang.228
+		}
+		event_target:wounded_hwarang  = {
+			health = 0.1
+			character_event = { id = Hwarang.227 }
+			}			
+		}
 		option = {
 		name = EVTOPTC_KO_001
 		change_society_currency = -25		
 	}	
-	}
+}
 	
 #Wounded Hwarang thanks comrade for cast
 character_event = {
@@ -728,21 +746,23 @@ character_event = {
     option = {
         name = EVTOPTB_Hwarang_219.2
 		clear_event_target = wounded_hwarang
-		FROM = { guardian = { limit = { NOT = { has_character_flag = hwarang_guardian_passive } character_event = { id = Hwarang.228 }  } } }
-			opinion = {
-				modifier = saved_on_battlefield
-				who = FROM
-				years = 5
-					}	
-		IF = {
-			has_dlc = "Zeus"
-			NOT = {
-				holds_favor_on = FROM
+		FROM = {
+			if = {
+				limit = {
+					guardian = {
+						NOT = {
+							has_character_flag = hwarang_guardian_passive
+						}
+					}
+				}
+				character_event = { id = Hwarang.228 }
 			}
-			FROM = {
-				reverse_add_favor = FROM
-			}
-		}		
+		}
+		opinion = {
+			modifier = saved_on_battlefield
+			who = FROM
+			years = 5
+		}	
 	}	
 }
 
@@ -754,15 +774,24 @@ character_event = {
     is_triggered_only = yes
 	
     option = {
-	name = EVTOPTA_Hwarang_219.3
-			opinion = {
-				modifier = campaign_friend
-				who = FROM
-				years = 5
-					}	
-clear_event_target = wounded_hwarang	
-FROM = { guardian = { limit = { NOT = { has_character_flag = hwarang_guardian_passive } character_event = { id = Hwarang.228 }  } } }	
-        
+		name = EVTOPTA_Hwarang_219.3
+		opinion = {
+			modifier = campaign_friend
+			who = FROM
+			years = 5
+		}	
+		clear_event_target = wounded_hwarang	
+		FROM = {
+			if = {
+				limit = {
+					guardian = {
+						NOT = {
+							has_character_flag = hwarang_guardian_passive
+						}
+					character_event = { id = Hwarang.228 }
+				}
+			}
+		}
 	}	
 }
 
@@ -1075,7 +1104,7 @@ character_event = {
 	option = {
 	name = EVTOPTA_Hwarang_220.14
 			random_list = {
-				20 = { add_trait = coward scaled_wealth = 0.1 }
+				20 = { add_trait = craven scaled_wealth = 0.1 }
 				80 = { scaled_wealth = 0.1 }
 			}	
 		}	
@@ -1320,9 +1349,18 @@ character_event = {
 	prisoner = no
 	is_triggered_only = yes
 	
-	immediate = { random_realm_lord = { limit = {
-												AND = {	distance = { who = ROOT value = 150 } 
-													    tier = baron } save_event_target_as = credits_baron } } } 
+	immediate = { 
+		random_realm_lord = {
+			limit = {
+				distance = {
+					who = ROOT
+					value = 150
+				}
+				tier = baron
+			}
+			save_event_target_as = credits_baron
+		}
+	}
 
 		
 	option = {
@@ -1919,37 +1957,37 @@ narrative_event = {
 	option = {
 	name = EVTOPTA_Hwarang_222.79
 	change_society_currency = 500 #reward
-	hidden_tooltip = {
-	
-        if = {
-            limit = { FROM = { has_character_flag = weapon_sword } }
-            add_artifact = sword_tier_2
-        }
-        if = {
-            limit = { FROM = { has_character_flag = weapon_scimitar } }
-            add_artifact = scimitar_tier_2
-        }
-        if = {
-            limit = { FROM = { has_character_flag = weapon_lance } }
-            add_artifact = lance_tier_2
-        }
-        if = {
-            limit = { FROM = { has_character_flag = weapon_axe } }
-            add_artifact = axe_tier_2
-        }
-        if = {
-            limit = { FROM = { has_character_flag = weapon_mace } }
-            add_artifact = mace_tier_2
-        }
-        if = {
-            limit = { FROM = { has_character_flag = weapon_bow } }
-            add_artifact = bow_tier_2
-        }
-        if = {
-            limit = { FROM = { has_character_flag = armor_set } }
-            add_artifact = armor_tier_2
-        }	
-	}
+#	hidden_tooltip = { # What are these artefacts - in particular, are they DLC-locked artefacts without a proper lock?
+#	
+#        if = {
+#            limit = { FROM = { has_character_flag = weapon_sword } }
+#            add_artifact = sword_tier_2
+#        }
+#        if = {
+#            limit = { FROM = { has_character_flag = weapon_scimitar } }
+#            add_artifact = scimitar_tier_2
+#        }
+#        if = {
+#            limit = { FROM = { has_character_flag = weapon_lance } }
+#            add_artifact = lance_tier_2
+#        }
+#        if = {
+#            limit = { FROM = { has_character_flag = weapon_axe } }
+#            add_artifact = axe_tier_2
+#        }
+#        if = {
+#            limit = { FROM = { has_character_flag = weapon_mace } }
+#            add_artifact = mace_tier_2
+#        }
+#        if = {
+#            limit = { FROM = { has_character_flag = weapon_bow } }
+#            add_artifact = bow_tier_2
+#        }
+#        if = {
+#            limit = { FROM = { has_character_flag = armor_set } }
+#            add_artifact = armor_tier_2
+#        }	
+#	}
 	custom_tooltip = { text = EVTOPTA_Hwarang_222.79 }
 	ROOT = { top_liege = { random_child = {
 				limit = {

@@ -1,5 +1,4 @@
 pagan_group = {
-	# TODO: Add reformation effects
 	# TODO: Possibly add new HF stuff (Eldership pre-reformation, male consorts, etc.)
 	# TODO: Warrior lodges (where desired)
 	# TODO: Random world stuff (not a priority)
@@ -22,11 +21,11 @@ pagan_group = {
 			THE_VINAYAKAS
 		}
 		
-		unit_modifier = {		
-			garrison_size = 0.4
-			
-			key = "DEF_RELIGION"
-		}
+	#	unit_modifier = {		
+	#		garrison_size = 0.4
+	#		
+	#		key = "DEF_RELIGION"
+	#	}
 	#	unit_home_modifier = {
 	#		land_morale = 0.8
 	#		light_infantry_defensive = 0.8
@@ -49,7 +48,6 @@ pagan_group = {
 		priest_title = PUJARI
 		piety_name = KARMA
 		
-	#	has_heir_designation = yes
 		priests_can_inherit = no
 		priests_can_marry = yes
 		allow_looting = yes
@@ -115,7 +113,6 @@ pagan_group = {
 		priest_title = PUJARI
 		piety_name = KARMA
 		
-		#has_heir_designation = yes
 		priests_can_inherit = no
 		priests_can_marry = yes
 		allow_looting = yes
@@ -377,7 +374,7 @@ pagan_group = {
 		priest_title = PUJARI
 		piety_name = KARMA
 		
-		#has_heir_designation = yes
+		#has_heir_designation = yes # This is something you need to reform to get
 		priests_can_inherit = no
 		priests_can_marry = yes
 		max_consorts = 3
@@ -510,7 +507,7 @@ pagan_group = {
 		priest_title = THAN
 		piety_name = TAO
 		
-		#has_heir_designation = yes
+		#has_heir_designation = yes # This is something you need to reform to get
 		priests_can_inherit = no
 		priests_can_marry = yes
 		max_consorts = 3

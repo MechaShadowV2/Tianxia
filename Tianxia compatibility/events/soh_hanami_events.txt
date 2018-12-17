@@ -12778,9 +12778,13 @@ character_event = {
 									ROOT = {
 										random_vassal = {
 											limit = {
+												has_character_flag = coming_to_hanami
 												NOT = {
-													has_character_flag = coming_to_hanami
-													character = PREVPREV
+													event_target:hanami_lover_1 = {
+														NOT = {
+															character = PREV
+														}
+													}
 												}
 											}
 											random_list = {
@@ -12802,13 +12806,13 @@ character_event = {
 														OR = {
 															AND = {
 																is_female = no
-																PREVPREV = {
+																event_target:hanami_lover_1 = {
 																	prefers_men_trigger = no
 																}
 															}
 															AND = {
 																is_female = yes
-																PREVPREV = {
+																event_target:hanami_lover_1 = {
 																	prefers_men_trigger = yes
 																}
 															}
@@ -12819,13 +12823,13 @@ character_event = {
 														OR = {
 															AND = {
 																prefers_men_trigger = no
-																PREVPREV = {
+																event_target:hanami_lover_1 = {
 																	is_female = no
 																}
 															}
 															AND = {
 																prefers_men_trigger = yes
-																PREVPREV = {
+																event_target:hanami_lover_1 = {
 																	is_female = yes
 																}
 															}
@@ -12848,13 +12852,13 @@ character_event = {
 															OR = {
 																AND = {
 																	is_female = yes
-																	PREVPREV = {
+																	event_target:hanami_lover_1 = {
 																		prefers_men_trigger = no
 																	}
 																}
 																AND = {
 																	is_female = no
-																	PREVPREVPREV = {
+																	event_target:hanami_lover_1 = {
 																		prefers_men_trigger = yes
 																	}
 																}
@@ -12862,13 +12866,13 @@ character_event = {
 															OR = {
 																AND = {
 																	is_female = yes
-																	PREVPREV = {
+																	event_target:hanami_lover_1 = {
 																		prefers_men_trigger = no
 																	}
 																}
 																AND = {
 																	is_female = no
-																	PREVPREVPREV = {
+																	event_target:hanami_lover_1 = {
 																		prefers_men_trigger = yes
 																	}
 																}
@@ -12898,9 +12902,13 @@ character_event = {
 										ROOT = {
 											random_vassal = {
 												limit = {
+													has_character_flag = coming_to_hanami
 													NOT = {
-														has_character_flag = coming_to_hanami
-														character = PREVPREVPREV
+														event_target:hanami_lover_1 = {
+															NOT = {
+																character = PREV
+															}
+														}
 													}
 												}
 												random_list = {
@@ -12922,13 +12930,13 @@ character_event = {
 															OR = {
 																AND = {
 																	is_female = no
-																	PREVPREV = {
+																	event_target:hanami_lover_1 = {
 																		prefers_men_trigger = no
 																	}
 																}
 																AND = {
 																	is_female = yes
-																	PREVPREV = {
+																	event_target:hanami_lover_1 = {
 																		prefers_men_trigger = yes
 																	}
 																}
@@ -12939,13 +12947,13 @@ character_event = {
 															OR = {
 																AND = {
 																	prefers_men_trigger = no
-																	PREVPREV = {
+																	event_target:hanami_lover_1 = {
 																		is_female = no
 																	}
 																}
 																AND = {
 																	prefers_men_trigger = yes
-																	PREVPREV = {
+																	event_target:hanami_lover_1 = {
 																		is_female = yes
 																	}
 																}
@@ -12968,13 +12976,13 @@ character_event = {
 																OR = {
 																	AND = {
 																		is_female = yes
-																		PREVPREV = {
+																		event_target:hanami_lover_1 = {
 																			prefers_men_trigger = no
 																		}
 																	}
 																	AND = {
 																		is_female = no
-																		PREVPREVPREV = {
+																		event_target:hanami_lover_1 = {
 																			prefers_men_trigger = yes
 																		}
 																	}
@@ -12982,13 +12990,13 @@ character_event = {
 																OR = {
 																	AND = {
 																		is_female = yes
-																		PREVPREV = {
+																		event_target:hanami_lover_1 = {
 																			prefers_men_trigger = no
 																		}
 																	}
 																	AND = {
 																		is_female = no
-																		PREVPREVPREV = {
+																		event_target:hanami_lover_1 = {
 																			prefers_men_trigger = yes
 																		}
 																	}
@@ -13556,7 +13564,7 @@ character_event = {
 											root_attraction_trigger = yes
 										}
 										NOT = {
-											attracted_to_root_trigger = yes
+											attacted_to_root_trigger = yes # Vanilla trigger typo
 										}
 									}
 								}

@@ -8797,23 +8797,23 @@ narrative_event = {
 					}
 				}
 			}
-			if = {
-				limit = {
-					has_dlc = "Jade Dragon"
-					offmap_china = {
-						OR = {
-							NOT = { has_offmap_flag = china_invaded_player_dynasty }
-							had_offmap_tmp_flag = {
-								flag = china_invaded_player_dynasty
-								years = 200
-							}
-						}
-					}
-				}
-				event_target:mongol_china_invader = {
-					character_event = { id = 60531 days = 100 random = 100 }
-				}
-			}
+			#if = {
+			#	limit = {
+			#		has_dlc = "Jade Dragon"
+			#		offmap_china = {
+			#			OR = {
+			#				NOT = { has_offmap_flag = china_invaded_player_dynasty }
+			#				had_offmap_tmp_flag = {
+			#					flag = china_invaded_player_dynasty
+			#					years = 200
+			#				}
+			#			}
+			#		}
+			#	}
+			#	event_target:mongol_china_invader = {
+			#		character_event = { id = 60531 days = 100 random = 100 }
+			#	}
+			#}
 		}
 		if = {
 			limit = {

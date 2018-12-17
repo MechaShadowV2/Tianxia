@@ -3459,8 +3459,8 @@ character_event = {
 				detract_grace_massive_effect = yes
 			}
 			if = {
-				FROM = {
-					limit = {
+				limit = {
+					FROM = {
 						is_chinese_emperor_trigger = no
 						NOT = {
 							any_close_relative = {
@@ -3514,7 +3514,7 @@ character_event = {
 			}
 			if = {
 				limit = {
-				FROM = {
+					FROM = {
 						is_chinese_emperor_trigger = yes
 					}
 				}
@@ -3533,8 +3533,8 @@ character_event = {
 				detract_grace_massive_effect = yes
 			}
 			if = {
-				FROM = {
-					limit = {
+				limit = {
+					FROM = {
 						is_chinese_emperor_trigger = no
 						NOT = {
 							any_close_relative = {
@@ -3606,8 +3606,8 @@ character_event = {
 				detract_grace_massive_effect = yes
 			}
 			if = {
-				FROM = {
-					limit = {
+				limit = {
+					FROM = {
 						is_chinese_emperor_trigger = no
 						NOT = {
 							any_close_relative = {
@@ -3809,8 +3809,8 @@ character_event = {
 				detract_grace_massive_effect = yes
 			}
 			if = {
-				FROM = {
-					limit = {
+				limit = {
+					FROM = {
 						is_chinese_emperor_trigger = no
 						NOT = {
 							any_close_relative = {

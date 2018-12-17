@@ -10315,7 +10315,7 @@ character_event = {
 						}
 					}
 				}
-				detract_grace_minot_effect = yes
+				detract_grace_minor_effect = yes
 			}
 		}
 	}

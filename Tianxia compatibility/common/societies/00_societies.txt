@@ -2728,6 +2728,14 @@ hermetics = {
 					religion = hellenic_pagan_reformed
 				}
 			}
+			OR = { # While using the wrong Zodiac signs, this is suitable, and Taoists also get Hermetic access
+				religion = chinese_pagan
+				religion = chinese_pagan_reformed
+			}
+			OR = { # Sensible
+				religion = sanamahi_pagan
+				religion = sanamahi_pagan_reformed
+			}
 			religion = taoist
 		}
 		NOR = {

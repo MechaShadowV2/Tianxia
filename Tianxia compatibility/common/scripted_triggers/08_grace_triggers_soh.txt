@@ -1037,7 +1037,7 @@ china_hates_root_trigger = {
 							trait = tribal_kinslayer
 						}
 					} 
-				)
+				}
 				has_opinion_modifier = {
 					who = ROOT
 					modifier = opinion_promsied_to_depose_me
@@ -2079,7 +2079,7 @@ china_hates_from_trigger = {
 							trait = tribal_kinslayer
 						}
 					} 
-				)
+				}
 				has_opinion_modifier = {
 					who = FROM
 					modifier = opinion_promsied_to_depose_me
@@ -3122,7 +3122,7 @@ china_hates_fromfrom_trigger = {
 							trait = tribal_kinslayer
 						}
 					} 
-				)
+				}
 				has_opinion_modifier = {
 					who = FROMFROM
 					modifier = opinion_promsied_to_depose_me
@@ -4166,7 +4166,7 @@ china_hates_fromfromfrom_trigger = {
 							trait = tribal_kinslayer
 						}
 					} 
-				)
+				}
 				has_opinion_modifier = {
 					who = FROMFROMFROM
 					modifier = opinion_promsied_to_depose_me

@@ -58,10 +58,8 @@ religion_doctrine = {
 			hidden_tooltip = {
 				set_heir_designation = yes
 			}
-			effect = {
-				custom_tooltip = { text = tooltip_religion_feature_astrology }
-				custom_tooltip = { text = tooltip_religion_feature_hermetics }
-			}
+			custom_tooltip = { text = tooltip_religion_feature_astrology }
+			custom_tooltip = { text = tooltip_religion_feature_hermetics }
 		}
 		
 		ai_will_do = {
