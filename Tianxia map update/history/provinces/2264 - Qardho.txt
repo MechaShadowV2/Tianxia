@@ -1,0 +1,17 @@
+# 2264 - Bayla
+
+# County Title
+title = c_qardho
+
+# Settlements
+max_settlements = 1
+
+b_qardho = tribal
+#b_bayla
+# Needs baronies!
+
+# Misc
+culture = somali
+religion = sunni
+
+# History

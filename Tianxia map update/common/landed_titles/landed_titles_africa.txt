@@ -337,7 +337,6 @@ e_abyssinia = {
 				color2={ 255 255 255 } # TODO
 				
 				b_irgalem = {}
-				b_awasa = {}
 				# Needs baronies!
 			}
 		}
@@ -393,10 +392,11 @@ e_abyssinia = {
 				b_garoowe = {}
 				# Needs baronies!
 			}
-			c_bayla = { # New
+			c_qardho = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
+				b_qardho = {}
 				b_bayla = {}
 				# Needs baronies!
 			}

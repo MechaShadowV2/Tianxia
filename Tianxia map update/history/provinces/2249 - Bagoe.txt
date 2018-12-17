@@ -6,7 +6,7 @@ title = c_bagoe
 # Settlements
 max_settlements = 1
 
-b_bagoe = tribal
+b_tingrela = tribal
 # Needs baronies!
 
 # Misc

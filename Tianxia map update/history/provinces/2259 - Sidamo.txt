@@ -7,7 +7,6 @@ title = c_sidamo
 max_settlements = 1
 
 b_irgalem = tribal
-#b_awasa
 # Needs baronies!
 
 # Misc
