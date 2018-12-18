@@ -723,7 +723,7 @@ character_event = {
 					}
 				}
 			}
-			character_event = { id = Hwarang.228
+			character_event = { id = Hwarang.228 }
 		}
 		event_target:wounded_hwarang  = {
 			health = 0.1
@@ -788,6 +788,7 @@ character_event = {
 						NOT = {
 							has_character_flag = hwarang_guardian_passive
 						}
+					}
 					character_event = { id = Hwarang.228 }
 				}
 			}

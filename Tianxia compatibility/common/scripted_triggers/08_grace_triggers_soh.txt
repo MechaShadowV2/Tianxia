@@ -6238,7 +6238,7 @@ china_hates_prevprev_trigger = {
 							trait = tribal_kinslayer
 						}
 					} 
-				)
+				}
 				has_opinion_modifier = {
 					who = PREVPREV
 					modifier = opinion_promsied_to_depose_me
