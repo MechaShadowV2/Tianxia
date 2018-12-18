@@ -76,3 +76,23 @@ region_kolguyev = {
 region_greenland = {
 	provinces = { 2180 }
 }
+
+region_andaman = {
+	provinces = { 2266 }
+}
+
+region_nicobar = {
+	provinces = { 2267 }
+}
+
+region_pulau = {
+	provinces = { 2277 }
+}
+
+region_nias = {
+	provinces = { 2278 }
+}
+
+region_tanahbala = {
+	provinces = { 2279 }
+}

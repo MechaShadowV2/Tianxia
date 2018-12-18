@@ -1,0 +1,264 @@
+e_nusantara = {
+	color = { 255 224 149 }
+	color2 = { 90 90 90 }
+
+	#capital = 2089 # Palembang # Needs new id
+
+	culture = malay
+	
+	k_lamuri = { # New
+		color = { 255 174 179 } # TODO
+		color2 = { 90 90 90 } # TODO
+		
+		culture = acehnese
+		
+		capital = 2270 # Lamun
+		
+		d_andaman = { # New
+			color = { 255 174 179 } # TODO
+			color2 = { 90 90 90 } # TODO
+			
+			capital = 2267 # Andaman
+			
+			c_andaman = {
+				color = { 255 10 0 }
+				color2 = { 255 255 255 }
+				
+				b_manjery = {
+				}
+				b_rangat = {
+				}
+				b_mayabunder = {
+				}
+				b_madhupur2 = {
+				}
+				b_geinyale = {
+				}
+				b_chetamale = {
+				}
+				b_palalankwe = {
+				}
+			}
+			c_nicobar = {
+				color = {230 190 150}
+				color2 = {90 90 90}
+				
+				b_naggadipa = {
+				}
+				b_tranquebar = {
+				}
+				
+				# Needs baronies
+			}
+		}
+		
+		d_aceh = {
+			color = { 255 174 179 }
+			color2 = { 90 90 90 }
+
+			capital = 2270 # Lamun
+			
+			c_lamuri = {
+				color = {270 174 149}
+				color2 = {90 90 90}
+				
+				holy_site = melanesian_pagan
+				holy_site = melanesian_pagan_reformed
+				
+				b_lamuri = {
+				}
+				
+				# Needs baronies!
+			}
+			c_pasai = {
+				color = {280 174 160}
+				color2 = {90 90 90}
+				
+				b_pasai = {
+				}
+				
+				# Needs baronies!
+			}
+			c_perlak = {
+				color = {240 160 170}
+				color2 = {90 90 90}
+				
+				b_perlak = {
+				}
+				
+				# Needs baronies!
+			}
+			c_lamun = {
+				color = { 245 174 139 }
+				color2 = { 90 90 90 }
+				
+				b_lamun = {
+				}
+				b_limbang = {
+				}
+				b_miri = {
+				}
+				b_marudi = {
+				}
+				b_lawas = {
+				}
+				b_labuan = {
+				}
+				b_bangar = {
+				}
+				b_siritang = {
+				}
+			}
+			c_gayo = {
+				color = { 245 174 129 }
+				color2 = { 90 90 90 }
+				
+				b_gayo = {
+				}
+				b_tangan_tangan = {
+				}
+				b_labuhan_haji = {
+				}
+				b_susoh = {
+				}
+				b_blang_pidie = {
+				}
+				b_meukek = {
+				}
+				b_sawang_manggeng = {
+				}
+				b_sama_dua = {
+				}
+			}
+		}
+		
+		d_aru = { # New
+			color = { 245 174 119 } # TODO
+			color2 = { 90 90 90 } # TODO
+			
+			capital = 2276 # Aru
+			
+			c_aru = {
+				color = { 245 174 119 }
+				color2 = { 90 90 90 }
+				
+				b_aru = {
+				}
+				# TODO: Check to see if these baronies have ended up in c_peureulak!
+				b_binjai = {
+				}
+				b_hamparan_perak = {
+				}
+				b_perbaungan = {
+				}
+				b_tebing_tinggi = {
+				}
+				b_raya_kahean = {
+				}
+				b_sei_bingai = {
+				}
+				b_batang_serangan = {
+				}
+			}
+			
+			c_peureulak = { # New
+				color = { 245 174 119 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_peureulak = {}
+				
+				# Needs baronies!
+			}
+		}
+		
+		d_suvarnadvipa = {
+			color = { 225 194 129 }
+			color2 = { 90 90 90 }
+
+			capital = 2277 # Barus
+			
+			c_singkil = {
+				color = {245 184 159}
+				color2 = {90 90 90}
+				
+				b_singkil = {
+				}
+				# Needs baronies!
+			}
+			c_mandailing = {
+				color = {250 200 180}
+				color2 = {90 90 90}
+				
+				b_mandailing = {
+				}
+				# Needs baronies!
+			}
+			c_barus = {
+				color = { 245 184 139 }
+				color2 = { 90 90 90 }
+				
+				b_barus = {
+				}
+				b_sosor_gadong = {
+				}
+				b_pakkat = {
+				}
+				b_onan_ganjang = {
+				}
+				b_manduamas = {
+				}
+				b_trumon = {
+				}
+				b_bakongan = {
+				}
+			}
+		}
+		
+		d_nias = { # New
+			color = { 245 184 119 } # TODO
+			color2 = { 90 90 90 } # TODO
+			
+			capital = 2279 # Nias
+			
+			c_nias = {
+				color = { 245 184 119 }
+				color2 = { 90 90 90 }
+				
+				holy_site = dayak_pagan
+				holy_site = dayak_pagan_reformed
+				
+				b_nias = {
+				}
+				# Check these baronies to see if they're in c_pulau or c_tanahbala!
+				b_labuhanrima = {
+				}
+				b_lambak = {
+				}
+				b_muarsiget = {
+				}
+				b_kagogolo = {
+				}
+				b_sibabau = {
+				}
+				b_gilitar = {
+				}
+				b_pulau_telo = {
+				}
+			}
+			c_pulau = { # New
+				color = { 245 184 119 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_pulau = {}
+				# Needs baronies
+			}
+			c_tanahbala = { # New
+				color = { 245 184 119 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_tanahbala = {}
+				# Needs baronies
+			}
+		}
+	}
+}
