@@ -50,15 +50,22 @@ technology = {
 		d_aru
 		d_nias
 		d_suvarnadvipa
-		#d_langkasuka
-		#d_kelantan
-		#d_melaka
-		#d_kalingga
-		#d_sundan
-		#d_medang
-		#d_blambangan
-		#d_sunda
-		#d_lahat
+		d_panai
+		d_kampar
+		d_mentawai
+		d_padang
+		d_pelalawan
+		d_riau_islands
+		d_kerinci
+		d_palembang
+		d_muara_enim
+		d_bengkulu
+		d_lampung
+		d_kalingga
+		d_sundan
+		d_medang
+		d_blambangan
+		d_sunda
 	}
 	
 	769 = {

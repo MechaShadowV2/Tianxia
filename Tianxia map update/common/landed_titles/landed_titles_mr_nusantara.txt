@@ -2,7 +2,7 @@ e_nusantara = {
 	color = { 255 224 149 }
 	color2 = { 90 90 90 }
 
-	#capital = 2089 # Palembang # Needs new id
+	capital = 2305 # Palembang
 
 	culture = malay
 	
@@ -258,6 +258,868 @@ e_nusantara = {
 				
 				b_tanahbala = {}
 				# Needs baronies
+			}
+		}
+	}
+	
+	k_riau = { # New
+		color = { 205 194 169 } # TODO
+		color2 = { 90 90 90 } # TODO
+
+		capital = 2292 # Pelalawan
+		
+		culture = malay
+		
+		d_panai = {
+			color = { 205 194 169 }
+			color2 = { 90 90 90 }
+
+			capital = 2281 # Panai
+			
+			c_panai = {
+				color = { 245 194 139 }
+				color2 = { 90 90 90 }
+				
+				b_panai = {
+				}
+				# Check to see if some of these have ended up in c_rokan
+				b_senaboi = {
+				}
+				b_rimba_melintang = {
+				}
+				b_bangko_pusaka = {
+				}
+				b_kualuh_hilir = {
+				}
+				b_kubu = {
+				}
+				b_bilah_hilir = {
+				}
+				b_aek_kuo = {
+				}
+			}
+			c_rokan = { # New
+				color = { 245 194 139 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_bagansiapiapi = {} # Founded well after the era, but needs something...
+				# Needs baronies!
+			}
+			c_dumai = { # New
+				color = { 245 194 139 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_dumai = {}
+				# Needs baronies!
+			}
+		}
+		
+		d_kampar = { # New
+			color = { 250 205 145} # TODO
+			color2 ={90 90 90} # TODO
+			
+			capital = 2289 # Kampar
+			
+			c_kampar = {
+				color = { 250 205 145}
+				color2 ={90 90 90}
+				
+				b_kampar = {
+				}
+				# Need to be checked to see that they're in the proper province
+				b_pekan_baru = {
+				}
+			}
+			c_bahal = {
+				color = { 245 194 129 }
+				color2 = { 90 90 90 }
+				
+				b_bahal = {
+				}
+				# Need to be checked to see that they're in the proper province
+				b_kepenuhan = {
+				}
+				b_tembusai_hutara = {
+				}
+				b_rambah_samo = {
+				}
+				b_tandun = {
+				}
+				b_tapung_kiri = {
+				}
+				b_koto_kampar = {
+				}
+				b_bangkinang = {
+				}
+			}
+			c_kuantan_singingi = { # New
+				color = { 250 205 145} # TODO
+				color2 ={90 90 90} # TODO
+				
+				b_kuantan_singingi = {}
+				# Needs baronies!
+			}
+		}
+		
+		d_mentawai = { # New
+			color = {280 180 160}
+			color2 = {90 90 90}
+			
+			capital = 2283 # Sipura
+			
+			c_siberut = {
+				color = {280 180 160} # TODO
+				color2 = {90 90 90} # TODO
+				
+				b_bobokan = {}
+				# Needs baronies!
+			}
+			c_sipura = {
+				color = {280 180 160} # TODO
+				color2 = {90 90 90} # TODO
+				
+				b_tua_pejat = {}
+				# Needs baronies
+			}
+			c_pagai = {
+				color = {280 180 160} # TODO
+				color2 = {90 90 90} # TODO
+				
+				b_pagai = {}
+				# Needs baronies!
+			}
+		}
+		
+		d_padang = { # New
+			color = {280 180 160} # TODO
+			color2 = {90 90 90} # TODO
+			
+			capital = 2294 # Padang
+			
+			c_tapanuli = {
+				color = {280 180 160} # TODO
+				color2 = {90 90 90} # TODO
+				
+				b_pandan = {}
+				# Needs baronies!
+			}
+			c_agam = {
+				color = {280 180 160} # TODO
+				color2 = {90 90 90} # TODO
+				
+				b_lubuk_basung = {}
+				# Needs baronies!
+			}
+			c_padang = {
+				color = {280 180 160} # TODO
+				color2 = {90 90 90} # TODO
+				
+				b_padang = {}
+				# Needs baronies!
+			}
+			c_pesisir_selatan = {
+				color = {280 180 160} # TODO
+				color2 = {90 90 90} # TODO
+				
+				b_painan = {}
+				# Needs baronies!
+			}
+		}
+		
+		d_pelalawan = { # New
+			color = { 245 224 129 }
+			color2 = { 90 90 90 }
+			
+			capital = 2292 # Pelalawan
+			
+			c_pelalawan = {
+				color = { 245 224 129 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_pelalawan = {
+				}
+				# Check that these baronies are in the proper province and remove one (since we only need seven)
+				b_sumpur_kudus = {
+				}
+				b_lintau_buo = {
+				}
+				b_tanjung_emas = {
+				}
+				b_lareh_sago_halaban = {
+				}
+				b_harau = {
+				}
+				b_singingi_hilir = {
+				}
+				b_kampar_kiri = {
+				}
+			}
+			c_bengkalis = {
+				color = { 245 224 129 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_bengkalis = {}
+				# Needs baronies!
+			}
+			c_indragiri = {
+				color = { 245 224 129 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_tembilahan = {}
+				# Needs baronies!
+			}
+			c_jambi = {
+				color = { 245 204 139 }
+				color2 = { 90 90 90 }
+				
+				b_muaro_jambi = {
+				}
+				# Check that these baronies are in the proper province and remove one (since we only need seven)
+				b_kumpeh = {
+				}
+				b_mestong = {
+				}
+				b_maro_sebo = {
+				}
+				b_betara = {
+				}
+				b_mendahara = {
+				}
+				b_sekernan = {
+				}
+				b_tungkal_ilir = {
+				}
+			}
+		}
+		
+		d_riau_islands = { # New
+			color = { 250 195 155} # TODO
+			color2 ={90 90 90} # TODO
+			
+			capital = 2297 # Batam
+			
+			c_batam = {
+				color = { 250 195 155}
+				color2 ={90 90 90}
+				
+				b_batam = {
+				}
+				b_tanjung = {
+				}
+			}
+			c_lingga = {
+				color = { 260 185 166}
+				color2={90 90 90}
+				
+				b_lingga = {
+				}
+			}
+			c_natuna = {
+				color = { 225 204 179 }
+				color2 = { 90 90 90 }
+				
+				b_natuna = {
+				}
+				# Needs baronies!
+			}
+		}
+	}
+	
+	k_palembang = {
+		color = { 245 224 149 }
+		color2 = { 90 90 90 }
+
+		capital = 2305 # Palembang
+		
+		culture = malay
+		
+		d_kerinci = { # New
+			color = {280 180 160} # TODO
+			color2 = {90 90 90} # TODO
+			
+			capital = 2302 # Kerinchi
+			
+			c_kerinci = {
+				color = {280 180 160} # TODO
+				color2 = {90 90 90} # TODO
+				
+				b_siulak = {}
+				# Needs baronies!
+			}
+			c_sungai_penuh = {
+				color = { 260 215 255}
+				color2 ={90 90 90}
+				
+				b_sungai_penuh = {
+				}
+				# Check that these baronies are located in the right province!
+				b_taratung = {
+				}
+				b_kotarami = {
+				}
+				# Needs baronies!
+			}	
+		}
+		
+		d_palembang = {
+			color = { 245 214 159 }
+			color2 = { 90 90 90 }
+
+			capital = 2305 # Palembang
+			
+			c_palembang = {
+				color = { 245 214 139 }
+				color2 = { 90 90 90 }
+				
+				b_palembang = {
+				}
+				# Check that these are in the proper province!
+				b_rantau_bayur = {
+				}
+				b_talang_kelapa = {
+				}
+				b_sako = {
+				}
+				b_muara_telang = {
+				}
+				b_makarti_jaya = {
+				}
+				b_muara_padang = {
+				}
+			}
+			c_bangka = {
+				color = { 245 214 119 }
+				color2 = { 90 90 90 }
+				
+				b_bangka = {
+				}
+				b_bakam = {
+				}
+				b_pangkal_pinang = {
+				}
+				b_air_gegas = {
+				}
+				b_membalong = {
+				}
+				# Needs baronies!
+			}
+			c_belitung = {
+				color = { 245 214 109 }
+				color2 = { 90 90 90 }
+				
+				b_belitung = {
+				}
+				b_kota_kapur = {
+				}
+				b_mendo_barat = {
+				}
+				b_puding_besar = {
+				}
+				b_merawang = {
+				}
+				# Needs baronies!
+			}
+			c_kayuagung = {
+				color = { 245 214 139 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_kayuagung = {}
+				# Needs baronies!
+			}
+			c_ogan = {
+				color = {245 114 139}
+				color2 = {90 90 90}
+				
+				b_ogan = {
+				}
+				# Needs baronies!
+			}
+			c_musi_banyuasin = {
+				color = { 245 214 139 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_sekayu = {}
+				# Needs baronies!
+			}
+		}
+		d_muara_enim = { # New
+			color = {250 235 120}
+			color2 ={ 90 90 90}
+			
+			capital = 2312 # Muara Enim
+			
+			c_muara_enim = {
+				color = {250 235 120} # TODO
+				color2 ={ 90 90 90} # TODO
+				
+				b_muara_enim = {
+				}
+				b_indralaya = {
+				}
+				# Needs baronies!
+			}
+			c_musi_rawas = {
+				color = {250 235 120} # TODO
+				color2 ={ 90 90 90} # TODO
+				
+				b_muara_beliti = {}
+				# Needs baronies!
+			}
+			c_merangin = {
+				color = {250 235 120} # TODO
+				color2 ={ 90 90 90} # TODO
+				
+				b_merangin = {}
+				# Needs baronies!
+			}
+			c_gunungmegang = {
+				color = {250 235 120} # TODO
+				color2 ={ 90 90 90} # TODO
+				
+				b_gunungmegang = {}
+				# Needs baronies!
+			}
+		}
+		d_bengkulu = { # New
+			color = { 245 214 129 }
+			color2 = { 90 90 90 }
+			
+			capital = 2309 # Bengkulu
+			
+			c_bengkulu = {
+				color = { 245 214 129 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_bengkulu = {
+				}
+				# Check that these are in the right province and remove one (we only need seven)
+				b_prabumulih = {
+				}
+				b_penukal_abab = {
+				}
+				b_sungai_rotan = {
+				}
+				b_gelumbang = {
+				}
+				b_rambang_dangku = {
+				}
+				b_genung_megang = {
+				}
+				b_talang_ubi = {
+				}
+			}
+			c_kaur = {
+				color = { 245 214 129 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_bintuhan = {}
+				# Needs baronies!
+			}
+			c_lampung_barat = {
+				color = {290 140 160}
+				color2 = {90 90 90}
+				
+				b_lampung_barat = {
+				}
+				b_taman2 = {
+				}
+				b_tampang = {
+				}
+				b_agung = {
+				}
+				# Needs baronies!
+			}
+			c_tanggamus = {
+				color = { 245 214 129 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_kota_agung_pusat = {}
+				# Needs baronies!
+			}
+		}
+		
+		d_lampung = { # New
+			color = {250 100 150}
+			color2 = {90 90 90 }
+			
+			capital = 2318 # Lampung Selatan
+			
+			c_lampung_selatan = {
+				color = {250 100 150} # TODO
+				color2 = {90 90 90 } # TODO
+				
+				b_bandar_lampung = {}
+				# Needs baronies!
+			}
+			c_lampung_timur = {
+				color = {250 100 150} # TODO
+				color2 = {90 90 90 } # TODO
+				
+				b_lampung_timur = {
+				}
+				# Check that these are in the proper province!
+				b_lampung_tengah = {
+				}
+				b_banda = {
+				}
+				# Needs baronies!
+			}
+			c_tulang_bawang = {
+				color = {250 100 150} # TODO
+				color2 = {90 90 90 } # TODO
+				
+				b_tulang_bawang = {}
+			}
+			c_lampung_utara = {
+				color = {250 100 150} # TODO
+				color2 = {90 90 90 } # TODO
+				
+				b_kotabumi = {
+				}
+				# Needs baronies!
+			}
+		}
+	}
+	
+	k_java = {
+		color = { 255 51 51}
+		color2 ={90 90 90}
+		
+		capital = 2322 # Kalapa
+		culture = javanese
+		
+		d_kalingga = {
+			color = {232 123 10}
+			color2 = {90 90 90}
+			
+			capital = 2326  #Kendal
+			
+			c_karta = {
+				color = {200 100 40}
+				color2 ={90 90 90}
+				
+				b_kebumen = {
+				}
+				b_purwokerto = {
+				}
+				# Needs baronies!
+			}
+			c_kendal = {
+				color = {232 123 10}
+				color2 = {90 90 90}
+				
+				holy_site = melanesian_pagan
+				holy_site = melanesian_pagan_reformed
+				
+				b_pekalongan = {
+				}
+				b_sojomerto = {
+				}
+				b_dieng = {
+				}
+				b_sundbro = {
+				}
+				# Needs baronies!
+			}
+		}
+		d_sundan = {
+			color = {169 29 79}
+			color2 = {90 90 90}
+			
+			capital = 2322 # Kalapa
+			
+			c_kawali = {
+				color = {180 40 90}
+				color2 ={90 90 90}
+				
+				b_galuh = {
+				}
+				b_kawali = {
+				}
+				b_gangkuang = {
+				}
+				b_bojong_menje = {
+				}
+				b_karang_kamulyan = {
+				}
+				# Needs baronies!
+			}
+			c_cirebon = {
+				color ={ 200 60 110}
+				color2 = {90 90 90}
+				
+				b_cirebon = {
+				}
+				b_omanuk = {
+				}
+				b_linggajati = {
+				}
+				b_opari = {
+				}
+				# Needs baronies!
+			}
+			c_sukabumi = {
+				color = { 180 70 120}
+				color2 = {90 90 90}
+				
+				b_pakuan_pajajaran = {
+				}
+				b_leles = {
+				}
+				b_cibadiak = {
+				}
+				b_parahyangan = {
+				}
+				b_arca2 = {
+				}
+				b_batu = {
+				}
+				# Needs baronies!
+			}
+			c_kalapa = {
+				color = { 169 29 79 }
+				color2 = {90 90 90}
+				
+				b_cigede = {
+				}
+				# Remove one barony!
+				b_portang = {
+				}
+				b_banten = {
+				}
+				b_sunda_kalapa = {
+				}
+				b_tugu = {
+				}
+				b_bami = {
+				}
+				b_tanjung_barat = {
+				}
+				b_banton_girang = {
+				}
+			}
+			c_banten = {
+				color = {140 29 50}
+				color2 = {90 90 90}
+				
+				b_banten_girang = {
+				}
+				b_pulasari = {
+				}
+				b_banten2 = {
+				}
+				# Needs baronies!
+			}
+		}
+		d_medang = {
+			color = {170 57 202}
+			color2 = {90 90 90}
+			
+			capital = 2328 # Pajang
+			
+			c_vanagiri = {
+				color = {190 67 222}
+				color2 = {90 90 90}
+				
+				b_vanagiri = {
+				}
+				b_blitar = {
+				}
+				# Needs baronies!
+			}
+			c_kediri = { 
+				color = {170 87 222}
+				color2 = {90 90 90}
+				
+				b_pantara = {
+				}
+				# Check to see if these are in c_malang (and remove one)
+				b_kelud = {
+				}
+				b_kawi = {
+				}
+				b_daha = {
+				}
+				b_wilis = {
+				}
+				b_wwatan = {
+				}
+				b_anjkladang = {
+				}
+				b_palah = {
+				}
+			}
+			c_malang = { # New
+				color = {170 87 222} # TODO
+				color2 = {90 90 90} # TODO
+				
+				b_malang = {}
+				# Needs baronies!
+			}
+			c_pajang = {
+				color = {180 60 200}
+				color2 = {90 90 90}
+				
+				b_mataram = {
+				}
+				b_mamrati = {
+				}
+				b_borobudur = {
+				}
+				b_kedu = {
+				}
+				b_kalasan = {
+				}	
+				# Needs baronies!		
+			}
+			c_demak = {
+				color = {170 97 200}
+				color2 = {90 90 90}
+				
+				b_tuban = {
+				}
+				b_lasem = {
+				}
+				b_demak = {
+				}
+				b_rajasa = {
+				}
+				# Needs baronies!
+			}
+		}
+		d_blambangan = {
+			color = { 86 51 199}
+			color2 = {90 90 90}
+			
+			capital = 2334 # Blambangan
+			
+			c_blambangan = {
+				color = { 86 51 199}
+				color2 = {90 90 90}
+				
+				b_panarukan = {
+				}
+				# Remove one barony!
+				b_kedawung = {
+				}
+				b_puger = {
+				}
+				b_bayu = {
+				}
+				b_macan_putih = {
+				}
+				b_kuta_lateng = {
+				}
+				b_ulupampang = {
+				}
+				b_bayuwangi = {
+				}
+			}			
+			c_trowulan = {
+				color = { 225 184 159 }
+				color2 = { 90 90 90 }
+				
+				b_trowulan = {
+				}
+				# Remove one barony!
+				b_hujung_galuh = {
+				}
+				b_pucangan = {
+				}
+				b_penanggungan = {
+				}
+				b_jabon = {
+				}
+				b_krian = {
+				}
+				b_wonoayu = {
+				}
+				b_tarik = {
+				}
+			}
+			c_madura = {
+				color = { 225 184 169 }
+				color2 = { 90 90 90 }
+				
+				b_madura = {
+				}
+				# Remove one barony!
+				b_geger = {
+				}
+				b_arosbaya = {
+				}
+				b_klampis = {
+				}
+				b_sepuluh = {
+				}
+				b_tanah_merah = {
+				}
+				b_kwanyar = {
+				}
+				b_modung = {
+				}
+			}
+		}
+			
+		d_sunda = {
+			color= { 255 255 51 }
+			color2 ={ 90 90 90}
+			
+			capital = 2336 # Bali
+			
+			c_dompu = {
+				color = {255 235 51}
+				color2 ={ 90 90 90}
+				
+				b_dompu = {
+				}
+				# Needs baronies!
+			}
+			c_taliwang = {
+				color = { 235 225 51}
+				color2 = {90 90 90}
+				
+				b_taliwang = {
+				}
+				# Needs baronies!
+			}
+			c_bima = { # Sumbawa
+				color = {225 230 61}
+				color2 = {90 90 90}
+				
+				b_bima = {
+				}
+			}
+			c_lombok = {
+				color = { 255 71 71}
+				color2 ={90 90 90}
+				
+				b_lombok_mirah = {
+				}
+				b_bayan2 = {
+				}
+				b_pamenang2 = {
+				}
+				# Needs baronies!
+			}
+			c_bali = {
+				color= {255 255 51}
+				color2 = {90 90 90}
+				
+				b_gelgel = {
+				}
+				b_bangli = {
+				}
+				b_glaryar = {
+				}
+				b_karangasem = {
+				}
+				b_tataran = {
+				}
+				b_bandung = {
+				}
+				b_nusa = {
+				}
 			}
 		}
 	}

@@ -1,0 +1,22 @@
+# 2335 - Madura
+
+# County Title
+title = c_madura
+
+# Settlements
+max_settlements = 6
+b_madura = castle
+b_geger = city
+b_arosbaya = temple
+b_klampis = city
+#b_sepuluh = castle
+#b_tanah_merah = castle
+#b_kwanyar = castle
+#b_modung = castle
+# Remove one barony!
+
+# Misc
+culture = javanese
+religion = hindu
+
+# History
