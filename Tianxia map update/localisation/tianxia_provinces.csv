@@ -353,8 +353,94 @@ PROV2337;Lombok;;;;;;;;;;;;;x
 PROV2338;Taliwang;;;;;;;;;;;;;x
 PROV2339;Sumbawa;;;;;;;;;;;;;x
 PROV2340;Dompu;;;;;;;;;;;;;x
+# Sulawesi
+PROV2341;Mandar;;;;;;;;;;;;;x # Sulawesi
+PROV2342;Luwu;;;;;;;;;;;;;x
+PROV2343;Bone;;;;;;;;;;;;;x
+PROV2344;Poso;;;;;;;;;;;;;x
+PROV2345;Ampana;;;;;;;;;;;;;x
+PROV2346;Luwuk;;;;;;;;;;;;;x
+PROV2347;Mamuju;;;;;;;;;;;;;x
+PROV2348;Donggala;;;;;;;;;;;;;x
+PROV2349;Buoi;;;;;;;;;;;;;x
+PROV2350;Pohuwato;;;;;;;;;;;;;x
+PROV2351;Hulontalangio;;;;;;;;;;;;;x
+PROV2352;Manadou;;;;;;;;;;;;;x
 # Borneo
+PROV2353;Borneo;;;;;;;;;;;;;x
+PROV2354;Sambas;x # Kalimantan
+PROV2355;Sukadana;;;;;;;;;;;;;x
+PROV2356;Ketapang;;;;;;;;;;;;;x
+PROV2357;Lamandau;;;;;;;;;;;;;x
+PROV2358;Seruyan;;;;;;;;;;;;;x
+PROV2359;Katingan;;;;;;;;;;;;;x
+PROV2360;Kapuas;;;;;;;;;;;;;x
+PROV2361;Banjar;;;;;;;;;;;;;x
+PROV2362;Kotabaru;;;;;;;;;;;;;x
+PROV2363;Balangan;;;;;;;;;;;;;x
+PROV2364;Paser;;;;;;;;;;;;;x
+PROV2365;Bontang;;;;;;;;;;;;;x
+PROV2366;Kutai;;;;;;;;;;;;;x
+PROV2367;Berau;;;;;;;;;;;;;x
+PROV2368;Bulungan;;;;;;;;;;;;;x
+PROV2369;Malinau;;;;;;;;;;;;;x
+PROV2370;Tarakan;;;;;;;;;;;;;x
+PROV2371;Kuching;x # Sarawak
+PROV2372;Sarikei;;;;;;;;;;;;;x
+PROV2373;Mukah;;;;;;;;;;;;;x
+PROV2374;Kapit;;;;;;;;;;;;;x
+PROV2375;Bintulu;;;;;;;;;;;;;x
+PROV2376;Miri;;;;;;;;;;;;;x
+PROV2377;Limbang;;;;;;;;;;;;;x
+PROV2378;Tambunan;;;;;;;;;;;;;x
+PROV2379;Kota Marudu;;;;;;;;;;;;;x
+PROV2380;Sandakan;;;;;;;;;;;;;x
+PROV2381;Tawau;;;;;;;;;;;;;x
 # The Philippines
+PROV2382;Palawan;x # Mindanao
+PROV2383;Sulu;;;;;;;;;;;;;x
+PROV2384;Basilan;;;;;;;;;;;;;x
+PROV2385;Sung Lupa;;;;;;;;;;;;;x
+PROV2386;Kasambuwangaan;;;;;;;;;;;;;x
+PROV2387;Bayug;;;;;;;;;;;;;x
+PROV2388;Kuta Wato;;;;;;;;;;;;;x
+PROV2389;Himologan;;;;;;;;;;;;;x
+PROV2390;Bukidnon;;;;;;;;;;;;;x
+PROV2391;Malaybalay;;;;;;;;;;;;;x
+PROV2392;Butuan;;;;;;;;;;;;;x
+PROV2393;Bayugan;;;;;;;;;;;;;x
+PROV2394;Suba;;;;;;;;;;;;;x
+PROV2395;Madja;;;;;;;;;;;;;x
+PROV2396;Panay;;;;;;;;;;;;;x
+PROV2397;Bamban;;;;;;;;;;;;;x
+PROV2398;Nayup;;;;;;;;;;;;;x
+PROV2399;Illongo;;;;;;;;;;;;;x
+PROV2400;Buglas;;;;;;;;;;;;;x
+PROV2401;Cebu;;;;;;;;;;;;;x
+PROV2402;Eskaya;;;;;;;;;;;;;x
+PROV2403;Hunonganan;;;;;;;;;;;;;x # Maynila
+PROV2404;Leyte;;;;;;;;;;;;;x
+PROV2405;Bagasumbol;;;;;;;;;;;;;x
+PROV2406;Masbate;;;;;;;;;;;;;x
+PROV2407;Mansalay;;;;;;;;;;;;;x
+PROV2408;Mamburao;;;;;;;;;;;;;x
+PROV2409;Guiuan;;;;;;;;;;;;;x
+PROV2410;Samar;;;;;;;;;;;;;x
+PROV2411;Borongan;;;;;;;;;;;;;x
+PROV2412;Palapag;;;;;;;;;;;;;x
+PROV2413;Sorsogon;;;;;;;;;;;;;x
+PROV2414;Pili;;;;;;;;;;;;;x
+PROV2415;Daet;;;;;;;;;;;;;x
+PROV2416;Malunay;;;;;;;;;;;;;x # Should NOT be Mulanay; that's the post-colonial name!
+PROV2417;Batangas;;;;;;;;;;;;;x
+PROV2418;Tondo;;;;;;;;;;;;;x
+PROV2419;Bataan;;;;;;;;;;;;;x
+PROV2420;Pangasinan;;;;;;;;;;;;;x
+PROV2421;Bayombong;;;;;;;;;;;;;x
+PROV2422;Samtoy;;;;;;;;;;;;;x
+PROV2423;Bolo;;;;;;;;;;;;;x
+PROV2424;Apayao;;;;;;;;;;;;;x
+PROV2425;Lallo;x
 # Taiwan
 # Ryukyu
 # Japan
