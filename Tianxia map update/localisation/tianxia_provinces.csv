@@ -362,7 +362,7 @@ PROV2345;Ampana;;;;;;;;;;;;;x
 PROV2346;Luwuk;;;;;;;;;;;;;x
 PROV2347;Mamuju;;;;;;;;;;;;;x
 PROV2348;Donggala;;;;;;;;;;;;;x
-PROV2349;Buoi;;;;;;;;;;;;;x
+PROV2349;Buol;;;;;;;;;;;;;x
 PROV2350;Pohuwato;;;;;;;;;;;;;x
 PROV2351;Hulontalangio;;;;;;;;;;;;;x
 PROV2352;Manadou;;;;;;;;;;;;;x
@@ -395,7 +395,7 @@ PROV2377;Limbang;;;;;;;;;;;;;x
 PROV2378;Tambunan;;;;;;;;;;;;;x
 PROV2379;Kota Marudu;;;;;;;;;;;;;x
 PROV2380;Sandakan;;;;;;;;;;;;;x
-PROV2381;Tawau;;;;;;;;;;;;;x
+PROV2381;Tawao;;;;;;;;;;;;;x # Should not be Tawau, since that's the modern spelling
 # The Philippines
 PROV2382;Palawan;x # Mindanao
 PROV2383;Sulu;;;;;;;;;;;;;x

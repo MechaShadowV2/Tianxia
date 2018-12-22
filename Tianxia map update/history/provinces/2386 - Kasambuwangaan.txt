@@ -1,0 +1,15 @@
+# 2386 - Kasambuwangaan
+
+# County Title
+title = c_kasambuwangaan
+
+# Settlements
+max_settlements = 1
+b_kasambuwangaan = tribal
+# Needs baronies
+
+# Misc
+culture = tagalog
+religion = melanesian_pagan
+
+# History

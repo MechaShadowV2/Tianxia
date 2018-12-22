@@ -1,0 +1,15 @@
+# 2390 - Bukidnon
+
+# County Title
+title = c_bukidnon
+
+# Settlements
+max_settlements = 1
+b_bukidnon = tribal
+# Needs baronies!
+
+# Misc
+culture = tagalog
+religion = melanesian_pagan
+
+# History

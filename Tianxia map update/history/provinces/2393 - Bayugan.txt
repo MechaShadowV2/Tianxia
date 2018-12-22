@@ -1,0 +1,15 @@
+# 2394 - Bayugan
+
+# County Title
+title = c_bayugan
+
+# Settlements
+max_settlements = 1
+b_bayugan = tribal
+# Needs baronies!
+
+# Misc
+culture = tagalog
+religion = melanesian_pagan
+
+# History

@@ -1,0 +1,16 @@
+# 2410 - Samar
+
+# County Title
+title = c_guiuan
+
+# Settlements
+max_settlements = 2
+b_tinago = castle
+b_calbayog = city
+# Needs baronies!
+
+# Misc
+culture = tagalog
+religion = melanesian_pagan
+
+# History

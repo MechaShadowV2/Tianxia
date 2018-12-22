@@ -1,0 +1,15 @@
+# 2421 - Bayombong
+
+# County Title
+title = c_bayombong
+
+# Settlements
+max_settlements = 1
+b_bayombong = castle
+# Needs baronies!
+
+# Misc
+culture = tagalog 
+religion = hindu
+
+# History

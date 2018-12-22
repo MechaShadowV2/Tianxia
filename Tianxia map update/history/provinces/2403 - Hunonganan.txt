@@ -1,0 +1,17 @@
+# 2403 - Hunonganan
+
+# County Title
+title = c_hunonganan
+
+# Settlements
+max_settlements = 3
+b_hunongan = castle
+b_maasin = city
+b_palompon = temple
+# Needs baronies!
+
+# Misc
+culture = tagalog
+religion = melanesian_pagan
+
+# History

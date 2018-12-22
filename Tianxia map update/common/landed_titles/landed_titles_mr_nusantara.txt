@@ -94,10 +94,6 @@ e_nusantara = {
 				
 				b_lamun = {
 				}
-				b_limbang = {
-				}
-				b_miri = {
-				}
 				b_marudi = {
 				}
 				b_lawas = {
@@ -108,6 +104,7 @@ e_nusantara = {
 				}
 				b_siritang = {
 				}
+				# Needs another barony!
 			}
 			c_gayo = {
 				color = { 245 174 129 }
@@ -1120,6 +1117,474 @@ e_nusantara = {
 				}
 				b_nusa = {
 				}
+			}
+		}
+	}
+	
+	k_sulawesi = {
+		color = { 200 220 160 }
+		color2 = { 90 90 90}
+		
+		capital = 2348 # Donggala
+		
+		culture = minahasan
+		
+		d_gorontalo = {
+			color = {180 220 180 }
+			color2 = {90 90 90}
+			
+			capital = 2352 # Manadou
+			
+			c_manadou = {
+				color = {200 220 180}
+				color2 = {90 90 90}
+				
+				b_manadou = {
+				}
+				# Needs baronies!
+			}
+			c_hulontalangio = {
+				color = {200 220 185}
+				color2 ={ 90 90 90}
+				
+				b_hulontalangio = {
+				}
+				# Needs baronies!
+			}
+			c_pohuwato = { # New
+				color = {200 220 185} # TODO
+				color2 ={ 90 90 90} # TODO
+				
+				b_popayato = {}
+				# Needs baronies!
+			
+			}
+			c_buol = { # New
+				color = {200 220 190 }
+				color2 = {90 90 90}
+				
+				b_buol = {
+				}
+				# Needs baronies!
+			}
+		}
+		d_donggala = {
+			color = { 220 210 150}
+			color2 = { 90 90 90}
+			
+			capital = 2348 # Donggala
+			
+			c_donggala = { # New
+				color ={220 200 160}
+				color2 ={90 90 90}
+				
+				holy_site = melanesian_pagan
+				holy_site = melanesian_pagan_reformed
+				holy_site = dayak_pagan
+				holy_site = dayak_pagan_reformed
+				
+				b_donggala = {
+				}
+				# Needs baronies!
+			}
+			c_mamuju = { # New
+				color ={220 200 160} # TODO
+				color2 ={90 90 90} # TODO
+				
+				b_mamuju = {}
+				# Needs baronies!
+			}
+			c_mandar = {
+				color = {230 200 160}
+				color2 = {90 90 90}
+				
+				b_mandar = {
+				}
+				# Needs baronies!
+			}
+			c_luwu = {
+				color = {240 200 160}
+				color2 = {90 90 90}
+				
+				b_luwu = {
+				}
+				# Needs baronies!
+			}
+			c_poso = { # New
+				color = {220 200 170 }
+				color2 = {90 90 90}
+				
+				b_poso = {
+				}
+				# Needs baronies!
+			}
+		}
+		d_ampana = { # New
+			color = { 220 210 150} # TODO
+			color2 = { 90 90 90} # TODO
+			
+			capital = 2345 # Ampana
+			
+			c_bone = {
+				color = {220 210 160}
+				color2 = {90 90 90}
+				
+				b_bone = {
+				}
+				# Needs baronies!
+			}
+			c_ampana = { # New
+				color = {220 210 160} # TODO
+				color2 = {90 90 90} # TODO
+				
+				b_ampana = {}
+				# Needs baronies!
+			}
+			c_luwuk = { # New
+				color = {220 210 160} # TODO
+				color2 = {90 90 90} # TODO
+				
+				b_luwuk = {}
+				# Needs baronies!
+			}
+		}
+	}
+	
+	k_kalimantan = { # New
+		color = { 225 184 189 }
+		color2 = { 90 90 90 }
+
+		capital = 2361 # Banjar
+		
+		culture = malay
+		
+		d_sukadana = {
+			color = { 225 204 179 }
+			color2 = { 90 90 90 }
+
+			capital = 2355 # Sukadana
+			
+			c_sukadana = {
+				color = { 225 204 159 }
+				color2 = { 90 90 90 }
+				
+				b_sukadana = {
+				}
+				# Check to see if these baronies are in the right province!
+				b_teluk_melano = {
+				}
+				b_siduk = {
+				}
+				b_sungatulak = {
+				}
+				b_jerukung = {
+				}
+				b_aur_kuning = {
+				}
+				b_nagatayap = {
+				}
+				b_tanjung_satai = {
+				}
+			}
+			c_sambas = {
+				color = { 225 204 169 }
+				color2 = { 90 90 90 }
+				
+				b_sambas = {
+				}
+				# Check to see if these baronies are in the right province (and remove one)!
+				b_sejangkung = {
+				}
+				b_sekura = {
+				}
+				b_sentebang = {
+				}
+				b_pemangkat = {
+				}
+				b_selakau = {
+				}
+				b_kaliau = {
+				}
+				b_tebas = {
+				}
+			}
+			c_ketapang = { # New
+				color = { 225 204 159 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_ketapang = {}
+				# Needs baronies!
+			}
+		}
+		
+		
+		d_seruyan = { # New
+			color = { 225 204 179 } # TODO
+			color2 = { 90 90 90 } # TODO
+			
+			capital = 2358 # Seruyan
+			
+			c_lamandau = { # New
+				color = { 225 204 159 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_nanga_bulik = {}
+				# Needs baronies!
+			}
+			c_seruyan = { # New
+				color = { 225 204 159 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_seruyan = {}
+				# Needs baronies!
+			}
+			c_katingan = {
+				color = { 225 194 169 }
+				color2 = { 90 90 90 }
+				
+				b_katingan = {
+				}
+				# Check that these are in the right province!
+				b_sampit = {
+				}
+				b_palangka_raya = {
+				}
+				b_samuda = {
+				}
+				b_kasongan = {
+				}
+				b_tangkiling = {
+				}
+				b_muara_teweh = {
+				}
+			}
+			c_kapuas = { # New
+				color = { 225 194 169 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_kuala_kapuas = {
+				}
+				# Needs baronies!
+			}
+		}
+		
+		d_banjar = {
+			color = { 235 194 139 }
+			color2 = { 90 90 90 }
+
+			capital = 2361 # Banjar
+			
+			c_banjar = {
+				color = { 225 194 159 }
+				color2 = { 90 90 90 }
+				
+				b_banjarmasin = {
+				}
+				# Check that these are in the right province!
+				b_martapura = {
+				}
+				b_banjarbaru = {
+				}
+				b_rantau = {
+				}
+				b_kandangan = {
+				}
+				b_baraban = {
+				}
+				b_amuntai = {
+				}
+			}
+			c_balangan = { # New
+				color = { 225 194 159 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_paringin = {}
+				# Needs baronies!
+			}
+			c_kotabaru = { # New
+				color = { 225 194 159 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_kotabaru = {}
+				# Needs baronies!
+			}
+			c_paser = { # New
+				color = { 225 194 159 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_tana_paser = {}
+				# Needs baronies!
+			}
+		}
+		
+		d_kutai = { # New
+			color = { 225 194 179 }
+			color2 = { 90 90 90 }
+			
+			capital = 2366 # Kutai
+			
+			c_kutai = {
+				color = { 225 194 179 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				holy_site = dayak_pagan
+				holy_site = dayak_pagan_reformed
+				
+				b_kutai = {}
+				# Needs baronies!
+			}
+			c_bontang = { # New
+				color = { 225 194 179 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_bontang = {}
+				# Needs baronies!
+			}
+			c_berau = { # New
+				color = { 225 194 179 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_tanjung_redeb = {}
+				# Needs baronies!
+			}
+			c_bulungan = { # New
+				color = { 225 194 179 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_tanjung_selor = {}
+				# Needs baronies!
+			}
+		}
+		
+		d_tarakan = { # New
+			color = { 230 220 180}
+			color2 ={90 90 90}
+			
+			capital = 2370 # Tarakan
+			
+			c_tarakan = {
+				color = { 230 220 180} # TODO
+				color2 ={90 90 90} # TODO
+				
+				b_tarakan = {}
+				# Needs baronies!
+			}
+			c_malinau = { # New
+				color = { 230 220 180} # TODO
+				color2 ={90 90 90} # TODO
+				
+				b_malinau = {}
+				# Needs baronies!
+			}
+		}
+	}
+	
+	k_sarawak = { # New
+		color = { 225 184 189 } # TODO
+		color2 = { 90 90 90 } # TODO
+
+		capital = 2371 # Kuching
+		
+		culture = malay
+		
+		d_kuching = { # New
+			color = { 225 184 189 } # TODO
+			color2 = { 90 90 90 } # TODO
+			
+			capital = 2371 # Kuching
+			
+			c_kuching = { # New
+				color = { 225 184 189 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_kuching = {}
+				# Needs baronies!
+			}
+			c_sarikei = { # New
+				color = { 225 184 189 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_sarikei = {}
+				# Needs baronies!
+			}
+			c_mukah = { # New
+				color = { 225 184 189 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_mukah = {}
+				# Needs baronies!
+			}
+			c_kapit = { # New
+				color = { 225 184 189 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_kapit = {}
+				# Needs baronies!
+			}
+			c_bintulu = { # New
+				color = { 225 184 189 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_bintulu = {}
+				# Needs baronies!
+			}
+		}
+		
+		d_miri = { # New
+			color = { 225 184 189 } # TODO
+			color2 = { 90 90 90 } # TODO
+			
+			capital = 2376 # Miri
+			
+			c_miri = { # New
+				color = { 225 184 189 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_miri = {}
+				# Needs baronies!
+			}
+			c_limbang = { # New
+				color = { 225 184 189 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_limbang = {}
+				# Needs baronies!
+			}
+		}
+		
+		d_sabah = {# New
+			color = {225 214 169 }
+			color2 = {90 90 90}
+			
+			capital = 2378 # Tambunan
+			
+			c_tambunan = { # New
+				color = {225 214 169 }
+				color2 = {90 90 90}
+				
+				b_kota_kinabalu = {}
+				# Needs baronies!
+			}
+			c_kota_marudu = { # New
+				color = { 225 184 189 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_kota_marudu = {}
+				# Needs baronies!
+			}
+			c_sandakan = { # New
+				color = { 225 184 189 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_sandakan = {}
+				# Needs baronies!
+			}
+			c_tawao = { # New
+				color = { 225 184 189 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_tawao = {}
+				# Needs baronies!
 			}
 		}
 	}

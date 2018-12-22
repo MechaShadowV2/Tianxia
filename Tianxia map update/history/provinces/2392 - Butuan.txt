@@ -1,0 +1,15 @@
+# 2393 - Butuan
+
+# County Title
+title = c_butuan
+
+# Settlements
+max_settlements = 1
+b_butuan = tribal
+# Needs baronies!
+
+# Misc
+culture = tagalog
+religion = melanesian_pagan
+
+# History

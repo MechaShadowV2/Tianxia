@@ -1,0 +1,22 @@
+# 2413 - Sorsogon
+
+# County Title
+title = c_sorsogon
+
+# Settlements
+max_settlements = 3
+b_sorsogon = castle
+# Check to seee if these are in the right province (and remove one)!
+#b_namayan
+#b_balayan
+#b_tanay
+#b_lipa
+#b_labo
+#b_naga
+#b_legazpi
+
+# Misc
+culture = tagalog
+religion = hindu
+
+# History

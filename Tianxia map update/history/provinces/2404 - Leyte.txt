@@ -1,0 +1,16 @@
+# 2404 - Leyte
+
+# County Title
+title = c_leyte
+
+# Settlements
+max_settlements = 2
+b_tacloban = castle
+#b_ormoc = city
+# Needs baronies!
+
+# Misc
+culture = tagalog
+religion = hindu
+
+# History

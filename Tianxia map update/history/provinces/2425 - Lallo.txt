@@ -1,0 +1,18 @@
+# 2425 - Lallo
+
+# County Title
+title = c_lallo
+
+# Settlements
+max_settlements = 1
+b_amulung = castle
+# Check that these is in the right province!
+#b_apari
+#b_buguey
+# Needs baronies!
+
+# Misc
+culture = tagalog 
+religion = hindu
+
+# History

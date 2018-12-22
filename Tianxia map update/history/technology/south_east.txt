@@ -66,6 +66,7 @@ technology = {
 		d_medang
 		d_blambangan
 		d_sunda
+		# Needs Malacca
 	}
 	
 	769 = {
@@ -81,38 +82,46 @@ technology = {
 	}
 }
 
-#INDONESIA
-#technology = {
-#	titles = {
-#		d_boni
-#		d_sukadana
-#		d_banjar
-#		d_zamboanga
-#		d_mindanao
-#		d_caraga
-#		d_mayi
-#		d_leyte
-#		d_samar
-#		d_cebuano
-#		d_madjaas
-#		d_gorontalo
-#		d_sulawesi
-#		d_taipeh
-#		d_tainan
-#		d_taitung
-#	}
-#	769 = {
-#		military = 0.2
-#		economy = 0.1
-#		culture = 0.1
-#	}
-#	
-#	1337 = {
-#		military = 2
-#		economy = 2
-#		culture = 2
-#	}
-#}
+#Borneo-Sulawesi-Taiwan
+technology = {
+	titles = {
+		d_ampana
+		d_donggala
+		d_gorontalo
+		d_banjar
+		d_kuching
+		d_kutai
+		d_miri
+		d_sabah
+		d_seruyan
+		d_sukadana
+		d_tarakan
+		d_cebuano
+		d_leyte
+		d_madjaas
+		d_mayi
+		d_mindanao
+		d_mindoro
+		d_palawan
+		d_samar
+		d_samtoy
+		d_sorsogon
+		d_suba
+		d_zamboanga
+		# Needs Taiwan
+	}
+	769 = {
+		military = 0.2
+		economy = 0.1
+		culture = 0.1
+	}
+	
+	1337 = {
+		military = 2
+		economy = 2
+		culture = 2
+	}
+}
 
 #ANDAMANS
 technology = {

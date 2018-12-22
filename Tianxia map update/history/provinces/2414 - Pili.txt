@@ -1,0 +1,15 @@
+# 2414 - Pili
+
+# County Title
+title = c_pili
+
+# Settlements
+max_settlements = 1
+b_pili = castle
+# Needs baronies!
+
+# Misc
+culture = tagalog
+religion = hindu
+
+# History
