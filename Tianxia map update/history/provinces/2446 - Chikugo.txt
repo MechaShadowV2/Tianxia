@@ -1,0 +1,19 @@
+# 2446 - Chikugo
+
+# County Title
+title = c_chikugo
+
+# Settlements
+max_settlements = 4
+b_kurume = castle
+b_yanagawa = city
+#b_kora = temple
+#b_takata = city
+#b_chikuzo = castle
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

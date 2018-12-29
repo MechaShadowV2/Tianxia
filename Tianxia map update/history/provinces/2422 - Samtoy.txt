@@ -1,7 +1,7 @@
 # 2422 - Samtoy
 
 # County Title
-title = c_bayombong
+title = c_samtoy
 
 # Settlements
 max_settlements = 2

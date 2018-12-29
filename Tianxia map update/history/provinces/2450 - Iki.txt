@@ -1,0 +1,17 @@
+# 2450 - Iki
+
+# County Title
+title = c_iki
+
+# Settlements
+max_settlements = 3
+b_ashibe = castle
+b_ishida = city
+b_gonoura = temple
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

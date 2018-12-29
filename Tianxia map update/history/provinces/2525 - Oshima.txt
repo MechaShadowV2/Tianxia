@@ -1,0 +1,18 @@
+# 2525 - Oshima
+
+# County Title
+title = c_oshima
+
+# Settlements
+max_settlements = 4
+b_oshima = tribal
+#b_kayabe = temple
+#b_kameda = city
+#b_kamiiso = castle
+# Needs baronies!
+
+# Misc
+culture = ainu
+religion = ainu_pagan
+
+# History

@@ -1,0 +1,23 @@
+# 2485 - Yamashiro
+
+# County Title
+title = c_yamashiro
+# Settlements
+
+max_settlements = 7
+b_kyoto = castle
+b_otokuni = castle
+b_kamigamo = temple
+b_shimogamo = temple
+b_kadono = city
+b_otagi = city
+#b_uji = castle
+#b_tsuzuki = castle
+# Compare these with landed_titles_soh_japan and update as that is updated!
+
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

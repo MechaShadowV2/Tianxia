@@ -1,7 +1,7 @@
 # 2310 - Kaur
 
 # County Title
-title = c_bengkulu
+title = c_kaur
 
 # Settlements
 max_settlements = 1

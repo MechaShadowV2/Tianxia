@@ -1,0 +1,19 @@
+# 2514 - Etchu
+
+# County Title
+title = c_etchu
+
+# Settlements
+max_settlements = 5
+b_takaoka = castle
+b_imizu = temple
+b_nei = city
+b_kaminiikawa = city
+b_nishitonami = castle
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = buddhist
+
+# History

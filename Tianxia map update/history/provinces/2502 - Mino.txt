@@ -1,0 +1,20 @@
+# 2502 - Mino
+
+# County Title
+title = c_mino
+# Settlements
+
+max_settlements = 5
+# Check these baronies!
+b_tarui = castle
+b_gifu = city
+b_inabayama = castle
+b_gujo = castle
+b_fuwa2 = city
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

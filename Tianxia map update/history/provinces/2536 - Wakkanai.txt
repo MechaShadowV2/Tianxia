@@ -1,0 +1,15 @@
+# 2536 - Wakkanai
+
+# County Title
+title = c_wakkanai
+
+# Settlements
+max_settlements = 1
+b_wakkanai = tribal
+# Needs baronies!
+
+# Misc
+culture = ainu
+religion = ainu_pagan
+
+# History

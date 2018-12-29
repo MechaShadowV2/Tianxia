@@ -1,0 +1,19 @@
+# 2505 - Nagano
+
+# County Title
+title = c_nagano
+
+# Settlements
+max_settlements = 4
+# Check these baronies!
+b_matsumoto = castle
+b_komoro = temple
+b_ina = city
+b_ueda = castle
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

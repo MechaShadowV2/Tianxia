@@ -1,0 +1,16 @@
+# 2486 - Shima
+
+# County Title
+title = c_shima
+# Settlements
+
+max_settlements = 2
+b_ago = castle
+b_toshi = city
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

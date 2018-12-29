@@ -1,0 +1,18 @@
+# 2503 - Hida
+
+# County Title
+title = c_hida
+# Settlements
+
+max_settlements = 4
+b_takayama = castle
+b_mashita = city
+b_ono = castle
+b_yoshiki = city
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

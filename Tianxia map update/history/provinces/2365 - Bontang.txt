@@ -1,7 +1,7 @@
 # 2365 - Bontang
 
 # County Title
-title = c_paser
+title = c_bontang
 
 # Settlements
 max_settlements = 1

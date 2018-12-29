@@ -1,0 +1,17 @@
+# 2428 - Penghu
+
+# County Title
+title = c_penghu
+
+# Settlements
+max_settlements = 1
+
+b_huxi = castle
+#b_magong
+# Needs baronies!
+
+# Misc
+culture = taiwanese
+religion = melanesian_pagan
+
+# History

@@ -1,0 +1,1640 @@
+# SONS OF HEAVEN: JAPAN
+
+e_japan = {
+	color = { 200 55 55 }
+	color2 = { 200 55 0 }
+	
+	capital = 1912 # Yamashiro
+	
+	ainu = "Jomon"
+	
+	culture = japanese
+
+	k_japan = {
+		color = { 224 124 125 }
+		color2 = { 63 63 63 }
+	
+		capital = 2485 # Yamashiro
+		culture = japanese
+		
+		ainu = "Jomon"
+		
+		shinto = 500
+		ainu_pagan_reformed = 200
+		ryukyuan_pagan_reformed = 200
+		
+		# All duchies here should probably be recoloured according to a colour theme
+		
+		# Saikaido
+		
+		d_kitakyushu = {
+			color = { 184 124 25 }
+			color2 = { 63 63 63 }
+	
+			capital = 2445 # Hizen
+
+			c_hizen = {
+				color = { 184 114 115 }
+				color2 = { 63 63 63 }
+				
+				b_irado = {
+				}
+				b_nagasaki = {
+				}
+				b_unzen = {
+				}
+				# Needs baronies!
+			}
+			c_chikugo = {
+				color = { 150 134 125 }
+				color2 = {63 63 63 }
+				
+				b_kurume = {
+				}
+				b_yanagawa = {
+				}
+				b_kora2 = {
+				}
+				b_takata = {
+				}
+				b_chikuzo = {
+				}
+				# Needs baronies!
+			}
+			c_chikuzen = {
+				color = { 170 124 115 }
+				color2 = {63 63 63 }
+			
+				b_dazaifu = {
+				}
+				b_fukuoka = {
+				}
+				b_sumiyoshi-taira = {
+				}
+				# Needs baronies!
+			}
+			c_buzen = {
+				color = { 180 140 135 }
+				color2 = { 63 63 63 }
+				
+				b_toyotsu = {
+				}
+				b_kokura = {
+				}
+				b_usa = {
+				}
+				# Needs baronies!
+			}
+			c_bungo = {
+				color = {190 150 125}
+				color2 = {63 63 63}
+
+				b_kokokufu  = {
+				}
+				b_oita  = {
+				}
+				b_yusuhara = {
+				}
+				# Needs baronies!
+			}
+		}
+		
+		d_minamikyushu = {
+			color = { 25 124 184 }
+			color2 = { 63 63 63 }
+	
+			capital = 2441 # Satsuma
+		
+			c_satsuma = {
+				color = { 184 94 95 }
+				color2 = { 63 63 63 }
+				
+				b_kagoshima = {
+				}
+				b_miyazaki = {
+				}
+				b_kumamoto = {
+				}
+				# Needs baronies!
+			}
+			c_osumi = {
+				color = {194 94 115}
+				color2 = {63 63 63 }
+				
+				b_kokubu = {
+				}
+				b_kanoya = {
+				}
+				# Needs baronies!
+			}
+			c_tane = { 
+				color = {170 90 110}
+				color2 = {63 63 63}
+				
+				holy_site = ryukyuan_pagan
+				holy_site = ryukyuan_pagan_reformed
+				
+				b_tanegashima = {
+				}
+				b_yakushima = {
+				}
+				# Needs baronies!
+			}
+			c_higo = {
+				color = {200 100 100 }
+				color2 = {63 63 63 }
+				
+				b_higo = {
+				}
+				b_aso = {
+				}
+				# Needs baronies!
+			}
+			c_hyuga = {
+				color = { 184 104 105 }
+				color2 = { 63 63 63 }
+				
+				b_saito = {
+				}
+				b_beppu = {
+				}
+				b_agata = {
+				}
+				b_obi = {
+				}
+				b_nichinan = {
+				}
+				# Needs baronies!
+			}
+		}
+		
+		d_kyushujima = {
+			color = { 245 235 198 }
+			color2 = {63 63 63}
+			
+			capital = 2444 # Goto
+			
+			c_goto = {
+				color = { 225 245 178 }
+				color2 = {63 63 63}
+				
+				b_fukue = {
+				}
+				b_hisaka = {
+				}
+				b_naru = {
+				}
+				# Needs baronies!
+			}
+			c_iki = {
+			       color = { 200 235 150 }
+			       color2 = {63 63 63}
+			
+				b_ashibe = {
+				}
+				b_ishida = {
+				}
+				b_gonoura = {
+				}
+				# Needs baronies!
+			}
+			c_tsushima = {
+				color = { 178 245 225 }
+				color2 = {63 63 63}
+			
+				b_kaneda = {
+				}
+				b_kumamote = {
+				}
+				b_izuhara = {
+				}
+				# Needs baronies!
+			}
+		}
+		
+		# Nankaido
+		
+		d_iyo = {
+			color = { 194 24 125 }
+			color2 = { 63 63 63 }
+	
+			capital = 2456 # Iyo
+			
+			c_iyo = {
+				color = { 194 134 135 } # TODO
+				color2 = { 63 63 63 } # TODO
+				
+				# Check that these baronies are in the right province!
+				b_imabari = {
+				}
+				b_matsuyama = {
+				}
+				b_uwajima = {
+				}
+				b_iyo = {
+				}
+				# Needs baronies!
+			}
+			c_yawatahama = {
+				color = { 194 134 135 } # TODO
+				color2 = { 63 63 63 } # TODO
+				
+				b_yawatahama = {}
+				# Needs baronies!
+			}
+			c_niihama = {
+				color = { 194 134 135 } # TODO
+				color2 = { 63 63 63 } # TODO
+				
+				b_niihama = {}
+				# Needs baronies!
+			}
+		}
+		
+		d_tosa = {
+			color = { 194 144 145 }
+			color2 = { 63 63 63 }
+	
+			capital = 2453 # Tosa
+			
+			c_tosa = {
+				color = { 194 144 145 } # TODO
+				color2 = { 63 63 63 } # TODO
+				
+				b_tosa = {
+				}
+				# Check that these baronies are in the right province!
+				b_nankoku = {
+				}
+				b_agawa = {
+				}
+				b_jinjia = {
+				}
+				b_ryoma = {
+				}
+				# Needs baronies!
+			}
+			c_shimanto = {
+				color = { 194 144 145 } # TODO
+				color2 = { 63 63 63 } # TODO
+				
+				b_shimanto = {}
+				# Needs baronies!
+			}
+			c_muroto = {
+				color = { 194 144 145 } # TODO
+				color2 = { 63 63 63 } # TODO
+				
+				b_muroto = {}
+				# Needs baronies!
+			}
+		}
+		
+		d_tonankaido = {
+			color = { 194 24 125 }
+			color2 = { 63 63 63 }
+	
+			capital = 2459 # Awa
+			
+			c_awa = {
+				color = { 194 154 155 }
+				color2 = { 63 63 63 }
+				
+				holy_site = shinto
+				
+				b_miyoshi = {
+				}
+				b_tokushima = {
+				}
+				b_komatsushima = {
+				}
+				b_naruto = {
+				}
+				b_anan = {
+				}
+				b_yoshinogawa = {
+				}
+				# Needs baronies!
+			}
+			c_awaji = {
+				color = { 174 154 185 }
+				color2 = { 63 63 63 }
+			
+				b_awaji = { 
+				}
+				b_sumoto = { 
+				}
+				b_minamiawaji = { 
+				}
+				b_hompuku = { 
+				}
+				b_tsuna = { 
+				}
+				# Needs baronies!
+			}
+			c_sanuki = {
+				color = { 134 184 185 }
+				color2 = {63 63 63 }
+				
+				b_sakaide = { 
+				}
+				b_takamatsu = { 
+				}
+				b_marugame = { 
+				}
+				b_tadotsu = { 
+				}
+				# Needs baronies!
+			}
+		}
+		
+		d_kii = {
+			color = { 214 134 125 }
+			color2 = { 63 63 63 }
+			
+			capital = 2461 # Wakayama
+			
+			c_wakayama = {
+				color = { 214 134 125 } # TODO
+				color2 = { 63 63 63 } # TODO
+				
+				b_wakayama = {
+				}
+				# Check that these are in the right province!
+				b_kinokawa  = {
+				}
+				b_arida = {
+				}
+				b_tanabe = {
+				}
+				# Needs baronies!
+			}
+			c_nachikatsura = {
+				color = { 214 134 125 } # TODO
+				color2 = { 63 63 63 } # TODO
+				
+				b_nachikatsura = {}
+				# Needs baronies!
+			}
+			c_kumano = {
+				color = { 214 134 125 } # TODO
+				color2 = { 63 63 63 } # TODO
+				
+				b_kumano = {}
+				# Needs baronies!
+			}
+		}
+		
+		# Sanyodo
+		
+		d_yamaguchi = {
+			color = { 100 70 172}
+			color2 = {63 63 63}
+		
+			capital = 2464 # Nagato
+		
+			c_nagato = {
+				color = { 254 144 145 }
+				color2 = { 63 63 63 }
+			
+				b_nagato = {
+				}
+				b_shimonoseki = {
+				}
+				b_hagi = {
+				}
+				b_sumiyoshi-jinja = {
+				}
+				# Needs baronies!
+			}	
+			c_suo = {
+				color = { 220 164 165 }
+				color2 = {63 63 63 }
+	
+				b_hofu = {
+				}
+				b_tsuno = {
+				}
+				b_tamanoya = {
+				}
+				# Needs baronies!
+			}
+		
+		}
+		d_hiroshima = {
+			color = {77 210 63}
+			color2 = {63 63 63}
+				
+			capital = 2466 # Aki
+				
+			c_aki = {
+				color = { 254 134 135 }
+				color2 = { 63 63 63 }
+				b_aki = {
+				}
+				b_hiroshima = {
+				}
+				b_itsukushima = {
+				}
+				# Needs baronies!
+			}
+			c_bingo = {
+				color = { 204 154 155 }
+				color2 = { 63 63 63 }
+				
+				b_takehara = {
+				}
+				b_shobara = {
+				}
+				b_onomoki = {
+				}
+				b_miyara = {
+				}
+				b_higashihiroshima = {
+				}
+				# Needs baronies!
+			}
+			c_bitchu = {
+				color = { 204 104 105}
+				color2 = {63 63 63}
+
+				b_kurashiki = {
+				}			
+				b_soja = {
+				}
+				b_kibitsu = {
+				}
+				# Needs baronies!
+			}	
+
+		}
+		d_okayama = {
+			color = { 191 63 210 }
+			color2 = {63 63 63 }
+		
+			capital = 2469 # Bizen
+
+			c_bizen = {
+				color = { 194 124 195 }
+				color2 = { 63 63 63 }
+				
+				b_okayama = {
+				}
+				b_bizen = {
+				}
+				b_takahashi = {
+				}
+				b_kitbitsuhiko = {
+				}
+				# Needs baronies!
+			}
+			c_mimasaka = {
+				color = {184 104 215 }
+				color2 = {63 63 63 }
+				
+				b_tsuyama = {
+				}
+				b_aida = {
+				}
+				b_nakayama = {
+				}
+				b_banshu = {
+				}
+				# Needs baronies!
+			}
+			c_harima = {
+				color = {215 104 184 }
+				color2 = {63 63 63 }
+			
+				b_himeji = {
+				}
+				b_kako = {
+				}
+				b_iwa = {
+				}
+				b_yokawa = {
+				}
+				# Needs baronies!
+			}
+		}
+		
+		# Sanindo
+		
+		d_shimane = {
+			color = {204 124 125}
+			color2 = {63 63 63}
+			
+			capital = 2473 # Iwami
+
+			c_iwami = {
+				color = {104 224 225}
+				color2 = {63 63 63}
+			
+				b_hamada = {
+				}
+				b_sufu = {
+				}
+				b_tatamigaura = {
+				}
+				b_kanoashi = {
+				}
+				b_mino = {
+				}
+				b_ochi = {
+				}
+				# Needs baronies!
+			}
+			c_izumo = {
+				color = { 254 114 115 }
+				color2 = { 63 63 63 }
+				
+				holy_site = shinto
+				holy_site = ainu_pagan
+				holy_site = ainu_pagan_reformed
+				
+				b_yasugi = {
+				}
+				b_izumo = {
+				}
+				b_oda = {
+				}
+				b_unnan = {
+				}
+				# Needs baronies!
+			}
+			c_oki = {
+				color = {232 115 145}
+				color2 = {63 63 63}
+				
+				b_dogojima = {
+				}
+				b_nishinoshima = {
+				}
+				b_okinoshima = {
+				}
+				b_mizuwakasu = {
+				}
+				b_yurahime = {
+				}
+				# Needs baronies!
+			}
+		}
+		d_tottori = {
+			color = { 224 104 225}
+			color2 = {63 63 63} 
+			
+			capital = 2477 # Inaba
+			
+			c_hoki = {
+				color = { 202 125 165}
+				color2 = {63 63 63}
+
+				b_kurayoshi = {
+				}
+				b_yonago = {
+				}
+				b_hino = {
+				}
+				b_aseri = {
+				}
+				# Needs baronies!
+			}
+			c_inaba = {
+				color = {192 145 145}
+				color2 = {63 63 63}
+			
+				b_tottori = {
+				}
+				b_ube = {
+				}
+				b_chizu = {
+				}
+				b_takakusa = {
+				}
+				b_omi = {
+				}
+				b_keta = {
+				}
+				# Needs baronies!
+			}
+			c_tajima = {
+				color = { 175 185 105}
+				color2 = {63 63 63}
+
+				b_hazaka = {
+				}
+				b_tayooka = {
+				}
+				b_takada = {
+				}
+				b_izushi = {
+				}
+				b_awaga = {
+				}
+				b_kobe = {
+				}
+				b_izushit = {
+				}
+			}
+		}
+		d_tanshu = {
+			color = {88 18 19}
+			color2 = {63 63 63}
+			
+			capital = 2479 # Tango
+			
+			c_tango = {
+				color = {88 18 19}
+				color2 = {63 63 63}
+			
+
+				b_maizuru = {
+				}	
+				b_miyazu = {
+				}
+				b_kasa = {
+				}
+				b_naka = {
+				}
+				b_takeno = {
+				}
+				# Needs baronies!
+			}
+			c_tamba = {
+				color = {19 18 88}
+				color2 = {63 63 63}
+				
+				b_kameoka = {
+				}	
+				b_kyo = {
+				}	
+				b_tamba = {
+				}	
+				b_taki = {
+				}	
+				b_kyotamba = {
+				}	
+				b_amata = {
+				}	
+				b_funai = {
+				}	
+				b_kuwada = {
+				}
+				# Remove one barony
+			}
+		}
+		
+		# Kinai
+		
+		d_nara = {
+			color = {111 97 131 }
+			color2 = {63 63 63}
+			
+			capital = 2485 # Yamashiro
+			
+			c_settsu = {
+				color = {111 97 131}
+				color2 = {63 63 63}
+				
+				b_osaka = {
+				}
+				# Check these baronies!
+				b_higashinari = {
+				}	
+				b_osakacity = {
+				}
+				b_sumioyoshi = {
+				}	
+				b_nishinari = {
+				}	
+				b_nose = {
+				}	
+				b_shimakami = {
+				}	
+				b_shimashimo = {
+				}	
+				b_sumiyoshi = {
+				}
+				# Remove two baronies (or move them where they should be)
+			}
+			c_izumi = {
+				color = {97 111 131}
+				color2 = {63 63 63}
+				
+				b_fuchu = {
+				}
+				b_senboku = {
+				}
+				b_sakai = {
+				}
+				b_otorikita = {
+				}
+				b_hine = {
+				}
+				b_izumiotsu = {
+				}
+				b_minami = {
+				}
+				b_otori = {
+				}
+				# Remove one barony
+			}
+			c_kwatchi = {
+				color = {45 101 171}
+				color2 = {63 63 63}
+			
+				b_kouiseki = {
+				}
+				b_setsuyoshu = {
+				}
+				b_hirakata = {
+				}
+				b_kokubuhinganjo = {
+				}
+				b_neyagawa = {
+				}
+				b_hiraoka = {
+				}
+				b_kadoma = {
+				}
+				b_yao = {
+				}
+				# Check the baronies (and remove one)!
+			}
+			c_yamato = {
+				color = { 204 134 135 }
+				color2 = { 63 63 63 }
+				
+				b_wakigami = {
+				}
+				b_katsujo = {
+				}
+				b_heijo-kyo = {
+				}
+				b_takaichi = {
+				}
+				b_omiwa-jinja = {
+				}
+				b_ichinomiya = {
+				}
+				# Needs baronies!
+			}
+			c_yamashiro = {
+				color = {224 124 125 }
+				color2 = { 63 63 63 }
+				
+				holy_site = shinto
+				holy_site = ainu_pagan
+				holy_site = ainu_pagan_reformed
+				
+				b_nara = {
+				}
+				b_kyoto = {
+				}
+				b_otokuni = {
+				}
+				b_kamigamo = {
+				}
+				b_shimogamo = {
+				}
+				b_kadono = {
+				}
+				b_otagi = {
+				}
+				b_uji = {
+				}
+				b_tsuzuki = {
+				}
+				# Remove two baronies!
+			}
+		}
+		
+		# Tokaido
+		
+		d_mie = {
+			color = { 255 116 0 }
+			color2 = {63 63 63}
+		
+			capital = 2487 # Ise
+	
+			c_iga = {
+				color = { 241 143 62}
+				color2 = {63 63 63}
+		
+				b_iga = {
+				}
+				b_ahai = {
+				}
+				b_nabari = {
+				}
+				b_yamada = {
+				}
+				# Needs baronies!
+			}
+			c_ise = {
+				color = { 214 134 145 }
+				color2 = { 63 63 63 }
+			
+				b_ise = {
+				}
+				b_seishu = {
+				}
+				b_tsu = {
+				}
+				b_kuwana = {
+				}
+				b_matsusaka = {
+				}
+				# Needs baronies!
+			}
+			c_shima = {
+				color = { 146 66 0 }
+				color2 = {63 63 63}
+				
+				b_ago = {
+				}
+				b_toshi = {
+				}
+				# Needs baronies!
+			}
+
+		}
+		d_aichi = {
+			color = {255 186 0}
+			color2 = {63 63 63}
+	
+			capital = 2489 # Owari
+			
+			c_owari = {
+				color = {138 105 15}
+				color2 = {63 63 63}
+			
+				b_inazawa  = {
+				}
+				b_aichi = {
+				}
+				b_chita2 = {
+				}
+				b_haguri = {
+				}
+				b_kasugai = {
+				}
+				b_kiyosu = {
+				}
+				# Needs baronies!
+			}
+			c_mikawa = {
+				color = { 233 234 132 }
+				color2 = {63 63 63}
+				
+				b_ko-machi = {
+				}
+				b_toyokawa = {
+				}
+				b_toga-jinja = {
+				}
+				b_higashikamo = {
+				}
+				b_hakuho-machi = {
+				}
+				b_nishikamo = {
+				}
+				# Needs baronies!
+			}
+		}
+		d_shizuoka = {
+			color = {43 54 153}
+			color2 = {63 63 63}
+			
+			capital = 2492 # Suruga
+			
+			c_suruga = {
+				color = {43 54 153}
+				color2 = {63 63 63}
+			
+				b_numazu = {
+				}
+				b_abe = {
+				}
+				b_fuji = {
+				}
+				b_ihara = {
+				}
+				# Needs baronies!
+			}
+			c_totomi = {
+				color = {6 15 90}
+				color2 = {63 63 63}
+		
+				b_iwata = {
+				}
+				b_aratama = {
+				}
+				b_hamamatsu = {
+				}
+				b_haibara = {
+				}
+				# Needs baronies!
+			}
+			c_izu = {
+				color = {159 168 245}
+				color2 = {63 63 63}
+	
+				b_mishima = {
+				}
+				b_nirayama = {
+				}
+				b_mishima-taisha = {
+				}
+				# Needs baronies!
+			}
+			c_kai = {
+				color = {74 78 115}
+				color2 = {63 63 63}
+
+				b_fuefuki = {
+				}
+				b_koma = {
+				}
+				b_tsuru = {
+				}
+				b_kofu = {
+				}
+				b_yamanashi = {
+				}
+				b_yatsushiro = {
+				}
+				# Needs baronies!
+			}
+		}
+		d_kanagawa = {
+			color = {190 225 29}
+			color2 = {63 63 63}
+		
+			capital = 2496 # Musashi
+		
+			c_musashi = {
+				color = { 224 124 135 }
+				color2 = { 63 63 63 }
+			
+				b_fuchu2 = {
+				}
+				b_musashino = {
+				}
+				b_edo = {
+				}
+				b_kokubunji = {
+				}
+				b_odawara = {
+				}
+				b_kanda = {
+				}
+				# Needs baronies!
+			}
+			c_sagami = {
+				color = { 112 131 22 }
+				color2 = {63 63 63}
+			
+				b_hiratsuka = {
+				}
+				b_oiso = {
+				}
+				b_ebina = {
+				}
+				b_samukawa = {
+				}
+				# Needs baronies!
+			}
+		}
+		d_chiba = {
+			color = { 255 102 0 }
+			color2 = {63 63 63}
+			
+			capital = 2499 # Shimosa
+		
+			c_hitachi = {
+				color = { 204 104 105 }
+				color2 = { 63 63 63 }
+			
+				holy_site = shinto
+				holy_site = ainu_pagan
+				holy_site = ainu_pagan_reformed
+				
+				b_ishioka = {
+				}
+				b_kashima = { # Mount Fuji
+				}
+				b_mito = {
+				}
+				# Needs baronies!
+			}
+			c_shimosa = {
+				color = {151 70 16}
+				color2 = {63 63 63}
+	
+				b_ichikawa = {
+				}
+				b_chiba = {
+				}
+				b_katori = {
+				}
+				b_inba = {
+				}
+				b_shimohabu = {
+				}
+				b_kaijo = {
+				}
+				b_sosa = {
+				}
+				b_okada = {
+				}
+				# Remove one barony!
+			}
+			c_kazusa = {
+				color = {184 146 121}
+				color2 = {63 63 63}
+
+				b_ichihara = {
+				}
+				b_soza = {
+				}
+				b_moda = {
+				}
+				b_tamasaki= {
+				}
+				# Needs baronies!
+			}
+			c_bonshu = {
+				color = {87 35 1}
+				color2 = {63 63 63}
+
+				b_minamiboso = {
+				}
+				b_tateyama = {
+				}
+				b_asai = {
+				}
+				b_heguri = {
+				}
+				b_nagasa = {
+				}
+				# Needs baronies!
+			}		
+		}
+		
+		# Hokurikudo
+		
+		d_fukui = {
+			color = {39 5 106}
+			color2 = { 63 63 63}
+			
+			capital = 2511 # Echizen
+		
+			c_wakasa = {
+				color = {105 86 143}
+				color2 = {63 63 63}
+				
+				b_obama = {
+				}
+				b_tsuruga = {
+				}
+				b_mikata = {
+				}
+				# Needs baronies!
+			}
+			c_echizen = {
+				color = {191 163 245}
+				color2 = {63 63 63}
+			
+				b_koshi= {
+				}
+				b_echizen-fuchu= {
+				}
+				b_asuwa= {
+				}
+				b_ichijodani= {
+				}
+				b_imadate= {
+				}
+				b_nanjo= {
+				}
+				# Needs baronies!
+			}
+		}	
+		d_ishikawa = {
+			color = {246 0 255}
+			color2 = {63 63 63}
+			
+			capital = 2512 # Kaga
+	
+			c_kaga = {
+				color= {246 0 255}
+				color2 = {63 63 63}
+			
+				b_kanazawa = {
+				}
+				b_enuma = {
+				}
+				b_kahoku = {
+				}
+				b_nomi = {
+				}
+				# Needs baronies!
+			}
+			c_noto = {
+				color = {142 18 147}
+				color2 = {63 63 63}
+			
+				b_nanao = {
+				}
+				b_fugeshi = {
+				}
+				b_hakui = {
+				}
+				b_suzu = {
+				}
+				# Needs baronies!
+			}
+			c_etchu = {
+				color = {222 152 225}
+				color2 = {63 63 63}
+	
+				b_takaoka = {
+				}
+				b_imizu = {
+				}
+				b_nei = {
+				}
+				b_kaminiikawa = {
+				}
+				b_nishitonami = {
+				}
+				# Needs baronies!
+			}
+		}
+		d_niigata = {
+			color = { 226 208 255}
+			color2 = {63 63 63}
+			
+			capital = 2517 # Niigata
+
+			c_niigata = {
+				color = { 234 104 105 }
+				color2 = { 63 63 63 }
+				
+				b_niigata = {
+				}
+				# Needs baronies!
+			}
+			c_kachiwazaki = {
+				color = { 234 104 105 } # TODO
+				color2 = { 63 63 63 } # TODO
+				
+				b_kachiwazaki = {}
+				# Needs baronies!
+			}
+			c_sado = {
+				color = {226 208 255}
+				color2 = {63 63 63}
+		
+				b_hamochi = {
+				}
+				b_kamo = {
+				}
+				b_sawata = {
+				}
+				b_sado = {
+				}
+				# Needs baronies!
+			}
+		}
+		
+		# Tosando
+		
+		d_gifu = {
+			color = {143 141 6}
+			color2 = {63 63 63}
+			
+			capital = 2501 # Omi
+			
+			c_omi = {
+				color = { 214 134 135 }
+				color2 = { 63 63 63 }
+				
+				b_otsu = {
+				}
+				b_enryaku = {
+				}
+				b_hieizan = {
+				}
+				b_sawayama = {
+				}
+				b_hikone = {
+				}
+				b_koka = {
+				}
+				b_takebe-taisha = {
+				}
+			}
+			c_mino = {
+				color = {179 178 81}
+				color2 = {63 63 63}
+				
+				# Check these baronies!
+				b_tarui = {
+				}
+				b_gifu = {
+				}
+				b_inabayama = {
+				}
+				b_gujo = {
+				}
+				b_fuwa2 = {
+				}
+				# Needs baronies!
+			}
+			c_hida = {
+				color = {242 241 175}
+				color2 = {63 63 63}
+			
+				b_takayama = {
+				}
+				b_mashita = {
+				}
+				b_ono = {
+				}
+				b_yoshiki = {
+				}
+				# Needs baronies!
+			}
+			c_komagane = {
+				color = {242 241 175} # TODO
+				color2 = {63 63 63} # TODO
+				
+				b_komagane = {}
+				# Needs baronies!
+			}
+		}
+		d_nagano = {
+			color = { 220 247 74}
+			color2 = {63 63 63}
+	
+			capital = 1654 # Shinano
+
+			c_nagano = {
+				color = { 254 124 155 }
+				color2 = { 63 63 63 }
+				
+				holy_site = shinto	# Check this!	
+				
+				# Check these baronies!
+				b_matsumoto = {
+				}
+				b_komoro = {
+				}
+				b_ina = {
+				}
+				b_ueda = {
+				}
+				# Needs baronies!
+			}
+			c_shimotsuke = {
+				color = { 214 94 140 }
+				color2 = { 63 63 63 }
+				
+				b_tochigi = {
+				}
+				b_nikko = {
+				}
+				b_utsunomiya = {
+				}
+				# Needs baronies!
+			}
+			c_kozuke = {
+				color = {176 208 0}
+				color2 = {63 63 63}
+				
+				b_takasaki = {
+				}
+				b_maebashi = {
+				}
+				b_agatsuma = {
+				}
+				b_kitagunma = {
+				}
+				b_nitta = {
+				}
+				# Needs baronies!
+			}
+			c_iwashiro = {
+				color = {110 115 84}
+				color2 = {63 63 63}
+			
+				b_aizu = {
+				}
+				b_isasumi = {
+				}
+				b_fukushima = {
+				}
+				# Needs baronies!
+			}		
+		}
+		
+		# Sanriku
+		
+		d_yamagata = {
+			color = {255 0 12}
+			color2 = {63 63 63}
+
+			capital = 2518 # Yamagata
+			
+			c_akita = {
+				color = { 214 94 120 }
+				color2 = { 63 63 63 }
+
+				holy_site = ainu_pagan
+				holy_site = ainu_pagan_reformed
+				
+				# Check these baronies!
+				b_akita = {
+				}
+				b_sagae = {
+				}
+				b_tendo = {
+				}
+				# Needs baronies!
+			}
+			c_uzen = {
+				color = { 230 0 120}
+				color2 = {63 63 63}
+	
+				b_kurvnni = {
+				}
+				b_mogami = {
+				}
+				# Needs baronies!
+			}
+			c_aomori = {
+				color = {230 100 120}
+				color2 = {63 63 63}
+	
+				b_aomori = {
+				}
+				b_tsugaru = {
+				}
+				# Needs baronies!
+			}
+			c_yamagata = {
+				color = {230 100 120} # TODO
+				color2 = {63 63 63} # TODO
+				
+				b_yamagata = {
+				}
+				# Needs baronies!
+			}
+		}
+		d_miyagi = {
+			color = { 219 116 121}
+			color2 = {63 63 63}
+		
+			capital = 2522 # Iwaki
+			
+			ainu = "Noto"
+			
+			c_iwaki = {
+				color = {200 100 100}
+				color2 = {63 63 63}
+	
+				b_shineha  = {
+				}
+				b_noto2 = {
+				}
+				b_namekata = {
+				}
+				# Needs baronies!
+			}
+			c_rikuzen = {
+				color = {100 200 100}
+				color2 = {63 63 63}
+				
+				b_kami = {
+				}
+				b_kurihara = {
+				}
+				# Needs baronies!
+			}
+			c_iwate = {
+				color = { 214 94 130 }
+				color2 = { 63 63 63 }
+				
+				b_iwate = {
+				}
+				# Needs baronies!
+			}
+			c_mutsu = {
+				color = { 214 94 130 } # TODO
+				color2 = { 63 63 63 } # TODO
+				
+				# Check these baronies!
+				b_miyagi = {
+				}
+				b_fukushima2 = {
+				}
+				b_aomori2 = {
+				}
+				b_kozumi = {
+				}
+				b_kosaka = {
+				}
+				# Needs baronies!
+			}
+		}
+	}
+		
+	k_ainu = {
+		color = { 127 0 0 }
+		color2 = { 63 63 63 }
+
+		capital = 2529 # Kamikawa
+		culture = ainu
+	
+		japanese = "Hokkaido"
+	
+		d_matnaw = {
+			color = { 15 190 188 }
+			color2 = {63 63 63}
+		
+			capital = 2535 # Kitami
+		
+			japanese = "Kitakaze"
+		
+			c_kitami = {
+				color = {127 78 199}
+				color2 = {63 63 63}
+	
+				b_kitami = {
+				}
+				# Check these baronies!
+				b_soya = {
+				}
+				b_rishiri = {
+				}
+				b_rebun = {
+				}
+				# Needs baronies!
+			}
+			c_wakkanai = {
+				color = {127 78 199} # TODO
+				color2 = {63 63 63} # TODO
+				
+				b_wakkanai = {}
+				# Needs baronies!
+			}
+			c_nemuro = {
+				color = {169 81 72}
+				color2 = {63 63 63}
+		
+				b_nemuro = {
+				}
+				b_hanasaki = {
+				}
+				# Needs baronies!
+			}
+		}
+		#d_kur = { # This causes a CTD for unknown reasons when opening the de jure duchy mapmode
+		#	color = {149 51 112}
+		#	color2 = {63 63 63}
+		#	
+		#	capital = 2532 # Kur
+		#	
+		#	c_kur = {
+		#		color = {149 51 112} # TODO
+		#		color2 = {63 63 63} # TODO
+		#
+		#		b_kur = {
+		#		}
+		#		# Needs baronies!
+		#	}
+		#	c_kamchatka = {
+		#		color = { 250 250 250} # TODO
+		#		color2 = {63 63 63} # TODO
+		#
+		#		b_kamchatka = {
+		#		}
+		#		# Needs baronies!
+		#	}
+		#}
+		d_ezo = {
+			color = { 85 51 0 }
+			color2 = { 63 63 63 }
+
+			capital = 2529 # Kamikawa
+
+			japanese = "Ezo"
+			ainu = "Yezo"
+		
+			c_kamikawa = {
+				color = { 214 101 105 }
+				color2 = { 63 63 63 }
+			
+				holy_site = ainu_pagan
+				holy_site = ainu_pagan_reformed
+			
+				b_asahikawa = {
+				}
+				b_furano = {
+				}
+				b_nayoro = {
+				}
+				b_shibetsu = {
+				}
+				b_biei = {
+				}
+				# Needs baronies!
+			}
+			c_tokachi = {
+				color = { 214 111 110 }
+				color2 = { 63 63 63 }
+			
+				b_obihiro = {
+				}
+				b_ashoro = {
+				}
+				b_hiroo = {
+				}
+				b_shimizu = {
+				}
+				b_memuro = {
+				}
+				b_sarabetsu = {
+				}
+				# Needs baronies!
+			}
+			c_teshio = {
+				color = {85 75 71}
+				color2 = {63 63 63}
+	
+				b_teshio = {
+				}
+				b_mashike = {
+				}
+				# Needs baronies!
+			}
+			c_hidaka = {
+				color = { 214 84 110 }
+				color2 = { 63 63 63 }
+			
+				b_urakawa = {
+				}
+				b_shinhidaka = {
+				}
+				b_nikappu = {
+				}
+				b_samani = {
+				}
+				# Needs baronies!
+			}
+		}
+		d_oshima = {
+			color = { 142 5 32 }
+			color2 = {63 63 63}
+			
+			capital = 2525 # Oshima
+			
+			c_oshima = {
+				color = { 142 5 32 } # TODO
+				color2 = {63 63 63} # TODO
+
+				b_oshima = {
+				}
+				b_kayabe = {
+				}
+				b_kameda = {
+				}
+				b_kamiiso = {
+				}
+				# Needs baronies!
+			}
+			c_shiribeshi = {
+				color = {1 69 70}
+				color2 = {63 63 63}
+	
+				b_shiribeshi = {
+				}
+				b_kudo = {
+				}
+				# Needs baronies!
+			}
+			c_iburi = {
+				color = {43 72 198}
+				color2 = {63 63 63}
+		
+				b_iburi = {
+				}
+				b_yamakoshi = {
+				}
+				# Needs baronies!
+			}
+		}
+	}
+}

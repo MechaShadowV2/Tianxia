@@ -1,0 +1,17 @@
+# 2494 - Izu
+
+# County Title
+title = c_izu
+# Settlements
+
+max_settlements = 3
+b_mishima = castle
+b_nirayama = city
+b_mishima-taisha = temple
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

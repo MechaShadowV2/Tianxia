@@ -1,0 +1,20 @@
+# 2507 - Shimotsuke
+
+# County Title
+title = c_shimotsuke
+
+# Settlements
+max_settlements = 3
+b_tochigi = tribal
+b_nikko = temple
+#b_utsunomiya = castle
+# Needs baronies!
+
+# Misc
+culture = ainu
+religion = ainu_pagan
+
+# History
+1017.1.1 = {
+	b_tochigi = castle
+}

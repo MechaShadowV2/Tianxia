@@ -1,0 +1,16 @@
+# 2527 - Iburi
+
+# County Title
+title = c_iburi
+
+# Settlements
+max_settlements = 2
+b_iburi = tribal
+#b_yamakoshi = castle
+# Needs baronies!
+
+# Misc
+culture = ainu
+religion = ainu_pagan
+
+# History

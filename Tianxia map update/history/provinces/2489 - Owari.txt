@@ -1,0 +1,20 @@
+# 2489 - Owari
+
+# County Title
+title = c_owari
+# Settlements
+
+max_settlements = 4
+b_inazawa = castle
+b_aichi = city
+b_chita2 = temple
+#b_haguri = city
+#b_kasugai = temple
+#b_kiyosu = castle
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

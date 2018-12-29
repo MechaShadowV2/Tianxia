@@ -1,0 +1,16 @@
+# 2443 - Higo
+
+# County Title
+title = c_higo
+
+# Settlements
+max_settlements = 2
+b_higo = castle
+b_aso = temple
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

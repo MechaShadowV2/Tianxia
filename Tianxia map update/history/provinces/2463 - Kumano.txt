@@ -1,0 +1,15 @@
+# 2463 - Kumano
+
+# County Title
+title = c_kumano
+
+# Settlements
+max_settlements = 1
+b_kumano = castle
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = buddhist
+
+# History

@@ -1,0 +1,15 @@
+# 2645 - Sibsongbanna
+
+# County Title
+title = c_sibsongbanna
+
+# Settlements
+max_settlements = 5
+b_sibsongbanna = castle
+# Needs baronies
+
+# Misc
+culture = shan
+religion = sanamahi_pagan
+
+# History

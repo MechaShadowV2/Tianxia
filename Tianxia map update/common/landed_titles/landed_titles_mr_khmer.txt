@@ -1,0 +1,1113 @@
+# MEKONG RAJAS: KHMER
+
+e_khmer = {
+	color = { 120 220 30 }
+	color2 = { 255 255 255 }
+		
+	capital = 2573 # Angkor
+	
+	short_name = yes
+	
+	culture = khmer
+	
+	k_lavo = {
+		color = { 160 240 10 }
+		color2 = { 255 255 255 }
+
+		capital = 2558 # Lavapura
+		
+		culture = thai
+		
+		thai = "Ayutthaya"
+		
+		d_lavapura = {
+			color = { 140 210 30 }
+			color2 = { 255 255 255 }
+	
+			capital = 2558 # Lavapura
+			
+			c_lavapura = {
+				color = { 160 200 20 }
+				color2 = { 255 255 255 }
+				
+				b_lavapura = {
+				}
+				# Check these baronies!
+				b_thanon_yai = {
+				}
+				b_pho_kao_ton = {
+				}
+				b_tha_wung = {
+				}
+				b_ban_mi = {
+				}
+				b_khok_samrong = {
+				}
+				b_sa_bot = {
+				}
+				b_phatthana_nikhon = {
+				}
+				# Remove one barony!
+			}
+			c_pathum_thani = {
+				color = { 160 200 10 }
+				color2 = { 255 255 255 }
+				
+				b_pathum_thani = {}
+				# Needs baronies!
+			}
+			c_chonburi = {
+				color = { 160 200 10 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_chonburi = {}
+				# Needs baronies!
+			}
+			c_prachinburi = {
+				color = { 160 200 10 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_prachinburi = {}
+				# Needs baronies!
+			}
+			c_lopburi = {
+				color = { 160 200 10 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_lopburi = {}
+				# Needs baronies!
+			}
+		}
+		d_nakhon_pathom = {
+			color = { 160 200 40 }
+			color2 = { 255 255 255 }
+			
+			capital = 2554 # Nakhon Pathom
+			
+			c_nakhon_pathom = {
+				color = { 160 200 40 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_nak_hon_pathom = {
+				}
+				# Check these baronies!
+				b_sam_phran = {
+				}
+				b_mueang_samut_sakhon = {
+				}
+				b_pak_kret = {
+				}
+				b_nak_hon_chai_si = {
+				}
+				b_don_tum = {
+				}
+				b_kamphaeng_saen = {
+				}
+				b_bang_len = {
+				}
+				# Remove one barony!
+			}
+			c_suphanburi = {
+				color = { 160 200 10 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_suphanburi = {}
+				# Needs baronies!
+			}
+			c_kanchanaburi = {
+				color = { 160 200 10 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_kanchanaburi = {}
+				# Needs baronies!
+			}
+			c_nakhon_sawan = {
+				color = { 110 200 40 }
+				color2 = { 255 255 255 }
+				
+				# Check these baronies!
+				b_lat_yao = {
+				}
+				b_nak_honsawan = {
+				}
+				b_mae_wong = {
+				}
+				b_kok_phra = {
+				}
+				b_phayuha_khiri = {
+				}
+				b_ban_phot_phisai = {
+				}
+				b_mae_poen = {
+				}
+				b_chumtabong = {
+				}
+				# Remove one barony!
+			}
+		}
+		d_ratchaburi = {
+			color = { 160 180 60 }
+			color2 = { 255 255 255 }
+	
+			capital = 2318 # Ratchaburi
+			
+			c_ratchaburi = {
+				color = { 160 180 20 }
+				color2 = { 255 255 255 }
+				
+				b_ratchaburi = {
+				}
+				# Check these baronies!
+				b_pak_tho = {
+				}
+				b_photharam = {
+				}
+				b_suan_phueng = {
+				}
+				b_chom_bueng = {
+				}
+				b_ban_pong = {
+				}
+				b_khok_mo = {
+				}
+				b_wat_phleng = {
+				}
+				# Remove one barony!
+			}
+			c_petchaburi = {
+				color = { 160 180 10 }
+				color2 = { 255 255 255 }
+				
+				b_petchaburi = {
+				}
+				# Check these baronies!
+				b_ban_laem = {
+				}
+				b_tha_yang = {
+				}
+				b_cha_am ={
+				}
+				b_kaeng_krachan ={
+				}
+				b_nong_ya_plong ={
+				}
+				b_khao_yoi ={
+				}
+				b_ban_lat ={
+				}
+				# Remove one barony!
+			}
+			c_ranong = {
+				color = { 160 180 10 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_ranong = {}
+				# Needs baronies!
+			}
+		}
+		d_chaiya = {
+			color = { 160 160 80 }
+			color2 = { 255 255 255 }
+	
+			capital = 2550 # Chaiya
+			
+			c_chaiya = {
+				color = { 160 160 20 }
+				color2 = { 255 255 255 }
+				
+				b_chaiya = {
+				}
+				b_surat_thani = {
+				}
+				b_kanchanadit = {
+				}
+				b_tha_chana = {
+				}
+				b_khiri_rat_nikhom = {
+				}
+				b_khura_buri = {
+				}
+				b_lang_suan = {
+				}
+			}
+			c_nakhon_si_thammarat = {
+				color = { 160 160 10 }
+				color2 = { 255 255 255 }
+				
+				b_nak_hon_si_thammarat = {
+				}
+				b_pak_phanang = {
+				}
+				b_tha_sala = {
+				}
+				b_ron_phibun = {
+				}
+				b_cha_uat = {
+				}
+				# Needs baronies!
+			}
+		}
+	}
+	
+	k_haripunjaya = {
+		color = { 110 210 30 }
+		color2 = { 255 255 255 }
+	
+		capital = 2566 # Haripunchal
+		
+		culture = thai
+		
+		thai = "Sukhothai"
+		
+		d_haripunchai = {
+			color = { 130 220 40 }
+			color2 = { 255 255 255 }
+	
+			capital = 2566 # Haripunchal
+			
+			c_haripunchai = {
+				color = { 110 220 20 }
+				color2 = { 255 255 255 }
+				
+				b_hariphunchai = {
+				}
+				# Check these baronies!
+				b_pa_sang = {
+				}
+				b_san_pa_tong = {
+				}
+				b_hang_dong = {
+				}
+				b_saraphi = {
+				}
+				b_ban_thi = {
+				}
+				b_mae_tha = {
+				}
+				b_doi_lo = {
+				}
+				# Remove one barony
+			}
+			c_phayao = {
+				color = { 110 220 10 }
+				color2 = { 255 255 255 }
+				
+				b_phayao = {
+				}
+				b_phu_kamyao2 = {
+				}
+				b_dok_khamtai2 = {
+				}
+				b_mae_chai2 = {
+				}
+				b_chiang_kham2 = {
+				}
+				b_phu_sang2 = {
+				}
+				b_chiang_muan2 = {
+				}
+			}
+			c_chiang_mai = {
+				color = { 110 220 40 }
+				color2 = { 255 255 255 }
+				
+				b_chiang_mai = {
+				}
+				b_mae_chaem = {
+				}
+				b_chom_thong = {
+				}
+				b_hot = {
+				}
+				b_bo_luang = {
+				}
+				b_omkoi = {
+				}
+				b_doi_tao = {
+				}
+				b_mae_rim = {	
+				}
+				# Remove one barony!
+			}
+			c_chiang_rai = {
+				color = { 110 220 50 }
+				color2 = { 255 255 255 }
+				
+				b_phan = {
+				}
+				b_chiang_rai = {
+				}
+				b_mae_lao = {
+				}
+				b_mae_suai = {
+				}
+				b_wiang_pa_pao = {
+				}
+				b_phaya_mengrai = {
+				}
+				b_pa_daet = {
+				}
+				b_maechedimai = {
+				}
+				# Remove one barony!
+			}
+		}
+		d_sukhotai = {
+			color = { 110 200 30 }
+			color2 = { 255 255 255 }
+	
+			capital = 2565 # Sukhotai
+			
+			c_sukhotai = {
+				color = { 110 200 20 }
+				color2 = { 255 255 255 }
+				
+				b_si_samrong = {
+				}
+				b_sukhothai = {
+				}
+				b_sawankhalok = {
+				}
+				b_thung_saliam = {
+				}
+				b_ban_dan_lan_hoi = {
+				}
+				b_kong_krailat = {
+				}
+				b_phichai = {
+				}
+			}
+			c_phitsanulok = {
+				color = { 110 200 10 }
+				color2 = { 255 255 255 }
+				
+				b_phitsanulok = {
+				}
+				# Check these baronies!
+				b_bang_rakam = {
+				}
+				b_wang_thom = {
+				}
+				b_wat_bot = {
+				}
+				b_phrom_phiram = {
+				}
+				b_bang_krathum = {
+				}
+				b_noen_maprang = {
+				}
+				b_kaeng_sopha = {
+				}
+				# Remove one barony!
+			}
+			c_nan = {
+				color = { 110 200 50 }
+				color2 = { 255 255 255 }
+				
+				b_nan = {
+				}
+				# Check these baronies
+				b_phu_phiang = {
+				}
+				b_wiang_sa = {
+				}
+				b_santi_suk = {
+				}
+				b_mae_charim = {
+				}
+				b_tha_wang_pha = {
+				}
+				b_pua = {
+				}
+				b_bo_kluea = {
+				}
+				# Remove one barony!
+			}
+			c_kamphaeng_phet = {
+				color = { 110 200 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_kamphaeng_phet = {}
+				# Needs baronies!
+			}
+		}
+	}
+	
+	k_cambodia = {
+		color = { 120 220 30 }
+		color2 = { 255 255 255 }
+	
+		capital = 2573 # Angkor
+		
+		culture = khmer
+		
+		d_prey_nokor = {
+			color = { 80 250 70 }
+			color2 = { 255 255 255 }
+	
+			capital = 2588 # Prey Nokor
+			
+			c_prey_nokor = {
+				color = { 80 240 20 }
+				color2 = { 255 255 255 }
+				
+				b_thuan_an = {
+				}
+				b_prey_nokor = {
+				}
+				b_di_an = {
+				}
+				b_thu_da_umot = {
+				}
+				b_tan_phu_trung = {
+				}
+				b_long_hoa = {
+				}
+				b_ly_nhon = {
+				}
+				b_go_cong = {
+				}
+				# Remove one barony!
+			}
+			c_oc_eo = {
+				color = { 80 240 40 }
+				color2 = { 255 255 255 }
+				
+				b_rach_gia = {
+				}
+				b_oc_eo = {
+				}
+				b_ca_mau = {
+				}
+				b_thanh_an = {
+				}
+				b_thanh_phu = {
+				}
+				b_truong_xuan = {
+				}
+				b_long_xuyen = {
+				}
+				b_thanh_loc = {
+				}
+				# Remove one barony!
+			}
+			c_vyadhapura = {
+				color = { 80 240 60 }
+				color2 = { 255 255 255 }
+				
+				b_vyadhapura = {
+				}
+				# Check these baronies!
+				b_gia_nghia = {
+				}
+				b_nghia_tan = {
+				}
+				b_dak_nia = {
+				}
+				b_quang_khe = {
+				}
+				b_dak_plao = {
+				}
+				b_dak_ha = {
+				}
+				b_thuan_an2 = {
+				}
+				# Remove one barony!
+			}
+			c_svay_rieng = {
+				color = { 80 240 60 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_svay_rieng = {}
+				# Needs baronies!
+			}
+		}
+		
+		d_angkor_borei = {
+			color = { 80 240 50 }
+			color2 = { 255 255 255 }
+			
+			capital = 2576 # Angkor Borei
+			
+			c_angkor_borei = {
+				color = { 80 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_angkor_borei = {
+				}
+				# Check these baronies!
+				b_baray = {
+				}
+				b_takeo = {
+				}
+				b_swai_samrong = {
+				}
+				b_phumi_kampong_chak = {
+				}
+				b_phumi_don_tuot = {
+				}
+				b_phumi_cheang_tong = {
+				}
+				b_phumi_andong_thom = {
+				}
+				# Remove one barony!
+			}
+			c_koh_kong = {
+				color = { 80 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_koh_kong = {}
+				# Needs baronies!
+			}
+			c_sambor_prei_kuk = {
+				color = { 90 240 40 }
+				color2 = { 255 255 255 }
+				
+				b_sambor_prei_kuk = {
+				}
+				# Needs baronies!
+			}
+		}
+	
+		d_vat_nokor = {
+			color = { 90 200 60 }
+			color2 = { 255 255 255 }
+	
+			capital = 2590 # Vat Nokor
+			
+			c_vat_nokor = {
+				color = { 90 240 50 }
+				color2 = { 255 255 255 }
+				
+				b_vat_nokor = {
+				}
+				# Check these baronies!
+				b_kampong_cham = {
+				}
+				b_kaoh_pan = {
+				}
+				b_sre_seam = {
+				}
+				b_phumi_kriel_thmei = {
+				}
+				b_peam_chileang = {
+				}
+				b_kaoh_treng = {
+				}
+				b_khum_tuol_snuol = {
+				}
+				# Remove one barony!
+			}
+			c_kratie = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_kratie = {}
+				# Needs baronies
+			}
+			c_mondulkiri = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_mondulkiri = {}
+				# Needs baronies
+			}
+		}
+		d_champassak = {
+			color = { 70 255 30 }
+			color2 = { 255 255 255 }
+	
+			capital = 2313 # Champassak
+			
+			c_champassak = {
+				color = { 70 240 40 }
+				color2 = { 255 255 255 }
+				
+				b_pakxe = {
+				}
+				b_champassak = {
+				}
+				b_houay_lusy = {
+				}
+				b_lao_ya = {
+				}
+				b_pak_tuay = {
+				}
+				b_wat_muang_kao = {
+				}
+				b_patumphon = {
+				}
+				b_ban_done_mak_giang = {
+				}
+				# Remove one barony!
+			}
+			c_stung_treng = {
+				color = { 70 240 50 }
+				color2 = { 255 255 255 }
+				
+				b_stung_treng = {
+				}
+				# Check these baronies!
+				b_phumi_thalabarivat = {
+				}
+				b_ban_tak_deth = {
+				}
+				b_kang_cham = {
+				}
+				b_phumi_thma_sar = {
+				}
+				b_ban_dan_ky = {
+				}
+				b_phumi_khsach_non = {
+				}
+				b_ban_bung = {
+				}
+				# Remove one barony!
+			}
+			c_ratanakiri = {
+				color = { 70 240 50 }
+				color2 = { 255 255 255 }
+				
+				b_ratanakiri = {}
+				# Needs more baronies!
+			}
+		}
+		
+		d_angkor = {
+			color = { 110 240 50 }
+			color2 = { 255 255 255 }
+	
+			capital = 2573 # Angkor
+			
+			c_angkor = {
+				color = { 110 240 20 }
+				color2 = { 255 255 255 }
+				
+				holy_site = viet_pagan
+				holy_site = viet_pagan_reformed
+				
+				b_angkor = {
+				}
+				# Check these baronies!
+				b_siem_reap = {
+				}
+				b_phnom_krom = {
+				}
+				b_chong_khneas = {
+				}
+				b_rokar_kambot = {
+				}
+				b_puok = {
+				}
+				b_pradak = {
+				}
+				b_phumi_khna = {
+				}
+				# Remove one barony!
+			}
+			c_preah_vihear = {
+				color = { 110 240 60 }
+				color2 = { 255 255 255 }
+				
+				b_preah_vihear = {
+				}
+				# Check these baronies!
+				b_kulen = {
+				}
+				b_phnum_tbeng_mean_chey = {
+				}
+				b_chhuk = {
+				}
+				b_phumi_boeng = {
+				}
+				b_phumi_chrak_krasang = {
+				}
+				b_cheam_til = {
+				}
+				b_phumi_kantuot_samraong = {
+				}
+			}
+			c_maha_sarakham = {
+				color = { 110 240 50 }
+				color2 = { 255 255 255 }
+				
+				b_maha_sarakham = {}
+				# Needs baronies!
+			}
+			c_amnat_charoen = {
+				color = { 110 240 40 }
+				color2 = { 255 255 255 }
+				
+				b_amnat_charoen = {}
+				# Needs baronies!
+			}
+			c_ubon_ratchathani = {
+				color = { 110 240 40 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_ubon_ratchathani = {}
+				# Needs baronies!
+			}
+		}
+		d_sri_thep = {
+			color = { 70 220 30 }
+			color2 = { 255 255 255 }
+	
+			capital = 2585 # Sri Thep
+			
+			c_loei = {
+				color = { 100 240 20 }
+				color2 = { 255 255 255 }
+				
+				b_loei = {}
+				# Needs baronies!
+			}
+			c_khon_kaen = {
+				color = { 100 240 20 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_khon_kaen = {}
+				# Needs baronies!
+			}
+			c_sri_thep = {
+				color = { 100 240 10 }
+				color2 = { 255 255 255 }
+				
+				b_sri_thep = {
+				}
+				# Check these baronies!
+				b_wichian_buri = {
+				}
+				b_bueng_sam_phan = {
+				}
+				b_nong_phai = {
+				}
+				b_chon_daen = {
+				}
+				b_kan_chu = {
+				}
+				b_phet_lakhon = {
+				}
+			}
+		}
+		d_nakhon_ratchasina = {
+			color = { 70 220 30 } # TODO
+			color2 = { 255 255 255 } # TODO
+			
+			capital = 2582 # Nakhon Ratchasina
+			
+			c_nakhon_ratchasina = {
+				color = { 70 220 30 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_nakhon_ratchasina = {}
+				# Needs baronies!
+			}
+			c_banteay_meanchey = {
+				color = { 70 220 30 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_banteay_meanchey = {}
+				# Needs baronies!
+			}
+		}
+		d_battambang = {
+			color = { 70 220 30 } # TODO
+			color2 = { 255 255 255 } # TODO
+			
+			capital = 2572 # Battambang
+			
+			c_battambang = {
+				color = { 70 220 30 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_battambang = {}
+				# Needs baronies!
+			}
+			c_pursat = {
+				color = { 70 220 30 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_pursat = {}
+				# Needs baronies!
+			}
+			c_chantaburi = {
+				color = { 70 220 30 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_chantaburi = {}
+				# Needs baronies!
+			}
+		}
+	}
+	
+	k_lan_xang = {
+		color = { 230 80 80 }
+		color2 = { 255 255 255 }
+	
+		capital = 2608 # Luang Prabang
+		
+		culture = lao
+		
+		d_muang_mang = {
+			color = { 240 120 50 }
+			color2 = { 255 255 255 }
+	
+			capital = 2600 # Savannakhet
+			
+			c_savannakhet = {
+				color = { 230 120 20 }
+				color2 = { 255 255 255 }
+				
+				b_savannakhet = {
+				}
+				b_ban_that = {
+				}
+				b_ban_nhiang = {
+				}
+				b_nasy = {
+				}
+				b_sompha_vilai = {
+				}
+				b_bankhapphuang = {
+				}
+				b_lao_fai = {
+				}
+				b_nadung = {
+				}
+				# Remove one barony!
+			}
+			c_salavan = {
+				color = { 230 120 10 }
+				color2 = { 255 255 255 }
+				
+				b_salavan = {
+				}
+				b_nakosao = {
+				}
+				b_ban_soung = {
+				}
+				b_nong_boua = {
+				}
+				b_ban_houay_thamao = {
+				}
+				b_ban_luktoungka_nua = {
+				}
+				b_mouang_taoy = {
+				}
+				b_houn = {
+				}
+				# Remove one barony!
+			}
+			c_khammouan = {
+				color = { 230 120 40 }
+				color2 = { 255 255 255 }
+				
+				b_khammouan = {
+				}
+				b_thakhek = {
+				}
+				b_ban_nahouangoua = {
+				}
+				b_chout_song = {
+				}
+				b_houay_aek = {
+				}
+				b_mai_nam_pakan = {
+				}
+				b_nong_hoi = {
+				}
+				b_ban_nadon = {
+				}
+				# Remove one barony!
+			}
+			c_bolikhamsai = {
+				color = { 230 120 50 }
+				color2 = { 255 255 255 }
+				
+				b_muang_fa_daet = {
+				}
+				b_mueang_kalasin = {
+				}
+				b_kamalasai = {
+				}
+				b_khong_chai = {
+				}
+				b_yang_talat = {
+				}
+				b_huai_mek = {
+				}
+				b_nong_kung_si = {
+				}
+				b_na_mon = {
+				}
+				# Remove one barony!
+			}
+		}
+		d_nakhon_phanom = {
+			color = { 230 120 60 }
+			color2 = { 255 255 255 }
+			
+			capital = 2597 # Nakhon Phanom
+			
+			c_nakhon_phanom = {
+				color = { 230 120 60 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_nakhon_phanom = {}
+				# Needs baronies!
+			}
+			c_bueng_kan = {
+				color = { 230 120 60 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_bueng_kan = {}
+				# Needs baronies!
+			}
+		}
+		
+		d_luang_prabang = {
+			color = { 230 100 30 }
+			color2 = { 255 255 255 }
+	
+			capital = 2608 # Luang Prabang
+			
+			c_luang_prabang = {
+				color = { 230 100 20 }
+				color2 = { 255 255 255 }
+				
+				holy_site = viet_pagan
+				holy_site = viet_pagan_reformed
+				
+				b_luang_prabang = {
+				}
+				# Check these baronies!
+				b_ban_xiang_nouak = {
+				}
+				b_chomingoua = {
+				}
+				b_napho = {
+				}
+				b_ban_souey = {
+				}
+				b_ban_xieng_lom = {
+				}
+				b_pha_o = {
+				}
+				b_ban_maeu = {
+				}
+				# Remove one barony
+			}
+			c_xiangkhouang = {
+				color = { 230 100 10 }
+				color2 = { 255 255 255 }
+				
+				b_xiangkhouang = {
+				}
+				# Check these baronies!
+				b_phonsavan = {
+				}
+				b_nanu = {
+				}
+				b_thuang = {
+				}
+				b_lat_sen = {
+				}
+				b_nak_ho = {
+				}
+				b_ban_pho = {
+				}
+				b_na_lin = {
+				}
+				# Remove one barony!
+			}
+			c_hua_phan = {
+				color = { 230 100 10 } # TODO
+				color2 = { 255 255 255 } # TODO
+			
+				b_hua_phan = {}
+				# Needs baronies!
+			}
+			c_xaisomboun = {
+				color = { 230 100 10 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_xaisomboun = {}
+				# Needs baronies!
+			}
+		}
+		
+		d_luang_namtha = {
+			color = { 230 100 30 }
+			color2 = { 255 255 255 }
+	
+			capital = 2611 # Luang Namtha
+			
+			c_bokeo = {
+				color = { 230 100 10 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_bokeo = {}
+				# Needs baronies!
+			}
+			c_muang_xay = {
+				color = { 230 100 10 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_muang_xay = {}
+				# Needs baronies!
+			}
+			c_luang_namtha = {
+				color = { 230 100 10 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_luang_namtha = {}
+				# Needs baronies!
+			}
+			c_phongsali = {
+				color = { 230 100 10 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_phongsali = {}
+				# Needs baronies!
+			}
+		}
+		d_wiang_jung = {
+			color = { 230 100 40 }
+			color2 = { 255 255 255 }
+			
+			capital = 2603 # Wiang Jung
+			
+			c_wiang_jung = {
+				color = { 230 100 40 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_wiang_jung = {
+				}
+				# Check these baronies!
+				b_sikeut = {
+				}
+				b_don_noun = {
+				}
+				b_dongmakkhai = {
+				}
+				b_tha_ngon = {
+				}
+				b_nathe = {
+				}
+				b_nadi = {
+				}
+				b_thongmang = {
+				}
+				# Remove one barony!
+			}
+			c_sayabouly = {
+				color = { 230 100 50 }
+				color2 = { 255 255 255 }
+				
+				b_sayabouly = {}
+				# Needs baronies!
+			}
+		}
+	}
+}

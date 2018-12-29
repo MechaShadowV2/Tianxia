@@ -1,0 +1,17 @@
+# 2444 - Goto
+
+# County Title
+title = c_goto
+
+# Settlements
+max_settlements = 3
+b_fukue = castle
+b_hisaka = castle
+b_naru = castle
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

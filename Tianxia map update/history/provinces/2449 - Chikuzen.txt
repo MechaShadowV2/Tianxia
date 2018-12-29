@@ -1,0 +1,17 @@
+# 2449 - Chikuzen
+
+# County Title
+title = c_chikuzen
+
+# Settlements
+max_settlements = 3
+b_dazaifu = castle
+b_fukuoka = city
+b_sumiyoshi-taira = temple
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

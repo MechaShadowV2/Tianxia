@@ -1,0 +1,19 @@
+# 2487 - Ise
+
+# County Title
+title = c_ise
+
+# Settlements
+max_settlements = 5
+b_ise = castle
+b_seishu = city
+b_tsu = city
+#b_kuwana = castle
+#b_matsusaka = castle
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

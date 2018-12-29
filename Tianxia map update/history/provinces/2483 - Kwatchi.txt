@@ -1,0 +1,22 @@
+# 2483 - Kwatchi
+
+# County Title
+title = c_kwatchi
+# Settlements
+
+max_settlements = 1
+b_kouiseki = castle
+b_setsuyoshu = castle
+b_hirakata = city
+b_kokubuhinganjo = temple
+#b_neyagawa = city
+#b_hiraoka = temple
+#b_kadoma = city
+#b_yao = castle
+# Check the baronies (and remove one)!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

@@ -1,0 +1,18 @@
+# 2469 - Bizen
+
+# County Title
+title = c_bizen
+
+# Settlements
+max_settlements = 4
+b_okayama = castle
+b_bizen = city
+b_takahashi = castle
+#b_kitbitsuhiko = temple
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = buddhist
+
+# History

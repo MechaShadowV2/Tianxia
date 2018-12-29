@@ -1,0 +1,17 @@
+# 2434 - Miyako
+
+# County Title
+title = c_miyakojima
+
+# Settlements
+max_settlements = 3
+b_ikema = castle
+b_miyako = city
+b_shimoji = temple
+#Needs baronies!		
+
+# Misc
+culture = ryukyuan
+religion = ryukyuan_pagan
+
+# History

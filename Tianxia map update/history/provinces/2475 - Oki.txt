@@ -1,0 +1,19 @@
+# 2475 - Oki
+
+# County Title
+title = c_oki
+
+# Settlements
+max_settlements = 5
+b_dogojima = castle
+b_nishinoshima = city
+b_okinoshima = castle
+b_mizuwakasu = temple
+b_yurahime = temple
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

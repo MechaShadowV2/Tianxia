@@ -1,0 +1,16 @@
+# 2534 - Teshio
+
+# County Title
+title = c_teshio
+
+# Settlements
+max_settlements = 2
+b_teshio = tribal
+#b_mashike = castle
+# Needs baronies!
+
+# Misc
+culture = ainu
+religion = ainu_pagan
+
+# History

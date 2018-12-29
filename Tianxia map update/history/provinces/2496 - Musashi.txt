@@ -1,0 +1,20 @@
+# 2496 - Musashi
+
+# County Title
+title = c_musashi
+
+# Settlements
+max_settlements = 6
+b_fuchu2 = castle
+b_musashino = city
+#b_edo = castle
+#b_kokubunji = temple
+#b_odawara = castle
+#b_kanda = city
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

@@ -1,0 +1,18 @@
+# 2522 - Iwate
+
+# County Title
+title = c_iwate
+
+# Settlements
+max_settlements = 1
+b_iwate = tribal
+# Needs baronies!
+
+# Misc
+culture = ainu
+religion = ainu_pagan
+
+# History
+1017.1.1 = {
+	b_iwate = castle
+}

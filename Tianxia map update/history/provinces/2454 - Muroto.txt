@@ -1,0 +1,15 @@
+# 2454 - Muroto
+
+# County Title
+title = c_muroto
+
+# Settlements
+max_settlements = 1
+b_muroto = castle
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

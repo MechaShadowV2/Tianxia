@@ -1,0 +1,18 @@
+# 2468 - Bitchu
+
+# County Title
+title = c_bitchu
+
+# Settlements
+
+max_settlements = 3
+b_kurashiki = castle
+b_soja = city
+b_kibitsu = temple
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

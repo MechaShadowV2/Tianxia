@@ -1,0 +1,19 @@
+# 2435 - Nanzan
+
+# County Title
+title = c_nanzan
+
+# Settlements
+max_settlements = 3
+b_nanzan = castle
+b_itoman = city
+b_ozato = temple
+#b_tokashiki
+#b_zamami
+#Needs baronies!
+
+# Misc
+culture = ryukyuan
+religion = ryukyuan_pagan
+
+# History

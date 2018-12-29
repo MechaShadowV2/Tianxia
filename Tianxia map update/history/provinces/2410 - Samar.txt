@@ -1,7 +1,7 @@
 # 2410 - Samar
 
 # County Title
-title = c_guiuan
+title = c_samar
 
 # Settlements
 max_settlements = 2

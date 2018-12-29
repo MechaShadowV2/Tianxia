@@ -1,0 +1,16 @@
+# 2439 - Tane
+
+# County Title
+title = c_tane
+
+# Settlements
+max_settlements = 2
+b_tanegashima = castle
+b_yakushima = temple
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

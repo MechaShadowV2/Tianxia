@@ -1,0 +1,19 @@
+# 2433 - Yaeyama
+
+# County Title
+title = c_yaeyama
+
+# Settlements
+max_settlements = 5
+b_ishigaki = castle
+b_taketomi = city
+b_kohama = temple
+#b_iriomote = city
+#b_yonaguni = castle
+#Needs baronies!
+				
+# Misc
+culture = ryukyuan
+religion = ryukyuan_pagan
+
+# History

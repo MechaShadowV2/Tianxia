@@ -1,0 +1,19 @@
+# 2479 - Tango
+
+# County Title
+title = c_tango
+# Settlements
+
+max_settlements = 6
+b_maizuru = castle
+b_miyazu = castle
+b_kasa = city
+b_naka = castle
+#b_takeno = city
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

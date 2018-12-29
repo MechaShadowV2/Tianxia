@@ -1,0 +1,19 @@
+# 2520 - Uzen
+
+# County Title
+title = c_uzen
+
+# Settlements
+max_settlements = 2
+b_kurvnni = tribal
+#b_mogami = castle
+# Needs baronies
+
+# Misc
+culture = ainu
+religion = ainu_pagan
+
+# History
+1017.1.1 = {
+	b_kurvnni = castle
+}

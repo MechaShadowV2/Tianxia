@@ -1,0 +1,15 @@
+# 2462 - Nachikatsura
+
+# County Title
+title = c_nachikatsura
+
+# Settlements
+max_settlements = 1
+b_nachikatsura = castle
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = buddhist
+
+# History

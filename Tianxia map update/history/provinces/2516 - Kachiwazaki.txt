@@ -1,0 +1,18 @@
+# 2516 - Kachiwazaki
+
+# County Title
+title = c_kachiwazaki
+
+# Settlements
+max_settlements = 1
+b_kachiwazaki = tribal
+# Needs baronies!
+
+# Misc
+culture = ainu
+religion = ainu_pagan
+
+# History
+1017.1.1 = {
+	b_kachiwazaki = castle
+}

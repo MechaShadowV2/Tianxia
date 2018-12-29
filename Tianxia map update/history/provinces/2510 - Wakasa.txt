@@ -1,0 +1,17 @@
+# 2510 - Wakasa
+
+# County Title
+title = c_wakasa
+# Settlements
+
+max_settlements = 3
+b_obama = castle
+b_tsuruga = city
+b_mikata = castle
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

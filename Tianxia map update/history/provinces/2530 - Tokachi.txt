@@ -1,0 +1,20 @@
+# 2530 - Tokachi
+
+# County Title
+title = c_tokachi
+
+# Settlements
+max_settlements = 6
+b_obihiro = tribal
+#b_ashoro = city
+b_hiroo = temple
+#b_shimizu = castle
+#b_memuro = castle
+#b_sarabetsu = castle
+# Needs baronies!
+
+# Misc
+culture = ainu
+religion = ainu_pagan
+
+# History

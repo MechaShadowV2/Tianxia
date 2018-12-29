@@ -1,0 +1,20 @@
+# 2511 - Echizen
+
+# County Title
+title = c_echizen
+# Settlements
+
+max_settlements = 5
+b_koshi = castle
+b_echizen-fuchu = city
+b_asuwa = temple
+#b_ichijodani = castle
+#b_imadate = city
+#b_nanjo = temple
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

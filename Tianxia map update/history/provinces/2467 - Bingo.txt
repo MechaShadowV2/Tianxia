@@ -1,0 +1,19 @@
+# 2467 - Bingo
+
+# County Title
+title = c_bingo
+
+# Settlements
+max_settlements = 5
+b_takehara = castle
+b_shobara = temple
+b_onomoki = city
+b_miyara = castle
+b_higashihiroshima = city
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

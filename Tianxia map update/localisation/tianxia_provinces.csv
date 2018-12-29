@@ -440,13 +440,281 @@ PROV2421;Bayombong;;;;;;;;;;;;;x
 PROV2422;Samtoy;;;;;;;;;;;;;x
 PROV2423;Bolo;;;;;;;;;;;;;x
 PROV2424;Apayao;;;;;;;;;;;;;x
-PROV2425;Lallo;x
+PROV2425;Lallo;;;;;;;;;;;;;x
 # Taiwan
+PROV2426;Taitung;;;;;;;;;;;;;x # Taiwan
+PROV2427;Tainan;;;;;;;;;;;;;x
+PROV2428;Penghu;;;;;;;;;;;;;x
+PROV2429;Changua;;;;;;;;;;;;;x
+PROV2430;Hai'an;;;;;;;;;;;;;x
+PROV2431;Taichung;;;;;;;;;;;;;x
+PROV2432;Taipei;;;;;;;;;;;;;x
 # Ryukyu
+PROV2433;Yaeyama;;;;;;;;;;;;;x # Ryukyu
+PROV2434;Miyako;;;;;;;;;;;;;x
+PROV2435;Nanzan;;;;;;;;;;;;;x
+PROV2436;Chuzan;;;;;;;;;;;;;x
+PROV2437;Hokuzan;;;;;;;;;;;;;x
+PROV2438;Amami;;;;;;;;;;;;;x
 # Japan
+PROV2439;Tane;;;;;;;;;;;;;x # Japan - Saikaido
+PROV2440;Osumi;;;;;;;;;;;;;x
+PROV2441;Satsuma;;;;;;;;;;;;;x
+PROV2442;Hyuga;;;;;;;;;;;;;x
+PROV2443;Higo;;;;;;;;;;;;;x
+PROV2444;Goto;;;;;;;;;;;;;x
+PROV2445;Hizen;;;;;;;;;;;;;x
+PROV2446;Chikugo;;;;;;;;;;;;;x
+PROV2447;Bungo;;;;;;;;;;;;;x
+PROV2448;Buzen;;;;;;;;;;;;;x
+PROV2449;Chikuzen;;;;;;;;;;;;;x
+PROV2450;Iki;;;;;;;;;;;;;x
+PROV2451;Tsushima;;;;;;;;;;;;;x
+PROV2452;Shimanto;;;;;;;;;;;;;x # Japan - Nankaido
+PROV2453;Tosa;;;;;;;;;;;;;x
+PROV2454;Muroto;;;;;;;;;;;;;x
+PROV2455;Yawatahama;;;;;;;;;;;;;x
+PROV2456;Iyo;;;;;;;;;;;;;x
+PROV2457;Niihama;;;;;;;;;;;;;x
+PROV2458;Sanuki;;;;;;;;;;;;;x
+PROV2459;Awa;;;;;;;;;;;;;x
+PROV2460;Awaji;;;;;;;;;;;;;x
+PROV2461;Wakayama;;;;;;;;;;;;;x
+PROV2462;Nachikatsura;;;;;;;;;;;;;x
+PROV2463;Kumano;;;;;;;;;;;;;x
+PROV2464;Nagato;;;;;;;;;;;;;x # Japan - Sanyodo
+PROV2465;Suo;;;;;;;;;;;;;x
+PROV2466;Aki;;;;;;;;;;;;;x
+PROV2467;Bingo;;;;;;;;;;;;;x
+PROV2468;Bitchu;;;;;;;;;;;;;x
+PROV2469;Bizen;;;;;;;;;;;;;x
+PROV2470;Mimasaka;;;;;;;;;;;;;x
+PROV2471;Harima;;;;;;;;;;;;;x
+PROV2472;MISSING PROV;;;;;;;;;;;;;x
+PROV2473;Iwami;;;;;;;;;;;;;x # Japan - Sanindo
+PROV2474;Izumo;;;;;;;;;;;;;x
+PROV2475;Oki;;;;;;;;;;;;;x
+PROV2476;Hoki;;;;;;;;;;;;;x
+PROV2477;Inaba;;;;;;;;;;;;;x
+PROV2478;Tajima;;;;;;;;;;;;;x
+PROV2479;Tango;;;;;;;;;;;;;x
+PROV2480;Tamba;;;;;;;;;;;;;x
+PROV2481;Settsu;;;;;;;;;;;;;x # Japan - Kinai
+PROV2482;Izumi;;;;;;;;;;;;;x
+PROV2483;Kwatchi;;;;;;;;;;;;;x
+PROV2484;Yamato;;;;;;;;;;;;;x
+PROV2485;Yamashiro;;;;;;;;;;;;;x
+PROV2486;Shima;;;;;;;;;;;;;x # Japan - Tokaido
+PROV2487;Ise;;;;;;;;;;;;;x
+PROV2488;Iga;;;;;;;;;;;;;x
+PROV2489;Owari;;;;;;;;;;;;;x
+PROV2490;Mikawa;;;;;;;;;;;;;x
+PROV2491;Totomi;;;;;;;;;;;;;x
+PROV2492;Suruga;;;;;;;;;;;;;x
+PROV2493;Kai;;;;;;;;;;;;;x
+PROV2494;Izu;;;;;;;;;;;;;x
+PROV2495;Sagami;;;;;;;;;;;;;x
+PROV2496;Musashi;;;;;;;;;;;;;x
+PROV2497;Bonshu;;;;;;;;;;;;;x
+PROV2498;Kazusa;;;;;;;;;;;;;x
+PROV2499;Shimosa;;;;;;;;;;;;;x
+PROV2500;Hitachi;;;;;;;;;;;;;x
+PROV2501;Omi;;;;;;;;;;;;;x # Japan - Tosando
+PROV2502;Mino;;;;;;;;;;;;;x
+PROV2503;Hida;;;;;;;;;;;;;x
+PROV2504;Komagane;;;;;;;;;;;;;x
+PROV2505;Nagano;;;;;;;;;;;;;x
+PROV2506;Kozuke;;;;;;;;;;;;;x
+PROV2507;Shimotsuke;;;;;;;;;;;;;x
+PROV2508;Iwashiro;;;;;;;;;;;;;x
+PROV2509;Iwaki;;;;;;;;;;;;;x
+PROV2510;Wakasa;;;;;;;;;;;;;x # Japan - Hokurikudo
+PROV2511;Echizen;;;;;;;;;;;;;x
+PROV2512;Kaga;;;;;;;;;;;;;x
+PROV2513;Noto;;;;;;;;;;;;;x
+PROV2514;Etchu;;;;;;;;;;;;;x
+PROV2515;Sado;;;;;;;;;;;;;x
+PROV2516;Kachiwazaki;;;;;;;;;;;;;x
+PROV2517;Niigata;;;;;;;;;;;;;x
+PROV2518;Yamagata;;;;;;;;;;;;;x # Japan - Sanriku
+PROV2519;Rikuzen;;;;;;;;;;;;;x
+PROV2520;Uzen;;;;;;;;;;;;;x
+PROV2521;Akita;;;;;;;;;;;;;x
+PROV2522;Iwate;;;;;;;;;;;;;x
+PROV2523;Mutsu;;;;;;;;;;;;;x
+PROV2524;Aomori;;;;;;;;;;;;;x
 # Ainu
-# Malaysia
-# Indochina
+PROV2525;Oshima;;;;;;;;;;;;;x # Ainu
+PROV2526;Shiribeshi;;;;;;;;;;;;;x
+PROV2527;Iburi;;;;;;;;;;;;;x
+PROV2528;Hidaka;;;;;;;;;;;;;x
+PROV2529;Kamikawa;;;;;;;;;;;;;x
+PROV2530;Tokachi;;;;;;;;;;;;;x
+PROV2531;Nemuro;;;;;;;;;;;;;x
+PROV2532;Kur;;;;;;;;;;;;;x
+PROV2533;Kamchatka;;;;;;;;;;;;;x
+PROV2534;Teshio;;;;;;;;;;;;;x
+PROV2535;Kitami;;;;;;;;;;;;;x
+PROV2536;Wakkanai;;;;;;;;;;;;;x
+# Malaya
+PROV2537;Temasek;;;;;;;;;;;;;x # Malaya
+PROV2538;Gelanggi;;;;;;;;;;;;;x
+PROV2539;Kuantan;;;;;;;;;;;;;x
+PROV2540;Melaka;;;;;;;;;;;;;x
+PROV2541;Kelang;;;;;;;;;;;;;x # A.k.a. Klang 
+PROV2542;Bentung;;;;;;;;;;;;;x
+PROV2543;Bujang;;;;;;;;;;;;;x
+PROV2544;Terengganu;;;;;;;;;;;;;x
+PROV2545;Kelantan;;;;;;;;;;;;;x
+PROV2546;Kedah;;;;;;;;;;;;;x
+PROV2547;Pattani;;;;;;;;;;;;;x
+PROV2548;Phatthalung;;;;;;;;;;;;;x
+# Indochina - Khmer Empire
+PROV2549;Nakhon Si Thammara;;;;;;;;;;;;;x # Lavo
+PROV2550;Chaiya;;;;;;;;;;;;;x
+PROV2551;Ranong;;;;;;;;;;;;;x
+PROV2552;Petchaburi;;;;;;;;;;;;;x
+PROV2553;Ratchaburi;;;;;;;;;;;;;x
+PROV2554;Nakhon Phatom;;;;;;;;;;;;;x
+PROV2555;Kanchanaburi;;;;;;;;;;;;;x
+PROV2556;Suphanburi;;;;;;;;;;;;;x
+PROV2557;Nakhon Sawan;;;;;;;;;;;;;x
+PROV2558;Lavapura;;;;;;;;;;;;;x
+PROV2559;Pathum Thani;;;;;;;;;;;;;x
+PROV2560;Chonburi;;;;;;;;;;;;;x
+PROV2561;Prachinburi;;;;;;;;;;;;;x
+PROV2562;Lopburi;;;;;;;;;;;;;x
+PROV2563;Kamphaeng Phet;;;;;;;;;;;;;x # Haripunjaya
+PROV2564;Phitsanulok;;;;;;;;;;;;;x
+PROV2565;Sukhotai;;;;;;;;;;;;;x
+PROV2566;Haripunchai;;;;;;;;;;;;;x
+PROV2567;Chiang Mai;;;;;;;;;;;;;x
+PROV2568;Nan;;;;;;;;;;;;;x
+PROV2569;Phayao;;;;;;;;;;;;;x
+PROV2570;Chiang Rai;;;;;;;;;;;;;x
+PROV2571;Chantaburi;;;;;;;;;;;;;x # Cambodia
+PROV2572;Battambang;;;;;;;;;;;;;x
+PROV2573;Angkor;;;;;;;;;;;;;x
+PROV2574;Pursat;;;;;;;;;;;;;x
+PROV2575;Koh Kong;;;;;;;;;;;;;x
+PROV2576;Angkor Borei;;;;;;;;;;;;;x
+PROV2577;Oc Eo;;;;;;;;;;;;;x
+PROV2578;Banteay Meanchey;;;;;;;;;;;;;x
+PROV2579;Sambor Prei Kuk;;;;;;;;;;;;;x
+PROV2580;Preah Vihear;;;;;;;;;;;;;x
+PROV2581;Ubon Ratchathani;;;;;;;;;;;;;x
+PROV2582;Nakhon Ratchasima;;;;;;;;;;;;;x
+PROV2583;Maha Sarakham;;;;;;;;;;;;;x
+PROV2584;Amnat Charoen;;;;;;;;;;;;;x
+PROV2585;Sri Thep;;;;;;;;;;;;;x
+PROV2586;Khon Kaen;;;;;;;;;;;;;x
+PROV2587;Loei;;;;;;;;;;;;;x
+PROV2588;Prey Nokor;;;;;;;;;;;;;x
+PROV2589;Vyadhapura;;;;;;;;;;;;;x
+PROV2590;Vat Nokor;;;;;;;;;;;;;x
+PROV2591;Svay Rieng;;;;;;;;;;;;;x
+PROV2592;Kratie;;;;;;;;;;;;;x
+PROV2593;Stung Treng;;;;;;;;;;;;;x
+PROV2594;Mondulkiri;;;;;;;;;;;;;x
+PROV2595;Ratanakiri;;;;;;;;;;;;;x
+PROV2596;Champassak;;;;;;;;;;;;;x
+PROV2597;Nakhon Phanom;;;;;;;;;;;;;x # Lan Xang
+PROV2598;Bueng Kan;;;;;;;;;;;;;x
+PROV2599;Salavan;;;;;;;;;;;;;x
+PROV2600;Savannakhet;;;;;;;;;;;;;x
+PROV2601;Khammouan;;;;;;;;;;;;;x
+PROV2602;Bolikhamsai;;;;;;;;;;;;;x
+PROV2603;Wiang Jun;;;;;;;;;;;;;x
+PROV2604;Xaisomboun;;;;;;;;;;;;;x
+PROV2605;Xiangkhouang;;;;;;;;;;;;;x
+PROV2606;Hua Phan;;;;;;;;;;;;;x
+PROV2607;Sayabouly;;;;;;;;;;;;;x
+PROV2608;Luang Prabang;;;;;;;;;;;;;x
+PROV2609;Bokeo;;;;;;;;;;;;;x
+PROV2610;Muang Xay;;;;;;;;;;;;;x
+PROV2611;Luang Namtha;;;;;;;;;;;;;x
+PROV2612;Phongsali;;;;;;;;;;;;;x
+# Extra Kamarupa
+PROV2613;Batang;;;;;;;;;;;;;x # Extra Kamarupa
+# Indochina - Burma
+PROV2614;Kawthaung;;;;;;;;;;;;;x # Pegu
+PROV2615;Myeik;;;;;;;;;;;;;x # A.k.a. Mergui
+PROV2616;Dawei;;;;;;;;;;;;;x # A.k.a. Tavoy
+PROV2617;Mawlamyine;;;;;;;;;;;;;x # A.k.a. Moulmein
+PROV2618;Thaton;;;;;;;;;;;;;x
+PROV2619;Pegu;;;;;;;;;;;;;x
+PROV2620;Taungoo;;;;;;;;;;;;;x
+PROV2621;Dagon;;;;;;;;;;;;;x
+PROV2622;Pathein;;;;;;;;;;;;;x # A.k.a. Bassein
+PROV2623;Pyay;;;;;;;;;;;;;x # A.k.a. Prome # Ava
+PROV2624;Thandwe;;;;;;;;;;;;;x # A.k.a. Sandoway
+PROV2625;Sittwe;;;;;;;;;;;;;x
+PROV2626;Minbu;;;;;;;;;;;;;x
+PROV2627;Mong Pai;;;;;;;;;;;;;x
+PROV2628;Pyinsa;;;;;;;;;;;;;x
+PROV2629;Yamethin;;;;;;;;;;;;;x
+PROV2630;Kyaukse;;;;;;;;;;;;;x
+PROV2631;Ava;;;;;;;;;;;;;x
+PROV2632;Pagan;;;;;;;;;;;;;x
+PROV2633;Kale;;;;;;;;;;;;;x
+PROV2634;Thobal;;;;;;;;;;;;;x
+PROV2635;Tabayin;;;;;;;;;;;;;x
+PROV2636;Sagaing;;;;;;;;;;;;;x
+PROV2637;Hsipaw;;;;;;;;;;;;;x
+PROV2638;Tagaung;;;;;;;;;;;;;x
+PROV2639;Mong Yang;;;;;;;;;;;;;x
+PROV2640;Katha;;;;;;;;;;;;;x
+PROV2641;Tamanthi;;;;;;;;;;;;;x
+PROV2642;Mong Nai;;;;;;;;;;;;;x # Shan
+PROV2643;Kyaingtong;;;;;;;;;;;;;x
+PROV2644;Mong Kung;;;;;;;;;;;;;x
+PROV2645;Sibsongbanna;;;;;;;;;;;;;x
+PROV2646;Hsenwi;;;;;;;;;;;;;x # A.k.a Theinni
+PROV2647;Ngasaunggyan;;;;;;;;;;;;;x
+PROV2648;Mong Kawng;;;;;;;;;;;;;x
+PROV2649;Minsin;;;;;;;;;;;;;x
+PROV2650;Hkamti Long;;;;;;;;;;;;;x
+PROV2651;Gyaltang;;;;;;;;;;;;;x # Dali
+PROV2652;Tengchong;;;;;;;;;;;;;x
+PROV2653;Longling;;;;;;;;;;;;;x
+PROV2654;Lincang;;;;;;;;;;;;;x
+PROV2655;Pu'er;;;;;;;;;;;;;x
+PROV2656;Lushui;;;;;;;;;;;;;x
+PROV2657;Dali;;;;;;;;;;;;;x
+PROV2658;Chuxiong;;;;;;;;;;;;;x
+PROV2659;Kunming;;;;;;;;;;;;;x
+PROV2660;Wenshan;;;;;;;;;;;;;x
+PROV2661;Lijiang;;;;;;;;;;;;;x
+PROV2662;Panzhihua;;;;;;;;;;;;;x
+PROV2663;Qujing;;;;;;;;;;;;;x
+PROV2664;Qianxinan;;;;;;;;;;;;;x
+PROV2665;Luodian;;;;;;;;;;;;;x
+# Indochina - Vietnam
+PROV2666;Panduranga;;;;;;;;;;;;;x # Champa
+PROV2667;Kauthara;;;;;;;;;;;;;x
+PROV2668;Phu Yen;;;;;;;;;;;;;x
+PROV2669;Vijaya;;;;;;;;;;;;;x
+PROV2670;Amaravati;;;;;;;;;;;;;x
+PROV2671;Indrapura;;;;;;;;;;;;;x
+PROV2672;Hue;;;;;;;;;;;;;x
+PROV2673;Tien Binh;;;;;;;;;;;;;x
+PROV2674;Ha Thin;;;;;;;;;;;;;x # Annam
+PROV2675;Nghe An;;;;;;;;;;;;;x
+PROV2676;Lam Son;;;;;;;;;;;;;x
+PROV2677;Than Hoa;;;;;;;;;;;;;x
+PROV2678;Son La;;;;;;;;;;;;;x
+PROV2679;Dien Bien;;;;;;;;;;;;;x
+PROV2680;Lai Chau;;;;;;;;;;;;;x
+PROV2681;Lao Cai;;;;;;;;;;;;;x
+PROV2682;Hoa Lu;;;;;;;;;;;;;x
+PROV2683;Nam Dinh;;;;;;;;;;;;;x
+PROV2684;Hai Phong;;;;;;;;;;;;;x
+PROV2685;Dai La;;;;;;;;;;;;;x
+PROV2686;Quang Ninh;;;;;;;;;;;;;x
+PROV2687;Lang Son;;;;;;;;;;;;;x
+PROV2688;Bac Kan;;;;;;;;;;;;;x
+PROV2689;Cao Bang;;;;;;;;;;;;;x
+PROV2690;Ha Giang;;;;;;;;;;;;;x
 # Extra Tibet
 # China
 # Korea

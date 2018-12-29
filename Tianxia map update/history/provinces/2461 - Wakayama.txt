@@ -1,0 +1,19 @@
+# 2461 - Wakayama
+
+# County Title
+title = c_wakayama
+
+# Settlements
+max_settlements = 4
+b_wakayama = castle
+# Check that these are in the right province!
+b_kinokawa = city
+b_arida = castle
+#b_tanabe = temple
+# Needs baronies
+
+# Misc
+culture = japanese
+religion = buddhist
+
+# History

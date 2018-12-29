@@ -1,0 +1,18 @@
+# 2517 - Niigata
+
+# County Title
+title = c_niigata
+
+# Settlements
+max_settlements = 1
+b_niigata = tribal
+# Needs baronies!
+
+# Misc
+culture = ainu
+religion = ainu_pagan
+
+# History
+1017.1.1 = {
+	b_niigata = castle
+}

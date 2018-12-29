@@ -1,0 +1,17 @@
+# 2500 - Hitachi
+
+# County Title
+title = c_hitachi
+
+# Settlements
+max_settlements = 3
+b_ishioka = castle
+b_kashima = temple
+b_mito = city
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

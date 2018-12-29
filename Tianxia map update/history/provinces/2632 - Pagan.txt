@@ -1,0 +1,22 @@
+# 2632 - Pagan
+
+# County Title
+title = c_pagan
+
+# Settlements
+max_settlements = 6
+b_myingyan = castle
+b_pagan = city
+b_pakokku = temple
+#b_monywa = castle
+#b_ma_au = city
+#b_myaing = castle
+#b_myitche = castle
+#b_pauk = castle
+# Check the baronies and remove one!
+
+# Misc
+culture = bamar
+religion = buddhist
+
+# History

@@ -1,0 +1,17 @@
+# 2448 - buzen
+
+# County Title
+title = c_buzen
+
+# Settlements
+max_settlements = 3
+b_toyotsu = castle
+b_kokura = city
+b_usa = temple
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

@@ -1,0 +1,17 @@
+# 2438 - Amami
+
+# County Title
+title = c_amami
+
+# Settlements
+max_settlements = 2
+b_amami = castle
+b_kikaijima = city
+b_kakeromajima = temple
+# Needs baronies!
+
+# Misc
+culture = ryukyuan
+religion = ryukyuan_pagan
+
+# History

@@ -1,0 +1,18 @@
+# 2512 - Kaga
+
+# County Title
+title = c_kaga
+
+# Settlements
+max_settlements = 4
+b_kanazawa = castle
+b_enuma = castle
+b_kahoku = city
+#b_nomi = city
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

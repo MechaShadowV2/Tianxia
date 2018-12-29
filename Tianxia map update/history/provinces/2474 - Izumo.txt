@@ -1,0 +1,16 @@
+# 2474 - Izumo
+
+# County Title
+title = c_izumo
+
+# Settlements
+max_settlements = 4
+b_yasugi = castle
+b_izumo = temple
+b_oda = city
+#b_unnan = castle
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto

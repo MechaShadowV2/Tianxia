@@ -1,0 +1,19 @@
+# 2529 - Kamikawa
+
+# County Title
+title = c_kamikawa
+
+# Settlements
+max_settlements = 5
+b_asahikawa = tribal
+#b_furano = city
+b_nayoro = temple
+#b_shibetsu = castle
+#b_biei = castle
+# Needs baronies!
+
+# Misc
+culture = ainu
+religion = ainu_pagan
+
+# History

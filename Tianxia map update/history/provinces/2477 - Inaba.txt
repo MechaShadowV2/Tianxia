@@ -1,0 +1,20 @@
+# 2477 - Inaba
+
+# County Title
+title = c_inaba
+
+# Settlements
+max_settlements = 6
+b_tottori = castle
+b_ube = temple
+b_chizu = city
+b_takakusa = castle
+#b_omi = city
+#b_keta = temple
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

@@ -1,0 +1,15 @@
+# 2532 - Kur
+
+# County Title
+title = c_kur
+
+# Settlements
+max_settlements = 1
+b_kur = tribal
+# Needs baronies!
+
+# Misc
+culture = ainu
+religion = ainu_pagan
+
+# History

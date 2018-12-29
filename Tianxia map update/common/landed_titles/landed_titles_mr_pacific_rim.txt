@@ -9,7 +9,8 @@ e_pacific_rim = { # New; might need a better name
 			tier = king
 			NOT = { title = k_mindanao }
 			NOT = { title = k_maynila }
-			#NOT = { title = k_taiwan } # TODO
+			NOT = { title = k_taiwan }
+			NOT = { title = k_ryukyu }
 		}
 	}
 	
@@ -592,6 +593,231 @@ e_pacific_rim = { # New; might need a better name
 				color2 = { 90 90 90 } # TODO
 				
 				b_bolo = {}
+				# Needs baronies!
+			}
+		}
+	}
+	
+	k_taiwan = {
+		color = { 215 254 189 }
+		color2 = { 90 90 90 }
+		
+		capital = 2432 # Taipei
+		
+		culture = taiwanese
+
+		taiwanese = "Tungning"
+		yue = "Yanping"
+		han = "Yanping"
+		japanese = "Takasago"
+		min = "Yanping"
+		she = "Yanping"
+		tagalog = "Taywan"
+			
+		d_taipeh = {
+			color = {220 220 180}
+			color2 = {90 90 90}
+			
+			taiwanese = "Basay"
+			japanese = "Taihoku"
+			
+			capital = 2432 # Taipei
+			
+			c_taichung = {
+				color = { 280 280 180}
+				color2 = {90 90 90}
+		
+				b_taichung = {
+				}
+				# Needs baronies !
+			}
+			c_taipei = {
+				color = { 215 254 159 }
+				color2 = { 90 90 90 }
+				
+				holy_site = melanesian_pagan
+				holy_site = melanesian_pagan_reformed
+				holy_site = ryukyuan_pagan
+				holy_site = ryukyuan_pagan_reformed
+				
+				b_taipei = {
+				}
+				# Needs baronies !
+			}
+			c_changua = {
+				color = {240 200 190 }
+				color2 = {90 90 90}
+		
+				b_changua = {
+				}
+				# Needs baronies !
+			}
+			c_penghu = {
+				color = {127 123 79}
+				color2 = {90 90 90}
+				
+				holy_site = chinese_pagan
+				holy_site = chinese_pagan_reformed
+				
+				b_huxi = {
+				}
+				b_magong = {
+				}
+				# Needs baronies !
+			}
+		}
+		d_tainan = {
+			color = {200 230 180}
+			color2 = {90 90 90}
+			capital = 1961 # Tainan
+  
+			japanese = "Taichu"
+			taiwanese = "Siraya"
+			
+			capital = 2427 # Tainan
+			
+			c_tainan = {
+				color = { 200 230 180}
+				color2 = {90 90 90}
+		
+				b_tainan = {
+				}
+				b_kaoshiung = {
+				}
+				# Needs baronies !
+			}
+			
+			c_taitung = {
+				color = { 180 190 210}
+				color2 = {90 90 90}
+		
+				b_taitung = {
+				}
+				b_pingtung = {
+				}
+				# Needs baronies !
+			}
+			c_haian = {
+				color = { 215 254 169 }
+				color2 = { 90 90 90 }
+				
+				b_haian = {
+				}
+				# Needs baronies !
+			}			
+		}
+	}
+	
+	k_ryukyu = {
+		color = { 214 124 105 }
+		color2 = { 63 90 152 }
+	
+		capital = 2436 # Chuzan
+		culture = ryukyuan
+		
+		japanese = "Okinawa"		
+		
+		ryukyuan_pagan_reformed = 1000
+		
+		d_ryukyu = {
+			color = { 214 114 115 }
+			color2 = { 63 90 152 }
+	
+			capital = 2436 # Chuzan
+			
+			japanese = "Okinawa"
+			
+			c_chuzan = {
+				color = { 214 124 115 }
+				color2 = { 63 90 152 }
+				
+				holy_site = ryukyuan_pagan
+				holy_site = ryukyuan_pagan_reformed
+				
+				b_okinawa = {
+				}
+				b_kumejima = {
+				}
+				b_iheyajima = {
+				}
+				b_agunjima = {
+				}
+				b_tonaki-shima = {
+				}
+				# Needs baronies!
+			}
+			c_nanzan = {
+				color = { 204 134 105 }
+				color2 = {63 90 152 }
+				
+				b_nanzan = {
+				}
+				b_itoman = {
+				}
+				b_ozato = {
+				}
+				b_tokashiki = {
+				}
+				b_zamami = {
+				}
+				# Needs baronies!
+				
+			}
+			c_hokuzan = { 
+				color = { 246 225 160 }
+				color2 = {63 90 152}
+				
+				b_hokuzan = {
+				}
+				b_nakijin = {
+				}
+				# Needs baronies!
+			}
+			c_amami = {
+				color = { 214 114 125 }
+				color2 = { 63 90 152 }
+				
+				b_amami = {
+				}
+				b_kikaijima = {
+				}
+				b_kakeromajima = {
+				}
+				# Needs baronies!
+			}
+		}
+		d_yaeyama = {
+			color = {169 126 207}
+			color2 = {63 90 152}
+			
+			capital = 2433 # Yaeyama
+			
+			c_yaeyama = {
+				color = {149 160 240}
+				color2 = {63 90 152}
+				
+				b_ishigaki = {
+				}
+				b_taketomi = {
+				}
+				b_kohama = {
+				}
+				b_iriomote = {
+				}
+				b_yonaguni = {
+				}
+				# Needs baronies!
+			}
+			c_miyakojima = {
+				color = {75 135 220}
+				color2 = {63 90 152}
+
+				b_ikema = {
+				}
+				b_miyako = {
+				}
+				b_shimoji = {
+				}
 				# Needs baronies!
 			}
 		}

@@ -1,0 +1,19 @@
+# 2456 - Iyo
+
+# County Title
+title = c_iyo
+
+# Settlements
+max_settlements = 4
+# Check that these baronies are in the right province!
+b_imabari = castle
+b_matsuyama = city
+b_uwajima = castle
+#b_iyo = city
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

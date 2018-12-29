@@ -1,0 +1,17 @@
+# 2426 - Taitung
+
+# County Title
+title = c_taitung
+
+# Settlements
+max_settlements = 1
+
+b_taitung = castle
+#b_pingtung
+# Needs baronies!
+
+# Misc
+culture = taiwanese
+religion = melanesian_pagan
+
+# History

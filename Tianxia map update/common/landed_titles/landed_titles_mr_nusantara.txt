@@ -1588,4 +1588,237 @@ e_nusantara = {
 			}
 		}
 	}
+	
+	k_malaya = {
+		color = { 235 224 99 }
+		color2 = { 90 90 90 }
+
+		capital = 2540 # Melaka
+		
+		culture = malay
+		
+		d_melaka = {
+			color = { 215 254 119 }
+			color2 = { 90 90 90 }
+
+			capital = 2540 # Melaka
+			
+			c_melaka = {
+				color = { 235 254 159 }
+				color2 = { 90 90 90 }
+				
+				holy_site = dayak_pagan
+				holy_site = dayak_pagan_reformed
+				
+				b_melaka = {
+				}
+				b_muar = {
+				}
+				b_seremban = {
+				}
+				b_batu_pahat = {
+				}
+				b_merlimau = {
+				}
+				b_bakri = {
+				}
+				b_pagoh = {
+				}
+				b_bukit_gambir = {
+				}
+				# Check these baronies and remove one!
+			}
+			c_gelanggi = {
+				color = { 235 254 169 }
+				color2 = { 90 90 90 }
+				
+				b_gelanggi = {
+				}
+				b_balok = {
+				}
+				b_sungai_lembing = {
+				}
+				b_chukai = {
+				}
+				b_gambang = {
+				}
+				b_kampung_batu_sebelas = {
+				}
+				b_kuala_rompin = {
+				}
+			}
+			c_temasek = {
+				color = { 235 254 179 }
+				color2 = { 90 90 90 }
+				
+				b_temasek = {
+				}
+				b_tuas = {
+				}
+				b_bukit_timah = {
+				}
+				b_yishun = {
+				}
+				b_sengkang = {
+				}
+				b_bedok = {
+				}
+				b_nongsa = {
+				}
+				b_sei_beduk = {
+				}
+				# Remove one barony!
+			}
+		}
+		
+		d_langkasuka = {
+			color = { 235 234 79 }
+			color2 = { 90 90 90 }
+
+			capital = 2546 # Kedah
+			
+			c_kelang = {
+				color = { 235 254 179 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_kelang = {}
+				# Needs baronies!
+			}
+			c_kedah = {
+				color = { 235 234 159 }
+				color2 = { 90 90 90 }
+				
+				b_kedah = {
+				}
+				# Check these and remove two baronies!
+				b_kedaram = {
+				}
+				b_jitra = {
+				}
+				b_ayer_hitam = {
+				}
+				b_kodiang = {
+				}
+				b_arau = {
+				}
+				b_kangar = {
+				}
+				b_kuala_nerang = {
+				}
+				b_pendang = {
+				}
+			}
+			c_bujang = {
+				color = { 235 234 179 }
+				color2 = { 90 90 90 }
+				
+				b_bujang = {
+				}
+				b_jitra2 = {
+				}
+				b_ayer_hitam2 = {
+				}
+				b_kodiang2 = {
+				}
+				b_arau2 = {
+				}
+				b_kangar2 = {
+				}
+				b_kuala_nerang2 = {
+				}
+				b_pendang2 = {
+				}
+				# Remove one barony!
+			}
+		}
+		d_kelantan = {
+			color = { 255 224 89 }
+			color2 = { 90 90 90 }
+
+			capital = 1622 # Pattani
+			
+			c_pattani = {
+				color = { 235 244 159 }
+				color2 = { 90 90 90 }
+				
+				b_pattani = {
+				}
+				# Check these!
+				b_yaring = {
+				}
+				b_mayo2 = {
+				}
+				b_sai_buri = {
+				}
+				b_nong_chik = {
+				}
+				b_khok_pho = {
+				}
+				b_thepha = {
+				}
+				b_saba_yoi = {
+				}
+				# Remove one barony!
+			}
+			c_kelantan = {
+				color = { 235 244 169 }
+				color2 = { 90 90 90 }
+				
+				b_kelantan = {
+				}
+				# Check these!
+				b_kuala_krai = {
+				}
+				b_narathiwat = {
+				}
+				b_sungai_kolok = {
+				}
+				b_rangae = {
+				}
+				b_gua_musang = {
+				}
+				b_kuala_balah = {
+				}
+				b_dabong = {
+				}
+				# Remove one barony!
+			}
+			c_phatthalung = {
+				color = { 235 244 169 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_phatthalung = {}
+				# Needs baronies!
+			}
+		}
+		d_kuantan = {
+			color = { 235 244 169 } # TODO
+			color2 = { 90 90 90 } # TODO
+			
+			capital = 2539 # Kuantan
+		
+			c_kuantan = {
+				color = { 235 244 169 } # TODO
+				color2 = { 90 90 90 } # TODO
+				
+				b_kuantan = {
+				}
+				# Needs baronies!
+			}
+			c_bentung = {
+				color = { 235 244 169 } # TODO
+				color2 = { 90 90 90 } # TODO
+			
+				b_bentung = {}
+				# Needs baronies!
+			}
+			c_terengganu = {
+				color = { 235 244 169 } # TODO
+				color2 = { 90 90 90 } # TODO
+			
+				b_terengganu = {}
+				# Needs baronies!
+			}
+		}
+	}
 }

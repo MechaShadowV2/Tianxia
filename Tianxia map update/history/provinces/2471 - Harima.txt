@@ -1,0 +1,18 @@
+# 2471 - Harima
+
+# County Title
+title = c_harima
+# Settlements
+
+max_settlements = 4
+b_himeji = castle
+b_kako = city
+b_iwa = temple
+b_yokawa = city
+# Needs baronies!
+
+# Misc
+culture = japanese
+religion = shinto
+
+# History

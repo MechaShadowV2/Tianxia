@@ -1,0 +1,23 @@
+# 2523 - Mutsu
+
+# County Title
+title = c_mutsu
+
+# Settlements
+max_settlements = 6
+# Check these baronies!
+b_miyagi = tribal
+#b_fukushima = city
+#b_aomori2 = castle
+#b_kozumi = city
+#b_kosaka = castle
+# Needs baronies!
+
+# Misc
+culture = ainu
+religion = ainu_pagan
+
+# History
+1017.1.1 = {
+	b_miyagi = castle
+}
