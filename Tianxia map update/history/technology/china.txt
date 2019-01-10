@@ -1,0 +1,87 @@
+#NORTH
+
+technology = {
+	titles = {
+#		d_jingxibei
+#		d_jingji
+#		d_hebeixi
+#		d_jingdong
+#		d_hedong
+#		d_huainandong
+#		d_huainanxi
+#		d_jiangnanxi
+#		d_jiangnandong
+#		d_liangzhe
+#		d_shaoxing
+#		d_hebeidong
+#		d_liaoning
+#		d_shenyang
+		d_liangzhe
+		d_yuezhou
+		d_wenzhou
+	}
+	769 = { 
+		military = 1.5
+		economy = 2.1
+		culture = 2.1
+	}
+	
+	1337 = {
+		military = 4.2
+		economy = 4.5
+		culture = 4.5
+	}
+}
+
+#SOUTH
+
+technology = { 
+	titles = {
+		# Dali
+		d_lushui
+		d_puer
+		d_dali
+		d_lijiang
+		d_qianxinan
+		# De jure China
+		d_hainan
+		d_guangnanxi
+		d_guixian
+		d_jiangmen
+		d_guangnandong
+		d_lien
+		d_shaoguan
+		d_shanwei
+		d_nanfujian
+		d_beifujian
+		d_sanming
+		d_chiennan
+		d_guilin
+		d_shaoyang
+		d_jinghunan
+		d_jingxinan
+		d_huaihua
+		d_xiangxi
+		d_chongqing
+		d_zunyi
+		d_guiyang
+		d_suifu
+		d_chengdufu
+		d_nanchong
+		d_kuizhou
+		d_hanzhong
+		d_yichang
+	}
+	
+	769 = {
+		military = 0.8
+		economy = 1.2
+		culture = 1.2
+	}
+	
+	1337 = {
+		military = 3.5
+		economy = 3.5
+		culture = 3.5
+	}
+}

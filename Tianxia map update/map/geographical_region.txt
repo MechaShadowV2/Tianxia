@@ -402,6 +402,8 @@ custom_balearic = {
 	}
 }
 
+# Tianxia
+
 world_java_sumatra_malacca = {
 	duchies = {
 		d_aceh
@@ -425,7 +427,10 @@ world_java_sumatra_malacca = {
 		d_medang
 		d_sunda
 		d_sundan
-		# Needs Malacca
+		d_melaka
+		d_langkasuka
+		d_kelantan
+		d_kuantan
 	}
 }
 
@@ -466,11 +471,227 @@ world_philippines = {
 		d_zamboanga
 	}
 }
+
 world_oceania = {
 	regions = {
 		world_indonesia world_philippines
 	}
 }
+
+world_japan_north = {
+	duchies = {
+		d_matnaw
+		d_ezo
+		d_yamagata
+		d_miyagi
+		d_kur
+		d_oshima
+		# d_sakhalin
+	}
+}
+
+world_japan_south = {
+	duchies = {
+		d_kitakyushu
+		d_minamikyushu
+		d_kyushujima
+		d_iyo
+		d_tosa
+		d_tonankaido
+		d_kii
+		d_yamaguchi
+		d_hiroshima
+		d_okayama
+		d_shimane
+		d_tottori
+		d_tanshu
+		d_nara
+		d_mie
+		d_aichi
+		d_shizuoka
+		d_kanagawa
+		d_chiba
+		d_fukui
+		d_ishikawa
+		d_niigata
+		d_gifu
+		d_nagano
+	}
+}
+
+world_japan_islands = {
+	duchies = {
+		d_yaeyama
+		d_ryukyu 
+	}
+}
+
+world_japan = {
+	regions = {
+		world_japan_north
+		world_japan_south
+		world_japan_islands
+	}
+}
+
+world_taiwan = {
+	duchies = {
+		d_taipeh
+		d_tainan
+	}
+}
+
+world_dali = {
+	duchies = {
+		d_lushui
+		d_puer
+		d_dali
+		d_lijiang
+		d_qianxinan
+	}
+}
+
+world_burma = {
+	duchies = {
+		d_myeik
+		d_thaton
+		d_pegu
+		d_arakan
+		d_pyay
+		d_ava
+		d_pyinsa
+		d_thobal
+		d_mong_yang
+		d_tagaung
+		d_shan
+		d_hsenwi
+		d_mong_kawng
+		d_lushui
+		d_puer
+		d_dali
+		d_lijiang
+		d_qianxinan
+	}
+}
+
+world_khmer = {
+	duchies = {
+		d_lavapura
+		d_nakhon_pathom
+		d_ratchaburi
+		d_chaiya
+		d_haripunchai
+		d_sukhotai
+		d_prey_nokor
+		d_angkor_borei
+		d_vat_nokor
+		d_champassak
+		d_angkor
+		d_sri_thep
+		d_nakhon_ratchasina
+		d_battambang
+		d_muang_mang
+		d_nakhon_phanom
+		d_luang_prabang
+		d_luang_namtha
+		d_wiang_jung
+	}
+}
+
+world_vietnam = {
+	duchies = {
+		d_vijaya
+		d_indrapura
+		d_hanoi
+		d_than_hoa
+		d_cao_bang
+		d_son_la
+		d_lao_cai
+	}
+}
+
+world_indochina = {
+	regions = {
+		world_vietnam
+		world_burma
+		world_khmer
+	}
+}
+
 world_south_east_asia = {
-	regions = {  world_oceania } # Should also have Indochina down the line
+	regions = {
+		world_oceania
+		world_indochina
+	}
+}
+
+world_china = {
+	regions = {
+		world_taiwan
+		world_dali
+		world_canton
+		world_chinese_coast
+		world_chinese_west
+		#world_chinese_capital
+	}
+}
+
+world_far_east = {
+	regions = {
+		world_china
+		#world_korea
+		world_japan }
+}
+
+
+world_canton = {
+	duchies = {
+		d_hainan
+		d_guangnanxi
+		d_guixian
+		d_jiangmen
+		d_guangnandong
+		d_lien
+		d_shaoguan
+		d_shanwei
+		d_chiennan
+		d_guilin
+		d_shaoyang
+		d_jinghunan
+		d_jingxinan
+		d_huaihua
+		d_xiangxi
+	}
+}
+world_chinese_coast = {
+	duchies = {
+		#d_huainandong
+		#d_huainanxi
+		#d_jiangnanxi
+		#d_jiangnandong
+		d_beifujian
+		d_nanfujian
+		d_sanming
+		d_liangzhe
+		d_yuezhou
+		d_wenzhou
+	}
+}
+world_chinese_west = {
+	duchies = {
+		d_lushui
+		d_puer
+		d_dali
+		d_lijiang
+		d_qianxinan
+		d_chongqing
+		d_zunyi
+		d_guiyang
+		d_suifu
+		d_chengdufu
+		d_nanchong
+		d_kuizhou
+		d_hanzhong
+		d_yichang
+	}
 }

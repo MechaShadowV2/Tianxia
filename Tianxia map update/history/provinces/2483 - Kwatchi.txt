@@ -12,8 +12,7 @@ b_kokubuhinganjo = temple
 #b_neyagawa = city
 #b_hiraoka = temple
 #b_kadoma = city
-#b_yao = castle
-# Check the baronies (and remove one)!
+# Check the baronies!
 
 # Misc
 culture = japanese

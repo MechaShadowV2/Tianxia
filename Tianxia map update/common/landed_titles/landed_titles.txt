@@ -24337,7 +24337,7 @@ e_turkestan = {
 
 				holy_site = bon
 				holy_site = bon_reformed
-				holy_site = taoist
+				#holy_site = taoist
 				
 				uyghur = "Hotan"
 				han = "Yutian"
@@ -43676,7 +43676,7 @@ e_rajastan = {
 				color={ 255 130 31 }
 				color2={ 255 255 255 }
 				
-				holy_site = taoist
+				#holy_site = taoist
 				holy_site = manichean # Site of Mani's first learning trip
 				
 				b_udabhanda = {
@@ -46607,7 +46607,7 @@ e_bengal = {
 				color2={ 255 255 255 }
 
 				holy_site = buddhist
-				holy_site = taoist
+				#holy_site = taoist
 				
 				b_gaya = {
 				}
@@ -48233,7 +48233,7 @@ e_tibet = {
 					
 				holy_site = bon
 				holy_site = bon_reformed
-				holy_site = taoist 
+				#holy_site = taoist 
 				
 				han = "Lasa"
 

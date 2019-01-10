@@ -1,0 +1,19 @@
+# 2711 - Lien
+
+# County Title
+title = c_lien
+
+# Settlements
+max_settlements = 3
+
+b_hongda = castle
+b_guian = city
+b_tangdi = temple
+# Needs baronies!
+
+# Misc
+#culture = thai
+culture = min
+religion = buddhist
+
+# History

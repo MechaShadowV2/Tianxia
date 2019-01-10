@@ -1040,9 +1040,6 @@ e_nusantara = {
 				
 				b_madura = {
 				}
-				# Remove one barony!
-				b_geger = {
-				}
 				b_arosbaya = {
 				}
 				b_klampis = {
@@ -1084,7 +1081,7 @@ e_nusantara = {
 				color = {225 230 61}
 				color2 = {90 90 90}
 				
-				b_bima = {
+				b_sumbawa = {
 				}
 			}
 			c_lombok = {

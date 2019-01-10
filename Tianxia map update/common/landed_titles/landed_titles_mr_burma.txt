@@ -266,7 +266,7 @@ e_burma  = {
 				color = { 255 10 0 }
 				color2 = { 255 255 255 }
 				
-				b_bagan = {
+				b_pagan = {
 				}
 				# Check these baronies!
 				b_myingyan = {
@@ -658,7 +658,7 @@ e_burma  = {
 				color = {89 245 201} # TODO
 				color2 = {255 255 255} # TODO
 				
-				b_lushi = {}
+				b_lushui = {}
 				# Needs baronies!
 			}
 			c_tengchong = {

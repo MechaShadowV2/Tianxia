@@ -1,0 +1,16 @@
+# 2767 - Ji'an
+
+# County Title
+title = c_jian
+
+# Settlements
+max_settlements = 4
+
+b_jian = castle
+# Needs baronies!
+
+# Misc
+culture = yue
+religion = taoist
+
+# History

@@ -73,18 +73,10 @@ b_kota_kinabalu;Kota Kinabalu;;;;;;;;;;;;;x
 b_kota_marudu;Kota Marudu;;;;;;;;;;;;;x
 b_sandakan;Sandakan;;;;;;;;;;;;;x
 b_tawao;Tawao;;;;;;;;;;;;;x
-# Should probably be in their own file down the line...
-e_pacific_rim;Empire of the Pacific Rim;;;;;;;;;;;;;x # Name will probably change
-k_mindanao;Mindanao;;;;;;;;;;;;;x
-d_palawan;Palawan;;;;;;;;;;;;;x
-d_suba;Suba;;;;;;;;;;;;;x
-d_mindoro;Mindoro;;;;;;;;;;;;;x
-d_sorsogon;Sorsogon;;;;;;;;;;;;;x
-b_pili;Pili;;;;;;;;;;;;;x
-b_daet;Daet;;;;;;;;;;;;;x
-b_malunay;Malunay;;;;;;;;;;;;;x
-b_balanga;Balanga;;;;;;;;;;;;;x
-b_lingayen;Lingayen;;;;;;;;;;;;;x
-b_bayombong;Bayombong;;;;;;;;;;;;;x
-d_samtoy;Samtoy;;;;;;;;;;;;;x
-b_kabugao;Kabugao;;;;;;;;;;;;;x
+b_sumbawa;Sumbawa;;;;;;;;;;;;;x
+b_kelang;Kelang;;;;;;;;;;;;;x
+b_phatthalung;Phatthalung;;;;;;;;;;;;;x
+d_kuantan;Kuantan;;;;;;;;;;;;;x
+b_bentung;Bentung;;;;;;;;;;;;;x
+b_terengganu;Terengganu;;;;;;;;;;;;;x
+b_bolo2;Bolo;;;;;;;;;;;;;x

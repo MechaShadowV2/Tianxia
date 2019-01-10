@@ -1,49 +1,65 @@
 #INDOCHINA
 
-#technology = {
-#	titles = {
-#		d_angkor
-#		d_phimai
-#		d_sambor
-#		d_prey_nokor
-#		d_champassak
-#		d_lavapura
-#		d_ratchaburi
-#		d_chaiya
-#		d_haripunchai
-#		d_sukhotai
-#		d_luang_prabang
-#		d_muang_mang
-#		d_hanoi
-#		d_cao_bang
-#		d_son_la
-#		d_than_hoa
-#		d_indrapura
-#		d_vijaya
-#		d_shan
-#		d_mogaung
-#		d_ava
-#		d_pegu
-#		d_tagaung
-#		d_arakan
-#		d_thobal
-#	}
-#
-#	769 = {
-#		military = 0.5
-#		economy = 1.1
-#		culture = 1.1
-#	}
-#	
-#	1337 = {
-#		military = 3.8
-#		economy = 3.8
-#		culture = 3.8
-#	}
-#}
+technology = {
+	titles = {
+		# Burma (minus Dali)
+		d_myeik
+		d_thaton
+		d_pegu
+		d_arakan
+		d_pyay
+		d_ava
+		d_pyinsa
+		d_thobal
+		d_mong_yang
+		d_tagaung
+		d_shan
+		d_hsenwi
+		d_mong_kawng
+		# Khmer
+		d_lavapura
+		d_nakhon_pathom
+		d_ratchaburi
+		d_chaiya
+		d_haripunchai
+		d_sukhotai
+		d_prey_nokor
+		d_angkor_borei
+		d_vat_nokor
+		d_champassak
+		d_angkor
+		d_sri_thep
+		d_nakhon_ratchasina
+		d_battambang
+		d_muang_mang
+		d_nakhon_phanom
+		d_luang_prabang
+		d_luang_namtha
+		d_wiang_jung
+		# Vietnam
+		d_vijaya
+		d_indrapura
+		d_hanoi
+		d_than_hoa
+		d_cao_bang
+		d_son_la
+		d_lao_cai
+	}
 
-#NUSANTARA
+	769 = {
+		military = 0.5
+		economy = 1.1
+		culture = 1.1
+	}
+	
+	1337 = {
+		military = 3.8
+		economy = 3.8
+		culture = 3.8
+	}
+}
 
+# Java-Sumatra-Malaya
 technology = {
 	titles = {
 		d_aceh
@@ -66,7 +82,11 @@ technology = {
 		d_medang
 		d_blambangan
 		d_sunda
-		# Needs Malacca
+		d_sundan
+		d_melaka
+		d_langkasuka
+		d_kelantan
+		d_kuantan
 	}
 	
 	769 = {
@@ -82,7 +102,7 @@ technology = {
 	}
 }
 
-#Borneo-Sulawesi-Taiwan
+#Borneo-Sulawesi-Philippines-Taiwan
 technology = {
 	titles = {
 		d_ampana
@@ -108,7 +128,8 @@ technology = {
 		d_sorsogon
 		d_suba
 		d_zamboanga
-		# Needs Taiwan
+		d_taipeh
+		d_tainan
 	}
 	769 = {
 		military = 0.2

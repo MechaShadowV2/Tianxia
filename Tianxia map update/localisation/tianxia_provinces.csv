@@ -716,7 +716,137 @@ PROV2688;Bac Kan;;;;;;;;;;;;;x
 PROV2689;Cao Bang;;;;;;;;;;;;;x
 PROV2690;Ha Giang;;;;;;;;;;;;;x
 # Extra Tibet
+PROV2691;Litang;;;;;;;;;;;;;x
+PROV2692;Dartsedo;;;;;;;;;;;;;x
+PROV2693;Garze;;;;;;;;;;;;;x
+PROV2694;Barkam;;;;;;;;;;;;;x
+PROV2695;Tuyuhun;;;;;;;;;;;;;x
+PROV2696;Baima;;;;;;;;;;;;;x
+PROV2697;Madoi;;;;;;;;;;;;;x
 # China
+PROV2698;Zhenzhou;;;;;;;;;;;;;x # Han
+PROV2699;Wananzhou;;;;;;;;;;;;;x
+PROV2700;Qiongzhou;;;;;;;;;;;;;x
+PROV2701;Yazhou;;;;;;;;;;;;;x
+PROV2702;Lei;;;;;;;;;;;;;x
+PROV2703;Zhanjiang;;;;;;;;;;;;;x
+PROV2704;Maoming;;;;;;;;;;;;;x
+PROV2705;Chibidao;;;;;;;;;;;;;x
+PROV2706;Macao;;;;;;;;;;;;;x
+PROV2707;Hong Kong;;;;;;;;;;;;;x
+PROV2708;Jiangmen;;;;;;;;;;;;;x
+PROV2709;Heshan;;;;;;;;;;;;;x
+PROV2710;Xin;;;;;;;;;;;;;x
+PROV2711;Lien;;;;;;;;;;;;;x
+PROV2712;Yulin;;;;;;;;;;;;;x
+PROV2713;Rong;;;;;;;;;;;;;x
+PROV2714;Guixian;;;;;;;;;;;;;x
+PROV2715;Sunning;;;;;;;;;;;;;x
+PROV2716;Heng;;;;;;;;;;;;;x
+PROV2717;Liu;;;;;;;;;;;;;x
+PROV2718;Shanglin;;;;;;;;;;;;;x
+PROV2719;Nanning;;;;;;;;;;;;;x
+PROV2720;Chongzuo;;;;;;;;;;;;;x
+PROV2721;Baise;;;;;;;;;;;;;x
+PROV2722;Guangnan;;;;;;;;;;;;;x
+PROV2723;Zhaoqing;;;;;;;;;;;;;x
+PROV2724;Guangzhou;;;;;;;;;;;;;x
+PROV2725;Dongguan;;;;;;;;;;;;;x
+PROV2726;Huizhou;;;;;;;;;;;;;x
+PROV2727;Heyuan;;;;;;;;;;;;;x
+PROV2728;Shanwei;;;;;;;;;;;;;x
+PROV2729;Meizhou;;;;;;;;;;;;;x
+PROV2730;Jieyang;;;;;;;;;;;;;x
+PROV2731;Qingyuan;;;;;;;;;;;;;x
+PROV2732;Shaoguan;;;;;;;;;;;;;x
+PROV2733;Xiamen;;;;;;;;;;;;;x # Min
+PROV2734;Quanzhou;;;;;;;;;;;;;x
+PROV2735;Putian;;;;;;;;;;;;;x
+PROV2736;Changle;;;;;;;;;;;;;x
+PROV2737;Longyan;;;;;;;;;;;;;x
+PROV2738;Yongchun;;;;;;;;;;;;;x
+PROV2739;Sanming;;;;;;;;;;;;;x
+PROV2740;Yongtai;;;;;;;;;;;;;x
+PROV2741;Nanping;;;;;;;;;;;;;x
+PROV2742;Yong'an;;;;;;;;;;;;;x
+PROV2743;Ningde;;;;;;;;;;;;;x # Wuyue
+PROV2744;Wenzhou;;;;;;;;;;;;;x
+PROV2745;Taizhou;;;;;;;;;;;;;x
+PROV2746;Mingzhou;;;;;;;;;;;;;x
+PROV2747;Yuezhou;;;;;;;;;;;;;x
+PROV2748;Chengzhou;;;;;;;;;;;;;x
+PROV2749;Jinhua;;;;;;;;;;;;;x
+PROV2750;Lishui;;;;;;;;;;;;;x
+PROV2751;Quzhou;;;;;;;;;;;;;x
+PROV2752;Chun'an;;;;;;;;;;;;;x
+PROV2753;Hangzhou;;;;;;;;;;;;;x
+PROV2754;Huzhou;;;;;;;;;;;;;x
+PROV2755;Suzhou;;;;;;;;;;;;;x
+PROV2756;Shanghai;;;;;;;;;;;;;x
+PROV2757;Hechi;;;;;;;;;;;;;x # Chu
+PROV2758;Liuzhou;;;;;;;;;;;;;x
+PROV2759;Guilin;;;;;;;;;;;;;x
+PROV2760;Wuzhou;;;;;;;;;;;;;x
+PROV2761;Hezhou;;;;;;;;;;;;;x
+PROV2762;Lianzhou;;;;;;;;;;;;;x
+PROV2763;Chenzhou;;;;;;;;;;;;;x
+PROV2764;Nandan;;;;;;;;;;;;;x
+PROV2765;Yongzhou;;;;;;;;;;;;;x
+PROV2766;Hengyang;;;;;;;;;;;;;x
+PROV2767;Ji'an;;;;;;;;;;;;;x
+PROV2768;Pingxiang;;;;;;;;;;;;;x
+PROV2769;Tanzhou;;;;;;;;;;;;;x
+PROV2770;Yueyang;;;;;;;;;;;;;x
+PROV2771;Yiyang;;;;;;;;;;;;;x
+PROV2772;Anxiang;;;;;;;;;;;;;x
+PROV2773;Changde;;;;;;;;;;;;;x
+PROV2774;Qiannan;;;;;;;;;;;;;x
+PROV2775;Loudi;;;;;;;;;;;;;x
+PROV2776;Shaoyang;;;;;;;;;;;;;x
+PROV2777;Congjiang;;;;;;;;;;;;;x
+PROV2778;Chengbu;;;;;;;;;;;;;x
+PROV2779;Tongren;;;;;;;;;;;;;x
+PROV2780;Huaihua;;;;;;;;;;;;;x
+PROV2781;Xiangxi;;;;;;;;;;;;;x
+PROV2782;Anhua;;;;;;;;;;;;;x
+PROV2783;Zhangjiajie;;;;;;;;;;;;;x
+PROV2784;Wufeng;;;;;;;;;;;;;x # Shu
+PROV2785;Enshi;;;;;;;;;;;;;x
+PROV2786;Chongqing;;;;;;;;;;;;;x
+PROV2787;Youyang;;;;;;;;;;;;;x
+PROV2788;Chishui;;;;;;;;;;;;;x
+PROV2789;Yinjiang;;;;;;;;;;;;;x
+PROV2790;Yuqing;;;;;;;;;;;;;x
+PROV2791;Guiyang;;;;;;;;;;;;;x
+PROV2792;Anshun;;;;;;;;;;;;;x
+PROV2793;Zunyi;;;;;;;;;;;;;x
+PROV2794;Junlian;;;;;;;;;;;;;x
+PROV2795;Bijie;;;;;;;;;;;;;x
+PROV2796;Zhaotong;;;;;;;;;;;;;x
+PROV2797;Jinyang;;;;;;;;;;;;;x
+PROV2798;Jianchang;;;;;;;;;;;;;x
+PROV2799;Suifu;;;;;;;;;;;;;x
+PROV2800;Ya'an;;;;;;;;;;;;;x
+PROV2801;Muli;;;;;;;;;;;;;x
+PROV2802;Neijiang;;;;;;;;;;;;;x
+PROV2803;Ziyang;;;;;;;;;;;;;x
+PROV2804;Wuhou;;;;;;;;;;;;;x
+PROV2805;Chongzhou;;;;;;;;;;;;;x
+PROV2806;Suining;;;;;;;;;;;;;x
+PROV2807;Nanchong;;;;;;;;;;;;;x
+PROV2808;Santai;;;;;;;;;;;;;x
+PROV2809;Deyang;;;;;;;;;;;;;x
+PROV2810;Mianyang;;;;;;;;;;;;;x
+PROV2811;Guangyuan;;;;;;;;;;;;;x
+PROV2812;Bazhong;;;;;;;;;;;;;x
+PROV2813;Kuizhou;;;;;;;;;;;;;x
+PROV2814;Hanzhong;
+PROV2815;Ankang;;;;;;;;;;;;;x
+PROV2816;Shiyan;;;;;;;;;;;;;x
+PROV2817;Fengjie;;;;;;;;;;;;;x
+PROV2818;Yichang;;;;;;;;;;;;;x
+PROV2819;Jingzhou;;;;;;;;;;;;;x
+PROV2820;Wuhan;;;;;;;;;;;;;x
 # Korea
 # Mongolia
 # Manchuria

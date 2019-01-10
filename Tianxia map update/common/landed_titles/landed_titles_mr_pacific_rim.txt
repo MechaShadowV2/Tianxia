@@ -592,7 +592,7 @@ e_pacific_rim = { # New; might need a better name
 				color = { 215 234 169 } # TODO
 				color2 = { 90 90 90 } # TODO
 				
-				b_bolo = {}
+				b_bolo2 = {}
 				# Needs baronies!
 			}
 		}

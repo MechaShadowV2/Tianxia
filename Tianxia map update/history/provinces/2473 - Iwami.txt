@@ -9,7 +9,7 @@ b_hamada = castle
 b_sufu = city
 b_tatamigaura = temple
 #b_kanoashi = castle
-#b_mino = city
+#b_mino2 = city
 #b_ochi = castle
 # Needs baronies!
 

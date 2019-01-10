@@ -346,7 +346,7 @@ world_chinese_west = {
 	duchies = { d_chengdufu d_lizhou d_kuizhou d_guizhou d_yongxingjun d_qinfeng d_dali d_kunming d_puer }
 }
 world_tibet = {
-	duchies = { d_ngari d_bhutan d_kham d_golok d_lhasa d_yarlung d_shigatse d_nagchu d_sumparu d_purang d_ladakh d_dege d_qamdo d_nyingchi d_kathmandu d_gorkha d_kashmir d_pamir d_uttaranchal d_qinghai d_nagormo d_nangqen }
+	duchies = { d_ngari d_bhutan d_kham d_golok d_lhasa d_yarlung d_shigatse d_nagchu d_sumparu d_purang d_ladakh d_dege d_qamdo d_nyingchi d_kathmandu d_gorkha d_kashmir d_pamir d_uttaranchal d_qinghai d_nagormo d_nangqen d_garze d_tuyuhun }
 }
 world_china = {
 	regions = { world_taiwan world_canton world_chinese_coast world_chinese_capital world_chinese_west }
