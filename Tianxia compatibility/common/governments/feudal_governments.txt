@@ -255,22 +255,24 @@ feudal_governments = {
 			NOT = {	religion_group = muslim	}
 			NOT = { is_government_potential = roman_imperial_government }
 			NOT = { is_government_potential = order_government }
-			AND = {
-				culture_group = tibetan_group
-				OR = {
-					religion = bon
-					religion = bon_reformed
-					religion = buddhist
+			OR = {
+				AND = {
+					culture_group = tibetan_group
+					OR = {
+						religion = bon
+						religion = bon_reformed
+						religion = buddhist
+					}
+					higher_tier_than = BARON
 				}
-				higher_tier_than = BARON
-			}
-			AND = {
-				culture_group = japonic
-				OR = {
-					religion = shinto
-					religion = buddhist
+				AND = {
+					culture_group = japonic
+					OR = {
+						religion = shinto
+						religion = buddhist
+					}
+					higher_tier_than = BARON
 				}
-				higher_tier_than = BARON
 			}
 			NAND = {
 				tier = EMPEROR

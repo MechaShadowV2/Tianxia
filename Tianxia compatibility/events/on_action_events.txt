@@ -5797,7 +5797,7 @@ narrative_event = {
 						stewardship = 1
 						intrigue = 1
 					}
-					unit_modifier = {
+					set_unit_modifier = {
 						levy_size = 0.3
 						
 						key = "OFF_RELIGION"

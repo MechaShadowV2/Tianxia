@@ -203,7 +203,7 @@ character_event = {
 		hidden_tooltip = {
 			random_list = { # Check for social events
 				10 = { character_event = { id = SoHD.2100 days = 7 random = 5 } } # Gain friend
-				10 = { character_event = { id = SoHD.21001 days = 7 random = 5 } } # Gain friend
+				10 = { character_event = { id = SoHD.2101 days = 7 random = 5 } } # Gain friend
 				10 = { character_event = { id = SoHD.2102 days = 7 random = 5 } } # Gain rival
 				10 = { character_event = { id = SoHD.21003 days = 7 random = 5 } } # Gain rival
 				10 = { character_event = { id = SoHD.2104 days = 7 random = 5 } } # Hunt Game Instead

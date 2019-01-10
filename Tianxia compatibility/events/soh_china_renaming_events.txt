@@ -298,12 +298,7 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = tang_china
-				}
-			}
+			china_or_pretender_can_be_tang_trigger = yes
 		}
 		
 		name = TANG
@@ -382,12 +377,7 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = jin_china
-				}
-			}
+			china_or_pretender_can_be_jin_trigger = yes
 		}
 		
 		name = JIN
@@ -466,12 +456,7 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = wei_china
-				}
-			}
+			china_or_pretender_can_be_wei_trigger = yes
 		}
 		
 		name = WEI
@@ -548,12 +533,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qi_china
-				}
-			}
+			china_or_pretender_can_be_qi_trigger = yes
 		}
 		
 		name = QI
@@ -612,12 +592,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = zhou_china
-				}
-			}
+			china_or_pretender_can_be_zhou_trigger = yes
 		}
 		
 		name = ZHOU
@@ -676,12 +651,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = han_china
-				}
-			}
+			china_or_pretender_can_be_han_trigger = yes
 		}
 		
 		name = HAN
@@ -758,12 +728,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qin_china
-				}
-			}
+			china_or_pretender_can_be_qin_trigger = yes
 		}
 		
 		name = QIN
@@ -822,12 +787,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yan_china
-				}
-			}
+			china_or_pretender_can_be_yan_trigger = yes
 		}
 		
 		name = YAN
@@ -886,15 +846,10 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = zhao_china
-				}
-			}
+			china_or_pretender_can_be_zhao_trigger = yes
 		}
 		
-		name =ZHAO
+		name = ZHAO
 		
 		e_china = {
 			set_name = "Zhao Empire"
@@ -961,12 +916,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = liao_china
-				}
-			}
+			china_or_pretender_can_be_liao_trigger = yes
 		}
 		
 		name = LIAO
@@ -1035,12 +985,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yuan_china
-				}
-			}
+			china_or_pretender_can_be_yuan_trigger = yes
 		}
 		
 		name = YUAN
@@ -1112,12 +1057,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = xia_china
-				}
-			}
+			china_or_pretender_can_be_xia_trigger = yes
 		}
 		
 		name = XIA
@@ -1194,12 +1134,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qing_china
-				}
-			}
+			china_or_pretender_can_be_qing_trigger = yes
 		}
 		
 		name = QING
@@ -1270,12 +1205,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = dai_china
-				}
-			}
+			china_or_pretender_can_be_dai_trigger = yes
 		}
 		
 		name = DAI
@@ -1334,12 +1264,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = cheng_china
-				}
-			}
+			china_or_pretender_can_be_cheng_trigger = yes
 		}
 		
 		name = CHENG
@@ -1409,12 +1334,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = liang_china
-				}
-			}
+			china_or_pretender_can_be_liang_trigger = yes
 		}
 		
 		name = LIANG
@@ -1479,12 +1399,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = song_china
-				}
-			}
+			china_or_pretender_can_be_song_trigger = yes
 		}
 		
 		name = SONG
@@ -1553,12 +1468,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = ming_china
-				}
-			}
+			china_or_pretender_can_be_ming_trigger = yes
 		}
 		
 		name = MING
@@ -1640,12 +1550,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = shu_china
-				}
-			}
+			china_or_pretender_can_be_shu_trigger = yes
 		}
 		
 		name = SHU
@@ -1710,12 +1615,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = wu_china
-				}
-			}
+			china_or_pretender_can_be_wu_trigger = yes
 		}
 		
 		name = WU
@@ -1780,12 +1680,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = chu_china
-				}
-			}
+			china_or_pretender_can_be_chu_trigger = yes
 		}
 		
 		name = CHU
@@ -1861,12 +1756,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yue_china
-				}
-			}
+			china_or_pretender_can_be_yue_trigger = yes
 		}
 		
 		name = YUE
@@ -1931,12 +1821,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yin_china
-				}
-			}
+			china_or_pretender_can_be_yin_trigger = yes
 		}
 		
 		name = YIN
@@ -2001,12 +1886,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = shun_china
-				}
-			}
+			china_or_pretender_can_be_shun_trigger = yes
 		}
 		
 		name = SHUN
@@ -2079,6 +1959,10 @@ character_event = {
 		name = EVTOPTE_NAMEOFCHINA_3 # More options!
 		clr_character_flag = china_name_repeat_7
 		repeat_event = { id = nameofchina.3 }
+	}
+	
+	after = {
+		update_global_china_name_flag_effect = yes
 	}
 }
 
@@ -2345,12 +2229,7 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = tang_china
-				}
-			}
+			china_or_pretender_can_be_tang_trigger = yes
 		}
 		
 		name = TANG
@@ -2460,12 +2339,7 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = jin_china
-				}
-			}
+			china_or_pretender_can_be_jin_trigger = yes
 		}
 		
 		name = JIN
@@ -2575,12 +2449,7 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = wei_china
-				}
-			}
+			china_or_pretender_can_be_wei_trigger = yes
 		}
 		
 		name = WEI
@@ -2689,12 +2558,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qi_china
-				}
-			}
+			china_or_pretender_can_be_qi_trigger = yes
 		}
 		
 		name = QI
@@ -2784,12 +2648,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = zhou_china
-				}
-			}
+			china_or_pretender_can_be_zhou_trigger = yes
 		}
 		
 		name = ZHOU
@@ -2879,12 +2738,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = han_china
-				}
-			}
+			china_or_pretender_can_be_han_trigger = yes
 		}
 		
 		name = HAN
@@ -2992,12 +2846,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qin_china
-				}
-			}
+			china_or_pretender_can_be_qin_trigger = yes
 		}
 		
 		name = QIN
@@ -3087,12 +2936,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yan_china
-				}
-			}
+			china_or_pretender_can_be_yan_trigger = yes
 		}
 		
 		name = YAN
@@ -3182,12 +3026,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = zhao_china
-				}
-			}
+			china_or_pretender_can_be_zhao_trigger = yes
 		}
 		
 		name = ZHAO
@@ -3288,12 +3127,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = liao_china
-				}
-			}
+			china_or_pretender_can_be_liao_trigger = yes
 		}
 		
 		name = LIAO
@@ -3393,12 +3227,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yuan_china
-				}
-			}
+			china_or_pretender_can_be_yuan_trigger = yes
 		}
 		
 		name = YUAN
@@ -3501,12 +3330,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = xia_china
-				}
-			}
+			china_or_pretender_can_be_xia_trigger = yes
 		}
 		
 		name = XIA
@@ -3614,12 +3438,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qing_china
-				}
-			}
+			china_or_pretender_can_be_qing_trigger = yes
 		}
 		
 		name = QING
@@ -3721,12 +3540,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = dai_china
-				}
-			}
+			china_or_pretender_can_be_dai_trigger = yes
 		}
 		
 		name = DAI
@@ -3816,12 +3630,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = cheng_china
-				}
-			}
+			china_or_pretender_can_be_cheng_trigger = yes
 		}
 		
 		name = CHENG
@@ -3922,12 +3731,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = liang_china
-				}
-			}
+			china_or_pretender_can_be_liang_trigger = yes
 		}
 		
 		name = LIANG
@@ -4023,12 +3827,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = song_china
-				}
-			}
+			china_or_pretender_can_be_song_trigger = yes
 		}
 		
 		name = SONG
@@ -4128,12 +3927,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = ming_china
-				}
-			}
+			china_or_pretender_can_be_ming_trigger = yes
 		}
 		
 		name = MING
@@ -4246,12 +4040,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = shu_china
-				}
-			}
+			china_or_pretender_can_be_shu_trigger = yes
 		}
 		
 		name = SHU
@@ -4347,12 +4136,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = wu_china
-				}
-			}
+			china_or_pretender_can_be_wu_trigger = yes
 		}
 		
 		name = WU
@@ -4448,12 +4232,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = chu_china
-				}
-			}
+			china_or_pretender_can_be_chu_trigger = yes
 		}
 		
 		name = CHU
@@ -4560,12 +4339,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yue_china
-				}
-			}
+			china_or_pretender_can_be_yue_trigger = yes
 		}
 		
 		name = YUE
@@ -4661,12 +4435,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yin_china
-				}
-			}
+			china_or_pretender_can_be_yin_trigger = yes
 		}
 		
 		name = YIN
@@ -4762,12 +4531,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = shun_china
-				}
-			}
+			china_or_pretender_can_be_shun_trigger = yes
 		}
 		
 		name = SHUN
@@ -4909,6 +4673,10 @@ character_event = {
 		name = EVTOPTE_NAMEOFCHINA_5 # More options! (Restart)
 		clr_character_flag = china_name_repeat_8
 		repeat_event = { id = nameofchina.5 }
+	}
+	
+	after = {
+		update_global_china_name_flag_effect = yes
 	}
 }
 
@@ -5432,6 +5200,10 @@ character_event = {
 			character_event = { id = JD.32299 } # Interrupt kowtow
 		}
 	}
+	
+	after = {
+		update_global_china_name_flag_effect = yes
+	}
 }
 
 # Keep old dynasty's name for China or pick a new one?
@@ -5672,12 +5444,7 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = tang_china
-				}
-			}
+			china_or_pretender_can_be_tang_trigger = yes
 		}
 		
 		name = TANG
@@ -5787,12 +5554,7 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = jin_china
-				}
-			}
+			china_or_pretender_can_be_jin_trigger = yes
 		}
 		
 		name = JIN
@@ -5902,12 +5664,7 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = wei_china
-				}
-			}
+			china_or_pretender_can_be_wei_trigger = yes
 		}
 		
 		name = WEI
@@ -6016,12 +5773,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qi_china
-				}
-			}
+			china_or_pretender_can_be_qi_trigger = yes
 		}
 		
 		name = QI
@@ -6111,12 +5863,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = zhou_china
-				}
-			}
+			china_or_pretender_can_be_zhou_trigger = yes
 		}
 		
 		name = ZHOU
@@ -6206,12 +5953,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = han_china
-				}
-			}
+			china_or_pretender_can_be_han_trigger = yes
 		}
 		
 		name = HAN
@@ -6319,12 +6061,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qin_china
-				}
-			}
+			china_or_pretender_can_be_qin_trigger = yes
 		}
 		
 		name = QIN
@@ -6414,12 +6151,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yan_china
-				}
-			}
+			china_or_pretender_can_be_yan_trigger = yes
 		}
 		
 		name = YAN
@@ -6509,12 +6241,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = zhao_china
-				}
-			}
+			china_or_pretender_can_be_zhao_trigger = yes
 		}
 		
 		name = ZHAO
@@ -6615,12 +6342,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = liao_china
-				}
-			}
+			china_or_pretender_can_be_liao_trigger = yes
 		}
 		
 		name = LIAO
@@ -6720,12 +6442,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yuan_china
-				}
-			}
+			china_or_pretender_can_be_yuan_trigger = yes
 		}
 		
 		name = YUAN
@@ -6828,12 +6545,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = xia_china
-				}
-			}
+			china_or_pretender_can_be_xia_trigger = yes
 		}
 		
 		name = XIA
@@ -6941,12 +6653,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qing_china
-				}
-			}
+			china_or_pretender_can_be_qing_trigger = yes
 		}
 		
 		name = QING
@@ -7048,12 +6755,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = dai_china
-				}
-			}
+			china_or_pretender_can_be_dai_trigger = yes
 		}
 		
 		name = DAI
@@ -7143,12 +6845,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = cheng_china
-				}
-			}
+			china_or_pretender_can_be_cheng_trigger = yes
 		}
 		
 		name = CHENG
@@ -7249,12 +6946,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = liang_china
-				}
-			}
+			china_or_pretender_can_be_liang_trigger = yes
 		}
 		
 		name = LIANG
@@ -7350,12 +7042,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = song_china
-				}
-			}
+			china_or_pretender_can_be_song_trigger = yes
 		}
 		
 		name = SONG
@@ -7455,12 +7142,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = ming_china
-				}
-			}
+			china_or_pretender_can_be_ming_trigger = yes
 		}
 		
 		name = MING
@@ -7573,12 +7255,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = shu_china
-				}
-			}
+			china_or_pretender_can_be_shu_trigger = yes
 		}
 		
 		name = SHU
@@ -7674,12 +7351,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = wu_china
-				}
-			}
+			china_or_pretender_can_be_wu_trigger = yes
 		}
 		
 		name = WU
@@ -7775,12 +7447,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = chu_china
-				}
-			}
+			china_or_pretender_can_be_chu_trigger = yes
 		}
 		
 		name = CHU
@@ -7887,12 +7554,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yue_china
-				}
-			}
+			china_or_pretender_can_be_yue_trigger = yes
 		}
 		
 		name = YUE
@@ -7988,12 +7650,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yin_china
-				}
-			}
+			china_or_pretender_can_be_yin_trigger = yes
 		}
 		
 		name = YIN
@@ -8089,12 +7746,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = shun_china
-				}
-			}
+			china_or_pretender_can_be_shun_trigger = yes
 		}
 		
 		name = SHUN
@@ -8239,6 +7891,10 @@ character_event = {
 		name = EVTOPTE_NAMEOFCHINA_9 # More options! (Restart)
 		clr_character_flag = china_name_repeat_8
 		repeat_event = { id = nameofchina.9 }
+	}
+	
+	after = {
+		update_global_china_name_flag_effect = yes
 	}
 }
 
@@ -8561,12 +8217,7 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = tang_china
-				}
-			}
+			china_or_pretender_can_be_tang_trigger = yes
 		}
 		
 		name = TANG
@@ -8676,12 +8327,7 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = jin_china
-				}
-			}
+			china_or_pretender_can_be_jin_trigger = yes
 		}
 		
 		name = JIN
@@ -8791,12 +8437,7 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = wei_china
-				}
-			}
+			china_or_pretender_can_be_wei_trigger = yes
 		}
 		
 		name = WEI
@@ -8905,12 +8546,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qi_china
-				}
-			}
+			china_or_pretender_can_be_qi_trigger = yes
 		}
 		
 		name = QI
@@ -9000,12 +8636,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = zhou_china
-				}
-			}
+			china_or_pretender_can_be_zhou_trigger = yes
 		}
 		
 		name = ZHOU
@@ -9095,12 +8726,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = han_china
-				}
-			}
+			china_or_pretender_can_be_han_trigger = yes
 		}
 		
 		name = HAN
@@ -9208,12 +8834,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qin_china
-				}
-			}
+			china_or_pretender_can_be_qin_trigger = yes
 		}
 		
 		name = QIN
@@ -9303,12 +8924,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yan_china
-				}
-			}
+			china_or_pretender_can_be_yan_trigger = yes
 		}
 		
 		name = YAN
@@ -9398,12 +9014,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = zhao_china
-				}
-			}
+			china_or_pretender_can_be_zhao_trigger = yes
 		}
 		
 		name = ZHAO
@@ -9504,12 +9115,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = liao_china
-				}
-			}
+			china_or_pretender_can_be_liao_trigger = yes
 		}
 		
 		name = LIAO
@@ -9609,12 +9215,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yuan_china
-				}
-			}
+			china_or_pretender_can_be_yuan_trigger = yes
 		}
 		
 		name = YUAN
@@ -9717,12 +9318,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = xia_china
-				}
-			}
+			china_or_pretender_can_be_xia_trigger = yes
 		}
 		
 		name = XIA
@@ -9830,12 +9426,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qing_china
-				}
-			}
+			china_or_pretender_can_be_qing_trigger = yes
 		}
 		
 		name = QING
@@ -9937,12 +9528,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = dai_china
-				}
-			}
+			china_or_pretender_can_be_dai_trigger = yes
 		}
 		
 		name = DAI
@@ -10032,12 +9618,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = cheng_china
-				}
-			}
+			china_or_pretender_can_be_cheng_trigger = yes
 		}
 		
 		name = CHENG
@@ -10138,12 +9719,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = liang_china
-				}
-			}
+			china_or_pretender_can_be_liang_trigger = yes
 		}
 		
 		name = LIANG
@@ -10239,12 +9815,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = song_china
-				}
-			}
+			china_or_pretender_can_be_song_trigger = yes
 		}
 		
 		name = SONG
@@ -10344,12 +9915,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = ming_china
-				}
-			}
+			china_or_pretender_can_be_ming_trigger = yes
 		}
 		
 		name = MING
@@ -10462,12 +10028,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = shu_china
-				}
-			}
+			china_or_pretender_can_be_shu_trigger = yes
 		}
 		
 		name = SHU
@@ -10563,12 +10124,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = wu_china
-				}
-			}
+			china_or_pretender_can_be_wu_trigger = yes
 		}
 		
 		name = WU
@@ -10664,12 +10220,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = chu_china
-				}
-			}
+			china_or_pretender_can_be_chu_trigger = yes
 		}
 		
 		name = CHU
@@ -10776,12 +10327,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yue_china
-				}
-			}
+			china_or_pretender_can_be_yue_trigger = yes
 		}
 		
 		name = YUE
@@ -10877,12 +10423,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yin_china
-				}
-			}
+			china_or_pretender_can_be_yin_trigger = yes
 		}
 		
 		name = YIN
@@ -10978,12 +10519,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = shun_china
-				}
-			}
+			china_or_pretender_can_be_shun_trigger = yes
 		}
 		
 		name = SHUN
@@ -11087,6 +10623,10 @@ character_event = {
 		name = EVTOPTE_NAMEOFCHINA_13 # More options!
 		clr_character_flag = china_name_repeat_7
 		repeat_event = { id = nameofchina.13 }
+	}
+	
+	after = {
+		update_global_china_name_flag_effect = yes
 	}
 }
 
@@ -11359,12 +10899,7 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = tang_china
-				}
-			}
+			china_or_pretender_can_be_tang_trigger = yes
 		}
 		
 		name = TANG
@@ -11474,12 +11009,7 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = jin_china
-				}
-			}
+			china_or_pretender_can_be_jin_trigger = yes
 		}
 		
 		name = JIN
@@ -11589,12 +11119,7 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = wei_china
-				}
-			}
+			china_or_pretender_can_be_wei_trigger = yes
 		}
 		
 		name = WEI
@@ -11703,12 +11228,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qi_china
-				}
-			}
+			china_or_pretender_can_be_qi_trigger = yes
 		}
 		
 		name = QI
@@ -11798,12 +11318,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = zhou_china
-				}
-			}
+			china_or_pretender_can_be_zhou_trigger = yes
 		}
 		
 		name = ZHOU
@@ -11893,12 +11408,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = han_china
-				}
-			}
+			china_or_pretender_can_be_han_trigger = yes
 		}
 		
 		name = HAN
@@ -12006,12 +11516,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qin_china
-				}
-			}
+			china_or_pretender_can_be_qin_trigger = yes
 		}
 		
 		name = QIN
@@ -12101,12 +11606,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yan_china
-				}
-			}
+			china_or_pretender_can_be_yan_trigger = yes
 		}
 		
 		name = YAN
@@ -12196,12 +11696,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = zhao_china
-				}
-			}
+			china_or_pretender_can_be_zhao_trigger = yes
 		}
 		
 		name = ZHAO
@@ -12302,12 +11797,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = liao_china
-				}
-			}
+			china_or_pretender_can_be_liao_trigger = yes
 		}
 		
 		name = LIAO
@@ -12407,12 +11897,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yuan_china
-				}
-			}
+			china_or_pretender_can_be_yuan_trigger = yes
 		}
 		
 		name = YUAN
@@ -12515,12 +12000,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = xia_china
-				}
-			}
+			china_or_pretender_can_be_xia_trigger = yes
 		}
 		
 		name = XIA
@@ -12628,12 +12108,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qing_china
-				}
-			}
+			china_or_pretender_can_be_qing_trigger = yes
 		}
 		
 		name = QING
@@ -12735,12 +12210,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = dai_china
-				}
-			}
+			china_or_pretender_can_be_dai_trigger = yes
 		}
 		
 		name = DAI
@@ -12830,12 +12300,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = chenh_china
-				}
-			}
+			china_or_pretender_can_be_cheng_trigger = yes
 		}
 		
 		name = CHENG
@@ -12936,12 +12401,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = liang_china
-				}
-			}
+			china_or_pretender_can_be_liang_trigger = yes
 		}
 		
 		name = LIANG
@@ -13037,12 +12497,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = song_china
-				}
-			}
+			china_or_pretender_can_be_song_trigger = yes
 		}
 		
 		name = SONG
@@ -13142,12 +12597,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = ming_china
-				}
-			}
+			china_or_pretender_can_be_ming_trigger = yes
 		}
 		
 		name = MING
@@ -13260,12 +12710,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = shu_china
-				}
-			}
+			china_or_pretender_can_be_shu_trigger = yes
 		}
 		
 		name = SHU
@@ -13361,12 +12806,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = wu_china
-				}
-			}
+			china_or_pretender_can_be_wu_trigger = yes
 		}
 		
 		name = WU
@@ -13462,12 +12902,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = chu_china
-				}
-			}
+			china_or_pretender_can_be_chu_trigger = yes
 		}
 		
 		name = CHU
@@ -13574,12 +13009,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yue_china
-				}
-			}
+			china_or_pretender_can_be_yue_trigger = yes
 		}
 		
 		name = YUE
@@ -13675,12 +13105,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yin_china
-				}
-			}
+			china_or_pretender_can_be_yin_trigger = yes
 		}
 		
 		name = YIN
@@ -13776,12 +13201,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = shun_china
-				}
-			}
+			china_or_pretender_can_be_shun_trigger = yes
 		}
 		
 		name = SHUN
@@ -13885,6 +13305,10 @@ character_event = {
 		name = EVTOPTE_NAMEOFCHINA_15 # More options!
 		clr_character_flag = china_name_repeat_7
 		repeat_event = { id = nameofchina.15 }
+	}
+	
+	after = {
+		update_global_china_name_flag_effect = yes
 	}
 }
 
@@ -14381,6 +13805,10 @@ character_event = {
 			narrative_event = { id = nameofchina.18 }
 		}
 	}
+	
+	after = {
+		update_global_china_name_flag_effect = yes
+	}
 }
 
 # Inform the world that all Grace is lost
@@ -14648,12 +14076,7 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = tang_china
-				}
-			}
+			china_or_pretender_can_be_tang_trigger = yes
 		}
 		
 		name = TANG
@@ -14763,12 +14186,7 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = jin_china
-				}
-			}
+			china_or_pretender_can_be_jin_trigger = yes
 		}
 		
 		name = JIN
@@ -14878,12 +14296,7 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = wei_china
-				}
-			}
+			china_or_pretender_can_be_wei_trigger = yes
 		}
 		
 		name = WEI
@@ -14992,12 +14405,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qi_china
-				}
-			}
+			china_or_pretender_can_be_qi_trigger = yes
 		}
 		
 		name = QI
@@ -15087,12 +14495,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = zhou_china
-				}
-			}
+			china_or_pretender_can_be_zhou_trigger = yes
 		}
 		
 		name = ZHOU
@@ -15182,12 +14585,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = han_china
-				}
-			}
+			china_or_pretender_can_be_han_trigger = yes
 		}
 		
 		name = HAN
@@ -15295,12 +14693,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qin_china
-				}
-			}
+			china_or_pretender_can_be_qin_trigger = yes
 		}
 		
 		name = QIN
@@ -15390,12 +14783,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yan_china
-				}
-			}
+			china_or_pretender_can_be_yan_trigger = yes
 		}
 		
 		name = YAN
@@ -15485,12 +14873,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = zhao_china
-				}
-			}
+			china_or_pretender_can_be_zhao_trigger = yes
 		}
 		
 		name = ZHAO
@@ -15591,12 +14974,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = liao_china
-				}
-			}
+			china_or_pretender_can_be_liao_trigger = yes
 		}
 		
 		name = LIAO
@@ -15696,12 +15074,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yuan_china
-				}
-			}
+			china_or_pretender_can_be_yuan_trigger = yes
 		}
 		
 		name = YUAN
@@ -15804,12 +15177,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = xia_china
-				}
-			}
+			china_or_pretender_can_be_xia_trigger = yes
 		}
 		
 		name = XIA
@@ -15917,12 +15285,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qing_china
-				}
-			}
+			china_or_pretender_can_be_qing_trigger = yes
 		}
 		
 		name = QING
@@ -16024,12 +15387,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = dai_china
-				}
-			}
+			china_or_pretender_can_be_dai_trigger = yes
 		}
 		
 		name = DAI
@@ -16119,12 +15477,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = cheng_china
-				}
-			}
+			china_or_pretender_can_be_cheng_trigger = yes
 		}
 		
 		name = CHENG
@@ -16225,12 +15578,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = liang_china
-				}
-			}
+			china_or_pretender_can_be_liang_trigger = yes
 		}
 		
 		name = LIANG
@@ -16326,12 +15674,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = song_china
-				}
-			}
+			china_or_pretender_can_be_song_trigger = yes
 		}
 		
 		name = SONG
@@ -16431,12 +15774,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = ming_china
-				}
-			}
+			china_or_pretender_can_be_ming_trigger = yes
 		}
 		
 		name = MING
@@ -16549,12 +15887,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = shu_china
-				}
-			}
+			china_or_pretender_can_be_shu_trigger = yes
 		}
 		
 		name = SHU
@@ -16650,12 +15983,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = wu_china
-				}
-			}
+			china_or_pretender_can_be_wu_trigger = yes
 		}
 		
 		name = WU
@@ -16751,12 +16079,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = chu_china
-				}
-			}
+			china_or_pretender_can_be_chu_trigger = yes
 		}
 		
 		name = CHU
@@ -16863,12 +16186,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yue_china
-				}
-			}
+			china_or_pretender_can_be_yue_trigger = yes
 		}
 		
 		name = YUE
@@ -16964,12 +16282,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yin_china
-				}
-			}
+			china_or_pretender_can_be_yin_trigger = yes
 		}
 		
 		name = YIN
@@ -17065,12 +16378,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = shun_china
-				}
-			}
+			china_or_pretender_can_be_shun_trigger = yes
 		}
 		
 		name = SHUN
@@ -17175,6 +16483,10 @@ character_event = {
 		clr_character_flag = china_name_repeat_7
 		repeat_event = { id = nameofchina.19 }
 	}
+	
+	after = {
+		update_global_china_name_flag_effect = yes
+	}
 }
 
 # Inform the world - new dynasty
@@ -17237,12 +16549,7 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = tang_china
-				}
-			}
+			china_or_pretender_can_be_tang_trigger = yes
 		}
 		
 		name = TANG
@@ -17348,12 +16655,7 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = jin_china
-				}
-			}
+			china_or_pretender_can_be_jin_trigger = yes
 		}
 		
 		name = JIN
@@ -17459,12 +16761,7 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = wei_china
-				}
-			}
+			china_or_pretender_can_be_wei_trigger = yes
 		}
 		
 		name = WEI
@@ -17568,12 +16865,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qi_china
-				}
-			}
+			china_or_pretender_can_be_qi_trigger = yes
 		}
 		
 		name = QI
@@ -17659,12 +16951,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = zhou_china
-				}
-			}
+			china_or_pretender_can_be_zhou_trigger = yes
 		}
 		
 		name = ZHOU
@@ -17750,12 +17037,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = han_china
-				}
-			}
+			china_or_pretender_can_be_han_trigger = yes
 		}
 		
 		name = HAN
@@ -17859,12 +17141,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qin_china
-				}
-			}
+			china_or_pretender_can_be_qin_trigger = yes
 		}
 		
 		name = QIN
@@ -17950,12 +17227,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yan_china
-				}
-			}
+			china_or_pretender_can_be_yan_trigger = yes
 		}
 		
 		name = YAN
@@ -18041,12 +17313,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = zhao_china
-				}
-			}
+			china_or_pretender_can_be_zhao_trigger = yes
 		}
 		
 		name = ZHAO
@@ -18143,12 +17410,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = liao_china
-				}
-			}
+			china_or_pretender_can_be_liao_trigger = yes
 		}
 		
 		name = LIAO
@@ -18244,12 +17506,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yuan_china
-				}
-			}
+			china_or_pretender_can_be_yuan_trigger = yes
 		}
 		
 		name = YUAN
@@ -18348,12 +17605,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = xia_china
-				}
-			}
+			china_or_pretender_can_be_xia_trigger = yes
 		}
 		
 		name = XIA
@@ -18457,12 +17709,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qing_china
-				}
-			}
+			china_or_pretender_can_be_qing_trigger = yes
 		}
 		
 		name = QING
@@ -18560,12 +17807,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = dai_china
-				}
-			}
+			china_or_pretender_can_be_dai_trigger = yes
 		}
 		
 		name = DAI
@@ -18651,12 +17893,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = cheng_china
-				}
-			}
+			china_or_pretender_can_be_cheng_trigger = yes
 		}
 		
 		name = CHENG
@@ -18753,12 +17990,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = liang_china
-				}
-			}
+			china_or_pretender_can_be_liang_trigger = yes
 		}
 		
 		name = LIANG
@@ -18850,12 +18082,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = song_china
-				}
-			}
+			china_or_pretender_can_be_song_trigger = yes
 		}
 		
 		name = SONG
@@ -18951,12 +18178,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = ming_china
-				}
-			}
+			china_or_pretender_can_be_ming_trigger = yes
 		}
 		
 		name = MING
@@ -19065,12 +18287,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = shu_china
-				}
-			}
+			china_or_pretender_can_be_shu_trigger = yes
 		}
 		
 		name = SHU
@@ -19162,12 +18379,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = wu_china
-				}
-			}
+			china_or_pretender_can_be_wu_trigger = yes
 		}
 		
 		name = WU
@@ -19259,12 +18471,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = chu_china
-				}
-			}
+			china_or_pretender_can_be_chu_trigger = yes
 		}
 		
 		name = CHU
@@ -19367,12 +18574,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yue_china
-				}
-			}
+			china_or_pretender_can_be_yue_trigger = yes
 		}
 		
 		name = YUE
@@ -19464,12 +18666,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yin_china
-				}
-			}
+			china_or_pretender_can_be_yin_trigger = yes
 		}
 		
 		name = YIN
@@ -19561,12 +18758,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = shun_china
-				}
-			}
+			china_or_pretender_can_be_shun_trigger = yes
 		}
 		
 		name = SHUN
@@ -19666,6 +18858,10 @@ character_event = {
 		name = EVTOPTE_NAMEOFCHINA_21 # More options!
 		clr_character_flag = china_name_repeat_7
 		repeat_event = { id = nameofchina.21 }
+	}
+	
+	after = {
+		update_global_china_name_flag_effect = yes
 	}
 }
 
@@ -19916,6 +19112,10 @@ character_event = {
 			character_event = { id = JD.32299 } # Interrupt kowtow
 		}
 	}
+	
+	after = {
+		update_global_china_name_flag_effect = yes
+	}
 }
 
 # Inform the world that all Grace is lost if the EoC picks that option
@@ -20018,12 +19218,7 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = tang_china
-				}
-			}
+			china_or_pretender_can_be_tang_trigger = yes
 		}
 		
 		name = TANG
@@ -20129,12 +19324,7 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = jin_china
-				}
-			}
+			china_or_pretender_can_be_jin_trigger = yes
 		}
 		
 		name = JIN
@@ -20240,12 +19430,7 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = wei_china
-				}
-			}
+			china_or_pretender_can_be_wei_trigger = yes
 		}
 		
 		name = WEI
@@ -20349,12 +19534,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qi_china
-				}
-			}
+			china_or_pretender_can_be_qi_trigger = yes
 		}
 		
 		name = QI
@@ -20440,12 +19620,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = zhou_china
-				}
-			}
+			china_or_pretender_can_be_zhou_trigger = yes
 		}
 		
 		name = ZHOU
@@ -20531,12 +19706,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = han_china
-				}
-			}
+			china_or_pretender_can_be_han_trigger = yes
 		}
 		
 		name = HAN
@@ -20640,12 +19810,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qin_china
-				}
-			}
+			china_or_pretender_can_be_qin_trigger = yes
 		}
 		
 		name = QIN
@@ -20731,12 +19896,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yan_china
-				}
-			}
+			china_or_pretender_can_be_yan_trigger = yes
 		}
 		
 		name = YAN
@@ -20822,12 +19982,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = zhao_china
-				}
-			}
+			china_or_pretender_can_be_zhao_trigger = yes
 		}
 		
 		name = ZHAO
@@ -20924,12 +20079,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = liao_china
-				}
-			}
+			china_or_pretender_can_be_liao_trigger = yes
 		}
 		
 		name = LIAO
@@ -21025,12 +20175,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yuan_china
-				}
-			}
+			china_or_pretender_can_be_yuan_trigger = yes
 		}
 		
 		name = YUAN
@@ -21129,12 +20274,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = xia_china
-				}
-			}
+			china_or_pretender_can_be_xia_trigger = yes
 		}
 		
 		name = XIA
@@ -21238,12 +20378,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qing_china
-				}
-			}
+			china_or_pretender_can_be_qing_trigger = yes
 		}
 		
 		name = QING
@@ -21341,12 +20476,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = dai_china
-				}
-			}
+			china_or_pretender_can_be_dai_trigger = yes
 		}
 		
 		name = DAI
@@ -21432,12 +20562,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = cheng_china
-				}
-			}
+			china_or_pretender_can_be_cheng_trigger = yes
 		}
 		
 		name = CHENG
@@ -21534,12 +20659,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = liang_china
-				}
-			}
+			china_or_pretender_can_be_liang_trigger = yes
 		}
 		
 		name = LIANG
@@ -21631,12 +20751,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = song_china
-				}
-			}
+			china_or_pretender_can_be_song_trigger = yes
 		}
 		
 		name = SONG
@@ -21732,12 +20847,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = ming_china
-				}
-			}
+			china_or_pretender_can_be_ming_trigger = yes
 		}
 		
 		name = MING
@@ -21846,12 +20956,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = shu_china
-				}
-			}
+			china_or_pretender_can_be_shu_trigger = yes
 		}
 		
 		name = SHU
@@ -21943,12 +21048,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = wu_china
-				}
-			}
+			china_or_pretender_can_be_wu_trigger = yes
 		}
 		
 		name = WU
@@ -22040,12 +21140,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = chu_china
-				}
-			}
+			china_or_pretender_can_be_chu_trigger = yes
 		}
 		
 		name = CHU
@@ -22148,12 +21243,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yue_china
-				}
-			}
+			china_or_pretender_can_be_yue_trigger = yes
 		}
 		
 		name = YUE
@@ -22245,12 +21335,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yin_china
-				}
-			}
+			china_or_pretender_can_be_yin_trigger = yes
 		}
 		
 		name = YIN
@@ -22342,12 +21427,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = shun_china
-				}
-			}
+			china_or_pretender_can_be_shun_trigger = yes
 		}
 		
 		name = SHUN
@@ -22448,6 +21528,10 @@ character_event = {
 		clr_character_flag = china_name_repeat_7
 		repeat_event = { id = nameofchina.25 }
 	}
+	
+	after = {
+		update_global_china_name_flag_effect = yes
+	}
 }
 
 # Inform the world
@@ -22534,6 +21618,10 @@ character_event = {
 			}
 			narrative_event = { id = nameofchina.28 }
 		}
+	}
+	
+	after = {
+		update_global_china_name_flag_effect = yes
 	}
 }
 
@@ -22637,6 +21725,10 @@ character_event = {
 			clr_title_flag = shun_china
 		}
 	}
+	
+	after = {
+		update_global_china_name_flag_effect = yes
+	}
 }
 
 
@@ -22680,12 +21772,7 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = tang_china
-				}
-			}
+			china_or_pretender_can_be_tang_trigger = yes
 		}
 		
 		name = TANG
@@ -22694,6 +21781,7 @@ character_event = {
 			set_name = "Tang Empire"
 			adjective = "Tang"
 			set_title_flag = tang_china
+			add_global_pretender_china_name_flag_effect = yes
 		}
 		
 		if = {
@@ -22767,12 +21855,7 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = jin_china
-				}
-			}
+			china_or_pretender_can_be_jin_trigger = yes
 		}
 		
 		name = JIN
@@ -22781,6 +21864,7 @@ character_event = {
 			set_name = "Jin Empire"
 			adjective = "Jin"
 			set_title_flag = jin_china
+			add_global_pretender_china_name_flag_effect = yes
 		}
 		
 		if = {
@@ -22854,12 +21938,7 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = wei_china
-				}
-			}
+			china_or_pretender_can_be_wei_trigger = yes
 		}
 		
 		name = WEI
@@ -22868,6 +21947,7 @@ character_event = {
 			set_name = "Wei Empire"
 			adjective = "Wei"
 			set_title_flag = wei_china
+			add_global_pretender_china_name_flag_effect = yes
 		}
 		
 		if = {
@@ -22939,12 +22019,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qi_china
-				}
-			}
+			china_or_pretender_can_be_qi_trigger = yes
 		}
 		
 		name = QI
@@ -22953,6 +22028,7 @@ character_event = {
 			set_name = "Qi Empire"
 			adjective = "Qi"
 			set_title_flag = qi_china
+			add_global_pretender_china_name_flag_effect = yes
 		}
 		
 		if = {
@@ -23006,12 +22082,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = zhou_china
-				}
-			}
+			china_or_pretender_can_be_zhou_trigger = yes
 		}
 		
 		name = ZHOU
@@ -23020,6 +22091,7 @@ character_event = {
 			set_name = "Zhou Empire"
 			adjective = "Zhou"
 			set_title_flag = zhou_china
+			add_global_pretender_china_name_flag_effect = yes
 		}
 		
 		if = {
@@ -23073,12 +22145,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = han_china
-				}
-			}
+			china_or_pretender_can_be_han_trigger = yes
 		}
 		
 		name = HAN
@@ -23087,6 +22154,7 @@ character_event = {
 			set_name = "Han Empire"
 			adjective = "Han"
 			set_title_flag = han_china
+			add_global_pretender_china_name_flag_effect = yes
 		}
 		
 		if = {
@@ -23158,12 +22226,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qin_china
-				}
-			}
+			china_or_pretender_can_be_qin_trigger = yes
 		}
 		
 		name = QIN
@@ -23172,6 +22235,7 @@ character_event = {
 			set_name = "Qin Empire"
 			adjective = "Qin"
 			set_title_flag = qin_china
+			add_global_pretender_china_name_flag_effect = yes
 		}
 		
 		if = {
@@ -23225,12 +22289,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yan_china
-				}
-			}
+			china_or_pretender_can_be_yan_trigger = yes
 		}
 		
 		name = YAN
@@ -23239,6 +22298,7 @@ character_event = {
 			set_name = "Yan Empire"
 			adjective = "Yan"
 			set_title_flag = yan_china
+			add_global_pretender_china_name_flag_effect = yes
 		}
 		
 		if = {
@@ -23292,12 +22352,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = zhao_china
-				}
-			}
+			china_or_pretender_can_be_zhao_trigger = yes
 		}
 		
 		name = ZHAO
@@ -23306,6 +22361,7 @@ character_event = {
 			set_name = "Zhao Empire"
 			adjective = "Zhao"
 			set_title_flag = zhao_china
+			add_global_pretender_china_name_flag_effect = yes
 		}
 		
 		if = {
@@ -23370,12 +22426,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = liao_china
-				}
-			}
+			china_or_pretender_can_be_liao_trigger = yes
 		}
 		
 		name = LIAO
@@ -23384,6 +22435,7 @@ character_event = {
 			set_name = "Liao Empire"
 			adjective = "Liao"
 			set_title_flag = liao_china
+			add_global_pretender_china_name_flag_effect = yes
 		}
 		
 		if = {
@@ -23447,12 +22499,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yuan_china
-				}
-			}
+			china_or_pretender_can_be_yuan_trigger = yes
 		}
 		
 		name = YUAN
@@ -23461,6 +22508,7 @@ character_event = {
 			set_name = "Yuan Empire"
 			adjective = "Yuan"
 			set_title_flag = yuan_china
+			add_global_pretender_china_name_flag_effect = yes
 		}
 		
 		if = {
@@ -23527,12 +22575,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = xia_china
-				}
-			}
+			china_or_pretender_can_be_xia_trigger = yes
 		}
 		
 		name = XIA
@@ -23541,6 +22584,7 @@ character_event = {
 			set_name = "Xia Empire"
 			adjective = "Xia"
 			set_title_flag = xia_china
+			add_global_pretender_china_name_flag_effect = yes
 		}
 		
 		if = {
@@ -23612,12 +22656,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qing_china
-				}
-			}
+			china_or_pretender_can_be_qing_trigger = yes
 		}
 		
 		name = QING
@@ -23626,6 +22665,7 @@ character_event = {
 			set_name = "Qing Empire"
 			adjective = "Qing"
 			set_title_flag = qing_china
+			add_global_pretender_china_name_flag_effect = yes
 		}
 		
 		if = {
@@ -23691,12 +22731,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = dai_china
-				}
-			}
+			china_or_pretender_can_be_dai_trigger = yes
 		}
 		
 		name = DAI
@@ -23705,6 +22740,7 @@ character_event = {
 			set_name = "Dai Empire"
 			adjective = "Dai"
 			set_title_flag = dai_china
+			add_global_pretender_china_name_flag_effect = yes
 		}
 		
 		if = {
@@ -23758,12 +22794,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = cheng_china
-				}
-			}
+			china_or_pretender_can_be_cheng_trigger = yes
 		}
 		
 		name = CHENG
@@ -23772,6 +22803,7 @@ character_event = {
 			set_name = "Cheng Empire"
 			adjective = "Cheng"
 			set_title_flag = cheng_china
+			add_global_pretender_china_name_flag_effect = yes
 		}
 		
 		if = {
@@ -23836,12 +22868,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = liang_china
-				}
-			}
+			china_or_pretender_can_be_liang_trigger = yes
 		}
 		
 		name = LIANG
@@ -23850,6 +22877,7 @@ character_event = {
 			set_name = "Liang Empire"
 			adjective = "Liang"
 			set_title_flag = liang_china
+			add_global_pretender_china_name_flag_effect = yes
 		}
 		
 		if = {
@@ -23909,12 +22937,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = song_china
-				}
-			}
+			china_or_pretender_can_be_song_trigger = yes
 		}
 		
 		name = SONG
@@ -23923,6 +22946,7 @@ character_event = {
 			set_name = "Song Empire"
 			adjective = "Song"
 			set_title_flag = song_china
+			add_global_pretender_china_name_flag_effect = yes
 		}
 		
 		if = {
@@ -23986,12 +23010,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = ming_china
-				}
-			}
+			china_or_pretender_can_be_ming_trigger = yes
 		}
 		
 		name = MING
@@ -24000,6 +23019,7 @@ character_event = {
 			set_name = "Ming Empire"
 			adjective = "Ming"
 			set_title_flag = ming_china
+			add_global_pretender_china_name_flag_effect = yes
 		}
 		
 		if = {
@@ -24076,12 +23096,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = shu_china
-				}
-			}
+			china_or_pretender_can_be_shu_trigger = yes
 		}
 		
 		name = SHU
@@ -24090,6 +23105,7 @@ character_event = {
 			set_name = "Shu Empire"
 			adjective = "Shu"
 			set_title_flag = shu_china
+			add_global_pretender_china_name_flag_effect = yes
 		}
 		
 		if = {
@@ -24149,12 +23165,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = wu_china
-				}
-			}
+			china_or_pretender_can_be_wu_trigger = yes
 		}
 		
 		name = WU
@@ -24163,6 +23174,7 @@ character_event = {
 			set_name = "Wu Empire"
 			adjective = "Wu"
 			set_title_flag = wu_china
+			add_global_pretender_china_name_flag_effect = yes
 		}
 		
 		if = {
@@ -24222,12 +23234,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = chu_china
-				}
-			}
+			china_or_pretender_can_be_chu_trigger = yes
 		}
 		
 		name = CHU
@@ -24236,6 +23243,7 @@ character_event = {
 			set_name = "Chu Empire"
 			adjective = "Chu"
 			set_title_flag = chu_china
+			add_global_pretender_china_name_flag_effect = yes
 		}
 		
 		if = {
@@ -24306,12 +23314,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yue_china
-				}
-			}
+			china_or_pretender_can_be_yue_trigger = yes
 		}
 		
 		name = YUE
@@ -24320,6 +23323,7 @@ character_event = {
 			set_name = "Yue Empire"
 			adjective = "Yue"
 			set_title_flag = yue_china
+			add_global_pretender_china_name_flag_effect = yes
 		}
 		
 		if = {
@@ -24379,12 +23383,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yin_china
-				}
-			}
+			china_or_pretender_can_be_yin_trigger = yes
 		}
 		
 		name = YIN
@@ -24393,6 +23392,7 @@ character_event = {
 			set_name = "Yin Empire"
 			adjective = "Yin"
 			set_title_flag = yin_china
+			add_global_pretender_china_name_flag_effect = yes
 		}
 		
 		if = {
@@ -24452,12 +23452,7 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = shun_china
-				}
-			}
+			china_or_pretender_can_be_shun_trigger = yes
 		}
 		
 		name = SHUN
@@ -24466,6 +23461,7 @@ character_event = {
 			set_name = "Shun Empire"
 			adjective = "Shun"
 			set_title_flag = shun_china
+			add_global_pretender_china_name_flag_effect = yes
 		}
 		
 		if = {
@@ -24573,53 +23569,192 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		is_chinese_emperor_trigger = yes
+		FROM = {
+			tier = emperor
+		}
 		any_demesne_title = {
 			tier = emperor
-			NOT = {
-				title = e_china
-			}
+			is_china_or_pretender_empire_trigger = yes
 		}
+		government = chinese_imperial_government
 	}
 	
 	option = {
 		name = EVTOPTA_NAMEOFCHINA_32 # The Middle Kingdom is enough!
 		
-		any_demesne_title = {
+		# Keep China if you have it
+		if = {
 			limit = {
-				tier = emperor
-				NOT = {
-					title = e_china
+				has_landed_title = e_china
+			}
+			any_demesne_title = {
+				limit = {
+					tier = emperor
+					NOT = {
+						title = e_china
+					}
+				}
+				remove_global_pretender_china_name_flag_effect = yes
+				set_name = ""
+				adjective = ""
+				clr_title_flag = tang_china
+				clr_title_flag = jin_china
+				clr_title_flag = wei_china
+				clr_title_flag = qi_china
+				clr_title_flag = zhou_china
+				clr_title_flag = han_china
+				clr_title_flag = qin_china
+				clr_title_flag = yan_china
+				clr_title_flag = zhao_china
+				clr_title_flag = liao_china
+				clr_title_flag = yuan_china
+				clr_title_flag = xia_china
+				clr_title_flag = qing_china
+				clr_title_flag = dai_china
+				clr_title_flag = cheng_china
+				clr_title_flag = liang_china
+				clr_title_flag = song_china
+				clr_title_flag = ming_china
+				clr_title_flag = shu_china
+				clr_title_flag = wu_china
+				clr_title_flag = chu_china
+				clr_title_flag = yue_china
+				clr_title_flag = yin_china
+				clr_title_flag = shun_china
+				clr_title_flag = pretender_chinese_empire
+				unsafe_destroy_landed_title = THIS
+			}
+		}
+		# Or keep a title matching your bloodline
+		else_if = {
+			limit = {
+				any_demesne_title = {
+					tier = emperor
+					title_matches_my_chinese_bloodline_trigger = yes
 				}
 			}
-			set_name = ""
-			adjective = ""
-			clr_title_flag = tang_china
-			clr_title_flag = jin_china
-			clr_title_flag = wei_china
-			clr_title_flag = qi_china
-			clr_title_flag = zhou_china
-			clr_title_flag = han_china
-			clr_title_flag = qin_china
-			clr_title_flag = yan_china
-			clr_title_flag = zhao_china
-			clr_title_flag = liao_china
-			clr_title_flag = yuan_china
-			clr_title_flag = xia_china
-			clr_title_flag = qing_china
-			clr_title_flag = dai_china
-			clr_title_flag = cheng_china
-			clr_title_flag = liang_china
-			clr_title_flag = song_china
-			clr_title_flag = ming_china
-			clr_title_flag = shu_china
-			clr_title_flag = wu_china
-			clr_title_flag = chu_china
-			clr_title_flag = yue_china
-			clr_title_flag = yin_china
-			clr_title_flag = shun_china
-			clr_title_flag = pretender_chinese_empire
-			unsafe_destroy_landed_title = THIS
+			# First destroy unmatching titles
+			any_demesne_title = {
+				limit = {
+					tier = emperor
+					title_matches_my_chinese_bloodline_trigger = no
+				}
+				remove_global_pretender_china_name_flag_effect = yes
+				set_name = ""
+				adjective = ""
+				clr_title_flag = tang_china
+				clr_title_flag = jin_china
+				clr_title_flag = wei_china
+				clr_title_flag = qi_china
+				clr_title_flag = zhou_china
+				clr_title_flag = han_china
+				clr_title_flag = qin_china
+				clr_title_flag = yan_china
+				clr_title_flag = zhao_china
+				clr_title_flag = liao_china
+				clr_title_flag = yuan_china
+				clr_title_flag = xia_china
+				clr_title_flag = qing_china
+				clr_title_flag = dai_china
+				clr_title_flag = cheng_china
+				clr_title_flag = liang_china
+				clr_title_flag = song_china
+				clr_title_flag = ming_china
+				clr_title_flag = shu_china
+				clr_title_flag = wu_china
+				clr_title_flag = chu_china
+				clr_title_flag = yue_china
+				clr_title_flag = yin_china
+				clr_title_flag = shun_china
+				clr_title_flag = pretender_chinese_empire
+				unsafe_destroy_landed_title = THIS
+			}
+			# Then destroy non-primary empires, if we somehow ended up with two pretender empires
+			any_demesne_title = {
+				limit = {
+					tier = emperor
+					ROOT = {
+						primary_title = {
+							NOT = {
+								title = PREVPREV
+							}
+						}
+					}
+				}
+				remove_global_pretender_china_name_flag_effect = yes
+				set_name = ""
+				adjective = ""
+				clr_title_flag = tang_china
+				clr_title_flag = jin_china
+				clr_title_flag = wei_china
+				clr_title_flag = qi_china
+				clr_title_flag = zhou_china
+				clr_title_flag = han_china
+				clr_title_flag = qin_china
+				clr_title_flag = yan_china
+				clr_title_flag = zhao_china
+				clr_title_flag = liao_china
+				clr_title_flag = yuan_china
+				clr_title_flag = xia_china
+				clr_title_flag = qing_china
+				clr_title_flag = dai_china
+				clr_title_flag = cheng_china
+				clr_title_flag = liang_china
+				clr_title_flag = song_china
+				clr_title_flag = ming_china
+				clr_title_flag = shu_china
+				clr_title_flag = wu_china
+				clr_title_flag = chu_china
+				clr_title_flag = yue_china
+				clr_title_flag = yin_china
+				clr_title_flag = shun_china
+				clr_title_flag = pretender_chinese_empire
+				unsafe_destroy_landed_title = THIS
+			}
+		}
+		# Or just keep your primary title
+		else = {
+			any_demesne_title = {
+				limit = {
+					tier = emperor
+					ROOT = {
+						primary_title = {
+							NOT = {
+								title = PREVPREV
+							}
+						}
+					}
+				}
+				remove_global_pretender_china_name_flag_effect = yes
+				set_name = ""
+				adjective = ""
+				clr_title_flag = tang_china
+				clr_title_flag = jin_china
+				clr_title_flag = wei_china
+				clr_title_flag = qi_china
+				clr_title_flag = zhou_china
+				clr_title_flag = han_china
+				clr_title_flag = qin_china
+				clr_title_flag = yan_china
+				clr_title_flag = zhao_china
+				clr_title_flag = liao_china
+				clr_title_flag = yuan_china
+				clr_title_flag = xia_china
+				clr_title_flag = qing_china
+				clr_title_flag = dai_china
+				clr_title_flag = cheng_china
+				clr_title_flag = liang_china
+				clr_title_flag = song_china
+				clr_title_flag = ming_china
+				clr_title_flag = shu_china
+				clr_title_flag = wu_china
+				clr_title_flag = chu_china
+				clr_title_flag = yue_china
+				clr_title_flag = yin_china
+				clr_title_flag = shun_china
+				clr_title_flag = pretender_chinese_empire
+				unsafe_destroy_landed_title = THIS
+			}
 		}
 	}
 }
@@ -24689,6 +23824,7 @@ character_event = {
 		FROM = {
 			set_name = ""
 			adjective = ""
+			remove_global_pretender_china_name_flag_effect = yes
 			clr_title_flag = tang_china
 			clr_title_flag = jin_china
 			clr_title_flag = wei_china
@@ -24818,17 +23954,13 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = tang_china
-				}
-			}
+			china_or_pretender_can_be_tang_trigger = yes
 		}
 		
 		name = TANG
 		
 		primary_title = {
+			remove_global_pretender_china_name_flag_effect = yes
 			clr_title_flag = tang_china
 			clr_title_flag = jin_china
 			clr_title_flag = wei_china
@@ -24850,7 +23982,7 @@ character_event = {
 			clr_title_flag = shu_china
 			clr_title_flag = wu_china
 			clr_title_flag = chu_china
-			clr_title_flag = yuprimary_title
+			clr_title_flag = yue
 			clr_title_flag = yin_china
 			clr_title_flag = shun_china
 		}
@@ -24859,6 +23991,7 @@ character_event = {
 			set_name = "Tang Empire"
 			adjective = "Tang"
 			set_title_flag = tang_china
+			set_global_flag = pretender_tang_china_exists
 		}
 		
 		if = {
@@ -24917,17 +24050,13 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = jin_china
-				}
-			}
+			china_or_pretender_can_be_jin_trigger = yes
 		}
 		
 		name = JIN
 		
 		primary_title = {
+			remove_global_pretender_china_name_flag_effect = yes
 			clr_title_flag = tang_china
 			clr_title_flag = jin_china
 			clr_title_flag = wei_china
@@ -24949,7 +24078,7 @@ character_event = {
 			clr_title_flag = shu_china
 			clr_title_flag = wu_china
 			clr_title_flag = chu_china
-			clr_title_flag = yuprimary_title
+			clr_title_flag = yue
 			clr_title_flag = yin_china
 			clr_title_flag = shun_china
 		}
@@ -24958,6 +24087,7 @@ character_event = {
 			set_name = "Jin Empire"
 			adjective = "Jin"
 			set_title_flag = jin_china
+			set_global_flag = pretender_jin_china_exists
 		}
 		
 		if = {
@@ -25016,17 +24146,13 @@ character_event = {
 					has_character_flag = china_name_repeat_8
 				}
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = wei_china
-				}
-			}
+			china_or_pretender_can_be_wei_trigger = yes
 		}
 		
 		name = WEI
 		
 		primary_title = {
+			remove_global_pretender_china_name_flag_effect = yes
 			clr_title_flag = tang_china
 			clr_title_flag = jin_china
 			clr_title_flag = wei_china
@@ -25048,7 +24174,7 @@ character_event = {
 			clr_title_flag = shu_china
 			clr_title_flag = wu_china
 			clr_title_flag = chu_china
-			clr_title_flag = yuprimary_title
+			clr_title_flag = yue
 			clr_title_flag = yin_china
 			clr_title_flag = shun_china
 		}
@@ -25057,6 +24183,7 @@ character_event = {
 			set_name = "Wei Empire"
 			adjective = "Wei"
 			set_title_flag = wei_china
+			set_global_flag = pretender_wei_china_exists
 		}
 		
 		if = {
@@ -25105,7 +24232,7 @@ character_event = {
 		}
 		name = EVTOPTE_NAMEOFCHINA_35 # More options!
 		set_character_flag = china_name_repeat_1
-		repeat_event = { id = nameofchina35 }
+		repeat_event = { id = nameofchina.35 }
 	}
 	
 	option = {
@@ -25114,17 +24241,13 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qi_china
-				}
-			}
+			china_or_pretender_can_be_qi_trigger = yes
 		}
 		
 		name = QI
 		
 		primary_title = {
+			remove_global_pretender_china_name_flag_effect = yes
 			clr_title_flag = tang_china
 			clr_title_flag = jin_china
 			clr_title_flag = wei_china
@@ -25146,7 +24269,7 @@ character_event = {
 			clr_title_flag = shu_china
 			clr_title_flag = wu_china
 			clr_title_flag = chu_china
-			clr_title_flag = yuprimary_title
+			clr_title_flag = yue
 			clr_title_flag = yin_china
 			clr_title_flag = shun_china
 		}
@@ -25155,6 +24278,7 @@ character_event = {
 			set_name = "Qi Empire"
 			adjective = "Qi"
 			set_title_flag = qi_china
+			set_global_flag = pretender_qi_china_exists
 		}
 		
 		if = {
@@ -25193,17 +24317,13 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = zhou_china
-				}
-			}
+			china_or_pretender_can_be_zhou_trigger = yes
 		}
 		
 		name = ZHOU
 		
 		primary_title = {
+			remove_global_pretender_china_name_flag_effect = yes
 			clr_title_flag = tang_china
 			clr_title_flag = jin_china
 			clr_title_flag = wei_china
@@ -25225,7 +24345,7 @@ character_event = {
 			clr_title_flag = shu_china
 			clr_title_flag = wu_china
 			clr_title_flag = chu_china
-			clr_title_flag = yuprimary_title
+			clr_title_flag = yue
 			clr_title_flag = yin_china
 			clr_title_flag = shun_china
 		}
@@ -25234,6 +24354,7 @@ character_event = {
 			set_name = "Zhou Empire"
 			adjective = "Zhou"
 			set_title_flag = zhou_china
+			set_global_flag = pretender_zhou_china_exists
 		}
 		
 		if = {
@@ -25272,17 +24393,13 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_1
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = han_china
-				}
-			}
+			china_or_pretender_can_be_han_trigger = yes
 		}
 		
 		name = HAN
 		
 		primary_title = {
+			remove_global_pretender_china_name_flag_effect = yes
 			clr_title_flag = tang_china
 			clr_title_flag = jin_china
 			clr_title_flag = wei_china
@@ -25304,7 +24421,7 @@ character_event = {
 			clr_title_flag = shu_china
 			clr_title_flag = wu_china
 			clr_title_flag = chu_china
-			clr_title_flag = yuprimary_title
+			clr_title_flag = yue
 			clr_title_flag = yin_china
 			clr_title_flag = shun_china
 		}
@@ -25313,6 +24430,7 @@ character_event = {
 			set_name = "Han Empire"
 			adjective = "Han"
 			set_title_flag = han_china
+			set_global_flag = pretender_han_china_exists
 		}
 		
 		if = {
@@ -25360,7 +24478,7 @@ character_event = {
 		name = EVTOPTE_NAMEOFCHINA_35 # More options!
 		clr_character_flag = china_name_repeat_1
 		set_character_flag = china_name_repeat_2
-		repeat_event = { id = nameofchina35 }
+		repeat_event = { id = nameofchina.35 }
 	}
 	
 	option = {
@@ -25369,17 +24487,13 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qin_china
-				}
-			}
+			china_or_pretender_can_be_qin_trigger = yes
 		}
 		
 		name = QIN
 		
 		primary_title = {
+			remove_global_pretender_china_name_flag_effect = yes
 			clr_title_flag = tang_china
 			clr_title_flag = jin_china
 			clr_title_flag = wei_china
@@ -25401,7 +24515,7 @@ character_event = {
 			clr_title_flag = shu_china
 			clr_title_flag = wu_china
 			clr_title_flag = chu_china
-			clr_title_flag = yuprimary_title
+			clr_title_flag = yue
 			clr_title_flag = yin_china
 			clr_title_flag = shun_china
 		}
@@ -25410,6 +24524,7 @@ character_event = {
 			set_name = "Qin Empire"
 			adjective = "Qin"
 			set_title_flag = qin_china
+			set_global_flag = pretender_qin_china_exists
 		}
 		
 		if = {
@@ -25448,17 +24563,13 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yan_china
-				}
-			}
+			china_or_pretender_can_be_yan_trigger = yes
 		}
 		
 		name = YAN
 		
 		primary_title = {
+			remove_global_pretender_china_name_flag_effect = yes
 			clr_title_flag = tang_china
 			clr_title_flag = jin_china
 			clr_title_flag = wei_china
@@ -25480,7 +24591,7 @@ character_event = {
 			clr_title_flag = shu_china
 			clr_title_flag = wu_china
 			clr_title_flag = chu_china
-			clr_title_flag = yuprimary_title
+			clr_title_flag = yue
 			clr_title_flag = yin_china
 			clr_title_flag = shun_china
 		}
@@ -25489,6 +24600,7 @@ character_event = {
 			set_name = "Yan Empire"
 			adjective = "Yan"
 			set_title_flag = yan_china
+			set_global_flag = pretender_yan_china_exists
 		}
 		
 		if = {
@@ -25527,17 +24639,13 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_2
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = zhao_china
-				}
-			}
+			china_or_pretender_can_be_zhao_trigger = yes
 		}
 		
 		name = ZHAO
 		
 		primary_title = {
+			remove_global_pretender_china_name_flag_effect = yes
 			clr_title_flag = tang_china
 			clr_title_flag = jin_china
 			clr_title_flag = wei_china
@@ -25559,7 +24667,7 @@ character_event = {
 			clr_title_flag = shu_china
 			clr_title_flag = wu_china
 			clr_title_flag = chu_china
-			clr_title_flag = yuprimary_title
+			clr_title_flag = yue
 			clr_title_flag = yin_china
 			clr_title_flag = shun_china
 		}
@@ -25568,6 +24676,7 @@ character_event = {
 			set_name = "Zhao Empire"
 			adjective = "Zhao"
 			set_title_flag = zhao_china
+			set_global_flag = pretender_zhao_china_exists
 		}
 		
 		if = {
@@ -25608,7 +24717,7 @@ character_event = {
 		name = EVTOPTE_NAMEOFCHINA_35 # More options!
 		clr_character_flag = china_name_repeat_2
 		set_character_flag = china_name_repeat_3
-		repeat_event = { id = nameofchina35 }
+		repeat_event = { id = nameofchina.35 }
 	}
 	
 	option = {
@@ -25617,17 +24726,13 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = liao_china
-				}
-			}
+			china_or_pretender_can_be_liao_trigger = yes
 		}
 		
 		name = LIAO
 		
 		primary_title = {
+			remove_global_pretender_china_name_flag_effect = yes
 			clr_title_flag = tang_china
 			clr_title_flag = jin_china
 			clr_title_flag = wei_china
@@ -25649,7 +24754,7 @@ character_event = {
 			clr_title_flag = shu_china
 			clr_title_flag = wu_china
 			clr_title_flag = chu_china
-			clr_title_flag = yuprimary_title
+			clr_title_flag = yue
 			clr_title_flag = yin_china
 			clr_title_flag = shun_china
 		}
@@ -25658,6 +24763,7 @@ character_event = {
 			set_name = "Liao Empire"
 			adjective = "Liao"
 			set_title_flag = liao_china
+			set_global_flag = pretender_liao_china_exists
 		}
 		
 		if = {
@@ -25706,17 +24812,13 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yuan_china
-				}
-			}
+			china_or_pretender_can_be_yuan_trigger = yes
 		}
 		
 		name = YUAN
 		
 		primary_title = {
+			remove_global_pretender_china_name_flag_effect = yes
 			clr_title_flag = tang_china
 			clr_title_flag = jin_china
 			clr_title_flag = wei_china
@@ -25738,7 +24840,7 @@ character_event = {
 			clr_title_flag = shu_china
 			clr_title_flag = wu_china
 			clr_title_flag = chu_china
-			clr_title_flag = yuprimary_title
+			clr_title_flag = yue
 			clr_title_flag = yin_china
 			clr_title_flag = shun_china
 		}
@@ -25747,6 +24849,7 @@ character_event = {
 			set_name = "Yuan Empire"
 			adjective = "Yuan"
 			set_title_flag = yuan_china
+			set_global_flag = pretender_yuan_china_exists
 		}
 		
 		if = {
@@ -25798,17 +24901,13 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_3
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = xia_china
-				}
-			}
+			china_or_pretender_can_be_xia_trigger = yes
 		}
 		
 		name = XIA
 		
 		primary_title = {
+			remove_global_pretender_china_name_flag_effect = yes
 			clr_title_flag = tang_china
 			clr_title_flag = jin_china
 			clr_title_flag = wei_china
@@ -25830,7 +24929,7 @@ character_event = {
 			clr_title_flag = shu_china
 			clr_title_flag = wu_china
 			clr_title_flag = chu_china
-			clr_title_flag = yuprimary_title
+			clr_title_flag = yue
 			clr_title_flag = yin_china
 			clr_title_flag = shun_china
 		}
@@ -25839,6 +24938,7 @@ character_event = {
 			set_name = "Xia Empire"
 			adjective = "Xia"
 			set_title_flag = xia_china
+			set_global_flag = pretender_xia_china_exists
 		}
 		
 		if = {
@@ -25886,7 +24986,7 @@ character_event = {
 		name = EVTOPTE_NAMEOFCHINA_35 # More options!
 		clr_character_flag = china_name_repeat_3
 		set_character_flag = china_name_repeat_4
-		repeat_event = { id = nameofchina35 }
+		repeat_event = { id = nameofchina.35 }
 	}
 	
 	option = {
@@ -25895,17 +24995,13 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = qing_china
-				}
-			}
+			china_or_pretender_can_be_qing_trigger = yes
 		}
 		
 		name = QING
 		
 		primary_title = {
+			remove_global_pretender_china_name_flag_effect = yes
 			clr_title_flag = tang_china
 			clr_title_flag = jin_china
 			clr_title_flag = wei_china
@@ -25927,7 +25023,7 @@ character_event = {
 			clr_title_flag = shu_china
 			clr_title_flag = wu_china
 			clr_title_flag = chu_china
-			clr_title_flag = yuprimary_title
+			clr_title_flag = yue
 			clr_title_flag = yin_china
 			clr_title_flag = shun_china
 		}
@@ -25936,6 +25032,7 @@ character_event = {
 			set_name = "Qing Empire"
 			adjective = "Qing"
 			set_title_flag = qing_china
+			set_global_flag = pretender_qing_china_exists
 		}
 		
 		if = {
@@ -25986,17 +25083,13 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = dai_china
-				}
-			}
+			china_or_pretender_can_be_dai_trigger = yes
 		}
 		
 		name = DAI
 		
 		primary_title = {
+			remove_global_pretender_china_name_flag_effect = yes
 			clr_title_flag = tang_china
 			clr_title_flag = jin_china
 			clr_title_flag = wei_china
@@ -26018,7 +25111,7 @@ character_event = {
 			clr_title_flag = shu_china
 			clr_title_flag = wu_china
 			clr_title_flag = chu_china
-			clr_title_flag = yuprimary_title
+			clr_title_flag = yue
 			clr_title_flag = yin_china
 			clr_title_flag = shun_china
 		}
@@ -26027,6 +25120,7 @@ character_event = {
 			set_name = "Dai Empire"
 			adjective = "Dai"
 			set_title_flag = dai_china
+			set_global_flag = pretender_dai_china_exists
 		}
 		
 		if = {
@@ -26065,17 +25159,13 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_4
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = cheng_china
-				}
-			}
+			china_or_pretender_can_be_cheng_trigger = yes
 		}
 		
 		name = CHENG
 		
 		primary_title = {
+			remove_global_pretender_china_name_flag_effect = yes
 			clr_title_flag = tang_china
 			clr_title_flag = jin_china
 			clr_title_flag = wei_china
@@ -26097,7 +25187,7 @@ character_event = {
 			clr_title_flag = shu_china
 			clr_title_flag = wu_china
 			clr_title_flag = chu_china
-			clr_title_flag = yuprimary_title
+			clr_title_flag = yue
 			clr_title_flag = yin_china
 			clr_title_flag = shun_china
 		}
@@ -26106,6 +25196,7 @@ character_event = {
 			set_name = "Cheng Empire"
 			adjective = "Cheng"
 			set_title_flag = cheng_china
+			set_global_flag = pretender_cheng_china_exists
 		}
 		
 		if = {
@@ -26146,7 +25237,7 @@ character_event = {
 		name = EVTOPTE_NAMEOFCHINA_35 # More options!
 		clr_character_flag = china_name_repeat_4
 		set_character_flag = china_name_repeat_5
-		repeat_event = { id = nameofchina35 }
+		repeat_event = { id = nameofchina.35 }
 	}
 	
 	option = {
@@ -26155,17 +25246,13 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = liang_china
-				}
-			}
+			china_or_pretender_can_be_liang_trigger = yes
 		}
 		
 		name = LIANG
 		
 		primary_title = {
+			remove_global_pretender_china_name_flag_effect = yes
 			clr_title_flag = tang_china
 			clr_title_flag = jin_china
 			clr_title_flag = wei_china
@@ -26187,7 +25274,7 @@ character_event = {
 			clr_title_flag = shu_china
 			clr_title_flag = wu_china
 			clr_title_flag = chu_china
-			clr_title_flag = yuprimary_title
+			clr_title_flag = yue
 			clr_title_flag = yin_china
 			clr_title_flag = shun_china
 		}
@@ -26196,6 +25283,7 @@ character_event = {
 			set_name = "Liang Empire"
 			adjective = "Liang"
 			set_title_flag = liang_china
+			set_global_flag = pretender_laing_china_exists
 		}
 		
 		if = {
@@ -26240,17 +25328,13 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = song_china
-				}
-			}
+			china_or_pretender_can_be_song_trigger = yes
 		}
 		
 		name = SONG
 		
 		primary_title = {
+			remove_global_pretender_china_name_flag_effect = yes
 			clr_title_flag = tang_china
 			clr_title_flag = jin_china
 			clr_title_flag = wei_china
@@ -26272,7 +25356,7 @@ character_event = {
 			clr_title_flag = shu_china
 			clr_title_flag = wu_china
 			clr_title_flag = chu_china
-			clr_title_flag = yuprimary_title
+			clr_title_flag = yue
 			clr_title_flag = yin_china
 			clr_title_flag = shun_china
 		}
@@ -26281,6 +25365,7 @@ character_event = {
 			set_name = "Song Empire"
 			adjective = "Song"
 			set_title_flag = song_china
+			set_global_flag = pretender_song_china_exists
 		}
 		
 		if = {
@@ -26329,17 +25414,13 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_5
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = ming_china
-				}
-			}
+			china_or_pretender_can_be_ming_trigger = yes
 		}
 		
 		name = MING
 		
 		primary_title = {
+			remove_global_pretender_china_name_flag_effect = yes
 			clr_title_flag = tang_china
 			clr_title_flag = jin_china
 			clr_title_flag = wei_china
@@ -26361,7 +25442,7 @@ character_event = {
 			clr_title_flag = shu_china
 			clr_title_flag = wu_china
 			clr_title_flag = chu_china
-			clr_title_flag = yuprimary_title
+			clr_title_flag = yue
 			clr_title_flag = yin_china
 			clr_title_flag = shun_china
 		}
@@ -26370,6 +25451,7 @@ character_event = {
 			set_name = "Ming Empire"
 			adjective = "Ming"
 			set_title_flag = ming_china
+			set_global_flag = pretender_ming_china_exists
 		}
 		
 		if = {
@@ -26422,7 +25504,7 @@ character_event = {
 		name = EVTOPTE_NAMEOFCHINA_35 # More options!
 		clr_character_flag = china_name_repeat_5
 		set_character_flag = china_name_repeat_6
-		repeat_event = { id = nameofchina35 }
+		repeat_event = { id = nameofchina.35 }
 	}
 	
 	option = {
@@ -26431,17 +25513,13 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = shu_china
-				}
-			}
+			china_or_pretender_can_be_shu_trigger = yes
 		}
 		
 		name = SHU
 		
 		primary_title = {
+			remove_global_pretender_china_name_flag_effect = yes
 			clr_title_flag = tang_china
 			clr_title_flag = jin_china
 			clr_title_flag = wei_china
@@ -26463,7 +25541,7 @@ character_event = {
 			clr_title_flag = shu_china
 			clr_title_flag = wu_china
 			clr_title_flag = chu_china
-			clr_title_flag = yuprimary_title
+			clr_title_flag = yue
 			clr_title_flag = yin_china
 			clr_title_flag = shun_china
 		}
@@ -26472,6 +25550,7 @@ character_event = {
 			set_name = "Shu Empire"
 			adjective = "Shu"
 			set_title_flag = shu_china
+			set_global_flag = pretender_shu_china_exists
 		}
 		
 		if = {
@@ -26516,20 +25595,44 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = wu_china
-				}
-			}
+			china_or_pretender_can_be_wu_trigger = yes
 		}
 		
 		name = WU
 		
 		primary_title = {
+			remove_global_pretender_china_name_flag_effect = yes
+			clr_title_flag = tang_china
+			clr_title_flag = jin_china
+			clr_title_flag = wei_china
+			clr_title_flag = qi_china
+			clr_title_flag = zhou_china
+			clr_title_flag = han_china
+			clr_title_flag = qin_china
+			clr_title_flag = yan_china
+			clr_title_flag = zhao_china
+			clr_title_flag = liao_china
+			clr_title_flag = yuan_china
+			clr_title_flag = xia_china
+			clr_title_flag = qing_china
+			clr_title_flag = dai_china
+			clr_title_flag = cheng_china
+			clr_title_flag = liang_china
+			clr_title_flag = song_china
+			clr_title_flag = ming_china
+			clr_title_flag = shu_china
+			clr_title_flag = wu_china
+			clr_title_flag = chu_china
+			clr_title_flag = yue
+			clr_title_flag = yin_china
+			clr_title_flag = shun_china
+		}
+		
+		primary_title = {
 			set_name = "Wu Empire"
 			adjective = "Wu"
 			set_title_flag = wu_china
+			set_global_flag = pretender_wu_china_exists
 		}
 		
 		if = {
@@ -26574,17 +25677,13 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_6
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = chu_china
-				}
-			}
+			china_or_pretender_can_be_chu_trigger = yes
 		}
 		
 		name = CHU
 		
 		primary_title = {
+			remove_global_pretender_china_name_flag_effect = yes
 			clr_title_flag = tang_china
 			clr_title_flag = jin_china
 			clr_title_flag = wei_china
@@ -26606,7 +25705,7 @@ character_event = {
 			clr_title_flag = shu_china
 			clr_title_flag = wu_china
 			clr_title_flag = chu_china
-			clr_title_flag = yuprimary_title
+			clr_title_flag = yue
 			clr_title_flag = yin_china
 			clr_title_flag = shun_china
 		}
@@ -26615,6 +25714,7 @@ character_event = {
 			set_name = "Chu Empire"
 			adjective = "Chu"
 			set_title_flag = chu_china
+			set_global_flag = pretender_chu_china_exists
 		}
 		
 		if = {
@@ -26661,7 +25761,7 @@ character_event = {
 		name = EVTOPTE_NAMEOFCHINA_35 # More options!
 		clr_character_flag = china_name_repeat_6
 		set_character_flag = china_name_repeat_7
-		repeat_event = { id = nameofchina35 }
+		repeat_event = { id = nameofchina.35 }
 	}
 	
 	option = {
@@ -26670,17 +25770,13 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yuprimary_title
-				}
-			}
+			china_or_pretender_can_be_yue_trigger = yes
 		}
 		
 		name = YUE
 		
 		primary_title = {
+			remove_global_pretender_china_name_flag_effect = yes
 			clr_title_flag = tang_china
 			clr_title_flag = jin_china
 			clr_title_flag = wei_china
@@ -26702,7 +25798,7 @@ character_event = {
 			clr_title_flag = shu_china
 			clr_title_flag = wu_china
 			clr_title_flag = chu_china
-			clr_title_flag = yuprimary_title
+			clr_title_flag = yue
 			clr_title_flag = yin_china
 			clr_title_flag = shun_china
 		}
@@ -26710,7 +25806,8 @@ character_event = {
 		primary_title = {
 			set_name = "Yue Empire"
 			adjective = "Yue"
-			set_title_flag = yuprimary_title
+			set_title_flag = yue
+			set_global_flag = pretender_yue_china_exists
 		}
 		
 		if = {
@@ -26755,17 +25852,13 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = yin_china
-				}
-			}
+			china_or_pretender_can_be_yin_trigger = yes
 		}
 		
 		name = YIN
 		
 		primary_title = {
+			remove_global_pretender_china_name_flag_effect = yes
 			clr_title_flag = tang_china
 			clr_title_flag = jin_china
 			clr_title_flag = wei_china
@@ -26787,7 +25880,7 @@ character_event = {
 			clr_title_flag = shu_china
 			clr_title_flag = wu_china
 			clr_title_flag = chu_china
-			clr_title_flag = yuprimary_title
+			clr_title_flag = yue
 			clr_title_flag = yin_china
 			clr_title_flag = shun_china
 		}
@@ -26796,6 +25889,7 @@ character_event = {
 			set_name = "Yin Empire"
 			adjective = "Yin"
 			set_title_flag = yin_china
+			set_global_flag = pretender_yin_china_exists
 		}
 		
 		if = {
@@ -26840,17 +25934,13 @@ character_event = {
 				ai = yes
 				has_character_flag = china_name_repeat_7
 			}
-			NOT = {
-				any_title = {
-					tier = emperor
-					has_title_flag = shun_china
-				}
-			}
+			china_or_pretender_can_be_shun_trigger = yes
 		}
 		
 		name = SHUN
 		
 		primary_title = {
+			remove_global_pretender_china_name_flag_effect = yes
 			clr_title_flag = tang_china
 			clr_title_flag = jin_china
 			clr_title_flag = wei_china
@@ -26872,7 +25962,7 @@ character_event = {
 			clr_title_flag = shu_china
 			clr_title_flag = wu_china
 			clr_title_flag = chu_china
-			clr_title_flag = yuprimary_title
+			clr_title_flag = yue
 			clr_title_flag = yin_china
 			clr_title_flag = shun_china
 		}
@@ -26881,6 +25971,7 @@ character_event = {
 			set_name = "Shun Empire"
 			adjective = "Shun"
 			set_title_flag = shun_china
+			set_global_flag = pretender_shun_china_exists
 		}
 		
 		if = {
@@ -26933,7 +26024,7 @@ character_event = {
 		name = EVTOPTE_NAMEOFCHINA_35 # More options!
 		clr_character_flag = china_name_repeat_7
 		set_character_flag = china_name_repeat_8
-		repeat_event = { id = nameofchina35 }
+		repeat_event = { id = nameofchina.35 }
 	}
 	
 	option = {
@@ -26952,7 +26043,7 @@ character_event = {
 		}
 		name = EVTOPTE_NAMEOFCHINA_35 # More options! (Restart)
 		clr_character_flag = china_name_repeat_8
-		repeat_event = { id = nameofchina35 }
+		repeat_event = { id = nameofchina.35 }
 	}
 }
 
@@ -27733,5 +26824,26 @@ character_event = {
 	
 	immediate = {
 		character_event = { id = nameofchina.21 days = 1 } # Fire the actual event
+	}
+}
+
+# on_startup event to set the relevant flag(s)
+character_event = {
+	id = nameofchina.42
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tier = emperor
+	} 
+	
+	immediate = {
+		if = {
+			limit = {
+				has_landed_title = e_china
+			}
+			update_global_china_name_flag_effect = yes
+		}
+		add_global_pretender_china_name_flag_effect = yes
 	}
 }

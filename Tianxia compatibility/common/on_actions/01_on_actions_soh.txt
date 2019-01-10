@@ -2,6 +2,7 @@ on_startup = {
 	events = {
 		grace.986 # Chinese princess setup
 		grace.981 # Chinese artifacts for the EoC
+		nameofchina.42 # Update global flags tracking naming of China/pretender empires
 	}
 }
 

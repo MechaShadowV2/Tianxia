@@ -738,7 +738,7 @@ change_boon_tribute_disabling_penalty_effect = {
 }
 
 
-### Bloodline creation
+### Chinese Imperial Bloodline (real and pretender) creation
 
 create_real_chinese_imperial_bloodline_effect = {
 	if = {
@@ -1904,5 +1904,714 @@ create_pretender_chinese_imperial_bloodline_effect = {
 				inheritance = matrilineal
 			}
 		}
+	}
+}
+
+### Renaming China/pretender empire
+
+update_global_china_name_flag_effect = {
+	# Remove old flags
+	clr_global_flag = tang_china_exists
+	clr_global_flag = jin_china_exists
+	clr_global_flag = wei_china_exists
+	clr_global_flag = qi_china_exists
+	clr_global_flag = zhou_china_exists
+	clr_global_flag = han_china_exists
+	clr_global_flag = qin_china_exists
+	clr_global_flag = yan_china_exists
+	clr_global_flag = zhao_china_exists
+	clr_global_flag = liao_china_exists
+	clr_global_flag = yuan_china_exists
+	clr_global_flag = xia_china_exists
+	clr_global_flag = qing_china_exists
+	clr_global_flag = dai_china_exists
+	clr_global_flag = cheng_china_exists
+	clr_global_flag = liang_china_exists
+	clr_global_flag = song_china_exists
+	clr_global_flag = ming_china_exists
+	clr_global_flag = shu_china_exists
+	clr_global_flag = wu_china_exists
+	clr_global_flag = chu_china_exists
+	clr_global_flag = yue_china_exists
+	clr_global_flag = yin_china_exists
+	clr_global_flag = shun_china_exists
+	
+	if = {
+		limit = {
+			e_china = {
+				has_title_flag = tang_china
+			}
+		}
+		set_global_flag = tang_china_exists
+	}
+	if = {
+		limit = {
+			e_china = {
+				has_title_flag = jin_china
+			}
+		}
+		set_global_flag = jin_china_exists
+	}
+	if = {
+		limit = {
+			e_china = {
+				has_title_flag = wei_china
+			}
+		}
+		set_global_flag = wei_china_exists
+	}
+	if = {
+		limit = {
+			e_china = {
+				has_title_flag = qi_china
+			}
+		}
+		set_global_flag = qi_china_exists
+	}
+	if = {
+		limit = {
+			e_china = {
+				has_title_flag = zhou_china
+			}
+		}
+		set_global_flag = zhou_china_exists
+	}
+	if = {
+		limit = {
+			e_china = {
+				has_title_flag = han_china
+			}
+		}
+		set_global_flag = han_china_exists
+	}
+	if = {
+		limit = {
+			e_china = {
+				has_title_flag = qin_china
+			}
+		}
+		set_global_flag = qin_china_exists
+	}
+	if = {
+		limit = {
+			e_china = {
+				has_title_flag = yan_china
+			}
+		}
+		set_global_flag = yan_china_exists
+	}
+	if = {
+		limit = {
+			e_china = {
+				has_title_flag = zhao_china
+			}
+		}
+		set_global_flag = zhao_china_exists
+	}
+	if = {
+		limit = {
+			e_china = {
+				has_title_flag = liao_china
+			}
+		}
+		set_global_flag = liao_china_exists
+	}
+	if = {
+		limit = {
+			e_china = {
+				has_title_flag = yuan_china
+			}
+		}
+		set_global_flag = yuan_china_exists
+	}
+	if = {
+		limit = {
+			e_china = {
+				has_title_flag = xia_china
+			}
+		}
+		set_global_flag = xia_china_exists
+	}
+	if = {
+		limit = {
+			e_china = {
+				has_title_flag = qing_china
+			}
+		}
+		set_global_flag = qing_china_exists
+	}
+	if = {
+		limit = {
+			e_china = {
+				has_title_flag = dai_china
+			}
+		}
+		set_global_flag = dai_china_exists
+	}
+	if = {
+		limit = {
+			e_china = {
+				has_title_flag = cheng_china
+			}
+		}
+		set_global_flag = cheng_china_exists
+	}
+	if = {
+		limit = {
+			e_china = {
+				has_title_flag = liang_china
+			}
+		}
+		set_global_flag = liang_china_exists
+	}
+	if = {
+		limit = {
+			e_china = {
+				has_title_flag = song_china
+			}
+		}
+		set_global_flag = song_china_exists
+	}
+	if = {
+		limit = {
+			e_china = {
+				has_title_flag = ming_china
+			}
+		}
+		set_global_flag = ming_china_exists
+	}
+	if = {
+		limit = {
+			e_china = {
+				has_title_flag = shu_china
+			}
+		}
+		set_global_flag = shu_china_exists
+	}
+	if = {
+		limit = {
+			e_china = {
+				has_title_flag = wu_china
+			}
+		}
+		set_global_flag = wu_china_exists
+	}
+	if = {
+		limit = {
+			e_china = {
+				has_title_flag = chu_china
+			}
+		}
+		set_global_flag = chu_china_exists
+	}
+	if = {
+		limit = {
+			e_china = {
+				has_title_flag = yue_china
+			}
+		}
+		set_global_flag = yue_china_exists
+	}
+	if = {
+		limit = {
+			e_china = {
+				has_title_flag = yin_china
+			}
+		}
+		set_global_flag = yin_china_exists
+	}
+	if = {
+		limit = {
+			e_china = {
+				has_title_flag = shun_china
+			}
+		}
+		set_global_flag = shun_china_exists
+	}
+}
+
+add_global_pretender_china_name_flag_effect = {
+	if = {
+		limit = {
+			any_demesne_title = {
+				tier = emperor
+				NOT = {
+					e_china = {
+						title = PREV
+					}
+				}
+				has_title_flag = tang_china
+			}
+		}
+		set_global_flag = pretender_tang_china_exists
+	}
+	if = {
+		limit = {
+			any_demesne_title = {
+				tier = emperor
+				NOT = {
+					e_china = {
+						title = PREV
+					}
+				}
+				has_title_flag = jin_china
+			}
+		}
+		set_global_flag = pretender_jin_china_exists
+	}
+	if = {
+		limit = {
+			any_demesne_title = {
+				tier = emperor
+				NOT = {
+					e_china = {
+						title = PREV
+					}
+				}
+				has_title_flag = wei_china
+			}
+		}
+		set_global_flag = pretender_wei_china_exists
+	}
+	if = {
+		limit = {
+			any_demesne_title = {
+				tier = emperor
+				NOT = {
+					e_china = {
+						title = PREV
+					}
+				}
+				has_title_flag = qi_china
+			}
+		}
+		set_global_flag = pretender_qi_china_exists
+	}
+	if = {
+		limit = {
+			any_demesne_title = {
+				tier = emperor
+				NOT = {
+					e_china = {
+						title = PREV
+					}
+				}
+				has_title_flag = zhou_china
+			}
+		}
+		set_global_flag = pretender_zhou_china_exists
+	}
+	if = {
+		limit = {
+			any_demesne_title = {
+				tier = emperor
+				NOT = {
+					e_china = {
+						title = PREV
+					}
+				}
+				has_title_flag = han_china
+			}
+		}
+		set_global_flag = pretender_han_china_exists
+	}
+	if = {
+		limit = {
+			any_demesne_title = {
+				tier = emperor
+				NOT = {
+					e_china = {
+						title = PREV
+					}
+				}
+				has_title_flag = qin_china
+			}
+		}
+		set_global_flag = pretender_qin_china_exists
+	}
+	if = {
+		limit = {
+			any_demesne_title = {
+				tier = emperor
+				NOT = {
+					e_china = {
+						title = PREV
+					}
+				}
+				has_title_flag = yan_china
+			}
+		}
+		set_global_flag = pretender_yan_china_exists
+	}
+	if = {
+		limit = {
+			any_demesne_title = {
+				tier = emperor
+				NOT = {
+					e_china = {
+						title = PREV
+					}
+				}
+				has_title_flag = zhao_china
+			}
+		}
+		set_global_flag = pretender_zhao_china_exists
+	}
+	if = {
+		limit = {
+			any_demesne_title = {
+				tier = emperor
+				NOT = {
+					e_china = {
+						title = PREV
+					}
+				}
+				has_title_flag = liao_china
+			}
+		}
+		set_global_flag = pretender_liao_china_exists
+	}
+	if = {
+		limit = {
+			any_demesne_title = {
+				tier = emperor
+				NOT = {
+					e_china = {
+						title = PREV
+					}
+				}
+				has_title_flag = yuan_china
+			}
+		}
+		set_global_flag = pretender_yuan_china_exists
+	}
+	if = {
+		limit = {
+			any_demesne_title = {
+				tier = emperor
+				NOT = {
+					e_china = {
+						title = PREV
+					}
+				}
+				has_title_flag = xia_china
+			}
+		}
+		set_global_flag = pretender_xia_china_exists
+	}
+	if = {
+		limit = {
+			any_demesne_title = {
+				tier = emperor
+				NOT = {
+					e_china = {
+						title = PREV
+					}
+				}
+				has_title_flag = qing_china
+			}
+		}
+		set_global_flag = pretender_qing_china_exists
+	}
+	if = {
+		limit = {
+			any_demesne_title = {
+				tier = emperor
+				NOT = {
+					e_china = {
+						title = PREV
+					}
+				}
+				has_title_flag = dai_china
+			}
+		}
+		set_global_flag = pretender_dai_china_exists
+	}
+	if = {
+		limit = {
+			any_demesne_title = {
+				tier = emperor
+				NOT = {
+					e_china = {
+						title = PREV
+					}
+				}
+				has_title_flag = cheng_china
+			}
+		}
+		set_global_flag = pretender_cheng_china_exists
+	}
+	if = {
+		limit = {
+			any_demesne_title = {
+				tier = emperor
+				NOT = {
+					e_china = {
+						title = PREV
+					}
+				}
+				has_title_flag = liang_china
+			}
+		}
+		set_global_flag = pretender_liang_china_exists
+	}
+	if = {
+		limit = {
+			any_demesne_title = {
+				tier = emperor
+				NOT = {
+					e_china = {
+						title = PREV
+					}
+				}
+				has_title_flag = song_china
+			}
+		}
+		set_global_flag = pretender_song_china_exists
+	}
+	if = {
+		limit = {
+			any_demesne_title = {
+				tier = emperor
+				NOT = {
+					e_china = {
+						title = PREV
+					}
+				}
+				has_title_flag = ming_china
+			}
+		}
+		set_global_flag = pretender_ming_china_exists
+	}
+	if = {
+		limit = {
+			any_demesne_title = {
+				tier = emperor
+				NOT = {
+					e_china = {
+						title = PREV
+					}
+				}
+				has_title_flag = shu_china
+			}
+		}
+		set_global_flag = pretender_shu_china_exists
+	}
+	if = {
+		limit = {
+			any_demesne_title = {
+				tier = emperor
+				NOT = {
+					e_china = {
+						title = PREV
+					}
+				}
+				has_title_flag = wu_china
+			}
+		}
+		set_global_flag = pretender_wu_china_exists
+	}
+	if = {
+		limit = {
+			any_demesne_title = {
+				tier = emperor
+				NOT = {
+					e_china = {
+						title = PREV
+					}
+				}
+				has_title_flag = chu_china
+			}
+		}
+		set_global_flag = pretender_chu_china_exists
+	}
+	if = {
+		limit = {
+			any_demesne_title = {
+				tier = emperor
+				NOT = {
+					e_china = {
+						title = PREV
+					}
+				}
+				has_title_flag = yue_china
+			}
+		}
+		set_global_flag = pretender_yue_china_exists
+	}
+	if = {
+		limit = {
+			any_demesne_title = {
+				tier = emperor
+				NOT = {
+					e_china = {
+						title = PREV
+					}
+				}
+				has_title_flag = yin_china
+			}
+		}
+		set_global_flag = pretender_yin_china_exists
+	}
+	if = {
+		limit = {
+			any_demesne_title = {
+				tier = emperor
+				NOT = {
+					e_china = {
+						title = PREV
+					}
+				}
+				has_title_flag = shun_china
+			}
+		}
+		set_global_flag = pretender_shun_china_exists
+	}
+}
+
+remove_global_pretender_china_name_flag_effect = {
+	if = {
+		limit = {
+			has_title_flag = tang_china
+		}
+		clr_global_flag = pretender_tang_china_exists
+	}	
+	if = {
+		limit = {
+			has_title_flag = jin_china
+		}
+		clr_global_flag = pretender_jin_china_exists
+	}	
+	if = {
+		limit = {
+			has_title_flag = wei_china
+		}
+		clr_global_flag = pretender_wei_china_exists
+	}	
+	if = {
+		limit = {
+			has_title_flag = qi_china
+		}
+		clr_global_flag = pretender_qi_china_exists
+	}	
+	if = {
+		limit = {
+			has_title_flag = zhou_china
+		}
+		clr_global_flag = pretender_zhou_china_exists
+	}	
+	if = {
+		limit = {
+			has_title_flag = han_china
+		}
+		clr_global_flag = pretender_han_china_exists
+	}	
+	if = {
+		limit = {
+			has_title_flag = qin_china
+		}
+		clr_global_flag = pretender_qin_china_exists
+	}	
+	if = {
+		limit = {
+			has_title_flag = yan_china
+		}
+		clr_global_flag = pretender_yan_china_exists
+	}	
+	if = {
+		limit = {
+			has_title_flag = zhao_china
+		}
+		clr_global_flag = pretender_zhao_china_exists
+	}	
+	if = {
+		limit = {
+			has_title_flag = liao_china
+		}
+		clr_global_flag = pretender_liao_china_exists
+	}	
+	if = {
+		limit = {
+			has_title_flag = yuan_china
+		}
+		clr_global_flag = pretender_yuan_china_exists
+	}	
+	if = {
+		limit = {
+			has_title_flag = xia_china
+		}
+		clr_global_flag = pretender_xia_china_exists
+	}	
+	if = {
+		limit = {
+			has_title_flag = qing_china
+		}
+		clr_global_flag = pretender_qing_china_exists
+	}	
+	if = {
+		limit = {
+			has_title_flag = dai_china
+		}
+		clr_global_flag = pretender_dai_china_exists
+	}	
+	if = {
+		limit = {
+			has_title_flag = cheng_china
+		}
+		clr_global_flag = pretender_cheng_china_exists
+	}	
+	if = {
+		limit = {
+			has_title_flag = liang_china
+		}
+		clr_global_flag = pretender_liang_china_exists
+	}	
+	if = {
+		limit = {
+			has_title_flag = song_china
+		}
+		clr_global_flag = pretender_song_china_exists
+	}	
+	if = {
+		limit = {
+			has_title_flag = ming_china
+		}
+		clr_global_flag = pretender_ming_china_exists
+	}	
+	if = {
+		limit = {
+			has_title_flag = tang_china
+		}
+		clr_global_flag = pretender_shu_china_exists
+	}	
+	if = {
+		limit = {
+			has_title_flag = wu_china
+		}
+		clr_global_flag = pretender_wu_china_exists
+	}	
+	if = {
+		limit = {
+			has_title_flag = chu_china
+		}
+		clr_global_flag = pretender_chu_china_exists
+	}	
+	if = {
+		limit = {
+			has_title_flag = yue_china
+		}
+		clr_global_flag = pretender_yue_china_exists
+	}	
+	if = {
+		limit = {
+			has_title_flag = yin_china
+		}
+		clr_global_flag = pretender_yin_china_exists
+	}	
+	if = {
+		limit = {
+			has_title_flag = shun_china
+		}
+		clr_global_flag = pretender_shun_china_exists
 	}
 }

@@ -2133,7 +2133,7 @@ character_event = {
 
 # Islam appears out of "nowhere"
 character_event = {
-	id = indonesia.33
+	id = indonesia.34
 	desc = EVTDESC_IN_030 # TODO: Proper desc
 	picture = GFX_evt_Bishop_preaching_from_pulpit_muslim
 	
