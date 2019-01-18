@@ -370,4 +370,61 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 2598;2603;major_river;2191;-1;-1;-1;-1;Bueng Kan-Wiang Jun
 2587;2603;major_river;2192;-1;-1;-1;-1;Loei-Wiang Jun
 2564;2603;major_river;2193;-1;-1;-1;-1;Phitsanulok-Wiang Jun
-2568;2603;major_river;2193;-1;-1;-1;-1;Nan-Wiang Jun # Tsushima-mainland needed!
+2568;2603;major_river;2193;-1;-1;-1;-1;Nan-Wiang Jun
+2702;2700;sea;2065;-1;-1;-1;-1;Lei-Qiongzhou
+2708;2724;major_river;2194;-1;-1;-1;-1;Jiangmen-Guangzhou
+2708;2603;major_river;2194;-1;-1;-1;-1;Jiangmen-Zhaoqing
+2710;2723;major_river;2194;-1;-1;-1;-1;Xin-Zhaoqing
+2710;2723;major_river;2195;-1;-1;-1;-1;Xin-Hezhou
+2714;2760;major_river;2196;-1;-1;-1;-1;Guxian-Wuzhou
+2718;2760;major_river;2196;-1;-1;-1;-1;Shanglin-Wuzhou
+2718;2758;major_river;2197;-1;-1;-1;-1;Shanglin-Liuzhou
+2719;2758;major_river;2197;-1;-1;-1;-1;Nanning-Liuzhou
+2719;2757;major_river;2197;-1;-1;-1;-1;Nanning-Hechi
+2721;2757;major_river;2198;-1;-1;-1;-1;Baise-Hechi
+2722;2757;major_river;2199;-1;-1;-1;-1;Guangnan-Hechi
+2722;2764;major_river;2199;-1;-1;-1;-1;Guangnan-Nandan
+2722;2665;major_river;2200;-1;-1;-1;-1;Guangnan-Luodian
+2755;2843;major_river;2201;-1;-1;-1;-1;Suzhou-Nantong
+2755;2844;major_river;2201;-1;-1;-1;-1;Suzhou-Guangling
+2842;2844;major_river;2201;-1;-1;-1;-1;Zhenjiang-Guangling
+2842;2848;major_river;2202;-1;-1;-1;-1;Zhenjiang-Chuzhou
+2842;2851;major_river;2203;-1;-1;-1;-1;Zhenjiang-Hefei
+2841;2851;major_river;2203;-1;-1;-1;-1;Xuansheng-Hefei
+2840;2851;major_river;2204;-1;-1;-1;-1;Huangshan-Hefei
+2840;2852;major_river;2204;-1;-1;-1;-1;Huangshan-Anqing
+2839;2852;major_river;2205;-1;-1;-1;-1;Jingdezhen-Anqing
+2839;2853;major_river;2205;-1;-1;-1;-1;Jingdezhen-Huangmei
+2837;2853;major_river;2206;-1;-1;-1;-1;Jiujiang-Huangmei
+2836;2853;major_river;2206;-1;-1;-1;-1;Huangshi-Huangmei
+2836;2854;major_river;2206;-1;-1;-1;-1;Huangshi-Huanggang
+2836;2820;major_river;2207;-1;-1;-1;-1;Huangshi-Wuhan
+2835;2820;major_river;2207;-1;-1;-1;-1;Xianning-Wuhan
+2834;2820;major_river;2207;-1;-1;-1;-1;Tongcheng-Wuhan
+2770;2820;major_river;2207;-1;-1;-1;-1;Yueyang-Wuhan
+2772;2820;major_river;2208;-1;-1;-1;-1;Anxiang-Wuhan
+2772;2819;major_river;2208;-1;-1;-1;-1;Anxiang-Jingzhou
+2784;2819;major_river;2208;-1;-1;-1;-1;Wufeng-Jingzhou
+2784;2818;major_river;2209;-1;-1;-1;-1;Wufeng-Yichang
+2785;2817;major_river;2210;-1;-1;-1;-1;Enshi-Fenjie
+2785;2813;major_river;2210;-1;-1;-1;-1;Enshi-Kuizhou
+2786;2813;major_river;2211;-1;-1;-1;-1;Chongqing-Kuizhou
+2786;2807;major_river;2212;-1;-1;-1;-1;Chongqing-Nanchong
+2786;2806;major_river;2212;-1;-1;-1;-1;Chongqing-Suining
+2788;2806;major_river;2212;-1;-1;-1;-1;Chishui-Suining
+2788;2802;major_river;2213;-1;-1;-1;-1;Chishui-Neijiang
+2794;2799;major_river;2214;-1;-1;-1;-1;Junlian-Suifu
+2796;2799;major_river;2215;-1;-1;-1;-1;Zhaotong-Suifu
+2895;2909;major_river;2217;-1;-1;-1;-1;Donying-Haixing # Start here
+2895;2908;major_river;2218;-1;-1;-1;-1;Donying-Binzhou
+2894;2908;major_river;2218;-1;-1;-1;-1;Zibo-Binzhou
+2888;2908;major_river;2218;-1;-1;-1;-1;Jinan-Binzhou
+2888;2903;major_river;2219;-1;-1;-1;-1;Jinan-Dezhou
+2887;2902;major_river;2220;-1;-1;-1;-1;Jining-Liaocheng
+2882;2902;major_river;2221;-1;-1;-1;-1;Kaifeng-Liaocheng
+2882;2898;major_river;2221;-1;-1;-1;-1;Kaifeng-Puyang
+2878;2898;major_river;2222;-1;-1;-1;-1;Zhengzhou-Puyang
+2876;2898;major_river;2223;-1;-1;-1;-1;Luoyang-Puyang
+2876;2897;major_river;2223;-1;-1;-1;-1;Luoyang-Changzhi
+2876;2875;major_river;2224;-1;-1;-1;-1;Luoyang-Yuncheng
+2873;2875;major_river;2224;-1;-1;-1;-1;Luangchuan-Yuncheng # Tsushima-mainland needed!

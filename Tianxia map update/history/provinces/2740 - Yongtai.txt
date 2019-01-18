@@ -1,7 +1,7 @@
 # 2740 - Yongtai
 
 # County Title
-title = c_changle
+title = c_yongtai
 
 # Settlements
 max_settlements = 1

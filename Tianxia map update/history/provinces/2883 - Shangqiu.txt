@@ -1,0 +1,16 @@
+# 2883 - Shangqui
+
+# County Title
+title = c_shangqui
+
+# Settlements
+max_settlements = 1
+
+b_shangqui = castle
+# Needs baronies!
+
+# Misc
+culture = han
+religion = taoist
+
+# History
