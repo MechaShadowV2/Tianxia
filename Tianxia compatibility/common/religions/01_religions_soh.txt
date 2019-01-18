@@ -137,7 +137,7 @@ pagan_group = {
 	}
 
 	chinese_pagan_reformed = { # Shenist/Wuist/Nuoist
-		graphical_culture = buddhistgfx
+		graphical_culture = chinesegfx
 		secondary_event_pictures = sunni
 
 		icon = 64
@@ -206,7 +206,7 @@ pagan_group = {
 	}
 
 	chinese_pagan = { # Shenist/Wuist/Nuoist
-		graphical_culture = buddhistgfx
+		graphical_culture = chinesegfx
 		secondary_event_pictures = sunni
 
 		icon = 63
@@ -273,7 +273,7 @@ pagan_group = {
 	}
 	
 	korean_pagan_reformed = { # Muist/Shinist
-		graphical_culture = buddhistgfx
+		graphical_culture = chinesegfx
 
 		icon = 73
 		heresy_icon = 74
@@ -343,7 +343,7 @@ pagan_group = {
 	}
 
 	korean_pagan = { # Muist/Sinist
-		graphical_culture = buddhistgfx
+		graphical_culture = chinesegfx
 
 		icon = 72
 		heresy_icon = 74
@@ -411,7 +411,7 @@ pagan_group = {
 	}
 
 	ryukyuan_pagan_reformed = {
-		graphical_culture = buddhistgfx
+		graphical_culture = chinesegfx
 		secondary_event_pictures = sunni
 
 		icon = 79
@@ -465,7 +465,7 @@ pagan_group = {
 	}
 
 	ryukyuan_pagan = {
-		graphical_culture = buddhistgfx
+		graphical_culture = chinesegfx
 		secondary_event_pictures = sunni
 
 		icon = 78
