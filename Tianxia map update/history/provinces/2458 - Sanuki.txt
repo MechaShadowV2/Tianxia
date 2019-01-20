@@ -4,15 +4,17 @@
 title = c_sanuki
 
 # Settlements
-max_settlements = 4
-b_sakaide = castle
-b_takamatsu = castle
-b_marugame = city
-#b_tadotsu = temple
-# Needs baronies!
+max_settlements = 6 #Jokoku
+b_kagawa = castle
+b_ouchi = castle
+b_sankawa = castle
+b_miki = castle
+b_yamada = castle
+#b_utari = castle
+#b_karita = castle
 
 # Misc
 culture = japanese
-religion = buddhist
+religion = shinto
 
 # History

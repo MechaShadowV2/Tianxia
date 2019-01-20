@@ -5,10 +5,14 @@ title = c_miyakojima
 
 # Settlements
 max_settlements = 3
-b_ikema = castle
-b_miyako = city
-b_shimoji = temple
-#Needs baronies!		
+b_miyako = castle
+#b_irabu = castle
+#b_tarama = castle
+#b_shimoji = castle
+#b_sunagawa = castle
+#b_ikema = castle
+#b_kurima = castle
+#b_ogami = castle
 
 # Misc
 culture = ryukyuan

@@ -5,13 +5,14 @@ title = c_tokachi
 
 # Settlements
 max_settlements = 6
-b_obihiro = tribal
-#b_ashoro = city
-b_hiroo = temple
-#b_shimizu = castle
-#b_memuro = castle
-#b_sarabetsu = castle
-# Needs baronies!
+b_tokapusi = tribal
+#b_pior = tribal
+#b_topuy = tribal
+#b_sittok = tribal
+#b_seyosam = tribal
+#b_otopke = tribal
+#b_opereperkep = tribal
+#b_metot = tribal
 
 # Misc
 culture = ainu

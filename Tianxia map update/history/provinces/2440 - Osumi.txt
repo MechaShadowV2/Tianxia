@@ -4,10 +4,14 @@
 title = c_osumi
 
 # Settlements
-max_settlements = 2
-b_kokubu = castle
+max_settlements = 5 #Chugoku
+b_hishikari = castle
+b_soo = castle
+b_osumi = castle
+#b_ahira = castle
+#b_kimotsuki = castle
+#b_gomu = castle
 b_kanoya = city
-# Needs baronies!
 
 # Misc
 culture = japanese

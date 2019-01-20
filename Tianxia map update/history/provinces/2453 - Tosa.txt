@@ -4,14 +4,15 @@
 title = c_tosa
 
 # Settlements
-max_settlements = 1
+max_settlements = 2 #Chugoku, 1(Shimanto)+2(Muroto)+2=5
+#b_nagaoka = castle
 b_tosa = castle
-# Check that these baronies are in the right province!
-b_nankoku = city
 b_agawa = castle
-#b_jinjia = temple
-#b_ryoma = city
-# Needs baronies!
+#b_tokari = castle
+#b_kera = castle
+#b_ueta = castle
+#b_kuwahara = castle
+
 
 # Misc
 culture = japanese

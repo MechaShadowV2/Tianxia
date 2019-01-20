@@ -5,12 +5,14 @@ title = c_kitami
 
 # Settlements
 max_settlements = 4
-b_kitami = tribal
-# Check these baronies!
-#b_soya = castle
-#b_rishiri = temple
-#b_rebun = city
-# Needs baronies!
+b_mopet = tribal
+#b_inkarusi = tribal
+#b_yupet = tribal
+#b_ruroci = tribal
+#b_tokoropet = tribal
+#b_nupkes = tribal
+#b_kunnep = tribal
+#b_rupespe = tribal
 
 # Misc
 culture = ainu

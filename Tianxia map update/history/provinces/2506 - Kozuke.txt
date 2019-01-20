@@ -4,19 +4,17 @@
 title = c_kozuke
 # Settlements
 
-max_settlements = 5
-b_takasaki = tribal
-#b_maebashi = city
-#b_agatsuma = temple
-#b_kitagunma = castle
-#b_nitta = castle
-# Needs baronies!
+max_settlements = 7 #Taikoku
+b_kuruma = castle
+b_mitono = city
+b_agatsuma = castle
+b_nukisaki = temple
+b_nitta = castle
+b_akagi = temple
+#b_tone = castle
 
 # Misc
-culture = ainu
-religion = ainu_pagan
+culture = japanese
+religion = shinto
 
 # History
-1017.1.1 = {
-	b_takasaki = castle
-}

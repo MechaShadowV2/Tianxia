@@ -4,10 +4,14 @@
 title = c_higo
 
 # Settlements
-max_settlements = 2
-b_higo = castle
+max_settlements = 7 #Taikoku
+b_tamana = castle
+b_kikuchi = castle
 b_aso = temple
-# Needs baronies!
+b_takuma = castle
+b_uto = castle
+b_amakusa = castle
+#b_kuma = castle
 
 # Misc
 culture = japanese

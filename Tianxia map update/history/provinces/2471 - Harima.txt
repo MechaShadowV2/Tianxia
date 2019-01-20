@@ -4,12 +4,14 @@
 title = c_harima
 # Settlements
 
-max_settlements = 4
-b_himeji = castle
-b_kako = city
-b_iwa = temple
-b_yokawa = city
-# Needs baronies!
+max_settlements = 7 #Taikoku
+b_shikama = castle #city
+b_akashi = castle
+b_kako = castle
+b_inami = castle
+#b_ibo = castle
+b_ako = castle
+b_sayo = sity
 
 # Misc
 culture = japanese

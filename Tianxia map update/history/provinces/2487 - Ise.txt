@@ -4,13 +4,14 @@
 title = c_ise
 
 # Settlements
-max_settlements = 5
-b_ise = castle
-b_seishu = city
-b_tsu = city
-#b_kuwana = castle
-#b_matsusaka = castle
-# Needs baronies!
+max_settlements = 7 #Taikoku
+b_suzuka = castle
+b_ise = temple
+b_kuwana = city
+b_mie = castle
+b_itaka = castle
+b_inabe = castle
+b_watarai = temple
 
 # Misc
 culture = japanese

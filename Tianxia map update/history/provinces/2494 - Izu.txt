@@ -4,11 +4,14 @@
 title = c_izu
 # Settlements
 
-max_settlements = 3
-b_mishima = castle
-b_nirayama = city
-b_mishima-taisha = temple
-# Needs baronies!
+max_settlements = 4 #Gegun
+b_tagata = castle
+b_mishima = temple
+#b_naka_izu = castle
+#b_kamo_izu = castle
+b_takumi = castle
+#b_kano_izu = city
+#b_kawazu = castle
 
 # Misc
 culture = japanese

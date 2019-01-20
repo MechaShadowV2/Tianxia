@@ -4,15 +4,16 @@
 title = c_niigata
 
 # Settlements
-max_settlements = 1
-b_niigata = tribal
-# Needs baronies!
+max_settlements = 3 #Jokoku 3+3(Kubiki)=6
+b_kanbara = castle
+#b_koshi = castle
+b_iwafune = castle
+#b_aomi_niigata = castle
+#b_nutari = castle
+#b_ikure = castle
+#b_kaji = castle
+
 
 # Misc
-culture = ainu
-religion = ainu_pagan
-
-# History
-1017.1.1 = {
-	b_niigata = castle
-}
+culture = japanese
+religion = shinto

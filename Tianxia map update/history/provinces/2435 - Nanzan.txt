@@ -4,14 +4,15 @@
 title = c_nanzan
 
 # Settlements
-max_settlements = 3
-b_nanzan = castle
-b_itoman = city
-b_ozato = temple
-#b_tokashiki
-#b_zamami
-#Needs baronies!
-
+max_settlements = 5
+b_ozato = castle
+b_shuri = castle
+#b_gokokuji = castle
+#b_enkakuji = castle
+#b_itoman = castle
+#b_mawashi = castle
+#b_tamagusuku = castle
+#b_gushikawa = castle
 # Misc
 culture = ryukyuan
 religion = ryukyuan_pagan

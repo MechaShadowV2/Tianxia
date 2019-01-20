@@ -4,12 +4,14 @@
 title = c_kaga
 
 # Settlements
-max_settlements = 4
-b_kanazawa = castle
-b_enuma = castle
-b_kahoku = city
-#b_nomi = city
-# Needs baronies!
+max_settlements = 6 #Jokoku
+b_nomi = castle
+b_enuma = city
+b_ishikawa = castle
+b_kaga = castle
+b_michi = temple
+#b_inoie = castle
+#b_hayashi = castle
 
 # Misc
 culture = japanese

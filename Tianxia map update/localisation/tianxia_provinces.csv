@@ -470,18 +470,18 @@ PROV2448;Buzen;;;;;;;;;;;;;x
 PROV2449;Chikuzen;;;;;;;;;;;;;x
 PROV2450;Iki;;;;;;;;;;;;;x
 PROV2451;Tsushima;;;;;;;;;;;;;x
-PROV2452;Shimanto;;;;;;;;;;;;;x # Japan - Nankaido
+PROV2452;Hata;;;;;;;;;;;;;x # Japan - Nankaido
 PROV2453;Tosa;;;;;;;;;;;;;x
-PROV2454;Muroto;;;;;;;;;;;;;x
-PROV2455;Yawatahama;;;;;;;;;;;;;x
+PROV2454;Murotsu;;;;;;;;;;;;;x
+PROV2455;Uwa;;;;;;;;;;;;;x
 PROV2456;Iyo;;;;;;;;;;;;;x
-PROV2457;Niihama;;;;;;;;;;;;;x
+PROV2457;Uma;;;;;;;;;;;;;x
 PROV2458;Sanuki;;;;;;;;;;;;;x
 PROV2459;Awa;;;;;;;;;;;;;x
 PROV2460;Awaji;;;;;;;;;;;;;x
-PROV2461;Wakayama;;;;;;;;;;;;;x
-PROV2462;Nachikatsura;;;;;;;;;;;;;x
-PROV2463;Kumano;;;;;;;;;;;;;x
+PROV2461;Kii;;;;;;;;;;;;;x
+PROV2462;Kumano;;;;;;;;;;;;;x
+PROV2463;Muro;;;;;;;;;;;;;x
 PROV2464;Nagato;;;;;;;;;;;;;x # Japan - Sanyodo
 PROV2465;Suo;;;;;;;;;;;;;x
 PROV2466;Aki;;;;;;;;;;;;;x
@@ -522,8 +522,8 @@ PROV2500;Hitachi;;;;;;;;;;;;;x
 PROV2501;Omi;;;;;;;;;;;;;x # Japan - Tosando
 PROV2502;Mino;;;;;;;;;;;;;x
 PROV2503;Hida;;;;;;;;;;;;;x
-PROV2504;Komagane;;;;;;;;;;;;;x
-PROV2505;Nagano;;;;;;;;;;;;;x
+PROV2504;Suwa;;;;;;;;;;;;;x
+PROV2505;Shinano;;;;;;;;;;;;;x
 PROV2506;Kozuke;;;;;;;;;;;;;x
 PROV2507;Shimotsuke;;;;;;;;;;;;;x
 PROV2508;Iwashiro;;;;;;;;;;;;;x
@@ -534,15 +534,15 @@ PROV2512;Kaga;;;;;;;;;;;;;x
 PROV2513;Noto;;;;;;;;;;;;;x
 PROV2514;Etchu;;;;;;;;;;;;;x
 PROV2515;Sado;;;;;;;;;;;;;x
-PROV2516;Kachiwazaki;;;;;;;;;;;;;x
+PROV2516;Kubiki;;;;;;;;;;;;;x
 PROV2517;Niigata;;;;;;;;;;;;;x
-PROV2518;Yamagata;;;;;;;;;;;;;x # Japan - Sanriku
+PROV2518;Uzen;;;;;;;;;;;;;x # Japan - Sanriku
 PROV2519;Rikuzen;;;;;;;;;;;;;x
-PROV2520;Uzen;;;;;;;;;;;;;x
-PROV2521;Akita;;;;;;;;;;;;;x
-PROV2522;Iwate;;;;;;;;;;;;;x
-PROV2523;Mutsu;;;;;;;;;;;;;x
-PROV2524;Aomori;;;;;;;;;;;;;x
+PROV2520;Ugo;;;;;;;;;;;;;x
+PROV2521;Agita;;;;;;;;;;;;;x
+PROV2522;Rikutyu;;;;;;;;;;;;;x
+PROV2523;Rikuo;;;;;;;;;;;;;x
+PROV2524;Tsugaru;;;;;;;;;;;;;x
 # Ainu
 PROV2525;Oshima;;;;;;;;;;;;;x # Ainu
 PROV2526;Shiribeshi;;;;;;;;;;;;;x
@@ -551,7 +551,7 @@ PROV2528;Hidaka;;;;;;;;;;;;;x
 PROV2529;Kamikawa;;;;;;;;;;;;;x
 PROV2530;Tokachi;;;;;;;;;;;;;x
 PROV2531;Nemuro;;;;;;;;;;;;;x
-PROV2532;Kur;;;;;;;;;;;;;x
+PROV2532;Chupka;;;;;;;;;;;;;x
 PROV2533;Kamchatka;;;;;;;;;;;;;x
 PROV2534;Teshio;;;;;;;;;;;;;x
 PROV2535;Kitami;;;;;;;;;;;;;x

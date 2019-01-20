@@ -4,16 +4,17 @@
 title = c_rikuzen
 
 # Settlements
-max_settlements = 2
-b_kami = tribal
-#b_kurihara = castle
-# Needs baronies!
+max_settlements = 3
+b_taga = castle
+b_momonou = castle
+#b_tamatsukuri = castle
+#b_shibata = castle
+#b_oga = castle
+#b_kurokawa = castle
+#b_natori = castle
 
 # Misc
-culture = ainu
-religion = ainu_pagan
+culture = japanese
+religion = shinto
 
 # History
-1017.1.1 = {
-	b_kami = castle
-}

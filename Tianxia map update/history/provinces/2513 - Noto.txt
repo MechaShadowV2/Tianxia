@@ -4,12 +4,14 @@
 title = c_noto
 # Settlements
 
-max_settlements = 4
-b_nanao = castle
-b_fugeshi = castle
+max_settlements = 6 #Jokoku
+b_noto_noto = castle
 b_hakui = castle
+b_fugeshi = castle
 b_suzu = city
-# Needs baronies!
+b_kehi_noto = temple
+#b_tsuchi = castle
+#b_kumaki = castle
 
 # Misc
 culture = japanese

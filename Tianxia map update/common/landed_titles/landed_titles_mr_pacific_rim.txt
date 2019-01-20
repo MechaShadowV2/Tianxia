@@ -715,7 +715,8 @@ e_pacific_rim = { # New; might need a better name
 		capital = 2436 # Chuzan
 		culture = ryukyuan
 		
-		japanese = "Okinawa"		
+		ryukyuan = "Ruuchuu"
+		han = "Zhongshan"
 		
 		ryukyuan_pagan_reformed = 1000
 		
@@ -726,99 +727,207 @@ e_pacific_rim = { # New; might need a better name
 			capital = 2436 # Chuzan
 			
 			japanese = "Okinawa"
+			ryukyuan = "Chuzan"
+			han = "Zhongshan"
 			
-			c_chuzan = {
+			c_chuzan = { #Nakagami
 				color = { 214 124 115 }
 				color2 = { 63 90 152 }
 				
+				ryukyuan = "Nakajan"
+				han ="Zhongshan"
+				
 				holy_site = ryukyuan_pagan
 				holy_site = ryukyuan_pagan_reformed
-				
-				b_okinawa = {
+				b_urasoe = {
+					ryukyuan = "Urashii"
 				}
-				b_kumejima = {
+				b_nakagusuku = {
+					ryukyuan = "Nakagushiku"
 				}
-				b_iheyajima = {
+				b_zakimi = {
+					ryukyuan = "Zachimi"
 				}
-				b_agunjima = {
+				b_goeku = {
+					ryukyuan = "Goya"
 				}
-				b_tonaki-shima = {
+				b_katsuren = {
+					ryukyuan = "Katchin"
 				}
-				# Needs baronies!
+				b_agena = {
+					ryukyuan = "Agina"
+				}
+				b_iha = {
+					ryukyuan = "Ifa"
+				}
+				b_ginowan = {
+					ryukyuan = "Jinoon"
+				}
 			}
-			c_nanzan = {
+			c_nanzan = { #Shimashiri
 				color = { 204 134 105 }
 				color2 = {63 90 152 }
+
+				ryukyuan = "Shimajiri"
+				han ="Shannan"
 				
-				b_nanzan = {
+				b_ozato = {
+					ryukyuan = "Ufusatu"
+				}
+				b_shuri = {
+					ryukyuan = "Sui"
+				}
+				b_gokokuji = {
+					ryukyuan = "Nanminsan"
+				}
+				b_enkakuji = {
+					ryukyuan = "Ufutira"
 				}
 				b_itoman = {
+					ryukyuan = "Ichuman"
 				}
-				b_ozato = {
+				b_mawashi = {
+					ryukyuan = "Maaji"
 				}
-				b_tokashiki = {
+				b_tamagusuku = {
+					ryukyuan = "Tamagushiku"
 				}
-				b_zamami = {
+				b_gushikawa = {
+					ryukyuan = "Gushichaa"
 				}
-				# Needs baronies!
-				
 			}
-			c_hokuzan = { 
+			c_hokuzan = { #Kunigami
 				color = { 246 225 160 }
 				color2 = {63 90 152}
-				
-				b_hokuzan = {
+
+				ryukyuan = "Kunjan"
+				han ="Shanbei"
+
+				b_nagijin = {
+					ryukyuan = "Nachijin"
 				}
-				b_nakijin = {
+				b_nago = {
+					ryukyuan = "Nagu"
 				}
-				# Needs baronies!
+				b_haneji = {
+					ryukyuan = "Haniji"
+				}
+				b_motobu = {
+					ryukyuan = "Mutubu"
+				}
+				b_kunigami = {
+					ryukyuan = "Kunjan"
+				}
+				b_kin = {
+					ryukyuan = "Chin"
+				}
+				b_ogimi = {
+					ryukyuan = "Ujimi"
+				}
+				b_kushi = {
+					ryukyuan = "Kushi"
+				}
 			}
 			c_amami = {
 				color = { 214 114 125 }
 				color2 = { 63 90 152 }
 				
-				b_amami = {
+				ryukyuan = "Amami"
+				
+				b_naze = {
+					ryukyuan = "Nase"
 				}
-				b_kikaijima = {
+				b_higashi = {
+					ryukyuan = "Agari"
 				}
-				b_kakeromajima = {
+				b_kikai = {
+					ryukyuan = "Kyaa"
 				}
-				# Needs baronies!
+				b_shitooke = {
+					ryukyuan = "Shii"
+				}
+				b_tokunoshima = {
+					ryukyuan = "Tukunushima"
+				}
+				b_omonawa = {
+					ryukyuan = "Unnoo"
+				}
+				b_okinoerabu = {
+					ryukyuan = "Iraabu"
+				}
+				b_yoron = {
+					ryukyuan = "Yunnu"
+				}
 			}
 		}
-		d_yaeyama = {
+		d_yaeyama = { #Sakishima
 			color = {169 126 207}
 			color2 = {63 90 152}
 			
 			capital = 2433 # Yaeyama
 			
+			ryukyuan = "Sachishima"
+			
 			c_yaeyama = {
 				color = {149 160 240}
 				color2 = {63 90 152}
 				
+				ryukyuan = "Eema"
+				
 				b_ishigaki = {
+					ryukyuan = "Ishigachi"
+				}
+				b_mishiomote = {
+					ryukyuan = "Iriumuti"
 				}
 				b_taketomi = {
+					ryukyuan = "Dakidun"
 				}
-				b_kohama = {
-				}
-				b_iriomote = {
+				b_kohamajima = {
+					ryukyuan = "Kubama"
 				}
 				b_yonaguni = {
+					ryukyuan = "Yunaguni"
 				}
-				# Needs baronies!
+				b_kubura = {
+					ryukyuan = "Kubura"
+				}
+				b_higawa = {
+					ryukyuan = "Higaa"
+				}
+				b_agarizaki = {
+					ryukyuan = "Agarizaki"
+				}
 			}
 			c_miyakojima = {
 				color = {75 135 220}
 				color2 = {63 90 152}
-
-				b_ikema = {
-				}
+				
+				ryukyuan = "Naaku"
 				b_miyako = {
+					ryukyuan = "Naaku"
+				}
+				b_irabu = {
+					ryukyuan = "Iraabu"
+				}
+				b_tarama = {
+					ryukyuan = "Tarama"
 				}
 				b_shimoji = {
+					ryukyuan = "Shimuji"
 				}
-				# Needs baronies!
+				b_sunagawa = {
+					ryukyuan = "Urukaa"
+				}
+				b_ikema = {
+					ryukyuan = "Ikima"
+				}
+				b_kurima = {
+					ryukyuan = "Kurima"
+				}
+				b_ogami = {
+					ryukyuan = "Ugan"
+				}
 			}
 		}
 	}

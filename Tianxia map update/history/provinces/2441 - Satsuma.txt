@@ -4,11 +4,14 @@
 title = c_satsuma
 
 # Settlements
-max_settlements = 3
-b_kagoshima = castle
-b_miyazaki = city
-b_kumamoto = castle
-# Needs baronies!
+max_settlements = 5 #Chugoku
+b_izumi_satsuma = castle
+b_satsuma = castle
+#b_koshikijima = castle
+b_itsukuri = city
+b_ibusuki = castle
+#b_taniyama = castle
+#b_kagoshima = castle
 
 # Misc
 culture = japanese

@@ -4,16 +4,17 @@
 title = c_uzen
 
 # Settlements
-max_settlements = 2
-b_kurvnni = tribal
-#b_mogami = castle
-# Needs baronies
+max_settlements = 3
+b_hiraka = castle
+#b_okachi = castle
+#b_yuri = castle
+#b_akumi = castle
+#b_ide = castle
+b_omonoimi = temple
+#b_yamakawa = castle
 
 # Misc
-culture = ainu
-religion = ainu_pagan
+culture = japanese
+religion = shinto
 
 # History
-1017.1.1 = {
-	b_kurvnni = castle
-}

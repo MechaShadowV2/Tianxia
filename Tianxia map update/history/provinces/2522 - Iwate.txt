@@ -4,15 +4,26 @@
 title = c_iwate
 
 # Settlements
-max_settlements = 1
-b_iwate = tribal
-# Needs baronies!
+max_settlements = 4
+b_isawa = tribal
+#b_waga = castle
+#b_esashi = castle
+#b_hienuki = castle
+#b_hiraizumi = city
+#b_shiwa = temple
+#b_hei = castle
 
 # Misc
 culture = ainu
 religion = ainu_pagan
 
 # History
-1017.1.1 = {
-	b_iwate = castle
+802.1.1 = {
+	b_isawa = castle
+	culture = japanese
+	religion = shinto
+}
+1090.1.1 = {
+	b_hiraizumi = castle
+	capital = b_hiraizumi
 }

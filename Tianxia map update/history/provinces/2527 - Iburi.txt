@@ -4,10 +4,15 @@
 title = c_iburi
 
 # Settlements
-max_settlements = 2
-b_iburi = tribal
-#b_yamakoshi = castle
-# Needs baronies!
+max_settlements = 6
+b_yammusnay = tribal
+#b_aptapet = tribal
+#b_usor = tribal
+#b_Moruran = tribal
+#b_poropet = tribal
+#b_sirawoi = tribal
+#b_iput = tribal
+#b_sikottoho = tribal
 
 # Misc
 culture = ainu

@@ -4,12 +4,14 @@
 title = c_kazusa
 
 # Settlements
-max_settlements = 4
+max_settlements = 7 #Taikoku
 b_ichihara = castle
-b_soza = temple
-b_moda = city
+b_makuta = city
+b_ahiru = castle
+b_nagara = castle
+b_amawa = city
+#b_ijimi = city
 b_tamasaki = temple
-# Needs baronies!
 
 # Misc
 culture = japanese

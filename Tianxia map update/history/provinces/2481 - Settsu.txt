@@ -4,18 +4,16 @@
 title = c_settsu
 # Settlements
 
-max_settlements = 7
+max_settlements = 6 #Jokoku
 # Check that the baronies are in the right province!
-b_osaka = castle
-b_higashinari = castle
-b_osakacity = city
-b_sumioyoshi = temple
-#b_nishinari = city
-#b_nose = temple
-#b_shimakami = temple
-#b_shimashimo = city
-#b_sumiyoshi = castle
-# Remove two baronies!
+b_nishinari = castle
+b_sumiyoshi = temple
+b_toshima = castle
+#b_muko = city
+b_higashinari = city
+b_udara = castle
+#b_nose = castle
+
 
 # Misc
 culture = japanese

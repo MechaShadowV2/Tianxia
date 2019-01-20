@@ -4,10 +4,16 @@
 title = c_hokuzan
 
 # Settlements
-max_settlements = 2
-b_hokuzan = castle
-b_nakijin = temple
-# Needs baronies!
+max_settlements = 3
+
+b_nagijin = castle
+#b_nago = castle
+#b_haneji = castle
+#b_motobu = castle
+#b_kunigami = castle
+#b_kin = castle
+#b_ogimi = castle
+#b_kushi = castle
 
 # Misc
 culture = ryukyuan

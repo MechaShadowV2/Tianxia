@@ -5,16 +5,16 @@ title = c_iwashiro
 
 # Settlements
 max_settlements = 3
-b_aizu = tribal
-b_isasumi = temple
-#b_fukushima = castle
-# Needs baronies!
+b_aizu = castle
+#b_azumi_iwashiro = castle
+#b_iwase = castle
+#b_shirakawa = castle
+#b_shinobu = city
+b_adachi = temple
+#b_yama = castle
 
 # Misc
-culture = ainu
-religion = ainu_pagan
+culture = japanese
+religion = shinto
 
 # History
-1017.1.1 = {
-	b_aizu = castle
-}

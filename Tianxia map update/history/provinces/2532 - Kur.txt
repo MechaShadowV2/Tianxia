@@ -4,9 +4,15 @@
 title = c_kur
 
 # Settlements
-max_settlements = 1
-b_kur = tribal
-# Needs baronies!
+max_settlements = 3
+b_etuoroop = tribal
+#b_kinasir = tribal
+#b_simosir = tribal
+#b_shumus = tribal
+#b_urup = tribal
+#b_sipetoro = tribal
+#b_sannai = tribal
+#b_sikotan = tribal
 
 # Misc
 culture = ainu

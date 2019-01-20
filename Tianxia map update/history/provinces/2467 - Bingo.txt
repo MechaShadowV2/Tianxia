@@ -4,13 +4,15 @@
 title = c_bingo
 
 # Settlements
-max_settlements = 5
-b_takehara = castle
-b_shobara = temple
-b_onomoki = city
-b_miyara = castle
-b_higashihiroshima = city
-# Needs baronies!
+max_settlements = 6 #Jokoku
+b_ashida = castle
+b_amuna = castle
+b_fukazu = city
+#b_kameshi = castle
+#b_nuka = castle
+b_homuchi = temple
+b_miyoshi = castle 
+
 
 # Misc
 culture = japanese

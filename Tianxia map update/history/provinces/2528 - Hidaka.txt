@@ -4,12 +4,15 @@
 title = c_hidaka
 
 # Settlements
-max_settlements = 4
-b_urakawa = tribal
-#b_shinhidaka = temple
-#b_nikappu = city
-#b_samani = temple
-# Needs baronies!
+max_settlements = 7
+b_sar = tribal
+#b_nikap = tribal
+#b_sihucinay = tribal
+#b_imanitusi = tribal
+#b_urarpet = tribal
+#b_samani = tribal
+#b_poroenrum = tribal
+b_pirautur = tribal
 
 # Misc
 culture = ainu

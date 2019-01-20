@@ -4,17 +4,18 @@
 title = c_awa
 
 # Settlements
-max_settlements = 6
-b_miyoshi = castle
-b_tokushima = city
-b_komatsushima = city
-b_naruto = castle
-b_anan = temple
-#b_yoshinogawa = city
-# Needs baronies!
+max_settlements = 6 #Jokoku
+
+b_itano = castle
+b_awa = castle
+b_miyoshi_awa = castle
+#b_oe = castle
+b_nakata = city
+#b_katsuura = castle
+b_oasahiko = temple
 
 # Misc
 culture = japanese
-religion = buddhist
+religion = shinto
 
 # History

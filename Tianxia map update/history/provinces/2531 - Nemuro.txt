@@ -4,11 +4,15 @@
 title = c_nemuro
 
 # Settlements
-max_settlements = 2
-b_nemuro = tribal
-#b_hanasaki = castle
-# Needs baronies!
-
+max_settlements = 5
+b_poronot = tribal
+#b_nimuoro = tribal
+#b_notkew = tribal
+#b_sipet = tribal
+#b_menastomari = tribal
+#b_cipasir = tribal
+#b_sar_nemuro = tribal
+#b_tokorpet = tribal
 # Misc
 culture = ainu
 religion = ainu_pagan

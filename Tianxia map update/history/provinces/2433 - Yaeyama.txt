@@ -4,14 +4,18 @@
 title = c_yaeyama
 
 # Settlements
-max_settlements = 5
+max_settlements = 3
 b_ishigaki = castle
-b_taketomi = city
-b_kohama = temple
-#b_iriomote = city
+#b_mishiomote = castle
+#b_taketomi = castle
+#b_kohamajima = castle
 #b_yonaguni = castle
-#Needs baronies!
-				
+#b_kubura = castle
+#b_higawa = castle
+#b_agarizaki = castle
+
+
+
 # Misc
 culture = ryukyuan
 religion = ryukyuan_pagan

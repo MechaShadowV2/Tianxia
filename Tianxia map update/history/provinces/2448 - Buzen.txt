@@ -4,11 +4,14 @@
 title = c_buzen
 
 # Settlements
-max_settlements = 3
-b_toyotsu = castle
-b_kokura = city
+max_settlements = 6 #Jokoku
+b_tagawa_buzen = castle
+b_kiku = castle
+b_miyako_buzen = city
+#b_tsuki = castle
+b_kamumitsuke = city
+#b_shimomitsuke = city
 b_usa = temple
-# Needs baronies!
 
 # Misc
 culture = japanese

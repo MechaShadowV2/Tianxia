@@ -5,16 +5,16 @@ title = c_iwaki
 
 # Settlements
 max_settlements = 3
-b_noto2 = tribal
-#b_shineha = castle
-#b_namekata = city
-# Needs baronies!
+b_shineha = castle
+b_namekata_iwaki = castle
+#b_iwasaki = city
+#b_kikuta = castle
+#b_uda_iwaki = castle
+#b_watari = castle
+#b_naraha = castle
 
 # Misc
-culture = ainu
-religion = ainu_pagan
+culture = japanese
+religion = shinto
 
 # History
-1017.1.1 = {
-	b_noto2 = castle
-}

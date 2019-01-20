@@ -5,11 +5,15 @@ title = c_bitchu
 
 # Settlements
 
-max_settlements = 3
-b_kurashiki = castle
-b_soja = city
+max_settlements = 6 #Jokoku
+b_kaya = castle
+b_shimotsumichi = castle
+b_asakuchi = castle
+#b_shiritsuki = castle
+b_niimi = city
 b_kibitsu = temple
-# Needs baronies!
+#b_tsuu = city
+
 
 # Misc
 culture = japanese

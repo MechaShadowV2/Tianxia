@@ -4,16 +4,14 @@
 title = c_izumi
 # Settlements
 
-max_settlements = 7
-b_fuchu = castle
-b_senboku = castle
-b_sakai = city
-b_otorikita = temple
-#b_hine = city
-#b_izumiotsu = temple
-#b_minami = city
-#b_otori = castle
-# Remove one barony!
+max_settlements = 4 #Gegun
+b_izumi = castle
+b_otori = castle
+b_hine = castle
+#b_sakai = castle
+#b_haji = castle
+#b_kusakabe = castle
+#b_nigita = castle
 
 # Misc
 culture = japanese

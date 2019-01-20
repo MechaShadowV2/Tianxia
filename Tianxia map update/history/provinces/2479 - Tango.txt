@@ -4,13 +4,14 @@
 title = c_tango
 # Settlements
 
-max_settlements = 6
-b_maizuru = castle
-b_miyazu = castle
-b_kasa = city
-b_naka = castle
-#b_takeno = city
-# Needs baronies!
+max_settlements = 5 #Chugoku
+b_kasa_tango = castle
+b_kono = temple
+b_takeno = temple
+b_yosa = castle
+#b_tanba_tango = castle
+#b_kumano_tango = castle
+#b_miyazu = castle
 
 # Misc
 culture = japanese

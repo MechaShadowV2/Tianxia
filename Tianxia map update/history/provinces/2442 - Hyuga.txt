@@ -4,13 +4,14 @@
 title = c_hyuga
 
 # Settlements
-max_settlements = 5
-b_saito = castle
-b_beppu = castle
-#b_agata = castle
-#b_obi = castle
-#b_nichinan = city
-# Needs baronies!
+max_settlements = 5 #Chugoku
+b_usuki = castle
+b_koyu = castle
+#b_naka_hyuga = castle
+b_miyazaki = castle
+#b_murakata = castle
+#b_tsuno_hyuga = castle
+b_takachiho = temple
 
 # Misc
 culture = japanese

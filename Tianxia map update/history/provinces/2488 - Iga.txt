@@ -4,12 +4,14 @@
 title = c_iga
 # Settlements
 
-max_settlements = 4
+max_settlements = 4 #Gekoku
 b_iga = castle
-#b_ahai = city
-#b_nabari = temple
-#b_yamada = castle
-# Needs baronies!
+b_ahe = castle
+b_nabari = castle
+b_yamada_iga = castle
+#b_sae = castle
+#b_kuroda = city
+#b_hattori = city
 
 # Misc
 culture = japanese

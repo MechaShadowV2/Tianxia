@@ -4,14 +4,14 @@
 title = c_mikawa
 # Settlements
 
-max_settlements = 6
-b_ko-machi = castle
-b_toyokawa = city
-b_toga-jinja = temple
-b_higashikamo = city
-#b_hakuho-machi = temple
-#b_nishikamo = castle
-# Needs baronies!
+max_settlements = 6 #Jokoku
+b_hoi = castle
+b_aomi = castle
+#b_nukata = castle
+b_kamo_mikawa = temple
+b_hazu = temple
+b_azumi = castle
+#b_shitara = castle
 
 # Misc
 culture = japanese

@@ -4,14 +4,14 @@
 title = c_kai
 
 # Settlements
-max_settlements = 6
-b_fuefuki = castle
-b_koma = city
-b_tsuru = temple
-#b_kofu = castle
-#b_yamanashi = city
-#b_yatsushiro = temple
-# Needs baronies!
+max_settlements = 6 #Jokoku
+b_yatsushiro = castle
+b_sengen = temple
+b_yamanashi = castle
+b_koma = castle
+b_uwato = temple
+#b_hemi = castle
+#b_kurami = city
 
 # Misc
 culture = japanese

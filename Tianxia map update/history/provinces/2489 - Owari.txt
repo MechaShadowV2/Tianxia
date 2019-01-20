@@ -4,14 +4,14 @@
 title = c_owari
 # Settlements
 
-max_settlements = 4
-b_inazawa = castle
-b_aichi = city
-b_chita2 = temple
-#b_haguri = city
-#b_kasugai = temple
-#b_kiyosu = castle
-# Needs baronies!
+max_settlements = 6 #Jokoku
+b_nakajima = castle
+b_aichi = castle
+#b_haguri = castle
+b_atsuta = temple
+b_niwa = temple
+b_yamada_owari = city
+#b_chita_owari = castle
 
 # Misc
 culture = japanese

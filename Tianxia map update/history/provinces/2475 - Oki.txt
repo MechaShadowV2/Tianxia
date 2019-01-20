@@ -4,13 +4,14 @@
 title = c_oki
 
 # Settlements
-max_settlements = 5
-b_dogojima = castle
-b_nishinoshima = city
-b_okinoshima = castle
-b_mizuwakasu = temple
-b_yurahime = temple
-# Needs baronies!
+max_settlements = 4 #Gekoku
+b_suki = castle
+b_chifuri = castle
+b_ama_oki = castle
+#b_ochi_oki = castle
+#b_tamawakasu = temple
+#b_mizuwakasu = temple
+#b_yurahime = temple
 
 # Misc
 culture = japanese

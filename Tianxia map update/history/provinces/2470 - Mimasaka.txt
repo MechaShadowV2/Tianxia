@@ -4,15 +4,17 @@
 title = c_mimasaka
 
 # Settlements
-max_settlements = 4
-b_tsuyama = castle
-b_aida = city
+max_settlements = 6 #Joraku
+b_tomata = castle
+b_aida = castle
+b_katsumata = castle
+#b_kume_mimasaka = castle
+#b_ooniwa = castle
+b_mashima = castle
 b_nakayama = temple
-#b_banshu = castle
-# Needs baronies!
 
 # Misc
 culture = japanese
-religion = buddhist
+religion = shinto
 
 # History

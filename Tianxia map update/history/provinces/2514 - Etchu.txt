@@ -4,16 +4,17 @@
 title = c_etchu
 
 # Settlements
-max_settlements = 5
-b_takaoka = castle
-b_imizu = temple
-b_nei = city
-b_kaminiikawa = city
-b_nishitonami = castle
-# Needs baronies!
+max_settlements = 6 #Jokoku
+b_imizu = castle
+b_tonami = castle
+b_nei = castle
+b_niikawa = temple
+b_fuse = city
+#b_furue = castle
+#b_ishiguro = city
 
 # Misc
 culture = japanese
-religion = buddhist
+religion = shinto
 
 # History
