@@ -14,7 +14,11 @@ b_poronot = tribal
 #b_sar_nemuro = tribal
 #b_tokorpet = tribal
 # Misc
-culture = ainu
-religion = ainu_pagan
+culture = nivkh
+religion = tengri_pagan
 
 # History
+1200.1.1 = {
+	culture = ainu
+	religion = ainu_pagan
+}

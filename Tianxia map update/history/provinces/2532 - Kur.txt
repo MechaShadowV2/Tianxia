@@ -15,7 +15,11 @@ b_etuoroop = tribal
 #b_sikotan = tribal
 
 # Misc
-culture = ainu
-religion = ainu_pagan
+culture = nivkh
+religion = tengri_pagan
 
 # History
+1400.1.1 = {
+	culture = ainu
+	religion = ainu_pagan
+}

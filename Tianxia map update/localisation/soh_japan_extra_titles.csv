@@ -1,8 +1,26 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
-d_iyo;Iyo;;;;;;;;;;;;;x
-d_kii;Kii;;;;;;;;;;;;;x
-d_kur;Kur;;;;;;;;;;;;;x
-d_oshima;Oshima;;;;;;;;;;;;;x
+e_japan;Nippon;;;;;;;;;;;;x
+k_japan;Nippon;;;;;;;;;;;;x
+d_chikuho;Chinzei;;;;;;;;;;;;x
+d_minamikyushu;Kyushu;;;;;;;;;;;;x
+d_hinokuni;Saikai;;;;;;;;;;;;x
+d_shokoku;Shikoku;;;;;;;;;;;;x
+d_nankaido;Nankai;;;;;;;;;;;;x
+d_nagato;Nagato;;;;;;;;;;;;x
+d_sanyodo;Sanyo;;;;;;;;;;;;x
+d_sanindo;Sanin;;;;;;;;;;;;x
+d_tanmba;Tamba;;;;;;;;;;;;x
+d_kinai;Rokuhara;;;;;;;;;;;;x
+d_owari;Owari;;;;;;;;;;;;x
+d_tokaido;Tokai;;;;;;;;;;;;x
+d_bando;Kamakura;;;;;;;;;;;;x
+d_fusa;Fusa;;;;;;;;;;;;x
+d_echizen;Echizen;;;;;;;;;;;;x
+d_echigo;Echigo;;;;;;;;;;;;x
+d_tosando;Tosan;;;;;;;;;;;;x
+d_keno;Keno;;;;;;;;;;;;x
+d_dewa;Sewa;;;;;;;;;;;;x
+d_mutsu;Mutsu;;;;;;;;;;;;x
 #counties and baronies
 c_tane;Tane;;;;;;;;;;;;;x
 b_tanegashima;Tanegashima;;;;;;;;;;;;;x
@@ -689,11 +707,13 @@ b_takanosu;Takanosu;;;;;;;;;;;;;x
 ## Hokkaido province(Ainu name);;;;;;;;;;;;;;
 ##;;;;;;;;;;;;;;
 k_ainu;Ainu Mosir;;;;;;;;;;;;;x
-d_matnaw;Soyaunkur;;;;;;;;;;;;;x
+d_sumunkur;Sumunkur;;;;;;;;;;;;x
+d_menasunkur;Menasunkur;;;;;;;;;;;;x
+d_matnawunkur;Matnawunkur;;;;;;;;;;;;x
+d_cupkaunkur;Cupkaunkur;;;;;;;;;;;;x
 c_wakkanai;Soya;;;;;;;;;;;;;x
 c_kitami;Mopet;;;;;;;;;;;;;x
 c_nemuro;Nimuoro;;;;;;;;;;;;;x
-d_kur;Chupkaunkur;;;;;;;;;;;;;x
 c_kur;Cupka;;;;;;;;;;;;;x
 c_kamchatka;Kamuchatka;;;;;;;;;;;;;x
 c_kamikawa;Peniunkur;;;;;;;;;;;;;x

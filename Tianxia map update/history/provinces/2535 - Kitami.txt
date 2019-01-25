@@ -15,7 +15,11 @@ b_mopet = tribal
 #b_rupespe = tribal
 
 # Misc
-culture = ainu
-religion = ainu_pagan
+culture = nivkh
+religion = tengri_pagan
 
 # History
+900.1.1 = {
+	culture = ainu
+	religion = ainu_pagan
+}
