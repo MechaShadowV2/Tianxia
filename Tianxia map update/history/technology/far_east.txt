@@ -2,28 +2,24 @@
 
 technology = {
 	titles = {
-		d_kitakyushu
+		d_chikuho
 		d_minamikyushu
-		d_kyushujima
-		d_iyo
-		d_tosa
-		d_tonankaido
-		d_kii
-		d_yamaguchi
-		d_hiroshima
-		d_okayama
-		d_shimane
-		d_tottori
-		d_tanshu
-		d_nara
-		d_mie
-		d_aichi
-		d_shizuoka
-		d_kanagawa
-		d_chiba
-		d_fukui
-		d_ishikawa
-		d_gifu
+		d_hinokuni
+		d_shokoku
+		d_nankaido
+		d_nagato
+		d_sanyodo
+		d_sanindo
+		d_tanmba
+		d_kinai
+		d_owari
+		d_tokaido
+		d_bando
+		d_fusa
+		d_echizen
+		d_echigo
+		d_tosando
+		d_keno
 	}
 	
 	769 = {
@@ -48,14 +44,12 @@ technology = {
 
 technology = {
 	titles = {
-		d_niigata
-		d_nagano
-		d_yamagata
-		d_miyagi
-		d_matnaw
-		d_ezo
-		d_kur
-		d_oshima
+		d_dewa
+		d_mutsu
+		d_sumunkur
+		d_menasunkur
+		d_matnawunkur
+		d_cupkaunkur
 		#d_sakhalin
 	}
 	
