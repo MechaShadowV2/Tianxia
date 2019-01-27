@@ -1,0 +1,16 @@
+# 3032 - Ergun
+
+# County Title
+title = c_ergun
+
+# Settlements
+max_settlements = 1
+
+b_ergun = tribal
+# Needs baronies!
+
+# Misc
+culture = mongol
+religion = tengri_pagan
+
+# History

@@ -1,0 +1,16 @@
+# 3002 - Kalar
+
+# County Title
+title = c_kalar
+
+# Settlements
+max_settlements = 1
+
+b_kalar2 = tribal
+# Needs baronies!
+
+# Misc
+culture = jurchen
+religion = tengri_pagan
+
+# History

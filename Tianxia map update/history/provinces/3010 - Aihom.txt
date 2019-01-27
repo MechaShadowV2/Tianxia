@@ -1,0 +1,16 @@
+# 3010 - Aihom
+
+# County Title
+title = c_aihom
+
+# Settlements
+max_settlements = 1
+
+b_aihom = tribal
+# Needs baronies!
+
+# Misc
+culture = jurchen
+religion = tengri_pagan
+
+# History

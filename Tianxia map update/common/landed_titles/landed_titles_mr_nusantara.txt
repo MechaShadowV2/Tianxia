@@ -221,9 +221,6 @@ e_nusantara = {
 				color = { 245 184 119 }
 				color2 = { 90 90 90 }
 				
-				holy_site = dayak_pagan
-				holy_site = dayak_pagan_reformed
-				
 				b_nias = {
 				}
 				# Check these baronies to see if they're in c_pulau or c_tanahbala!
@@ -517,6 +514,10 @@ e_nusantara = {
 				
 				b_natuna = {
 				}
+				
+				holy_site = dayak_pagan
+				holy_site = dayak_pagan_reformed
+				
 				# Needs baronies!
 			}
 		}
@@ -807,6 +808,9 @@ e_nusantara = {
 				
 				holy_site = melanesian_pagan
 				holy_site = melanesian_pagan_reformed
+				
+				holy_site = dayak_pagan
+				holy_site = dayak_pagan_reformed
 				
 				b_pekalongan = {
 				}
@@ -1603,9 +1607,6 @@ e_nusantara = {
 			c_melaka = {
 				color = { 235 254 159 }
 				color2 = { 90 90 90 }
-				
-				holy_site = dayak_pagan
-				holy_site = dayak_pagan_reformed
 				
 				b_melaka = {
 				}

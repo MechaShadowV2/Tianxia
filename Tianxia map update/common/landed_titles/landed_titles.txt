@@ -45564,6 +45564,9 @@ e_bengal = {
 				color = { 70 190 70 }
 				color2={ 255 255 255 }
 				
+				holy_site = sanamahi_pagan
+				holy_site = sanamahi_pagan_reformed
+				
 				b_laksmanavati = {
 				}
 				b_gaur = {

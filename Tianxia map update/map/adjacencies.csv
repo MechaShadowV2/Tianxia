@@ -415,7 +415,7 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 2788;2802;major_river;2213;-1;-1;-1;-1;Chishui-Neijiang
 2794;2799;major_river;2214;-1;-1;-1;-1;Junlian-Suifu
 2796;2799;major_river;2215;-1;-1;-1;-1;Zhaotong-Suifu
-2895;2909;major_river;2217;-1;-1;-1;-1;Donying-Haixing # Start here
+2895;2909;major_river;2217;-1;-1;-1;-1;Donying-Haixing
 2895;2908;major_river;2218;-1;-1;-1;-1;Donying-Binzhou
 2894;2908;major_river;2218;-1;-1;-1;-1;Zibo-Binzhou
 2888;2908;major_river;2218;-1;-1;-1;-1;Jinan-Binzhou
@@ -427,4 +427,9 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 2876;2898;major_river;2223;-1;-1;-1;-1;Luoyang-Puyang
 2876;2897;major_river;2223;-1;-1;-1;-1;Luoyang-Changzhi
 2876;2875;major_river;2224;-1;-1;-1;-1;Luoyang-Yuncheng
-2873;2875;major_river;2224;-1;-1;-1;-1;Luangchuan-Yuncheng # Tsushima-mainland needed!
+2873;2875;major_river;2224;-1;-1;-1;-1;Luangchuan-Yuncheng
+2933;2934;sea;2131;-1;-1;-1;-1;Ganghwa-Hanseong
+2943;2944;sea;2125;-1;-1;-1;-1;Okju-Naju
+2951;2952;sea;2134;-1;-1;-1;-1;Jinju-Geoje
+2955;2451;sea;2134;-1;-1;-1;-1;Busan-Tsushima
+3003;3002;sea;2172;-1;-1;-1;-1;Laha-Kalar

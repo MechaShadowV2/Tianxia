@@ -4,44 +4,45 @@ e_japan = {
 	color = { 200 55 55 }
 	color2 = { 200 55 0 }
 	
+	# Forcing names for the title itself will cause issues if the holder is someone that shouldn't be using the names, so this is commented out
 	# Regnal names:Posthumous Names such as Showa
-	male_names = { 
-		# Historical (emperors later than 1337)
-		Komyo Suko Go-Kogon Go-En'yu Go-Komatsu
-		Go-Murakami Chokei Go-Kameyama Go-Komatsu Shoko Go-Hanazono Go-Tsuchimikado Go-Kashiwabara Go-Nara Ogimachi
-		Go-Yozei Go-Mizunoo Go-Komyo Go-Sai Reigen Higashiyama Nakamikado Sakuramachi Momozono Kokaku Ninko Komei 
-		Meiji Taisho Showa Heisei
-		# Fictional ("Go-"(later) + posthumous names of ancient emperors)
-		# "Tamura" is an alternative posthumous name of Emperor Montoku.
-		Go-Shoko Go-Shijo Go-Juntoku
-		Go-Rokujo Go-Konoe Go-Kazan 
-		Go-Tamura Go-Konin 
-		Go-Junnin Go-Shomu Go-Mommu Go-Tenji Go-Kotoku Go-Jomei 
-		Go-Sushun Go-Yomei Go-Bidatsu Go-Kimmei Go-Senka Go-Ankan Go-Keitai 
-		Go-Buretsu Go-Ninken Go-Kenzo Go-Seinei Go-Yuryaku Go-Anko Go-Ingyo Go-Hanzei Go-Richu Go-Nintoku 
-		Go-Chuai Go-Seimu Go-Keiko Go-Suinin Go-Sujin Go-Kaika Go-Kogen Go-Korei Go-Koan Go-Kosho Go-Itoku Go-Annei Go-Suizei 
-		# Fictional (shuffled)
-		Junan Junchi Junmu Junmei Kochi Komu Kozei Ninan Ninchi Ninmu Ninsho Reichi Reimei Reimu Reisho 
-		# Fictional (place names in Kyoto)
-		Atago Bojo Gojo Hachijo Imadegawa Karasuma Kasuga Kinugasa Kitashirakawa Kitayama 
-		Kujo Kyogoku Matsunoo Mibu Muromachi Oinomikado Ohara Okazaki Omiya Omuro 
-		Shichijo Takao Takatsukasa Toin Yamashina 
-	}
-	female_names = {
-		# Historical (empresses later than 1582)
-		Meisho Go-Sakuramachi 
-		# Fictional ("Go-"(later) + posthumous names of ancient empresses)
-		# "Takano" is an alternative posthumous name of Empress Koken.
-		Go-Jingu Go-Suiko Go-Kogyoku Go-Saimei Go-Jito Go-Gemmei Go-Gensho Go-Takano 
-		# Fictional (shuffled)
-		Genan Genchi Genken Genko Gennei Gennin Gento Gentoku Genzei 
-		# Fictional (place names in Kyoto)
-		Atago Bojo Gojo Hachijo Imadegawa Karasuma Kasuga Kinugasa Kitashirakawa Kitayama 
-		Kujo Kyogoku Matsunoo Mibu Muromachi Oinomikado Ohara Okazaki Omiya Omuro 
-		Shichijo Takao Takatsukasa Toin Yamashina 
-	}
+	#male_names = { 
+	#	# Historical (emperors later than 1337)
+	#	Komyo Suko Go-Kogon Go-En'yu Go-Komatsu
+	#	Go-Murakami Chokei Go-Kameyama Go-Komatsu Shoko Go-Hanazono Go-Tsuchimikado Go-Kashiwabara Go-Nara Ogimachi
+	#	Go-Yozei Go-Mizunoo Go-Komyo Go-Sai Reigen Higashiyama Nakamikado Sakuramachi Momozono Kokaku Ninko Komei 
+	#	Meiji Taisho Showa Heisei
+	#	# Fictional ("Go-"(later) + posthumous names of ancient emperors)
+	#	# "Tamura" is an alternative posthumous name of Emperor Montoku.
+	#	Go-Shoko Go-Shijo Go-Juntoku
+	#	Go-Rokujo Go-Konoe Go-Kazan 
+	#	Go-Tamura Go-Konin 
+	#	Go-Junnin Go-Shomu Go-Mommu Go-Tenji Go-Kotoku Go-Jomei 
+	#	Go-Sushun Go-Yomei Go-Bidatsu Go-Kimmei Go-Senka Go-Ankan Go-Keitai 
+	#	Go-Buretsu Go-Ninken Go-Kenzo Go-Seinei Go-Yuryaku Go-Anko Go-Ingyo Go-Hanzei Go-Richu Go-Nintoku 
+	#	Go-Chuai Go-Seimu Go-Keiko Go-Suinin Go-Sujin Go-Kaika Go-Kogen Go-Korei Go-Koan Go-Kosho Go-Itoku Go-Annei Go-Suizei 
+	#	# Fictional (shuffled)
+	#	Junan Junchi Junmu Junmei Kochi Komu Kozei Ninan Ninchi Ninmu Ninsho Reichi Reimei Reimu Reisho 
+	#	# Fictional (place names in Kyoto)
+	#	Atago Bojo Gojo Hachijo Imadegawa Karasuma Kasuga Kinugasa Kitashirakawa Kitayama 
+	#	Kujo Kyogoku Matsunoo Mibu Muromachi Oinomikado Ohara Okazaki Omiya Omuro 
+	#	Shichijo Takao Takatsukasa Toin Yamashina 
+	#}
+	#female_names = {
+	#	# Historical (empresses later than 1582)
+	#	Meisho Go-Sakuramachi 
+	#	# Fictional ("Go-"(later) + posthumous names of ancient empresses)
+	#	# "Takano" is an alternative posthumous name of Empress Koken.
+	#	Go-Jingu Go-Suiko Go-Kogyoku Go-Saimei Go-Jito Go-Gemmei Go-Gensho Go-Takano 
+	#	# Fictional (shuffled)
+	#	Genan Genchi Genken Genko Gennei Gennin Gento Gentoku Genzei 
+	#	# Fictional (place names in Kyoto)
+	#	Atago Bojo Gojo Hachijo Imadegawa Karasuma Kasuga Kinugasa Kitashirakawa Kitayama 
+	#	Kujo Kyogoku Matsunoo Mibu Muromachi Oinomikado Ohara Okazaki Omiya Omuro 
+	#	Shichijo Takao Takatsukasa Toin Yamashina 
+	#}
 	
-	capital = 1912 # Yamashiro
+	capital = 2485 # Yamashiro
 	
 	ainu = "Sisam Moshir"
 	ryukyuan = "Yamatu"
@@ -677,8 +678,6 @@ e_japan = {
 				color2 = { 63 63 63 }
 				
 				holy_site = shinto
-				holy_site = ainu_pagan
-				holy_site = ainu_pagan_reformed
 				b_ou = {}
 				b_izumo = {}
 				b_kizuki = {} #Izumo Srine, In Izumo Province
@@ -997,8 +996,6 @@ e_japan = {
 				color2 = { 63 63 63 }
 			
 				holy_site = shinto
-				holy_site = ainu_pagan
-				holy_site = ainu_pagan_reformed
 				b_ibaraki = {}
 				b_kashima = {}
 				b_tsukuba = {}

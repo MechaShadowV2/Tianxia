@@ -1,0 +1,650 @@
+# Extra titles in Mongolia/Manchuria
+
+e_tartaria = {
+	k_mongolia = {
+		d_kara_khorum = {
+			c_darkhan = {
+				color={ 123 117 78 }
+				color2={ 120 120 120 }
+				
+				b_darkhan2 = {}
+				# Needs baronies
+			}
+		}
+		d_alxa = {
+			color={ 103 127 108 }
+			color2={ 120 120 120 }
+			
+			capital = 3037 # Alxa
+			
+			c_ordos = {
+				color={ 123 117 78 } # TODO
+				color2={ 120 120 120 } # TODO
+				
+				b_ordos = {}
+				# Needs baronies
+			}
+			c_alxa = {
+				color={ 123 117 78 } # TODO
+				color2={ 120 120 120 } # TODO
+				
+				b_alxa = {}
+				# Needs baronies
+			}
+			c_bayan_nur = {
+				color={ 123 117 78 } # TODO
+				color2={ 120 120 120 } # TODO
+				
+				b_bayan_nur = {}
+				# Needs baronies
+			}
+		}
+		d_mandakh = {
+			color={ 103 127 108 } # TODO
+			color2={ 120 120 120 } # TODO
+			
+			capital = 3041 # Mandakh
+			
+			c_mandakh = {
+				color={ 123 117 78 } # TODO
+				color2={ 120 120 120 } # TODO
+				
+				b_mandakh = {}
+				# Needs baronies
+			}
+			c_siziwang = {
+				color={ 123 117 78 } # TODO
+				color2={ 120 120 120 } # TODO
+				
+				b_siziwang = {}
+				# Needs baronies
+			}
+			c_sonid = {
+				color={ 123 117 78 } # TODO
+				color2={ 120 120 120 } # TODO
+				
+				b_sonid = {}
+				# Needs baronies
+			}
+			c_sainshand = {
+				color={ 123 117 78 } # TODO
+				color2={ 120 120 120 } # TODO
+				
+				b_sainshand = {}
+				# Needs baronies
+			}
+		}
+		d_bayandelger = {
+			color={ 103 127 108 } # TODO
+			color2={ 120 120 120 } # TODO
+			
+			capital = 3043 # Bayandelger
+			
+			c_bayandelger = {
+				color={ 123 117 78 } # TODO
+				color2={ 120 120 120 } # TODO
+				
+				b_bayandelger = {}
+				# Needs baronies
+			}
+			c_baruunurt = {
+				color={ 123 117 78 } # TODO
+				color2={ 120 120 120 } # TODO
+				
+				b_baruunurt = {}
+				# Needs baronies
+			}
+		}
+		d_choibalsan = {
+			color={ 103 127 108 } # TODO
+			color2={ 120 120 120 } # TODO
+			
+			capital = 3046 # Choibalsan
+			
+			c_bayan_ovoo = {
+				color={ 123 117 78 } # TODO
+				color2={ 120 120 120 } # TODO
+				
+				b_bayan_ovoo = {}
+				# Needs baronies
+			}
+			c_choibalsan = {
+				color={ 123 117 78 } # TODO
+				color2={ 120 120 120 } # TODO
+				
+				b_choibalsan = {}
+				# Needs baronies
+			}
+			c_duldurga = {
+				color={ 123 117 78 } # TODO
+				color2={ 120 120 120 } # TODO
+				
+				b_duldurga = {}
+				# Needs baronies
+			}
+			c_dashbalbar = {
+				color={ 123 117 78 } # TODO
+				color2={ 120 120 120 } # TODO
+				
+				b_dashbalbar = {}
+				# Needs baronies
+			}
+		 }
+	}
+	
+	k_jin = {
+		color = { 76 43 12 }
+		color2={ 120 120 120 }
+
+		capital = 1756 # Aihom (should technically be further south, but that's de jure Balhae...
+		
+		culture = jurchen
+		
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture=jurchen
+					NOT = { has_landed_title = k_dongxia }
+					AND = {
+						has_landed_title = k_dongxia
+						any_demesne_title = {
+							tier = king
+							NOT = { title = k_dongxia }
+						}
+					}
+				}
+			}
+		}
+		
+		d_sakhalin = { 
+			color = {65 71 30}
+			color2 = {63 63 63}
+		
+			capital = 3005 # Sakhalin
+		
+			ainu = "Karputyamosir"
+			japanese = "Karafuto"
+	
+			c_sakhalin = {
+				color = {1 84 200 }
+				color2 = {63 63 63}
+		
+				ainu = "Karputyamosir"
+				japanese = "Karafuto"
+
+				b_sakhalin = {
+				}
+				b_karafuto = {
+				}
+				# Needs baronies!
+			}
+			c_itoui = {
+				color = {11 54 180}
+				color2 = {63 63 63}
+			
+				ainu = "Orok"
+			
+				b_itoui = {
+				}
+				# Needs baronies!
+			}
+		
+			c_laha = {
+				color = { 31 34 230}
+				color2 = {63 63 63}
+			
+				ainu = "Nivhks"
+
+				b_laha = {
+				}
+				# Needs baronies!
+			}
+		}
+		d_pakali = { 
+			color = {65 71 30} # TODO
+			color2 = {63 63 63} # TODO
+		
+			capital = 3001 # Pakali
+			
+			c_kalar = {
+				color = {1 84 200 } # TODO
+				color2 = {63 63 63} # TODO
+				
+				b_kalar2 = {}
+				# Needs baronies!
+			}
+			c_amgun = {
+				color = {1 84 200 } # TODO
+				color2 = {63 63 63} # TODO
+				
+				b_amgun = {}
+				# Needs baronies!
+			}
+			c_pakali = {
+				color = {1 84 200 } # TODO
+				color2 = {63 63 63} # TODO
+				
+				b_pakali = {}
+				# Needs baronies!
+			}
+			c_kerin = {
+				color = {1 84 200 } # TODO
+				color2 = {63 63 63} # TODO
+				
+				b_kerin = {}
+				# Needs baronies!
+			}
+		}
+		d_noro = { 
+			color = {65 71 30} # TODO
+			color2 = {63 63 63} # TODO
+		
+			capital = 2997 # Noro
+			
+			c_noro = {
+				color = {1 84 200 } # TODO
+				color2 = {63 63 63} # TODO
+				
+				b_noro = {}
+				# Needs baronies!
+			}
+			c_makan = {
+				color = {1 84 200 } # TODO
+				color2 = {63 63 63} # TODO
+				
+				b_makan = {}
+				# Needs baronies!
+			}
+			c_tondon = {
+				color = {1 84 200 } # TODO
+				color2 = {63 63 63} # TODO
+				
+				b_tondon = {}
+				# Needs baronies!
+			}
+		}
+		d_aihom = { 
+			color = {65 71 30} # TODO
+			color2 = {63 63 63} # TODO
+		
+			capital = 3010 # Aihom
+			
+			c_ducheri = {
+				color = {1 84 200 } # TODO
+				color2 = {63 63 63} # TODO
+				
+				b_ducheri = {}
+				# Needs baronies!
+			}
+			c_boli = {
+				color = {1 84 200 } # TODO
+				color2 = {63 63 63} # TODO
+				
+				b_boli = {}
+				# Needs baronies!
+			}
+			c_numen = {
+				color = {1 84 200 } # TODO
+				color2 = {63 63 63} # TODO
+				
+				b_numen = {}
+				# Needs baronies!
+			}
+			c_aihom = {
+				color = {1 84 200 } # TODO
+				color2 = {63 63 63} # TODO
+				
+				b_aihom = {}
+				# Needs baronies!
+			}
+		}
+		d_silimpdi = { 
+			color = {65 71 30} # TODO
+			color2 = {63 63 63} # TODO
+		
+			capital = 3013 # Silimpdi
+			
+			c_silimpdi = {
+				color = {1 84 200 } # TODO
+				color2 = {63 63 63} # TODO
+				
+				b_silimpdi = {}
+				# Needs baronies!
+			}
+			c_ongue = {
+				color = {1 84 200 } # TODO
+				color2 = {63 63 63} # TODO
+				
+				b_ongue = {}
+				# Needs baronies!
+			}
+			c_hinkan = {
+				color = {1 84 200 } # TODO
+				color2 = {63 63 63} # TODO
+				
+				b_hinkan = {}
+				# Needs baronies!
+			}
+		}
+		d_amazar = { 
+			color = {65 71 30} # TODO
+			color2 = {63 63 63} # TODO
+		
+			capital = 3034 # Amazar
+			
+			c_amazar = {
+				color = {1 84 200 } # TODO
+				color2 = {63 63 63} # TODO
+				
+				b_amazar = {}
+				# Needs baronies!
+			}
+			c_urkan = {
+				color = {1 84 200 } # TODO
+				color2 = {63 63 63} # TODO
+				
+				b_urkan = {}
+				# Needs baronies!
+			}
+		}
+		d_onan_gol = { 
+			color = {65 71 30} # TODO
+			color2 = {63 63 63} # TODO
+		
+			capital = 3033 # Onan Gol
+			
+			c_onan_gol = {
+				color = {1 84 200 } # TODO
+				color2 = {63 63 63} # TODO
+				
+				b_onan_gol = {}
+				# Needs baronies!
+			}
+			c_ergun = {
+				color = {1 84 200 } # TODO
+				color2 = {63 63 63} # TODO
+				
+				b_ergun = {}
+				# Needs baronies!
+			}
+			c_chara = {
+				color = {1 84 200 } # TODO
+				color2 = {63 63 63} # TODO
+				
+				b_chara = {}
+				# Needs baronies!
+			}
+		}
+		d_yakesa = { 
+			color = {65 71 30} # TODO
+			color2 = {63 63 63} # TODO
+		
+			capital = 3022 # Yakesa
+			
+			c_yakesa = {
+				color = {1 84 200 } # TODO
+				color2 = {63 63 63} # TODO
+				
+				b_yakesa = {}
+				# Needs baronies!
+			}
+			c_oroqen = {
+				color = {1 84 200 } # TODO
+				color2 = {63 63 63} # TODO
+				
+				b_oroqen = {}
+				# Needs baronies!
+			}
+			c_kamara = {
+				color = {1 84 200 } # TODO
+				color2 = {63 63 63} # TODO
+				
+				b_kamara = {}
+				# Needs baronies!
+			}
+		}
+	}
+	
+	k_dongxia = {
+		color = { 255 157 0 }
+		color2={ 120 120 120 }
+		
+		capital = 3014 # Changchun
+		culture = jurchen
+		
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture=jurchen
+					NOT = { has_landed_title = k_jin }
+					AND = {
+						has_landed_title = k_jin
+						any_demesne_title = {
+							tier = king
+							NOT = { title = k_jin }
+						}
+					}
+				}
+			}
+		}
+		d_changchun = {
+			color={ 103 177 118 }
+			color2={ 120 120 120 }
+
+			capital = 3014 # Changchun
+			
+			c_changchun = {
+				color={ 143 167 98 }
+				color2={ 120 120 120 }
+				
+				b_changchun = {}
+				# Needs baronies!
+			}
+			c_tongliao = {
+				color={ 143 167 98 } # TODO
+				color2={ 120 120 120 } # TODO
+				
+				b_tongliao = {}
+				# Needs baronies!
+			}
+			c_songyuan = {
+				color={ 143 167 98 } # TODO
+				color2={ 120 120 120 } # TODO
+				
+				b_songyuan = {}
+				# Needs baronies!
+			}
+			c_baicheng = {
+				color={ 143 167 98 } # TODO
+				color2={ 120 120 120 } # TODO
+				
+				b_baicheng = {}
+				# Needs baronies!
+			}
+		}
+		d_chifeng = {
+			color={ 103 177 118 }
+			color2={ 120 120 120 }
+
+			capital = 3024 # Chifeng
+			
+			c_xilin_gol = {
+				color={ 143 167 98 } # TODO
+				color2={ 120 120 120 } # TODO
+				
+				b_xilin_gol = {}
+				# Needs baronies!
+			}
+			c_chifeng = {
+				color={ 143 167 98 } # TODO
+				color2={ 120 120 120 } # TODO
+				
+				b_chifeng = {}
+				# Needs baronies!
+			}
+			c_naiman = {
+				color={ 143 167 98 } # TODO
+				color2={ 120 120 120 } # TODO
+				
+				b_naiman2 = {}
+				# Needs baronies!
+			}
+		}
+		d_hulun_buir = {
+			color={ 103 177 118 }
+			color2={ 120 120 120 }
+
+			capital = 3030 # Hulun Buir
+			
+			c_hulun_buir = {
+				color={ 143 167 98 } # TODO
+				color2={ 120 120 120 } # TODO
+				
+				b_hulun_buir = {}
+				# Needs baronies!
+			}
+			c_matad = {
+				color={ 143 167 98 } # TODO
+				color2={ 120 120 120 } # TODO
+				
+				b_matad = {}
+				# Needs baronies!
+			}
+			c_arxan = {
+				color={ 143 167 98 } # TODO
+				color2={ 120 120 120 } # TODO
+				
+				b_arxan = {}
+				# Needs baronies!
+			}
+			c_ujimqin = {
+				color={ 143 167 98 } # TODO
+				color2={ 120 120 120 } # TODO
+				
+				b_ujimqin = {}
+				# Needs baronies!
+			}
+		}
+		d_tonai = {
+			color={ 103 177 118 }
+			color2={ 120 120 120 }
+
+			capital = 3018 # Tonai
+			
+			c_tonai = {
+				color={ 143 167 98 } # TODO
+				color2={ 120 120 120 } # TODO
+				
+				b_tonai = {}
+				# Needs baronies!
+			}
+			c_korthkin = {
+				color={ 143 167 98 } # TODO
+				color2={ 120 120 120 } # TODO
+				
+				b_korthkin = {}
+				# Needs baronies!
+			}
+			c_durbet = {
+				color={ 143 167 98 } # TODO
+				color2={ 120 120 120 } # TODO
+				
+				b_durbet = {}
+				# Needs baronies!
+			}
+		}
+	}
+	
+	k_gansu = {
+		color = { 225 222 91 }
+		color2= { 0 0 0  }
+
+		capital = 2856 # Ganzhou
+
+		culture = uyghur
+		
+		allow = {
+			conditional_tooltip = {
+				trigger = {
+					FROM = {
+						NOT = {
+							any_previous_holder = {
+								always = yes # The title has existed before
+							}
+						}
+					}
+				}
+				FROM = {
+					any_previous_holder = {
+						always = yes # The title has existed before
+					}
+				}
+			}
+		}
+	}
+}
+
+e_jurchen = { # Jurchen Jin
+	color = { 100 100 250 } # TODO
+	color2={ 113 157 108 } # TODO
+	
+	capital = 2914 # Dadu
+	
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				FROM = {
+					NOT = {
+						any_previous_holder = {
+							always = yes # The title has existed before
+						}
+					}
+				}
+			}
+			FROM = {
+				any_previous_holder = {
+					always = yes # The title has existed before
+				}
+			}
+		}
+	}
+}
+e_mongol_china = { # Yuan dynasty
+	color = { 100 100 250 } # TODO
+	color2={ 113 157 108 } # TODO
+	
+	capital = 2914 # Dadu
+	
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				FROM = {
+					NOT = {
+						any_previous_holder = {
+							always = yes # The title has existed before
+						}
+					}
+				}
+			}
+			FROM = {
+				any_previous_holder = {
+					always = yes # The title has existed before
+				}
+			}
+		}
+	}
+}
+
+k_liao = {
+	color = { 10 111 102 }
+	capital = 2922 # Shenyang
+	culture = khitan
+
+	allow = {
+		always = no # Only created through special event
+	}
+
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}

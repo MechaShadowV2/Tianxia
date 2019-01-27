@@ -1,0 +1,16 @@
+# 2999 - Makan
+
+# County Title
+title = c_makan
+
+# Settlements
+max_settlements = 1
+
+b_makan = tribal
+# Needs baronies!
+
+# Misc
+culture = jurchen
+religion = tengri_pagan
+
+# History

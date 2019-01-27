@@ -1,0 +1,16 @@
+# 3001 - Pakali
+
+# County Title
+title = c_pakali
+
+# Settlements
+max_settlements = 1
+
+b_pakali = tribal
+# Needs baronies!
+
+# Misc
+culture = jurchen
+religion = tengri_pagan
+
+# History

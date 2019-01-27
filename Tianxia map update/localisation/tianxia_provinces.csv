@@ -501,7 +501,7 @@ PROV2479;Tango;;;;;;;;;;;;;x
 PROV2480;Tamba;;;;;;;;;;;;;x
 PROV2481;Settsu;;;;;;;;;;;;;x # Japan - Kinai
 PROV2482;Izumi;;;;;;;;;;;;;x
-PROV2483;Kwatchi;;;;;;;;;;;;;x
+PROV2483;Kawatchi;;;;;;;;;;;;;x
 PROV2484;Yamato;;;;;;;;;;;;;x
 PROV2485;Yamashiro;;;;;;;;;;;;;x
 PROV2486;Shima;;;;;;;;;;;;;x # Japan - Tokaido
@@ -551,7 +551,7 @@ PROV2528;Hidaka;;;;;;;;;;;;;x
 PROV2529;Kamikawa;;;;;;;;;;;;;x
 PROV2530;Tokachi;;;;;;;;;;;;;x
 PROV2531;Nemuro;;;;;;;;;;;;;x
-PROV2532;Chupka;;;;;;;;;;;;;x
+PROV2532;Kur;;;;;;;;;;;;;x
 PROV2533;Kamchatka;;;;;;;;;;;;;x
 PROV2534;Teshio;;;;;;;;;;;;;x
 PROV2535;Kitami;;;;;;;;;;;;;x
@@ -955,7 +955,128 @@ PROV2925;Bayuquan;;;;;;;;;;;;;x
 PROV2926;Fengcheng;;;;;;;;;;;;;x
 PROV2927;Benxi;;;;;;;;;;;;;x
 # Korea
-# Mongolia
-# Manchuria
+PROV2928;Guseong;;;;;;;;;;;;;x
+PROV2929;Anju;;;;;;;;;;;;;x
+PROV2930;Pyeongyang;;;;;;;;;;;;;x
+PROV2931;Haeju;;;;;;;;;;;;;x
+PROV2932;Gaeseong;;;;;;;;;;;;;x
+PROV2933;Ganghwa;;;;;;;;;;;;;x
+PROV2934;Hanseong;;;;;;;;;;;;;x
+PROV2935;Hwaseong;;;;;;;;;;;;;x
+PROV2936;Suwon;;;;;;;;;;;;;x
+PROV2937;Gongju;;;;;;;;;;;;;x
+PROV2938;Cheongju;;;;;;;;;;;;;x
+PROV2939;Nonsan;;;;;;;;;;;;;x
+PROV2940;Jeonju;;;;;;;;;;;;;x
+PROV2941;Gimje;;;;;;;;;;;;;x
+PROV2942;Jangsu;;;;;;;;;;;;;x
+PROV2943;Okju;;;;;;;;;;;;;x
+PROV2944;Naju;;;;;;;;;;;;;x
+PROV2945;Namwon;;;;;;;;;;;;;x
+PROV2946;Honam;;;;;;;;;;;;;x
+PROV2947;Jeju;;;;;;;;;;;;;x
+PROV2948;Gammun;;;;;;;;;;;;;x
+PROV2949;Seungju;;;;;;;;;;;;;x
+PROV2950;Geochang;;;;;;;;;;;;;x
+PROV2951;Jinju;;;;;;;;;;;;;x
+PROV2952;Geoje;;;;;;;;;;;;;x
+PROV2953;Daegu;;;;;;;;;;;;;x
+PROV2954;Miryang;;;;;;;;;;;;;x
+PROV2955;Busan;;;;;;;;;;;;;x
+PROV2956;Dongnae;;;;;;;;;;;;;x
+PROV2957;Daejeon;;;;;;;;;;;;;x
+PROV2958;Gumi;;;;;;;;;;;;;x
+PROV2959;Gyeongju;;;;;;;;;;;;;x
+PROV2960;Chungju;;;;;;;;;;;;;x
+PROV2961;Mungyeong;;;;;;;;;;;;;x
+PROV2962;Sangju;;;;;;;;;;;;;x
+PROV2963;Uljin;;;;;;;;;;;;;x
+PROV2964;Samcheok;;;;;;;;;;;;;x
+PROV2965;Ulleung;;;;;;;;;;;;;x
+PROV2966;Wonju;;;;;;;;;;;;;x
+PROV2967;Chunju;;;;;;;;;;;;;x
+PROV2968;Gangneung;;;;;;;;;;;;;x
+PROV2969;Namyangju;;;;;;;;;;;;;x
+PROV2970;Hwangju;;;;;;;;;;;;;x
+PROV2971;Sariwon;;;;;;;;;;;;;x
+PROV2972;Yangju;;;;;;;;;;;;;x
+PROV2973;Sinpyeong;;;;;;;;;;;;;x
+PROV2974;Wonsan;;;;;;;;;;;;;x
+PROV2975;Pyeongan;;;;;;;;;;;;;x
+PROV2976;Hamheung;;;;;;;;;;;;;x
+PROV2977;Ganggye;;;;;;;;;;;;;x
+PROV2978;Baekdu;;;;;;;;;;;;;x
+PROV2979;Tanchon;;;;;;;;;;;;;x
+PROV2980;Amnok;;;;;;;;;;;;;x
+PROV2981;Yongwon;;;;;;;;;;;;;x
+PROV2982;Sanggyeong;;;;;;;;;;;;;x
+PROV2983;Jangnyeong;;;;;;;;;;;;;x
+PROV2984;Hyeongdeok;;;;;;;;;;;;;x
+PROV2985;Dongju;;;;;;;;;;;;;x
+PROV2986;Buyeo;;;;;;;;;;;;;x
+PROV2987;Su;;;;;;;;;;;;;x
+PROV2988;Makhil;;;;;;;;;;;;;x
+PROV2989;Yongcheon;;;;;;;;;;;;;x
+PROV2990;Cheolli;;;;;;;;;;;;;x
+PROV2991;Solbin;;;;;;;;;;;;;x
+PROV2992;Jeongni;;;;;;;;;;;;;x
+PROV2993;Dongpyeong;;;;;;;;;;;;;x
+PROV2994;Anwon;;;;;;;;;;;;;x
+PROV2995;Anbyeon;;;;;;;;;;;;;x
+PROV2996;Hoewon;;;;;;;;;;;;;x
+# Tartaria
+PROV2997;Noro;;;;;;;;;;;;;x
+PROV2998;Boli;;;;;;;;;;;;;x
+PROV2999;Makan;;;;;;;;;;;;;x
+PROV3000;Tondon;;;;;;;;;;;;;x
+PROV3001;Pakali;;;;;;;;;;;;;x
+PROV3002;Kalar;;;;;;;;;;;;;x
+PROV3003;Laha;;;;;;;;;;;;;x
+PROV3004;Itoui;;;;;;;;;;;;;x
+PROV3005;Sakhalin;;;;;;;;;;;;;x
+PROV3006;Amgun;;;;;;;;;;;;;x
+PROV3007;Kerin;;;;;;;;;;;;;x
+PROV3008;Ducheri;;;;;;;;;;;;;x
+PROV3009;Numen;;;;;;;;;;;;;x
+PROV3010;Aihom;;;;;;;;;;;;;x
+PROV3011;Hinkan;;;;;;;;;;;;;x
+PROV3012;Ongue;;;;;;;;;;;;;x
+PROV3013;Silimpdi;;;;;;;;;;;;;x
+PROV3014;Changchun;;;;;;;;;;;;;x
+PROV3015;Tongliao;;;;;;;;;;;;;x
+PROV3016;Songyuan;;;;;;;;;;;;;x
+PROV3017;Baicheng;;;;;;;;;;;;;x
+PROV3018;Tonai;;;;;;;;;;;;;x
+PROV3019;Korthkin;;;;;;;;;;;;;x
+PROV3020;Durbet;;;;;;;;;;;;;x
+PROV3021;Kamara;;;;;;;;;;;;;x
+PROV3022;Yakesa;;;;;;;;;;;;;x
+PROV3023;Urkan;;;;;;;;;;;;;x
+PROV3024;Chifeng;;;;;;;;;;;;;x
+PROV3025;Naiman;;;;;;;;;;;;;x
+PROV3026;Xilin Gol;;;;;;;;;;;;;x
+PROV3027;Ujimqin;;;;;;;;;;;;;x
+PROV3028;Matad;;;;;;;;;;;;;x
+PROV3029;Arxan;;;;;;;;;;;;;x
+PROV3030;Hulun Buir;;;;;;;;;;;;;x
+PROV3031;Oroqen;;;;;;;;;;;;;x
+PROV3032;Ergun;;;;;;;;;;;;;x
+PROV3033;Onan Gol;;;;;;;;;;;;;x
+PROV3034;Amazar;;;;;;;;;;;;;x
+PROV3035;Chara;;;;;;;;;;;;;x
+PROV3036;Ordos;;;;;;;;;;;;;x
+PROV3037;Alxa;;;;;;;;;;;;;x
+PROV3038;Bayan Nur;;;;;;;;;;;;;x
+PROV3039;Siziwang;;;;;;;;;;;;;x
+PROV3040;Sonid;;;;;;;;;;;;;x
+PROV3041;Mandakh;;;;;;;;;;;;;x
+PROV3042;Sainshand;;;;;;;;;;;;;x
+PROV3043;Bayandelger;;;;;;;;;;;;;x
+PROV3044;Darkhan;;;;;;;;;;;;;x
+PROV3045;Baruun-Urt;;;;;;;;;;;;;x
+PROV3046;Choibalsan;;;;;;;;;;;;;x
+PROV3047;Dashbalbar;;;;;;;;;;;;;x
+PROV3048;Bayan Ovoo;;;;;;;;;;;;;x
+PROV3049;Dul'durga;;;;;;;;;;;;;x
 # Siberia
 # Extra vanilla area provinces

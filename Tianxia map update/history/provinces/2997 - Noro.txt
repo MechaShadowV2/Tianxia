@@ -1,0 +1,16 @@
+# 2997 - Noro
+
+# County Title
+title = c_noro
+
+# Settlements
+max_settlements = 1
+
+b_noro = tribal
+# Needs baronies!
+
+# Misc
+culture = jurchen
+religion = tengri_pagan
+
+# History

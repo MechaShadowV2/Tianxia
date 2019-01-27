@@ -1,0 +1,16 @@
+# 3006 - Amgun
+
+# County Title
+title = c_amgun
+
+# Settlements
+max_settlements = 1
+
+b_amgun = tribal
+# Needs baronies!
+
+# Misc
+culture = jurchen
+religion = tengri_pagan
+
+# History

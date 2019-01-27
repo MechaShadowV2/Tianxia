@@ -32,6 +32,9 @@ e_china = {
 				holy_site = viet_pagan
 				holy_site = viet_pagan_reformed
 				
+				holy_site = ryukyuan_pagan
+				holy_site = ryukyuan_pagan_reformed
+				
 				holy_site = taoist
 				
 				b_qiongzhou = {}
@@ -2222,7 +2225,7 @@ e_china = {
 				color = { 240 210 50 }
 				color2 = { 181 6 0 }
 				
-				holy_site = taoist
+				#holy_site = taoist
 				
 				b_haixling = {
 				}
@@ -3222,6 +3225,9 @@ e_china = {
 			c_bisa = {
 				color = { 245 116 20 } # TODO
 				color2 = { 181 6 0 } # TODO
+				
+				holy_site = korean_pagan
+				holy_site = korean_pagan_reformed
 				
 				b_bisa = {}
 				# Needs baronies!

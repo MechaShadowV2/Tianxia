@@ -1,0 +1,16 @@
+# 3023 - Urkan
+
+# County Title
+title = c_urkan
+
+# Settlements
+max_settlements = 1
+
+b_urkan = tribal
+# Needs baronies!
+
+# Misc
+culture = jurchen
+religion = tengri_pagan
+
+# History

@@ -999,7 +999,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	3.1.1={
 		birth=yes
 	}#-69
@@ -1012,7 +1012,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450243
 	3.6.1={
 		birth=yes
@@ -1030,7 +1030,7 @@
 	female=yes
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	3.1.1={
 		birth=yes
 	}#-15
@@ -1043,7 +1043,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450062
 	mother=1000450063
 	18.1.1={
@@ -1059,7 +1059,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450062
 	mother=1000450063
 	22.1.1={
@@ -1075,7 +1075,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450062
 	mother=1000450063
 	24.1.1={
@@ -1090,7 +1090,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	3.1.1={
 		birth=yes
 	}
@@ -1106,7 +1106,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	real_father=1000450209
 	mother=1000450066
 	47.1.1={
@@ -1121,7 +1121,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450068
 	95.1.1={
 		birth=yes
@@ -1135,7 +1135,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450069
 	119.1.1={
 		birth=yes
@@ -1149,7 +1149,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450070
 	137.1.1={
 		birth=yes
@@ -1163,7 +1163,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450071
 	153.1.1={
 		birth=yes
@@ -1177,7 +1177,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450072
 	169.1.1={
 		birth=yes
@@ -1191,7 +1191,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450062
 	mother=1000450063
 	20.1.1={
@@ -1206,7 +1206,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450074
 	45.1.1={
 		birth=yes
@@ -1224,7 +1224,7 @@
 	dynasty=1000155010 #Jeong clan of Silla
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	50.1.1={
 		birth=yes
 	}
@@ -1237,7 +1237,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450075
 	mother=1000450076
 	78.1.1={
@@ -1256,7 +1256,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450068
 	83.1.1={
 		birth=yes
@@ -1271,7 +1271,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450077
 	mother=1000450078
 	110.1.1={
@@ -1286,7 +1286,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450064
 	48.1.1={
 		birth=yes
@@ -1301,7 +1301,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450074
 	74.1.1={
 		birth=yes
@@ -1315,7 +1315,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450080
 	72.1.1={
 		birth=yes
@@ -1332,7 +1332,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450082
 	mother=1000450081
 	105.1.1={
@@ -1350,7 +1350,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450083
 	mother=1000450079
 	135.1.1={
@@ -1365,7 +1365,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450084
 	180.1.1={
 		birth=yes
@@ -1379,7 +1379,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450085
 	210.1.1={
 		birth=yes
@@ -1394,7 +1394,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450067
 	mother=1000450065
 	40.1.1={
@@ -1412,7 +1412,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450087
 	mother=1000450230
 	82.1.1={
@@ -1431,7 +1431,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450068
 	98.1.1={
 		birth=yes
@@ -1445,7 +1445,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450088
 	mother=1000450089
 	125.1.1={
@@ -1460,7 +1460,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450090
 	144.1.1={
 		birth=yes
@@ -1474,7 +1474,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450090
 	147.1.1={
 		birth=yes
@@ -1492,7 +1492,7 @@
 	dynasty=1000155009 #Son clan of Silla
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450090
 	150.1.1={
 		birth=yes
@@ -1506,7 +1506,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450092
 	mother=1000450093
 	168.1.1={
@@ -1525,7 +1525,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450091
 	166.1.1={
 		birth=yes
@@ -1539,7 +1539,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450091
 	180.1.1={
 		birth=yes
@@ -1560,7 +1560,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450073
 	185.1.1={
 		birth=yes
@@ -1574,7 +1574,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450091
 	188.1.1={
 		birth=yes
@@ -1588,7 +1588,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450073
 	211.1.1={
 		birth=yes
@@ -1602,7 +1602,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450096
 	mother=1000450101
 	222.1.1={
@@ -1618,7 +1618,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450084
 	197.1.1={
 		birth=yes
@@ -1632,7 +1632,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450096
 	mother=1000450097
 	208.1.1={
@@ -1647,7 +1647,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450102
 	233.1.1={
 		birth=yes
@@ -1661,7 +1661,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450091
 	185.1.1={
 		birth=yes
@@ -1675,7 +1675,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450104
 	249.1.1={
 		birth=yes
@@ -1691,7 +1691,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450073
 	249.1.1={
 		birth=yes
@@ -1705,7 +1705,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450106
 	298.1.1={
 		birth=yes
@@ -1722,7 +1722,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450106
 	325.1.1={
 		birth=yes
@@ -1740,7 +1740,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450099
 	284.1.1={
 		birth=yes
@@ -1754,7 +1754,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450107
 	mother=1000450109
 	358.1.1={
@@ -1773,7 +1773,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450108
 	mother=1000450130
 	383.1.1={
@@ -1788,7 +1788,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450107
 	369.1.1={
 		birth=yes
@@ -1802,7 +1802,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450107
 	374.1.1={
 		birth=yes
@@ -1816,7 +1816,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450086
 	247.1.1={
 		birth=yes
@@ -1830,7 +1830,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450114
 	247.1.1={
 		birth=yes
@@ -1844,7 +1844,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450115
 	289.1.1={
 		birth=yes
@@ -1858,7 +1858,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450116
 	320.1.1={
 		birth=yes
@@ -1872,7 +1872,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450117
 	362.1.1={
 		birth=yes
@@ -1886,7 +1886,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450118
 	388.1.1={
 		birth=yes
@@ -1900,7 +1900,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450119
 	415.1.1={
 		birth=yes
@@ -1914,7 +1914,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450110
 	mother=1000450111
 	400.1.1={
@@ -1933,7 +1933,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450112
 	405.1.1={
 		birth=yes
@@ -1947,7 +1947,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450121
 	mother=1000450122
 	426.1.1={
@@ -1968,7 +1968,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450112
 	402.1.1={
 		birth=yes
@@ -1986,7 +1986,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450110
 	mother=1000450111
 	404.1.1={
@@ -2001,7 +2001,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450138
 	440.1.1={
 		birth=yes
@@ -2015,7 +2015,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450126
 	485.1.1={
 		birth=yes
@@ -2029,7 +2029,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450124
 	mother=1000450125
 	437.1.1={
@@ -2048,7 +2048,7 @@
 	dynasty=1000155007 #Gyeongju Yi
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	509.1.1={
 		birth=yes
 	}
@@ -2062,7 +2062,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450105
 	355.1.1={
 		birth=yes
@@ -2076,7 +2076,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450128
 	mother=1000450136
 	473.1.1={
@@ -2100,7 +2100,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450128
 	mother=1000450136
 	477.1.1={
@@ -2118,7 +2118,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450132
 	mother=1000450135
 	526.1.1={
@@ -2143,7 +2143,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450131
 	mother=1000450140
 	515.1.1={
@@ -2159,7 +2159,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450126
 	500.1.1={
 		birth=yes
@@ -2174,7 +2174,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450120
 	438.1.1={
 		birth=yes
@@ -2188,7 +2188,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450120
 	445.1.1={
 		birth=yes
@@ -2205,7 +2205,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450113
 	410.1.1={
 		birth=yes
@@ -2220,7 +2220,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450138
 	430.1.1={
 		birth=yes
@@ -2235,7 +2235,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450123
 	mother=1000450139
 	472.1.1={
@@ -2250,7 +2250,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450123
 	mother=1000450136
 	490.1.1={
@@ -2269,7 +2269,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450131
 	mother=1000450129
 	525.1.1={
@@ -2285,7 +2285,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450128
 	mother=1000450136
 	455.1.1={
@@ -2300,7 +2300,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450137
 	mother=1000450143
 	475.1.1={
@@ -2322,7 +2322,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450144
 	mother=1000450134
 	539.1.1={
@@ -2337,7 +2337,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450141
 	mother=1000450142
 	544.1.1={
@@ -2356,7 +2356,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450144
 	mother=1000450134
 	540.1.1={
@@ -2373,7 +2373,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450124
 	mother=1000450125
 	450.1.1={
@@ -2388,7 +2388,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450154
 	445.1.1={
 		birth=yes
@@ -2405,7 +2405,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450105
 	264.1.1={
 		birth=yes
@@ -2419,7 +2419,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450105
 	295.1.1={
 		birth=yes
@@ -2434,7 +2434,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450151
 	328.1.1={
 		birth=yes
@@ -2448,7 +2448,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450152
 	375.1.1={
 		birth=yes
@@ -2462,7 +2462,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450153
 	417.1.1={
 		birth=yes
@@ -2476,7 +2476,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450149
 	mother=1000450148
 	479.1.1={
@@ -2494,7 +2494,7 @@
 	dynasty=1000155008 #Gyeongju Choi
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	425.1.1={
 		birth=yes
 	}
@@ -2511,7 +2511,7 @@
 	dynasty=1000155005 #Bae clan of Silla
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	441.1.1={
 		birth=yes
 	}
@@ -2525,7 +2525,7 @@
 	dynasty=1000155008 #Gyeongju Choi
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	470.1.1={
 		birth=yes
 	}
@@ -2539,7 +2539,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450131
 	mother=1000450158
 	493.1.1={
@@ -2554,7 +2554,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450155
 	mother=1000450159
 	513.1.1={
@@ -2572,7 +2572,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450113
 	419.1.1={
 		birth=yes
@@ -2589,7 +2589,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450161
 	mother=1000450157
 	459.1.1={
@@ -2608,7 +2608,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450113
 	425.1.1={
 		birth=yes
@@ -2622,7 +2622,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450112
 	411.1.1={
 		birth=yes
@@ -2640,7 +2640,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450164
 	mother=1000450163
 	460.1.1={
@@ -2656,7 +2656,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450162
 	mother=1000450165
 	483.1.1={
@@ -2672,7 +2672,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450144
 	mother=1000450166
 	523.1.1={
@@ -2688,7 +2688,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450144
 	mother=1000450166
 	520.1.1={
@@ -2704,7 +2704,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	add_trait="fair"
 	add_trait="seductress"
 	father=1000450160
@@ -2721,7 +2721,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450160
 	mother=1000450167
 	552.1.1={
@@ -2736,7 +2736,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450155
 	498.1.1={
 		birth=yes
@@ -2750,7 +2750,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450171
 	527.1.1={
 		birth=yes
@@ -2767,7 +2767,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450172
 	mother=1000450169
 	564.1.1={
@@ -2782,7 +2782,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450172
 	mother=1000450169
 	566.1.1={
@@ -2797,7 +2797,7 @@
 	dynasty=1000155010 #Jeong clan of Silla
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	546.1.1={
 		birth=yes
 	}
@@ -2813,7 +2813,7 @@
 	dynasty=1000155006 #Sul clan of Silla
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	549.1.1={
 		birth=yes
 	}
@@ -2829,7 +2829,7 @@
 	dynasty=1000155006 #Sul clan of Silla
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450176
 	mother=1000450169
 	580.1.1={
@@ -2844,7 +2844,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450133
 	mother=1000450169
 	568.1.1={
@@ -2860,7 +2860,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450133
 	mother=1000450169
 	570.1.1={
@@ -2876,7 +2876,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450133
 	mother=1000450169
 	573.1.1={
@@ -2892,7 +2892,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450133
 	mother=1000450134
 	545.1.1={
@@ -2914,7 +2914,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450181
 	mother=1000450169
 	571.1.1={
@@ -2929,7 +2929,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450133
 	mother=1000450168
 	547.1.1={
@@ -2951,7 +2951,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450127
 	508.1.1={
 		birth=yes
@@ -2966,7 +2966,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450184
 	547.1.1={
 		birth=yes
@@ -2980,7 +2980,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450127
 	531.1.1={
 		birth=yes
@@ -2998,7 +2998,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450141
 	mother=1000450142
 	545.1.1={
@@ -3013,7 +3013,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450186
 	mother=1000450187
 	577.1.1={
@@ -3028,7 +3028,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450181
 	mother=1000450185
 	567.1.1={
@@ -3056,7 +3056,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450146
 	mother=1000450145
 	570.1.1={
@@ -3074,7 +3074,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	add_trait="twin"
 	father=1000450146
 	mother=1000450145
@@ -3091,7 +3091,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	add_trait="twin"
 	father=1000450146
 	mother=1000450145
@@ -3107,7 +3107,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450189
 	mother=1000450169
 	587.1.1={
@@ -3122,7 +3122,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450183
 	mother=1000450169
 	579.7.1={
@@ -3137,7 +3137,7 @@
 	dynasty=1000155009 #Son clan of Silla
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	582.1.1={
 		birth=yes
 	}
@@ -3150,7 +3150,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450181
 	mother=1000450185
 	569.1.1={
@@ -3165,7 +3165,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450181
 	mother=1000450185
 	571.1.1={
@@ -3184,7 +3184,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450186
 	mother=1000450187
 	573.1.1={
@@ -3199,7 +3199,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450183
 	mother=1000450147
 	575.1.1={
@@ -3210,7 +3210,7 @@
 	}
 	610.1.1={
 		remove_trait="seonggol"
-		add_trait="jingol"
+		#add_trait="jingol"
 	}#The descendants of King Jinji are forced to become jingol by Gim Baekban
 	617.1.1={
 		death=yes
@@ -3221,7 +3221,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450183
 	mother=1000450147
 	578.1.1={
@@ -3229,7 +3229,7 @@
 	}
 	610.1.1={
 		remove_trait="seonggol"
-		add_trait="jingol"
+		#add_trait="jingol"
 	}#The descendants of King Jinji are forced to become jingol by Gim Baekban
 	647.1.1={
 		death=yes
@@ -3241,7 +3241,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	add_trait="twin"
 	add_trait="fair"
 	father=1000450189
@@ -3262,7 +3262,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	add_trait="twin"
 	add_trait="fair"
 	father=1000450189
@@ -3280,7 +3280,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	add_trait="fair"
 	father=1000450189
 	mother=1000450190
@@ -3297,7 +3297,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450197
 	mother=1000450198
 	597.1.1={
@@ -3315,7 +3315,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450199
 	mother=1000450202
 	604.1.1={
@@ -3323,7 +3323,7 @@
 	}
 	610.1.1={
 		remove_trait="seonggol"
-		add_trait="jingol"
+		#add_trait="jingol"
 	}#The descendants of King Jinji are forced to become jingol by Gim Baekban
 	621.1.1={
 		add_spouse=1000450271
@@ -4113,7 +4113,7 @@
 		add_spouse=1000450261
 	}
 	532.1.1={
-		add_trait="jingol"
+		#add_trait="jingol"
 	}#Surrendered to Silla and given the jingol bone rank
 	556.1.1={
 		death=yes
@@ -4129,7 +4129,7 @@
 		birth=yes
 	}
 	532.1.1={
-		add_trait="jingol"
+		#add_trait="jingol"
 	}#Surrendered to Silla and given the jingol bone rank
 	551.1.1={
 		death=yes
@@ -4174,7 +4174,7 @@
 		birth=yes
 	}
 	532.1.1={
-		add_trait="jingol"
+		#add_trait="jingol"
 		name="Muryeok"
 	}#Surrendered to Silla and given the jingol bone rank
 	587.1.1={
@@ -4186,7 +4186,7 @@
 	dynasty=1000155011 #Gimhae Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450264
 	559.1.1={
 		birth=yes
@@ -4200,7 +4200,7 @@
 	dynasty=1000155011 #Gimhae Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450264
 	572.1.1={
 		birth=yes
@@ -4218,7 +4218,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450132
 	mother=1000450135
 	531.1.1={
@@ -4234,7 +4234,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450267
 	575.1.1={
 		birth=yes
@@ -4248,7 +4248,7 @@
 	dynasty=1000155011 #Gimhae Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450266
 	mother=1000450268
 	595.1.1={
@@ -4273,7 +4273,7 @@
 	dynasty=1000155011 #Gimhae Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450266
 	mother=1000450268
 	599.1.1={
@@ -4289,7 +4289,7 @@
 	dynasty=1000155011 #Gimhae Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450266
 	mother=1000450268
 	605.1.1={
@@ -4308,7 +4308,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450173
 	593.1.1={
 		birth=yes
@@ -4337,7 +4337,7 @@
 	dynasty=1000155011 #Gimhae Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450269
 	mother=1000450272
 	616.1.1={
@@ -4353,7 +4353,7 @@
 	dynasty=1000155011 #Gimhae Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450269
 	mother=1000450272
 	618.1.1={
@@ -4369,7 +4369,7 @@
 	dynasty=1000155011 #Gimhae Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450269
 	mother=1000450272
 	621.1.1={
@@ -4384,7 +4384,7 @@
 	dynasty=1000155011 #Gimhae Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450269
 	mother=1000450273
 	625.1.1={
@@ -4400,7 +4400,7 @@
 	dynasty=1000155011 #Gimhae Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450269
 	mother=1000450273
 	630.1.1={
@@ -4416,7 +4416,7 @@
 	dynasty=1000155011 #Gimhae Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450269
 	mother=1000450273
 	634.1.1={
@@ -4432,7 +4432,7 @@
 	dynasty=1000155011 #Gimhae Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450269
 	mother=1000450273
 	637.1.1={
@@ -4448,7 +4448,7 @@
 	dynasty=1000155011 #Gimhae Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450269
 	mother=1000450273
 	640.1.1={
@@ -4463,7 +4463,7 @@
 	dynasty=1000155011 #Gimhae Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450269
 	mother=1000450287
 	645.1.1={
@@ -4479,7 +4479,7 @@
 	dynasty=1000155011 #Gimhae Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450269
 	mother=1000450287
 	650.1.1={
@@ -4495,7 +4495,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450205
 	mother=1000450271
 	626.1.1={
@@ -4516,7 +4516,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450205
 	mother=1000450271
 	629.1.1={
@@ -4531,7 +4531,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450205
 	mother=1000450271
 	625.1.1={
@@ -4547,7 +4547,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	add_trait="twin"
 	father=1000450205
 	mother=1000450271
@@ -4563,7 +4563,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450205
 	mother=1000450271
 	631.1.1={
@@ -4578,7 +4578,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450205
 	mother=1000450271
 	632.1.1={
@@ -4593,7 +4593,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450205
 	mother=1000450271
 	634.1.1={
@@ -4608,7 +4608,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450205
 	mother=1000450271
 	636.1.1={
@@ -4623,7 +4623,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450205
 	mother=1000450271
 	638.1.1={
@@ -4638,7 +4638,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450205
 	mother=1000450271
 	640.1.1={
@@ -4653,7 +4653,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450205
 	mother=1000450271
 	643.1.1={
@@ -4668,7 +4668,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450200
 	613.1.1={
 		birth=yes
@@ -4683,7 +4683,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450295
 	630.1.1={
 		birth=yes
@@ -4697,7 +4697,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450284
 	mother=1000450296
 	648.1.1={
@@ -4721,7 +4721,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450295
 	632.1.1={
 		birth=yes
@@ -4736,7 +4736,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450298
 	650.1.1={
 		birth=yes
@@ -4751,7 +4751,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450286
 	655.1.1={
 		birth=yes
@@ -4765,7 +4765,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450297
 	mother=1000450300
 	687.1.1={
@@ -4783,7 +4783,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450297
 	mother=1000450300
 	688.1.1={
@@ -4810,7 +4810,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450289
 	654.1.1={
 		birth=yes
@@ -4825,7 +4825,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450303
 	685.1.1={
 		birth=yes
@@ -4842,7 +4842,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450302
 	mother=1000450304
 	705.1.1={
@@ -4857,7 +4857,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450285
 	654.1.1={
 		birth=yes
@@ -4872,7 +4872,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450306
 	690.1.1={
 		birth=yes
@@ -4886,7 +4886,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450302
 	mother=1000450307
 	710.1.1={
@@ -4904,7 +4904,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450302
 	mother=1000450307
 	718.1.1={
@@ -4922,7 +4922,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450309
 	758.1.1={
 		birth=yes
@@ -4940,7 +4940,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450302
 	mother=1000450304
 	711.1.1={
@@ -4955,7 +4955,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450306
 	704.1.1={
 		birth=yes
@@ -4973,7 +4973,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450312
 	mother=1000450311
 	725.1.1={
@@ -4988,7 +4988,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450295
 	635.1.1={
 		birth=yes
@@ -5002,7 +5002,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450314
 	684.1.1={
 		birth=yes
@@ -5016,7 +5016,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450315
 	723.1.1={
 		birth=yes
@@ -5031,7 +5031,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450316
 	740.1.1={
 		birth=yes
@@ -5046,7 +5046,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450164
 	mother=1000450163
 	462.1.1={
@@ -5061,7 +5061,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450318
 	497.1.1={
 		birth=yes
@@ -5075,7 +5075,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450319
 	535.1.1={
 		birth=yes
@@ -5089,7 +5089,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450320
 	571.1.1={
 		birth=yes
@@ -5103,7 +5103,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450321
 	601.1.1={
 		birth=yes
@@ -5117,7 +5117,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450322
 	636.1.1={
 		birth=yes
@@ -5134,7 +5134,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450323
 	mother=1000450280
 	678.1.1={
@@ -5149,7 +5149,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450324
 	700.1.1={
 		birth=yes
@@ -5166,7 +5166,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450324
 	mother=1000450313
 	738.1.1={
@@ -5187,7 +5187,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450338
 	711.1.1={
 		birth=yes
@@ -5205,7 +5205,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450144
 	mother=1000450134
 	543.1.1={
@@ -5220,7 +5220,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450327
 	577.1.1={
 		birth=yes
@@ -5234,7 +5234,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450328
 	605.1.1={
 		birth=yes
@@ -5251,7 +5251,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450329
 	mother=1000450274
 	632.1.1={
@@ -5266,7 +5266,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450330
 	667.1.1={
 		birth=yes
@@ -5280,7 +5280,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450331
 	690.1.1={
 		birth=yes
@@ -5294,7 +5294,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450332
 	709.1.1={
 		birth=yes
@@ -5309,7 +5309,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450332
 	715.1.1={
 		birth=yes
@@ -5324,7 +5324,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450326
 	mother=1000450334
 	731.1.1={
@@ -5345,7 +5345,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450303
 	704.1.1={
 		birth=yes
@@ -5360,7 +5360,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450336
 	732.1.1={
 		birth=yes
@@ -5374,7 +5374,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450324
 	695.1.1={
 		birth=yes
@@ -5388,7 +5388,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450335
 	mother=1000450337
 	747.1.1={
@@ -5403,7 +5403,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450339
 	763.1.1={
 		birth=yes
@@ -5424,7 +5424,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450188
 	610.1.1={
 		birth=yes
@@ -5438,7 +5438,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450341
 	634.1.1={
 		birth=yes
@@ -5452,7 +5452,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450342
 	669.1.1={
 		birth=yes
@@ -5466,7 +5466,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450343
 	701.1.1={
 		birth=yes
@@ -5480,7 +5480,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450344
 	733.1.1={
 		birth=yes
@@ -5494,7 +5494,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450344
 	735.1.1={
 		birth=yes
@@ -5509,7 +5509,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450346
 	764.1.1={
 		birth=yes
@@ -5523,7 +5523,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450340
 	mother=1000450347
 	788.1.1={
@@ -5544,7 +5544,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450333
 	735.1.1={
 		birth=yes
@@ -5558,7 +5558,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450349
 	755.1.1={
 		birth=yes
@@ -5572,7 +5572,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450350
 	780.1.1={
 		birth=yes
@@ -5587,7 +5587,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450350
 	785.1.1={
 		birth=yes
@@ -5601,7 +5601,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450340
 	mother=1000450347
 	790.1.1={
@@ -5616,7 +5616,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450339
 	765.1.1={
 		birth=yes
@@ -5633,7 +5633,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450354
 	784.1.1={
 		birth=yes
@@ -5647,7 +5647,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450309
 	760.1.1={
 		birth=yes
@@ -5661,7 +5661,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450356
 	776.1.1={
 		birth=yes
@@ -5678,7 +5678,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450357
 	794.1.1={
 		birth=yes
@@ -5693,7 +5693,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450340
 	mother=1000450347
 	791.1.1={
@@ -5708,7 +5708,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450339
 	787.1.1={
 		birth=yes
@@ -5725,7 +5725,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450346
 	780.1.1={
 		birth=yes
@@ -5739,7 +5739,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450335
 	mother=1000450337
 	776.1.1={
@@ -5754,7 +5754,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450362
 	794.1.1={
 		birth=yes
@@ -5771,7 +5771,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450335
 	mother=1000450337
 	780.1.1={
@@ -5786,7 +5786,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450339
 	775.1.1={
 		birth=yes
@@ -5804,7 +5804,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450350
 	777.1.1={
 		birth=yes
@@ -5818,7 +5818,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450365
 	mother=1000450366
 	817.1.1={
@@ -5839,7 +5839,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450346
 	782.1.1={
 		birth=yes
@@ -5854,7 +5854,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450368
 	814.1.1={
 		birth=yes
@@ -5868,7 +5868,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450364
 	804.1.1={
 		birth=yes
@@ -5889,7 +5889,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450361
 	803.1.1={
 		birth=yes
@@ -5903,7 +5903,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450370
 	mother=1000450371
 	820.1.1={
@@ -5921,7 +5921,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450364
 	813.1.1={
 		birth=yes
@@ -5938,7 +5938,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450363
 	819.1.1={
 		birth=yes
@@ -5956,7 +5956,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450370
 	mother=1000450371
 	822.1.1={
@@ -5971,7 +5971,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450374
 	mother=1000450375
 	841.1.1={
@@ -5993,7 +5993,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450373
 	842.1.1={
 		birth=yes
@@ -6007,7 +6007,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450376
 	mother=1000450377
 	861.1.1={
@@ -6028,7 +6028,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450376
 	mother=1000450377
 	863.1.1={
@@ -6047,7 +6047,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450376
 	mother=1000450377
 	865.1.1={
@@ -6065,7 +6065,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450367
 	mother=1000450369
 	839.1.1={
@@ -6081,7 +6081,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450381
 	859.1.1={
 		birth=yes
@@ -6095,7 +6095,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	add_trait="bastard"
 	father=1000450378
 	mother=1000450382
@@ -6116,7 +6116,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	add_trait="bastard"
 	father=1000450378
 	mother=1000450382
@@ -6136,7 +6136,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450351
 	811.1.1={
 		birth=yes
@@ -6150,7 +6150,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450385
 	837.1.1={
 		birth=yes
@@ -6164,7 +6164,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450386
 	871.1.1={
 		birth=yes
@@ -6184,7 +6184,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450387
 	mother=1000450384
 	900.1.1={
@@ -6202,7 +6202,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450387
 	mother=1000450384
 	902.1.1={
@@ -6221,7 +6221,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450387
 	mother=1000450384
 	904.1.1={
@@ -6237,7 +6237,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	add_trait="bastard"
 	father=1000450378
 	mother=1000450382
@@ -6256,7 +6256,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450372
 	836.1.1={
 		birth=yes
@@ -6270,7 +6270,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450392
 	852.1.1={
 		birth=yes
@@ -6284,7 +6284,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450393
 	868.1.1={
 		birth=yes
@@ -6298,7 +6298,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450394
 	884.1.1={
 		birth=yes
@@ -6315,7 +6315,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450395
 	mother=1000450391
 	900.1.1={
@@ -6339,7 +6339,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450396
 	mother=1000450390
 	920.1.1={
@@ -6357,7 +6357,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450396
 	mother=1000450390
 	934.1.1={
@@ -6373,7 +6373,7 @@
 	dynasty=1000155011 #Gimhae Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450277
 	655.1.1={
 		birth=yes
@@ -6387,7 +6387,7 @@
 	dynasty=1000155011 #Gimhae Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450399
 	691.1.1={
 		birth=yes
@@ -6401,7 +6401,7 @@
 	dynasty=1000155011 #Gimhae Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450400
 	727.1.1={
 		birth=yes
@@ -6415,7 +6415,7 @@
 	dynasty=1000155011 #Gimhae Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450401
 	759.1.1={
 		birth=yes
@@ -6429,7 +6429,7 @@
 	dynasty=1000155011 #Gimhae Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450402
 	798.1.1={
 		birth=yes
@@ -6443,7 +6443,7 @@
 	dynasty=1000155011 #Gimhae Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450403
 	834.1.1={
 		birth=yes
@@ -6457,7 +6457,7 @@
 	dynasty=1000155011 #Gimhae Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450404
 	870.1.1={
 		birth=yes
@@ -6471,7 +6471,7 @@
 	dynasty=1000155011 #Gimhae Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450405
 	901.1.1={
 		birth=yes
@@ -8992,7 +8992,7 @@
 	dynasty=1000155040 #Geolsa Mohe
 	religion="tengri_pagan"
 	#culture="mohe"
-	culture = koren
+	culture = korean
 	father=1000450572
 	662.1.1={
 		birth=yes
@@ -9751,7 +9751,7 @@
 	dynasty=1000155004 #Gyeongju Suk
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450090
 	142.1.1={
 		birth=yes
@@ -10394,7 +10394,7 @@
 	dynasty=1000078000 #Gyeongju Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="seonggol"
+	#add_trait="seonggol"
 	father=1000450123
 	mother=1000450139
 	475.1.1={
@@ -11446,7 +11446,7 @@
 	dynasty=1000155011 #Gimhae Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450404
 	882.1.1={
 		birth=yes
@@ -11476,7 +11476,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450387
 	mother=1000450384
 	906.1.1={
@@ -11495,7 +11495,7 @@
 	dynasty=1000155011 #Gimhae Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450738
 	910.1.1={
 		birth=yes
@@ -11513,7 +11513,7 @@
 	dynasty=1000155003 #Pyeongsan Bak
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450740
 	920.1.1={
 		birth=yes
@@ -12526,7 +12526,7 @@
 	dynasty=1000155011 #Gimhae Gim
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="jingol"
+	#add_trait="jingol"
 	father=1000450738
 	915.1.1={
 		birth=yes

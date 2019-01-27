@@ -1,0 +1,16 @@
+# 3004 - Itoui
+
+# County Title
+title = c_itoui
+
+# Settlements
+max_settlements = 1
+
+b_itoui = tribal
+# Needs baronies!
+
+# Misc
+culture = ainu
+religion = tengri_pagan
+
+# History

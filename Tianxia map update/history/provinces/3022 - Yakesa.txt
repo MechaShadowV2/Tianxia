@@ -1,0 +1,16 @@
+# 3022 - Yakesa
+
+# County Title
+title = c_yakesa
+
+# Settlements
+max_settlements = 1
+
+b_yakesa = tribal
+# Needs baronies!
+
+# Misc
+culture = jurchen
+religion = tengri_pagan
+
+# History

@@ -1,0 +1,16 @@
+# 3003 - Laha
+
+# County Title
+title = c_laha
+
+# Settlements
+max_settlements = 1
+
+b_laha = tribal
+# Needs baronies!
+
+# Misc
+culture = ainu
+religion = tengri_pagan
+
+# History

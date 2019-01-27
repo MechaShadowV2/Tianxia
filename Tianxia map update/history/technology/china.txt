@@ -60,6 +60,7 @@ technology = {
 		d_guangnanxi
 		d_guixian
 		d_jiangmen
+		d_zhanjiang
 		d_guangnandong
 		d_lien
 		d_shaoguan

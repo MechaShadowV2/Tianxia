@@ -686,6 +686,9 @@ e_khmer = {
 				holy_site = viet_pagan
 				holy_site = viet_pagan_reformed
 				
+				holy_site = sanamahi_pagan
+				holy_site = sanamahi_pagan_reformed
+				
 				b_angkor = {
 				}
 				# Check these baronies!
