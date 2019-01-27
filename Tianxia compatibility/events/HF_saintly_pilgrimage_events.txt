@@ -111,7 +111,7 @@ character_event = {
     				}
                     event_target:first_burial_site = {
                         region = custom_russia
-                    }# TODO: Tianxia regions
+                    }
     			}
     		}
     		character_event = { id = HF.41310 days = 15}
@@ -129,7 +129,7 @@ character_event = {
     				}
     				event_target:first_burial_site = {
     					region = world_europe_south
-    				}# TODO: Tianxia regions
+    				}
     			}
     		}
     		character_event = { id = HF.41312 days = 15}
@@ -153,7 +153,7 @@ character_event = {
     				}
     				event_target:first_burial_site = {
     					region = world_africa_east
-    				}# TODO: Tianxia regions
+    				}
     			}
     		}
     		character_event = { id = HF.41314 days = 15 }
@@ -204,7 +204,7 @@ character_event = {
                     }
                     event_target:first_burial_site = {
                         region = custom_russia
-                    }# TODO: Tianxia regions
+                    }
                 }
     		}
     		character_event = { id = HF.41310 days = 15}
@@ -222,7 +222,7 @@ character_event = {
     				}
     				event_target:second_burial_site = {
     					region = world_europe_south
-    				}# TODO: Tianxia regions
+    				}
     			}
     		}
     		character_event = { id = HF.41312 days = 15}
@@ -246,7 +246,7 @@ character_event = {
     				}
     				event_target:second_burial_site = {
     					region = world_africa_east
-    				}# TODO: Tianxia regions
+    				}
     			}
     		}
     		character_event = { id = HF.41314 days = 15 }
@@ -298,7 +298,7 @@ character_event = {
                     }
                     event_target:first_burial_site = {
                         region = custom_russia
-                    }# TODO: Tianxia regions
+                    }#
                 }
     		}
     		character_event = { id = HF.41310 days = 15}
@@ -316,7 +316,7 @@ character_event = {
     				}
     				event_target:third_burial_site = {
     					region = world_europe_south
-    				}# TODO: Tianxia regions
+    				}
     			}
     		}
     		character_event = { id = HF.41312 days = 15}
@@ -340,7 +340,7 @@ character_event = {
     				}
     				event_target:third_burial_site = {
     					region = world_africa_east
-    				}# TODO: Tianxia regions
+    				}
     			}
     		}
     		character_event = { id = HF.41314 days = 15 }
@@ -392,7 +392,7 @@ character_event = {
                     }
                     event_target:first_burial_site = {
                         region = custom_russia
-                    }# TODO: Tianxia regions
+                    }
                 }
     		}
     		character_event = { id = HF.41310 days = 15}
@@ -413,7 +413,7 @@ character_event = {
     				}
        				event_target:fourth_burial_site = {
     					region = world_asia_minor
-    				}# TODO: Tianxia regions
+    				}
     			}
     		}
     		character_event = { id = HF.41312 days = 15}
@@ -435,7 +435,7 @@ character_event = {
     				}
     				event_target:fourth_burial_site = {
     					region = world_africa_east
-    				}# TODO: Tianxia regions
+    				}
     			}
     		}
     		character_event = { id = HF.41314 days = 15 }

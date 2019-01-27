@@ -51,7 +51,6 @@ feudal_governments = {
 				higher_tier_than = BARON
 			}
 			NAND = {
-				tier = EMPEROR
 				OR = {
 					primary_title = { has_title_flag = pretender_chinese_empire }
 					#OR = {
@@ -64,34 +63,60 @@ feudal_governments = {
 					AND = {
 						OR = {
 							has_landed_title = e_china
-							e_china = {
-								holder_scope = {
-									primary_heir = {
-										character = ROOT
+							any_liege = {
+								OR = {
+									AND = {
+										dynasty = ROOT
+										is_chinese_emperor_trigger = yes
+									}
+									liege_before_war = {
+										AND = {
+											dynasty = ROOT
+											is_chinese_emperor_trigger = yes
+										}
 									}
 								}
 							}
+							liege_before_war = {
+								AND = {
+									dynasty = ROOT
+									is_chinese_emperor_trigger = yes
+								}
+							}
 						}
-						religion = taoist
 					}
 				}
+				has_acceptable_chinese_religion_trigger = yes
 			}
 			is_patrician = no
 			NOR = {
 				any_liege = {
 					OR = {
 						is_chinese_emperor_trigger = yes
+						primary_title = {
+							has_title_flag = pretender_chinese_empire
+						}
 						liege_before_war = {
-							is_chinese_emperor_trigger = yes
+							OR = {
+								is_chinese_emperor_trigger = yes
+								primary_title = {
+									has_title_flag = pretender_chinese_empire
+								}
+							}
 						}
 					}
 				}
 				liege_before_war = {
-					is_chinese_emperor_trigger = yes
+					OR = {
+						is_chinese_emperor_trigger = yes
+						primary_title = {
+							has_title_flag = pretender_chinese_empire
+						}
+					}
 				}
 				AND = { # Without this, breakaways don't keep the government...
 					culture_group = chinese_group
-					religion = taoist
+					has_acceptable_chinese_religion_trigger = yes # Same requirement as for Chinese Imperial
 				}
 			}
 			#OR = {
@@ -155,7 +180,6 @@ feudal_governments = {
 			NOT = { is_government_potential = roman_imperial_government }
 			NOT = { is_government_potential = order_government }
 			NAND = {
-				tier = EMPEROR
 				OR = {
 					primary_title = { has_title_flag = pretender_chinese_empire }
 					#OR = {
@@ -168,34 +192,60 @@ feudal_governments = {
 					AND = {
 						OR = {
 							has_landed_title = e_china
-							e_china = {
-								holder_scope = {
-									primary_heir = {
-										character = ROOT
+							any_liege = {
+								OR = {
+									AND = {
+										dynasty = ROOT
+										is_chinese_emperor_trigger = yes
+									}
+									liege_before_war = {
+										AND = {
+											dynasty = ROOT
+											is_chinese_emperor_trigger = yes
+										}
 									}
 								}
 							}
+							liege_before_war = {
+								AND = {
+									dynasty = ROOT
+									is_chinese_emperor_trigger = yes
+								}
+							}
 						}
-						religion = taoist
 					}
 				}
+				has_acceptable_chinese_religion_trigger = yes
 			}
 			is_patrician = no
 			NOR = {
 				any_liege = {
 					OR = {
 						is_chinese_emperor_trigger = yes
+						primary_title = {
+							has_title_flag = pretender_chinese_empire
+						}
 						liege_before_war = {
-							is_chinese_emperor_trigger = yes
+							OR = {
+								is_chinese_emperor_trigger = yes
+								primary_title = {
+									has_title_flag = pretender_chinese_empire
+								}
+							}
 						}
 					}
 				}
 				liege_before_war = {
-					is_chinese_emperor_trigger = yes
+					OR = {
+						is_chinese_emperor_trigger = yes
+						primary_title = {
+							has_title_flag = pretender_chinese_empire
+						}
+					}
 				}
 				AND = { # Without this, breakaways don't keep the government...
 					culture_group = chinese_group
-					religion = taoist
+					has_acceptable_chinese_religion_trigger = yes # Same requirement as for Chinese Imperial
 				}
 			}
 		}
@@ -245,6 +295,7 @@ feudal_governments = {
 		potential = {
 			OR = {
 				controls_religion = no
+				religion = shinto
 				religion_group = muslim
 				has_religion_feature = religion_temporal_head
 				AND = {
@@ -275,7 +326,7 @@ feudal_governments = {
 				}
 			}
 			NAND = {
-				tier = EMPEROR
+				#tier = EMPEROR
 				OR = {
 					primary_title = { has_title_flag = pretender_chinese_empire }
 					#OR = {
@@ -288,35 +339,64 @@ feudal_governments = {
 					AND = {
 						OR = {
 							has_landed_title = e_china
-							e_china = {
-								holder_scope = {
-									primary_heir = {
-										character = ROOT
+							any_liege = {
+								OR = {
+									AND = {
+										dynasty = ROOT
+										is_chinese_emperor_trigger = yes
+									}
+									liege_before_war = {
+										AND = {
+											dynasty = ROOT
+											is_chinese_emperor_trigger = yes
+										}
+									}
+								}
+							}
+							liege_before_war = {
+								AND = {
+									dynasty = ROOT
+									is_chinese_emperor_trigger = yes
+								}
+							}
+						}
+					}
+				}
+				has_acceptable_chinese_religion_trigger = yes
+			}
+			is_patrician = no
+			OR = {
+				NOR = {
+					any_liege = {
+						OR = {
+							is_chinese_emperor_trigger = yes
+							primary_title = {
+								has_title_flag = pretender_chinese_empire
+							}
+							liege_before_war = {
+								OR = {
+									is_chinese_emperor_trigger = yes
+									primary_title = {
+										has_title_flag = pretender_chinese_empire
 									}
 								}
 							}
 						}
-						religion = taoist
 					}
-				}
-			}
-			is_patrician = no
-			NOR = {
-				any_liege = {
-					OR = {
-						is_chinese_emperor_trigger = yes
-						liege_before_war = {
+					liege_before_war = {
+						OR = {
 							is_chinese_emperor_trigger = yes
+							primary_title = {
+								has_title_flag = pretender_chinese_empire
+							}
 						}
 					}
+					AND = { # Without this, breakaways don't keep the government...
+						culture_group = chinese_group
+						has_acceptable_chinese_religion_trigger = yes # Same requirement as for Chinese Imperial
+					}
 				}
-				liege_before_war = {
-					is_chinese_emperor_trigger = yes
-				}
-				AND = { # Without this, breakaways don't keep the government...
-					culture_group = chinese_group
-					religion = taoist
-				}
+				has_landed_title = k_chrysanthemum_throne
 			}
 		}
 		
@@ -370,17 +450,30 @@ feudal_governments = {
 				AND = {
 					OR = {
 						has_landed_title = e_china
-						e_china = {
-							holder_scope = {
-								primary_heir = {
-									character = ROOT # This should allow a landed heir of the EoC to keep all concubines he has been given prior to being landed...
+						any_liege = {
+							OR = {
+								AND = {
+									dynasty = ROOT
+									is_chinese_emperor_trigger = yes
+								}
+								liege_before_war = {
+									AND = {
+										dynasty = ROOT
+										is_chinese_emperor_trigger = yes
+									}
 								}
 							}
 						}
+						liege_before_war = {
+							AND = {
+								dynasty = ROOT
+								is_chinese_emperor_trigger = yes
+							}
+						}
 					}
-					religion = taoist
 				}
 			}
+			has_acceptable_chinese_religion_trigger = yes
 			is_patrician = no
 		}
 		
@@ -586,17 +679,30 @@ feudal_governments = {
 				any_liege = {
 					OR = {
 						is_chinese_emperor_trigger = yes
+						primary_title = {
+							has_title_flag = pretender_chinese_empire
+						}
 						liege_before_war = {
-							is_chinese_emperor_trigger = yes
+							OR = {
+								is_chinese_emperor_trigger = yes
+								primary_title = {
+									has_title_flag = pretender_chinese_empire
+								}
+							}
 						}
 					}
 				}
 				liege_before_war = {
-					is_chinese_emperor_trigger = yes
+					OR = {
+						is_chinese_emperor_trigger = yes
+						primary_title = {
+							has_title_flag = pretender_chinese_empire
+						}
+					}
 				}
 				AND = { # Without this, breakaways don't keep the government...
 					culture_group = chinese_group
-					religion = taoist
+					has_acceptable_chinese_religion_trigger = yes # Same requirement as for Chinese Imperial
 				}
 			}
 			NOT = {

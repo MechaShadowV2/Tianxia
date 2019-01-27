@@ -87,18 +87,16 @@ imperial_conquest = {
 	}
 
 	can_use_title = {
-		de_jure_liege_or_above = e_china
-		#OR = {
-		#	de_jure_liege_or_above = k_liang
-		#	de_jure_liege_or_above = k_wu
-		#	de_jure_liege_or_above = k_chu
-		#	de_jure_liege_or_above = k_shu
-		#	de_jure_liege_or_above = k_han
-		#	de_jure_liege_or_above = k_wuyue
-		#	de_jure_liege_or_above = k_min
-		#	de_jure_liege_or_above = k_yan
-		#	de_jure_liege_or_above = k_qi
-		#}
+		OR = {
+			de_jure_liege_or_above = e_china # Currently part of de jure China
+			AND = { # Part of the starting de jure of China
+				region = world_china
+				NOR = {
+					region = world_taiwan # Not part of de jure China at the start
+					region = world_dali # Not part of de jure China at the start
+				}
+			}
+		}
 	}
 	
 	on_add = {

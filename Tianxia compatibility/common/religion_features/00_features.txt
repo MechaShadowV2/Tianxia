@@ -45,6 +45,17 @@ religion_nature = {
 				factor = 0.25		#Pacifists should be rarer in general in Random World.
 				has_game_started = no
 			}
+			modifier = {
+				factor = 0
+				FROM = {
+					character = yes 
+					religion = ryukyuan_pagan
+					has_game_rule = {
+						name = ryukyuan_reformation_doctrines
+						value = three_mountains_only
+					}
+				}
+			}
 		}
 	}
 	religion_warlike = {
@@ -89,9 +100,11 @@ religion_nature = {
 				factor = 0.01
 				FROM = { 
 					character = yes
-					religion = bon
-					religion = sanamahi_pagan
-					religion = chinese_pagan
+					OR = {
+						religion = bon
+						religion = sanamahi_pagan
+						religion = chinese_pagan
+					}
 				}
 			}
 			modifier = { 	
@@ -255,6 +268,17 @@ religion_nature = {
 					trait = cynical 
 				}
 			}
+			modifier = {
+				factor = 0
+				FROM = {
+					character = yes 
+					religion = ryukyuan_pagan
+					has_game_rule = {
+						name = ryukyuan_reformation_doctrines
+						value = three_mountains_only
+					}
+				}
+			}
 		}
 	}
 	religion_proselytizing = {
@@ -292,16 +316,18 @@ religion_nature = {
 			modifier = { 	
 				factor = 0.01
 				FROM = { 
-					character = yes 
-					religion = bon
-					religion = chinese_pagan
-					religion = korean_pagan
-					religion = sanamahi_pagan
-					religion = ainu_pagan
-					religion = viet_pagan
-					religion = dayak_pagan
-					religion = melanesian_pagan
-					religion = ryukyuan_pagan
+					character = yes
+					OR = {
+						religion = bon
+						religion = chinese_pagan
+						religion = korean_pagan
+						religion = sanamahi_pagan
+						religion = ainu_pagan
+						religion = viet_pagan
+						religion = dayak_pagan
+						religion = melanesian_pagan
+						religion = ryukyuan_pagan
+					}
 				}
 			}
 			modifier = { 	
@@ -358,6 +384,17 @@ religion_nature = {
 				has_game_started = no
 				religion_group = pagan_group
 			}
+			modifier = {
+				factor = 0
+				FROM = {
+					character = yes 
+					religion = ryukyuan_pagan
+					has_game_rule = {
+						name = ryukyuan_reformation_doctrines
+						value = three_mountains_only
+					}
+				}
+			}
 		}
 	}
 	religion_dogmatic = {
@@ -402,15 +439,17 @@ religion_nature = {
 			modifier = { 	
 				factor = 0.01
 				FROM = { 
-					character = yes 
-					religion = bon
-					religion = chinese_pagan
-					religion = korean_pagan
-					religion = viet_pagan
-					religion = ainu_pagan
-					religion = sanamahi_pagan
-					religion = dayak_pagan
-					religion = melanesian_pagan
+					character = yes
+					OR = {
+						religion = bon
+						religion = chinese_pagan
+						religion = korean_pagan
+						religion = viet_pagan
+						religion = ainu_pagan
+						religion = sanamahi_pagan
+						religion = dayak_pagan
+						religion = melanesian_pagan
+					}
 				}
 			}
 			modifier = { 	
@@ -450,6 +489,17 @@ religion_nature = {
 				factor = 0.5		#Should be rarer than regular ones.
 				has_game_started = no
 			}
+			modifier = {
+				factor = 0.1 # More aggressive than default, so might be willing to go for it infrequently
+				FROM = {
+					character = yes 
+					religion = ryukyuan_pagan
+					has_game_rule = {
+						name = ryukyuan_reformation_doctrines
+						value = three_mountains_only
+					}
+				}
+			}
 		}
 	}
 	religion_cosmopolitan = {
@@ -487,9 +537,12 @@ religion_nature = {
 						religion = hellenic_pagan
 						religion = west_african_pagan
 						religion = slavic_pagan
-						religion = ryukyuan_pagan # Three Mountains
+						religion = ryukyuan_pagan
 						religion = dayak_pagan
 						religion = ainu_pagan
+						religion = chinese_pagan
+						religion = viet_pagan
+						religion = korean_pagan
 					}
 				}
 			}
@@ -543,6 +596,43 @@ religion_nature = {
 			modifier = { #Handles feature randomization in AltStart to make unreformed pagans still have "paganish" features.
 				factor = 0.5		#Should be rarer than regular ones.
 				has_game_started = no
+			}
+			modifier = {
+				factor = 0
+				FROM = {
+					character = yes 
+					religion = ryukyuan_pagan
+					has_game_rule = {
+						name = ryukyuan_reformation_doctrines
+						value = three_mountains_only
+					}
+				}
+			}
+			modifier = {
+				factor = 1000
+				FROM = {
+					character = yes
+					OR = {
+						AND = {
+							religion = chinese_pagan
+							has_game_rule = {
+								name = chinese_imperial_package_deal
+								value = chinese_imperial_package_deal_chinese_only
+							}
+						}
+						AND = {
+							OR = {
+								religion = chinese_pagan
+								religion = korean_pagan
+								religion = viet_pagan
+							}
+							has_game_rule = {
+								name = chinese_imperial_package_deal
+								value = chinese_imperial_package_deal_allowed
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -630,6 +720,7 @@ religion_doctrine = {
 				has_selected_religion_feature = religion_feature_chinese # Redunant
 				has_selected_religion_feature = religion_feature_korean # Redunant
 				has_selected_religion_feature = religion_feature_viet # Redunant
+				has_selected_religion_feature = chinese_imperial_package_deal
 			}
 		}
 		effect = {
@@ -660,6 +751,7 @@ religion_doctrine = {
 			NOR = { 
 				has_selected_religion_feature = religion_feature_slavic # Redundant Doctrine
 				has_selected_religion_feature = religion_feature_finnish # Redundant Doctrine
+				has_selected_religion_feature = chinese_imperial_package_deal
 			}
 		}
 		effect = {
@@ -677,10 +769,20 @@ religion_doctrine = {
 				religion_group = pagan_group
 			}
 			modifier = {
-				factor = 2
+				factor = 10
 				FROM = {
 					character = yes
 					religion = chinese_pagan # Suitable
+				}
+			}
+			modifier = {
+				factor = 5
+				FROM = {
+					character = yes
+					OR = {
+						religion = viet_pagan # Suitable
+						religion = korean_pagan # Suitable
+					}
 				}
 			}
 			modifier = {
@@ -850,6 +952,10 @@ religion_doctrine = {
 				has_selected_religion_feature = religion_equal
 				has_selected_religion_feature = religion_feature_bon
 				has_selected_religion_feature = religion_meritocratic
+				has_selected_religion_feature = religion_feature_chinese
+				has_selected_religion_feature = religion_feature_viet
+				has_selected_religion_feature = religion_feature_korean
+				has_selected_religion_feature = chinese_imperial_package_deal
 			}
 		}
 		effect = {
@@ -892,7 +998,8 @@ religion_doctrine = {
 				has_selected_religion_feature = religion_matriarchal
 				has_selected_religion_feature = religion_patriarchal
 				has_selected_religion_feature = religion_feature_bon
-				has_selected_religion_feature = religion_feature_ryukyuan
+				has_selected_religion_feature = religion_feature_ryukyuan_historical
+				has_selected_religion_feature = religion_feature_ryukyuan_three_mountains
 				trigger_if = {
 					limit = { has_game_started = yes }
 					FROM = { 
@@ -953,6 +1060,9 @@ religion_doctrine = {
 				has_selected_religion_feature = religion_equal
 				has_selected_religion_feature = religion_feature_bon
 				has_selected_religion_feature = religion_meritocratic
+				has_selected_religion_feature = religion_feature_chinese
+				has_selected_religion_feature = religion_feature_viet
+				has_selected_religion_feature = religion_feature_korean
 				trigger_if = {
 					limit = { has_game_started = yes }
 					FROM = { 
@@ -1067,6 +1177,7 @@ religion_doctrine = {
 				has_selected_religion_feature = religion_feature_norse #Redundant
 				has_selected_religion_feature = religion_feature_aztec
 				has_selected_religion_feature = religion_feature_melanesian #Redundant
+				has_selected_religion_feature = religion_feature_ryukyuan_historical #Redundant
 			}
 		}
 		effect = {
@@ -1086,6 +1197,10 @@ religion_doctrine = {
 								religion = zun_pagan
 								religion = aztec
 								religion = hellenic_pagan
+								religion = chinese_pagan
+								religion = viet_pagan
+								religion = korean_pagan
+								religion = ryukyuan_pagan
 							}
 						}
 					}
@@ -1145,7 +1260,7 @@ religion_doctrine = {
 				has_selected_religion_feature = religion_defensive
 				has_selected_religion_feature = religion_feature_aztec #Redundant
 				has_selected_religion_feature = religion_feature_tengri
-				has_selected_religion_feature = religion_feature_ryukyuan #Redundant
+				has_selected_religion_feature = religion_feature_ryukyuan_three_mountains #Redundant
 			}
 		}
 		effect = {
@@ -1806,9 +1921,11 @@ religion_leadership = {
 			if = { 
 				limit = { 
 					FROM = { 
-						character = yes 
-						religion = finnish_pagan
-						religion = ainu_pagan
+						character = yes
+						OR = {
+							religion = finnish_pagan
+							religion = ainu_pagan
+						}
 					}
 					has_selected_religion_feature = religion_monastic
 				}
@@ -1821,9 +1938,11 @@ religion_leadership = {
 			else_if = { 
 				limit = { 
 					FROM = { 
-						character = yes 
-						religion = finnish_pagan
-						religion = ainu_pagan
+						character = yes
+						OR = {
+							religion = finnish_pagan
+							religion = ainu_pagan
+						}
 					}
 				}
 				set_character_modifier = {
@@ -1966,6 +2085,10 @@ religion_leadership = {
 					character = yes 
 					trait = cynical 
 				}
+			}
+			modifier = {
+				factor = 1000
+				has_selected_religion_feature = chinese_imperial_package_deal
 			}
 		}
 	}

@@ -246,6 +246,7 @@ succession_laws = {
 			is_primary_type_title = no
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
+			NOT = { holder_scope = { government = chinese_vassal_government } }
 		}
 		allow = {
 			conditional_tooltip = {
@@ -324,6 +325,9 @@ succession_laws = {
 					has_religion_feature = religion_beatification
 					has_religion_feature = religion_feature_baltic
 					has_religion_feature = religion_feature_west_african
+					has_religion_feature = religion_feature_viet
+					has_religion_feature = religion_feature_dayak
+					has_religion_feature = religion_feature_sanamahi
 				}
 			}
 			holder_scope = {
@@ -368,6 +372,7 @@ succession_laws = {
 			is_primary_type_title = no
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
+			NOT = { holder_scope = { government = chinese_vassal_government } }
 		}
 		allow = {
 			conditional_tooltip = {
@@ -384,9 +389,24 @@ succession_laws = {
 							is_tribal = yes
 							religion = west_african_pagan
 						}
+						AND = {
+							is_tribal = yes
+							religion = viet_pagan
+						}
+						AND = {
+							is_tribal = yes
+							religion = dayak_pagan
+						}
+						AND = {
+							is_tribal = yes
+							religion = sanamahi_pagan
+						}
 						has_religion_feature = religion_beatification
 						has_religion_feature = religion_feature_baltic
 						has_religion_feature = religion_feature_west_african
+						has_religion_feature = religion_feature_viet
+						has_religion_feature = religion_feature_dayak
+						has_religion_feature = religion_feature_sanamahi
 					}
 				}
 				custom_tooltip = {
@@ -850,6 +870,7 @@ succession_laws = {
 			}
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
+			NOT = { holder_scope = { government = chinese_vassal_government } }
 			NOR = {  #Special Elective.
 				title = e_hre 
 				has_title_flag = alternate_hre
@@ -957,6 +978,7 @@ succession_laws = {
 			}
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
+			NOT = { holder_scope = { government = chinese_vassal_government } }
 		}
 		allow = {
 			custom_tooltip = {
@@ -1015,7 +1037,7 @@ succession_laws = {
 			is_primary_type_title = no
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
-
+			NOT = { holder_scope = { government = chinese_vassal_government } }
 		}
 		allow = {
 			custom_tooltip = {
@@ -1100,6 +1122,7 @@ succession_laws = {
 			}
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
+			NOT = { holder_scope = { government = chinese_vassal_government } }
 		}
 		allow = {
 			OR = {
@@ -1501,6 +1524,7 @@ succession_laws = {
 			}
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
+			NOT = { holder_scope = { government = chinese_vassal_government } }
 		}
 		
 		effect = {
@@ -1540,6 +1564,7 @@ succession_laws = {
 			is_primary_type_title = no
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
+			NOT = { holder_scope = { government = chinese_vassal_government } }
 		}
 		effect = {
 			succession = catholic_bishopric

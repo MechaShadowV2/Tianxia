@@ -307,7 +307,7 @@ narrative_event = {
 				capital_scope = {
 					NOR = {
 						region = world_india
-						region = world_east_asia # TODO
+						region = world_east_asia
 						region = world_tibet
 					}
 				}

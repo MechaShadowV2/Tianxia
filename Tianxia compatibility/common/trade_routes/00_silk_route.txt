@@ -80,7 +80,60 @@ silk_road = {
 			province_id = 1142 # Pratishthana
 			province_id = 1215 # Dakhina Desa
 			
-			# Far East
+			# Added Tianxia provinces
+			province_id = 2861 # Chang'an
+			province_id = 2804 # Wuhou
+			province_id = 2691 # Litang
+			province_id = 2639 # Mong Yang
+			province_id = 2632 # Pagan
+			province_id = 2619 # Pegu
+			province_id = 2657 # Dali
+			province_id = 2655 # Pu'er
+			province_id = 2643 # Kyaingtong
+			province_id = 2566 # Haripunchai
+			province_id = 2558 # Lavapura
+			province_id = 2550 # Chaiya
+			province_id = 2268 # Lamuri
+			province_id = 2608 # Luang Prabang
+			province_id = 2573 # Angkor
+			province_id = 2571 # Chantaburi
+			province_id = 2685 # Dai La
+			province_id = 2698 # Zhenzhou
+			province_id = 2671 # Indrapura
+			province_id = 2596 # Champassak
+			province_id = 2669 # Vijaya
+			province_id = 2577 # Oc Eo
+			province_id = 2537 # Temasek
+			province_id = 2292 # Pelalawan
+			province_id = 2540 # Melaka
+			province_id = 2281 # Panai
+			province_id = 2305 # Palembang
+			province_id = 2322 # Kalapa
+			province_id = 2867 # Hong'an
+			province_id = 2769 # Tanzhou
+			province_id = 2724 # Guangzhou
+			province_id = 2707 # Hong Kong
+			province_id = 2829 # Fu
+			province_id = 2736 # Changle
+			province_id = 2851 # Hefei
+			province_id = 2753 # Hangzhou
+			province_id = 2844 # Guangling
+			province_id = 2876 # Luoyang
+			province_id = 2882 # Kaifeng
+			province_id = 2889 # Linyi
+			province_id = 2914 # Dadu
+			province_id = 2934 # Hanseong
+			province_id = 2944 # Naju
+			province_id = 2923 # Liaoyang
+			province_id = 2955 # Busan
+			province_id = 2940 # Jeonju
+			province_id = 2975 # Pyeongan
+			province_id = 2445 # Hizen
+			province_id = 2456 # Iyo
+			province_id = 2481 # Settsu
+			province_id = 2485 # Yamashiro
+			province_id = 2436 # Chuzan
+			province_id = 2734 # Quanzhou
 		}
 	}
 
@@ -96,42 +149,251 @@ silk_road = {
 	}
 
 	start = {				# Start provinces of trade route # TODO - start in China proper
-		1509 # Anxi
-		1510 # Kundina
-		1512 # Water Node
+		2861 # Chang'an
 	}
 	
 	
 	
-	# TODO: Adapt for the Far East
-	# Northern entry -> Jiuquan
-	path = { # Northern entry
-		1509 1513
+	# Chang'an -> Jiuquan
+	path = { # Chang'an-Dingxi-Lanzhou-Ganzhou-Jiuquan
+		2861 2858 2857 2856 1513
 	}
-	# Central -> Markam
+	# Chang'an -> Luangchuan
+	path = { # Chang'an-Shangluo-Luangchuan
+		2861 2874 2873
+	}
+	# Luangchuan -> Wuhou
+	path = { # Luangchuan-Ankang-Bazhong-Santai-Wuhou
+		2873 2815 2812 2808 2804
+	}
+	# Wuhou -> Litang
+	path = { # Wuhou-Chongzhou-Barkam-Garze-Litang
+		2804 2805 2694 2693 2691
+	}
+	# Litang -> Markam
 	path = { # Central entry-Markam
-		1510 1505
+		2691 1505
 	}
-	# Southern entry -> Samatata
-	path = { # Southern entry-Irrawady Delta-Arakanese Coast-Ganges Delta-Samatata
-		1512 2001 2000 1411 1318
+	# Litang -> Mong Yang -> Pagan -> Pegu
+	path = { # Litang-Gyaltang-Hkamti Long-Mong Kawng-Mong Yang-Tagaung-Tabayin-Pagan-Ava-Yamethin-Minbu-Taungoo-Pegu
+		2691 2651 2650 2648 2639 2638 2635 2632 2631 2629 2626 2620 2619
 	}
-	# Southern entry -> Vijayawada
-	path = { # Southern entry-North Cormandel Coast-Vijayawada
+	# Pegu -> Samatata
+	path = { # Pegu-Irrawady Delta-Arakanese Coast-Ganges Delta-Samatata
+		2619 2001 2000 1411 1318
+	}
+	# Wuhou -> Dali
+	path = { # Wuhou-Ya'an-Jinyang-Panzhihua-Dali
+		2804 2800 2797 2662 2657
+	}
+	# Dali -> Pu'er
+	path = { # Dali-Lincang-Pu'er
+		2657 2654 2655
+	}
+	# Pu'er -> Kyaingtong -> Haripunchai -> Kamphaeng Phet
+	path = { # Pu'er-Sibsongbanna-Kyaingtong-Mong Nai-Chiang Mai-Haripunchai-Sukhotai-Kamphaeng Phet
+		2655 2645 2643 2642 2567 2566 2565 2563
+	}
+	# Kamphaeng Phet -> Pegu
+	path = { # Kamphaeng Phet-Thaton-Pegu
+		2563 2618 2619
+	}
+	# Kamphaeng Phet -> Lavapura -> Pathum Thani
+	path = { # Kamphaeng Phet-Nakhon Sawan-Lavapura-Pathum Thani
+		2563 2557 2558 2559
+	}
+	# Pathum Thani -> Chaiya
+	path = { # Pathum Thani-2054-2053-Chaiya # TODO: Sea zone names!
+		2559 2054 2053 2550
+	}
+	# Pu'er -> Luang Prabang -> Angkor
+	path = { # Pu'er-Phongsali-Muang Xay-Luang Prabang-Sayabouly-Wiang Jun-Loei-Khon Kaen-Maha Sarakham-Angkor
+		2655 2612 2610 2608 2607 2603 2587 2586 2583 2573
+	}
+	# Pu'er -> Dai La -> Hai Phong
+	path = { # Pu'er-Lai Chau-Lao Cai-Dai La-Hai Phong
+		2655 2680 2681 2685 2684
+	}
+	# Hai Phong -> Zhenzhou
+	path = { # Hai Phong-2063-Zhenzhou # TODO: Sea zone names!
+		2684 2063 2698
+	}
+	# Luangchuan -> Hong'an
+	path = { # Luangchuan-Nanyang-Xiangyang-Suizhou-Hong'an
+		2873 2872 2869 2868 2867
+	}
+	# Hong'an -> Tanzhou
+	path = { # Hong'an-Wuhan-Yueyang-Tanzhou
+		2867 2820 2770 2769
+	}
+	# Tanzhou -> Guangzhou -> Hong Kong
+	path = { # Tanzhou-Loudi-Shaoyang-Yongzhou-Hezhou-Zhaoqing-Guangzhou-Dongguan-Hong Kong
+		2769 2775 2776 2766 2761 2723 2724 2725 2707
+	}
+	# Tanzhou -> Fu -> Changle
+	path = { # Tanzhou-Ji'an-Le'an-Fu-Shaowu-Nanping-Yongtai-Changle
+		2769 2825 2830 2829 2828 2741 2740 2736
+	}
+	# Hong'an -> Hefei
+	path = { # Hong'an-Huanggang-Anqing-Hefei
+		2867 2854 2852 2851
+	}
+	# Hefei -> Hangzhou
+	path = { # Hefei-Xuansheng-Hangzhou
+		2851 2841 2753
+	}
+	# Hefei -> Guangling -> Nantong
+	path = { # Hefei-Chuzhou-Guangling-Nantong
+		2851 2848 2844 2843
+	}
+	# Luangchuan -> Luoyang -> Kaifeng
+	path = { # Luangchuan-Luoyang-Zhengzhou-Kaifeng
+		2873 2876 2878 2882
+	}
+	# Kaifeng -> Linyi
+	path = { # Kaifeng-Jining-Jinan-Linyi
+		2882 2887 2888 2889
+	}
+	# Kaifeng -> Dadu
+	path = { # Kaifeng-Liaocheng-Dezhou-Cangzhou-Dadu
+		2882 2902 2903 2907 2914
+	}
+	# Dadu -> Dengzhou
+	path = { # Dadu-2128-Dengzhou # TODO: Sea zone names!
+		2914 2128 2891
+	}
+	# Dengzhou -> Hanseong
+	path = { # Dengzhou-2127-2131-Hanseong # TODO: Sea zone names!
+		2891 2127 2131 2934
+	}
+	# Dengzhou -> Linyi
+	path = { # Dengzhou-2126-2124-Linyi # TODO: Sea zone names!
+		2891 2126 2124 2889
+	}
+	# Linyi -> Nantong
+	path = { # Linyi-2124-2121-Nantong # TODO: Sea zone names!
+		2889 2124 2121 2843
+	}
+	# Linyi -> Naju
+	path = { # Linyi-2124-2125-Naju # TODO: Sea zone names! 
+		2889 2124 2125 2944
+	}
+	# Dadu -> Liaoyang -> Pyeongyang
+	path = { # Dadu-Kaiping-Qinhuangdao-Jinzhou-Liaoyang-Fengcheng-Guseong-Anju-Pyeongyang
+		2914 2916 2918 2919 2923 2926 2928 2929 2930
+	}
+	# Pyeongyang -> Hanseong
+	path = { # Pyeongyang-Haeju-Gaeseong-Hanseong
+		2930 2931 2932 2934
+	}
+	# Hanseong -> Cheongju
+	path = { # Hanseong-Hwaseong-Suwon-Cheongju
+		2934 2935 2936 2938
+	}
+	# Cheongju -> Busan
+	path = { # Cheongju-Daejeon-Daegu-Miryang-Busan
+		2938 2957 2953 2954 2955
+	}
+	# Cheongju -> Jeonju -> Naju
+	path = { # Cheongju-Nonsan-Jeonju-Gimje-Naju 
+		2938 2939 2940 2941 2944
+	}
+	# Naju -> Busan
+	path = { # Naju-2134-Busan # TODO: Sea zone names!
+		2944 2134 2955
+	}
+	# Pyeongyang -> Pyeongan -> Busan
+	path = { # Pyeongyang-Hwangju-Pyeongan-Wonsan-Gangneung-Samcheok-Uljin-Gyeongju-Dongnae-Busan
+		2930 2970 2975 2974 2968 2964 2963 2959 2956 2955
+	}
+	# Busan -> Hizen -> Iyo -> Settsu -> Yamashiro
+	path = { # Busan-2134-Hizen-2143-2137-Iyo-2138-2139-Settsu-Yamashiro # TODO: Sea zone names!
+		2955 2134 2445 2143 2137 2456 2138 2139 2481 2485
+	}
+	# Nantong -> Hangzhou
+	path = { # Nantong-2121-Hangzhou # TODO: Sea zone names!
+		2843 2121 2753
+	}
+	# Hangzhou -> Changle
+	path = { # Hangzhou-2121-2119-2112-Changle # TODO: Sea zone names!
+		2753 2121 2119 2112 2736
+	}
+	# Hangzhou -> Chuzan
+	path = { # Hangzhou-2121-2119-2120-2116-Chuzan # TODO: Sea zone names!
+		2753 2121 2119 2120 2116 2436
+	}
+	# Changle -> Chuzan
+	path = { # Changle-2112-2114-2120-2116-Chuzan # TODO: Sea zone names!
+		2736-2112 2114 2120 2116 2436
+	}
+	# Changle -> Quanzhou -> Hong Kong
+	path = { # Changle-2112-Strait of Taiwan-Quanzhou-2110-2109-Hong Kong # TODO: Sea zone names!
+		2736 2112 2111 2734 2110 2109 2707
+	}
+	# Hong Kong -> Zhenzhou
+	path = { # Hong Kong-2109-2066-2065-Zhenzhou # TODO: Sea zone names!
+		2707 2109 2066 2065 2698
+	}
+	# Zhenzhou -> Indrapura
+	path = { # Zhenzhou-2061-Indrapura # TODO: Sea zone names!
+		2698 2061 2671
+	}
+	# Indrapura -> Champassak -> Angkor
+	path = { # Indrapura-Hue-Salavan-Champassak-Preah Vihear-Angkor
+		2671 2672 2599 2596 2580 2573
+	}
+	# Angkor -> Chantaburi
+	path = { # Angkor-Battambang-Chantaburi
+		2573 2572 2571
+	}
+	# Chantaburi -> Chaiya
+	path = { # Chantaburi-2054-2053-Chaiya # TODO: Sea zone names!
+		2571 2054 2053 2550
+	}
+	# Indrapura -> Vijaya -> Oc Eo
+	path = { # Indrapura-2061-Vijaya-2060-Cam Ranh Bay-Cape Cà Mau-Oc Eo # TODO: Sea zone names!
+		2671 2061 2669 2060 2059 2056 2577
+	}
+	# Oc Eo -> Chaiya
+	path = { # Oc Eo-2055-2053-Chaiya # TODO: Sea zone names!
+		2577 2055 2053 2550
+	}
+	# Chaiya -> Pegu
+	path = { # Chaiya-2005-2004-Irrawady Delta-Pegu # TODO: Sea zone names!
+		2550 2005 2004 2001 2619
+	}
+	# Chaiya -> Lamuri
+	path = { # Chaiya-2005-2006-2010-Lamuri # TODO: Sea zone names!
+		2550 2005 2006 2010 2268
+	}
+	# Oc Eo -> Temasek
+	path = { # Oc Eo-Cape Cà Mau-2051-2046-Temasek # TODO: Sea zone names!
+		2577 2056 2051 2046 2537
+	}
+	# Temasek -> Pelalawan -> Melaka -> Panai -> Lamuri
+	path = { # Temasek-Pelalawan-Straits of Johor-Melaka-Eastern Strait of Malacca-Panai-Western Strait of Malacca-2006-2010-Lamuri # TODO: Sea zone names!
+		2537 2292 2009 2540 2008 2281 2007 2006 2010 2268
+	}
+	# Lamuri -> Water node
+	path = { # Lamuri-2010-Water node # TODO: Sea zone names!
+		2268 2010 1512
+	}
+	# Temasek -> Palembang -> Kalapa
+	path = { # Temasek-2044-2045-Palembang-2041-2017-Kalapa # TODO: Sea zone names!
+		2537 2044 2045 2305 2041 2017 2322
+	}
+	# Water node -> Vijayawada
+	path = { # Water node-North Cormandel Coast-Vijayawada
 		1512 1407 1221
 	}
-	# Southern entry -> Dakhina Desa
-	path = { # Southern entry-South Lanka Coast-Gulf of Mannar-Dakhina Desa
+	# Water node -> Dakhina Desa
+	path = { # Water node-South Lanka Coast-Gulf of Mannar-Dakhina Desa
 		1512 1403 1402 1215
 	}
-	# Southern entry -> Cholamandalam
-	path = { # Southern entry-South Cormandel Coast-Cholamandalam
+	# Water node -> Cholamandalam
+	path = { # Water node-South Cormandel Coast-Cholamandalam
 		1512 1406 1115
 	}
-	
-	# The entries below do not need to be updated further at this time
-	
-	
 	# Markam -> Kunggar
 	path = { # Markam-Bome-Nyangchi-Kunggar
 		1505 1553 1500 1557
@@ -144,7 +406,7 @@ silk_road = {
 	path = { # Samatata-Candradvipa-Tamralipti-Midnapore-Viraja-Kataka-Puri-Kalingnagar-Vizagipatam-Pithapuram-Vengipura-Vijayawada
 		1318 1236 1235 1232 1231 1129 1225 1224 1128 1415 1123 1221
 	}
-	# Kunggar -> Lhasa ->Purang -> Kathmandu- > Magadha
+	# Kunggar -> Lhasa -> Purang -> Kathmandu- > Magadha
 	path = { # Kunggar-Lhasa-Shigatse-Lhatse-Coqen-Zhongba-Gegyai-Purang-Mangyul-Pokhara-Kathmandu-Janakpur-Simarampura-Mithila-Magadha
 		1557 1498 1499 1561 1493 1562 1563 1491 1476 1475 1478 1477 1420 1419 1154
 	}
@@ -352,12 +614,10 @@ silk_road = {
 	path = { # Alexandria-Coast of Egypt-Sea of Crete-Peloponnesian Bay-Ionian Sea-Cephalonia
 		802 938 937 1891 1037 474
 	}
-	
 	# Cephalonia -> Ragusa -> Venezia
 	path = { # Cephalonia-Strait of Otranto-Ragusa-Adriatic Sea-Gulf of Venice-Venezia
 		474 1038 468 1109 1110 356
 	}
-
 	# Cephalonia -> Amalfi -> Roma -> Pisa -> Genoa
 	path = { #Cephalonia-Golfo di Taranto-Messina-Strait di Messina-Amalfi-Golfo di Napoli-Roma-Tyrrhenian Sea-Pisa-Ligurian Sea-Genoa
 		474 1036 339 1032 935 1031 333 1029 327 1028 233

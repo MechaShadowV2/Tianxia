@@ -170,7 +170,7 @@ decisions = {
 					#	}
 					#}
 				}
-				#character_event = { id = HF.24240 tooltip = tooltip_evt_hf_24240 } # TODO: Proper fake Imperial Chinese bloodline
+				#character_event = { id = HF.24240 tooltip = tooltip_evt_hf_24240 } # Handled in naming event
 			}
 			primary_title = {
 				set_title_flag = pretender_chinese_empire

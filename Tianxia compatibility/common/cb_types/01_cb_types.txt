@@ -5171,7 +5171,7 @@ dismantle_pretender_china_cb = {
 	defender_unoccupied_warscore = yes
 	
 	can_use = {
-#		always = no # Disabled due to no rebel generals at the moment, might enable for pretender empires!
+		always = no # Disabled due to no rebel generals at the moment, might enable for pretender empires!
 		ROOT = {
 			independent = yes
 			NOT = { same_realm = FROM }

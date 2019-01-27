@@ -2212,9 +2212,9 @@ true_religion_jain_trigger = {
 	true_religion = jain
 }
 
-true_religion_jain_trigger = {
-	true_religion = jain
-}
+#true_religion_jain_trigger = {
+#	true_religion = jain
+#}
 
 true_religion_norse_pagan_trigger = {
 	true_religion = norse_pagan
@@ -6148,40 +6148,60 @@ silk_road_trade_post_trigger = { # TODO: Update as part of map rework
 				province_id = 1142 # Pratishthana
 				province_id = 1215 # Dakhina Desa
 				
-				# Added (Far East)
-#				province_id = 1782 # Chang'an
-#				province_id = 1879 # Luoyang
-#				province_id = 2328 # Chengdu
-#				province_id = 1710 # Dali
-#				province_id = 2284 # Bagan
-#				province_id = 2279 # Thaton
-#				province_id = 1696 # Dai La
-#				province_id = 1698 # Hai Phong
-#				province_id = 2317 # Nakhom Phatom
-#				province_id = 2320 # Chaiya
-#				province_id = 1626 # Melaka
-#				province_id = 1627 # Temasek
-#				province_id = 2089 # Palembang
-#				province_id = 1599 # Vijaya
-#				province_id = 1814 # Panyu
-#				province_id = 1830 # Tanzhou
-#				province_id = 1836 # Dingcheng
-#				province_id = 1809 # Quanzhou
-#				province_id = 1806 # Wenzhou
-#				province_id = 1798 # Hangzhou
-#				province_id = 1788 # Dadu
-#				province_id = 1761 # Hanseong
-#				province_id = 1779 # Pyongan
-#				province_id = 1990 # Gyeongju
-#				province_id = 1988 # Busan
-#				province_id = 1873 # Xingtai
-#				province_id = 1880 # Nanyang
-#				province_id = 1883 # Xinyang
-#				province_id = 1828 # Xianning
-#				province_id = 1715 # Jianchang
-#				province_id = 1665 # Hizen
-#				province_id = 1911 # Settsu
-#				province_id = 1912 # Yamashiro
+				# Added Tianxia provinces
+				province_id = 2861 # Chang'an
+				province_id = 2804 # Wuhou
+				province_id = 2691 # Litang
+				province_id = 2639 # Mong Yang
+				province_id = 2632 # Pagan
+				province_id = 2619 # Pegu
+				province_id = 2657 # Dali
+				province_id = 2655 # Pu'er
+				province_id = 2643 # Kyaingtong
+				province_id = 2566 # Haripunchai
+				province_id = 2558 # Lavapura
+				province_id = 2550 # Chaiya
+				province_id = 2268 # Lamuri
+				province_id = 2608 # Luang Prabang
+				province_id = 2573 # Angkor
+				province_id = 2571 # Chantaburi
+				province_id = 2685 # Dai La
+				province_id = 2698 # Zhenzhou
+				province_id = 2671 # Indrapura
+				province_id = 2596 # Champassak
+				province_id = 2669 # Vijaya
+				province_id = 2577 # Oc Eo
+				province_id = 2537 # Temasek
+				province_id = 2292 # Pelalawan
+				province_id = 2540 # Melaka
+				province_id = 2281 # Panai
+				province_id = 2305 # Palembang
+				province_id = 2322 # Kalapa
+				province_id = 2867 # Hong'an
+				province_id = 2769 # Tanzhou
+				province_id = 2724 # Guangzhou
+				province_id = 2707 # Hong Kong
+				province_id = 2829 # Fu
+				province_id = 2736 # Changle
+				province_id = 2851 # Hefei
+				province_id = 2753 # Hangzhou
+				province_id = 2844 # Guangling
+				province_id = 2876 # Luoyang
+				province_id = 2882 # Kaifeng
+				province_id = 2889 # Linyi
+				province_id = 2914 # Dadu
+				province_id = 2934 # Hanseong
+				province_id = 2944 # Naju
+				province_id = 2923 # Liaoyang
+				province_id = 2955 # Busan
+				province_id = 2940 # Jeonju
+				province_id = 2975 # Pyeongan
+				province_id = 2445 # Hizen
+				province_id = 2456 # Iyo
+				province_id = 2481 # Settsu
+				province_id = 2485 # Yamashiro
+				province_id = 2436 # Chuzan
+				province_id = 2734 # Quanzhou
 			}
 		}
 	}

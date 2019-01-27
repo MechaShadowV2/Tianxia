@@ -16,6 +16,7 @@ flower_knights = { #society code name
 	}
 	
 	active = { #if its on by default or not
+		always = no # Has a bunch of issues right now
 		#default to always active, will start empty unless "indestructible = yes" and "startup_populate" are filled.
 	}
 	

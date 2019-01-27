@@ -17438,6 +17438,7 @@ buddhist_holy_war = {
 				religion = shinto
 			}
 			NOT = { same_realm = FROM }
+			NOT = { religion = FROM }
 			OR = {
 				NOT = { religion_group = FROM }
 				FROM = { religion = taoist }
@@ -17463,8 +17464,8 @@ buddhist_holy_war = {
 			}
 			top_liege = {
 				religion_group = ROOT
+				NOT = { religion = FROM }
 				OR = {
-					NOT = { religion = FROM }
 					FROM = { religion = taoist }
 					AND = {
 						ROOT = {
@@ -17596,6 +17597,7 @@ buddhist_holy_war = {
 				religion = buddhist
 				religion = shinto
 			}
+			NOT = { religion = FROM }
 			NOT = { same_realm = FROM }
 			OR = {
 				NOT = { religion_group = FROM }
@@ -20585,9 +20587,8 @@ cb_liberate_nomad_duchy = {
 					NOR = {
 						region = world_steppe
 						# Tianxia regions
-						region = world_mongolia # TODO
-						region = world_manchuria # TODO
-						region = world_siberia # TODO
+						region = world_mongolia
+						region = world_manchuria
 					}
 				}
 				location = {

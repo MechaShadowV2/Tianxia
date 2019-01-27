@@ -1318,9 +1318,8 @@ settlement_decisions = {
 						OR = {
 							region = world_steppe
 							# Tianxia regions
-							region = world_mongolia # TODO
-							region = world_manchuria # TODO
-							region = world_siberia # TODO
+							region = world_mongolia
+							region = world_manchuria
 						}
 						count = 7
 					}
@@ -1341,9 +1340,8 @@ settlement_decisions = {
 						OR = {
 							region = world_steppe
 							# Tianxia regions
-							region = world_mongolia # TODO
-							region = world_manchuria # TODO
-							region = world_siberia # TODO
+							region = world_mongolia
+							region = world_manchuria
 						}
 					}
 				}

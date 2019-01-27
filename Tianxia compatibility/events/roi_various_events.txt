@@ -3587,8 +3587,8 @@ character_event = {
 		capital_scope = {
 			OR = {
 				region = world_india
-				region = world_indochina # TODO
-				region = world_indonesia # TODO
+				region = world_indochina
+				region = world_indonesia
 				duchy = { title = d_sistan }
 				duchy = { title = d_baluchistan }
 				duchy = { title = d_kerman }
@@ -3718,8 +3718,8 @@ character_event = {
 		capital_scope = {
 			OR = {
 				region = world_india
-				region = world_indochina # TODO
-				region = world_indonesia # TODO
+				region = world_indochina
+				region = world_indonesia
 			}
 		}
 	}
@@ -3772,8 +3772,8 @@ character_event = {
 		capital_scope = {
 			OR = {
 				region = world_india
-				region = world_indochina # TODO
-				region = world_indonesia # TODO
+				region = world_indochina
+				region = world_indonesia
 			}
 		}
 		OR = {
@@ -3816,8 +3816,8 @@ character_event = {
 					capital_scope = {
 						OR = {
 							region = world_india
-							region = world_indochina # TODO
- 							region = world_indonesia # TODO
+							region = world_indochina
+ 							region = world_indonesia
 						}
 					}
 				}
@@ -4667,8 +4667,8 @@ character_event = {
 		capital_scope = {
 			OR = {
 				region = world_india
-				region = world_east_asia # TODO
-				region = world_tibet # TODO
+				region = world_east_asia
+				region = world_tibet
 			}
 		}
 		NOT = { is_inaccessible_trigger = yes }

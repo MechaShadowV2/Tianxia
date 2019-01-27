@@ -536,4 +536,10 @@ sent_to_china = {
 	random = no
 }
 
+dead_song_emperor = {
+	customizer = no
+	random = no
+	hidden = yes # Just used as part of the history files
+}
+
 # SR traits are not actually needed!

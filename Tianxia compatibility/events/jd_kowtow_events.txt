@@ -62,7 +62,7 @@ character_event = { #Hidden set-up event!
 			else_if = { # Still on the eastern side of the map
 				limit = {
 					distance = {
-						where = 1879 # Luoyang, de jure capital of e_china - TODO: New province id
+						where = 2876 # Luoyang, de jure capital of e_china
 						value < 900
 					}
 				}
@@ -76,8 +76,7 @@ character_event = { #Hidden set-up event!
 			else_if = { # Approaching the Middle East
 				limit = {
 					distance = {
-						
-						where = 1879 # Luoyang, de jure capital of e_china - TODO: New province id
+						where = 2876 # Luoyang, de jure capital of e_china
 						value < 1500
 					}
 				}
@@ -252,7 +251,6 @@ character_event = { # Travel Tombola
 								}
 							}
 						}
-						# TODO: Update regions
 						# Find someone that hopefully is on the way, but allow for some sightseeing/detours
 						OR = {
 							# ROOT lives near China
@@ -281,7 +279,6 @@ character_event = { # Travel Tombola
 								ROOT = {
 									capital_scope = {
 										OR = {
-											region = world_siberia
 											region = world_steppe_west
 										}
 									}
@@ -614,7 +611,6 @@ character_event = { # Travel Tombola
 								ROOT = {
 									capital_scope = {
 										OR = {
-											region = world_siberia
 											region = world_steppe_west
 										}
 									}

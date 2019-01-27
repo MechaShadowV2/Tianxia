@@ -7,15 +7,14 @@
 
 763.1.1 = {
 	#liege=e_china_west_governor
-	#set_tribute_suzerain = {
-	#	who = e_china
-	#	type = permanent
-	#}
-	liege = e_china
+	set_tribute_suzerain = {
+		who = e_china
+		type = permanent
+	}
 }
 
 798.1.1 = {
-	#clear_tribute_suzerain = e_china
+	clear_tribute_suzerain = e_china
 	liege = e_tibet
 	holder = 166727
 }

@@ -231,7 +231,7 @@ character_event = {
 	id = jdextra.7
 	title = EVTTITLE_JDEXTRA_7
 	desc =  EVTDESC_JDEXTRA_7
-	picture = GFX_evt_china_golden_age # TODO
+	picture = GFX_evt_china_golden_age
     border = GFX_event_normal_frame_diplomacy
 	is_triggered_only = yes
 	
@@ -250,7 +250,7 @@ character_event = {
 	id = jdextra.8
 	title = EVTTITLE_JDEXTRA_8
 	desc =  EVTDESC_JDEXTRA_8
-	picture = GFX_evt_china_golden_age # TODO
+	picture = GFX_evt_china_golden_age
     border = GFX_event_normal_frame_diplomacy
 	is_triggered_only = yes
 	
@@ -269,7 +269,7 @@ character_event = {
 	id = jdextra.9
 	title = EVTTITLE_JDEXTRA_9
 	desc =  EVTDESC_JDEXTRA_9
-	picture = GFX_evt_china_golden_age # TODO
+	picture = GFX_evt_china_golden_age
     border = GFX_event_normal_frame_diplomacy
 	is_triggered_only = yes
 	
@@ -311,7 +311,7 @@ character_event = {
 				learning = 10
 				martial = 15
 				any_realm_province = {
-					region = world_china # Tianxia - TODO
+					region = world_china
 				}
 			}
 			AND = {
@@ -320,11 +320,11 @@ character_event = {
 				OR = {
 					any_realm_province = {
 						OR = {
-							region = world_far_east # Tianxia - TODO
-							region = world_tibet # Tianxia - TODO
-							region = world_indochina # Tianxia - TODO
-							region = world_mongolia # Tianxia - TODO
-							region = world_manchuria # Tianxia - TODO
+							region = world_far_east
+							region = world_tibet
+							region = world_indochina
+							region = world_mongolia
+							region = world_manchuria
 						}
 						trade_route = silk_road
 					}
@@ -347,11 +347,11 @@ character_event = {
 				OR = {
 					any_realm_province = {
 						OR = {
-							region = world_far_east # Tianxia - TODO
-							region = world_tibet # Tianxia - TODO
-							region = world_indochina # Tianxia - TODO
-							region = world_mongolia # Tianxia - TODO
-							region = world_manchuria # Tianxia - TODO
+							region = world_far_east
+							region = world_tibet
+							region = world_indochina
+							region = world_mongolia
+							region = world_manchuria
 						}
 						trade_route = silk_road
 					}
@@ -487,7 +487,7 @@ character_event = {
 				learning = 10
 				martial = 15
 				any_realm_province = {
-					region = world_china # Tianxia - TODO
+					region = world_china
 				}
 			}
 			AND = {
@@ -496,11 +496,11 @@ character_event = {
 				OR = {
 					any_realm_province = {
 						OR = {
-							region = world_far_east # Tianxia - TODO
-							region = world_tibet # Tianxia - TODO
-							region = world_indochina # Tianxia - TODO
-							region = world_mongolia # Tianxia - TODO
-							region = world_manchuria # Tianxia - TODO
+							region = world_far_east
+							region = world_tibet
+							region = world_indochina
+							region = world_mongolia
+							region = world_manchuria
 						}
 						trade_route = silk_road
 					}
@@ -523,11 +523,11 @@ character_event = {
 				OR = {
 					any_realm_province = {
 						OR = {
-							region = world_far_east # Tianxia - TODO
-							region = world_tibet # Tianxia - TODO
-							region = world_indochina # Tianxia - TODO
-							region = world_mongolia # Tianxia - TODO
-							region = world_manchuria # Tianxia - TODO
+							region = world_far_east
+							region = world_tibet
+							region = world_indochina
+							region = world_mongolia
+							region = world_manchuria
 						}
 						trade_route = silk_road
 					}

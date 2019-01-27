@@ -2726,7 +2726,8 @@ character_event = { # TODO: Tianxia regions
     					region = world_india
     					region = world_persia
     					region = world_middle_east
-    					region = world_himalayas
+    					region = world_tibet
+						region = world_east_asia 
     				}
     			}
     		}

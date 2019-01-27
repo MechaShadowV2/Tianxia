@@ -2707,7 +2707,8 @@ hermetics = {
 			}
 		}
 		learning = 10
-			has_religion_feature = religion_astrology			
+		OR = {
+			has_religion_feature = religion_astrology				
 			religion_group = christian
 			religion_group = muslim
 			religion_group = jewish_group
@@ -2720,6 +2721,7 @@ hermetics = {
 						religion = zun_pagan_reformed
 					}
 				}
+			}
 			custom_tooltip = {
 				text = hellenic_hermetic_join_tooltip
 

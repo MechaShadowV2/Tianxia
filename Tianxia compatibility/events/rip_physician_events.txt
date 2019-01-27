@@ -2077,18 +2077,12 @@ character_event = { # TODO: Block too "Western" physicians in the Far East, and 
 								capital_scope = {
 									region = world_persia
 								}
-								# Tianxia - TODO
+								# Tianxia
 								capital_scope = {
 									region = world_manchuria
 								}
 								capital_scope = {
-									region = world_siberia
-								}
-								capital_scope = {
 									region = world_mongolia
-								}
-								capital_scope = {
-									region = world_siberia
 								}
 							}
 						}
@@ -3352,13 +3346,7 @@ character_event = { # TODO: Block too "Western" physicians in the Far East, and 
 							region = world_manchuria
 						}
 						capital_scope = {
-							region = world_siberia
-						}
-						capital_scope = {
 							region = world_mongolia
-						}
-						capital_scope = {
-							region = world_siberia
 						}
 						capital_scope = {
 							region = world_china

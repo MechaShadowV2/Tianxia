@@ -77,7 +77,7 @@ song_dynasty_futou_trigger = {
 	#is_offmap_tag_including_dead = offmap_china
 	OR = {
 		has_landed_title = e_china
-		#trait = dead_song_emperor # TODO
+		trait = dead_song_emperor
 	}
 }
 

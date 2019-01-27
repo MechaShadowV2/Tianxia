@@ -40,7 +40,7 @@ narrative_event = {
 			port = yes
 		}
 		capital_scope = {
-			region = world_indonesia # TODO
+			region = world_indonesia
 		}
 	}
 	

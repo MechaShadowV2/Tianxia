@@ -1375,16 +1375,16 @@ character_event = {
 		capital_scope = {
 			NOT = { region = world_india }
 			NOT = { region = world_persia }
-			NOT = { region = world_oceania } # Tianxia - TODO
-			NOT = { region = world_indochina } # Tianxia - TODO
-			NOT = { region = world_taiwan } # Tianxia - TODO
+			NOT = { region = world_oceania }
+			NOT = { region = world_indochina }
+			NOT = { region = world_taiwan }
 		}
 		location = {
 			county = {
 				NOR = {
 					region = world_india
-					region = world_indochina # Tianxia - TODO
-					region = world_indonesia # Tianxia - TODO
+					region = world_indochina
+					region = world_indonesia
 				}
 			}
 		}

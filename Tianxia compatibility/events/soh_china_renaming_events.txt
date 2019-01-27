@@ -2,6 +2,9 @@
 
 # by Silverswee(e)per
 
+# TODO: Update localization for references to Taoist religion
+# TODO: Allow reconversion to old pagan religion with HF, if it is acceptable
+
 namespace = nameofchina
 
 ##### Inheritance
@@ -22,13 +25,11 @@ character_event = {
 			title = e_china
 		}
 		ROOT = {
-			NOT = {
-				religion = taoist
-			}
+			has_acceptable_chinese_religion_trigger = no
 		}
 		FROMFROM = {
 			dynasty = ROOT
-			religion = taoist
+			has_acceptable_chinese_religion_trigger = yes
 		}
 	}
 	
@@ -38,9 +39,12 @@ character_event = {
 	
 	option = {
 		trigger = {
-			has_dlc = "Jade Dragon"
 			OR = {
-				secret_religion = taoist
+				has_dlc = "Jade Dragon"
+				has_dlc = "Rajas of India"
+			}
+			OR = {
+				secret_religion = FROMFROM
 				AND = {
 					ai = no
 					NOT = {
@@ -54,6 +58,8 @@ character_event = {
 						culture = tangut
 						culture = jurchen
 						culture = mongol
+						culture = viet
+						culture_group = koreanic
 					}
 					NOT = {
 						trait = zealous
@@ -101,6 +107,8 @@ character_event = {
 					culture = tangut
 					culture = jurchen
 					culture = mongol
+					culture = viet
+					culture_group = koreanic
 				}
 			}
 			modifier = {
@@ -135,6 +143,8 @@ character_event = {
 					culture = tangut
 					culture = jurchen
 					culture = mongol
+					culture = viet
+					culture_group = koreanic
 				}
 			}
 		}
@@ -4740,15 +4750,13 @@ character_event = {
 			title = e_china
 		}
 		ROOT = {
-			NOT = {
-				religion = taoist
-			}
+			has_acceptable_chinese_religion_trigger = no
 		}
 		FROMFROM = {
 			NOT = {
 				dynasty = ROOT
 			}
-			religion = taoist
+			has_acceptable_chinese_religion_trigger = yes
 		}
 	}
 	
@@ -4967,7 +4975,10 @@ character_event = {
 	
 	option = {
 		trigger = {
-			has_dlc = "Jade Dragon"
+			OR = {
+				has_dlc = "Jade Dragon"
+				has_dlc = "Rajas of India"
+			}
 			OR = {
 				secret_religion = taoist
 				AND = {
@@ -4983,6 +4994,8 @@ character_event = {
 						culture = tangut
 						culture = jurchen
 						culture = mongol
+						culture = viet
+						culture_group = koreanic
 					}
 					NOT = {
 						trait = zealous
@@ -5030,6 +5043,8 @@ character_event = {
 					culture = tangut
 					culture = jurchen
 					culture = mongol
+					culture = viet
+					culture_group = koreanic
 				}
 			}
 			modifier = {
@@ -5064,6 +5079,8 @@ character_event = {
 					culture = tangut
 					culture = jurchen
 					culture = mongol
+					culture = viet
+					culture_group = koreanic
 				}
 			}
 		}
@@ -13345,15 +13362,13 @@ character_event = {
 			title = e_china
 		}
 		ROOT = {
-			NOT = {
-				religion = taoist
-			}
+			has_acceptable_chinese_religion_trigger = no
 		}
 		FROMFROM = {
 			NOT = {
 				dynasty = ROOT
 			}
-			religion = taoist
+			has_acceptable_chinese_religion_trigger = yes
 		}
 	}
 	
@@ -13578,7 +13593,10 @@ character_event = {
 	
 	option = {
 		trigger = {
-			has_dlc = "Jade Dragon"
+			OR = {
+				has_dlc = "Jade Dragon"
+				has_dlc = "Rajas of India"
+			}
 			OR = {
 				secret_religion = taoist
 				AND = {
@@ -13594,6 +13612,8 @@ character_event = {
 						culture = tangut
 						culture = jurchen
 						culture = mongol
+						culture = viet
+						culture_group = koreanic
 					}
 					NOT = {
 						trait = zealous
@@ -13641,6 +13661,8 @@ character_event = {
 					culture = tangut
 					culture = jurchen
 					culture = mongol
+					culture = viet
+					culture_group = koreanic
 				}
 			}
 			modifier = {
@@ -13675,6 +13697,8 @@ character_event = {
 					culture = tangut
 					culture = jurchen
 					culture = mongol
+					culture = viet
+					culture_group = koreanic
 				}
 			}
 		}
@@ -18902,15 +18926,16 @@ character_event = {
 	trigger = {
 		has_landed_title = e_china
 		ROOT = {
-			NOT = {
-				religion = taoist
-			}
+			has_acceptable_chinese_religion_trigger = no
 		}
 	}
 	
 	option = {
 		trigger = {
-			has_dlc = "Jade Dragon"
+			OR = {
+				has_dlc = "Jade Dragon"
+				has_dlc = "Rajas of India"
+			}
 			OR = {
 				secret_religion = taoist
 				AND = {
@@ -18926,6 +18951,8 @@ character_event = {
 						culture = tangut
 						culture = jurchen
 						culture = mongol
+						culture = viet
+						culture_group = koreanic
 					}
 					NOT = {
 						trait = zealous
@@ -18973,6 +19000,8 @@ character_event = {
 					culture = tangut
 					culture = jurchen
 					culture = mongol
+					culture = viet
+					culture_group = koreanic
 				}
 			}
 			modifier = {
@@ -19007,6 +19036,8 @@ character_event = {
 					culture = tangut
 					culture = jurchen
 					culture = mongol
+					culture = viet
+					culture_group = koreanic
 				}
 			}
 		}
@@ -19160,7 +19191,7 @@ character_event = {
 	
 	trigger = {
 		ROOT = {
-			religion = taoist
+			has_acceptable_chinese_religion_trigger = yes
 			NOT = {
 				has_character_flag = taoist_convert
 			}
@@ -21564,7 +21595,7 @@ character_event = {
 	
 	trigger = {
 		ROOT = {
-			religion = taoist
+			has_acceptable_chinese_religion_trigger = yes
 			NOT = {
 				has_character_flag = taoist_convert
 			}
@@ -21652,9 +21683,7 @@ character_event = {
 	
 	trigger = {
 		ROOT = {
-			NOT = {
-				religion = taoist
-			}
+			has_acceptable_chinese_religion_trigger = no
 		}
 		FROM = {
 			title = e_china
@@ -21689,9 +21718,7 @@ character_event = {
 			NOT = {
 				dynasty = ROOT
 			}
-			NOT = {
-				religion = taoist
-			}
+			has_acceptable_chinese_religion_trigger = no
 		}
 	}
 	
@@ -26651,13 +26678,11 @@ character_event = {
 			title = e_china
 		}
 		ROOT = {
-			religion = taoist
+			has_acceptable_chinese_religion_trigger = yes
 		}
 		FROMFROM = {
 			dynasty = ROOT
-			NOT = {
-				religion = taoist
-			}
+			has_acceptable_chinese_religion_trigger = no
 		}
 		# China isn't already named
 		e_china = {
@@ -26705,14 +26730,12 @@ character_event = {
 		FROM = {
 			title = e_china
 		}
-		ROOT = {
-			religion = taoist
-		}
+		has_acceptable_chinese_religion_trigger = yes
 		FROMFROM = {
 			NOT = {
 				dynasty = ROOT
 			}
-			religion = taoist
+			has_acceptable_chinese_religion_trigger = yes
 		}
 	}
 	
@@ -26732,13 +26755,13 @@ character_event = {
 			title = e_china
 		}
 		ROOT = {
-			religion = taoist
+			has_acceptable_chinese_religion_trigger = yes
 		}
 		FROMFROM = {
 			NOT = {
 				dynasty = ROOT
 			}
-			religion = taoist
+			has_acceptable_chinese_religion_trigger = yes
 		}
 	}
 	
@@ -26758,13 +26781,13 @@ character_event = {
 			title = e_china
 		}
 		ROOT = {
-			religion = taoist
+			has_acceptable_chinese_religion_trigger = yes
 		}
 		FROMFROM = {
-			NOR = {
+			NOT = {
 				dynasty = ROOT
-				religion = taoist
 			}
+			has_acceptable_chinese_religion_trigger = no
 		}
 	}
 	
@@ -26783,13 +26806,11 @@ character_event = {
 			title = e_china
 		}
 		ROOT = {
-			religion = taoist
+			has_acceptable_chinese_religion_trigger = yes
 		}
 		FROMFROM = {
 			dynasty = ROOT
-			NOT = {
-				religion = taoist
-			}
+			has_acceptable_chinese_religion_trigger = no
 		}
 		# China isn't already named
 		e_china = {
@@ -26845,5 +26866,29 @@ character_event = {
 			update_global_china_name_flag_effect = yes
 		}
 		add_global_pretender_china_name_flag_effect = yes
+	}
+}
+
+# on_death event ensuring that dead Song emperors have their zhangokfutou
+character_event = {
+	id = nameofchina.43
+	hide_window = yes
+	is_triggered_only = yes
+	
+	only_men = yes
+	
+	trigger = {
+		tier = emperor
+		government = chinese_imperial_government
+		OR = {
+			dynasty = 1051151 ### Song Dynasty, known in almost all official artwork as wearing their weird zhangokfutou
+			any_owned_bloodline = {
+				has_flag = song_china # If someone creates a "Song Empire", give them the proper headgear!
+			}
+		}
+	}
+	
+	immediate = {
+		add_trait = dead_song_emperor
 	}
 }

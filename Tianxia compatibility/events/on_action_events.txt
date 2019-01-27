@@ -5477,7 +5477,8 @@ narrative_event = {
 						OR = { 
 							has_religion_feature = religion_equal 
 							has_religion_feature = religion_feature_bon
-							has_religion_feature = religion_feature_ryukyuan
+							has_religion_feature = religion_feature_ryukyuan_three_mountains
+							has_religion_feature = religion_feature_ryukyuan_historical
 						}
 						NOR = {  
 							is_merchant_republic = yes
@@ -6184,7 +6185,8 @@ narrative_event = {
 						OR = { 
 							has_religion_feature = religion_equal 
 							has_religion_feature = religion_feature_bon
-							has_religion_feature = religion_feature_ryukyuan
+							has_religion_feature = religion_feature_ryukyuan_three_mountains
+							has_religion_feature = religion_feature_ryukyuan_historical
 						}
 					}
 				}
@@ -6312,7 +6314,8 @@ narrative_event = {
 					OR = { 
 						has_religion_feature = religion_equal 
 						has_religion_feature = religion_feature_bon
-						has_religion_feature = religion_feature_ryukyuan
+						has_religion_feature = religion_feature_ryukyuan_three_mountains
+						has_religion_feature = religion_feature_ryukyuan_historical
 					}
 				}
 			}

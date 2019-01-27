@@ -55,9 +55,7 @@ character_event = {
 						region = world_europe_east
 						region = world_steppe
 						region = world_tibet
-						# Tianxia # TODO
 						region = world_manchuria
-						region = world_siberia
 						region = world_mongolia
 					}
 				}
@@ -70,7 +68,6 @@ character_event = {
 					OR = {
 						region = world_india
 						region = world_persia
-						# Tianxia # TODO
 						region = world_indochina
 						region = world_oceania
 						region = world_china
@@ -360,9 +357,7 @@ character_event = {
 						region = world_europe_east
 						region = world_steppe
 						region = world_tibet
-						# Tianxia # TODO
 						region = world_manchuria
-						region = world_siberia
 						region = world_mongolia
 					}
 				}
@@ -375,7 +370,6 @@ character_event = {
 					OR = {
 						region = world_india
 						region = world_persia
-						# Tianxia # TODO
 						region = world_indochina
 						region = world_oceania
 						region = world_china
@@ -485,9 +479,7 @@ narrative_event = {
 						region = world_europe_east
 						region = world_steppe
 						region = world_tibet
-						# Tianxia # TODO
 						region = world_manchuria
-						region = world_siberia
 						region = world_mongolia
 					}
 				}
@@ -500,7 +492,6 @@ narrative_event = {
 					OR = {
 						region = world_india
 						region = world_persia
-						# Tianxia # TODO
 						region = world_indochina
 						region = world_oceania
 						region = world_china

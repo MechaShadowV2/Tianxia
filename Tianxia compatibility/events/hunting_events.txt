@@ -1500,7 +1500,7 @@ character_event = {
 						region = world_europe_south
 						region = world_europe_west
 						region = world_asia_minor
-						region = world_japan # Tianxia # TODO
+						region = world_japan # Tianxia
 					}
 				}
 			}
@@ -1514,9 +1514,8 @@ character_event = {
 						region = world_europe_east
 						region = world_steppe
 						# Tianxia
-						region = world_manchuria # TODO
-						region = world_siberia # TODO
-						region = world_mongolia # TODO
+						region = world_manchuria
+						region = world_mongolia
 					}
 				}
 			}
@@ -1529,10 +1528,10 @@ character_event = {
 						region = world_india
 						region = world_persia
 						# Tianxia
-						region = world_indochina # TODO
-						region = world_oceania # TODO
-						region = world_china # TODO
-						region = world_korea # TODO
+						region = world_indochina
+						region = world_oceania
+						region = world_china
+						region = world_korea
 					}
 				}
 			}

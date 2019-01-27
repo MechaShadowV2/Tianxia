@@ -542,11 +542,11 @@ character_event = {
 					NOR = { 
 						any_demesne_title = { region = world_india } 
 						any_demesne_title = { region = world_africa }
-						any_demesne_title = { region = world_indochina } # Tianxia - todo
-						any_demesne_title = { region = world_oceania } # Tianxia - todo
-						any_demesne_title = { region = world_china } # Tianxia - todo
-						any_demesne_title = { region = world_korea } # Tianxia - todo
-						any_demesne_title = { region = world_manchuria } # Tianxia - todo
+						any_demesne_title = { region = world_indochina }
+						any_demesne_title = { region = world_oceania }
+						any_demesne_title = { region = world_china }
+						any_demesne_title = { region = world_korea }
+						any_demesne_title = { region = world_manchuria }
 					}
 					OR = {
 						trait = wroth
@@ -615,11 +615,11 @@ character_event = {
 			OR = {
 				any_demesne_title = { region = world_india }
 				any_demesne_title = { region = world_africa }
-				any_demesne_title = { region = world_indochina } # Tianxia - todo
-				any_demesne_title = { region = world_oceania } # Tianxia - todo
-				any_demesne_title = { region = world_china } # Tianxia - todo
-				any_demesne_title = { region = world_korea } # Tianxia - todo
-				any_demesne_title = { region = world_manchuria } # Tianxia - todo
+				any_demesne_title = { region = world_indochina }
+				any_demesne_title = { region = world_oceania }
+				any_demesne_title = { region = world_china }
+				any_demesne_title = { region = world_korea }
+				any_demesne_title = { region = world_manchuria }
 			}
 			OR = {
 				trait = wroth
@@ -679,11 +679,11 @@ character_event = {
 			limit = {
 				OR = {
 					any_demesne_title = { region = world_india }
-					any_demesne_title = { region = world_indochina } # Tianxia - todo
-					any_demesne_title = { region = world_oceania } # Tianxia - todo
-					any_demesne_title = { region = world_china } # Tianxia - todo
-					any_demesne_title = { region = world_korea } # Tianxia - todo
-					any_demesne_title = { region = world_manchuria } # Tianxia - todo
+					any_demesne_title = { region = world_indochina }
+					any_demesne_title = { region = world_oceania }
+					any_demesne_title = { region = world_china }
+					any_demesne_title = { region = world_korea }
+					any_demesne_title = { region = world_manchuria }
 				}
 			}
 			event_target:cat_hater = { death = { death_reason = death_execution_tiger killer = ROOT } }

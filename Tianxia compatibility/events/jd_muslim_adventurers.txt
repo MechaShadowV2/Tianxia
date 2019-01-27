@@ -90,10 +90,10 @@ character_event = {
 			}
 			# Tianxia
 			location = {
-				region = world_indochina # TODO
+				region = world_indochina
 			}
 			location = {
-				region = world_indonesia # TODO
+				region = world_indonesia
 			}
 		}
 		

@@ -1007,7 +1007,7 @@ character_event = {
 			}
 		}
 		
-		### Tianxia - TODO
+		### Tianxia
 		
 		# Tibet
 		if = {
@@ -1806,7 +1806,7 @@ character_event = {
 					}
 				}
 			}
-			# Tianxia - TODO
+			# Tianxia
 			regional_percentage = {
 				region = world_tibet
 				percentage = 0.5

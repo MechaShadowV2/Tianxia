@@ -899,8 +899,8 @@ character_event = {
 		capital_scope = {
 			OR = {
 				region = world_india
-				region = world_indochina # TODO
-				region = world_oceania # TODO
+				region = world_indochina
+				region = world_oceania
 			}
 		}
 	}
@@ -1507,8 +1507,8 @@ character_event = {
 	trigger = {
 		capital_scope = {
 			region = world_india
-			region = world_indochina # TODO
-			region = world_oceania # TODO
+			region = world_indochina
+			region = world_oceania
 		}
 	}
 	
@@ -1879,8 +1879,8 @@ character_event = {
 			capital_scope = {
 				OR = {
 					region = world_india
-					region = world_indochina # TODO
-					region = world_indonesia # TODO
+					region = world_indochina
+					region = world_indonesia
 				}
 			}
 		}

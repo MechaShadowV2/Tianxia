@@ -2335,9 +2335,12 @@ decisions = {
 			}
 			prisoner = no
 			religion = buddhist
-			OR = { # Keep it to a sensible part of the map - TODO
+			OR = { # Keep it to a sensible part of the map
 				culture_group = indo_aryan_group
 				culture_group = dravidian_group
+				culture_group = mon_khmer_group
+				culture_group = tai_kadai_group
+				culture_group = malayo_polynesian_group
 			}
 			NOT = { trait = incapable }
 			NOT = {
