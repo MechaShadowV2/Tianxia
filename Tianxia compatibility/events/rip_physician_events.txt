@@ -30,7 +30,7 @@ character_event = {
 }
 
 # Found a Court Physician
-character_event = { # TODO: Block too "Western" physicians in the Far East, and possibly add a few more Far East physician options that can spawn there
+character_event = { # TODO: Block too "Western" physicians in the Far East, and possibly add a few more Far East physician options that can spawn there - medium priority
 	id = RIP.11051
 	hide_window = yes
 

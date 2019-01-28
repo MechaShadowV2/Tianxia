@@ -1070,7 +1070,7 @@ decisions = {
 			factor = 0
 		}
 	}
-	determine_zodiac_sign_decision = { # TODO: Eastern zodiac for Eastern characters...
+	determine_zodiac_sign_decision = { # TODO: Eastern zodiac for Eastern characters
 		#only_playable = yes
 		is_high_prio = yes
 		#ai_check_interval = 200 #check only once every 200 months.
@@ -2243,7 +2243,6 @@ settlement_decisions = {
 					if = { 
 						limit = { NOT = { has_building = tb_great_pillar_norse } } 
 						add_building = tb_great_pillar_norse
-						add_building = tb_great_pillar_norse_empty
 					}
 				}
 				if = {  
@@ -2256,7 +2255,6 @@ settlement_decisions = {
 					if = { 
 						limit = { NOT = { has_building = tb_great_pillar_tengri } } 
 						add_building = tb_great_pillar_tengri
-						add_building = tb_great_pillar_tengri_empty
 					}
 				}
 				if = {  
@@ -2269,7 +2267,6 @@ settlement_decisions = {
 					if = { 
 						limit = { NOT = { has_building = tb_great_pillar_slavic } } 
 						add_building = tb_great_pillar_slavic
-						add_building = tb_great_pillar_slavic_empty
 					}
 				}
 				if = {  
@@ -2282,7 +2279,6 @@ settlement_decisions = {
 					if = { 
 						limit = { NOT = { has_building = tb_great_pillar_baltic } } 
 						add_building = tb_great_pillar_baltic
-						add_building = tb_great_pillar_baltic_empty
 					}
 				}
 				if = {  
@@ -2295,7 +2291,6 @@ settlement_decisions = {
 					if = { 
 						limit = { NOT = { has_building = tb_great_pillar_finnish } } 
 						add_building = tb_great_pillar_finnish
-						add_building = tb_great_pillar_finnish_empty
 					}
 				}
 				if = {  
@@ -2308,7 +2303,6 @@ settlement_decisions = {
 					if = { 
 						limit = { NOT = { has_building = tb_great_pillar_west_african } } 
 						add_building = tb_great_pillar_west_african
-						add_building = tb_great_pillar_west_african_empty
 					}
 				}
 				if = {  
@@ -2321,7 +2315,6 @@ settlement_decisions = {
 					if = { 
 						limit = { NOT = { has_building = tb_great_pillar_aztec } } 
 						add_building = tb_great_pillar_aztec
-						add_building = tb_great_pillar_aztec_empty
 					}
 				}
 				if = {  
@@ -2334,7 +2327,6 @@ settlement_decisions = {
 					if = { 
 						limit = { NOT = { has_building = tb_great_pillar_zun } } 
 						add_building = tb_great_pillar_zun
-						add_building = tb_great_pillar_zun_empty
 					}
 				}
 				if = {  
@@ -2347,7 +2339,6 @@ settlement_decisions = {
 					if = { 
 						limit = { NOT = { has_building = tb_great_pillar_bon } } 
 						add_building = tb_great_pillar_bon
-						add_building = tb_great_pillar_bon_empty
 					}
 				}
 				if = {  
@@ -2360,7 +2351,6 @@ settlement_decisions = {
 					if = { 
 						limit = { NOT = { has_building = tb_great_pillar_hellenic } } 
 						add_building = tb_great_pillar_hellenic
-						add_building = tb_great_pillar_hellenic_empty
 					}
 				}
 				if = {  
@@ -2373,7 +2363,6 @@ settlement_decisions = {
 					if = { 
 						limit = { NOT = { has_building = tb_great_pillar_chinese } } 
 						add_building = tb_great_pillar_chinese
-						add_building = tb_great_pillar_chinese_empty
 					}
 				}
 				if = {  
@@ -2386,7 +2375,6 @@ settlement_decisions = {
 					if = { 
 						limit = { NOT = { has_building = tb_great_pillar_korean } } 
 						add_building = tb_great_pillar_korean
-						add_building = tb_great_pillar_korean_empty
 					}
 				}
 				if = {  
@@ -2399,7 +2387,6 @@ settlement_decisions = {
 					if = { 
 						limit = { NOT = { has_building = tb_great_pillar_ainu } } 
 						add_building = tb_great_pillar_ainu
-						add_building = tb_great_pillar_ainu_empty
 					}
 				}
 				if = {  
@@ -2412,7 +2399,6 @@ settlement_decisions = {
 					if = { 
 						limit = { NOT = { has_building = tb_great_pillar_ryukyuan } } 
 						add_building = tb_great_pillar_ryukyuan
-						add_building = tb_great_pillar_ryukyuan_empty
 					}
 				}
 				if = {  
@@ -2425,7 +2411,6 @@ settlement_decisions = {
 					if = { 
 						limit = { NOT = { has_building = tb_great_pillar_dayak } } 
 						add_building = tb_great_pillar_dayak
-						add_building = tb_great_pillar_dayak_empty
 					}
 				}
 				if = {  
@@ -2438,7 +2423,6 @@ settlement_decisions = {
 					if = { 
 						limit = { NOT = { has_building = tb_great_pillar_melanesian } } 
 						add_building = tb_great_pillar_melanesian
-						add_building = tb_great_pillar_melanesian_empty
 					}
 				}
 				if = {  
@@ -2451,7 +2435,6 @@ settlement_decisions = {
 					if = { 
 						limit = { NOT = { has_building = tb_great_pillar_sanamahi } } 
 						add_building = tb_great_pillar_sanamahi
-						add_building = tb_great_pillar_sanamahi_empty
 					}
 				}
 				if = {  
@@ -2464,7 +2447,6 @@ settlement_decisions = {
 					if = { 
 						limit = { NOT = { has_building = tb_great_pillar_viet } } 
 						add_building = tb_great_pillar_viet
-						add_building = tb_great_pillar_viet_empty
 					}
 				}
 			}

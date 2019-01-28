@@ -324,7 +324,7 @@ silk_road = {
 	}
 	# Changle -> Chuzan
 	path = { # Changle-2112-2114-2120-2116-Chuzan # TODO: Sea zone names!
-		2736-2112 2114 2120 2116 2436
+		2736 2112 2114 2120 2116 2436
 	}
 	# Changle -> Quanzhou -> Hong Kong
 	path = { # Changle-2112-Strait of Taiwan-Quanzhou-2110-2109-Hong Kong # TODO: Sea zone names!

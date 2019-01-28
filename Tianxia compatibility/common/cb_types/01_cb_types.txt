@@ -2350,13 +2350,13 @@ liberate_religion = { # New6
 		}
 	}
 	
-	is_valid_title = {
-		FROM = {
-			any_realm_province = {
-				de_jure_liege_or_above = PREVPREV
-			}
-		}
-	}
+	#is_valid_title = { # Duplicate
+	#	FROM = {
+	#		any_realm_province = {
+	#			de_jure_liege_or_above = PREVPREV
+	#		}
+	#	}
+	#}
 
 	on_fail = {
 		ROOT = { 
@@ -5274,7 +5274,7 @@ dismantle_pretender_china_cb = {
 				clr_title_flag = pretender_chinese_empire
 				unsafe_destroy_landed_title = THIS
 			}
-			# TODO: Inform the world
+			# TODO: Inform the world - add if we add the CB
 			death = { death_reason = death_executed_by_chinese_emperor killer = ROOT }
 		}
 #		FROM = {
@@ -9884,7 +9884,7 @@ shepherds_crusade_invasion = {
 							capital = PREV
 						}
 						save_event_target_as = shepherds_capital
-						DUCHY = {
+						duchy = {
 							save_event_target_as = shepherds_duchy
 						}
 					}
@@ -9950,18 +9950,18 @@ shepherds_crusade_invasion = {
 						OR = {
 							NOT = {
 								location = {
-									DUCHY = {
+									duchy = {
 										title = event_target:shepherds_duchy
 									}
 								}
 							}
-							holding_type = CITY
-							holding_type = TEMPLE
+							holding_type = city
+							holding_type = temple
 						}
 					}
 					if = {
 						limit = {
-							holding_type = CITY
+							holding_type = city
 						}
 						create_random_steward = {
 							random_traits = yes
@@ -9970,7 +9970,7 @@ shepherds_crusade_invasion = {
 					}
 					else_if = {
 						limit = {
-							holding_type = TEMPLE
+							holding_type = temple
 						}
 						create_random_priest = {
 							random_traits = yes
@@ -9979,7 +9979,7 @@ shepherds_crusade_invasion = {
 					}
 					else_if = {
 						limit = {
-							holding_type = CASTLE
+							holding_type = castle
 						}
 						create_random_soldier = {
 							random_traits = yes

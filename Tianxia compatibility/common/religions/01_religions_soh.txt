@@ -1,6 +1,6 @@
 pagan_group = {
-	# TODO: Possibly add new HF stuff (Eldership pre-reformation, male consorts, etc.)
-	# TODO: Warrior lodges (where desired)
+	# TODO: Possibly add new HF stuff (Eldership pre-reformation, male consorts, etc.) - low priority
+	# TODO: Warrior lodges (where desired) - medium priorit
 	# TODO: Random world stuff (not a priority)
 
 	ainu_pagan_reformed = {
@@ -512,7 +512,6 @@ pagan_group = {
 }
 
 indian_group = { # Eastern
-	# TODO: Check for indian_group and enable/disable as necessary
 	shinto = {
 		graphical_culture = chinesegfx
 		#graphical_culture = buddhistgfx

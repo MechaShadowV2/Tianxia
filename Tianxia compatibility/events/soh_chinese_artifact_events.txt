@@ -83,9 +83,6 @@ character_event = {
 			}
 			200 = {
 				modifier = {
-					factor = 0 # TODO
-				}
-				modifier = {
 					factor = 0.1
 					has_character_flag = chinese_artifact_discovered
 				}
@@ -3858,9 +3855,6 @@ character_event = {
 				character_event = { id = jdextra.2063 days = 30 random = 180 }
 			}
 			200 = {
-				modifier = {
-					factor = 0 # TODO
-				}
 				modifier = {
 					factor = 0
 					has_artifact = chinese_book_history

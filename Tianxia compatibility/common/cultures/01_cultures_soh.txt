@@ -351,10 +351,10 @@ japonic = {
 		}
 		female_names = {
 			Anshitsu Baigaku Baigan Baigetsu Bainan Bairei Enshin Enso Fuko Fukugan 
-			Gekko Gentei Gentei Gessei Gesshin Getsurei Giun Goshin Gyokuren Hekiren Honko Honku Ikkyo Isshi 
+			Gekko Gentei Gessei Gesshin Getsurei Giun Goshin Gyokuren Hekiren Honko Honku Ikkyo Isshi 
 			Jakusho Jiko Jinko Jinshitsu Jion Jitsuzan Jiun Jizan Junsei Juntoku 
 			Kako Kansitsu Kanyo Keigaku Keigetsu Keishitsu Kenshitsu Kotoku Kyojin Myoko Nangaku Nanso 
-			Rankei Rankei Ranshitsu Ranso Reishitu Ryogetsu 
+			Rankei Ranshitsu Ranso Reishitu Ryogetsu 
 			Saigetsu Seishin Seishitsu Seishuku Sengaku Sentoku Seteurei Setsutei Shinko Shukutoku Shunko 
 			Teishitsu Tesshin Tokudai Tokutaku Zenshitsu Zuishin Zuishitsu Zuiun
 			Maduru Maguji Majini Makadu Makamadu Makatudaru Mamatsu Maminaku Manandaru Maushi Meenu 
@@ -385,7 +385,7 @@ japonic = {
 			Kaikauku Kashicari Katsukura Kanahe Kanihi Kanekirauroko Kanemono Kabu Kaputain Kamuikocha Kamuima Kamokutain Garugaru Kantaku Kannariki Kannuku Kiihon Kiuchi Kikikoro Kikeninba Kishishika
 			Kinekurain Kimurakai Kimesan Kiriho Kirorikata Kuikoro Kushiyunte Kuchigori Kutekira Kubuni Kumakain Kuwakaaino Kunne Getou Kemurutoi Kereba Koarofuni Kokashi Koshipa Koshamain Kotaka Kotanchire
 			Kotanramu Koteka Koton Kobui Kohechiyahe Komonta Korappu Koreshipi Gonpa Saabuni Sakai Saketata Sakechin Sakeroku Satoruki Sanukuno Sahapo Saruko Zareama Sankitsu Sangea Sankeshiainu Santokuno
-			Sanbe Sanroka Shianu Shiipirasa Shiukeri Shiurumi Shiecaca Shikahotsute Shikishima Shikuru Shikotsuaino Shikorebun Shishiya Shitane Shitente Shitokinra Shitona Shitomushi Shinureki Shinomi Shihirasa
+			Sanbe Sanroka Shianu Shiipirasa Shiukeri Shiurumi Shiecaca Shikahotsute Shikishima Shikuru Shikotsuaino Shikorebun Shishiya Shitane Shitente Shitokinra Shitomushi Shinureki Shinomi Shihirasa
 			Shihori Shiyatanoi Shiyareshiko Shanri Shuttegan Shimano Shiyokima Shoya Shirakeshi Shirapeno Shiranbe Shiriu Shirikin Shirunka Shirekuainu Shirosan Shiwoi Shinta Shinmekuru Seuri Sekaya Senekkuru
 			Senrumashi Sentoki Sourai Sokutori Soyaka Sorakaaino
 			Taeama Takarumoshi Takeani Tataru Tarikona Chiusaku Chikafure Chikurake Chibie Cukomoire Couri Tsukitaaino Tsufuri Tenu Tekorupa Tetatori Tenpute Toafuke Toiyare Touinkara Toubi Tokateankuru
@@ -399,7 +399,7 @@ japonic = {
 			Anderkina Auri Belaskita Fakil Opere Hotene Ipokash Umakashte Umoshmatek Toitoi Etunrachich
 			Marki Oneki Tekla Horpecha Monashir Unkatuye Huisak Katkemat
 			Aikarishima Asamu Ashiri Ashirirera Atano Anikatan Ane Afaka Apeyanke Arikosan Arikore Awanunke Antaman Antoreku Ianpanu Iunte Ietsumachi Ikashire Ikarikinra
-			Ikuramu Igokunu Ishiropa Itankisanke Inauesanmatsu Inishihare Ipihhine Ipuinematsu Ipokash Imarika Imekanu Iyamaka Irirui Irukamatsu Uinteki Ukaitekan Ukaechiu
+			Ikuramu Igokunu Ishiropa Itankisanke Inauesanmatsu Inishihare Ipihhine Ipuinematsu Imarika Imekanu Iyamaka Irirui Irukamatsu Uinteki Ukaitekan Ukaechiu
 			Usaatsu Usamatte Ushikima Ushimonka Ushintaroku Utekare Unarupeku Unukaru Uhohomatsu Urakunte Uratokka Ureshipa Ueashi Unkatoe Earisange Esan Esannoa Etamuketomu
 			Etenoa Enenuaku Ehetoren Epewonu Ehoro Emuntomu Eyamatsu Otamachi Oroatsu Kaate Kaurankematto Kazukuchi Kakkematsu Kafuninha Kariha Kareappu Kannari Kinachiyari
 			Kiri Gutemanma Kura Kuwaesan Kekere Koetoka Kotannu Kotomandeku Kopoanu Korafunima Konbekkino Saishiu Sakuan Satamo Sanure Sarean Sankuma Shiarumina Shishiraima
@@ -485,10 +485,10 @@ koreanic = {
 
 paleosiberian = {
 
-	graphical_cultures = { nivkhgix ainugfx chinesegfx mongolgfx muslimgfx }
+	graphical_cultures = { ainugfx chinesegfx mongolgfx muslimgfx } #nivkhgix doesn't exist
 
 	nivkh = {
-		graphical_cultures = { nivkhgix ainugfx chinesegfx mongolgfx muslimgfx }
+		graphical_cultures = { ainugfx chinesegfx mongolgfx muslimgfx } #nivkhgix doesn't exist
 		secondary_event_pictures = bedouin_arabic
 		
 		dynasty_name_first = yes

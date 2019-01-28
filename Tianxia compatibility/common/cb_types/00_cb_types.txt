@@ -11063,7 +11063,7 @@ imperial_reconquest = {
 			de_jure_liege_or_above = k_antioch
 			de_jure_liege_or_above = k_cyprus
 			de_jure_liege_or_above = k_amalfi
-			de_jure_liege_or_above = k_venice
+			#de_jure_liege_or_above = k_venice # Duplicate
 			de_jure_liege_or_above = k_pisa
 			de_jure_liege_or_above = k_genoa
 			de_jure_liege_or_above = k_switzerland
@@ -18315,26 +18315,26 @@ indian_subjugation = {
 				}
 			}
 		}
-		modifier = {
-			factor = 0
-			FROM = {
-				is_nomadic = yes
-			}
-			ROOT = {
-				is_tribal = yes
-			}
-			NOT = {
-				any_direct_de_jure_vassal_title = {
-					any_direct_de_jure_vassal_title = {
-						OR = {
-							holding_type = castle
-							holding_type = city
-							holding_type = tribal
-						}
-					}
-				}
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	FROM = {
+		#		is_nomadic = yes
+		#	}
+		#	ROOT = {
+		#		is_tribal = yes
+		#	}
+		#	NOT = {
+		#		any_direct_de_jure_vassal_title = {
+		#			any_direct_de_jure_vassal_title = {
+		#				OR = {
+		#					holding_type = castle
+		#					holding_type = city
+		#					holding_type = tribal
+		#				}
+		#			}
+		#		}
+		#	}
+		#}
 	}
 }
 
@@ -19768,10 +19768,10 @@ free_tributary_cb = {
 	can_use_gui = {
 		check_if_crusader_trigger = yes
 		ROOT = { #Cannot use CB if can take decision to stop paying tribute
-			conditional_tooltip = {
-				trigger = { is_decision_potential = tributary_independence_china }
-				NOT = { is_decision_allowed = tributary_independence_china }
-			}
+			#conditional_tooltip = { # Removed JD decision
+			#	trigger = { is_decision_potential = tributary_independence_china }
+			#	NOT = { is_decision_allowed = tributary_independence_china }
+			#}
 			conditional_tooltip = {
 				trigger = { is_decision_potential = tributary_independence_normal }
 				NOT = { is_decision_allowed = tributary_independence_normal }

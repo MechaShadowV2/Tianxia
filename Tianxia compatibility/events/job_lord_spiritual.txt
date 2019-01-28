@@ -238,12 +238,24 @@ character_event = {
 			}
 			location = {
 				religion_group = indian_group
-				NOT = {
+				NOR = {
 					religion = taoist
+					religion = shinto # Don't want to stack the penalty
 				}
 			}
 		}
-		# Jains, Taoists and Bön have a hard time converting ALL non-pagans
+		# The Shinto religion is hard to convert, unless you're Buddhist
+		modifier = {
+			factor = 3.0
+			has_job_action = action_inquisition
+			NOT = {
+				religion = buddhist
+			}
+			location = {
+				religion = shinto
+			}
+		}
+		# Jains, Taoists, Shintos and Bön have a hard time converting ALL non-pagans
 		modifier = {
 			factor = 3.0
 			has_job_action = action_inquisition
@@ -252,15 +264,8 @@ character_event = {
 				religion = taoist
 				religion = bon
 				religion = bon_reformed
+				religion = shinto
 			}
-			location = {
-				NOT = { religion_group = pagan_group }
-			}
-		}
-		# Shinto has a hard time converting non-pagans
-		modifier = {
-			factor = 3.0
-			religion = shinto
 			location = {
 				NOT = { religion_group = pagan_group }
 			}

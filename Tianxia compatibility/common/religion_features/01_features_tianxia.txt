@@ -116,6 +116,7 @@ religion_doctrine = {
 		}
 		trigger = {
 			NOR = { 
+				has_selected_religion_feature = religion_dogmatic
 				has_selected_religion_feature = religion_meritocratic
 				has_selected_religion_feature = religion_stable
 				has_selected_religion_feature = religion_feature_chinese
@@ -286,21 +287,13 @@ religion_doctrine = {
 				set_male_temple_holders = yes
 				#FROM = { any_demesne_title = { add_law = status_of_women_4 } } 
 			}
-			custom_tooltip = { text = tooltip_religion_feature_rivermovement }
+			#custom_tooltip = { text = tooltip_religion_feature_rivermovement }
 			custom_tooltip = { text = tooltip_religion_feature_ship_maintenance }
 			custom_tooltip = { text = tooltip_religion_feature_seafaring }
 			hidden_tooltip = {
 				set_seafaring = yes
-				set_allow_rivermovement = yes
-				if = {
-					limit = { #Unlock looting for religions which do not have it already.
-						FROM = { 
-						character = yes 
-							NOT = { has_selected_religion_feature = religion_peaceful }
-						}
-					}
-					set_allow_looting = yes
-				}
+				#set_allow_rivermovement = yes
+				set_allow_looting = yes
 			}
 		}
 		
@@ -332,21 +325,6 @@ religion_doctrine = {
 			hidden_tooltip = {
 				set_seafaring = yes
 				#set_allow_rivermovement = yes
-				if = {
-					limit = { #Unlock looting for religions which do not have it already.
-						FROM = { 
-						character = yes 
-							NOT = { has_selected_religion_feature = religion_peaceful }
-							OR = { 
-								religion = pagan 
-								religion = zun_pagan
-								religion = aztec
-								religion = hellenic_pagan
-							}
-						}
-					}
-					set_allow_looting = yes
-				}
 			}
 			custom_tooltip = { text = tooltip_religion_feature_land_morale }
 			custom_tooltip = { text = tooltip_religion_feature_adulthood_rite }

@@ -36,9 +36,6 @@ imperial_conquest = {
 			NOT = { same_realm = FROM }
 			mercenary = no
 		}
-		FROM = {
-			#NOT = { religion_group = indian_group }
-		}
 		OR = {
 			# Both characters lack Chinese Peace Deals (likely true for most characters on the map)
 			AND = {
@@ -1250,11 +1247,11 @@ chinese_decadence_invasion = {
 		}
 	}
 
-	on_reverse_demand_title = {
-		any_claim = {
-			remove_claim = ROOT
-		}
-	}
+	#on_reverse_demand_title = { # Does not work
+	#	any_claim = {
+	#		remove_claim = ROOT
+	#	}
+	#}
 
 	attacker_ai_victory_worth = {
 		factor = 100

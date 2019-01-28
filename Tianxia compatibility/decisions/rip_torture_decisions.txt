@@ -1323,7 +1323,7 @@ targetted_decisions = {
 									}
 									NOT = { religion_group = ROOT }
 								}
-									set_character_flag = dont_even_exist	
+									set_character_flag = dont_even_exist # Well, the Tenno does...	
 							}
 							
 							character_event = { id = RIP.11510 }

@@ -1881,7 +1881,7 @@ character_event = {
 }
 
 # Meeting caravan
-character_event = { # TODO: Tianxia artefacts
+character_event = { # TODO: Tianxia artefacts - medium priortiy
     id = HFP.42204
     desc = EVTDESC_HFP_42204
     picture = GFX_evt_merchant_caravan
@@ -2695,7 +2695,7 @@ character_event = {
 }
 
 # The little group of faithful
-character_event = { # TODO: Tianxia regions
+character_event = {
     id = HFP.42208
     desc = EVTDESC_HFP_42208
     picture = GFX_evt_woman_praying_hf

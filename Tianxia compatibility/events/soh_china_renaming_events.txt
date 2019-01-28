@@ -2,8 +2,7 @@
 
 # by Silverswee(e)per
 
-# TODO: Update localization for references to Taoist religion
-# TODO: Allow reconversion to old pagan religion with HF, if it is acceptable
+# TODO: Possibly allow reconversion to old pagan religion with HF, if it is acceptable (not a priority right now)
 
 namespace = nameofchina
 

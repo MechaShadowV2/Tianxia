@@ -5172,7 +5172,7 @@ join_prev_warrior_lodge_society_effect = {
 		join_society = warrior_lodge_hellenic
 	}
 	
-	# TODO: Tianxia
+	# TODO: Tianxia warrior lodges - medium priority
 }
 give_this_warrior_lodge_religion_effect = { #Mostly for spawned characters.
 	if = {
@@ -5302,7 +5302,7 @@ give_this_warrior_lodge_religion_effect = { #Mostly for spawned characters.
 		religion = hellenic_pagan_reformed
 	}
 	
-	# TODO: Tianxia
+	# TODO: Tianxia - medium priority
 }
 
 remove_education_effect = {
@@ -32622,7 +32622,7 @@ reformation_god_names_changes_effect = { #Reforming religion with certain Doctri
 		}
 	}
 	
-	# TODO: Tianxia religions
+	# TODO: Tianxia religions - medium priority
 }
 
 murder_bloodline_check_effect = { 

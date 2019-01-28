@@ -13324,49 +13324,49 @@ character_event = {
 		trigger = { 
 			religion = chinese_pagan
 		} 
-		text = EVTDESCLHF23470 # TODO: New desc
+		text = EVTDESCHF23470_CHINESE
 	}
 	desc = { 
 		trigger = { 
 			religion = korean_pagan
 		} 
-		text = EVTDESCLHF23470 # TODO: New desc
+		text = EVTDESCHF23470_KOREAN 
 	}
 	desc = { 
 		trigger = { 
 			religion = ainu_pagan
 		} 
-		text = EVTDESCLHF23470 # TODO: New desc
+		text = EVTDESCHF23470_AINU
 	}
 	desc = { 
 		trigger = { 
 			religion = ryukyuan_pagan
 		} 
-		text = EVTDESCLHF23470 # TODO: New desc
+		text = EVTDESCHF23470_RYUKYUAN
 	}
 	desc = { 
 		trigger = { 
 			religion = dayak_pagan
 		} 
-		text = EVTDESCLHF23470 # TODO: New desc
+		text = EVTDESCHF23470_DAYAK
 	}
 	desc = { 
 		trigger = { 
 			religion = melanesian_pagan
 		} 
-		text = EVTDESCLHF23470 # TODO: New desc
+		text = EVTDESCHF23470_MELANESIAN
 	}
 	desc = { 
 		trigger = { 
 			religion = sanamahi_pagan
 		} 
-		text = EVTDESCLHF23470 # TODO: New desc
+		text = EVTDESCHF23470_SANAMAHI
 	}
 	desc = { 
 		trigger = { 
 			religion = viet_pagan
 		} 
-		text = EVTDESCLHF23470 # TODO: New desc
+		text = EVTDESCHF23470_VIET
 	}
 	picture = GFX_evt_irminsul_shrine
 	border = GFX_event_normal_frame_religion
