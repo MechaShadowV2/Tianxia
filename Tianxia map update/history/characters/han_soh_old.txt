@@ -1,5 +1,7 @@
 # TODO: Re-add these as part of the map rework
+# TODO: Fix dynasty issues
 
+# Start missing dynasties
 1000451000 = {
 	name="Fei"
 	dynasty=1000156100
@@ -68725,6 +68727,8 @@
 		death="1317.6.13"
 	}
 }
+
+# End missing dynasties
 
 # Song Dynasty
 #Can't be here as it destroys the Song family tree

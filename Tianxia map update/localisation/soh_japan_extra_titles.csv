@@ -783,7 +783,7 @@ b_tesuni;Tesuni;;;;;;;;;;;;;x
 b_tomaomai;Tomaomai;;;;;;;;;;;;;x
 b_maske;Maske;;;;;;;;;;;;;x
 b_rurmootpe;Rurmootpe;;;;;;;;;;;;;x
-b_hapur;Hapur;;;;;;;;;;;;;x
+b_hapur2;Hapur;;;;;;;;;;;;;x
 b_poronutap;Poronutap;;;;;;;;;;;;;x
 b_rukusnay;Rukusnay;;;;;;;;;;;;;x
 b_kotanpet;Kotanpet;;;;;;;;;;;;;x
@@ -819,3 +819,8 @@ b_poropet;Poropet;;;;;;;;;;;;;x
 b_sirawoi;Sirawoi;;;;;;;;;;;;;x
 b_iput;Iput;;;;;;;;;;;;;x
 b_sikottoho;Sikottoho;;;;;;;;;;;;;x
+b_kusu;Kusu;;;;;;;;;;;;;x
+b_hita;Hita;;;;;;;;;;;;;x
+b_udara;Udara;;;;;;;;;;;;;x
+b_isawa_shima;Isawa Shima;;;;;;;;;;;;;x
+b_akagi;Akagi;;;;;;;;;;;;;x

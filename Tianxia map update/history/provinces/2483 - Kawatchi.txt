@@ -6,7 +6,7 @@ title = c_kwatchi
 
 max_settlements = 7 #Taikoku
 b_shiki = castle
-b_manda = castle
+b_manda_kawachi = castle
 b_asukabe = castle
 b_katano = temple
 b_sasara = castle

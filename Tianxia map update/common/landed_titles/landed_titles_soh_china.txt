@@ -189,7 +189,7 @@ e_china = {
 		}
 		
 		d_guixian = {
-			color = { 123 450 12 }
+			color = { 123 250 12 }
 			color2 = { 121 64 4 }
 	
 			capital = 2714 # Guixian
@@ -534,7 +534,7 @@ e_china = {
 			color = { 175 216 80 }
 			color2 = { 181 6 0 }
 			
-			capital = 1811 # Xiamen
+			capital = 2733 # Xiamen
 			
 			c_xiamen = {
 				color = { 165 206 70 }

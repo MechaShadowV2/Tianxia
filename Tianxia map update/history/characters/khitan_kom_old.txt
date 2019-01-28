@@ -474,20 +474,7 @@
 	}
 }
 
-1000077307 = {
-	name="Honghua"
-	female=yes
-	dynasty=1000027362 #Li
-	religion="buddhist"
-	culture="han"
-	#father=# Jiancheng
-	622.1.1={
-		birth="622.1.1"
-	}
-	670.1.1={
-		death="670.1.1"
-	}
-}
+#1000077307
 
 1000077308 = {
 	name="Mei"
@@ -579,8 +566,8 @@
 	name="Dayan"
 	religion="bon"
 	culture="khitan"
-	father=1000077305
-	mother=1000077307
+	#father=1000077305
+	#mother=1000077307
 	606.1.1={
 		birth="606.1.1"
 	}

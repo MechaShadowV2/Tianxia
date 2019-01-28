@@ -236,7 +236,7 @@
 	culture="japanese"
 	trait = amaterasu_descendant
 	trait="naive_appeaser"
-	father=1000075008
+	father=1000075004 # Was 1000075008, which can't possibly be correct
 	560.1.1={
 		birth="560.1.1"
 	}
@@ -3156,8 +3156,11 @@
 	trait="naive_appeaser"
 	father=1000075009
 	mother=1000075011
-	594.1.1={
-		birth="594.1.1"
+	#594.1.1={
+	#	birth="594.1.1"
+	#}
+	614.1.1={
+		birth="614.1.1" # Guesswork based on father's birth
 	}
 	665.3.16={
 		death="665.3.16"
@@ -3186,7 +3189,7 @@
 	religion="shinto"
 	culture="japanese"
 	trait="naive_appeaser"
-	father=1000075021
+	father=1000075121 # Daughter of Furuhito, son of Jomei
 	623.1.1={
 		birth="623.1.1"
 	}
@@ -4773,7 +4776,7 @@
 	religion="shinto"
 	culture="japanese"
 	trait="amateurish_plotter"
-	father=1000075223
+	father=1000075222 # Was 1000075223, which can't be correct
 	752.1.1={
 		birth="752.1.1"
 	}
@@ -4782,20 +4785,20 @@
 	}
 }
 
-1000075225 = {
-	name="Fujinari"
-	dynasty=1000027001
-	religion="shinto"
-	culture="japanese"
-	trait="amateurish_plotter"
-	father=1000075223
-	776.1.1={
-		birth="776.1.1"
-	}
-	822.1.1={
-		death="822.1.1"
-	}
-}
+#1000075225 = { # Duplicate of 1000075223
+#	name="Fujinari"
+#	dynasty=1000027001
+#	religion="shinto"
+#	culture="japanese"
+#	trait="amateurish_plotter"
+#	father=1000075222  # Was 1000075223, which can't be correct
+#	776.1.1={
+#		birth="776.1.1"
+#	}
+#	822.1.1={
+#		death="822.1.1"
+#	}
+#}
 
 1000075226 = {
 	name="Toyosawa"

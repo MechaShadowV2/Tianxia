@@ -202,7 +202,7 @@
 	dynasty=1000027640 #Katyuri-Salonaditya
 	religion="hindu"
 	culture="nepali" # Placeholder for Khaskura
-	father=1000080366
+	father=1000080365 # Was 1000080366, which can't possibly be correct
 	1010.1.1={
 		birth="1010.1.1"
 	}

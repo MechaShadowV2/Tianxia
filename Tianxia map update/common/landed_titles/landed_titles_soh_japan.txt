@@ -340,7 +340,10 @@ e_japan = {
 			c_tsushima = {
 				color = { 178 255 168 }
 				color2 = {63 63 63}
-			
+				¨
+				holy_site = korean_pagan
+				holy_site = korean_pagan_reformed
+				
 				b_kamitsuagata = {
 				}
 				b_shimotsuagata = {
@@ -1506,7 +1509,7 @@ e_japan = {
 				b_rurmootpe = {
 					japanese = "Rumoi"
 				}
-				b_hapur = {
+				b_hapur2 = {
 					japanese = "Haboro"
 				}
 				b_poronutap = {

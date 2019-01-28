@@ -5,7 +5,7 @@ title = c_mikawa
 # Settlements
 
 max_settlements = 6 #Jokoku
-b_hoi = castle
+b_hoo = castle
 b_aomi = castle
 #b_nukata = castle
 b_kamo_mikawa = temple

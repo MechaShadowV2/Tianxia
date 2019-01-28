@@ -703,7 +703,7 @@
 	dynasty=1000027802 #Na
 	religion="korean_pagan"
 	culture="korean"
-	father=100084001
+	#father=100084001 # Can't possibly be correct
 	1050.1.1={
 		birth=yes
 	}
@@ -717,7 +717,7 @@
 	dynasty=1000027803 #Hwang
 	religion="korean_pagan"
 	culture="korean"
-	father=100084002
+	#father=100084002 # Can't possibly be correct
 	1050.1.1={
 		birth=yes
 	}
@@ -1107,10 +1107,12 @@
 	religion="korean_pagan"
 	culture="korean"
 	#add_trait="seonggol"
-	real_father=1000450209
 	mother=1000450066
 	47.1.1={
 		birth=yes
+		effect = {
+			set_real_father=c_1000450209
+		}
 	}
 	128.1.1={
 		death=yes
@@ -1831,7 +1833,7 @@
 	religion="korean_pagan"
 	culture="korean"
 	#add_trait="seonggol"
-	father=1000450114
+	father=1000450086 # Was 1000450114, which can't possibly be correct
 	247.1.1={
 		birth=yes
 	}
@@ -3209,7 +3211,7 @@
 		add_spouse=1000450202
 	}
 	610.1.1={
-		remove_trait="seonggol"
+		#remove_trait="seonggol"
 		#add_trait="jingol"
 	}#The descendants of King Jinji are forced to become jingol by Gim Baekban
 	617.1.1={
@@ -3228,7 +3230,7 @@
 		birth=yes
 	}
 	610.1.1={
-		remove_trait="seonggol"
+		#remove_trait="seonggol"
 		#add_trait="jingol"
 	}#The descendants of King Jinji are forced to become jingol by Gim Baekban
 	647.1.1={
@@ -3322,7 +3324,7 @@
 		birth=yes
 	}
 	610.1.1={
-		remove_trait="seonggol"
+		#remove_trait="seonggol"
 		#add_trait="jingol"
 	}#The descendants of King Jinji are forced to become jingol by Gim Baekban
 	621.1.1={
@@ -6480,331 +6482,332 @@
 		death=yes
 	}
 }
-#Kings of Buyeo
-1000450407 = {
-	name="Mosu"
-	dynasty=1000155018 #Buyeo Hae
-	religion="korean_pagan"
-	culture="korean"
-	3.1.1={
-		birth=yes
-	}#-255
-	20.1.1={
-		death=yes
-	}#-194
-}
-1000450408 = {
-	name="Suri"
-	dynasty=1000155019 #Buyeo Mo
-	religion="korean_pagan"
-	culture="korean"
-	3.1.1={
-		birth=yes
-	}#-214
-	20.1.1={
-		death=yes
-	}#-170
-}
-1000450409 = {
-	name="Haesa"
-	dynasty=1000155020 #Buyeo Go
-	religion="korean_pagan"
-	culture="korean"
-	father=1000450407
-	3.2.1={
-		birth=yes
-	}#-190
-	20.1.1={
-		death=yes
-	}#-121
-}
-1000450410 = {
-	name="Wuiru"
-	dynasty=1000155020 #Buyeo Go
-	religion="korean_pagan"
-	culture="korean"
-	father=1000450409
-	3.3.1={
-		birth=yes
-	}#-169
-	20.1.1={
-		death=yes
-	}#-86
-}
-1000450411 = {
-	name="Dumak"
-	dynasty=1000155020 #Buyeo Go
-	religion="korean_pagan"
-	culture="korean"
-	father=1000450410
-	3.4.1={
-		birth=yes
-	}#-125
-	20.1.1={
-		death=yes
-	}#-59
-}
-1000450412 = {
-	name="Museo"
-	dynasty=1000155020 #Buyeo Go
-	religion="korean_pagan"
-	culture="korean"
-	father=1000450411
-	3.5.1={
-		birth=yes
-	}#-98
-	4.1.1={
-		add_spouse=1000450418
-	}#-57
-	19.1.1={
-		death=yes
-	}#-58
-}
-1000450413 = {
-	name="Pahul"
-	dynasty=1000155018 #Buyeo Hae
-	religion="korean_pagan"
-	culture="korean"
-	father=1000450407
-	3.2.1={
-		birth=yes
-	}#-220
-	20.1.1={
-		death=yes
-	}#-199
-}
-1000450414 = {
-	name="Jiwon"
-	dynasty=1000155018 #Buyeo Hae
-	religion="korean_pagan"
-	culture="korean"
-	father=1000450413
-	3.3.1={
-		birth=yes
-	}#-200
-	20.1.1={
-		death=yes
-	}#-138
-}
-1000450415 = {
-	name="Malo"
-	dynasty=1000155018 #Buyeo Hae
-	religion="korean_pagan"
-	culture="korean"
-	father=1000450414
-	3.4.1={
-		birth=yes
-	}#-150
-	20.1.1={
-		death=yes
-	}#-86
-}
-1000450416 = {
-	name="Buru"
-	dynasty=1000155018 #Buyeo Hae
-	religion="korean_pagan"
-	culture="korean"
-	father=1000450415
-	3.5.1={
-		birth=yes
-	}#-131
-	20.1.1={
-		death=yes
-	}#-48
-}
-1000450417 = {
-	name="Geumwa"
-	dynasty=1000155018 #Buyeo Hae
-	religion="korean_pagan"
-	culture="korean"
-	father=1000450416
-	3.6.1={
-		birth=yes
-	}#-80
-	4.1.1={
-		add_spouse=1000450419
-	}#-60
-	5.1.1={
-		effect={c_1000450420={add_consort=ROOT}}
-	}#-59
-	19.1.1={
-		effect={c_1000450418={add_consort=ROOT}}
-	}#-58
-	20.1.1={
-		death=yes
-	}#-7
-}
-1000450418 = {
-	name="Yuhwa"
-	female=yes
-	dynasty=1000155021 #Buyeo Yalu
-	religion="korean_pagan"
-	culture="korean"
-	father=1000450421
-	3.1.1={
-		birth=yes
-	}#-78
-	20.1.1={
-		death=yes
-	}#-28
-}
-1000450419 = {
-	name="Hweonhwa"
-	female=yes
-	dynasty=1000155021 #Buyeo Yalu
-	religion="korean_pagan"
-	culture="korean"
-	father=1000450421
-	3.1.1={
-		birth=yes
-	}#-77
-	20.1.1={
-		death=yes
-	}#-13
-}
-1000450420 = {
-	name="Wuihwa"
-	female=yes
-	dynasty=1000155021 #Buyeo Yalu
-	religion="korean_pagan"
-	culture="korean"
-	father=1000450421
-	3.1.1={
-		birth=yes
-	}#-76
-	20.1.1={
-		death=yes
-	}#-8
-}
-1000450421 = {
-	name="Habaek"
-	dynasty=1000155021 #Buyeo Yalu
-	religion="korean_pagan"
-	culture="korean"
-	3.1.1={
-		birth=yes
-	}#-100
-	20.1.1={
-		death=yes
-	}#-50
-}
-1000450422 = {
-	name="Daeso"
-	dynasty=1000155018 #Buyeo Hae
-	religion="korean_pagan"
-	culture="korean"
-	father=1000450417
-	mother=1000450419
-	3.7.1={
-		birth=yes
-	}#-59
-	22.1.1={
-		death=yes
-	}
-}
-1000450423 = {
-	name="Minchul"
-	dynasty=1000155018 #Buyeo Hae
-	religion="korean_pagan"
-	culture="korean"
-	father=1000450417
-	mother=1000450420
-	3.8.1={
-		birth=yes
-	}#-58
-	20.1.1={
-		death=yes
-	}#-8
-}
-1000450424 = {
-	name="Deoksul"
-	dynasty=1000155018 #Buyeo Hae
-	religion="korean_pagan"
-	culture="korean"
-	father=1000450417
-	mother=1000450420
-	3.9.1={
-		birth=yes
-	}#-57
-	20.1.1={
-		death=yes
-	}
-}
-1000450425 = {
-	name="Dojin"
-	dynasty=1000155018 #Buyeo Hae
-	religion="korean_pagan"
-	culture="korean"
-	father=1000450424
-	4.1.1={
-		birth=yes
-	}#-3
-	40.1.1={
-		death=yes
-	}
-}
-1000450426 = {
-	name="Gongchi"
-	dynasty=1000155018 #Buyeo Hae
-	religion="korean_pagan"
-	culture="korean"
-	father=1000450417
-	mother=1000450420
-	3.10.1={
-		birth=yes
-	}#-52
-	20.1.1={
-		death=yes
-	}
-}
-1000450427 = {
-	name="Takrok"
-	dynasty=1000155018 #Buyeo Hae
-	religion="korean_pagan"
-	culture="korean"
-	father=1000450417
-	mother=1000450419
-	3.11.1={
-		birth=yes
-	}#-44
-	20.1.1={
-		death=yes
-	}
-}
-1000450428 = {
-	name="Sagu"
-	dynasty=1000155018 #Buyeo Hae
-	religion="korean_pagan"
-	culture="korean"
-	father=1000450417
-	mother=1000450419
-	3.12.1={
-		birth=yes
-	}#-38
-	22.1.1={
-		death=yes
-	}
-}
-1000450429 = {
-	name="Yeon"
-	female=yes
-	dynasty=1000155018 #Buyeo Hae
-	religion="korean_pagan"
-	culture="korean"
-	father=1000450427
-	4.1.1={
-		birth=yes
-	}#-4
-	33.1.1={
-		death=yes
-	}
-}
+# These make the error log unhappy, and are utterly irrelevant, so they have been commented out
+##Kings of Buyeo
+#1000450407 = {
+#	name="Mosu"
+#	dynasty=1000155018 #Buyeo Hae
+#	religion="korean_pagan"
+#	culture="korean"
+#	3.1.1={
+#		birth=yes
+#	}#-255
+#	20.1.1={
+#		death=yes
+#	}#-194
+#}
+#1000450408 = {
+#	name="Suri"
+#	dynasty=1000155019 #Buyeo Mo
+#	religion="korean_pagan"
+#	culture="korean"
+#	3.1.1={
+#		birth=yes
+#	}#-214
+#	20.1.1={
+#		death=yes
+#	}#-170
+#}
+#1000450409 = {
+#	name="Haesa"
+#	dynasty=1000155020 #Buyeo Go
+#	religion="korean_pagan"
+#	culture="korean"
+#	father=1000450407
+#	3.2.1={
+#		birth=yes
+#	}#-190
+#	20.1.1={
+#		death=yes
+#	}#-121
+#}
+#1000450410 = {
+#	name="Wuiru"
+#	dynasty=1000155020 #Buyeo Go
+#	religion="korean_pagan"
+#	culture="korean"
+#	father=1000450409
+#	3.3.1={
+#		birth=yes
+#	}#-169
+#	20.1.1={
+#		death=yes
+#	}#-86
+#}
+#1000450411 = {
+#	name="Dumak"
+#	dynasty=1000155020 #Buyeo Go
+#	religion="korean_pagan"
+#	culture="korean"
+#	father=1000450410
+#	3.4.1={
+#		birth=yes
+#	}#-125
+#	20.1.1={
+#		death=yes
+#	}#-59
+#}
+#1000450412 = {
+#	name="Museo"
+#	dynasty=1000155020 #Buyeo Go
+#	religion="korean_pagan"
+#	culture="korean"
+#	father=1000450411
+#	3.5.1={
+#		birth=yes
+#	}#-98
+#	4.1.1={
+#		add_spouse=1000450418
+#	}#-57
+#	19.1.1={
+#		death=yes
+#	}#-58
+#}
+#1000450413 = {
+#	name="Pahul"
+#	dynasty=1000155018 #Buyeo Hae
+#	religion="korean_pagan"
+#	culture="korean"
+#	father=1000450407
+#	3.2.1={
+#		birth=yes
+#	}#-220
+#	20.1.1={
+#		death=yes
+#	}#-199
+#}
+#1000450414 = {
+#	name="Jiwon"
+#	dynasty=1000155018 #Buyeo Hae
+#	religion="korean_pagan"
+#	culture="korean"
+#	father=1000450413
+#	3.3.1={
+#		birth=yes
+#	}#-200
+#	20.1.1={
+#		death=yes
+#	}#-138
+#}
+#1000450415 = {
+#	name="Malo"
+#	dynasty=1000155018 #Buyeo Hae
+#	religion="korean_pagan"
+#	culture="korean"
+#	father=1000450414
+#	3.4.1={
+#		birth=yes
+#	}#-150
+#	20.1.1={
+#		death=yes
+#	}#-86
+#}
+#1000450416 = {
+#	name="Buru"
+#	dynasty=1000155018 #Buyeo Hae
+#	religion="korean_pagan"
+#	culture="korean"
+#	father=1000450415
+#	3.5.1={
+#		birth=yes
+#	}#-131
+#	20.1.1={
+#		death=yes
+#	}#-48
+#}
+#1000450417 = {
+#	name="Geumwa"
+#	dynasty=1000155018 #Buyeo Hae
+#	religion="korean_pagan"
+#	culture="korean"
+#	father=1000450416
+#	3.6.1={
+#		birth=yes
+#	}#-80
+#	4.1.1={
+#		add_spouse=1000450419
+#	}#-60
+#	5.1.1={
+#		effect={c_1000450420={add_consort=ROOT}}
+#	}#-59
+#	19.1.1={
+#		effect={c_1000450418={add_consort=ROOT}}
+#	}#-58
+#	20.1.1={
+#		death=yes
+#	}#-7
+#}
+#1000450418 = {
+#	name="Yuhwa"
+#	female=yes
+#	dynasty=1000155021 #Buyeo Yalu
+#	religion="korean_pagan"
+#	culture="korean"
+#	father=1000450421
+#	3.1.1={
+#		birth=yes
+#	}#-78
+#	20.1.1={
+#		death=yes
+#	}#-28
+#}
+#1000450419 = {
+#	name="Hweonhwa"
+#	female=yes
+#	dynasty=1000155021 #Buyeo Yalu
+#	religion="korean_pagan"
+#	culture="korean"
+#	father=1000450421
+#	3.1.1={
+#		birth=yes
+#	}#-77
+#	20.1.1={
+#		death=yes
+#	}#-13
+#}
+#1000450420 = {
+#	name="Wuihwa"
+#	female=yes
+#	dynasty=1000155021 #Buyeo Yalu
+#	religion="korean_pagan"
+#	culture="korean"
+#	father=1000450421
+#	3.1.1={
+#		birth=yes
+#	}#-76
+#	20.1.1={
+#		death=yes
+#	}#-8
+#}
+#1000450421 = {
+#	name="Habaek"
+#	dynasty=1000155021 #Buyeo Yalu
+#	religion="korean_pagan"
+#	culture="korean"
+#	3.1.1={
+#		birth=yes
+#	}#-100
+#	20.1.1={
+#		death=yes
+#	}#-50
+#}
+#1000450422 = {
+#	name="Daeso"
+#	dynasty=1000155018 #Buyeo Hae
+#	religion="korean_pagan"
+#	culture="korean"
+#	father=1000450417
+#	mother=1000450419
+#	3.7.1={
+#		birth=yes
+#	}#-59
+#	22.1.1={
+#		death=yes
+#	}
+#}
+#1000450423 = {
+#	name="Minchul"
+#	dynasty=1000155018 #Buyeo Hae
+#	religion="korean_pagan"
+#	culture="korean"
+#	father=1000450417
+#	mother=1000450420
+#	3.8.1={
+#		birth=yes
+#	}#-58
+#	20.1.1={
+#		death=yes
+#	}#-8
+#}
+#1000450424 = {
+#	name="Deoksul"
+#	dynasty=1000155018 #Buyeo Hae
+#	religion="korean_pagan"
+#	culture="korean"
+#	father=1000450417
+#	mother=1000450420
+#	3.9.1={
+#		birth=yes
+#	}#-57
+#	20.1.1={
+#		death=yes
+#	}
+#}
+#1000450425 = {
+#	name="Dojin"
+#	dynasty=1000155018 #Buyeo Hae
+#	religion="korean_pagan"
+#	culture="korean"
+#	father=1000450424
+#	4.1.1={
+#		birth=yes
+#	}#-3
+#	40.1.1={
+#		death=yes
+#	}
+#}
+#1000450426 = {
+#	name="Gongchi"
+#	dynasty=1000155018 #Buyeo Hae
+#	religion="korean_pagan"
+#	culture="korean"
+#	father=1000450417
+#	mother=1000450420
+#	3.10.1={
+#		birth=yes
+#	}#-52
+#	20.1.1={
+#		death=yes
+#	}
+#}
+#1000450427 = {
+#	name="Takrok"
+#	dynasty=1000155018 #Buyeo Hae
+#	religion="korean_pagan"
+#	culture="korean"
+#	father=1000450417
+#	mother=1000450419
+#	3.11.1={
+#		birth=yes
+#	}#-44
+#	20.1.1={
+#		death=yes
+#	}
+#}
+#1000450428 = {
+#	name="Sagu"
+#	dynasty=1000155018 #Buyeo Hae
+#	religion="korean_pagan"
+#	culture="korean"
+#	father=1000450417
+#	mother=1000450419
+#	3.12.1={
+#		birth=yes
+#	}#-38
+#	22.1.1={
+#		death=yes
+#	}
+#}
+#1000450429 = {
+#	name="Yeon"
+#	female=yes
+#	dynasty=1000155018 #Buyeo Hae
+#	religion="korean_pagan"
+#	culture="korean"
+#	father=1000450427
+#	4.1.1={
+#		birth=yes
+#	}#-4
+#	33.1.1={
+#		death=yes
+#	}
+#}
 1000450430 = {
 	name="Dodu"
 	dynasty=1000155018 #Buyeo Hae
 	religion="korean_pagan"
 	culture="korean"
-	father=1000450425
+	#father=1000450425 # Commented out
 	24.1.1={
 		birth=yes
 	}
@@ -11390,7 +11393,7 @@
 	dynasty=1000027100 #Wang
 	religion="korean_pagan"
 	culture="korean"
-	father=1000075501
+	father=1000075500 # 1000075501 can't possibly be correct
 	875.1.1={
 		birth=yes
 	}
@@ -11531,7 +11534,7 @@
 	dynasty=1000027100 #Wang
 	religion="korean_pagan"
 	culture="korean"
-	father=1000450739
+	father=1000075506 # 1000450739 can't possibly be correct
 	915.1.1={
 		birth=yes
 	}
@@ -11868,7 +11871,7 @@
 	dynasty=1000155238 #Gyeongju Choe
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="dupum"
+	#add_trait="dupum"
 	857.1.1={
 		birth=yes
 	}
@@ -11881,7 +11884,7 @@
 	dynasty=1000155238 #Gyeongju Choe
 	religion="korean_pagan"
 	culture="korean"
-	add_trait="dupum"
+	#add_trait="dupum"
 	father=1000450766
 	895.1.1={
 		birth=yes
@@ -12974,7 +12977,7 @@
 	dynasty=1000155182 #Im
 	religion="korean_pagan"
 	culture="korean"
-	father=1000450839
+	father=1000450954 # 1000450839 can't possibly be correct
 	1109.9.7={
 		birth=yes
 	}

@@ -78,7 +78,6 @@ technology = {
 		d_bengkulu
 		d_lampung
 		d_kalingga
-		d_sundan
 		d_medang
 		d_blambangan
 		d_sunda

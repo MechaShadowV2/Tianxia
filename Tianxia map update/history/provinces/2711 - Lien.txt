@@ -4,11 +4,10 @@
 title = c_lien
 
 # Settlements
-max_settlements = 3
+max_settlements = 2
 
 b_hongda = castle
 b_guian = city
-b_tangdi = temple
 # Needs baronies!
 
 # Misc

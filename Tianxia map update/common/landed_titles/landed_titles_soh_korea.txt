@@ -449,18 +449,6 @@ e_korea = {
 				}
 				# Needs baronies!
 			}
-			c_muju = {
-				color = {128 147 180}
-				color2 = {20 20 20}
-			
-				b_muju = {
-				}
-				b_jugye = {
-				}
-				b_jangsu = {
-				}
-				# Needs baronies!
-			}
 			c_gammun = {
 				color = {128 147 180} # TODO
 				color2 = {20 20 20} # TODO
@@ -747,7 +735,7 @@ e_korea = {
 				# Needs baronies!
 			}
 			c_nonsan = {
-				color = { 60 170 260}
+				color = { 60 170 250}
 				color2 = {20 20 20}
 				
 				b_nonsan = {
@@ -769,7 +757,7 @@ e_korea = {
 				# Needs baronies!
 			}
 			c_daejeon = {
-				color = { 60 170 260} # TODO
+				color = { 60 170 250} # TODO
 				color2 = {20 20 20} # TODO
 				
 				b_daejeon = {}
@@ -780,7 +768,7 @@ e_korea = {
 			color = { 55 47 122 }
 			color2 = { 20 20 20 }
 
-			capital = 2966 # Wonju
+			capital = 2975 # Pyeongan
 			
 			c_pyeongan = {
 				color = {60 95 200}
@@ -802,13 +790,6 @@ e_korea = {
 				}
 				b_goksan = {
 				}
-				# Needs baronies!
-			}
-			c_donghae = {
-				color = { 94 95 200 }
-				color2 = { 20 20 20 }
-				
-				b_donghae = {}
 				# Needs baronies!
 			}
 		}

@@ -301,7 +301,7 @@
 
 1001177321 = {
 	name="Jajiradai"
-	dynasty=1001127361 #Altanli
+	dynasty=1000027701 #Altanli
 	religion="tengri_pagan"
 	culture="buryat"
 	father=1001177294
@@ -315,7 +315,7 @@
 
 1001177322 = {
 	name="Bogorchu"
-	dynasty=1001127361 #Altanli
+	dynasty=1000027701 #Altanli
 	religion="tengri_pagan"
 	culture="buryat"
 	father=1001177295

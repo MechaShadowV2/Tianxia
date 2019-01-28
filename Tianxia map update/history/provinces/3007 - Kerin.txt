@@ -1,7 +1,7 @@
 # 3007 - Kerin
 
 # County Title
-title = c_noro
+title = c_kerin
 
 # Settlements
 max_settlements = 1

@@ -79,7 +79,7 @@ e_pacific_rim = { # New; might need a better name
 				# Needs baronies!
 			}
 			c_basilan = {
-				color = {200 260 160}
+				color = {200 250 160}
 				color2 = {90 90 90}
 				
 				b_basilan = {
@@ -87,7 +87,7 @@ e_pacific_rim = { # New; might need a better name
 				# Needs baronies!
 			}
 			c_sunglupa = {
-				color = {210 260 160}
+				color = {210 250 160}
 				color2 = {90 90 90}
 				
 				b_sunglupa = {
@@ -111,7 +111,7 @@ e_pacific_rim = { # New; might need a better name
 				# Needs baronies!
 			}
 			c_himologan = {
-				color = {240 260 180}
+				color = {240 250 180}
 				color2 = {90 90 90}
 				
 				b_himologan = {
@@ -119,7 +119,7 @@ e_pacific_rim = { # New; might need a better name
 				# Needs baronies!
 			}
 			c_kuta = { # Kuta Wato
-				color = {260 240 180}
+				color = {250 240 180}
 				color2 = {90 90 90}
 				
 				b_kuta = {
@@ -127,7 +127,7 @@ e_pacific_rim = { # New; might need a better name
 				# Needs baronies!
 			}
 			c_bukidnon = {
-				color = {270 250 180}
+				color = {250 250 180}
 				color2 ={90 90 90}
 				
 				b_bukidnon = {
@@ -151,7 +151,7 @@ e_pacific_rim = { # New; might need a better name
 				# Needs baronies!
 			}
 			c_butuan = {
-				color = {260 250 230}
+				color = {250 250 230}
 				color2 = {90 90 90}
 				
 				b_butuan = {
@@ -159,7 +159,7 @@ e_pacific_rim = { # New; might need a better name
 				# Needs baronies!
 			}
 			c_suba = {
-				color = {270 260 240}
+				color = {250 250 240}
 				color2 ={90 90 90}
 				
 				b_suba = {
@@ -167,7 +167,7 @@ e_pacific_rim = { # New; might need a better name
 				# Needs baronies!
 			}
 			c_bayugan = {
-				color = {280 270 250}
+				color = {250 250 250}
 				color2 ={90 90 90}
 				
 				b_bayugan = {
@@ -550,6 +550,8 @@ e_pacific_rim = { # New; might need a better name
 			color = {225 214 189}
 			color2 = {90 90 90}
 			
+			capital = 2422 # Samtoy
+			
 			c_samtoy = {
 				color = {225 214 189} # TODO
 				color2 = {90 90 90} # TODO
@@ -621,7 +623,7 @@ e_pacific_rim = { # New; might need a better name
 			capital = 2432 # Taipei
 			
 			c_taichung = {
-				color = { 280 280 180}
+				color = { 250 280 180}
 				color2 = {90 90 90}
 		
 				b_taichung = {
@@ -666,7 +668,6 @@ e_pacific_rim = { # New; might need a better name
 		d_tainan = {
 			color = {200 230 180}
 			color2 = {90 90 90}
-			capital = 1961 # Tainan
   
 			japanese = "Taichu"
 			taiwanese = "Siraya"

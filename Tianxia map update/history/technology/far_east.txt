@@ -10,7 +10,7 @@ technology = {
 		d_nagato
 		d_sanyodo
 		d_sanindo
-		d_tamba
+		d_tanmba
 		d_kinai
 		d_owari
 		d_tokaido
@@ -50,7 +50,7 @@ technology = {
 		d_menasunkur
 		d_matnawunkur
 		d_cupkaunkur
-		#d_sakhalin
+		d_sakhalin
 	}
 	
 	769 = {

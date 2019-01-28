@@ -6,7 +6,7 @@ title = c_sado
 # Settlements
 max_settlements = 5 #Chugoku
 b_sabata = castle
-b_umo = castole
+b_umo = castle
 #b_kamo_sado = castle
 b_matsuzaki = city
 b_ome = temple

@@ -71,7 +71,7 @@
 	religion="buddhist"
 	culture="bodpa"
 	812.1.1={
-		birth="842.1.1"
+		birth="812.1.1"
 	}
 	872.1.1={
 		death="872.1.1"
@@ -499,7 +499,7 @@
 	religion="buddhist"
 	culture="bodpa"
 	812.1.1={
-		birth="842.1.1"
+		birth="812.1.1"
 	}
 	872.1.1={
 		death="872.1.1"
@@ -928,7 +928,7 @@
 	religion="bon"
 	culture="bodpa"
 	812.1.1={
-		birth="842.1.1"
+		birth="812.1.1"
 	}
 	872.1.1={
 		death="872.1.1"
@@ -1355,7 +1355,7 @@
 	religion="bon"
 	culture="bodpa"
 	812.1.1={
-		birth="842.1.1"
+		birth="812.1.1"
 	}
 	872.1.1={
 		death="872.1.1"
@@ -2152,7 +2152,7 @@
 	religion="bon"
 	culture="bodpa"
 	812.1.1={
-		birth="842.1.1"
+		birth="812.1.1"
 	}
 	872.1.1={
 		death="872.1.1"
@@ -2579,7 +2579,7 @@
 	religion="bon"
 	culture="bodpa"
 	812.1.1={
-		birth="842.1.1"
+		birth="812.1.1"
 	}
 	872.1.1={
 		death="872.1.1"
@@ -3006,7 +3006,7 @@
 	religion="bon"
 	culture="bodpa"
 	812.1.1={
-		birth="842.1.1"
+		birth="812.1.1"
 	}
 	872.1.1={
 		death="872.1.1"
@@ -3433,7 +3433,7 @@
 	religion="bon"
 	culture="bodpa"
 	812.1.1={
-		birth="842.1.1"
+		birth="812.1.1"
 	}
 	872.1.1={
 		death="872.1.1"
@@ -3862,7 +3862,7 @@
 	religion="bon"
 	culture="bodpa"
 	812.1.1={
-		birth="842.1.1"
+		birth="812.1.1"
 	}
 	872.1.1={
 		death="872.1.1"
@@ -4236,7 +4236,7 @@
 	religion="bon"
 	culture="bodpa"
 	812.1.1={
-		birth="842.1.1"
+		birth="812.1.1"
 	}
 	872.1.1={
 		death="872.1.1"
@@ -4717,7 +4717,7 @@
 	religion="bon"
 	culture="bodpa"
 	812.1.1={
-		birth="842.1.1"
+		birth="812.1.1"
 	}
 	872.1.1={
 		death="872.1.1"
@@ -5143,7 +5143,7 @@
 	religion="bon"
 	culture="bodpa"
 	812.1.1={
-		birth="842.1.1"
+		birth="812.1.1"
 	}
 	872.1.1={
 		death="872.1.1"
@@ -5573,7 +5573,7 @@
 	religion="bon"
 	culture="bodpa"
 	812.1.1={
-		birth="842.1.1"
+		birth="812.1.1"
 	}
 	872.1.1={
 		death="872.1.1"
