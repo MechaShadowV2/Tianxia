@@ -5,12 +5,12 @@ technology = {
 		d_chikuho
 		d_minamikyushu
 		d_hinokuni
-		d_shokoku
+		d_shikoku
 		d_nankaido
 		d_nagato
 		d_sanyodo
 		d_sanindo
-		d_tanmba
+		d_tamba
 		d_kinai
 		d_owari
 		d_tokaido

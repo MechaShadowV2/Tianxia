@@ -4,12 +4,12 @@ k_japan;Nippon;;;;;;;;;;;;x
 d_chikuho;Chinzei;;;;;;;;;;;;x
 d_minamikyushu;Kyushu;;;;;;;;;;;;x
 d_hinokuni;Saikai;;;;;;;;;;;;x
-d_shokoku;Shikoku;;;;;;;;;;;;x
+d_shikoku;Shikoku;;;;;;;;;;;;x
 d_nankaido;Nankai;;;;;;;;;;;;x
 d_nagato;Nagato;;;;;;;;;;;;x
 d_sanyodo;Sanyo;;;;;;;;;;;;x
 d_sanindo;Sanin;;;;;;;;;;;;x
-d_tanmba;Tamba;;;;;;;;;;;;x
+d_tamba;Tamba;;;;;;;;;;;;x
 d_kinai;Rokuhara;;;;;;;;;;;;x
 d_owari;Owari;;;;;;;;;;;;x
 d_tokaido;Tokai;;;;;;;;;;;;x
@@ -19,7 +19,7 @@ d_echizen;Echizen;;;;;;;;;;;;x
 d_echigo;Echigo;;;;;;;;;;;;x
 d_tosando;Tosan;;;;;;;;;;;;x
 d_keno;Keno;;;;;;;;;;;;x
-d_dewa;Sewa;;;;;;;;;;;;x
+d_dewa;Dewa;;;;;;;;;;;;x
 d_mutsu;Mutsu;;;;;;;;;;;;x
 #counties and baronies
 c_tane;Tane;;;;;;;;;;;;;x

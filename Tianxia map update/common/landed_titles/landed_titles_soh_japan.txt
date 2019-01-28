@@ -131,6 +131,7 @@ e_japan = {
 				color = { 180 140 135 }
 				color2 = { 63 63 63 }
 				
+				holy_site = shinto
 				b_tagawa_buzen = {
 				}
 				b_kiku = {
@@ -359,7 +360,7 @@ e_japan = {
 		
 		# Nankaido
 		
-		d_shokoku = { #Shikoku Tandai
+		d_shikoku = { #Shikoku Tandai
 			color = { 194 24 125 }
 			color2 = { 63 63 63 }
 	
@@ -369,7 +370,6 @@ e_japan = {
 				color = { 194 154 155 }
 				color2 = { 63 63 63 }
 				
-				holy_site = shinto
 				b_itano = {}
 				b_awa = {}
 				b_miyoshi_awa = {}
@@ -497,6 +497,8 @@ e_japan = {
 			c_wakayama = { #Kii
 				color = { 214 134 123 }
 				color2 = { 63 63 63 }
+				
+				holy_site = shinto
 				b_ito = {}
 				b_tsuga_wakayama = {}
 				b_nagusa = {}
@@ -677,7 +679,6 @@ e_japan = {
 				color = { 254 114 115 }
 				color2 = { 63 63 63 }
 				
-				holy_site = shinto
 				b_ou = {}
 				b_izumo = {}
 				b_kizuki = {} #Izumo Srine, In Izumo Province
@@ -711,7 +712,7 @@ e_japan = {
 				b_yurahime = {}
 			}
 		}
-		d_tanmba = {
+		d_tamba = {
 			color = {88 18 19}
 			color2 = {63 63 63}
 			
@@ -786,8 +787,6 @@ e_japan = {
 				color2 = { 63 63 63 }
 				
 				holy_site = shinto
-				holy_site = ainu_pagan
-				holy_site = ainu_pagan_reformed
 				b_heian_kyo = {}
 				b_otokuni = {}
 				b_kamo = {}
@@ -843,6 +842,7 @@ e_japan = {
 				color = { 214 134 145 }
 				color2 = { 63 63 63 }
 			
+				holy_site = shinto
 				b_ise = {
 				}
 				b_kuwana = {
@@ -996,6 +996,8 @@ e_japan = {
 				color2 = { 63 63 63 }
 			
 				holy_site = shinto
+				holy_site = ainu_pagan
+				holy_site = ainu_pagan_reformed
 				b_ibaraki = {}
 				b_kashima = {}
 				b_tsukuba = {}
@@ -1191,7 +1193,6 @@ e_japan = {
 			c_komagane = { #Suwa
 				color = {254 124 175}
 				color2 = {63 63 63}
-				holy_site = shinto
 				b_tsukama = {}
 				b_suwa = {}
 				b_ina_suwa = {}
@@ -1256,8 +1257,6 @@ e_japan = {
 				color = { 214 94 120 }
 				color2 = { 63 63 63 }
 
-				holy_site = ainu_pagan
-				holy_site = ainu_pagan_reformed
 				b_akita = {}
 				b_senboku = {}
 				b_kawabe = {}
@@ -1337,6 +1336,8 @@ e_japan = {
 				color = { 214 94 130 }
 				color2 = { 63 63 63 }
 				
+				holy_site = ainu_pagan
+				holy_site = ainu_pagan_reformed
 				ainu = "Hitakami"
 				
 				b_isawa = {}
