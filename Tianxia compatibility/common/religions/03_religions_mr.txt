@@ -109,7 +109,7 @@ pagan_group = {
 		}
 		
 		crusade_name = GREAT_HOLY_WAR
-		scripture_name = THE_LEGEND
+		scripture_name = THE_LEGENDS
 		priest_title = PUJARI
 		piety_name = KARMA
 		
@@ -278,7 +278,7 @@ pagan_group = {
 		high_god_name = GOD_SANAMAHI
 		
 		god_names = {
-			GOD_SANAMAHI GOD_PAKHANGBA GOD_NONGPOK_NINTHOU GOD_ATIYA_SIDABA GOD_APANBA GOD_ASHEEBA GOD_THE_ANCESTOR
+			GOD_SANAMAHI GOD_PAKHANGBA GOD_NONGPOK_NINTHOU GOD_ATIYA_SIDABA GOD_APANBA GOD_ASHEEBA GOD_THE_ANCESTORS
 		}
 		evil_god_names = {
 			THE_VINAYAKAS
@@ -342,7 +342,7 @@ pagan_group = {
 		high_god_name = GOD_SANAMAHI
 		
 		god_names = {
-			GOD_SANAMAHI GOD_PAKHANGBA GOD_NONGPOK_NINTHOU GOD_ATIYA_SIDABA GOD_APANBA GOD_ASHEEBA GOD_THE_ANCESTOR
+			GOD_SANAMAHI GOD_PAKHANGBA GOD_NONGPOK_NINTHOU GOD_ATIYA_SIDABA GOD_APANBA GOD_ASHEEBA GOD_THE_ANCESTORS
 		}
 		evil_god_names = {
 			THE_VINAYAKAS
@@ -445,7 +445,7 @@ pagan_group = {
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_LEGENDS
 		priest_title = THAN
-		piety_name = TAO
+		piety_name = PIETY_TE
 		
 		#has_heir_designation = yes
 		priests_can_inherit = no
@@ -507,7 +507,7 @@ pagan_group = {
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_LEGENDS
 		priest_title = THAN
-		piety_name = TAO
+		piety_name = PIETY_TE
 		
 		#has_heir_designation = yes # This is something you need to reform to get
 		priests_can_inherit = no

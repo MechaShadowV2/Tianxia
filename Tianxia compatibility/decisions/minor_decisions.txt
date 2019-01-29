@@ -967,7 +967,7 @@ decisions = {
 		}
 		ai_will_do = {
 			factor = 1
-			trigger = {
+			trigger = { # Actually correct despite the Validator complaining
 				had_global_flag = { flag = viking_age_started years = 2 }
 				OR = {
 					independent = yes

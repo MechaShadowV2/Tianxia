@@ -2455,7 +2455,7 @@ character_event = {
 			}
 		}
 		opinion = {
-			name = opinion_elder_traitor
+			modifier = opinion_elder_traitor
 			who = FROMFROM
 			years = 5
 		}

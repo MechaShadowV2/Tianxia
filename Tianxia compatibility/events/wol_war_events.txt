@@ -1248,6 +1248,8 @@ long_character_event = {
 					}
 				}
 			}
+		}
+		else_if = {
 			limit = { NOT = { event_target:challenger = { character = ROOT } } }
 			event_target:challenger = { save_event_target_as = kinslayer_target }
 			add_kinslayer_trait_effect = yes

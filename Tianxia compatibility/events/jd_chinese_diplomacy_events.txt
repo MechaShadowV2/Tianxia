@@ -540,7 +540,7 @@ character_event = {
     option = {
         name = EVTOPTD_JD_20006
 		sound_effect = china_grace_gain
-        custom_tooltip = { text = EVTOPTD_JD_20006_TT }
+       # custom_tooltip = { text = EVTOPTD_JD_20006_TT }
 
         add_grace_minor_effect = yes
         FROMFROMFROM = {
@@ -562,7 +562,7 @@ character_event = {
     option = { 
         name = EVTOPTA_JD_20007
 		sound_effect = china_grace_gain
-        custom_tooltip = { text = EVTOPTA_JD_20007_TT }
+        #custom_tooltip = { text = EVTOPTA_JD_20007_TT }
 
         if = {
             limit = {
@@ -629,7 +629,9 @@ character_event = {
 					10 = {
 						trigger = { ROOT = { NOT = { has_artifact = chinese_ceremonial_robes } } }
 						add_artifact = chinese_ceremonial_robes
-						set_original_owner = FROMFROMFROMFROM
+						new_artifact = {
+							set_original_owner = FROMFROMFROMFROM
+						}
 					}
 					# TODO
 					#10 = {
@@ -786,7 +788,7 @@ character_event = {
 	
     option = { 
         name = EVTOPTA_JD_20008
-        custom_tooltip = { text = EVTOPTA_JD_20008_TT }
+        ¨#custom_tooltip = { text = EVTOPTA_JD_20008_TT }
         
         detract_grace_major_effect = yes
         FROMFROMFROMFROM = {
@@ -4233,7 +4235,9 @@ letter_event = {
 					10 = {
 						trigger = { ROOT = { NOT = { has_artifact = chinese_ceremonial_robes } } }
 						add_artifact = chinese_ceremonial_robes
-						set_original_owner = FROM
+						new_artifact = {
+							set_original_owner = FROM
+						}
 					}
 					# TODO
 					#10 = {

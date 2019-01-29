@@ -1944,7 +1944,7 @@ character_event = {
 	hide_window = yes
 	trigger = { 
 		has_dlc = "Holy Fury"
-		FROM = { holding_type = TEMPLE }
+		FROM = { holding_type = temple }
 		NOT = {
 			has_character_flag = flag_about_to_builder_bloodline
 		}
@@ -15081,45 +15081,45 @@ character_event = { # Mystic character arrives
 	}
 }
 
-narrative_event = {
-	id = HF.24240
-	title = EVTTITLEHF24240
-	desc = EVTDESCHFA24240
-	picture = GFX_evt_china_expansionist
-	border = GFX_event_narrative_frame_diplomacy
-	sound = bloodline_added
-	
-	is_triggered_only = yes
-
-	trigger = { 
-		has_dlc = "Holy Fury"
-		NOT = {
-			any_owned_bloodline = { 
-				has_bloodline_flag = created_bloodline
-			}
-		}
-	}
-	
-	option = { #Gain Chinese Imperialism bloodline
-		name = EVTOPTAHF24240
-		if = { 
-			limit = { is_female = no }
-			create_bloodline = {
-				type = chinese_imperial_bloodline_01
-			}		
-		}
-		if = { 
-			limit = { is_female = yes }
-			create_bloodline = {
-				type = chinese_imperial_bloodline_01
-				inheritance = matrilineal
-			}		
-		}
-		ai_chance = { 
-			factor = 100
-		}
-	}
-}
+#narrative_event = {
+#	id = HF.24240
+#	title = EVTTITLEHF24240
+#	desc = EVTDESCHFA24240
+#	picture = GFX_evt_china_expansionist
+#	border = GFX_event_narrative_frame_diplomacy
+#	sound = bloodline_added
+#	
+#	is_triggered_only = yes
+#
+#	trigger = { 
+#		has_dlc = "Holy Fury"
+#		NOT = {
+#			any_owned_bloodline = { 
+#				has_bloodline_flag = created_bloodline
+#			}
+#		}
+#	}
+#	
+#	option = { #Gain Chinese Imperialism bloodline
+#		name = EVTOPTAHF24240
+#		if = { 
+#			limit = { is_female = no }
+#			create_bloodline = {
+#				type = chinese_imperial_bloodline_01
+#			}		
+#		}
+#		if = { 
+#			limit = { is_female = yes }
+#			create_bloodline = {
+#				type = chinese_imperial_bloodline_01
+#				inheritance = matrilineal
+#			}		
+#		}
+#		ai_chance = { 
+#			factor = 100
+#		}
+#	}
+#}
 
 #Matilda's (or similar) bloodline. Fired on_war_ended_victory of an Antipapal/Excommunication war against the HREmperor.
 # From = Attacker, Root = Defender

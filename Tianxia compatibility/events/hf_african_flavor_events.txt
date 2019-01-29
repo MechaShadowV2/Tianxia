@@ -1625,7 +1625,7 @@ character_event = {
 				}
         		death = {
         			death_reason = death_accident_drowning
-        			KILLER = ROOT
+        			killer = ROOT
         		}
         	}
         }
@@ -1705,7 +1705,7 @@ character_event = {
 				}
         		death = {
         			death_reason = death_accident_drowning
-        			KILLER = ROOT
+        			killer = ROOT
         		}
         	}
         }
@@ -1776,7 +1776,7 @@ character_event = {
 				}
         		death = {
         			death_reason = death_accident_drowning
-        			KILLER = ROOT
+        			killer = ROOT
         		}
         	}
         }

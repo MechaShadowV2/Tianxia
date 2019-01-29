@@ -5033,7 +5033,6 @@ character_event = {
 	option = {
 		name = "EVTOPTC30076" #Blame
 		ai_chance = { factor = 10 }
-		ai_chance = { factor = 10 }
 		if = { # Blames it on SEDUCTION, so the EoC won't be satisfied
 			limit = {
 				has_dlc = "Jade Dragon"

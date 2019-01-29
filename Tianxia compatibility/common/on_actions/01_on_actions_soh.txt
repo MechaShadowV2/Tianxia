@@ -11,7 +11,7 @@ on_death = {
 		grace.998 # Grace inheritance
 		nameofchina.36 # Temple names
 		jdextra.5 # Administrator cleanup
-		nameofchina.37 # Event ensuring that Song emperors keep their zhangokfutou
+		nameofchina.43 # Event ensuring that Song emperors keep their zhangokfutou
 	}
 }
 
@@ -30,6 +30,7 @@ on_new_holder_inheritance = {
 		grace.988 # Chinese princess update, same dynasty on the Dragon Throne OR EoC inherits other title
 		#grace.999 # New dynasty on the Dragon Throne
 		nameofchina.1 # Inheritance of China within same dynasty, no longer Chinese Imperial
+		nameofchina.5 # Inheritance of China by other dynasty, still Chinese Imperial
 		nameofchina.37 # Inheritance of China within same dynasty, suddenly Chinese Imperial
 		nameofchina.38 # Inheritance of China by other dynasty, still Chinese Imperial
 		nameofchina.8 # Inheritance of China by other dynasty, no longer Chinese Imperial

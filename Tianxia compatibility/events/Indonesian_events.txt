@@ -1411,7 +1411,7 @@ character_event = {
 	
 # Hindus praise Muslims - obsolete; does nothing the previous event doesn't
 character_event = {
-	id = indoneisa.20
+	id = indonesia.20
 	desc = EVTDESC_IN_016
 	picture = GFX_evt_market
 
@@ -2338,17 +2338,6 @@ character_event = {
 			modifier = {
 				factor = 2
 				true_religion = event_target:converted_province
-			}
-			modifier = {
-				factor = 0
-				trait = zealous
-				NOT = {
-					true_religion_group = muslim
-				}
-			}
-			modifier = {
-				factor = 0
-				controls_religion = yes
 			}
 			modifier = {
 				factor = 0.1

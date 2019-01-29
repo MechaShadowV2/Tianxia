@@ -1813,7 +1813,8 @@ gender_laws = {
 						}
 						has_religion_feature = religion_equal
 						has_religion_feature = religion_feature_bon
-						has_religion_feature = religion_feature_ryukuan
+						has_religion_feature = religion_feature_ryukyuan_three_mountains
+						has_religion_feature = religion_feature_ryukyuan_historical
 						AND = {
 							has_dlc = "Zeus"
 							ROOT = { holder_scope = { primary_title = { has_law = status_of_women_4 } } }

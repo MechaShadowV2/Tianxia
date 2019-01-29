@@ -210,18 +210,18 @@ letter_event = {
 						NOR = {
 							AND = {
 								OR = {
-									tier = BARON
-									tier = COUNT
+									tier = baron
+									tier = count
 								}
-								holding_type = CASTLE
+								holding_type = castle
 							}
 							title = d_knights_hospitaler
 						}
 					}
 					if = {
 						limit = {
-							tier = BARON
-							holding_type = CITY
+							tier = baron
+							holding_type = city
 						}
 						create_random_steward = {
 							random_traits = yes
@@ -230,8 +230,8 @@ letter_event = {
 					}
 					else_if = {
 						limit = {
-							tier = BARON
-							holding_type = TEMPLE
+							tier = baron
+							holding_type = temple
 						}
 						create_random_priest = {
 							random_traits = yes

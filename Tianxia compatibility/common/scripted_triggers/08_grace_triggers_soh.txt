@@ -5195,7 +5195,7 @@ from_hates_china_trigger = {
 					trait = bloodthirsty_gods_2
 					trait = bloodthirsty_gods_3
 					AND = {
-						dynasty = PREV
+						dynasty = FROM
 						trait = tribal_kinslayer
 					}
 				}

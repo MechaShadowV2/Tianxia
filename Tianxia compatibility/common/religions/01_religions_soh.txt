@@ -182,9 +182,9 @@ pagan_group = {
 	#	}
 		
 		crusade_name = GREAT_HOLY_WAR
-		scripture_name = THE_LEGEND
+		scripture_name = THE_LEGENDS
 		priest_title = WU
-		piety_name = TAO
+		piety_name = ¨PIETY_TE
 		
 	#	has_heir_designation = yes
 		priests_can_inherit = no
@@ -246,9 +246,9 @@ pagan_group = {
 		}
 		
 		crusade_name = GREAT_HOLY_WAR
-		scripture_name = THE_LEGEND
+		scripture_name = THE_LEGENDS
 		priest_title = WU
-		piety_name = TAO
+		piety_name = PIETY_TE
 		
 		#has_heir_designation = yes # This is something you need to reform to get
 		priests_can_inherit = no
@@ -319,7 +319,7 @@ pagan_group = {
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_LEGEND
 		priest_title = MU
-		piety_name = TAO
+		piety_name = PIETY_TE
 		
 		#has_heir_designation = yes
 		priests_can_inherit = no
@@ -383,7 +383,7 @@ pagan_group = {
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_LEGEND
 		priest_title = MU
-		piety_name = TAO
+		piety_name = PIETY_TE
 		
 		#has_heir_designation = yes # This is something you need to reform to get
 		priests_can_inherit = no

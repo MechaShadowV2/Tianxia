@@ -1046,7 +1046,7 @@ character_event = {
 				}
 			}
 			set_global_flag = bp_world_china_broadcasted
-			capital_scope = { province_event = { id = RIPEXTRA.3 } }
+			capital_scope = { province_event = { id = RIPEXTRA.4} }
 			chronicle = {
 			entry = CHRONICLE_NORTHEUROPE_GONE
 			picture = GFX_evt_monk

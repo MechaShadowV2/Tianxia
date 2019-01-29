@@ -272,27 +272,27 @@ character_event = {
 			factor = 1
 			modifier = {
 				factor = 2
-				from = { diplomacy = 14 }
+				FROM = { diplomacy = 14 }
 			}
 			modifier = {
 				factor = 2
-				from = { martial = 14 }
+				FROM = { martial = 14 }
 			}
 			modifier = {
 				factor = 2
-				from = { intrigue = 14 }
+				FROM = { intrigue = 14 }
 			}
 			modifier = {
 				factor = 1.5
-				opinion = { who = from value =  25 }
+				opinion = { who = FROM value =  25 }
 			}
 			modifier = {
 				factor = 2
-				opinion = { who = from value =  50 }
+				opinion = { who = FROM value =  50 }
 			}
 			modifier = {
 				factor = 3
-				opinion = { who = from value =  75 }
+				opinion = { who = FROM value =  75 }
 			}
 		}		
 		prestige = -5

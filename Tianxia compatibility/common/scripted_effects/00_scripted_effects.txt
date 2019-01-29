@@ -22133,7 +22133,7 @@ add_chinese_artifact_effect = { #Used in event JD.15016 (possible to use elsewhe
 				new_artifact = {
 					set_name = chinese_tapestry_grand_name
 				}
-				trigger = { ROOT = { NOT = { has_artifact = chinese_tapestry_grand } } } # We don't need two of that...
+				#trigger = { ROOT = { NOT = { has_artifact = chinese_tapestry_grand } } } # We don't need two of that...
 			}
 		}
 		new_artifact = {

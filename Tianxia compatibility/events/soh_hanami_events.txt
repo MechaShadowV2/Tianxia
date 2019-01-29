@@ -12737,7 +12737,7 @@ character_event = {
 									}
 								}
 							}
-							save_event_target_as = arguing_hanami_vassal_1
+							save_event_target_as = arguing_hanami_vassal_2
 						}
 						character_event = { id = japan.183 } # Inform the liege
 					}
@@ -13627,7 +13627,7 @@ character_event = {
 						limit = {
 							tier = king
 						}
-						random_vassal = {
+						any_vassal = {
 							count = 2
 							limit = {
 								is_adult = yes
@@ -13640,7 +13640,7 @@ character_event = {
 						limit = {
 							tier = emperor
 						}
-						random_vassal = {
+						any_vassal = {
 							count = 5
 							limit = {
 								is_adult = yes
@@ -13816,7 +13816,7 @@ character_event = {
 						limit = {
 							tier = king
 						}
-						random_vassal = {
+						any_vassal = {
 							count = 2
 							limit = {
 								is_adult = yes
@@ -13898,7 +13898,7 @@ character_event = {
 						limit = {
 							tier = emperor
 						}
-						random_vassal = {
+						any_vassal = {
 							count = 5
 							limit = {
 								is_adult = yes

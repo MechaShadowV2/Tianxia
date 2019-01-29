@@ -5542,6 +5542,7 @@ narrative_event = {
 				}
 				ROOT = { 
 					add_western_zodiac_trait_effect = yes 
+					# TODO: Eastern zodiac
 					character_event = { id = HF.23032 days = 5 } 
 				} 
 			}

@@ -2969,14 +2969,14 @@ targeted_decisions = {
 					}
 				}
 				OR = {
-					custom_tooltip = {
-						text = can_marry_chinese_royal_tt
+					#custom_tooltip = {
+						#text = can_marry_chinese_royal_tt
 						AND = {
 							is_adult = yes
 							is_married = no
 							is_female = no
-						}
-					}
+						#}
+					#}
 					custom_tooltip = {
 						text = has_courtier_eligible_for_marriage_tt
 						OR = {
@@ -3037,11 +3037,11 @@ targeted_decisions = {
 		third_party_allow = {
 			show_only_failed_conditions = yes
 			FROMFROM = {
-				custom_tooltip = {
-					text = can_marry_chinese_royal_tt
+				#custom_tooltip = {
+					#text = can_marry_chinese_royal_tt
 					can_marry = yes
 					is_married = no
-				}
+				#}
 			}
 		}
 
@@ -3202,14 +3202,14 @@ targeted_decisions = {
 					}
 				}
 				OR = {
-					custom_tooltip = {
-						text = can_marry_chinese_royal_tt
+					#custom_tooltip = {
+						#text = can_marry_chinese_royal_tt
 						AND = {
 							is_adult = yes
 							is_married = no
 							is_female = no
-						}
-					}
+						#}
+					#}
 					custom_tooltip = {
 						text = has_courtier_eligible_for_marriage_tt
 						OR = {
@@ -3274,11 +3274,11 @@ targeted_decisions = {
 		third_party_allow = {
 			show_only_failed_conditions = yes
 			FROMFROM = {
-				custom_tooltip = {
-					text = can_marry_chinese_royal_tt
+				#custom_tooltip = {
+					#text = can_marry_chinese_royal_tt
 					can_marry = yes
 					is_married = no
-				}
+				#}
 			}
 		}
 
@@ -3347,14 +3347,14 @@ targeted_decisions = {
 			FROM = {
 				wealth = 1000
 				OR = {
-					custom_tooltip = {
-						text = can_marry_chinese_royal_tt
+					#custom_tooltip = {
+						#text = can_marry_chinese_royal_tt
 						AND = {
 							is_adult = yes
 							is_married = no
 							is_female = no
-						}
-					}
+						#}
+					#}
 					custom_tooltip = {
 						text = has_courtier_eligible_for_marriage_tt
 						OR = {
@@ -3415,11 +3415,11 @@ targeted_decisions = {
 		third_party_allow = {
 			show_only_failed_conditions = yes
 			FROMFROM = {
-				custom_tooltip = {
-					text = can_marry_chinese_royal_tt
+				#custom_tooltip = {
+					#text = can_marry_chinese_royal_tt
 					can_marry = yes
 					is_married = no
-				}
+				#}
 			}
 		}
 
@@ -3508,14 +3508,14 @@ targeted_decisions = {
 					}
 				}
 				OR = {
-					custom_tooltip = {
-						text = can_marry_chinese_royal_tt
+					#custom_tooltip = {
+						#text = can_marry_chinese_royal_tt
 						AND = {
 							is_adult = yes
 							is_married = no
 							is_female = no
-						}
-					}
+						#}
+					#}
 					custom_tooltip = {
 						text = has_courtier_eligible_for_marriage_tt
 						OR = {
@@ -3576,11 +3576,11 @@ targeted_decisions = {
 		third_party_allow = {
 			show_only_failed_conditions = yes
 			FROMFROM = {
-				custom_tooltip = {
-					text = can_marry_chinese_royal_tt
+				#custom_tooltip = {
+					#text = can_marry_chinese_royal_tt
 					can_marry = yes
 					is_married = no
-				}
+				#}
 			}
 		}
 

@@ -26864,7 +26864,12 @@ character_event = {
 			}
 			update_global_china_name_flag_effect = yes
 		}
-		add_global_pretender_china_name_flag_effect = yes
+		any_demesne_title = {
+			limit = {
+				tier = emperor
+			}
+			add_global_pretender_china_name_flag_effect = yes
+		}
 	}
 }
 

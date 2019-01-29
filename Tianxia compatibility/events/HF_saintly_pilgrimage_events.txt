@@ -801,7 +801,7 @@ character_event = {
             }
         }
         random = {
-        	Chance = 50
+        	chance = 50
     		if = {
     			limit = {
     				trait = gregarious
@@ -1957,7 +1957,7 @@ character_event = {
             if = {
                 limit = {
                     NOT = {
-                        has_DLC = "Reapers"
+                        has_dlc = "Reapers"
                     }
                 }
                 give_ill_effect = yes

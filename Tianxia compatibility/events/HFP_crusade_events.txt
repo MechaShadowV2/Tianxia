@@ -6247,8 +6247,8 @@ letter_event = {
                 modifier = {
                     factor = 0.5
                     OR = {
-                        TIER = KING
-                        TIER = EMPEROR
+                        tier = king
+                        tier = emperor
                     }
                 }
             }
@@ -6256,8 +6256,8 @@ letter_event = {
                 modifier = {
                     factor = 2
                     OR = {
-                        tier = KING
-                        tier = EMPEROR
+                        tier = king
+                        tier = emperor
                     }
                 }
                 set_character_flag = crusade_harsh_punishment
@@ -6266,8 +6266,8 @@ letter_event = {
                 modifier = {
                     factor = 2
                     OR = {
-                        tier = KING
-                        tier = EMPEROR
+                        tier = king
+                        tier = emperor
                     }
                 }
                 modifier = {
@@ -6451,8 +6451,8 @@ letter_event = {
                 modifier = {
                     factor = 0.5
                     OR = {
-                        TIER = KING
-                        TIER = EMPEROR
+                        tier = king
+                        tier = emperor
                     }
                 }
             }
@@ -6460,8 +6460,8 @@ letter_event = {
                 modifier = {
                     factor = 2
                     OR = {
-                        tier = KING
-                        tier = EMPEROR
+                        tier = king
+                        tier = emperor
                     }
                 }
                 set_character_flag = crusade_harsh_punishment
