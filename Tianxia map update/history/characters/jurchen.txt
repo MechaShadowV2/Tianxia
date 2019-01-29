@@ -48,9 +48,11 @@
 	#1123.9.27 = {} # Ruler of Jurchens
 	1127.1.9 = {
 		#name = "Taizong"
-		set_character_flag = temple_name_taizong
-		create_bloodline = {
-			type = pretender_chinese_imperial_bloodline_jin
+		effect = {
+			set_character_flag = temple_name_taizong
+			create_bloodline = {
+				type = pretender_chinese_imperial_bloodline_jin
+			}
 		}
 	}
 	1135.2.9 = {
@@ -71,7 +73,9 @@
 	}
 	1135.2.10 = {
 		#name = "Xizong"
-		set_character_flag = temple_name_xizong
+		effect = {
+			set_character_flag = temple_name_xizong
+		}
 	}
 	1150.1.9 = {
 		name = "Xizong"
@@ -154,7 +158,9 @@
 	}
 	1161.10.27 = {
 		#name = "Shizong"
-		set_character_flag = temple_name_shizong
+		effect = {
+			set_character_flag = temple_name_shizong
+		}
 	}
 	1189.1.20 = {
 		name = "Shizong"
@@ -189,7 +195,9 @@
 	}
 	1189.1.20 = {
 		#name = "Zhangzong"
-		set_character_flag = temple_name_zhangzong
+		effect = {
+			set_character_flag = temple_name_zhangzong
+		}
 	}
 	1208.12.29 = {
 		name = "Zhangzong"
@@ -209,7 +217,9 @@
 	}
 	1208.12.29 = {
 		#name = "Shao"
-		set_character_flag = temple_name_shao
+		effect = {
+			set_character_flag = temple_name_shao
+		}
 	}
 	1213.9.11 = {
 		name = "Shao"
@@ -232,7 +242,9 @@
 	}
 	1213.9.22 = {
 		#name = "Xuanzong"
-		set_character_flag = temple_name_xuanzong
+		effect = {
+			set_character_flag = temple_name_xuanzong
+		}
 	}
 	1224.1.14 = {
 		name = "Xuanzong"
@@ -252,7 +264,9 @@
 	}
 	1224.1.15 = {
 		#name = "Aizong"
-		set_character_flag = temple_name_aizong
+		effect = {
+			set_character_flag = temple_name_aizong
+		}
 	}
 	1234.2.9 = {
 		name = "Aizong"
@@ -273,7 +287,9 @@
 	}
 	1234.2.9 = {
 		#name = "Mo"
-		set_character_flag = temple_name_mo
+		effect = {
+			set_character_flag = temple_name_mo
+		}
 	}
 	1234.2.9 = {
 		name = "Mo"

@@ -451,9 +451,9 @@
 	620.1.1={
 		birth="620.1.1"
 	}
-	639.1.1={
-		add_spouse=1000077307
-	}
+	#639.1.1={
+	#	add_spouse=1000077307 # Character does not exist!
+	#}
 	688.1.1={
 		death="688.1.1"
 	}
@@ -510,7 +510,7 @@
 	religion="buddhist"
 	culture="khitan"
 	father=1000077305
-	mother=1000077307
+	#mother=1000077307
 	640.1.1={
 		birth="640.1.1"
 	}
@@ -528,15 +528,15 @@
 	religion="buddhist"
 	culture="khitan"
 	father=1000077305
-	mother=1000077307
+	#mother=1000077307
 	644.1.1={
 		birth="644.1.1"
 	}
+	#652.1.1={
+	#	add_spouse=1000077308
+	#}
 	662.1.1={
 		add_spouse=1000077309
-	}
-	652.1.1={
-		add_spouse=1000077308
 	}
 	673.1.1={
 		death="673.1.1"
@@ -549,13 +549,13 @@
 	religion="buddhist"
 	culture="khitan"
 	father=1000077305
-	mother=1000077307
+	#mother=1000077307
 	650.1.1={
 		birth="650.1.1"
 	}
 	674.1.1={
 		add_spouse=1000077309
-		add_spouse=1000077308
+		#add_spouse=1000077308
 	}
 	713.1.1={
 		death="713.1.1"

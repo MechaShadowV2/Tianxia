@@ -36,6 +36,7 @@
 		add_spouse=1000450693
 	}
 	919.1.1={
+		# All of these consorts can't be added at the moment...
 		effect={c_1000450711={add_consort=ROOT}}
 		effect={c_1000450712={add_consort=ROOT}}
 		effect={c_1000450713={add_consort=ROOT}}
@@ -1621,7 +1622,7 @@
 	religion="korean_pagan"
 	culture="korean"
 	#add_trait="seonggol"
-	father=1000450084
+	father=1000450085 # 1000450084 can't possibly be correct
 	197.1.1={
 		birth=yes
 	}
@@ -1819,7 +1820,7 @@
 	religion="korean_pagan"
 	culture="korean"
 	#add_trait="seonggol"
-	father=1000450086
+	father=1000450101
 	247.1.1={
 		birth=yes
 	}
@@ -1833,7 +1834,7 @@
 	religion="korean_pagan"
 	culture="korean"
 	#add_trait="seonggol"
-	father=1000450086 # Was 1000450114, which can't possibly be correct
+	father=1000450101 # Was 1000450114, which can't possibly be correct
 	247.1.1={
 		birth=yes
 	}
@@ -8334,7 +8335,7 @@
 	dynasty=1000155037 #Goguryeo Chang
 	religion="korean_pagan"
 	culture="korean"
-	father=1000450524
+	father=1000450527 # 1000450524 can't be correct
 	285.1.1={
 		birth=yes
 	}
@@ -11466,7 +11467,7 @@
 	dynasty=1000027100 #Wang
 	religion="korean_pagan"
 	culture="korean"
-	father=1000075506
+	father=1000075501 # 1000075506 can't be correct
 	919.1.1={
 		birth=yes
 	}
@@ -12750,7 +12751,7 @@
 	dynasty=1000155241 #Eonyang Gim
 	religion="korean_pagan"
 	culture="korean"
-	father=1000450395
+	father=1000450396 # 1000450395 can't be right
 	mother=1000450696
 	942.1.1={
 		birth=yes

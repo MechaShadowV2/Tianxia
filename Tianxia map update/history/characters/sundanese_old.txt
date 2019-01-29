@@ -926,7 +926,7 @@
 	dynasty=1000027652 #Diwus
 	religion="hindu"
 	culture="javanese" # Placeholder for Sundanese
-	father=1000080617
+	father=1000080613 # 1000080617 can't possibly be correct
 	868.1.1={
 		birth="868.1.1"
 	}

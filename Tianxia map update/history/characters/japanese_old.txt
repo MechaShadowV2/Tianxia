@@ -215,8 +215,8 @@
 	trait = amaterasu_descendant
 	trait="naive_appeaser"
 	father=1000075008
-	593.1.1={
-		birth="593.1.1"
+	591.1.1={
+		birth="591.1.1"
 	}
 	621.1.1={
 		add_spouse = 1000075011
@@ -315,8 +315,8 @@
 	trait="intricate_webweaver"
 	father=1000075009
 	mother=1000075011
-	596.1.1={
-		birth="596.1.1"
+	626.1.1={
+		birth="626.1.1"
 	}
 	643.1.1={
 		add_spouse=1000075122
@@ -575,7 +575,7 @@
 	culture="japanese"
 	trait = amaterasu_descendant
 	trait="naive_appeaser"
-	father=1000075015
+	father=1000075023
 	733.1.1={
 		birth="733.1.1"
 	}
@@ -1410,7 +1410,7 @@
 	trait="naive_appeaser"
 	father=1000075352
 	1139.6.16={
-		birth="1127.8.23"
+		birth="1139.6.16"
 		effect = {
 			set_character_flag = emperor_konoe
 		}
@@ -1628,7 +1628,7 @@
 	trait="amateurish_plotter"
 	father=1000075362
 	1218.10.30={
-		birth="1197.10.22"
+		birth="1218.10.30"
 		effect = {
 			set_character_flag = emperor_chukyo
 		}
@@ -3139,8 +3139,8 @@
 	culture="japanese"
 	trait="naive_appeaser"
 	father=1000075118
-	584.1.1={
-		birth="584.1.1"
+	564.1.1={
+		birth="564.1.1" # Guesswork based on marriage
 	}
 	643.10.28={
 		death="643.10.28"
@@ -4806,7 +4806,7 @@
 	religion="shinto"
 	culture="japanese"
 	trait="amateurish_plotter"
-	father=1000075225
+	father=1000075223
 	807.1.1={
 		birth="807.1.1"
 	}

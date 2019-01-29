@@ -608,7 +608,7 @@
 	dynasty=1000027637 #Kengtung
 	religion="buddhist"
 	culture="shan"
-	father=1000080345
+	father=1000080344 # 1000080345 can't possibly be correct
 	1214.1.1={
 		birth="1214.1.1"
 	}

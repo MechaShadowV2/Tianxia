@@ -6329,7 +6329,9 @@
 	}
 	1195.1.1={
 		dynasty=101946
-		mother=172003
+		effect = {
+			set_mother=172003
+		}
 	}#adopted by Hoelun
 	1216.1.1={
 		add_spouse=166858
@@ -8550,7 +8552,7 @@
 	1310.1.1={
 		birth="1310.1.1"
 	}
-	1234.1.1={
+	1334.1.1={
 		religion=sunni
 		add_trait=sympathy_pagans
 		add_trait=sympathy_indian
@@ -8583,9 +8585,9 @@
 	culture="mongol"
 	father=93086
 	1330.1.1={
-		birth="1315.1.1"
+		birth="1330.1.1"
 	}
-	1234.1.1={
+	1337.1.1={
 		religion=catholic
 	}
 	1338.1.1={
@@ -8801,10 +8803,10 @@
    religion="tengri_pagan"
    culture="mongol"
    father=248181
-   1252.1.1={
+   1250.1.1={
      birth=yes
    }
-   1250.1.1={
+   1260.1.1={
      culture=turkish
 	 religion=sunni
 	 add_trait=sympathy_pagans
@@ -9025,7 +9027,7 @@
 		birth=yes
 	}
 	1310.1.1={
-		add_claim = d_kabulistan
+		add_claim = d_kabul
 		add_claim = e_chagatai
 	}
 	1358.1.1={
@@ -9097,7 +9099,7 @@
 	dynasty=1059025
 	religion="tengri_pagan"
 	culture="mongol"
-	father=248200
+	father=248204
 	trait=sympathy_pagans
 	1227.1.1={
 		birth=yes
@@ -9111,7 +9113,7 @@
 	dynasty=1059025
 	religion="sunni"
 	culture="mongol"
-	father=248201
+	father=248206
 	trait=sympathy_pagans
 	1261.1.1={
 		birth=yes
@@ -9126,7 +9128,7 @@
 	dynasty=1059025
 	religion="sunni"
 	culture="mongol"
-	father=248201
+	father=248206
 	trait=sympathy_pagans
 	1264.1.1={
 		birth=yes

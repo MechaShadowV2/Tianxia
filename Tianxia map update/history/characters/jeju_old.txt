@@ -45,7 +45,7 @@
 	religion="korean_pagan"
 	culture="jeju"
 	father=1000450004
-	1309.1.1={
+	1299.1.1={
 		birth=yes
 	}
 	1362.1.1={
@@ -58,7 +58,7 @@
 	religion="korean_pagan"
 	culture="jeju"
 	father=1000450005
-	1286.1.1={
+	1276.1.1={
 		birth=yes
 	}
 	1355.1.1={

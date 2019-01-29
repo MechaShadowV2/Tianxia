@@ -145,10 +145,10 @@
 	dynasty=1000027701 #Altanli
 	religion="tengri_pagan"
 	culture="buryat"
-	father=1001177303 # Fúyûn
-	mother=1001177306
+	father=1001177308
+	#mother=1001177306 # Male character
 	902.2.27={
-		birth="902.2.7"
+		birth="902.2.27"
 	}
 	945.1.1={
 		death="945.1.1"
@@ -161,7 +161,7 @@
 	dynasty=1000027701 #Altanli
 	religion="tengri_pagan"
 	culture="buryat"
-	father=1001177304 # Shùn
+	father=1001177310 # Shùn
 	922.1.1={
 		birth="922.1.1"
 	}
@@ -180,7 +180,7 @@
 		birth="925.1.1"
 	}
 	990.1.1={
-		death="975.1.1"
+		death="990.1.1"
 	}
 }
 
@@ -221,7 +221,7 @@
 	1005.1.1={
 		birth="1005.1.1"
 	}
-	1070.1.1={
+	1065.1.1={
 		death="1065.1.1"
 	}
 }
@@ -236,7 +236,7 @@
 		birth="1022.1.1"
 	}
 	1085.1.1={
-		death="1080.1.1"
+		death="1085.1.1"
 	}
 }
 
@@ -362,10 +362,10 @@
 	culture="buryat"
 	father=1001177298
 	1280.1.1={
-		birth="460.1.1"
+		birth="1280.1.1"
 	}
 	1350.1.1={
-		death="490.1.1"
+		death="1350.1.1"
 	}
 }
 

@@ -1781,7 +1781,7 @@
 	dynasty=1000028335 #Nyingchi
 	religion="bon"
 	culture="bodpa"
-	father=1000077238
+	#father=1000077238
 	927.1.1={
 		birth="927.1.1"
 	}
@@ -2976,8 +2976,8 @@
 	female=yes
 	religion="buddhist"
 	culture="bodpa"
-	1262.1.1={
-		birth="1262.1.1"
+	1242.1.1={
+		birth="1242.1.1"
 	}
 	1322.1.1={
 		death="1322.1.1"
@@ -2989,8 +2989,8 @@
 	female=yes
 	religion="buddhist"
 	culture="bodpa"
-	1292.1.1={
-		birth="1292.1.1"
+	1272.1.1={
+		birth="1272.1.1"
 	}
 	1352.1.1={
 		death="1352.1.1"
@@ -6000,7 +6000,7 @@
 	dynasty=105816 #Gar
 	religion="buddhist"
 	culture="bodpa"
-	father=1000077348
+	#father=1000077348
 	1230.1.1={
 		birth="1230.1.1"
 	}
