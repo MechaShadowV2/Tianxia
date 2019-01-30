@@ -91,10 +91,10 @@ decisions = {
 			is_tributary = no
 			tier = EMPEROR
 			realm_size = 200
+			has_acceptable_chinese_religion_trigger = yes # If your religion wouldn't let you keep the government type, it is impossible to enact the decision
 			conditional_tooltip = {
 				trigger = {
 					OR = {
-						religion = taoist
 						# Pretenders and former rulers of China have an easier time
 						any_owned_bloodline = {
 							has_flag = pretender_chinese_imperial_bloodline
@@ -110,7 +110,6 @@ decisions = {
 			conditional_tooltip = {
 				trigger = {
 					NOR = {
-						religion = taoist
 						# Pretenders and former rulers of China have an easier time
 						any_owned_bloodline = {
 							has_flag = pretender_chinese_imperial_bloodline

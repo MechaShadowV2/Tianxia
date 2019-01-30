@@ -128,10 +128,10 @@ silk_road = {
 			province_id = 2955 # Busan
 			province_id = 2940 # Jeonju
 			province_id = 2975 # Pyeongan
-			province_id = 2445 # Hizen
-			province_id = 2456 # Iyo
+			province_id = 2449 # Chikuzen
 			province_id = 2481 # Settsu
 			province_id = 2485 # Yamashiro
+			province_id = 2484 # Yamato
 			province_id = 2436 # Chuzan
 			province_id = 2734 # Quanzhou
 		}
@@ -306,9 +306,9 @@ silk_road = {
 	path = { # Pyeongyang-Hwangju-Pyeongan-Wonsan-Gangneung-Samcheok-Uljin-Gyeongju-Dongnae-Busan
 		2930 2970 2975 2974 2968 2964 2963 2959 2956 2955
 	}
-	# Busan -> Hizen -> Iyo -> Settsu -> Yamashiro
-	path = { # Busan-2134-Hizen-2143-2137-Iyo-2138-2139-Settsu-Yamashiro # TODO: Sea zone names!
-		2955 2134 2445 2143 2137 2456 2138 2139 2481 2485
+	# Busan -> Chikuzen -> Settsu -> Yamashiro -> Yamato
+	path = { # Busan-2134-2143-Chikuzen-2137-2138-2139-Settsu-Yamashiro-Yamato # TODO: Sea zone names!
+		2955 2134 2143 2449 2143 2137 2138 2139 2481 2485 2484
 	}
 	# Nantong -> Hangzhou
 	path = { # Nantong-2121-Hangzhou # TODO: Sea zone names!

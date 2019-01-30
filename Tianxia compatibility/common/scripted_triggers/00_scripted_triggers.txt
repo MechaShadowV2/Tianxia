@@ -6196,10 +6196,10 @@ silk_road_trade_post_trigger = {
 				province_id = 2955 # Busan
 				province_id = 2940 # Jeonju
 				province_id = 2975 # Pyeongan
-				province_id = 2445 # Hizen
-				province_id = 2456 # Iyo
+				province_id = 2449 # Chikuzen
 				province_id = 2481 # Settsu
 				province_id = 2485 # Yamashiro
+				province_id = 2484 # Yamato
 				province_id = 2436 # Chuzan
 				province_id = 2734 # Quanzhou
 			}

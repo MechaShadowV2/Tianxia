@@ -610,6 +610,7 @@ religion_nature = {
 			}
 			modifier = {
 				factor = 1000
+				has_dlc = "Jade Dragon"
 				FROM = {
 					character = yes
 					OR = {

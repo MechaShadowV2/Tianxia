@@ -7853,6 +7853,7 @@ china_or_pretender_can_be_shun_trigger = {
 has_acceptable_chinese_religion_trigger = {
 	OR = {
 		religion = taoist
+		religion = buddhist # Otherwise the historical Mongol rulers of China need to have the wrong religion to have access to this stuff
 		AND = { # Religion is as close as possible to being Taoist
 			has_dlc = "Holy Fury" # Pagan religions would be crusading (and thus non-Chinese) without HF, so HF is required
 			OR = { # Base religion is good (lacks raiding, is located in/near China, gets stewardship bonus when picking Autonomous)
