@@ -46,14 +46,15 @@ e_japan = {
 	
 	ainu = "Sisam Moshir"
 	ryukyuan = "Yamatu"
+	mongol = "Zipangu"
+	han = "Dongying" # Should this be used by other Chinese cultures?
+	# How many cultures would use Nippon and Japan respectively? Would it be better to have Japan be the base name and Nippon be specifically used for e.g. Japanese?
 	english = "Japan"
 	dutch = "Japan"
 	basque = "Japan"
 	castillan = "Japan"
 	portuguese = "Japan"
 	russian = "Japan"
-	mongol = "Zipangu"
-	han = "Dongying"
 	
 	culture = japanese
 
@@ -66,14 +67,15 @@ e_japan = {
 		
 		ainu = "Sisam Moshir"
 		ryukyuan = "Yamatu"
+		mongol = "Zipangu"
+		han = "Dongying" # Should this be used by other Chinese cultures?
+		# How many cultures would use Nippon and Japan respectively? Would it be better to have Japan be the base name and Nippon be specifically used for e.g. Japanese?
 		english = "Japan"
 		dutch = "Japan"
 		basque = "Japan"
 		castillan = "Japan"
 		portuguese = "Japan"
 		russian = "Japan"
-		mongol = "Zipangu"
-		han = "Dongying"
 		
 		shinto = 500
 		ainu_pagan_reformed = 200
@@ -216,6 +218,9 @@ e_japan = {
 				color = { 184 104 105 }
 				color2 = { 63 63 63 }
 				
+				holy_site = ryukyuan_pagan
+				holy_site = ryukyuan_pagan_reformed
+				
 				b_usuki = {
 				}
 				b_koyu = {
@@ -234,9 +239,6 @@ e_japan = {
 			c_tane = { 
 				color = {170 90 110}
 				color2 = {63 63 63}
-				
-				holy_site = ryukyuan_pagan
-				holy_site = ryukyuan_pagan_reformed
 				
 				b_tanegashima = {
 				}
@@ -501,7 +503,6 @@ e_japan = {
 				color = { 214 134 123 }
 				color2 = { 63 63 63 }
 				
-				holy_site = shinto
 				b_ito = {}
 				b_tsuga_wakayama = {}
 				b_nagusa = {}
@@ -513,6 +514,9 @@ e_japan = {
 			c_nachikatsura = { #Kumano
 				color = { 214 134 153 }
 				color2 = { 63 63 63 }
+				
+				holy_site = ryukyuan_pagan
+				holy_site = ryukyuan_pagan_reformed
 				
 				b_kumano = {}
 				b_nachi = {}
@@ -1386,6 +1390,7 @@ e_japan = {
 		culture = ainu
 	
 		japanese = "Ezo"
+		# Should most cultures really use Ainu Mosir?
 
 		d_sumunkur = { #Western people
 			color = { 225 51 0 }

@@ -50,9 +50,9 @@
 		#name = "Taizong"
 		effect = {
 			set_character_flag = temple_name_taizong
-			create_bloodline = {
-				type = pretender_chinese_imperial_bloodline_jin
-			}
+		}
+		create_bloodline = {
+			type = pretender_chinese_imperial_bloodline_jin
 		}
 	}
 	1135.2.9 = {

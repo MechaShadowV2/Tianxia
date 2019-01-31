@@ -32,9 +32,6 @@ e_china = {
 				holy_site = viet_pagan
 				holy_site = viet_pagan_reformed
 				
-				holy_site = ryukyuan_pagan
-				holy_site = ryukyuan_pagan_reformed
-				
 				holy_site = taoist
 				
 				b_qiongzhou = {}

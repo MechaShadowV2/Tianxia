@@ -735,8 +735,6 @@ e_pacific_rim = { # New; might need a better name
 				ryukyuan = "Nakajan"
 				han ="Zhongshan"
 				
-				holy_site = ryukyuan_pagan
-				holy_site = ryukyuan_pagan_reformed
 				b_urasoe = {
 					ryukyuan = "Urashii"
 				}
@@ -768,6 +766,11 @@ e_pacific_rim = { # New; might need a better name
 
 				ryukyuan = "Shimajiri"
 				han ="Shannan"
+				
+				holy_site = ryukyuan_pagan
+				holy_site = ryukyuan_pagan_reformed
+				
+				holy_site = shinto
 				
 				b_ozato = {
 					ryukyuan = "Ufusatu"
