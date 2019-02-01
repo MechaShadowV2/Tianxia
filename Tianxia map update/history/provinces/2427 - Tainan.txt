@@ -6,9 +6,13 @@ title = c_tainan
 # Settlements
 max_settlements = 1
 
-b_tainan = castle
+b_tainan = tribal
 #b_kaoshiung
-# Needs baronies!
+#b_anping
+#b_yongkang
+#b_shanhua
+#b_jiali
+#b_madou
 
 # Misc
 culture = taiwanese

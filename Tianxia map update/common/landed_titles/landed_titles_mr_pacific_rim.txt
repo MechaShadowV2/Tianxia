@@ -627,8 +627,40 @@ e_pacific_rim = { # New; might need a better name
 				color2 = {90 90 90}
 		
 				b_taichung = {
+				taiwanese = "Thòi-chûng"
 				}
-				# Needs baronies !
+				
+				b_taiping = {
+				taiwanese = "Thài-pêng"
+				}
+				
+				b_dali = {
+				taiwanese = "Tāi-lí"
+				}
+				
+				b_wufeng = {
+				taiwanese = "Bū-hong"
+				}
+				
+				b_fengyuan = {
+				taiwanese = "Hong-goân"
+				}
+				
+				b_shigang = {
+				taiwanese = "Chioh-kng"
+				}
+				
+				b_houli = {
+				taiwanese = "Aū-lí"
+				}
+				
+				b_daya = {
+				taiwanese = "Tāi-ngé"
+				}
+				
+				b_heping = {
+				taiwanese = "Hô-pêng"
+				}
 			}
 			c_taipei = {
 				color = { 215 254 159 }
@@ -641,15 +673,56 @@ e_pacific_rim = { # New; might need a better name
 				
 				b_taipei = {
 				}
-				# Needs baronies !
+				
+				b_beitou = {
+				}
+				
+				b_datong = {
+				}
+				
+				b_nangang = {
+				}
+				
+				b_neihu = {
+				}
+				
+				b_shilin = {
+				}
+				
+				b_songshan = {
+				}
 			}
 			c_changua = {
 				color = {240 200 190 }
 				color2 = {90 90 90}
 		
 				b_changua = {
+				taiwanese = "Chiong-hòa"
 				}
-				# Needs baronies !
+				
+				b_beidou = {
+				taiwanese = "Pó-táu"
+				}
+				
+				b_hemei = {
+				taiwanese = "Hô-bí"
+				}
+				
+				b_lukang = {
+				taiwanese = "Lo̍k-káng"
+				}
+				
+				b_dacun = {
+				taiwanese = "Tāi-chhoan"
+				}
+				
+				b_pitou = {
+				taiwanese = "Pi-thâu"
+				}
+				
+				b_xizhou = {
+				taiwanese = "Khe-chiu"
+				}
 			}
 			c_penghu = {
 				color = {127 123 79}
@@ -659,10 +732,31 @@ e_pacific_rim = { # New; might need a better name
 				holy_site = chinese_pagan_reformed
 				
 				b_huxi = {
+				taiwanese = "Ô-sai"
 				}
+				
 				b_magong = {
+				taiwanese = "Má-keng"
 				}
-				# Needs baronies !
+				
+				b_baisha = {
+				taiwanese = "Peh-soa"
+				}
+				
+				b_xiyu = {
+				taiwanese = "Sai-sū"
+				}
+				
+				b_wang_an = {
+				taiwanese = "Bāng-oa"
+				}
+				
+				b_qimei = {
+				taiwanese = "Chhit-bí"
+				}
+				
+				b_xihu = {
+				}
 			}
 		}
 		d_tainan = {
@@ -679,29 +773,94 @@ e_pacific_rim = { # New; might need a better name
 				color2 = {90 90 90}
 		
 				b_tainan = {
+				taiwanese = "Tâi-lâm"
 				}
+				
 				b_kaoshiung = {
 				}
-				# Needs baronies !
+				
+				b_anping = {
+				taiwanese = "An-pêng"
+				}
+				
+				b_yongkang = {
+				taiwanese = "Éng-khong"
+				}
+				
+				b_shanhua = {
+				taiwanese = "Siān-hòa"
+				}
+				
+				b_jiali = {
+				taiwanese = "Ka-lí"
+				}
+				
+				b_madou = {
+				taiwanese = "Môa-tāu"
+				}
 			}
-			
 			c_taitung = {
 				color = { 180 190 210}
 				color2 = {90 90 90}
 		
 				b_taitung = {
+				taiwanese = "Tâi-tang"
 				}
+				
 				b_pingtung = {
 				}
-				# Needs baronies !
+				
+				b_guanshan = {
+				taiwanese = "Koan-san"
+				}
+				
+				b_chishang = {
+				taiwanese = "Tî-siōng"
+				}
+				
+				b_luye = {
+				taiwanese = "Lok-iá"
+				}
+				
+				b_daren = {
+				taiwanese = "Tat-jîn"
+				}
+				
+				b_jinfeng = {
+				taiwanese = "Kim-hong"
+				}
 			}
 			c_haian = {
 				color = { 215 254 169 }
 				color2 = { 90 90 90 }
 				
 				b_haian = {
+				taiwanese = "Kî-lâi"
 				}
-				# Needs baronies !
+				
+				b_fenglin = {
+				taiwanese = "Hōng-lîm"
+				}
+				
+				b_guanfu = {
+				taiwanese = "Kong-hok"
+				}
+				
+				b_ruisui = {
+				taiwanese = "Sūi-sūi"
+				}
+				
+				b_xincheng = {
+				taiwanese = "Sin-siâ"
+				}
+				
+				b_xiulin = {
+				taiwanese = "Siù-lîm"
+				}
+				
+				b_zhouxi = {
+				taiwanese = "Toh-khe"
+				}
 			}			
 		}
 	}

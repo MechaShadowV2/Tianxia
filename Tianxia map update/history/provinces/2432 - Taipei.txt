@@ -4,11 +4,15 @@
 title = c_taipei
 
 # Settlements
-max_settlements = 7
+max_settlements = 1
 
 b_taipei = castle
-#b_wanhua = temple #Recieve this data from Wikipedia - Sagimine1
-#b_zhongzheng = city #Recieve this data from Wikipedia - Sagimine1
+#b_beitou
+#b_datong
+#b_nangang
+#b_neihu
+#b_shilin
+#b_songshan
 
 # Misc
 culture = taiwanese
