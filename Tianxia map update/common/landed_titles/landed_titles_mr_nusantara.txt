@@ -215,7 +215,7 @@ e_nusantara = {
 			color = { 245 184 119 } # TODO
 			color2 = { 90 90 90 } # TODO
 			
-			capital = 2279 # Nias
+			capital = 2278 # Nias
 			
 			c_nias = {
 				color = { 245 184 119 }
@@ -239,14 +239,14 @@ e_nusantara = {
 				b_pulau_telo = {
 				}
 			}
-			c_pulau = { # New
+			c_pulau = { # Simeulue
 				color = { 245 184 119 } # TODO
 				color2 = { 90 90 90 } # TODO
 				
 				b_pulau = {}
 				# Needs baronies
 			}
-			c_tanahbala = { # New
+			c_tanahbala = {
 				color = { 245 184 119 } # TODO
 				color2 = { 90 90 90 } # TODO
 				

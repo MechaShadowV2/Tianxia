@@ -4541,12 +4541,8 @@
      effect={add_rival=125526}
    }#Toluid Civil War
    1260.5.5={
-		religion = taoist # Needed because he'll not be Chinese Imperial otherwise...
-		# TODO: Ensure that Kublai's successors in China are Taoist!
-		effect = {
-			create_bloodline = {
-				type = pretender_chinese_imperial_bloodline_yuan # Yuan dynasty proclaimed - actually in 1271, but needs to be early due to title changes
-			} 
+		create_bloodline = {
+			type = pretender_chinese_imperial_bloodline_yuan # Yuan dynasty proclaimed - actually in 1271, but needs to be early due to title changes
 		}
    }
    1266.1.1={
@@ -4558,10 +4554,8 @@
 	#	}
    #}
    1279.3.19={
-		effect = {
-			create_bloodline = {
-				type = real_chinese_imperial_bloodline_yuan # Yuan dynasty supplants Song dynasty as rulers of China, pretender bloodline stops being pretender
-			}
+		create_bloodline = {
+			type = real_chinese_imperial_bloodline_yuan # Yuan dynasty supplants Song dynasty as rulers of China, pretender bloodline stops being pretender
 		}
    }
    1281.1.1 = {

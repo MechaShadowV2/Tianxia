@@ -46,7 +46,9 @@
 			c_247757={
 				add_consort=ROOT
 			}
-			create_real_chinese_imperial_bloodline_effect = yes # Creates relevant bloodline
+		}
+		create_bloodline = {
+			type = real_chinese_imperial_bloodline_tang
 		}
 	}#Consort Yang
 	619.1.1 = {
@@ -201,9 +203,10 @@
 	}
 	690.10.16 = {
 		name = "Zetian"
-		effect = {
-			create_real_chinese_imperial_bloodline_effect = yes # Creates relevant bloodline
+		create_bloodline = {
+			type = real_chinese_imperial_bloodline_zhou
 		}
+		
 	}
 	705.12.16 = {
 		death = { death_reason = death_offmap }
@@ -629,7 +632,9 @@
 	960.2.4 = {
 		effect = {
 			set_character_flag = temple_name_taizu
-			create_real_chinese_imperial_bloodline_effect = yes # Creates relevant bloodline
+		}
+		create_bloodline = {
+			type = real_chinese_imperial_bloodline_song
 		}
     }
     976.11.14={
