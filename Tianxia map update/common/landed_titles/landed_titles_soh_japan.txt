@@ -342,7 +342,7 @@ e_japan = {
 			c_tsushima = {
 				color = { 178 255 168 }
 				color2 = {63 63 63}
-				¨
+				
 				holy_site = korean_pagan
 				holy_site = korean_pagan_reformed
 				

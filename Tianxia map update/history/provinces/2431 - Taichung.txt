@@ -6,7 +6,7 @@ title = c_taichung
 # Settlements
 max_settlements = 1
 
-b_taichung = castle
+b_taichung = tribal
 # Needs baronies!
 
 # Misc

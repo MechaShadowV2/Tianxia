@@ -8,7 +8,7 @@ max_settlements = 1
 
 b_taipei = castle
 #b_beitou
-#b_datong
+#b_datong2
 #b_nangang
 #b_neihu
 #b_shilin
