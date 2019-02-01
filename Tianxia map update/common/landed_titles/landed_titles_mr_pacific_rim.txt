@@ -634,11 +634,11 @@ e_pacific_rim = { # New; might need a better name
 				taiwanese = "Thài-pêng"
 				}
 				
-				b_dali2 = {
+				b_thai_li = {
 				taiwanese = "Tāi-lí"
 				}
 				
-				b_wufeng2 = {
+				b_wu_feng = {
 				taiwanese = "Bū-hong"
 				}
 				
@@ -652,14 +652,6 @@ e_pacific_rim = { # New; might need a better name
 				
 				b_houli = {
 				taiwanese = "Aū-lí"
-				}
-				
-				b_daya = {
-				taiwanese = "Tāi-ngé"
-				}
-				
-				b_heping = {
-				taiwanese = "Hô-pêng"
 				}
 			}
 			c_taipei = {
@@ -677,7 +669,7 @@ e_pacific_rim = { # New; might need a better name
 				b_beitou = {
 				}
 				
-				b_datong2 = {
+				b_datong = {
 				}
 				
 				b_nangang = {
@@ -826,7 +818,7 @@ e_pacific_rim = { # New; might need a better name
 				taiwanese = "Tat-jîn"
 				}
 				
-				b_jinfeng2 = {
+				b_jinfeng = {
 				taiwanese = "Kim-hong"
 				}
 			}
@@ -850,8 +842,8 @@ e_pacific_rim = { # New; might need a better name
 				taiwanese = "Sūi-sūi"
 				}
 				
-				b_xincheng2 = {
-				taiwanese = "Sin-siâ"
+				b_ji_an = {
+				taiwanese = "Kiat-an"
 				}
 				
 				b_xiulin = {

@@ -7,15 +7,12 @@ title = c_taitung
 max_settlements = 1
 
 b_taitung = tribal
-#b_taichung		
-#b_taiping
-#b_dali2
-#b_wufeng2
-#b_fengyuan
-#b_shigang
-#b_houli
-#b_daya
-#b_heping
+#b_pingtung
+#b_guanshan
+#b_chishang
+#b_luye
+#b_daren
+#b_jinfeng
 
 # Misc
 culture = taiwanese

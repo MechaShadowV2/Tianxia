@@ -10,7 +10,7 @@ b_haian = tribal
 #b_fenglin
 #b_guanfu
 #b_ruisui
-#b_xincheng2
+#b_ji_an
 #b_xiulin
 #b_zhouxi
 

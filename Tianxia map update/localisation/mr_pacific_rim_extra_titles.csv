@@ -13,3 +13,80 @@ b_lingayen;Lingayen;;;;;;;;;;;;;x
 b_bayombong;Bayombong;;;;;;;;;;;;;x
 d_samtoy;Samtoy;;;;;;;;;;;;;x
 b_kabugao;Kabugao;;;;;;;;;;;;;x
+# TAIWAN KINGDOM START#######################
+k_taiwan;Kingdom of Taiwan;Royaume de Taïwan;Königreich Taiwan;;Reino de Taiwán;;;;;;;;;x
+
+# DUCHIES OF TAIWAN START#########################
+d_tainan;Duchy of Tainan;Duché de Tainan;Herzogtum Tainan;;Ducado de Tainan;;;;;;;;;x
+d_taipeh;Duchy of Taipeh;Duché de Taipeh;Herzogtum Taipeh;;Ducado de Taipeh;;;;;;;;;x
+# DUCHIES OF TAIWAN END#########################
+
+# COUNTIES/PROVINCES OF TAIWAN START#########################
+c_changua;Changua County;Xian de Changua;Kreis Changua;;Condado de changua;;;;;;;;;x
+c_haian;Hai'an County;Xian de Hai'an;Kreis Hai'an;;Condado de Hai'an;;;;;;;;;x
+c_penghu;Penghu County;Xian de Penghu;Kreis Tainan;;Condado de Penghu;;;;;;;;;x
+c_taichung;Taichung County;Xian de Taichung;Kreis Taichung;;Condado de Taichung;;;;;;;;;x
+c_tainan;Tainan County;Baronnie de Tainan;Kreis Tainan;;Condado de Tainan;;;;;;;;;x
+c_taitung;Taitung County;Xian de Taitung;Kreis Taitung;;Condado de Taitung;;;;;;;;;x
+c_taipei;Taipei County;Xian de Taipei;Kreis Taipei;;Condado de Taipei;;;;;;;;;x
+# COUNTIES/PROVINCES OF TAIWAN END#########################
+
+# HOLDINGS OF TAIWAN START######################### #1
+b_taichung;Barony of Taichung;Baronnie de Taichung;Baronie von Taichung;;Baronía de Taichung;;;;;;;;;x
+b_taiping;Barony of Taiping;Baronnie de Taiping;Baronie von Taiping;;Baronía de Taiping;;;;;;;;;x
+b_thai_li;Barony of Thai Li;Baronnie de Thai Li;Baronie von Thai Li;;Baronía de Thai Li;;;;;;;;;x
+b_wu_feng;Barony of Wu'feng;Baronnie de Wu'feng;Baronie von Wu'feng;;Baronía de Wu'feng;;;;;;;;;x
+b_fengyuan;Barony of Fengyuan;Baronnie de Fengyuan;Baronie von Fengyuan;;Baronía de Fengyuan;;;;;;;;;x
+b_shigang;Barony of Shigang;Baronnie de Shigang;Baronie von Shigang;;Baronía de Shigang;;;;;;;;;x
+b_houli;Barony of Houli;Baronnie de Houli;Baronie von Houli;;Baronía de Houli;;;;;;;;;x
+###################################################################2
+b_taipei;Barony of Taipei;Baronnie de Taipei;Baronie von Taipei;;Baronía de Taipei;;;;;;;;;x
+b_beitou;Barony of Beitou;Baronnie de Beitou;Baronie von Beitou;;Baronía de Beitou;;;;;;;;;x
+b_datong;Barony of Datong;Baronnie de Datong;Baronie von Datong;;Baronía de Datong;;;;;;;;;x
+b_nangang;Barony of Nangang;Baronnie de Nangang;Baronie von Nangang;;Baronía de Nangang;;;;;;;;;x
+b_neihu;Barony of Neihu;Baronnie de Neihu;Baronie von Neihu;;Baronía de Neihu;;;;;;;;;x
+b_shilin;Barony of Shilin;Baronnie de Shilin;Baronie von Shilin;;Baronía de Shilin;;;;;;;;;x
+b_songshan;Barony of Songshan;Baronnie de Songshan;Baronie von Songshan;;Baronía de Songshan;;;;;;;;;x
+###################################################################3
+b_changua;Barony of Changua;Baronnie de Changua;Baronie von Changua;;Baronía de Changua;;;;;;;;;x
+b_beidou;Barony of Beidou;Baronnie de Beidou;Baronie von Beidou;;Baronía de Beidou;;;;;;;;;x
+b_hemei;Barony of Hemei;Baronnie de Hemei;Baronie von Hemei;;Baronía de Hemei;;;;;;;;;x
+b_lukang;Barony of Lukang;Baronnie de Lukang;Baronie von Lukang;;Baronía de Lukang;;;;;;;;;x
+b_dacun;Barony of Dacun;Baronnie de Dacun;Baronie von Dacun;;Baronía de Dacun;;;;;;;;;x
+b_pitou;Barony of Pitou;Baronnie de Pitou;Baronie von Pitou;;Baronía de Pitou;;;;;;;;;x
+b_xizhou;Barony of Xizhou;Baronnie de Xizhou;Baronie von Xizhou;;Baronía de Xizhou;;;;;;;;;x
+###################################################################4
+b_huxi;Barony of Huxi;Baronnie de Huxi;Baronie von Huxi;;Baronía de Huxi;;;;;;;;;x
+b_magong;Barony of Magong;Baronnie de Magong;Baronie von Magong;;Baronía de Magong;;;;;;;;;x
+b_baisha;Barony of Baisha;Baronnie de Baisha;Baronie von Baisha;;Baronía de Baisha;;;;;;;;;x
+b_xiyu;Barony of Xiyu;Baronnie de Xiyu;Baronie von Xiyu;;Baronía de Xiyu;;;;;;;;;x
+b_wang_an;Barony of Wang'an;Baronnie de Wang'an;Baronie von Wang'an;;Baronía de Wang'an;;;;;;;;;x
+b_qimei;Barony of Qimei;Baronnie de Qimei;Baronie von Qimei;;Baronía de Qimei;;;;;;;;;x
+b_xihu;Barony of Xihu;Baronnie de Xihu;Baronie von Xihu;;Baronía de Xihu;;;;;;;;;x
+###################################################################5
+b_tainan;Barony of Tainan;Baronnie de Tainan;Baronie von Tainan;;Baronía de Tainan;;;;;;;;;x
+b_kaoshiung;Barony of Kaoshiung;Baronnie de Kaoshiung;Baronie von Kaoshiung;;Baronía de Kaoshiung;;;;;;;;;x
+b_anping;Barony of Anping;Baronnie de Anping;Baronie von Anping;;Baronía de Anping;;;;;;;;;x
+b_yongkang;Barony of Yongkang;Baronnie de Yongkang;Baronie von Yongkang;;Baronía de Yongkang;;;;;;;;;x
+b_shanhua;Barony of Shanhua;Baronnie de Shanhua;Baronie von Shanhua;;Baronía de Shanhua;;;;;;;;;x
+b_jiali;Barony of Jiali;Baronnie de Jiali;Baronie von Jiali;;Baronía de Jiali;;;;;;;;;x
+b_madou;Barony of Madou;Baronnie de Madou;Baronie von Madou;;Baronía de Madou;;;;;;;;;x
+###################################################################6
+b_taitung;Barony of Taitung;Baronnie de Taitung;Baronie von Taitung;;Baronía de Taitung;;;;;;;;;x
+b_pingtung;Barony of Pingtung;Baronnie de Pingtung;Baronie von Pingtung;;Baronía de Pingtung;;;;;;;;;x
+b_guanshan;Barony of Guanshan;Baronnie de Guanshan;Baronie von Guanshan;;Baronía de Guanshan;;;;;;;;;x
+b_chishang;Barony of Chishang;Baronnie de Chishang;Baronie von Chishang;;Baronía de Chishang;;;;;;;;;x
+b_luye;Barony of Luye;Baronnie de Luye;Baronie von Luye;;Baronía de Luye;;;;;;;;;x
+b_daren;Barony of Daren;Baronnie de Daren;Baronie von Daren;;Baronía de Daren;;;;;;;;;x
+b_jinfeng;Barony of Jinfeng;Baronnie de Jinfeng;Baronie von Jinfeng;;Baronía de Jinfeng;;;;;;;;;x
+###################################################################7
+b_haian;Barony of Hai'an;Baronnie de Hai'an;Baronie von Hai'an;;Baronía de Hai'an;;;;;;;;;x
+b_fenglin;Barony of Fenglin;Baronnie de Fenglin;Baronie von Fenglin;;Baronía de Fenglin;;;;;;;;;x
+b_guanfu;Barony of Guanfu;Baronnie de Guanfu;Baronie von Guanfu;;Baronía de Guanfu;;;;;;;;;x
+b_ruisui;Barony of Ruisui;Baronnie de Ruisui;Baronie von Ruisui;;Baronía de Ruisui;;;;;;;;;x
+b_ji_an;Barony of Ji'an;Baronnie de Ji'an;Baronie von Ji'an;;Baronía de Ji'an;;;;;;;;;x
+b_xiulin;Barony of Xiulin;Baronnie de Xiulin;Baronie von Xiulin;;Baronía de Xiulin;;;;;;;;;x
+b_zhouxi;Barony of Zhouxi;Baronnie de Zhouxi;Baronie von Zhouxi;;Baronía de Zhouxi;;;;;;;;;x
+# HOLDINGS OF TAIWAN END#########################
+
+#TAIWAN KINGDOM END#######################
