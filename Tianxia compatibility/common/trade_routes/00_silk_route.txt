@@ -148,15 +148,15 @@ silk_road = {
 		icon = 4
 	}
 
-	start = {				# Start provinces of trade route # TODO - start in China proper
+	start = {				# Start provinces of trade route
 		2861 # Chang'an
 	}
 	
 	
 	
 	# Chang'an -> Jiuquan
-	path = { # Chang'an-Dingxi-Lanzhou-Ganzhou-Jiuquan
-		2861 2858 2857 2856 1513
+	path = { # Chang'an-Qingyang-Dingxi-Lanzhou-Ganzhou-Jiuquan
+		2861 2862 2858 2857 2856 1513
 	}
 	# Chang'an -> Luangchuan
 	path = { # Chang'an-Shangluo-Luangchuan
@@ -355,9 +355,9 @@ silk_road = {
 		2671 2061 2669 2060 2059 2056 2577
 	}
 	# Oc Eo -> Chaiya
-	path = { # Oc Eo-2055-2053-Chaiya # TODO: Sea zone names!
-		2577 2055 2053 2550
-	}
+	#path = { # Oc Eo-2055-2053-Chaiya # TODO: Sea zone names! # Disabled due to making the Melaka route irrelevant
+	#	2577 2055 2053 2550
+	#}
 	# Chaiya -> Pegu
 	path = { # Chaiya-2005-2004-Irrawady Delta-Pegu # TODO: Sea zone names!
 		2550 2005 2004 2001 2619

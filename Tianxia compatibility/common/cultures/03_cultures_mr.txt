@@ -1,4 +1,4 @@
-#indo_aryan_group = {
+#indo_aryan_group = { # Irrelevant due to 2.8
 #	
 #	kashmiri = { # Indo-Aryan
 #		graphical_cultures = { indiangfx muslimgfx }

@@ -15,10 +15,22 @@ kojiki = {
 	japanese_opinion = 5
 	learning = 3
 	active = {
-		religion = shinto
+		OR = {
+			religion = shinto
+			AND = {
+				religion = buddhist
+				culture_group = japonic
+			}
+		}
 	}
 	allowed_gift = {
-		religion = shinto
+		OR = {
+			religion = shinto
+			AND = {
+				religion = buddhist
+				culture_group = japonic
+			}
+		}
 	}
 	flags = { religious japanese shinto book }
 	picture = "GFX_book"
@@ -33,6 +45,24 @@ nihon_shoki = {
 	learning = 1
 	diplomacy = 1
 	stewardship = 1
+	active = {
+		OR = {
+			religion = shinto
+			AND = {
+				religion = buddhist
+				culture_group = japonic
+			}
+		}
+	}
+	allowed_gift = {
+		OR = {
+			religion = shinto
+			AND = {
+				religion = buddhist
+				culture_group = japonic
+			}
+		}
+	}
 	flags = { religious japanese shinto book }
 	picture = "GFX_book"
 	stacking = no
@@ -65,4 +95,23 @@ epic_of_darkness = {
 	picture = "GFX_book"
 	stacking = no
 	slot = library
+}
+
+art_of_war_page = {
+	quality = 1
+	monthly_character_prestige = 0.1
+	martial = 1
+	active = {
+		NOT = {
+			has_artifact = art_of_war
+		}
+	}
+	allowed_gift = {
+		NOT = {
+			has_artifact = art_of_war
+		}
+	}
+	flags = { chinese book }
+	picture = "GFX_book"
+	stacking = no
 }

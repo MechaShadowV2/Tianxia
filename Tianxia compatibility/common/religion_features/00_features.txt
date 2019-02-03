@@ -770,14 +770,14 @@ religion_doctrine = {
 				religion_group = pagan_group
 			}
 			modifier = {
-				factor = 10
+				factor = 10 # Should be high so that they're likely to get CI even without the special doctrine
 				FROM = {
 					character = yes
 					religion = chinese_pagan # Suitable
 				}
 			}
 			modifier = {
-				factor = 5
+				factor = 5 # High to make CI more likely
 				FROM = {
 					character = yes
 					OR = {
