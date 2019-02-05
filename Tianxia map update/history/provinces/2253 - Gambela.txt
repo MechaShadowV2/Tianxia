@@ -7,7 +7,12 @@ title = c_gambela
 max_settlements = 1
 
 b_gambela = tribal
-# Needs baronies!
+#b_itang
+#b_meti
+#b_metar
+#b_abobo
+#b_jikawo
+#b_tergol
 
 # Misc
 culture = ethiopian

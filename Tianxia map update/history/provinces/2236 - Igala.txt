@@ -7,7 +7,12 @@ title = c_igala
 max_settlements = 1
 
 b_idah = tribal
-# Needs baronies!
+#b_lokoja
+#b_isanlu_isin
+#b_onitsha_mmil
+#b_anambra
+#b_umuleri
+#b_ejura
 
 # Misc
 culture = yoruba

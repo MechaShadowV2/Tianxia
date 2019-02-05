@@ -7,7 +7,12 @@ title = c_dawaro
 max_settlements = 1
 
 b_dawaro = tribal
-# Needs baronies!
+#b_bale2
+#b_gidaya
+#b_ximan
+#b_qalaafo
+#b_gode
+#b_kebri_dahar
 
 # Misc
 culture = somali

@@ -7,7 +7,12 @@ title = c_hadiya
 max_settlements = 1
 
 b_hadiya = tribal
-# Needs baronies!
+#b_alem_gebeya
+#b_shashamane
+#b_abidjatta
+#b_shalla
+#b_langano
+#b_senkele
 
 # Misc
 culture = ethiopian
