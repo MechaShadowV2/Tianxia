@@ -19676,6 +19676,7 @@ free_tributary_cb = {
 							has_dlc = "Jade Dragon"
 							OR = {
 								is_tributary = { type = permanent }
+								is_tributary = { type = chinese }
 								is_tributary = { type = offmap }
 							}
 						}
@@ -19703,6 +19704,7 @@ free_tributary_cb = {
 							has_dlc = "Jade Dragon"
 							OR = {
 								is_tributary = { type = permanent }
+								is_tributary = { type = chinese }
 								is_tributary = { type = offmap }
 							}
 						}

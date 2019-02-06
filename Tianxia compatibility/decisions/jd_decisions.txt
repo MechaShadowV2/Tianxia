@@ -578,6 +578,9 @@ decisions = {
 					type = permanent
 				}
 				is_tributary = {
+					type = chinese
+				}
+				is_tributary = {
 					type = nomadic
 				}
 			}
@@ -595,9 +598,14 @@ decisions = {
 				}
 			}
 			conditional_tooltip = {
-				trigger = { 
-					is_tributary = {
-						type = permanent
+				trigger = {
+					OR = {
+						is_tributary = {
+							type = permanent
+						}
+						is_tributary = {
+							type = chinese
+						}
 					}
 				}
 				suzerain = {

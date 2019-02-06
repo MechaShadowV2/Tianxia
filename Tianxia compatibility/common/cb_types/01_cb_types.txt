@@ -3485,7 +3485,19 @@ tributary_permanent_cb = { # New8
 		FROM = {
 			show_scope_change = no
 			save_event_target_as = tribute_war_target
-			set_character_flag = surrender_tributary_permanent_cb
+			if = {
+				limit = {
+					ROOT = {
+						NOT = {
+							government = chinese_imperial_government
+						}
+					}
+					set_character_flag = surrender_tributary_permanent_cb
+				}
+			}
+			else = {
+				set_character_flag = surrender_tributary_chinese
+			}
 			character_event = { id = JD.2500 days = 5 tooltip = surrender_tributary_tt }
 		}
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
@@ -3551,7 +3563,17 @@ tributary_permanent_cb = { # New8
 		ROOT = {
 			show_scope_change = no
 			prestige = 200
-			make_tributary = { who = FROM tributary_type = permanent }
+			if = {
+				limit = {
+					NOT = {
+						government = chinese_imperial_government
+					}
+				}
+				make_tributary = { who = FROM tributary_type = permanent }
+			}
+			else = {
+				make_tributary = { who = FROM tributary_type = chinese }
+			}
 		}
 		
 		if  = {

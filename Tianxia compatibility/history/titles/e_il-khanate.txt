@@ -26,7 +26,7 @@
 		#who = e_china_west_governor
 		who = e_mongol_china
 		#type = offmap
-		type = permanent
+		type = chinese
 	}
 }
 1265.2.8={
@@ -35,9 +35,9 @@
 1279.3.19={
 	set_tribute_suzerain = {
 		#who = e_china_west_governor
-		who = e_mongol_china
+		who = e_china
 		#type = offmap
-		type = permanent
+		type = chinese
 	}
 }
 1282.1.1={

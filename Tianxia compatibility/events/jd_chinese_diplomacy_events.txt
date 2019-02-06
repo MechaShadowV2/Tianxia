@@ -298,7 +298,7 @@ letter_event = {
     	trigger = {
 			NOT = {
 				is_tributary = {
-					type = permanent
+					type = chinese
 					suzerain = FROM
 				}
 			}
@@ -308,7 +308,7 @@ letter_event = {
     	text = EVTDESC_JD_20002_B
     	trigger = {
 			is_tributary = {
-				type = permanent
+				type = chinese
 				suzerain = FROM
 			}
 		}

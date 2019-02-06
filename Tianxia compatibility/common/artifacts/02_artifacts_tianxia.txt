@@ -784,7 +784,7 @@ heirloom_seal_of_the_realm = {
 	}
 	quality = 5
 	#indestructible = yes # Was actually lost, so might be worth making it possible for it to be lost...
-	flags = { chinese unique }
+	flags = { chinese heirloom_seal_of_the_realm unique }
 	picture = "GFX_relic_box_simple" # TODO
 }
 

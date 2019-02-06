@@ -9377,3 +9377,73 @@ character_event = {
 		add_artifact = epic_of_darkness
 	}
 }
+
+### Artifact transfer on succession for special artefacts
+
+# The Heirloom Seal of the Realm sticks with China/a pretender empire
+character_event = {
+	id = artifacts.159
+	hide_window = yes
+	
+	only_playable = yes
+	
+	trigger = {
+		FROMFROM = {
+			has_artifact = heirloom_seal_of_the_realm
+		}
+		FROM = {
+			OR = {
+				title = e_china
+				has_title_flag = pretender_chinese_empire
+			}
+		}
+	}
+	
+	immediate = {
+		FROMFROM = {
+			any_artifact = {
+				limit = {
+					has_artifact_flag = heirloom_seal_of_the_realm
+				}
+				transfer_artifact = {
+					from = PREV
+					to = ROOT
+				}
+			}
+		}
+	}
+}
+
+# The Imperial Regalia of Japan is transferred to the Tenno, if possible
+character_event = {
+	id = artifacts.160
+	hide_window = yes
+	
+	only_playable = yes
+	
+	trigger = {
+		FROMFROM = {
+			any_artifact = {
+				has_artifact_flag = imperial_regalia_of_japan 
+			}
+		}
+		FROM = {
+			OR = {
+				title = k_chrysanthemum_throne
+		}
+	}
+	
+	immediate = {
+		FROMFROM = {
+			any_artifact = {
+				limit = {
+					has_artifact_flag = imperial_regalia_of_japan
+				}
+				transfer_artifact = {
+					from = PREV
+					to = ROOT
+				}
+			}
+		}
+	}
+}

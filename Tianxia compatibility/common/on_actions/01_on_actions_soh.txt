@@ -22,6 +22,8 @@ on_new_holder = {
 		nameofchina.32 # A Chinese Imperial EoC gets another empire and destroys it
 		nameofchina.33 # A pretender empire is gained
 		japan.6 # Regnal name for the Emperor of Japan
+		artifacts.159 # The Heirloom Seal of the Realm is taken by the new holder of China/a pretender empire
+		artifacts.160 # The Imperial Regalia of Japan is taken by the Tenno
 	}
 }
 
