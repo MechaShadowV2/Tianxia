@@ -298,7 +298,7 @@ e_pacific_rim = { # New; might need a better name
 				}
 				b_mabuhay = {
 				}
-				b_wawa = {
+				b_wa_wa = {
 				}
 			}
 		}
@@ -464,7 +464,7 @@ e_pacific_rim = { # New; might need a better name
 				}
 				b_libueg = {
 				}
-				b_marawi = {
+				b_ma_rawi = {
 				}
 				b_sawat = {
 				}
@@ -584,7 +584,7 @@ e_pacific_rim = { # New; might need a better name
 				}
 				b_mabini = {
 				}
-				b_borac = {
+				b_bo_rac = {
 				}
 				b_sabang = {
 				}
@@ -836,7 +836,7 @@ e_pacific_rim = { # New; might need a better name
 				}
 				b_dinalupihan = {
 				}
-				b_morong = {
+				b_mo_rong = {
 				}
 				b_samla = {
 				}
@@ -863,8 +863,6 @@ e_pacific_rim = { # New; might need a better name
 				}
 				b_sinabaan = {
 				}
-				b_nampalcan = {
-				}
 			}
 			c_bayombong = { # New
 				color = {205 154 129} # TODO
@@ -883,8 +881,6 @@ e_pacific_rim = { # New; might need a better name
 				b_paitan = {
 				}
 				b_cabuaan = {
-				}
-				b_ipil_cuneg = {
 				}
 			}
 		}
@@ -954,8 +950,6 @@ e_pacific_rim = { # New; might need a better name
 				}
 				b_madatag = {
 				}
-				b_musimut = {
-				}
 			}
 			c_bolo = { # New
 				color = { 215 234 169 } # TODO
@@ -974,8 +968,6 @@ e_pacific_rim = { # New; might need a better name
 				b_pating = {
 				}
 				b_pawa = {
-				}
-				b_usab = {
 				}
 			}
 		}

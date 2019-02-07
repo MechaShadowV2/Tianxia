@@ -12,7 +12,6 @@ b_lingayen = castle
 #b_mapandan
 #b_umingan
 #b_sinabaan
-#b_nampalcan
 
 # Misc
 culture = tagalog 

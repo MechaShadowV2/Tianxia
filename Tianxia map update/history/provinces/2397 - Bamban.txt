@@ -4,10 +4,14 @@
 title = c_bamban
 
 # Settlements
-max_settlements = 2
-b_bamban = castle
-b_sapian = castle
-# Needs baronies!
+max_settlements = 1
+b_bamban = tribal
+#b_banaba
+#b_culubasa
+#b_baguindoc
+#b_libueg
+#b_ma_rawi
+#b_sawat
 
 # Misc
 culture = tagalog

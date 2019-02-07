@@ -12,7 +12,6 @@ b_bayombong = castle
 #b_luyang
 #b_paitan
 #b_cabuaan
-#b_ipil_cuneg
 
 # Misc
 culture = tagalog 

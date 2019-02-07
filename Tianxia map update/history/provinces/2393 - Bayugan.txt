@@ -11,7 +11,7 @@ b_bayugan = tribal
 #b_gamao
 #b_katipunan
 #b_mabuhay
-#b_wawa
+#b_wa_wa
 
 # Misc
 culture = tagalog

@@ -12,7 +12,6 @@ b_bapor = castle
 #b_maingaran
 #b_pating
 #b_pawa
-#b_usab
 
 # Misc
 culture = tagalog 

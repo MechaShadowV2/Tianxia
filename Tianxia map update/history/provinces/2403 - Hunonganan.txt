@@ -4,10 +4,10 @@
 title = c_hunonganan
 
 # Settlements
-max_settlements = 3
-b_hunongan = castle
-b_maasin = city
-b_palompon = temple
+max_settlements = 1
+b_hunongan = tribal
+#b_maasin
+#b_palompon
 #b_canipaan
 #b_ingan
 #b_manlico
