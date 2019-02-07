@@ -7,7 +7,11 @@ title = c_samar
 max_settlements = 2
 b_tinago = castle
 b_calbayog = city
-# Needs baronies!
+#b_motiong
+#b_calbiga
+#b_gandara
+#b_jiabong
+#b_tarangnan
 
 # Misc
 culture = tagalog

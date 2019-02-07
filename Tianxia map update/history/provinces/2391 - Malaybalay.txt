@@ -6,7 +6,12 @@ title = c_malaybalay
 # Settlements
 max_settlements = 1
 b_malaybalay = tribal
-# Needs baronies!
+#b_patat
+#b_can_ayan
+#b_dalwangan
+#b_maligaya
+#b_casisang
+#b_simaya
 
 # Misc
 culture = tagalog

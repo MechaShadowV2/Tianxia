@@ -7,8 +7,11 @@ title = c_masbate
 max_settlements = 3
 b_aroroy = castle
 b_masbate = temple
-#b_palanas = city
-# Needs baronies
+b_palanas = city
+#b_cawayan
+#b_dimasalang
+#b_uson
+#b_milagros
 
 # Misc
 culture = tagalog

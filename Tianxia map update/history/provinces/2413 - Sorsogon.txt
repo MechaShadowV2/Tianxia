@@ -6,12 +6,10 @@ title = c_sorsogon
 # Settlements
 max_settlements = 3
 b_sorsogon = castle
-# Check to seee if these are in the right province (and remove one)!
-#b_namayan
-#b_balayan
+b_namayan = city
+b_balayan = temple
 #b_tanay
 #b_lipa
-#b_labo
 #b_naga
 #b_legazpi
 

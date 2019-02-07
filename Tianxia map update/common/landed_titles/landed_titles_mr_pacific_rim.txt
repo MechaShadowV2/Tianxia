@@ -36,16 +36,24 @@ e_pacific_rim = { # New; might need a better name
 				
 				b_sulu = {
 				}
-				# Needs baronies!
+				b_indanan = {
+				}
+				b_banguingui = {
+				}
+				b_luuk = {
+				}
+				b_pandami = {
+				}
+				b_pata = {
+				}
+				b_tapul = {
+				}
 			}
 			c_palawan = {
 				color = { 215 244 169 } # TODO
 				color2 = { 90 90 90 } # TODO
 				
 				b_palawan = {
-				}
-				# Remove two baronies!
-				b_busuanga = {
 				}
 				b_narra = {
 				}
@@ -58,8 +66,6 @@ e_pacific_rim = { # New; might need a better name
 				b_linapacan = {
 				}
 				b_culion = {
-				}
-				b_coron2 = {
 				}
 			}
 		}
@@ -76,7 +82,18 @@ e_pacific_rim = { # New; might need a better name
 				
 				b_kasambuwangaan = {
 				}
-				# Needs baronies!
+				b_bongalao = {
+				}
+				b_cawit_cawit = {
+				}
+				b_jatian = {
+				}
+				b_litawan = {
+				}
+				b_nala = {
+				}
+				b_tangarak = {
+				}
 			}
 			c_basilan = {
 				color = {200 250 160}
@@ -84,7 +101,18 @@ e_pacific_rim = { # New; might need a better name
 				
 				b_basilan = {
 				}
-				# Needs baronies!
+				b_lantawan = {
+				}
+				b_maluso = {
+				}
+				b_tabuan_lasa = {
+				}
+				b_tipo_tipo = {
+				}
+				b_lamitan = {
+				}
+				b_ungkaya_pukan = {
+				}
 			}
 			c_sunglupa = {
 				color = {210 250 160}
@@ -92,7 +120,18 @@ e_pacific_rim = { # New; might need a better name
 				
 				b_sunglupa = {
 				}
-				# Needs baronies!
+				b_karpok = {
+				}
+				b_luanan = {
+				}
+				b_mahalingeb = {
+				}
+				b_pingalay = {
+				}
+				b_talabob = {
+				}
+				b_tugaya = {
+				}
 			}
 		}
 		
@@ -108,7 +147,18 @@ e_pacific_rim = { # New; might need a better name
 				
 				b_bayug = {
 				}
-				# Needs baronies!
+				b_dimataling = {
+				}
+				b_guipos = {
+				}
+				b_kumalarang = {
+				}
+				b_labangan = {
+				}
+				b_margosatubig = {
+				}
+				b_tigbao = {
+				}
 			}
 			c_himologan = {
 				color = {240 250 180}
@@ -116,7 +166,18 @@ e_pacific_rim = { # New; might need a better name
 				
 				b_himologan = {
 				}
-				# Needs baronies!
+				b_balingasag = {
+				}
+				b_gingoog = {
+				}
+				b_jasaan = {
+				}
+				b_lagonglong = {
+				}
+				b_naawan = {
+				}
+				b_talisayan = {
+				}
 			}
 			c_kuta = { # Kuta Wato
 				color = {250 240 180}
@@ -124,7 +185,18 @@ e_pacific_rim = { # New; might need a better name
 				
 				b_kuta = {
 				}
-				# Needs baronies!
+				b_kabuntalan = {
+				}
+				b_matanog = {
+				}
+				b_parang = {
+				}
+				b_upi = {
+				}
+				b_kibleg = {
+				}
+				b_pinantao = {
+				}
 			}
 			c_bukidnon = {
 				color = {250 250 180}
@@ -132,7 +204,18 @@ e_pacific_rim = { # New; might need a better name
 				
 				b_bukidnon = {
 				}
-				# Needs baronies!
+				b_baugon = {
+				}
+				b_cabanglasan = {
+				}
+				b_dangcagan = {
+				}
+				b_kadingilan = {
+				}
+				b_lantapan = {
+				}
+				b_talakag = {
+				}
 			}
 		}
 		
@@ -148,7 +231,18 @@ e_pacific_rim = { # New; might need a better name
 				
 				b_malaybalay = {
 				}
-				# Needs baronies!
+				b_patat = {
+				}
+				b_can_ayan = {
+				}
+				b_dalwangan = {
+				}
+				b_maligaya = {
+				}
+				b_casisang = {
+				}
+				b_simaya = {
+				}
 			}
 			c_butuan = {
 				color = {250 250 230}
@@ -156,7 +250,18 @@ e_pacific_rim = { # New; might need a better name
 				
 				b_butuan = {
 				}
-				# Needs baronies!
+				b_sikatuna = {
+				}
+				b_lapu_lapu = {
+				}
+				b_limaha = {
+				}
+				b_pagatpatan = {
+				}
+				b_maon = {
+				}
+				b_taligaman = {
+				}
 			}
 			c_suba = {
 				color = {250 250 240}
@@ -164,7 +269,18 @@ e_pacific_rim = { # New; might need a better name
 				
 				b_suba = {
 				}
-				# Needs baronies!
+				b_alangilanan = {
+				}
+				b_balaas = {
+				}
+				b_candabong = {
+				}
+				b_dungo_an = {
+				}
+				b_maaslum = {
+				}
+				b_tubod = {
+				}
 			}
 			c_bayugan = {
 				color = {250 250 250}
@@ -172,7 +288,18 @@ e_pacific_rim = { # New; might need a better name
 				
 				b_bayugan = {
 				}
-				# Needs baronies!
+				b_cagbas = {
+				}
+				b_fili = {
+				}
+				b_gamao = {
+				}
+				b_katipunan = {
+				}
+				b_mabuhay = {
+				}
+				b_wawa = {
+				}
 			}
 		}
 		
@@ -188,7 +315,18 @@ e_pacific_rim = { # New; might need a better name
 	
 				b_bohol = {
 				}
-				# Needs baronies!
+				b_bagatusan = {
+				}
+				b_cabgan = {
+				}
+				b_gak_ang = {
+				}
+				b_hingutanan = {
+				}
+				b_jao = {
+				}
+				b_potohan = {
+				}
 			}
 			c_cebu = {
 				color = {215 216 159}
@@ -198,7 +336,16 @@ e_pacific_rim = { # New; might need a better name
 				}
 				b_carcar = {
 				}
-				# Needs baronies!
+				b_balamban = {
+				}
+				b_daanbantayan = {
+				}
+				b_pinamungajan = {
+				}
+				b_tabogon = {
+				}
+				b_tuburan = {
+				}
 			}
 			c_illongo = {
 				color = {215 216 199}
@@ -208,7 +355,16 @@ e_pacific_rim = { # New; might need a better name
 				}
 				b_ilog = {
 				}
-				# Needs baronies!
+				b_cabatuan = {
+				}
+				b_jaro = {
+				}
+				b_dugwakan = {
+				}
+				b_magdalo = {
+				}
+				b_talokgangan = {
+				}
 			}
 			c_buglas = {
 				color = {215 216 219}
@@ -216,7 +372,18 @@ e_pacific_rim = { # New; might need a better name
 	
 				b_bayawan = {
 				}
-				# Needs baronies!
+				b_dauin = {
+				}
+				b_mabinay = {
+				}
+				b_siaton = {
+				}
+				b_tayasan = {
+				}
+				b_manjuyod = {
+				}
+				b_maninihon = {
+				}
 			}
 		}
 		
@@ -244,9 +411,6 @@ e_pacific_rim = { # New; might need a better name
 				}
 				b_makato = {
 				}
-				b_malinao = {
-				}
-				# Remove one barony!
 			}
 			c_madja = {
 				color = {215 244 199}
@@ -258,7 +422,14 @@ e_pacific_rim = { # New; might need a better name
 				}
 				b_batad = {
 				}
-				# Needs baronies!
+				b_ajuy = {
+				}
+				b_calinog = {
+				}
+				b_miagao = {
+				}
+				b_tigbauan = {
+				}
 			}
 			c_nayup = {
 				color = {215 244 189}
@@ -268,7 +439,16 @@ e_pacific_rim = { # New; might need a better name
 				}
 				b_igang = {
 				}
-				# Needs baronies!
+				b_mataas = {
+				}
+				b_misibis = {
+				}
+				b_napao = {
+				}
+				b_sogod = {
+				}
+				b_tanagan = {
+				}
 			}
 			c_bamban = {
 				color = {215 244 209}
@@ -276,9 +456,18 @@ e_pacific_rim = { # New; might need a better name
 	
 				b_bamban = {
 				}
-				b_sapian = {
+				b_banaba = {
 				}
-				# Needs baronies!
+				b_culubasa = {
+				}
+				b_baguindoc = {
+				}
+				b_libueg = {
+				}
+				b_marawi = {
+				}
+				b_sawat = {
+				}
 			}
 		}
 	}
@@ -303,12 +492,11 @@ e_pacific_rim = { # New; might need a better name
 				
 				b_mansalay = {
 				}
-				# Check to see if these baronies should be in c_mamburao!
 				b_mindoro = {
 				}
 				b_sablayan = {
 				}
-				b_rizal2 = {
+				b_wasig = {
 				}
 				b_naujan = {
 				}
@@ -323,7 +511,18 @@ e_pacific_rim = { # New; might need a better name
 				
 				b_mamburao = {
 				}
-				# Needs baronies!
+				b_balansay = {
+				}
+				b_tii = {
+				}
+				b_payompon = {
+				}
+				b_li_gang = {
+				}
+				b_talabann = {
+				}
+				b_tayamaan = {
+				}
 			}
 		}
 		
@@ -341,7 +540,16 @@ e_pacific_rim = { # New; might need a better name
 				}
 				b_ormoc = {
 				}
-				# Needs baronies!
+				b_barugo = {
+				}
+				b_calubian = {
+				}
+				b_hilongos = {
+				}
+				b_hindang = {
+				}
+				b_inopacan = {
+				}
 			}
 			c_hunonganan = {
 				color = {235 234 189}
@@ -353,7 +561,14 @@ e_pacific_rim = { # New; might need a better name
 				}
 				b_palompon = {
 				}
-				# Needs baronies!
+				b_canipaan = {
+				}
+				b_ingan = {
+				}
+				b_manlico = {
+				}
+				b_tahusan = {
+				}
 			}
 			c_bagasumbol = {
 				color = {235 234 149}
@@ -361,7 +576,18 @@ e_pacific_rim = { # New; might need a better name
 			
 				b_bagasumbol = {
 				}
-				# Needs baronies!
+				b_agpani = {
+				}
+				b_catmon = {
+				}
+				b_lucsoon = {
+				}
+				b_mabini = {
+				}
+				b_borac = {
+				}
+				b_sabang = {
+				}
 			}
 			c_masbate = {
 				color = {235 234 179}
@@ -373,7 +599,14 @@ e_pacific_rim = { # New; might need a better name
 				}
 				b_masbate = {
 				}
-				# Needs baronies!
+				b_cawayan = {
+				}
+				b_dimasalang = {
+				}
+				b_uson = {
+				}
+				b_milagros = {
+				}
 			}
 		}
 		
@@ -391,7 +624,16 @@ e_pacific_rim = { # New; might need a better name
 				}
 				b_calbayog = {
 				}
-				# Needs baronies!
+				b_motiong = {
+				}
+				b_calbiga = {
+				}
+				b_gandara = {
+				}
+				b_jiabong = {
+				}
+				b_tarangnan = {
+				}
 			}
 			c_palapag = {
 				color = {188 214 159}
@@ -401,7 +643,16 @@ e_pacific_rim = { # New; might need a better name
 				}
 				b_ibabao = {
 				}
-				# Needs baronies!
+				b_binay = {
+				}
+				b_mabaras = {
+				}
+				b_nipa = {
+				}
+				b_sangay = {
+				}
+				b_talolora = {
+				}
 			}
 			c_borongan = {
 				color = {188 214 179}
@@ -409,7 +660,18 @@ e_pacific_rim = { # New; might need a better name
 	
 				b_borongan = {
 				}
-				# Needs baronies!
+				b_amantacop = {
+				}
+				b_benowangan = {
+				}
+				b_cagbonga = {
+				}
+				b_hebacong = {
+				}
+				b_maybacong = {
+				}
+				b_suribao = {
+				}
 			}
 			c_guiuan = {
 				color = {188 214 199}
@@ -417,7 +679,18 @@ e_pacific_rim = { # New; might need a better name
 	
 				b_homonhon = {
 				}
-				# Needs baronies!
+				b_alingarog = {
+				}
+				b_bungtod = {
+				}
+				b_cogon = {
+				}
+				b_dalaragan = {
+				}
+				b_salug = {
+				}
+				b_timala = {
+				}
 			}
 		}
 		
@@ -433,7 +706,6 @@ e_pacific_rim = { # New; might need a better name
 				
 				b_sorsogon = {
 				}
-				# Check to seee if these are in the right province (and remove one)!
 				b_namayan = {
 				}
 				b_balayan = {
@@ -441,8 +713,6 @@ e_pacific_rim = { # New; might need a better name
 				b_tanay = {
 				}
 				b_lipa = {
-				}
-				b_labo = {
 				}
 				b_naga = {
 				}
@@ -453,23 +723,59 @@ e_pacific_rim = { # New; might need a better name
 				color = { 215 234 179 } # TODO
 				color2 = { 90 90 90 } # TODO
 				
-				b_pili = {}
-				# Needs baronies!
+				b_pili = {
+				}
+				b_anayan = {
+				}
+				b_cadlan = {
+				}
+				b_himaao = {
+				}
+				b_caroyroyan = {
+				}
+				b_bagong_sirang = {
+				}
+				b_binobong = {
+				}
 			}
 			c_daet = { # New
 				color = { 215 234 179 } # TODO
 				color2 = { 90 90 90 } # TODO
 				
-				b_daet = {}
-				# Needs baronies!
+				b_daet = {
+				}
+				b_alawiho = {
+				}
+				b_bagasbas = {
+				}
+				b_bibirao = {
+				}
+				b_gahonon = {
+				}
+				b_lag_on = {
+				}
+				b_magang = {
+				}
 			}
 			c_malunay = { # New
 				# Should NOT be Mulanay; that's the post-colonial name!
 				color = { 215 234 179 } # TODO
 				color2 = { 90 90 90 } # TODO
 				
-				b_malunay = {}
-				# Needs baronies!
+				b_malunay = {
+				}
+				b_amuguis = {
+				}
+				b_bagupaye = {
+				}
+				b_butanyog	= {
+				}
+				b_canuyep = {
+				}
+				b_latangan = {
+				}
+				b_sagongon = {
+				}
 			}
 		}
 			
@@ -485,7 +791,6 @@ e_pacific_rim = { # New; might need a better name
 				
 				b_tondo = {
 				}
-				# Check that these are in the right province (and remove one)!
 				b_caloocan = {
 				}
 				b_obando = {
@@ -493,8 +798,6 @@ e_pacific_rim = { # New; might need a better name
 				b_pandi = {
 				}
 				b_plaridel = {
-				}
-				b_malolos = {
 				}
 				b_hagonoy = {
 				}
@@ -510,7 +813,6 @@ e_pacific_rim = { # New; might need a better name
 	
 				b_batangas = {
 				}
-				# Check that these are in the right province!
 				b_palapat = {
 				}
 				b_mayi = {
@@ -521,28 +823,69 @@ e_pacific_rim = { # New; might need a better name
 				}
 				b_rizal = {
 				}
-				# Needs baronies!
+				b_taysan = {
+				}
 			}
 			c_bataan = { # New
 				color = {205 154 129} # TODO
 				color2 = {90 90 90} # TODO
 				
-				b_balanga = {}
-				# Needs baronies!
+				b_balanga = {
+				}
+				b_abucay = {
+				}
+				b_dinalupihan = {
+				}
+				b_morong = {
+				}
+				b_samla = {
+				}
+				b_lalawigan = {
+				}
+				b_tabing_llog = {
+				}
 			}
 			c_pangasinan = { # New
 				color = {205 154 129} # TODO
 				color2 = {90 90 90} # TODO
 				
-				b_lingayen = {}
-				# Needs baronies!
+				b_lingayen = {
+				}
+				b_asingan = {
+				}
+				b_bayambang = {
+				}
+				b_malasiqui = {
+				}
+				b_mapandan = {
+				}
+				b_umingan = {
+				}
+				b_sinabaan = {
+				}
+				b_nampalcan = {
+				}
 			}
 			c_bayombong = { # New
 				color = {205 154 129} # TODO
 				color2 = {90 90 90} # TODO
 				
-				b_bayombong = {}
-				# Needs baronies!
+				b_bayombong = {
+				}
+				b_magapuy = {
+				}
+				b_magsaysay = {
+				}
+				b_bansing = {
+				}
+				b_luyang = {
+				}
+				b_paitan = {
+				}
+				b_cabuaan = {
+				}
+				b_ipil_cuneg = {
+				}
 			}
 		}
 		
@@ -561,10 +904,18 @@ e_pacific_rim = { # New; might need a better name
 	
 				b_samtoy = {
 				}
-				# Check that this is in the right province!
 				b_vigan = {
 				}
-				# Needs baronies!
+				b_banayoyo = {
+				}
+				b_caoayan = {
+				}
+				b_magsingal = {
+				}
+				b_sugpon = {
+				}
+				b_tagudin = {
+				}
 			}
 			c_lallo = {
 				color = {215 124 199}
@@ -572,12 +923,18 @@ e_pacific_rim = { # New; might need a better name
 		
 				b_amulung = {
 				}
-				# Check that these is in the right province!
 				b_apari = {
 				}
-				b_buguey = {
+				b_bagumbayan = {
 				}
-				# Needs baronies!
+				b_binag = {
+				}
+				b_cagoran = {
+				}
+				b_dagupan = {
+				}
+				b_magapit = {
+				}
 			}
 			c_apayao = {
 				color = { 215 234 169 }
@@ -585,14 +942,41 @@ e_pacific_rim = { # New; might need a better name
 				
 				b_kabugao = {
 				}
-				# Needs baronies!
+				b_badduat = {
+				}
+				b_cabetayan = {
+				}
+				b_dagara = {
+				}
+				b_karagawan = {
+				}
+				b_kumao = {
+				}
+				b_madatag = {
+				}
+				b_musimut = {
+				}
 			}
 			c_bolo = { # New
 				color = { 215 234 169 } # TODO
 				color2 = { 90 90 90 } # TODO
 				
-				b_bolo2 = {}
-				# Needs baronies!
+				b_bapor = {
+				}
+				b_batuhan = {
+				}
+				b_bugsayon = {
+				}
+				b_kalipay = {
+				}
+				b_maingaran = {
+				}
+				b_pating = {
+				}
+				b_pawa = {
+				}
+				b_usab = {
+				}
 			}
 		}
 	}
@@ -669,7 +1053,7 @@ e_pacific_rim = { # New; might need a better name
 				b_beitou = {
 				}
 				
-				b_datong2 = {
+				b_datong = {
 				}
 				
 				b_nangang = {
@@ -818,7 +1202,7 @@ e_pacific_rim = { # New; might need a better name
 				taiwanese = "Tat-jîn"
 				}
 				
-				b_jinfeng2 = {
+				b_jinfeng = {
 				taiwanese = "Kim-hong"
 				}
 			}

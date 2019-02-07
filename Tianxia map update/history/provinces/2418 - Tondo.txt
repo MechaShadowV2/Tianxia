@@ -4,16 +4,14 @@
 title = c_tondo
 
 # Settlements
-max_settlements = 5
+max_settlements = 3
 b_tondo = castle
-# Check that these are in the right province (and remove one)!
 b_caloocan = city
 b_obando = temple
-#b_pandi = castle
-#b_plaridel = castle
-#b_malolos = castle
-#b_hagonoy = castle
-#b_calumpit = castle
+#b_pandi
+#b_plaridel
+#b_hagonoy
+#b_calumpit
 
 # Misc
 culture = tagalog 

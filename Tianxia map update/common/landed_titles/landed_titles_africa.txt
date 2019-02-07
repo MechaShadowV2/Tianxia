@@ -1,38 +1,26 @@
-# Some baronies might be misplaced; feel free to replace/reposition them as long as you ensure that all provinces have seven baronies and do the necessary extra bits (province history file updates, localization).
-
 # West/Central Africa
 
 e_mali = {
 	k_mali = {
 		d_bambuk = {
-			c_futa_jallon = {
+			c_futa_jallon = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
 				b_timbo = {}
-				b_dinguiraye = {}
-				b_mamou = {}
-				b_kegneko = {} # Kégnéko
-				b_nyagara = {}
-				b_poredaka = {} # Porédaka
-				b_saramoussaya = {}
+				# Needs baronies!
 			}
-			c_beafada = {
+			c_beafada = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
 				b_beafada = {}
-				b_kindia = {}
-				b_mambia = {}
-				b_outamba_kilimi = {}
-				b_kambia = {}
-				b_samayah = {}
-				b_kolente = {} # Kolenté
+				# Needs baronies!
 			}
 		}
 	}
 	
-	k_bonoman = {
+	k_bonoman = { # New
 		color={ 10 215 225 } # TODO
 		color2={ 255 255 255 } # TODO
 		
@@ -40,57 +28,42 @@ e_mali = {
 		
 		culture = manden
 		
-		d_kong = {
+		d_kong = { # New
 			color={ 10 215 225 } # TODO
 			color2={ 255 255 255 } # TODO
 			
 			capital = 2248 # Kong
 			
-			c_bagoe = {
+			c_bagoe = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
 				b_tingrela = {}
-				b_boundiali = {}
-				b_ganaoni = {}
-				b_gbon = {}
-				b_kolia = {}
-				b_kouto = {}
-				b_papara = {}
+				# Needs baronies!
 			}
-			c_kong = {
+			c_kong = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
 				b_kong = {}
-				b_korhogo = {}
-				b_niakara = {} # Niakaramandougou
-				b_badikaha = {}
-				b_diefoula = {}
-				b_katiola = {}
-				b_dabakala = {}
+				# Needs baronies!
 			}
-			c_lobi = {
+			c_lobi = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
 				b_lobi = {}
-				b_gbele = {}
-				b_koulbi = {}
-				b_nazinga = {}
-				b_wa = {}
-				b_nadowli = {}
-				b_sissala = {}
+				# Needs baronies!
 			}
 		}
 		
-		d_bonoman = {
+		d_bonoman = { # New
 			color={ 10 215 225 } # TODO
 			color2={ 255 255 255 } # TODO
 			
 			capital = 2247 # Bonoman
 			
-			c_bonoman = {
+			c_bonoman = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
@@ -102,7 +75,7 @@ e_mali = {
 				b_nkoranza = {}
 				b_sunyani = {}
 			}
-			c_tenkodogo = {
+			c_tenkodogo = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
@@ -114,7 +87,7 @@ e_mali = {
 				b_garango = {}
 				b_beguedo = {}
 			}
-			c_dagbon = {
+			c_dagbon = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
@@ -126,7 +99,7 @@ e_mali = {
 				b_jirapa = {}
 				b_damongo = {}
 			}
-			c_kumasi = {
+			c_kumasi = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
@@ -143,7 +116,7 @@ e_mali = {
 }
 
 e_kanem = {
-	k_oyo = {
+	k_oyo = { # New
 		color={ 10 215 225 } # TODO
 		color2={ 255 255 255 } # TODO
 			
@@ -151,25 +124,20 @@ e_kanem = {
 		
 		culture = yoruba
 		
-		d_oyo = {
+		d_oyo = { # New
 			color={ 10 215 225 } # TODO
 			color2={ 255 255 255 } # TODO
 			
 			capital = 2238 # Oyo
 			
-			c_mossi = {
+			c_mossi = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
 				b_mossi = {}
-				b_kontagora = {}
-				b_kutiwenji = {}
-				b_kabogi = {}
-				b_kamuki = {}
-				b_tegina = {}
-				b_daniya = {}
+				# Needs baronies!
 			}
-			c_oyo = {
+			c_oyo = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
@@ -181,19 +149,16 @@ e_kanem = {
 				b_iwajowa = {}
 				b_ogbomosho = {}
 			}
-			c_borgu = {
+			c_borgu = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
 				b_bussa = {}
 				b_nikki = {}
 				b_illo = {}
-				b_kainji = {}
-				b_shanga = {}
-				b_auna = {}
-				b_kandi = {}
+				# Needs baronies!
 			}
-			c_abomey = {
+			c_abomey = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
@@ -205,7 +170,7 @@ e_kanem = {
 				b_ouinhi = {}
 				b_agbangnizoun = {}
 			}
-			c_atakora = {
+			c_atakora = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
@@ -218,13 +183,13 @@ e_kanem = {
 				b_tanguieta = {}
 			}
 		}
-		d_zazzau = {
+		d_zazzau = { # New
 			color={ 10 215 225 } # TODO
 			color2={ 255 255 255 } # TODO
 			
 			capital = 2235 # Zazzau
 			
-			c_zazzau = { 
+			c_zazzau = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
@@ -236,38 +201,28 @@ e_kanem = {
 				b_kudan = {}
 				b_kajure = {}
 			}
-			c_igala = {
+			c_igala = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
 				b_idah = {}
-				b_lokoja = {}
-				b_isanlu_isin = {}
-				b_onitsha_mmil = {}
-				b_anambra = {}
-				b_umuleri = {}
-				b_ejura = {}
+				# Needs baronies!
 			}
-			c_nupe = {
+			c_nupe = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
 				b_nupe = {}
-				b_kwiambana = {} # Possibly further north
-				b_minna = {}
-				b_kamuku = {} # Possibly further north
-				b_kwanti = {}
-				b_abuja = {}
-				b_shiroro = {}
+				# Needs baronies!
 			}
 		}
-		d_yola = {
+		d_yola = { # New
 			color={ 10 215 225 } # TODO
 			color2={ 255 255 255 } # TODO
 			
 			capital = 2233 # Yola
 			
-			c_yola = {
+			c_yola = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
@@ -298,7 +253,7 @@ e_kanem = {
 # East Africa
 
 e_abyssinia = {
-	k_hadiya = {
+	k_hadiya = { # New
 		color={ 10 215 225 } # TODO
 		color2={ 255 255 255 } # TODO
 		
@@ -306,127 +261,88 @@ e_abyssinia = {
 		
 		culture = ethiopian
 		
-		d_kaffa = {
+		d_kaffa = { # New
 			color={ 10 215 225 } # TODO
 			color2={ 255 255 255 } # TODO
 			
 			capital = 2254 # Kaffa
 			
-			c_gambela = {
+			c_gambela = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
 				b_gambela = {}
-				b_itang = {}
-				b_meti = {}
-				b_metar = {}
-				b_abobo = {}
-				b_jikawo = {}
-				b_tergol = {}
+				# Needs baronies!
 			}
-			c_kaffa = {
+			c_kaffa = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
 				b_anderaccha = {}
-				b_chiri2 = {}
-				b_sayilem = {}
-				b_decha = {}
-				b_telo = {}
-				b_adiya_kaka = {}
-				b_mizan_teferi = {}
+				# Needs baronies!
 			}
-			c_ennarea = {
+			c_ennarea = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
 				b_yadare = {}
 				b_gowi = {}
-				b_didessa = {}
-				b_saqqa2 = {}
-				b_beshasha = {}
-				b_inariya = {}
-				b_yayu = {}
+				# Needs baronies!
 			}
 		}
-		d_hadiya = {
+		d_hadiya = { # New
 			color={ 10 215 225 } # TODO
 			color2={ 255 255 255 } # TODO
 			
 			capital = 2258 # Hadiya
 			
-			c_janjilo = {
+			c_janjilo = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
 				b_janjilo = {}
-				b_jiren = {}
-				b_omo = {}
-				b_atnago = {}
-				b_agaro = {}
-				b_seka = {}
-				b_sentama = {}
+				# Needs baronies!
 			}
-			c_welayta = {
+			c_welayta = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
 				b_sodo = {}
-				b_bonga2 = {}
-				b_zala = {}
-				b_arba_minch = {} # Founded in the 1960s, but we need something
-				b_abaya = {}
-				b_chamo = {}
-				b_areka = {}
+				# Needs baronies!
 			}
-			c_hadiya = {
+			c_hadiya = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
 				b_hadiya = {}
-				b_alem_gebeya = {}
-				b_shashamane = {}
-				b_abidjatta = {}
-				b_shalla = {}
-				b_langano = {}
-				b_senkele = {}
+				# Needs baronies!
 			}
 		}
 		
-		d_arsi = {
+		d_arsi = { # New
 			color={ 10 215 225 } # TODO
 			color2={ 255 255 255 } # TODO
 			
 			capital = 2260 # Arsi
 			
-			c_arsi = {
+			c_arsi = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
 				b_asella = {}
-				b_fategar = {}
-				b_chole = {}
-				b_dera = {}
-				b_iteya = {}
-				b_bekoji = {}
-				b_sharkha = {}
+				# Needs baronies!
 			}
-			c_sidamo = {
+			c_sidamo = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
 				b_irgalem = {}
-				b_dara = {}
-				b_gumar = {}
-				b_harenna = {}
-				b_yabelo = {}
-				b_kibre_mengist = {}
-				b_hagere_mariam = {}
+				# Needs baronies!
 			}
 		}
 	}
 	
-	k_dawaro = {
+	k_dawaro = { # New
 		color={ 10 215 225 } # TODO
 		color2={ 255 255 255 } # TODO
 		
@@ -434,79 +350,55 @@ e_abyssinia = {
 		
 		culture = somali
 		
-		d_dawaro = {
+		d_dawaro = { # New
 			color={ 10 215 225 } # TODO
 			color2={ 255 255 255 } # TODO
 			
 			capital = 2261 # Dawaro
 			
-			c_degehabur = {
+			c_degehabur = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
 				b_degehabur = {}
-				b_hargaya = {}
-				b_jerer = {}
-				b_fiq = {}
-				b_aware = {}
-				b_shekosh = {}
-				b_hamaro = {}
+				# Needs baronies!
 			}
-			c_dawaro = {
+			c_dawaro = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
 				b_dawaro = {}
-				b_bale2 = {}
-				b_gidaya = {}
-				b_ximan = {}
-				b_qalaafo = {} # Actually further south, but we need something
-				b_gode = {}
-				b_kebri_dahar = {}
+				# Needs baronies!
 			}
-			c_togdheer = {
+			c_togdheer = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
 				b_togdheer = {}
-				b_burao = {}
-				b_oodweyne = {}
-				b_balanbale = {}
-				b_buuhoodle = {}
-				b_sheekh = {}
-				b_horufadhi = {}
+				# Needs baronies!
 			}
 		}
 		
-		d_garoowe = {
+		d_garoowe = { # New
 			color={ 10 215 225 } # TODO
 			color2={ 255 255 255 } # TODO
 			
 			capital = 2265 # Garoowe
 			
-			c_garoowe = {
+			c_garoowe = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
 				b_garoowe = {}
-				b_barbacadle = {}
-				b_eyl = {}
-				b_godobjiran = {}
-				b_gaalkacyo = {} # Located further south, but we need something
-				b_hobyo = {} # Located further south, but we need something
-				b_mareeg = {} # Located further south, but we need something
+				# Needs baronies!
 			}
-			c_qardho = {
+			c_qardho = { # New
 				color={ 10 215 225 } # TODO
 				color2={ 255 255 255 } # TODO
 				
 				b_qardho = {}
 				b_bayla = {}
-				b_rako_raaxo = {}
-				b_dahan = {}
-				b_dhahar = {}
-				b_xidda = {}
-				b_sarmaanyo = {}
+				# Needs baronies!
 			}
 		}
 	}

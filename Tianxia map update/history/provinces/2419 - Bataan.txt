@@ -6,7 +6,12 @@ title = c_bataan
 # Settlements
 max_settlements = 1
 b_balanga = castle
-# Needs baronies!
+#b_abucay
+#b_dinalupihan
+#b_morong
+#b_samla
+#b_lalawigan
+#b_tabing_llog
 
 # Misc
 culture = tagalog 

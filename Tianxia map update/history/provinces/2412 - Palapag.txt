@@ -7,7 +7,11 @@ title = c_palapag
 max_settlements = 2
 b_palapag = castle
 b_ibabao = temple
-# Needs baronies!
+#b_binay
+#b_mabaras
+#b_nipa
+#b_sangay
+#b_talolora
 
 # Misc
 culture = tagalog

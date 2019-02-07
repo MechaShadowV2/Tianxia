@@ -7,12 +7,7 @@ title = c_futa_jallon
 max_settlements = 1
 
 b_timbo = tribal
-#b_dinguiraye
-#b_mamou
-#b_kegneko
-#b_nyagara
-#b_poredaka
-#b_saramoussaya
+# Needs baronies!
 
 # Misc
 culture = manden

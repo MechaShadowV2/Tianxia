@@ -6,7 +6,12 @@ title = c_daet
 # Settlements
 max_settlements = 1
 b_daet = castle
-# Needs baronies!
+#b_alawiho
+#b_bagasbas
+#b_bibirao
+#b_gahonon
+#b_lag_on
+#b_magang
 
 # Misc
 culture = tagalog

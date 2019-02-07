@@ -6,7 +6,12 @@ title = c_kasambuwangaan
 # Settlements
 max_settlements = 1
 b_kasambuwangaan = tribal
-# Needs baronies
+#b_bongalao
+#b_cawit_cawit
+#b_jatian
+#b_litawan
+#b_nala
+#b_tangarak
 
 # Misc
 culture = tagalog

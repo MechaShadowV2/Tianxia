@@ -6,9 +6,12 @@ title = c_samtoy
 # Settlements
 max_settlements = 2
 b_samtoy = castle
-# Check if this is in the right place!
 b_vigan = city
-# Needs baronies!
+#b_banayoyo
+#b_caoayan
+#b_magsingal
+#b_sugpon
+#b_tagudin
 
 # Misc
 culture = tagalog 

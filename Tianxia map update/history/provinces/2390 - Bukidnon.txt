@@ -6,7 +6,12 @@ title = c_bukidnon
 # Settlements
 max_settlements = 1
 b_bukidnon = tribal
-# Needs baronies!
+#b_baugon
+#b_cabanglasan
+#b_dangcagan
+#b_kadingilan
+#b_lantapan
+#b_talakag
 
 # Misc
 culture = tagalog

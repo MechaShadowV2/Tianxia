@@ -44,29 +44,17 @@ e_japan = {
 	
 	capital = 2485 # Yamashiro
 	
-	nivkh = "Sisham Mif"
 	ainu = "Sisam Moshir"
-	japanese = "Nippon"
 	ryukyuan = "Yamatu"
-	korean = "Ilbon"
-	jeju = "Ilbon"
-	han = "Riben"
-	yue = "Riben"
-	bai = "Riben"
-	nakhi = "Riben"
-	min = "Riben"
-	yi = "Riben"
-	qiang = "Riben"
-	tujia = "Riben"
-	she = "Riben"
-	mongol = "Yapon"
-	khitan = "Yapon"
-	jurchen = "Yapon"
-	bedouin_arabic = "Wakwak"
-	maghreb_arabic = "Wakwak"
-	levantine_arabic = "Wakwak"
-	egyptian_arabic = "Wakwak"
-	andalusian_arabic = "Wakwak"
+	mongol = "Zipangu"
+	han = "Dongying" # Should this be used by other Chinese cultures?
+	# How many cultures would use Nippon and Japan respectively? Would it be better to have Japan be the base name and Nippon be specifically used for e.g. Japanese?
+	english = "Japan"
+	dutch = "Japan"
+	basque = "Japan"
+	castillan = "Japan"
+	portuguese = "Japan"
+	russian = "Japan"
 	
 	culture = japanese
 
@@ -77,29 +65,17 @@ e_japan = {
 		capital = 2485 # Yamashiro
 		culture = japanese
 		
-		nivkh = "Sisham Mif"
 		ainu = "Sisam Moshir"
-		japanese = "Nippon"
 		ryukyuan = "Yamatu"
-		korean = "Ilbon"
-		jeju = "Ilbon"
-		han = "Riben"
-		yue = "Riben"
-		bai = "Riben"
-		nakhi = "Riben"
-		min = "Riben"
-		yi = "Riben"
-		qiang = "Riben"
-		tujia = "Riben"
-		she = "Riben"
-		mongol = "Yapon"
-		khitan = "Yapon"
-		jurchen = "Yapon"
-		bedouin_arabic = "Wakwak"
-		maghreb_arabic = "Wakwak"
-		levantine_arabic = "Wakwak"
-		egyptian_arabic = "Wakwak"
-		andalusian_arabic = "Wakwak"
+		mongol = "Zipangu"
+		han = "Dongying" # Should this be used by other Chinese cultures?
+		# How many cultures would use Nippon and Japan respectively? Would it be better to have Japan be the base name and Nippon be specifically used for e.g. Japanese?
+		english = "Japan"
+		dutch = "Japan"
+		basque = "Japan"
+		castillan = "Japan"
+		portuguese = "Japan"
+		russian = "Japan"
 		
 		shinto = 500
 		ainu_pagan_reformed = 200
@@ -366,7 +342,7 @@ e_japan = {
 			c_tsushima = {
 				color = { 178 255 168 }
 				color2 = {63 63 63}
-				
+				¨
 				holy_site = korean_pagan
 				holy_site = korean_pagan_reformed
 				
@@ -1406,31 +1382,15 @@ e_japan = {
 		}
 	}
 		
-	k_ainu = { #Yezo
+	k_ainu = { #Ainu mosir
 		color = { 127 0 0 }
 		color2 = { 63 63 63 }
 
 		capital = 2529 # Kamikawa
 		culture = ainu
 	
-		nivkh = "Kugi Mif"
-		ainu = "Ainu Moshir"
 		japanese = "Ezo"
-		ryukyuan = "Izu"
-		korean = "Hai"
-		jeju = "Hai"
-		han = "Xiayi"
-		yue = "Xiayi"
-		bai = "Xiayi"
-		nakhi = "Xiayi"
-		min = "Xiayi"
-		yi = "Xiayi"
-		qiang = "Xiayi"
-		tujia = "Xiayi"
-		she = "Xiayi"
-		mongol = "Eizo"
-		khitan = "Eizo"
-		jurchen = "Eizo"
+		# Should most cultures really use Ainu Mosir?
 
 		d_sumunkur = { #Western people
 			color = { 225 51 0 }

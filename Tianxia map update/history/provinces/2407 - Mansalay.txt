@@ -5,11 +5,10 @@ title = c_mansalay
 
 # Settlements
 max_settlements = 3
-# Check to see if these baronies should be in c_mamburao!
 b_mansalay = castle
 b_mindoro = temple
-#b_sablayan = city
-#b_rizal2
+b_sablayan = city
+#b_wasig
 #b_naujan
 #b_calapan
 #b_calintaan

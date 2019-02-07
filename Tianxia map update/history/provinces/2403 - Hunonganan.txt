@@ -8,7 +8,10 @@ max_settlements = 3
 b_hunongan = castle
 b_maasin = city
 b_palompon = temple
-# Needs baronies!
+#b_canipaan
+#b_ingan
+#b_manlico
+#b_tahusan
 
 # Misc
 culture = tagalog

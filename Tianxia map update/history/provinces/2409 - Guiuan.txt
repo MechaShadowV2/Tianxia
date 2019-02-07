@@ -6,7 +6,12 @@ title = c_guiuan
 # Settlements
 max_settlements = 1
 b_homonhon = castle
-# Needs baronies!
+#b_alingarog
+#b_bungtod
+#b_cogon
+#b_dalaragan
+#b_salug
+#b_timala
 
 # Misc
 culture = tagalog

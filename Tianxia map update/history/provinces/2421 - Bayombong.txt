@@ -6,7 +6,13 @@ title = c_bayombong
 # Settlements
 max_settlements = 1
 b_bayombong = castle
-# Needs baronies!
+#b_magapuy
+#b_magsaysay
+#b_bansing
+#b_luyang
+#b_paitan
+#b_cabuaan
+#b_ipil_cuneg
 
 # Misc
 culture = tagalog 

@@ -1,93 +1,731 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 e_pacific_rim;Empire of the Pacific Rim;;;;;;;;;;;;;x # Name will probably change
+
+# MINDANAO KINGDOM START#########################################
 k_mindanao;Mindanao;;;;;;;;;;;;;x
-d_palawan;Palawan;;;;;;;;;;;;;x
-d_suba;Suba;;;;;;;;;;;;;x
+
+# DUCHY OF PALAWAN START#########################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# SULU COUNTY START#############################################
+c_sulu;Sulu;;;;;;;;;;;;;x
+# PALAWAN COUNTY BARONIES START####################################
+b_sulu;Sulu;;;;;;;;;;;;;x
+b_indanan;Indanan;;;;;;;;;;;;;x
+b_banguingui;Banguingui;;;;;;;;;;;;;x
+b_luuk;Luuk;;;;;;;;;;;;x
+b_pandami;Pandami;;;;;;;;;;;;;x
+b_pata;Pata;;;;;;;;;;;;;x
+b_tapul;Tapul;;;;;;;;;;;;;x
+# SULU COUNTY BARONIES END######################################
+# SULU COUNT END################################################
+
+# PALAWAN COUNTY START###############################################
+c_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_narra;Narra;;;;;;;;;;;;;x
+b_aborlan;Aborlan;;;;;;;;;;;;;x
+b_taytay;Taytay;;;;;;;;;;;;;x
+b_dumaran;Dumaran;;;;;;;;;;;;;x
+b_linapacan;Linapacan;;;;;;;;;;;;;x
+b_culion;Culion;;;;;;;;;;;;;x
+# PALAWAN COUNTY BARONIES END######################################
+# PALAWAN COUNT END################################################
+# DUCHY OF PALAWAN END###########################################
+
+# DUCHY OF ZAMBAOANGA START######################################
+d_zamboanga;Zambaoanga;;;;;;;;;;;;;x
+# Kasambuwangaan COUNTY START#############################################
+c_kasambuwangaan;Kasambuwangaan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_kasambuwangaan;Kasambuwangaan;;;;;;;;;;;;;x
+b_bongalao;Bongalao;;;;;;;;;;;;;x
+b_cawit_cawit;Cawit Cawit;;;;;;;;;;;;;x
+b_jatian;Jatian;;;;;;;;;;;;;x
+b_litawan;Litawan;;;;;;;;;;;;;x
+b_nala;Nala;;;;;;;;;;;;;x
+b_tangarak;Tangarak;;;;;;;;;;;;;x
+# Kasambuwangaan COUNTY BARONIES END######################################
+# Kasambuwangaan COUNT END################################################
+
+# Basilan COUNTY START#############################################
+c_basilan;c_basilan;;;;;;;;;;;;;x
+# Basilan COUNTY BARONIES START####################################
+b_basilan;Basilan;;;;;;;;;;;;;x
+b_lantawan;Lantawan;;;;;;;;;;;;;x
+b_maluso;Maluso;;;;;;;;;;;;;x
+b_tabuan_lasa;Tabuan Lasa;;;;;;;;;;;;;x
+b_tipo_tipo;Tipo Tipo;;;;;;;;;;;;;x
+b_lamitan;Lamitan;;;;;;;;;;;;;x
+b_ungkaya_pukan;Ungkaya Pukan;;;;;;;;;;;;;x
+# Basilan COUNTY BARONIES END######################################
+# Basilan COUNT END################################################
+
+# Sunglupa COUNTY START#############################################
+c_sunglupa;Sunglupa;;;;;;;;;;;;;x
+# Sunglupa COUNTY BARONIES START####################################
+c_sunglupa;c_sunglupa;;;;;;;;;;;;;x
+b_karpok;Karpok;;;;;;;;;;;;;x
+b_luanan;Luanan;;;;;;;;;;;;;x
+b_mahalingeb;Mahalingeb;;;;;;;;;;;;;x
+b_pingalay;Pingalay;;;;;;;;;;;;;x
+b_talabob;Talabob;;;;;;;;;;;;;x
+b_tugaya;Tugaya;;;;;;;;;;;;;x
+# Sunglupa COUNTY BARONIES END######################################
+# Sunglupa COUNT END################################################
+# DUCHY OF ZAMBAOANGA END########################################
+
+# DUCHY OF MINDANAO START########################################
 d_mindoro;Mindoro;;;;;;;;;;;;;x
-d_sorsogon;Sorsogon;;;;;;;;;;;;;x
-b_pili;Pili;;;;;;;;;;;;;x
-b_daet;Daet;;;;;;;;;;;;;x
-b_malunay;Malunay;;;;;;;;;;;;;x
-b_balanga;Balanga;;;;;;;;;;;;;x
-b_lingayen;Lingayen;;;;;;;;;;;;;x
-b_bayombong;Bayombong;;;;;;;;;;;;;x
-d_samtoy;Samtoy;;;;;;;;;;;;;x
-b_kabugao;Kabugao;;;;;;;;;;;;;x
+# Bayug COUNTY START#############################################
+c_bayug;Bayug;;;;;;;;;;;;;x
+# Bayug COUNTY BARONIES START####################################
+b_bayug;Bayug;;;;;;;;;;;;;x
+b_dimataling;Dimataling;;;;;;;;;;;;;x
+b_guipos;Guipos;;;;;;;;;;;;;x
+b_kumalarang;Kumalarang;;;;;;;;;;;;;x
+b_labangan;Labangan;;;;;;;;;;;;;x
+b_margosatubig;Margosatubig;;;;;;;;;;;;;x
+b_tigbao;Tigbao;;;;;;;;;;;;;x
+# Bayug COUNTY BARONIES END######################################
+# Bayug COUNT END################################################
 
-# TAIWAN KINGDOM START#######################
-k_taiwan;Taiwan;Taïwan;Taiwan;;Taiwán;;;;;;;;;x
+# Himologan COUNTY START#############################################
+c_himologan;Himologan;;;;;;;;;;;;;x
+# Himologan COUNTY BARONIES START####################################
+b_himologan;Himologan;;;;;;;;;;;;;x
+b_balingasag;Balingasag;;;;;;;;;;;;;x
+b_gingoog;Gingoog;;;;;;;;;;;;;x
+b_jasaan;Jasaan;;;;;;;;;;;;;x
+b_lagonglong;Lagonglong;;;;;;;;;;;;;x
+b_naawan;Naawan;;;;;;;;;;;;;x
+b_talisayan;Talisayan;;;;;;;;;;;;;x
+# Himologan COUNTY BARONIES END######################################
+# Himologan COUNT END################################################
 
-# DUCHIES OF TAIWAN START#########################
-d_tainan;Tainan;Tainan;Tainan;;Tainan;;;;;;;;;x
-d_taipeh;Taipeh;Taipeh;Taipeh;;Taipeh;;;;;;;;;x
-# DUCHIES OF TAIWAN END#########################
+# Kuta COUNTY START#############################################
+c_kuta;Kuta;;;;;;;;;;;;;x
+# Kuta COUNTY BARONIES START####################################
+b_kuta;Kuta;;;;;;;;;;;;;x
+b_kabuntalan;Kabuntalan;;;;;;;;;;;;;x
+b_matanog;Matanog;;;;;;;;;;;;;x
+b_parang;Parang;;;;;;;;;;;;;x
+b_upi;Upi;;;;;;;;;;;;;x
+b_kibleg;Kibleg;;;;;;;;;;;;;x
+b_pinantao;Pinantao;;;;;;;;;;;;;x
+# Kuta COUNTY BARONIES END######################################
+# Kuta COUNT END################################################
 
-# COUNTIES/PROVINCES OF TAIWAN START#########################
-c_changua;Changua;Changua;Changua;;changua;;;;;;;;;x
-c_haian;Hai'an;Hai'an;Hai'an;;Hai'an;;;;;;;;;x
-c_penghu;Penghu;Penghu;Tainan;;Penghu;;;;;;;;;x
-c_taichung;Taichung;Taichung;Taichung;;Taichung;;;;;;;;;x
-c_tainan;Tainan;Tainan;Tainan;;Tainan;;;;;;;;;x
-c_taitung;Taitung;Taitung;Taitung;;Taitung;;;;;;;;;x
-c_taipei;Taipei;Taipei;Taipei;;Taipei;;;;;;;;;x
-# COUNTIES/PROVINCES OF TAIWAN END#########################
+# Bukidnon COUNTY START#############################################
+c_bukidnon;Bukidnon;;;;;;;;;;;;;x
+# Bukidnon COUNTY BARONIES START####################################
+b_bukidnon;Bukidnon;;;;;;;;;;;;;x
+b_baugon;b_baugon;;;;;;;;;;;;;x
+b_cabanglasan;Cabanglasan;;;;;;;;;;;;;x
+b_dangcagan;Dangcagan;;;;;;;;;;;;;x
+b_kadingilan;Kadingilan;;;;;;;;;;;;;x
+b_lantapan;Lantapan;;;;;;;;;;;;;x
+b_talakag;Talakag;;;;;;;;;;;;;x
+# Bukidnon COUNTY BARONIES END######################################
+# Bukidnon COUNT END################################################
+# DUCHY OF MINDANAO END##########################################
 
-# HOLDINGS OF TAIWAN START######################### #1
-b_taichung;Taichung;Taichung;Taichung;;Taichung;;;;;;;;;x
-b_taiping;Taiping;Taiping;Taiping;;Taiping;;;;;;;;;x
-b_thai_li;Thai Li;Thai Li;Thai Li;;Thai Li;;;;;;;;;x
-b_wu_feng;Wu'feng;Wu'feng;Wu'feng;;Wu'feng;;;;;;;;;x
-b_fengyuan;Fengyuan;Fengyuan;Fengyuan;;Fengyuan;;;;;;;;;x
-b_shigang;Shigang;Shigang;Shigang;;Shigang;;;;;;;;;x
-b_houli;Houli;Houli;Houli;;Houli;;;;;;;;;x
-###################################################################2
-b_taipei;Taipei;Taipei;Taipei;;Taipei;;;;;;;;;x
-b_beitou;Beitou;Beitou;Beitou;;Beitou;;;;;;;;;x
-b_datong2;Datong;Datong;Datong;;Datong;;;;;;;;;x
-b_nangang;Nangang;Nangang;Nangang;;Nangang;;;;;;;;;x
-b_neihu;Neihu;Neihu;Neihu;;Neihu;;;;;;;;;x
-b_shilin;Shilin;Shilin;Shilin;;Shilin;;;;;;;;;x
-b_songshan;Songshan;Songshan;Songshan;;Songshan;;;;;;;;;x
-###################################################################3
-b_changua;Changua;Changua;Changua;;Changua;;;;;;;;;x
-b_beidou;Beidou;Beidou;Beidou;;Beidou;;;;;;;;;x
-b_hemei;Hemei;Hemei;Hemei;;Hemei;;;;;;;;;x
-b_lukang;Lukang;Lukang;Lukang;;Lukang;;;;;;;;;x
-b_dacun;Dacun;Dacun;Dacun;;Dacun;;;;;;;;;x
-b_pitou;Pitou;Pitou;Pitou;;Pitou;;;;;;;;;x
-b_xizhou;Xizhou;Xizhou;Xizhou;;Xizhou;;;;;;;;;x
-###################################################################4
-b_huxi;Huxi;Huxi;Huxi;;Huxi;;;;;;;;;x
-b_magong;Magong;Magong;Magong;;Magong;;;;;;;;;x
-b_baisha;Baisha;Baisha;Baisha;;Baisha;;;;;;;;;x
-b_xiyu;Xiyu;Xiyu;Xiyu;;Xiyu;;;;;;;;;x
-b_wang_an;Wang'an;Wang'an;Wang'an;;Wang'an;;;;;;;;;x
-b_qimei;Qimei;Qimei;Qimei;;Qimei;;;;;;;;;x
-b_xihu;Xihu;Xihu;Xihu;;Xihu;;;;;;;;;x
-###################################################################5
-b_tainan;Tainan;Tainan;Tainan;;Tainan;;;;;;;;;x
-b_kaoshiung;Kaoshiung;Kaoshiung;Kaoshiung;;Kaoshiung;;;;;;;;;x
-b_anping;Anping;Anping;Anping;;Anping;;;;;;;;;x
-b_yongkang;Yongkang;Yongkang;Yongkang;;Yongkang;;;;;;;;;x
-b_shanhua;Shanhua;Shanhua;Shanhua;;Shanhua;;;;;;;;;x
-b_jiali;Jiali;Jiali;Jiali;;Jiali;;;;;;;;;x
-b_madou;Madou;Madou;Madou;;Madou;;;;;;;;;x
-###################################################################6
-b_taitung;Taitung;Taitung;Taitung;;Taitung;;;;;;;;;x
-b_pingtung;Pingtung;Pingtung;Pingtung;;Pingtung;;;;;;;;;x
-b_guanshan;Guanshan;Guanshan;Guanshan;;Guanshan;;;;;;;;;x
-b_chishang;Chishang;Chishang;Chishang;;Chishang;;;;;;;;;x
-b_luye;Luye;Luye;Luye;;Luye;;;;;;;;;x
-b_daren;Daren;Daren;Daren;;Daren;;;;;;;;;x
-b_jinfeng2;Jinfeng;Jinfeng;Jinfeng;;Jinfeng;;;;;;;;;x
-###################################################################7
-b_haian;Hai'an;Hai'an;Hai'an;;Hai'an;;;;;;;;;x
-b_fenglin;Fenglin;Fenglin;Fenglin;;Fenglin;;;;;;;;;x
-b_guanfu;Guanfu;Guanfu;Guanfu;;Guanfu;;;;;;;;;x
-b_ruisui;Ruisui;Ruisui;Ruisui;;Ruisui;;;;;;;;;x
-b_ji_an;Ji'an;Ji'an;Ji'an;;Ji'an;;;;;;;;;x
-b_xiulin;Xiulin;Xiulin;Xiulin;;Xiulin;;;;;;;;;x
-b_zhouxi;Zhouxi;Zhouxi;Zhouxi;;Zhouxi;;;;;;;;;x
-# HOLDINGS OF TAIWAN END#########################
+# DUCHY OF SUBA START#########################################
+d_suba;Suba;;;;;;;;;;;;;x
+# Malaybalay COUNTY START#############################################
+c_malaybalay;Malaybalay;;;;;;;;;;;;;x
+# Malaybalay COUNTY BARONIES START####################################
+b_malaybalay;Malaybalay;;;;;;;;;;;;;x
+b_patat;Patat;;;;;;;;;;;;;x
+b_can_ayan;Can Ayan;;;;;;;;;;;;;x
+b_dalwangan;Dalwangan;;;;;;;;;;;;;x
+b_maligaya;Maligaya;;;;;;;;;;;;;x
+b_casisang;Casisang;;;;;;;;;;;;;x
+b_simaya;Simaya;;;;;;;;;;;;;x
+# Malaybalay COUNTY BARONIES END######################################
+# Malaybalay COUNT END################################################
 
-#TAIWAN KINGDOM END#######################
+# Butuan COUNTY START#############################################
+c_butuan;Butuan;;;;;;;;;;;;;x
+# Butuan COUNTY BARONIES START####################################
+b_butuan;Butuan;;;;;;;;;;;;;x
+b_sikatuna;Sikatuna;;;;;;;;;;;;;x
+b_lapu_lapu;Lapu Lapu;;;;;;;;;;;;;x
+b_limaha;Limaha;;;;;;;;;;;;;x
+b_pagatpatan;Pagatpatan;;;;;;;;;;;;;x
+b_maon;Maon;;;;;;;;;;;;;x
+b_taligaman;Taligaman;;;;;;;;;;;;;x
+# Butuan COUNTY BARONIES END######################################
+# Butuan COUNT END################################################
+
+# Suba COUNTY START#############################################
+c_suba;Suba;;;;;;;;;;;;;x
+# Suba COUNTY BARONIES START####################################
+b_suba;Suba;;;;;;;;;;;;;x
+b_alangilanan;Alangilanan;;;;;;;;;;;;;x
+b_balaas;Balaas;;;;;;;;;;;;;x
+b_candabong;Candabong;;;;;;;;;;;;;x
+b_dungo_an;Dungo An;;;;;;;;;;;;;x
+b_maaslum;Maaslum;;;;;;;;;;;;;x
+b_tubod;Tubod;;;;;;;;;;;;;x
+# Suba COUNTY BARONIES END######################################
+# Suba COUNT END################################################
+
+# Bayugan COUNTY START#############################################
+c_bayugan;c_bayugan;;;;;;;;;;;;;x
+# Bayugan COUNTY BARONIES START####################################
+b_bayugan;Bayugan;;;;;;;;;;;;;x
+b_cagbas;Cagbas;;;;;;;;;;;;;x
+b_fili;Fili;;;;;;;;;;;;;x
+b_gamao;Gamao;;;;;;;;;;;;;x
+b_katipunan;Katipunan;;;;;;;;;;;;;x
+b_mabuhay;Mabuhay;;;;;;;;;;;;;x
+b_wawa;Wawa;;;;;;;;;;;;;x
+# Bayugan COUNTY BARONIES END######################################
+# Bayugan COUNT END################################################
+# DUCHY OF SUBA END###########################################
+
+# DUCHY OF CEBUANO START############################################
+d_cebuano;Cebuano;;;;;;;;;;;;;x
+# Eskaya COUNTY START#############################################
+c_eskaya;Eskaya;;;;;;;;;;;;;x
+# Eskaya COUNTY BARONIES START####################################
+b_potohan;Potohan;;;;;;;;;;;;;x
+b_bohol;Bohol;;;;;;;;;;;;;x
+b_bagatusan;Bagatusan;;;;;;;;;;;;;x
+b_cabgan;Cabgan;;;;;;;;;;;;;x
+b_gak_ang;Gak Ang;;;;;;;;;;;;;x
+b_hingutanan;Hingutanan;;;;;;;;;;;;;x
+b_jao;b_jao;;;;;;;;;;;;;x
+# Eskaya COUNTY BARONIES END######################################
+# Eskaya COUNT END################################################
+
+# Illongo COUNTY START#############################################
+c_illongo;Illongo;;;;;;;;;;;;;x
+# Illongo COUNTY BARONIES START####################################
+b_binalbagan;Binalbagan;;;;;;;;;;;;;x
+b_ilog;Ilog;;;;;;;;;;;;;x
+b_cabatuan;Cabatuan;;;;;;;;;;;;;x
+b_jaro;Jaro;;;;;;;;;;;;;x
+b_dugwakan;Dugwakan;;;;;;;;;;;;;x
+b_magdalo;Magdalo;;;;;;;;;;;;;x
+b_talokgangan;Talokgangan;;;;;;;;;;;;;x
+# Illongo COUNTY BARONIES END######################################
+# Illongo COUNT END################################################
+
+# Cebu COUNTY START#############################################
+c_cebu;Cebu;;;;;;;;;;;;;x
+# Cebu COUNTY BARONIES START####################################
+b_cebu;Cebu;;;;;;;;;;;;;x
+b_carcar;Carcar;;;;;;;;;;;;;x
+b_balamban;Balamban;;;;;;;;;;;;;x
+b_daanbantayan;Daanbantayan;;;;;;;;;;;;;x
+b_pinamungajan;Pinamungajan;;;;;;;;;;;;;x
+b_tabogon;Tabogon;;;;;;;;;;;;;x
+b_tuburan;Tuburan;;;;;;;;;;;;;x
+# Cebu COUNTY BARONIES END######################################
+# Cebu COUNT END################################################
+
+# Buglas COUNTY START#############################################
+c_buglas;Buglas;;;;;;;;;;;;;x
+# Buglas COUNTY BARONIES START####################################
+b_bayawan;Bayawan;;;;;;;;;;;;;x
+b_dauin;Dauin;;;;;;;;;;;;;x
+b_mabinay;Mabinay;;;;;;;;;;;;;x
+b_siaton;Siaton;;;;;;;;;;;;;x
+b_tayasan;Tayasan;;;;;;;;;;;;;x
+b_manjuyod;Manjuyod;;;;;;;;;;;;;x
+b_maninihon;Maninihon;;;;;;;;;;;;;x
+# Buglas COUNTY BARONIES END######################################
+# Buglas COUNT END################################################
+# DUCHY OF CEBUANO END##############################################
+
+# DUCHY OF MADJAAS START#########################################
+d_madjaas;Madjaas;;;;;;;;;;;;;x
+# Panay COUNTY START#############################################
+c_panay;Panay;;;;;;;;;;;;;x
+# Panay COUNTY BARONIES START####################################
+b_panay;Panay;;;;;;;;;;;;;x
+b_madalag;Madalag;;;;;;;;;;;;;x
+b_kalibo;Kalibo;;;;;;;;;;;;;x
+b_ibajay;Ibajay;;;;;;;;;;;;;x
+b_culasi;Culasi;;;;;;;;;;;;;x
+b_tibiao;Tibiao;;;;;;;;;;;;;x
+b_makato;Makato;;;;;;;;;;;;;x
+# Panay COUNTY BARONIES END######################################
+# Panay COUNT END################################################
+
+# Madja COUNTY START#############################################
+c_madja;Madja;;;;;;;;;;;;;x
+# Madja COUNTY BARONIES START####################################
+b_iloilo;Iloilo;;;;;;;;;;;;;x
+b_pototan;Pototan;;;;;;;;;;;;;x
+b_batad;Batad;;;;;;;;;;;;;x
+b_ajuy;Ajuy;;;;;;;;;;;;;x
+b_calinog;Calinog;;;;;;;;;;;;;x
+b_miagao;Miagao;;;;;;;;;;;;;x
+b_tigbauan;Tigbauan;;;;;;;;;;;;;x
+# Madja COUNTY BARONIES END######################################
+# Madja COUNT END################################################
+
+# Nayup COUNTY START#############################################
+c_nayup;Nayup;;;;;;;;;;;;;x
+# Nayup COUNTY BARONIES START####################################
+b_nayup;Nayup;;;;;;;;;;;;;x
+b_igang;Igang;;;;;;;;;;;;;x
+b_mataas;Mataas;;;;;;;;;;;;;x
+b_misibis;Misibis;;;;;;;;;;;;;x
+b_napao;Napao;;;;;;;;;;;;;x
+b_sogod;Sogod;;;;;;;;;;;;;x
+b_tanagan;Tanagan;;;;;;;;;;;;;x
+# Nayup COUNTY BARONIES END######################################
+# Nayup COUNT END################################################
+
+# Bamban COUNTY START#############################################
+c_bamban;Bamban;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_bamban;Bamban;;;;;;;;;;;;;x
+b_banaba;Banaba;;;;;;;;;;;;;x
+b_culubasa;Culubasa;;;;;;;;;;;;;x
+b_baguindoc;Baguindoc;;;;;;;;;;;;;x
+b_libueg;Libueg;;;;;;;;;;;;;x
+b_marawi;Marawi;;;;;;;;;;;;;x
+b_sawat;Sawat;;;;;;;;;;;;;x
+# Bamban COUNTY BARONIES END######################################
+# Bamban COUNT END################################################
+# DUCHY OF MADJAAS END###########################################
+# MINDANAO KINGDOM END###########################################
+
+# MINDANAO KINGDOM START#########################################
+k_mindanao;Mindanao;;;;;;;;;;;;;x
+
+# DUCHY OF PALAWAN START#########################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY START#############################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES END######################################
+# BLANK COUNT END################################################
+# BLANK COUNTY START#############################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES END######################################
+# BLANK COUNT END################################################
+# DUCHY OF PALAWAN END###########################################
+
+# DUCHY OF ZAMBAOANGA START######################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY START#############################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES END######################################
+# BLANK COUNT END################################################
+
+# BLANK COUNTY START#############################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES END######################################
+# BLANK COUNT END################################################
+
+# BLANK COUNTY START#############################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES END######################################
+# BLANK COUNT END################################################
+# DUCHY OF ZAMBAOANGA END########################################
+
+# DUCHY OF MINDANAO START########################################
+b_mindoro;Mindoro;;;;;;;;;;;;;x
+# BLANK COUNTY START#############################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES END######################################
+# BLANK COUNT END################################################
+
+# BLANK COUNTY START#############################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES END######################################
+# BLANK COUNT END################################################
+
+# BLANK COUNTY START#############################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES END######################################
+# BLANK COUNT END################################################
+
+# BLANK COUNTY START#############################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES END######################################
+# BLANK COUNT END################################################
+# DUCHY OF MINDANAO END##########################################
+
+# DUCHY OF PALAWAN START#########################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY START#############################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES END######################################
+# BLANK COUNT END################################################
+
+# BLANK COUNTY START#############################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES END######################################
+# BLANK COUNT END################################################
+
+# BLANK COUNTY START#############################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES END######################################
+# BLANK COUNT END################################################
+
+# BLANK COUNTY START#############################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES END######################################
+# BLANK COUNT END################################################
+# DUCHY OF PALAWAN END###########################################
+
+# DUCHY OF SUBA START############################################
+b_suba;Suba;;;;;;;;;;;;;x
+# BLANK COUNTY START#############################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES END######################################
+# BLANK COUNT END################################################
+
+# BLANK COUNTY START#############################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES END######################################
+# BLANK COUNT END################################################
+
+# BLANK COUNTY START#############################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES END######################################
+
+# BLANK COUNT END################################################
+
+# BLANK COUNTY START#############################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES END######################################
+# BLANK COUNT END################################################
+# DUCHY OF SUBA END##############################################
+
+# DUCHY OF CEBUANO START#########################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY START#############################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES END######################################
+
+# BLANK COUNT END################################################
+
+# BLANK COUNTY START#############################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES END######################################
+
+# BLANK COUNT END################################################
+
+# BLANK COUNTY START#############################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES END######################################
+
+# BLANK COUNT END################################################
+
+# BLANK COUNTY START#############################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES END######################################
+# BLANK COUNT END################################################
+# DUCHY OF CEBUANO END###########################################
+
+# DUCHY OF MADJAAS START#########################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY START#############################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES END######################################
+# BLANK COUNT END################################################
+
+# BLANK COUNTY START#############################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES END######################################
+
+# BLANK COUNT END################################################
+
+# BLANK COUNTY START#############################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES END######################################
+
+# BLANK COUNT END################################################
+
+# BLANK COUNTY START#############################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES START####################################
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+b_palawan;Palawan;;;;;;;;;;;;;x
+# BLANK COUNTY BARONIES END######################################
+
+# BLANK COUNT END################################################
+# DUCHY OF MADJAAS END###########################################
+# MINDANAO KINGDOM END###########################################
+
+# TAIWAN KINGDOM START###########################################
+k_taiwan;Kingdom of Taiwan;Royaume de Taïwan;Königreich Taiwan;;Reino de Taiwán;;;;;;;;;x
+
+# DUCHIES OF TAIWAN START########################################
+b_tainan;Duchy of Tainan;Duché de Tainan;Herzogtum Tainan;;Ducado de Tainan;;;;;;;;;x
+b_taipeh;Duchy of Taipeh;Duché de Taipeh;Herzogtum Taipeh;;Ducado de Taipeh;;;;;;;;;x
+# DUCHIES OF TAIWAN END##########################################
+
+# COUNTIES/PROVINCES OF TAIWAN START#############################
+c_changua;Changua County;Xian de Changua;Kreis Changua;;Condado de changua;;;;;;;;;x
+c_haian;Hai'an County;Xian de Hai'an;Kreis Hai'an;;Condado de Hai'an;;;;;;;;;x
+c_penghu;Penghu County;Xian de Penghu;Kreis Tainan;;Condado de Penghu;;;;;;;;;x
+c_taichung;Taichung County;Xian de Taichung;Kreis Taichung;;Condado de Taichung;;;;;;;;;x
+c_tainan;Tainan County;Baronnie de Tainan;Kreis Tainan;;Condado de Tainan;;;;;;;;;x
+c_taitung;Taitung County;Xian de Taitung;Kreis Taitung;;Condado de Taitung;;;;;;;;;x
+c_taipei;Taipei County;Xian de Taipei;Kreis Taipei;;Condado de Taipei;;;;;;;;;x
+# COUNTIES/PROVINCES OF TAIWAN END###############################
+
+# HOLDINGS OF TAIWAN START#################################### #1
+b_taichung;Barony of Taichung;Baronnie de Taichung;Baronie von Taichung;;Baronía de Taichung;;;;;;;;;x
+b_taiping;Barony of Taiping;Baronnie de Taiping;Baronie von Taiping;;Baronía de Taiping;;;;;;;;;x
+b_thai_li;Barony of Thai Li;Baronnie de Thai Li;Baronie von Thai Li;;Baronía de Thai Li;;;;;;;;;x
+b_wu_feng;Barony of Wu'feng;Baronnie de Wu'feng;Baronie von Wu'feng;;Baronía de Wu'feng;;;;;;;;;x
+b_fengyuan;Barony of Fengyuan;Baronnie de Fengyuan;Baronie von Fengyuan;;Baronía de Fengyuan;;;;;;;;;x
+b_shigang;Barony of Shigang;Baronnie de Shigang;Baronie von Shigang;;Baronía de Shigang;;;;;;;;;x
+b_houli;Barony of Houli;Baronnie de Houli;Baronie von Houli;;Baronía de Houli;;;;;;;;;x
+################################################################ #2
+b_taipei;Barony of Taipei;Baronnie de Taipei;Baronie von Taipei;;Baronía de Taipei;;;;;;;;;x
+b_beitou;Barony of Beitou;Baronnie de Beitou;Baronie von Beitou;;Baronía de Beitou;;;;;;;;;x
+b_datong;Barony of Datong;Baronnie de Datong;Baronie von Datong;;Baronía de Datong;;;;;;;;;x
+b_nangang;Barony of Nangang;Baronnie de Nangang;Baronie von Nangang;;Baronía de Nangang;;;;;;;;;x
+b_neihu;Barony of Neihu;Baronnie de Neihu;Baronie von Neihu;;Baronía de Neihu;;;;;;;;;x
+b_shilin;Barony of Shilin;Baronnie de Shilin;Baronie von Shilin;;Baronía de Shilin;;;;;;;;;x
+b_songshan;Barony of Songshan;Baronnie de Songshan;Baronie von Songshan;;Baronía de Songshan;;;;;;;;;x
+################################################################ #3
+b_changua;Barony of Changua;Baronnie de Changua;Baronie von Changua;;Baronía de Changua;;;;;;;;;x
+b_beidou;Barony of Beidou;Baronnie de Beidou;Baronie von Beidou;;Baronía de Beidou;;;;;;;;;x
+b_hemei;Barony of Hemei;Baronnie de Hemei;Baronie von Hemei;;Baronía de Hemei;;;;;;;;;x
+b_lukang;Barony of Lukang;Baronnie de Lukang;Baronie von Lukang;;Baronía de Lukang;;;;;;;;;x
+b_dacun;Barony of Dacun;Baronnie de Dacun;Baronie von Dacun;;Baronía de Dacun;;;;;;;;;x
+b_pitou;Barony of Pitou;Baronnie de Pitou;Baronie von Pitou;;Baronía de Pitou;;;;;;;;;x
+b_xizhou;Barony of Xizhou;Baronnie de Xizhou;Baronie von Xizhou;;Baronía de Xizhou;;;;;;;;;x
+################################################################ #4
+b_huxi;Barony of Huxi;Baronnie de Huxi;Baronie von Huxi;;Baronía de Huxi;;;;;;;;;x
+b_magong;Barony of Magong;Baronnie de Magong;Baronie von Magong;;Baronía de Magong;;;;;;;;;x
+b_baisha;Barony of Baisha;Baronnie de Baisha;Baronie von Baisha;;Baronía de Baisha;;;;;;;;;x
+b_xiyu;Barony of Xiyu;Baronnie de Xiyu;Baronie von Xiyu;;Baronía de Xiyu;;;;;;;;;x
+b_wang_an;Barony of Wang'an;Baronnie de Wang'an;Baronie von Wang'an;;Baronía de Wang'an;;;;;;;;;x
+b_qimei;Barony of Qimei;Baronnie de Qimei;Baronie von Qimei;;Baronía de Qimei;;;;;;;;;x
+b_xihu;Barony of Xihu;Baronnie de Xihu;Baronie von Xihu;;Baronía de Xihu;;;;;;;;;x
+################################################################ #5
+b_tainan;Barony of Tainan;Baronnie de Tainan;Baronie von Tainan;;Baronía de Tainan;;;;;;;;;x
+b_kaoshiung;Barony of Kaoshiung;Baronnie de Kaoshiung;Baronie von Kaoshiung;;Baronía de Kaoshiung;;;;;;;;;x
+b_anping;Barony of Anping;Baronnie de Anping;Baronie von Anping;;Baronía de Anping;;;;;;;;;x
+b_yongkang;Barony of Yongkang;Baronnie de Yongkang;Baronie von Yongkang;;Baronía de Yongkang;;;;;;;;;x
+b_shanhua;Barony of Shanhua;Baronnie de Shanhua;Baronie von Shanhua;;Baronía de Shanhua;;;;;;;;;x
+b_jiali;Barony of Jiali;Baronnie de Jiali;Baronie von Jiali;;Baronía de Jiali;;;;;;;;;x
+b_madou;Barony of Madou;Baronnie de Madou;Baronie von Madou;;Baronía de Madou;;;;;;;;;x
+################################################################ #6
+b_taitung;Barony of Taitung;Baronnie de Taitung;Baronie von Taitung;;Baronía de Taitung;;;;;;;;;x
+b_pingtung;Barony of Pingtung;Baronnie de Pingtung;Baronie von Pingtung;;Baronía de Pingtung;;;;;;;;;x
+b_guanshan;Barony of Guanshan;Baronnie de Guanshan;Baronie von Guanshan;;Baronía de Guanshan;;;;;;;;;x
+b_chishang;Barony of Chishang;Baronnie de Chishang;Baronie von Chishang;;Baronía de Chishang;;;;;;;;;x
+b_luye;Barony of Luye;Baronnie de Luye;Baronie von Luye;;Baronía de Luye;;;;;;;;;x
+b_daren;Barony of Daren;Baronnie de Daren;Baronie von Daren;;Baronía de Daren;;;;;;;;;x
+b_jinfeng;Barony of Jinfeng;Baronnie de Jinfeng;Baronie von Jinfeng;;Baronía de Jinfeng;;;;;;;;;x
+################################################################ #7
+b_haian;Barony of Hai'an;Baronnie de Hai'an;Baronie von Hai'an;;Baronía de Hai'an;;;;;;;;;x
+b_fenglin;Barony of Fenglin;Baronnie de Fenglin;Baronie von Fenglin;;Baronía de Fenglin;;;;;;;;;x
+b_guanfu;Barony of Guanfu;Baronnie de Guanfu;Baronie von Guanfu;;Baronía de Guanfu;;;;;;;;;x
+b_ruisui;Barony of Ruisui;Baronnie de Ruisui;Baronie von Ruisui;;Baronía de Ruisui;;;;;;;;;x
+b_ji_an;Barony of Ji'an;Baronnie de Ji'an;Baronie von Ji'an;;Baronía de Ji'an;;;;;;;;;x
+b_xiulin;Barony of Xiulin;Baronnie de Xiulin;Baronie von Xiulin;;Baronía de Xiulin;;;;;;;;;x
+b_zhouxi;Barony of Zhouxi;Baronnie de Zhouxi;Baronie von Zhouxi;;Baronía de Zhouxi;;;;;;;;;x
+# HOLDINGS OF TAIWAN END#########################################
+
+#TAIWAN KINGDOM END##############################################

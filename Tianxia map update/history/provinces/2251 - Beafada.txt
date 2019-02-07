@@ -7,12 +7,7 @@ title = c_beafada
 max_settlements = 1
 
 b_beafada = tribal
-#b_kindia
-#b_mambia
-#b_outamba_kilimi
-#b_kambia
-#b_samayah
-#b_kolente
+# Needs baronies!
 
 # Misc
 culture = manden

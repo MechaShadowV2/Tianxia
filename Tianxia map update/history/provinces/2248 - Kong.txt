@@ -7,12 +7,7 @@ title = c_kong
 max_settlements = 1
 
 b_kong = tribal
-#b_korhogo
-#b_niakara
-#b_badikaha
-#b_diefoula
-#b_katiola
-#b_dabakala
+# Needs baronies!
 
 # Misc
 culture = manden

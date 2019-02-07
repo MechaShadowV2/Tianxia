@@ -6,7 +6,12 @@ title = c_bayugan
 # Settlements
 max_settlements = 1
 b_bayugan = tribal
-# Needs baronies!
+#b_cagbas
+#b_fili
+#b_gamao
+#b_katipunan
+#b_mabuhay
+#b_wawa
 
 # Misc
 culture = tagalog

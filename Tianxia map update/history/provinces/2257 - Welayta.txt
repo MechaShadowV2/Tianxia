@@ -7,12 +7,7 @@ title = c_welayta
 max_settlements = 1
 
 b_sodo = tribal
-#b_bonga2
-#b_zala
-#b_arba_minch
-#b_abaya
-#b_chamo
-#b_areka
+# Needs baronies!
 
 # Misc
 culture = ethiopian

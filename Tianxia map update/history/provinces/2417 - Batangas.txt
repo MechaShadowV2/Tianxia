@@ -8,11 +8,10 @@ max_settlements = 4
 b_batangas = castle
 b_palapat = temple
 b_mayi = city
-#b_cavite = castle
-#b_laguna = temple
-#b_rizal = city
-# Check that the baronies are in the right province!
-# Add one barony!
+#b_cavite
+#b_laguna
+#b_rizal
+#b_taysan
 
 # Misc
 culture = tagalog 
