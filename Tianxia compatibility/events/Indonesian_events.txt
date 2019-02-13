@@ -2137,17 +2137,21 @@ character_event = {
 	desc = EVTDESC_IN_030 # TODO: Proper desc
 	picture = GFX_evt_Bishop_preaching_from_pulpit_muslim
 	
-	culture_group = malayo_polynesian_group
 	only_playable = yes
 	
 	trigger = {
 		is_nomadic = no
-		NOT = {
-			religion_group = muslim
-		}
 		any_realm_province = {
 			region = world_indonesia
 			port = yes
+			culture_group = malayo_polynesian_group
+			OR = {
+				has_dharmic_religion_trigger = yes
+				AND = {
+					religion_group = pagan_group
+					is_reformed_religion = no
+				}
+			}
 		}
 	}
 	
@@ -2169,6 +2173,16 @@ character_event = {
 			factor = 0.75
 			NOT = { religion_authority = 0.4 }
 		}
+		modifier = {
+			factor = 100
+			NOT = {
+				year = 1000
+			}
+		}
+		modifier = {
+			factor = 0.5
+			year = 1200
+		}
 	}
 	
 	immediate = {
@@ -2176,8 +2190,13 @@ character_event = {
 			limit = {
 				region = world_indonesia
 				port = yes
-				NOT = {
-					religion_group = muslim
+				culture_group = malayo_polynesian_group
+				OR = {
+					has_dharmic_religion_trigger = yes
+					AND = {
+						religion_group = pagan_group
+						is_reformed_religion = no
+					}
 				}
 			}
 			add_province_modifier = {
@@ -2215,6 +2234,12 @@ character_event = {
 	}
 	
 	option = {
+		trigger = {
+			OR = {
+				ai = yes
+				has_dlc = "The Sword of Islam"
+			}
+		}
 		name = EVTOPTA_IN_010 # Convert
 		if = { # If we were not in a secret_cult, pick a random religion
 			limit = {

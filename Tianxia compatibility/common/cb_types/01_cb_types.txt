@@ -3492,8 +3492,8 @@ tributary_permanent_cb = { # New8
 							government = chinese_imperial_government
 						}
 					}
-					set_character_flag = surrender_tributary_permanent_cb
 				}
+				set_character_flag = surrender_tributary_permanent_cb
 			}
 			else = {
 				set_character_flag = surrender_tributary_chinese

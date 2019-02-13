@@ -237,9 +237,7 @@ decisions = {
 					OR = {
 						has_landed_title = k_chrysanthemum_throne
 						any_vassal = {
-							has_landed_title = {
-								k_chrysanthemum_throne
-							}
+							has_landed_title = k_chrysanthemum_throne
 						}
 					}
 				}
