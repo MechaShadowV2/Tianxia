@@ -39,6 +39,14 @@ e_tibet = {
 			
 			capital = 2693 # Garze
 			
+			c_gyaltang = {
+				color = {89 245 201}
+				color2 = {255 255 255}
+				
+				b_gyaltang = {
+				}
+				# Needs more baronies!
+			}
 			c_litang = {
 				color={ 150 10 0 } # TODO
 				color2= { 255 255 255 } # TODO

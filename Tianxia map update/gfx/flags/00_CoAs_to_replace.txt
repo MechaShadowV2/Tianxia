@@ -534,6 +534,7 @@ e_khmer
 
 # Burma
 c_ava
+c_bagan
 c_chuxiong
 c_dagon
 c_dali
@@ -563,7 +564,6 @@ c_mong_pai
 c_mong_yang
 c_myeik
 c_ngasaunggyan
-c_pagan
 c_panzhihua
 c_pathein
 c_pegu

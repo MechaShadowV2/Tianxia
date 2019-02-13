@@ -7,7 +7,12 @@ title = c_mossi
 max_settlements = 1
 
 b_mossi = tribal
-# Needs baronies!
+#b_kontagora
+#b_kutiwenji
+#b_kabogi
+#b_kamuki
+#b_tegina
+#b_daniya
 
 # Misc
 culture = yoruba

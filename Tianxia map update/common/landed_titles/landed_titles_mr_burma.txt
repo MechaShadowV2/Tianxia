@@ -4,7 +4,7 @@ e_burma  = {
 	color = { 227 201 168 }
 	color2 = { 255 255 255 }
 	
-	capital = 2632 # Pagan
+	capital = 2632 # Bagan
 	
 	culture = bamar
 	
@@ -162,7 +162,7 @@ e_burma  = {
 		color = { 195 65 15 }
 		color2 = { 255 255 255 }
 		
-		capital = 2632 # Pagan
+		capital = 2632 # Bagan
 		
 		culture = bamar
 		
@@ -260,16 +260,16 @@ e_burma  = {
 			color = { 255 50 0 }
 			color2 = { 255 255 255 }
 			
-			capital = 2632 # Pagan
+			capital = 2632 # Bagan
 			
-			c_pagan = {
+			c_bagan = {
 				color = { 255 10 0 }
 				color2 = { 255 255 255 }
 				
 				holy_site = sanamahi_pagan
 				holy_site = sanamahi_pagan_reformed
 				
-				b_pagan = {
+				b_bagan = {
 				}
 				# Check these baronies!
 				b_myingyan = {
@@ -649,14 +649,6 @@ e_burma  = {
 			
 			capital = 2656 # Lushui
 			
-			c_gyaltang = { # Might be moved into k_kham down the line
-				color = {89 245 201}
-				color2 = {255 255 255}
-				
-				b_gyaltang = {
-				}
-				# Needs more baronies!
-			}
 			c_lushui = {
 				color = {89 245 201} # TODO
 				color2 = {255 255 255} # TODO

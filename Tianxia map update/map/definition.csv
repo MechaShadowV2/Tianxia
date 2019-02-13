@@ -2630,7 +2630,7 @@ province;red;green;blue;x;x
 2629;170;6;142;Yamethin;x
 2630;2;9;15;Kyaukse;x
 2631;44;12;143;Ava;x
-2632;86;15;16;Pagan;x # A.k.a. Bagan
+2632;86;15;16;Bagan;x
 2633;128;18;144;Kale;x
 2634;170;21;17;Thobal;x
 2635;2;24;145;Tabayin;x
@@ -2649,8 +2649,8 @@ province;red;green;blue;x;x
 2648;128;63;24;Mong Kawng;x
 2649;170;66;152;Minsin;x
 2650;2;69;25;Hkamti Long;x
-2651;44;72;153;Gyaltang;x # Burma - Dali
-2652;86;75;26;Tengchong;x
+2651;44;72;153;Gyaltang;x # Tibet - Kham
+2652;86;75;26;Tengchong;x # Burma - Dali
 2653;128;78;154;Longling;x
 2654;170;81;27;Lincang;x
 2655;2;84;155;Pu'er;x

@@ -7,7 +7,12 @@ title = c_nupe
 max_settlements = 1
 
 b_nupe = tribal
-# Needs baronies!
+#b_kwiambana
+#b_minna
+#b_kamuku
+#b_kwanti
+#b_abuja
+#b_shiroro
 
 # Misc
 culture = yoruba

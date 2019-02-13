@@ -205,8 +205,8 @@
 		name = "Zetian"
 		create_bloodline = {
 			type = real_chinese_imperial_bloodline_zhou
+			inheritance = matrilineal
 		}
-		
 	}
 	705.12.16 = {
 		death = { death_reason = death_offmap }
