@@ -9384,6 +9384,7 @@ character_event = {
 character_event = {
 	id = artifacts.159
 	hide_window = yes
+	is_triggered_only = yes
 	
 	only_playable = yes
 	
@@ -9418,6 +9419,7 @@ character_event = {
 character_event = {
 	id = artifacts.160
 	hide_window = yes
+	is_triggered_only = yes
 	
 	only_playable = yes
 	

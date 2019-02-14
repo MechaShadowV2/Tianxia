@@ -227,11 +227,11 @@ on_focus_pulse = {
 #character
 on_bi_yearly_pulse = {
 	events = {
-		SoHD.21400 # Ainu becoming an unworthy priest
-		SoHD.21401 # Shinto becoming an unworthy priest
-		SoHD.21402 # Mu becoming an unworthy priest
-		SoHD.21403 # Melanesian pagan becoming an unworthy priest
-		SoHD.21404 # Ryukyuan pagan becoming an unworthy priest
+		#SoHD.21400 # Ainu becoming an unworthy priest
+		#SoHD.21401 # Shinto becoming an unworthy priest
+		#SoHD.21402 # Mu becoming an unworthy priest
+		#SoHD.21403 # Melanesian pagan becoming an unworthy priest
+		#SoHD.21404 # Ryukyuan pagan becoming an unworthy priest
 		#SoHD.21405 # Amidist becoming an unworthy priest
 		#SoHD.21406 # Confucian becoming an unworthy scholar
 		#SoHD.21407 # Taoist becoming an unworthy priest

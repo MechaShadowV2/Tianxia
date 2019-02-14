@@ -171,7 +171,7 @@ decisions = {
 			is_adult = yes
 		}
 		allow = {
-			is_incapable_or_inaccessible_trigger = no
+			is_inaccessible_or_incapable_trigger = no
 			NOT = {
 				trait = zealous
 			}
@@ -247,7 +247,7 @@ decisions = {
 			is_adult = yes
 		}
 		allow = {
-			is_incapable_or_inaccessible_trigger = no
+			is_inaccessible_or_incapable_trigger = no
 			NOT = {
 				trait = zealous
 			}

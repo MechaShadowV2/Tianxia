@@ -373,7 +373,7 @@ letter_event = {
 		FROM = {
 			make_tributary = {
 				who = ROOT
-				tributary_type = permanent
+				tributary_type = chinese
 			}
 		}
 		hidden_tooltip = {
@@ -409,7 +409,12 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		suzerain = { is_chinese_emperor_trigger = yes }
+		is_tributary = {
+			type = chinese
+			suzerain = {
+				is_chinese_emperor_trigger = yes
+			}
+		}
 	}
 	
 	immediate = {

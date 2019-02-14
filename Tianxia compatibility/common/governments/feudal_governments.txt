@@ -673,7 +673,7 @@ feudal_governments = {
 			tribal_government
 		}
 		potential = {
-			NOT = { is_government_potential = merchant_republic_government }
+			#NOT = { is_government_potential = merchant_republic_government }
 			is_patrician = no
 			OR = {
 				any_liege = {
