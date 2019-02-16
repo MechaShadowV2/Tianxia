@@ -12,7 +12,7 @@ b_taitung = tribal
 #b_chishang
 #b_luye
 #b_daren
-#b_jinfeng2
+#b_jin_feng
 
 # Misc
 culture = taiwanese
