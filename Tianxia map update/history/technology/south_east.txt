@@ -92,6 +92,8 @@ technology = {
 		military = 0.3
 		economy = 1
 		culture = 0.6
+		
+		TECH_NAVAL = 1.0
 	}
 	
 	1337 = {
@@ -134,6 +136,8 @@ technology = {
 		military = 0.2
 		economy = 0.1
 		culture = 0.1
+		
+		TECH_NAVAL = 1.0
 	}
 	
 	1337 = {
@@ -150,14 +154,16 @@ technology = {
 	}
 	
 	769 = {
-		military = 0.1
-		economy = 0
-		culture = 0
+		military = 0.2
+		economy = 0.1
+		culture = 0.1
+		
+		TECH_NAVAL = 1.0
 	}
-
+	
 	1337 = {
-		military = 0.1
-		economy = 0 
-		culture = 0
+		military = 2
+		economy = 2
+		culture = 2
 	}
 }
