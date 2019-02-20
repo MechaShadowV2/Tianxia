@@ -616,26 +616,6 @@ world_south_east_asia = {
 	}
 }
 
-world_china = {
-	regions = {
-		world_taiwan
-		world_dali
-		world_canton
-		world_chinese_coast
-		world_chinese_west
-		world_chinese_capital
-	}
-}
-
-world_far_east = {
-	regions = {
-		world_china
-		world_korea
-		world_japan
-	}
-}
-
-
 world_canton = {
 	duchies = {
 		d_hainan
@@ -774,6 +754,25 @@ world_far_north = {
 	regions = {
 		world_mongolia
 		world_manchuria
+	}
+}
+
+world_china = {
+	regions = {
+		world_taiwan
+		world_dali
+		world_canton
+		world_chinese_coast
+		world_chinese_west
+		world_chinese_capital
+	}
+}
+
+world_far_east = {
+	regions = {
+		world_china
+		world_korea
+		world_japan
 	}
 }
 
