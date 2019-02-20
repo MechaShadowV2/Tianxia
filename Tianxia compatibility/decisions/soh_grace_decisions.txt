@@ -3208,7 +3208,7 @@ targeted_decisions = {
 							is_adult = yes
 							is_married = no
 							is_female = no
-						#}
+						}
 					#}
 					custom_tooltip = {
 						text = has_courtier_eligible_for_marriage_tt
@@ -3353,7 +3353,7 @@ targeted_decisions = {
 							is_adult = yes
 							is_married = no
 							is_female = no
-						#}
+						}
 					#}
 					custom_tooltip = {
 						text = has_courtier_eligible_for_marriage_tt
@@ -3514,7 +3514,7 @@ targeted_decisions = {
 							is_adult = yes
 							is_married = no
 							is_female = no
-						#}
+						}
 					#}
 					custom_tooltip = {
 						text = has_courtier_eligible_for_marriage_tt

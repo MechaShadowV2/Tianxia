@@ -228,7 +228,7 @@ silk_road = {
 	}
 	# Tanzhou -> Guangzhou -> Hong Kong
 	path = { # Tanzhou-Loudi-Shaoyang-Yongzhou-Hezhou-Zhaoqing-Guangzhou-Dongguan-Hong Kong
-		2769 2775 2776 2766 2761 2723 2724 2725 2707
+		2769 2775 2776 2765 2761 2723 2724 2725 2707
 	}
 	# Tanzhou -> Fu -> Changle
 	path = { # Tanzhou-Ji'an-Le'an-Fu-Shaowu-Nanping-Yongtai-Changle

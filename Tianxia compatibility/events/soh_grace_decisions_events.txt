@@ -411,13 +411,14 @@ character_event = {
 	trigger = {
 		is_tributary = {
 			type = chinese
-			suzerain = {
-				is_chinese_emperor_trigger = yes
-			}
+		}
+		suzerain = {
+			is_chinese_emperor_trigger = yes
 		}
 	}
 	
 	immediate = {
+		set_character_flag = grace_character # To ensure that this character will get their Grace wiped if the imperial dynasty changes
 		change_variable = {
 			which = grace
 			value = 24

@@ -9430,8 +9430,7 @@ character_event = {
 			}
 		}
 		FROM = {
-			OR = {
-				title = k_chrysanthemum_throne
+			title = k_chrysanthemum_throne
 		}
 	}
 	
