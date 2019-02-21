@@ -4,10 +4,15 @@
 title = c_ergun
 
 # Settlements
-max_settlements = 1
+max_settlements = 2
 
-b_ergun = tribal
-# Needs baronies!
+b_ergun_jian = tribal
+#b_ergun_yongan = tribal
+#b_ergun_yimu = tribal
+#b_ergun_qiya = tribal
+#b_ergun_changxiong = tribal
+#b_ergun_niuer = tribal
+#b_ergun_molile = tribal
 
 # Misc
 culture = mongol

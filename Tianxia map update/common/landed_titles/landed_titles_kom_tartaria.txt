@@ -162,246 +162,1184 @@ e_tartaria = {
 			color2 = {63 63 63}
 		
 			capital = 3005 # Sakhalin
-		
+			
+			nivkh = "Yghmif"
 			ainu = "Karputyamosir"
 			japanese = "Karafuto"
+			ryukyuan = "Karafutu"
+			han = "Kuyi"
+			yue = "Kuyi"
+			bai = "Kuyi"
+			nakhi = "Kuyi"
+			min = "Kuyi"
+			yi = "Kuyi"
+			qiang = "Kuyi"
+			tujia = "Kuyi"
+			she = "Kuyi"
+			mongol = "Guwei"
+			khitan = "Guwei"
+			jurchen = "Guwei"
 	
-			c_sakhalin = {
+			c_sakhalin = { #Orokot
 				color = {1 84 200 }
 				color2 = {63 63 63}
-		
-				ainu = "Karputyamosir"
-				japanese = "Karafuto"
+				
+				nivkh = "Tivo"
+				ainu = "Orokot"
+				japanese = "Toyohara"
+				ryukyuan = "Tuyuhara"
+				mongol = "Guohao"
+				khitan = "Guohao"
+				jurchen = "Guohao"
+				russian = "Yuzhno-Sakhalinsk"
 
-				b_sakhalin = {
+				b_sakhalin_orokot = {
+					nivkh = "Tivo"
+					japanese = "Toyohara"
+					ryukyuan = "Tuyuhara"
+					russian = "Yuzhno-Sakhalinsk"
 				}
-				b_karafuto = {
+				b_sakhalin_ruotak = {
+					japanese = "Rutaka"
+					ryukyuan = "Rutaka"
+					mongol = "Guohao"
+					khitan = "Guohao"
+					jurchen = "Guohao"
+					russian = "Anivsky"
 				}
-				# Needs baronies!
+				b_sakhalin_mauka = {
+					ainu = "Enrumkuomanay"
+					japanese = "Maoka"
+					russian = "Kholmsk"
+				}
+				b_sakhalin_tomarior = {
+					nivkh = "Raychiska"
+					japanese = "Tomarioru"
+					ryukyuan = "Tumariuru"
+					russian = "Tomari"
+				}
+				b_sakhalin_kushunnay = {
+					japanese = "Kushunnai"
+					ryukyuan = "Kushunnai"
+					russian = "Ilinskii"
+				}
+				b_sakhalin_kitoushi = {
+				}
+				b_sakhalin_pontukas = {
+					japanese = "Honto"
+					ryukyuan = "Huntu"
+					russian = "Nevelsk"
+				}
+				b_sakhalin_nayporo = {
+					japanese = "Naihoro"
+					ryukyuan = "Naihuru"
+					russian = "Gornozavodsk"
+				}
 			}
-			c_itoui = {
+			c_itoui = { #Poro River
 				color = {11 54 180}
 				color2 = {63 63 63}
 			
-				ainu = "Orok"
+				nivkh = "Poroi"
+				ainu = "Poronay"
+				japanese = "Shisuka"
+				ryukyuan = "Shisuka"
+				han = "Boluohe"
+				yue = "Boluohe"
+				bai = "Boluohe"
+				nakhi = "Boluohe"
+				min = "Boluohe"
+				yi = "Boluohe"
+				qiang = "Boluohe"
+				tujia = "Boluohe"
+				she = "Boluohe"
+				mongol = "Boluohe"
+				khitan = "Boluohe"
+				jurchen = "Boluohe"
+				russian = "Poronaysky"
 			
-				b_itoui = {
+				b_itoui_poronay = {
+					nivkh = "Ty"
+					ainu = "Tarayka"
+					japanese = "Shisuka"
+					ryukyuan = "Shisuka"
+					han = "Boluohe"
+					yue = "Boluohe"
+					bai = "Boluohe"
+					nakhi = "Boluohe"
+					min = "Boluohe"
+					yi = "Boluohe"
+					qiang = "Boluohe"
+					tujia = "Boluohe"
+					she = "Boluohe"
+					mongol = "Kuuji"
+					khitan = "Kuuji"
+					jurchen = "Kuuji"
+					russian = "Poronaysk"
 				}
-				# Needs baronies!
+				b_itoui_idoi = {
+					ainu = "Ocisi"
+					japanese = "Otchishi"
+					ryukyuan = "Utchishi"
+					russian = "Alexandrovsk-Sakhalinsky"
+				}
+				b_itoui_eustor = {
+					japanese = "Esutoru"
+					ryukyuan = "Isuturu"
+					russian = "Uglegorsk"
+				}
+				b_itoui_ciryansam = {
+					japanese = "Chirie"
+					ryukyuan = "Chirii"
+					mongol = "Musibi"
+					khitan = "Musibi"
+					jurchen = "Musibi"
+					russian = "Kotikovo"
+				}
+				b_itoui_motomari = {
+					ryukyuan = "Mutumari"
+					russian = "Vostochnyiy"
+				}
+				b_itoui_tomarikes = {
+					japanese = "Tomarikishi"
+					ryukyuan = "Tumarikishi"
+					russian = "Vakhrushev"
+				}
+				b_itoui_suu = {
+					nivkh = "Ketongiy"
+					ainu = "Ketuni"
+					japanese = "Keton"
+					ryukyuan = "Kitun"
+					russian = "Smirnykh"
+				}
+				b_itoui_hotto = {
+					nivkh = "Hoton"
+					ainu = "Kotuni"
+					japanese = "Koton"
+					ryukyuan = "Kutun"
+					russian = "Pobedino"
+				}
 			}
 		
-			c_laha = {
+			c_laha = { #
 				color = { 31 34 230}
 				color2 = {63 63 63}
 			
-				ainu = "Nivhks"
+				nivkh = "Ler"
+				ainu = "Sumari"
+				japanese = "Otchishi"
+				ryukyuan = "Utchishi"
+				han = "Wuliehe"
+				yue = "Wuliehe"
+				bai = "Wuliehe"
+				nakhi = "Wuliehe"
+				min = "Wuliehe"
+				yi = "Wuliehe"
+				qiang = "Wuliehe"
+				tujia = "Wuliehe"
+				she = "Wuliehe"
+				mongol = "Wuliehe"
+				khitan = "Wuliehe"
+				jurchen = "Wuliehe"
+				russian = "Tymovsky"
 
-				b_laha = {
+				b_laha_dawaska = {
+					nivkh = "Amykvo"
+					ainu = "Romo"
+					japanese = "Romo"
+					ryukyuan = "Rumu"
+					russian = "Tymovskoye"
 				}
-				# Needs baronies!
+				b_laha_teeme = {
+					nivkh = "Avo"
+					ainu = "Tomakaspet"
+					japanese = "Nue"
+					ryukyuan = "Nui"
+					russian = "Nogliki"
+				}
+				b_laha_okha = {
+					nivkh = "Lervo"
+					ainu = "Wenwakka"
+					japanese = "Oha"
+					ryukyuan = "Uha"
+				}
+				b_laha_noteto = {
+					nivkh = "Tekka"
+					ainu = "Notetu"
+					japanese = "Noteto"
+					ryukyuan = "Nutitu"
+					russian = "Tyk"
+				}
+				b_laha_uangi = {
+					ainu = "Wake"
+					japanese = "Wake"
+					ryukyuan = "Wake"
+					russian = "Uandi"
+				}
+				b_laha_trambaus = {
+					ainu = "Nitumpausi"
+					japanese = "Niitonbaushi"
+					ryukyuan = "Niitunbaushi"
+				}
+				b_laha_nganivo = {
+					ainu = "Nanio"
+					japanese = "Nanio"
+					ryukyuan = "Naniu"
+					russian = "Rybnovsk"
+				}
+				b_laha_ngabil = {
+					ainu = "Nuu"
+					japanese = "Nuu"
+					ryukyuan = "Nuu"
+					mongol = "Ngaabbeela"
+					khitan = "Ngaabbeela"
+					jurchen = "Ngaabbeela"
+					russian = "Pogranichnoye"
+				}
 			}
 		}
 		d_pakali = { 
-			color = {65 71 30} # TODO
-			color2 = {63 63 63} # TODO
+			color = {65 71 60}
+			color2 = {63 63 63}
 		
 			capital = 3001 # Pakali
 			
-			c_kalar = {
-				color = {1 84 200 } # TODO
-				color2 = {63 63 63} # TODO
+			c_kalar = { #I can't found it
+				color = {65 71 60}
+				color2 = {63 63 63}
 				
-				b_kalar2 = {}
-				# Needs baronies!
+				nivkh = "Junli"
+				jurchen = "Junli" #Junli-bu
+				
+				b_kalar_nuergan = {
+					nivkh = "Tyr"
+					jurchen = "Telin"
+					ainu = "Nurukan"
+					japanese = "Nurugan"
+					ryukyuan = "Nurugan"
+				}
+				b_kalar_heileli = {
+					nivkh = "Kelier"
+					mongol = "Kelier"
+					khitan = "Kelier"
+					jurchen = "Kelier"
+				}
+				b_kalar_gelihe = {
+					nivkh = "Alaha"
+					mongol = "Alaha"
+					khitan = "Alaha"
+					jurchen = "Alaha"
+				}
+				b_kalar_tating = {
+					nivkh = "Taketiyin"
+					mongol = "Taketiyin"
+					khitan = "Taketiyin"
+					jurchen = "Taketiyin"
+				}
+				b_kalar_buluwu = {
+					mongol = "Pulu"
+					khitan = "Pulu"
+					jurchen = "Pulu"
+				}
+				b_kalar_qiji = { #Lake
+				}
+				b_kalar_nigou = {
+					ainu = "Nikou"
+					japanese = "Niko"
+					ryukyuan = "Niku"
+					russian = "Nikolaevsk-Na-Amure"
+				}
 			}
 			c_amgun = {
-				color = {1 84 200 } # TODO
-				color2 = {63 63 63} # TODO
+				color = {65 71 80}
+				color2 = {63 63 63}
 				
-				b_amgun = {}
-				# Needs baronies!
+				han = "Hengu" #Old Chinese Name
+				yue = "Hengu"
+				bai = "Hengu"
+				nakhi = "Hengu"
+				min = "Hengu"
+				yi = "Hengu"
+				qiang = "Hengu"
+				tujia = "Hengu"
+				she = "Hengu"
+				mongol = "Simu"
+				khitan = "Simu"
+				nivkh = "Simu"
+				jurchen = "Simu" #Simu-bu
+				
+				b_amgun_manjing = {
+					nivkh = "Moji"
+					mongol = "Moji"
+					khitan = "Moji"
+					jurchen = "Moji"
+					nivkh = "Moji"
+				}
+				b_amgun_fuzahe = {
+					mongol = "Fuzahuo"
+					khitan = "Fuzahuo"
+					jurchen = "Fuzahuo"
+					nivkh = "Fuzahuo"
+				}
+				b_amgun_bierzhen = {
+					mongol = "Beilizhen"
+					khitan = "Beilizhen"
+					jurchen = "Beilizhen"
+					nivkh = "Beilizhen"
+				}
+				b_amgun_boerbin = {
+				}
+				b_amgun_hacimaku = {
+				}
+				b_amgun_yimu = { #River
+				}
+				b_amgun_Yiwen = { #Mounten
+					mongol = "Jiuwen"
+					khitan = "Jiuwen"
+					jurchen = "Jiuwen"
+					nivkh = "Jiuwen"
+				}
 			}
-			c_pakali = {
-				color = {1 84 200 } # TODO
-				color2 = {63 63 63} # TODO
+			c_pakali = { #Pahali
+				color = {65 71 40}
+				color2 = {63 63 63}
 				
-				b_pakali = {}
-				# Needs baronies!
+				nivkh = "Moyejie"
+				jurchen = "Moyejie" #Moyejie-bu
+				
+				b_pakali_zaling = {
+					mongol = "Zayi"
+					khitan = "Zayi"
+					jurchen = "Zayi"
+					nivkh = "Zayi"
+				}
+				b_pakali_kemoer = {
+				}
+				b_pakali_fuli = {
+				}
+				b_pakali_buleke = {
+					mongol = "Taituo"
+					khitan = "Taituo"
+					jurchen = "Taituo"
+					nivkh = "Taituo"
+				}
+				b_pakali_Azhe = {
+					mongol = "Aji"
+					khitan = "Aji"
+					jurchen = "Aji"
+					nivkh = "Aji"
+				}
+				b_pakali_yutie = {
+					mongol = "Yuwokete"
+					khitan = "Yuwokete"
+					jurchen = "Yuwokete"
+					nivkh = "Yuwokete"
+				}
+				b_pakali_woerzhai = {
+				}
 			}
-			c_kerin = {
-				color = {1 84 200 } # TODO
-				color2 = {63 63 63} # TODO
+			c_kerin = { #
+				color = {65 91 60}
+				color2 = {63 63 63}
 				
-				b_kerin = {}
-				# Needs baronies!
+				nivkh = "Gueleng"
+				jurchen = "Gueleng" #Manchurian Name
+				
+				b_kerin_kerin = {
+					mongol = "Gueleng"
+					khitan = "Gueleng"
+					jurchen = "Gueleng"
+					nivkh = "Gueleng"
+				}
+				b_kerin_fushan = {
+					mongol = "Bielieke"
+					khitan = "Feisheng"
+					jurchen = "Feisheng"
+					nivkh = "Feisheng"
+				}
+				b_kerin_wusu = {
+					mongol = "Gansun"
+					khitan = "Gansun"
+					jurchen = "Bugeshan"
+					nivkh = "Bugeshan"
+				}
+				b_kerin_hubaxi = {
+					mongol = "Hulubaxing"
+					khitan = "Hulubaxing"
+					jurchen = "Kulagu"
+					nivkh = "Kulagu"
+				}
+				b_kerin_fulin = {
+					mongol = "Fulian"
+					khitan = "Fulian"
+					jurchen = "Foluoma"
+					nivkh = "Foluoma"
+				}
+				b_kerin_malehengu = {
+					mongol = "Molihewen"
+					khitan = "Molihewen"
+					jurchen = "Woerzhai"
+					nivkh = "Woerzhai"
+				}
+				b_kerin_fidalin = {
+					mongol = "Fudali"
+					khitan = "Fudali"
+					jurchen = "Fudali"
+					nivkh = "Fudali"
+				}
 			}
 		}
-		d_noro = { 
-			color = {65 71 30} # TODO
-			color2 = {63 63 63} # TODO
+		d_noro = { #Donghai
+			color = {65 121 30}
+			color2 = {63 63 63}
 		
 			capital = 2997 # Noro
 			
-			c_noro = {
-				color = {1 84 200 } # TODO
-				color2 = {63 63 63} # TODO
+			c_noro = { #Horo, river and city name in Qing
+				color = {65 121 50}
+				color2 = {63 63 63}
 				
-				b_noro = {}
-				# Needs baronies!
+				han = "Heluo"
+				mongol = "Heluo"
+				khitan = "Heluo"
+				nivkh = "Heluo"
+				jurchen = "Heluo"
+				
+				b_noro_fuliqi = {
+					mongol = "Hulaka"
+					khitan = "Hulaka"
+					jurchen = "Hulaka"
+					nivkh = "Hulaka"
+				}
+				b_noro_agu = {
+					mongol = "Aweng"
+					khitan = "Aweng"
+					jurchen = "Aweng"
+					nivkh = "Aweng"
+				}
+				b_noro_shierwu = {
+					mongol = "Huaxin"
+					khitan = "Huaxin"
+					jurchen = "Huaxin"
+					nivkh = "Huaxin"
+				}
+				b_noro_yushisuo = {
+					mongol = "Qiusai"
+					khitan = "Qiusai"
+					jurchen = "Qiusai"
+					nivkh = "Qiusai"
+				}
+				b_noro_tuanshanzi = { #Qing period
+				}
+				b_noro_hedan = { #Qing period
+				}
+				b_noro_apodali = { #Qing period
+				}
 			}
-			c_makan = {
-				color = {1 84 200 } # TODO
-				color2 = {63 63 63} # TODO
+			c_makan = { #
+				color = {65 121 10}
+				color2 = {63 63 63}
 				
-				b_makan = {}
-				# Needs baronies!
+				han = "Haerfen"
+				yue = "Haerfen"
+				bai = "Haerfen"
+				nakhi = "Haerfen"
+				min = "Haerfen"
+				yi = "Haerfen"
+				qiang = "Haerfen"
+				tujia = "Haerfen"
+				she = "Haerfen"
+				mongol = "Haerfen"
+				khitan = "Haerfen"
+				nivkh = "Haerfen"
+				jurchen = "Haerfen"
+				
+				b_makan_haerfen = {
+					mongol = "Chakejin"
+					khitan = "Chakejin"
+					jurchen = "Chakejin"
+					nivkh = "Chakejin"
+				}
+				b_makan_yemaer = {
+					mongol = "Musu"
+					khitan = "Musu"
+					jurchen = "Musu"
+					nivkh = "Musu"
+				}
+				b_makan_yierguli = {
+					mongol = "Yierkulu"
+					khitan = "Yierkulu"
+					jurchen = "Yierkulu"
+					nivkh = "Yierkulu"
+				}
+				b_makan_gufati = {
+					mongol = "Gufating"
+					khitan = "Gufating"
+					jurchen = "Gufating"
+					nivkh = "Gufating"
+				}
+				b_makan_ganlan = {
+					mongol = "Guolun"
+					khitan = "Guolun"
+					jurchen = "Guolun"
+					nivkh = "Guolun"
+				}
+				b_makan_makesuomi = { #Qing period
+				}
+				b_makan_chongpuku = { #Qing period
+				}
 			}
-			c_tondon = {
-				color = {1 84 200 } # TODO
-				color2 = {63 63 63} # TODO
+			c_tondon = { #
+				color = {65 141 30}
+				color2 = {63 63 63}
 				
-				b_tondon = {}
-				# Needs baronies!
+				han = "Nuannuan"
+				yue = "Nuannuan"
+				bai = "Nuannuan"
+				nakhi = "Nuannuan"
+				min = "Nuannuan"
+				yi = "Nuannuan"
+				qiang = "Nuannuan"
+				tujia = "Nuannuan"
+				she = "Nuannuan"
+				mongol = "Dundun"
+				khitan = "Dundun"
+				nivkh = "Dundun"
+				jurchen = "Dundun"
+				
+				b_tondon_tondon = {
+					han = "Nuannuan"
+					mongol = "Dundun"
+					khitan = "Dundun"
+					jurchen = "Dundun"
+					nivkh = "Dundun"
+				}
+				b_tondon_molusun = {
+				}
+				b_tondon_cheluwen = {
+				}
+				b_tondon_zazhen = {
+				}
+				b_tondon_zhetie = {
+				}
+				b_tondon_saerbu = { #Qing period
+				}
+				b_tondon_hehen = { #Qing period
+				}
 			}
 		}
 		d_aihom = { 
-			color = {65 71 30} # TODO
-			color2 = {63 63 63} # TODO
+			color = {95 71 30}
+			color2 = {63 63 63}
 		
 			capital = 3010 # Aihom
 			
 			c_ducheri = {
-				color = {1 84 200 } # TODO
-				color2 = {63 63 63} # TODO
+				color = {95 71 30}
+				color2 = {63 63 63}
 				
-				b_ducheri = {}
-				# Needs baronies!
+				han = "Gulu"
+				yue = "Gulu"
+				bai = "Gulu"
+				nakhi = "Gulu"
+				min = "Gulu"
+				yi = "Gulu"
+				qiang = "Gulu"
+				tujia = "Gulu"
+				she = "Gulu"
+				mongol = "Kulu"
+				khitan = "Kulu"
+				nivkh = "Heisui"
+				jurchen = "Heisui" #Heisui-bu
+				
+				b_ducheri_gulu = {
+					mongol = "Kulu"
+					khitan = "Kulu"
+					jurchen = "Kulu"
+					nivkh = "Kulu"
+				}
+				b_ducheri_gehen = { #Qing period
+				}
+				b_ducheri_zhuoerbi = { #Qing period
+				}
+				b_ducheri_guteli = { #Qing period
+				}
+				b_ducheri_bianzhailin = { #Qing period
+				}
+				b_ducheri_wanda = { #Mounten, Qing period
+				}
+				b_ducheri_zheleken = { #Qing period
+				}
 			}
 			c_boli = {
-				color = {1 84 200 } # TODO
-				color2 = {63 63 63} # TODO
+				color = {95 71 50}
+				color2 = {63 63 63}
 				
-				b_boli = {}
-				# Needs baronies!
+				han = "Xishen"
+				yue = "Xishen"
+				bai = "Xishen"
+				nakhi = "Xishen"
+				min = "Xishen"
+				yi = "Xishen"
+				qiang = "Xishen"
+				tujia = "Xishen"
+				she = "Xishen"
+				mongol = "Pouali"
+				khitan = "Pouali"
+				nivkh = "Baili"
+				jurchen = "Baili"
+				
+				b_boli_boli = {
+					han = "Xishen"
+					mongol = "Pouali"
+					khitan = "Pouali"
+					jurchen = "Baili"
+					nivkh = "Baili"
+				}
+				b_boli_wuzhekuiye = {
+					mongol = "Kulemu"
+					khitan = "Kelemu"
+					jurchen = "Kelemu"
+					nivkh = "Kelemu"
+				}
+				b_boli_qileni = {
+					mongol = "Qilielian"
+					khitan = "Qilielian"
+					jurchen = "Xilulin"
+					nivkh = "Xilulin"
+				}
+				b_boli_kaolangwu = {
+					mongol = "Yuelangu"
+					khitan = "Yuelangu"
+					jurchen = "Yuelangu"
+					nivkh = "Yuelangu"
+				}
+				b_boli_mangjita = {
+					mongol = "Mukedehe"
+					khitan = "Mukedehe"
+					jurchen = "Mukedehe"
+					nivkh = "Mukedehe"
+				}
+				b_boli_kaqi = {
+				}
+				b_boli_Zhuajin = { #Qing period
+				}
 			}
 			c_numen = {
-				color = {1 84 200 } # TODO
-				color2 = {63 63 63} # TODO
+				color = {95 71 10}
+				color2 = {63 63 63}
 				
-				b_numen = {}
-				# Needs baronies!
+				han = "Bigude"
+				yue = "Bigude"
+				bai = "Bigude"
+				nakhi = "Bigude"
+				min = "Bigude"
+				yi = "Bigude"
+				qiang = "Bigude"
+				tujia = "Bigude"
+				she = "Bigude"
+				mongol = "Bigude"
+				khitan = "Bigude"
+				nivkh = "Bigude"
+				jurchen = "Bigude"
+				b_numen_bigude = {
+				}
+				b_numen_muluhan = {
+				}
+				b_numen_zafei = {
+					mongol = "Mohongku"
+					khitan = "Mohongku"
+					jurchen = "Mohongku"
+					nivkh = "Mohongku"
+				}
+				b_numen_aolimi = {
+					mongol = "Lahasu"
+					khitan = "Lahasu"
+					jurchen = "Lahasu"
+					nivkh = "Lahasu"
+				}
+				b_numen_jinalin = { #Qing period
+				}
+				b_numen_gaijin = { #Qing period
+				}
+				b_numen_xuergu = { #Qing period
+				}
 			}
-			c_aihom = {
-				color = {1 84 200 } # TODO
-				color2 = {63 63 63} # TODO
+			c_aihom = { #
+				color = {95 51 30}
+				color2 = {63 63 63}
 				
-				b_aihom = {}
-				# Needs baronies!
+				han = "Wuzhe"
+				yue = "Wuzhe"
+				bai = "Wuzhe"
+				nakhi = "Wuzhe"
+				min = "Wuzhe"
+				yi = "Wuzhe"
+				qiang = "Wuzhe"
+				tujia = "Wuzhe"
+				she = "Wuzhe"
+				mongol = "Wuwei"
+				khitan = "Wuwei"
+				nivkh = "Wuyintun"
+				jurchen = "Wuyintun"
+				b_aihom_zhenhesuo = {
+					mongol = "Shibaochi"
+					khitan = "Shibaochi"
+					jurchen = "Heilongjiang"
+					nivkh = "Heilongjiang"
+				}
+				b_aihom_wuzhe = {
+					mongol = "Wuyintun"
+					khitan = "Wuyintun"
+					jurchen = "Wuyintun"
+					nivkh = "Wuyintun"
+				}
+				b_aihom_jia = {
+					mongol = "Zhai"
+					khitan = "Zhai"
+					jurchen = "Zhai"
+					nivkh = "Zhai"
+				}
+				b_aihom_hulipingzhai = {
+				}
+				b_aihom_chehete = { #Qing period
+				}
+				b_aihom_niuman = { #Qing period
+				}
+				b_aihom_deledeni = { #Qing period
+				}
 			}
 		}
 		d_silimpdi = { 
-			color = {65 71 30} # TODO
-			color2 = {63 63 63} # TODO
+			color = {65 71 90}
+			color2 = {63 63 63}
 		
 			capital = 3013 # Silimpdi
 			
 			c_silimpdi = {
-				color = {1 84 200 } # TODO
-				color2 = {63 63 63} # TODO
+				color = {65 71 90}
+				color2 = {63 63 63}
 				
-				b_silimpdi = {}
-				# Needs baronies!
+				han = "Xilinmudan"
+				yue = "Xilinmudan"
+				bai = "Xilinmudan"
+				nakhi = "Xilinmudan"
+				min = "Xilinmudan"
+				yi = "Xilinmudan"
+				qiang = "Xilinmudan"
+				tujia = "Xilinmudan"
+				she = "Xilinmudan"
+				mongol = "Xilinmudan"
+				khitan = "Xilinmudan"
+				nivkh = "Xilinmudan"
+				jurchen = "Xilinmudan"
+				
+				b_silimpdi_xilinmudan = { #River, Qing period
+				}
+				b_silimpdi_bishan = { #River, Qing period
+				}
+				b_silimpdi_naci = { #River, Qing period
+				}
+				b_silimpdi_yingke = { #River, Qing period
+				}
+				b_silimpdi_mumin = { #River, Qing period
+				}
+				b_silimpdi_elangqi = { #River, Qing period
+				}
+				b_silimpdi_tuluting = { #Mounten, Qing period
+				}
 			}
 			c_ongue = {
-				color = {1 84 200 } # TODO
-				color2 = {63 63 63} # TODO
+				color = {65 71 110}
+				color2 = {63 63 63}
 				
-				b_ongue = {}
-				# Needs baronies!
+				han = "Wenge"
+				yue = "Wenge"
+				bai = "Wenge"
+				nakhi = "Wenge"
+				min = "Wenge"
+				yi = "Wenge"
+				qiang = "Wenge"
+				tujia = "Wenge"
+				she = "Wenge"
+				mongol = "Wenge"
+				khitan = "Wenge"
+				nivkh = "Luodan"
+				jurchen = "Luodan" #Lurodan-bu
+				
+				b_ongue_tuomu = {
+					mongol = "Tuomo"
+					khitan = "Tuomo"
+					jurchen = "Tuomo"
+					nivkh = "Tuomo"
+				}
+				b_ongue_nilemen = { #River
+				}
+				b_ongue_suchuna = { #Qing period
+				}
+				b_ongue_boheli = { #Qing period
+				}
+				b_ongue_guobole = { #Qing period
+				}
+				b_ongue_dedule = { #Qing period
+				}
+				b_ongue_wenge = { #River, Qing period
+				}
 			}
 			c_hinkan = {
-				color = {1 84 200 } # TODO
-				color2 = {63 63 63} # TODO
+				color = {65 71 70}
+				color2 = {63 63 63}
 				
-				b_hinkan = {}
-				# Needs baronies!
+				han = "Douse"
+				yue = "Douse"
+				bai = "Douse"
+				nakhi = "Douse"
+				min = "Douse"
+				yi = "Douse"
+				qiang = "Douse"
+				tujia = "Douse"
+				she = "Douse"
+				mongol = "Douse"
+				khitan = "Douse"
+				nivkh = "Douse"
+				jurchen = "Douse"
+				
+				b_hinkan_douse = {
+				}
+				b_hinkan_duoerbi = {
+				}
+				b_hinkan_wude = {
+					mongol = "Wudi"
+					khitan = "Wudi"
+					jurchen = "Wudi"
+					nivkh = "Wudi"
+				}
+				b_hinkan_cheli = {
+					mongol = "Dila"
+					khitan = "Dila"
+					jurchen = "Dila"
+					nivkh = "Dila"
+				}
+				b_hinkan_duhan = {
+					mongol = "Tugule"
+					khitan = "Tugule"
+					jurchen = "Tugule"
+					nivkh = "Tugule"
+				}
+				b_hinkan_mudan = { #Mounten
+				}
+				b_hinkan_emile = { #River
+				}
 			}
 		}
-		d_amazar = { 
-			color = {65 71 30} # TODO
-			color2 = {63 63 63} # TODO
+		d_amazar = { #
+			color = {65 121 60}
+			color2 = {63 63 63}
 		
 			capital = 3034 # Amazar
 			
+			han = "Dashiwei"
+			yue = "Dashiwei"
+			bai = "Dashiwei"
+			nakhi = "Dashiwei"
+			min = "Dashiwei"
+			yi = "Dashiwei"
+			qiang = "Dashiwei"
+			tujia = "Dashiwei"
+			she = "Dashiwei"
+			mongol = "Beishan"
+			khitan = "Beishan"
+			jurchen = "Beishan"
+			
 			c_amazar = {
-				color = {1 84 200 } # TODO
-				color2 = {63 63 63} # TODO
+				color = {65 121 60}
+				color2 = {63 63 63}
 				
-				b_amazar = {}
-				# Needs baronies!
+				han = "Awuzaer"
+				yue = "Awuzaer"
+				bai = "Awuzaer"
+				nakhi = "Awuzaer"
+				min = "Awuzaer"
+				yi = "Awuzaer"
+				qiang = "Awuzaer"
+				tujia = "Awuzaer"
+				she = "Awuzaer"
+				mongol = "Awuzaer"
+				khitan = "Awuzaer"
+				nivkh = "Awuzaer"
+				jurchen = "Awuzaer"
+				
+				b_amazar_awuzaer = { #River, Qing period
+				}
+				b_amazar_eli = { #River, Qing period
+				}
+				b_amazar_wuer = { #River, Qing period
+				}
+				b_amazar_jilu = { #River, Qing period
+				}
+				b_amazar_wuna = { #River, Qing period
+				}
+				b_amazar_niukeria = { #River, Qing period
+				}
+				b_amazar_wulekema = { #River, Qing period
+				}
 			}
 			c_urkan = {
-				color = {1 84 200 } # TODO
-				color2 = {63 63 63} # TODO
+				color = {65 121 80}
+				color2 = {63 63 63}
 				
-				b_urkan = {}
-				# Needs baronies!
+				han = "Guli"
+				yue = "Guli"
+				bai = "Guli"
+				nakhi = "Guli"
+				min = "Guli"
+				yi = "Guli"
+				qiang = "Guli"
+				tujia = "Guli"
+				she = "Guli"
+				mongol = "Wuerkan"
+				khitan = "Wuerkan"
+				nivkh = "Wuerkan"
+				jurchen = "Wuerkan"
+				
+				b_urkan_guli = {
+				}
+				b_urkan_hacicha = {
+				}
+				b_urkan_wuerkan = { #Qing period
+				}
+				b_urkan_aerqi = { #River, Qing period
+				}
+				b_urkan_tuoke = { #River, Qing period
+				}
+				b_urkan_niutie = { #River, Qing period
+				}
+				b_urkan_ningni = { #River, Qing period
+				}
 			}
 		}
 		d_onan_gol = { 
-			color = {65 71 30} # TODO
-			color2 = {63 63 63} # TODO
+			color = {95 71 60}
+			color2 = {63 63 63}
 		
 			capital = 3033 # Onan Gol
 			
 			c_onan_gol = {
-				color = {1 84 200 } # TODO
-				color2 = {63 63 63} # TODO
+				color = {95 71 80}
+				color2 = {63 63 63}
 				
-				b_onan_gol = {}
-				# Needs baronies!
+				han = "Gannan"
+				yue = "Gannan"
+				bai = "Gannan"
+				nakhi = "Gannan"
+				min = "Gannan"
+				yi = "Gannan"
+				qiang = "Gannan"
+				tujia = "Gannan"
+				she = "Gannan"
+				mongol = "Jinan"
+				khitan = "Zhilieba"
+				nivkh = "Boyegu"
+				jurchen = "Boyegu"
+				
+				b_onan_gol_kuoluan = {
+					mongol = "Julun"
+					khitan = "Jumugu"
+					jurchen = "Jumugu"
+					nivkh = "Jumugu"
+				}
+				b_onan_gol_haicier = {
+					mongol = "Haileshui"
+					khitan = "Haileshui"
+				}
+				b_onan_gol_hulunbuyuer = { #Qing period
+				}
+				b_onan_gol_hebahetu = { #Qing period
+				}
+				b_onan_gol_mengkexili = { #Qing period
+				}
+				b_onan_gol_suketeyi = { #Qing period
+				}
+				b_onan_gol_bohetu = { #Qing period
+				}
 			}
 			c_ergun = {
-				color = {1 84 200 } # TODO
-				color2 = {63 63 63} # TODO
+				color = {95 71 40}
+				color2 = {63 63 63}
 				
-				b_ergun = {}
-				# Needs baronies!
+				han = "Jianhe"
+				yue = "Jianhe"
+				bai = "Jianhe"
+				nakhi = "Jianhe"
+				min = "Jianhe"
+				yi = "Jianhe"
+				qiang = "Jianhe"
+				tujia = "Jianhe"
+				she = "Jianhe"
+				mongol = "Qiwang"
+				khitan = "Wugu"
+				nivkh = "Xishiwei"
+				jurchen = "Xishiwei" #Xishiwei-bu
+				b_ergun_jian = {
+					mongol = "Qiwang"
+					khitan = "Jingbian"
+				}
+				b_ergun_yongan = { #Qing period
+				}
+				b_ergun_yimu = { #Qing period
+				}
+				b_ergun_qiya = { #Qing period
+				}
+				b_ergun_changxiong = { #Qing period
+				}
+				b_ergun_niuer = { #Qing period
+				}
+				b_ergun_molile = { #Qing period
+				}
 			}
 			c_chara = {
-				color = {1 84 200 } # TODO
-				color2 = {63 63 63} # TODO
+				color = {95 91 80}
+				color2 = {63 63 63}
 				
-				b_chara = {}
-				# Needs baronies!
+				han = "Linzhong"
+				yue = "Linzhong"
+				bai = "Linzhong"
+				nakhi = "Linzhong"
+				min = "Linzhong"
+				yi = "Linzhong"
+				qiang = "Linzhong"
+				tujia = "Linzhong"
+				she = "Linzhong"
+				mongol = "Guangning"
+				khitan = "Chaza"
+				nivkh = "Juluobo"
+				jurchen = "Juluobo"
+				
+				b_chara_chara = {
+					han = "Linzhong"
+					mongol = "Guangning"
+					khitan = "Chaza"
+					jurchen = "Juluobo"
+					nivkh = "Juluobo"
+				}
+				b_chara_nibuchu = { #Qing period
+				}
+				b_chara_jiaonen = { #River, Qing period
+				}
+				b_chara_chaoerna = { #River, Qing period
+				}
+				b_chara_maoyide = { #River, Qing period
+				}
+				b_chara_wolun = { #River, Qing period
+				}
+				b_chara_tali = { #Lake, Qing period
+				}
 			}
 		}
 		d_yakesa = { 
-			color = {65 71 30} # TODO
-			color2 = {63 63 63} # TODO
+			color = {95 121 60}
+			color2 = {63 63 63}
 		
 			capital = 3022 # Yakesa
 			
 			c_yakesa = {
-				color = {1 84 200 } # TODO
-				color2 = {63 63 63} # TODO
+				color = {95 121 80}
+				color2 = {63 63 63}
 				
-				b_yakesa = {}
-				# Needs baronies!
+				han = "Muhe"
+				yue = "Muhe"
+				bai = "Muhe"
+				nakhi = "Muhe"
+				min = "Muhe"
+				yi = "Muhe"
+				qiang = "Muhe"
+				tujia = "Muhe"
+				she = "Muhe"
+				mongol = "Yakesa"
+				khitan = "Yakesa"
+				nivkh = "Powo"
+				jurchen = "Powo" #Powo-bu
+				
+				b_yakesa_muhe = {
+				}
+				b_yakesa_yakesa = { #Qing period
+				}
+				b_yakesa_duojin = { #Qing period
+				}
+				b_yakesa_wukuer = { #Qing period
+				}
+				b_yakesa_yixiken = { #Qing period
+				}
+				b_yakesa_puhe = { #Qing period
+				}
+				b_yakesa_eximen = { #Qing period
+				}
 			}
 			c_oroqen = {
-				color = {1 84 200 } # TODO
-				color2 = {63 63 63} # TODO
+				color = {95 121 40}
+				color2 = {63 63 63}
 				
-				b_oroqen = {}
-				# Needs baronies!
+				han = "Etuochun"
+				yue = "Etuochun"
+				bai = "Etuochun"
+				nakhi = "Etuochun"
+				min = "Etuochun"
+				yi = "Etuochun"
+				qiang = "Etuochun"
+				tujia = "Etuochun"
+				she = "Etuochun"
+				mongol = "Oronco"
+				khitan = "Oronco"
+				nivkh = "Nazhibei"
+				jurchen = "Nazhibei" #Nazhibei-bu
+				
+				b_oroqen_yilaguer = { #Mounten, Qing period
+				}
+				b_oroqen_gan = { #River, Qing period
+				}
+				b_oroqen_niyue = { #River, Qing period
+				}
+				b_oroqen_pingku = { #River, Qing period
+				}
+				b_oroqen_eshoule = { #River, Qing period
+				}
+				b_oroqen_duoboheli = { #River, Qing period
+				}
+				b_oroqen_nadouer = { #River, Qing period
+				}
 			}
 			c_kamara = {
-				color = {1 84 200 } # TODO
-				color2 = {63 63 63} # TODO
+				color = {95 121 60}
+				color2 = {63 63 63}
 				
-				b_kamara = {}
-				# Needs baronies!
+				han = "Taha"
+				yue = "Taha"
+				bai = "Taha"
+				nakhi = "Taha"
+				min = "Taha"
+				yi = "Taha"
+				qiang = "Taha"
+				tujia = "Taha"
+				she = "Taha"
+				mongol = "Hamaer"
+				khitan = "Hamaer"
+				nivkh = "Mengwu"
+				jurchen = "Mengwu" #Mengwu-bu
+				
+				b_kamara_taha = {
+				}
+				b_kamara_eke = {
+				}
+				b_kamara_zhituo = { #River
+				}
+				b_kamara_aci = { #Mounten
+				}
+				b_kamara_hamaer = { #Qing period
+				}
+				b_kamara_guobuher = { #Qing period
+				}
+				b_kamara_wufusu = { #Qing period
+				}
 			}
 		}
 	}

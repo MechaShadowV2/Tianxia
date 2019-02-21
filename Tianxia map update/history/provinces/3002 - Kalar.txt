@@ -4,13 +4,18 @@
 title = c_kalar
 
 # Settlements
-max_settlements = 1
+max_settlements = 3
 
-b_kalar2 = tribal
-# Needs baronies!
+b_kalar_nuergan = tribal #or temple(Yongning temple)
+#b_kalar_heileli = tribal
+#b_kalar_gelihe = tribal
+#b_kalar_tating = tribal
+#b_kalar_buluwu = tribal
+#b_kalar_qiji = tribal
+#b_kalar_nigou = tribal
 
 # Misc
-culture = jurchen
+culture = nivkh
 religion = tengri_pagan
 
 # History

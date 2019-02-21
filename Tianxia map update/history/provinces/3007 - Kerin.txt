@@ -4,10 +4,15 @@
 title = c_kerin
 
 # Settlements
-max_settlements = 1
+max_settlements = 3
 
-b_kerin = tribal
-# Needs baronies!
+b_kerin_kerin = tribal
+#b_kerin_fushan = tribal
+#b_kerin_wusu = tribal
+#b_kerin_hubaxi = tribal
+#b_kerin_fulin = tribal
+#b_kerin_malehengu = tribal
+#b_kerin_fidalin = tribal
 
 # Misc
 culture = jurchen
