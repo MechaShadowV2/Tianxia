@@ -272,10 +272,10 @@ chinese_group = {
 }
 
 japonic = { 
-	graphical_cultures = { japanesegfx chinesegfx turkishgfx mongolgfx muslimgfx }
+	graphical_cultures = { japanesegfx chinesegfx mongolgfx indiangfx muslimgfx }
 
 	japanese = {
-		graphical_cultures = { japanesegfx chinesegfx mongolgfx muslimgfx }
+		graphical_cultures = { japanesegfx chinesegfx mongolgfx indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		dynasty_name_first = yes
@@ -323,7 +323,7 @@ japonic = {
 	}
 
 	ryukyuan = {
-		graphical_cultures = { japanesegfx chinesegfx mongolgfx muslimgfx }
+		graphical_cultures = { japanesegfx chinesegfx mongolgfx indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		dynasty_name_first = yes
@@ -371,7 +371,7 @@ japonic = {
 	}
 
 	ainu = {
-		graphical_cultures = { ainugfx chinesegfx turkishgfx muslimgfx }
+		graphical_cultures = { ainugfx chinesegfx turkishgfx indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.55 0.42 0.04 }
@@ -426,10 +426,10 @@ japonic = {
 }
 
 koreanic = {  
-	graphical_cultures = { koreangfx chinesegfx mongolgfx muslimgfx }
+	graphical_cultures = { koreangfx chinesegfx mongolgfx indiangfx muslimgfx }
 
 	korean = {
-		graphical_cultures = { koreangfx chinesegfx mongolgfx muslimgfx }
+		graphical_cultures = { koreangfx chinesegfx mongolgfx indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		dynasty_name_first = yes
@@ -456,7 +456,7 @@ koreanic = {
 	}
 	
 	jeju = {
-		graphical_cultures = { koreangfx chinesegfx mongolgfx muslimgfx }
+		graphical_cultures = { koreangfx chinesegfx mongolgfx indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		dynasty_name_first = yes
@@ -485,10 +485,10 @@ koreanic = {
 
 paleosiberian = {
 
-	graphical_cultures = { ainugfx chinesegfx mongolgfx muslimgfx } #nivkhgix doesn't exist
+	graphical_cultures = { ainugfx chinesegfx mongolgfx indiangfx muslimgfx } #nivkhgix doesn't exist
 
 	nivkh = {
-		graphical_cultures = { ainugfx chinesegfx mongolgfx muslimgfx } #nivkhgix doesn't exist
+		graphical_cultures = { ainugfx chinesegfx mongolgfx indiangfx muslimgfx } #nivkhgix doesn't exist
 		secondary_event_pictures = bedouin_arabic
 		
 		dynasty_name_first = yes

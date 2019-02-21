@@ -4,7 +4,7 @@ pagan_group = {
 	# TODO: Random world stuff (not a priority)
 
 	dayak_pagan_reformed = { # Kaharingan
-		graphical_culture = buddhistgfx #hindugfx doesn't seem to work well (they get Norse CoA borders)
+		graphical_culture = indiangfx
 		secondary_event_pictures = sunni
 
 		icon = 67
@@ -69,7 +69,7 @@ pagan_group = {
 	}
 
 	dayak_pagan = { # Kaharingan
-		graphical_culture = buddhistgfx #hindugfx doesn't seem to work well (they get Norse CoA borders)
+		graphical_culture = indiangfx
 		secondary_event_pictures = sunni
 
 		icon = 66
@@ -267,7 +267,7 @@ pagan_group = {
 	}
 	
 	sanamahi_pagan_reformed = { # Bamars
-		graphical_culture = buddhistgfx #hindugfx doesn't seem to work well (they get Norse CoA borders)
+		graphical_culture = indiangfx
 		secondary_event_pictures = sunni
 
 		icon = 82
@@ -331,7 +331,7 @@ pagan_group = {
 	}
 
 	sanamahi_pagan = { # Bamars
-		graphical_culture = buddhistgfx #hindugfx doesn't seem to work well (they get Norse CoA borders)
+		graphical_culture = indiangfx
 		secondary_event_pictures = sunni
 
 		icon = 81
