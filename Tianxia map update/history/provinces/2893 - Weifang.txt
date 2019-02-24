@@ -11,6 +11,6 @@ b_weifang = castle
 
 # Misc
 culture = han
-religion = taoist
+religion = nestorian
 
 # History

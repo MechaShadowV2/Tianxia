@@ -10,7 +10,7 @@ b_siulak = castle
 # Needs baronies!
 
 # Misc
-culture = malay
+culture = minangkabau
 religion = buddhist
 
 # History

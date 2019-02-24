@@ -17,6 +17,6 @@ b_kangyaung = temple
 
 # Misc
 culture = bamar
-religion = sanamahi_pagan
+religion = buddhist
 
 # History

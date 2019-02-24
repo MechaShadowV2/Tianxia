@@ -16,6 +16,6 @@ b_yotlim = temple
 
 # Misc
 culture = min
-religion = chinese_pagan
+religion = taoist
 
 # History

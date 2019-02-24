@@ -17,6 +17,6 @@ b_ban_that = temple
 
 # Misc
 culture = lao
-religion = buddhist
+religion = hindu
 
 # History

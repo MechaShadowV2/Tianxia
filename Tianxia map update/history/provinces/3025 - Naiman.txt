@@ -10,7 +10,7 @@ b_naiman2 = tribal
 # Needs baronies!
 
 # Misc
-culture = jurchen
+culture = mongol
 religion = tengri_pagan
 
 # History

@@ -16,7 +16,7 @@ b_mong_yang = temple
 # Check the baronies and remove one!
 
 # Misc
-culture = bamar
+culture = shan
 religion = sanamahi_pagan
 
 # History

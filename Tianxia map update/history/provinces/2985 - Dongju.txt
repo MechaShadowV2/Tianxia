@@ -10,7 +10,7 @@ b_tongzhou = tribal
 # Needs baronies
 
 # Misc
-culture = jurchen
-religion = tengri_pagan
+culture = korean
+religion = buddhist
 
 # History

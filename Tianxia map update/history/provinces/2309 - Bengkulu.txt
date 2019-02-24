@@ -16,7 +16,7 @@ b_prabumulih = city
 #b_talang_ubi = castle
 
 # Misc
-culture = malay
+culture = minangkabau
 religion = buddhist 
 
 # History

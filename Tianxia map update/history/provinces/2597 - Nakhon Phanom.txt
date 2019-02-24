@@ -10,6 +10,6 @@ b_nakhon_phanom = castle
 
 # Misc
 culture = lao
-religion = buddhist
+religion = hindu
 
 # History

@@ -10,6 +10,6 @@ b_nakhon_ratchasina = castle
 
 # Misc
 culture = khmer
-religion = hindu
+religion = buddhist
 
 # History

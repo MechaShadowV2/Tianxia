@@ -10,6 +10,6 @@ b_congjiang = castle
 
 # Misc
 culture = yi
-religion = chinese_pagan
+religion = buddhist
 
 # History

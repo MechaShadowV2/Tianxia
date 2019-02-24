@@ -10,6 +10,6 @@ b_sagaing = castle
 
 # Misc
 culture = bamar
-religion = buddhist
+religion = sanamahi_pagan
 
 # History

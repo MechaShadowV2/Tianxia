@@ -1180,8 +1180,8 @@ d_ronin_band
 d_ryukyuan_pagan_reformed
 d_sanamahi_pagan_reformed
 d_shaolin_monks
-d_shence_guard   
-d_shenwu_guard   
+d_shence_guard
+d_shenwu_guard
 d_sohei
 d_tibetan_band
 d_tibetan_company
@@ -1195,6 +1195,7 @@ d_xiang_company
 d_yojimbo   
 d_yulin_guard   
 k_chrysanthemum_throne
+k_goguryeo
 
 # Unsorted
 c_sainshand

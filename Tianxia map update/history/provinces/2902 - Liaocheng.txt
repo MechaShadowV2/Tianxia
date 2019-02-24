@@ -11,6 +11,6 @@ b_liaocheng = castle
 
 # Misc
 culture = han
-religion = taoist
+religion = nestorian
 
 # History

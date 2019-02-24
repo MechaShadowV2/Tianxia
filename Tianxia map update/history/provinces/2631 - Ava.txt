@@ -9,7 +9,7 @@ b_ava = castle
 # Needs baronies!
 
 # Misc
-culture = shan
+culture = bamar
 religion = buddhist
 
 # History

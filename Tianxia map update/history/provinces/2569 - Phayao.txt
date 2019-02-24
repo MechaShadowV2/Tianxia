@@ -16,7 +16,7 @@ b_dok_khamtai2 = temple
 # Check these baronies and remove one
 
 # Misc
-culture = shan
+culture = mon
 religion = buddhist
 
 # History

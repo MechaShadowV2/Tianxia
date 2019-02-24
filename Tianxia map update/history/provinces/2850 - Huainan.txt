@@ -17,7 +17,7 @@ b_kiuxsieumyanhpiukkiung = temple
 # Check these baronies and remove one!
 
 # Misc
-culture = han
+culture = yue
 religion = chinese_pagan
 
 # History

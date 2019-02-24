@@ -11,6 +11,6 @@ b_duldurga = tribal
 
 # Misc
 culture = khitan
-religion = tengri_pagan
+religion = nestorian
 
 # History

@@ -10,7 +10,7 @@ b_fuzhou = tribal
 # Needs baronies!
 
 # Misc
-culture = korean
-religion = buddhist
+culture = jurchen
+religion = tengri_pagan
 
 # History

@@ -17,6 +17,6 @@ b_zsjingkimzsih = temple
 
 # Misc
 culture = yi
-religion = chinese_pagan
+religion = buddhist
 
 # History

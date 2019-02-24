@@ -10,7 +10,7 @@ b_bintuhan = castle
 # Needs baronies!
 
 # Misc
-culture = malay
+culture = minangkabau
 religion = buddhist 
 
 # History

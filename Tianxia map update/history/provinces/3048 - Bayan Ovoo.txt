@@ -11,6 +11,6 @@ b_bayan_ovoo = tribal
 
 # Misc
 culture = khitan
-religion = tengri_pagan
+religion = nestorian
 
 # History

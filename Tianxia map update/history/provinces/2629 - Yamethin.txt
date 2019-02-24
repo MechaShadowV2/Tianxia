@@ -10,6 +10,6 @@ b_yamethin = castle
 
 # Misc
 culture = bamar
-religion = sanamahi_pagan
+religion = buddhist
 
 # History

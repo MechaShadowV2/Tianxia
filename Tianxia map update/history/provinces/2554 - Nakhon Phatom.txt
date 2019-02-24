@@ -18,6 +18,6 @@ b_mueang_samut_sakhon = temple
 
 # Misc
 culture = mon
-religion = hindu
+religion = buddhist
 
 # History

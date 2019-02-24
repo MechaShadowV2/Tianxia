@@ -11,6 +11,6 @@ b_longnan = castle
 
 # Misc
 culture = qiang
-religion = chinese_pagan
+religion = taoist
 
 # History

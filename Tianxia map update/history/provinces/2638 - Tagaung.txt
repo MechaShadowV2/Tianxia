@@ -16,7 +16,7 @@ b_shein_ma_kar = temple
 # Check the baronies and remove one!
 
 # Misc
-culture = bamar
-religion = buddhist
+culture = shan
+religion = sanamahi_pagan
 
 # History

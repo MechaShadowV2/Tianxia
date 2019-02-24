@@ -11,6 +11,6 @@ b_gunungmegang = castle
 
 # Misc
 culture = minangkabau
-religion = hindu
+religion = buddhist
 
 # History

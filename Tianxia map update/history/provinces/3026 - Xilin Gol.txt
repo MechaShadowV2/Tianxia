@@ -10,7 +10,7 @@ b_xilin_gol = tribal
 # Needs baronies!
 
 # Misc
-culture = jurchen
+culture = mongol
 religion = tengri_pagan
 
 # History

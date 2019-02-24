@@ -9,7 +9,7 @@ b_hkamti_long = castle
 # Needs baronies!
 
 # Misc
-culture = bamar
+culture = shan
 religion = sanamahi_pagan
 
 # History

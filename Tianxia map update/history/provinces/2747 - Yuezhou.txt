@@ -17,7 +17,7 @@ b_zjanghngyo = city
 # Check the baronies and remove one!
 
 # Misc
-culture = yue
-religion = taoist
+culture = she
+religion = buddhist
 
 # History

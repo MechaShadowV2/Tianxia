@@ -11,6 +11,6 @@ b_darkhan2 = tribal
 
 # Misc
 culture = khitan
-religion = tengri_pagan
+religion = nestorian
 
 # History

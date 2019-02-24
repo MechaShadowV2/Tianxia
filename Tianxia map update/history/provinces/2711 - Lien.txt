@@ -13,6 +13,6 @@ b_guian = city
 # Misc
 #culture = thai
 culture = min
-religion = buddhist
+religion = taoist
 
 # History

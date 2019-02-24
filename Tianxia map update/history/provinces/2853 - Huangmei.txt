@@ -10,7 +10,7 @@ b_huangmei = castle
 # Needs baronies!
 
 # Misc
-culture = han
+culture = yue
 religion = chinese_pagan
 
 # History

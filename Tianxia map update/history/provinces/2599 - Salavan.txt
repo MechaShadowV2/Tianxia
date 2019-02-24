@@ -17,6 +17,6 @@ b_nakosao = temple
 
 # Misc
 culture = lao
-religion = buddhist
+religion = hindu
 
 # History

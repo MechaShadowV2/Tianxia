@@ -11,6 +11,6 @@ b_khon_kaen = castle
 
 # Misc
 culture = khmer
-religion = hindu
+religion = buddhist
 
 # History

@@ -10,6 +10,6 @@ b_hsenwi = castle
 
 # Misc
 culture = shan
-religion = buddhist
+religion = sanamahi_pagan
 
 # History

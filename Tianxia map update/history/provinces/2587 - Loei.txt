@@ -10,6 +10,6 @@ b_loei = castle
 
 # Misc
 culture = khmer
-religion = hindu
+religion = buddhist
 
 # History

@@ -11,6 +11,6 @@ b_huaibei = castle
 
 # Misc
 culture = han
-religion = chinese_pagan
+religion = taoist
 
 # History

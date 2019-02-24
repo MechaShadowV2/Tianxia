@@ -11,6 +11,6 @@ b_loudi = castle
 
 # Misc
 culture = tujia
-religion = chinese_pagan
+religion = buddhist
 
 # History

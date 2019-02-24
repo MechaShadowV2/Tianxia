@@ -18,6 +18,6 @@ b_quyet_thang = temple
 
 # Misc
 culture = viet
-religion = taoist
+religion = viet_pagan
 
 # History

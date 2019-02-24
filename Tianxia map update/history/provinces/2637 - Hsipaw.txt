@@ -9,7 +9,7 @@ b_hsipaw = castle
 # Needs baronies!
 
 # Misc
-culture = bamar
-religion = buddhist
+culture = shan
+religion = sanamahi_pagan
 
 # History
