@@ -769,6 +769,7 @@ c_tongren
 c_wuzhou
 c_xiangxi
 c_yiyang
+c_yongxin
 c_yongzhou
 c_yueyang
 c_zhangjiajie
@@ -945,6 +946,7 @@ d_jingxibei
 d_linyi
 d_suizhou
 d_taiyuan
+c_xintai
 d_xuchang
 d_yungcheng
 k_liang
@@ -1113,7 +1115,7 @@ c_ordos
 c_oroqen
 c_pakali
 c_sakhalin
-c_sanishand
+c_sainshand
 c_silimpdi
 c_siziwang
 c_songyuan
@@ -1198,8 +1200,5 @@ k_chrysanthemum_throne
 k_goguryeo
 
 # Unsorted
-c_sainshand
 c_ujimqin
-c_yuncheng
-c_xintai
 c_jangnyeong

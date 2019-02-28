@@ -12,7 +12,7 @@ b_sonoshimo = castle
 b_katsuragi = castle
 b_yoshino = castle
 b_kofukuji = temple
-b_todaiji = temple
+#b_todaiji = temple
 
 
 # Misc

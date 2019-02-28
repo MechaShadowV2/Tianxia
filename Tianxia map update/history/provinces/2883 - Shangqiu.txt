@@ -1,7 +1,7 @@
-# 2883 - Shangqui
+# 2883 - Shangqiu
 
 # County Title
-title = c_shangqui
+title = c_shangqiu
 
 # Settlements
 max_settlements = 1

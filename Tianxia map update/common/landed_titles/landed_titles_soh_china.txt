@@ -2716,11 +2716,11 @@ e_china = {
 				}
 				# Check these baronies and cut enough that there only are seven left!
 			}
-			c_shangqui = {
+			c_shangqiu = {
 				color = { 230 200 60 } # TODO
 				color2 = { 181 6 0 } # TODO
 				
-				b_shangqui = {}
+				b_shangqiu = {}
 				# Needs baronies!
 			}
 			c_huaibei = {

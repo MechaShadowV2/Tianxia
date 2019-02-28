@@ -6,7 +6,7 @@ title = c_tainan
 # Settlements
 max_settlements = 1
 
-b_tainan = tribal
+b_tainan = castle
 #b_kaoshiung
 #b_anping
 #b_yongkang
