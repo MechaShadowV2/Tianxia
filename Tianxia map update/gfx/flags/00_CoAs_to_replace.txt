@@ -539,7 +539,6 @@ c_chuxiong
 c_dagon
 c_dali
 c_dawei
-c_gyaltang
 c_hkamti_long
 c_hsenwi
 c_hsipaw
@@ -654,6 +653,7 @@ c_baima
 c_barkam
 c_dartsedo
 c_garze
+c_gyaltang
 c_litang
 c_madoi
 c_tuyuhun
@@ -1123,7 +1123,7 @@ c_sonid
 c_tonai
 c_tondon
 c_tongliao
-c_ujimiqin
+c_ujimqin
 c_urkan
 c_xilin_gol
 c_yakesa
@@ -1198,7 +1198,3 @@ d_yojimbo
 d_yulin_guard   
 k_chrysanthemum_throne
 k_goguryeo
-
-# Unsorted
-c_ujimqin
-c_jangnyeong

@@ -1,7 +1,7 @@
 # MEKONG RAJAS: BURMA
 
 e_burma  = {
-	color = { 227 201 168 }
+	color = { 207 70 20 }
 	color2 = { 255 255 255 }
 	
 	capital = 2632 # Bagan

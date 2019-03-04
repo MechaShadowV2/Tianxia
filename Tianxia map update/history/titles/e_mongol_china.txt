@@ -1,0 +1,32 @@
+1.1.1={
+	law = crown_authority_1
+	law = succ_primogeniture
+	law = centralization_1
+	law = imperial_administration
+	law = ze_administration_laws_2
+	law = vice_royalty_2
+	law = revoke_title_law_1
+}
+# Tolunid civil war starts, Kublai rules e_mongol_china rather than e_china or k_mongolia (which turns into the Mongol Empire)
+1260.5.5 = {
+	holder = 217266 # Kublai Khan
+	name = "Yuan Empire"
+	adjective = "Yuan"
+	effect = {
+		set_title_flag = pretender_chinese_empire
+		set_title_flag = yuan_china
+		set_global_flag = pretender_yuan_china_exists
+	}
+}
+#Yuan Dynasty
+1279.3.19={
+	holder = 0
+	name = ""
+	adjective = ""
+	effect = {
+		clr_title_flag = pretender_chinese_empire
+		clr_title_flag = yuan_china
+		clr_global_flag = pretender_yuan_china_exists
+	}
+	active = no
+}
