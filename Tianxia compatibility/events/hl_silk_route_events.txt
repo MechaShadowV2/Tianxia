@@ -1625,11 +1625,9 @@ province_event = {
 				has_character_flag = do_not_disturb
 			}
 		}
-		NOR = {
-			province_id = 496 # Constantinople is unlikely to have raiders in the province
-			province_id = 356 # Venezia is unlikely to have raiders in the province
-			province_id = 233 # Genoa is unlikely to have raiders in the province
-			# All other provinces aren't coastal end nodes (except Palembang, where the city in question is located inland), so they should be able to get raiders
+		any_neighbor_province = { # This ensures that the raiders actually are raiding by land, as the events make no sense otherwise
+			has_owner = yes
+			trade_route = silk_road
 		}
 	}
 	
