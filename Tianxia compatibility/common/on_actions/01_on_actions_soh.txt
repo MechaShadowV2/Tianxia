@@ -32,7 +32,7 @@ on_new_holder_inheritance = {
 		grace.988 # Chinese princess update, same dynasty on the Dragon Throne OR EoC inherits other title
 		#grace.999 # New dynasty on the Dragon Throne
 		nameofchina.1 # Inheritance of China within same dynasty, no longer Chinese Imperial
-		nameofchina.5 # Inheritance of China by other dynasty, still Chinese Imperial
+		#nameofchina.5 # Inheritance of China by other dynasty, still Chinese Imperial - DO NOT UNCOMMENT HERE!
 		nameofchina.37 # Inheritance of China within same dynasty, suddenly Chinese Imperial
 		nameofchina.38 # Inheritance of China by other dynasty, still Chinese Imperial
 		nameofchina.8 # Inheritance of China by other dynasty, no longer Chinese Imperial

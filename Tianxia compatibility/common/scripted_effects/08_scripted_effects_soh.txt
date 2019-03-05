@@ -745,7 +745,7 @@ create_real_chinese_imperial_bloodline_effect = {
 		limit = {
 			NOT = {
 				any_owned_bloodline = {
-					has_flag = real_chinese_imperial_bloodline
+					has_bloodline_flag = real_chinese_imperial_bloodline
 				}
 			}
 		}
