@@ -209,11 +209,17 @@
 1259.7.21={
 	holder=1000202756 #Sik
 }
+1260.5.5 = {
+	set_tribute_suzerain = {
+		who = e_mongol_china
+		type = chinese
+	}
+}
 1274.7.23={
 	holder=1000202757 #Geo
 }
 1279.3.19={
-	clear_tribute_suzerain = e_mongol_empire
+	clear_tribute_suzerain = e_mongol_china
 	liege="e_china"
 }
 1298.1.1={

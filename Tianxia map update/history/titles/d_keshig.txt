@@ -14,6 +14,9 @@
 1227.1.1={
 	liege="e_mongol_empire"
 }
+1260.5.5 = {
+	liege = e_mongol_china
+}
 1279.1.1={
 	liege="e_china"
 }

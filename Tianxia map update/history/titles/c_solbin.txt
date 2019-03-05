@@ -124,6 +124,9 @@
 1259.8.11 = {
 	holder = 217266 # Kublai Khan
 }
+1260.5.5 = {
+	liege = e_mongol_china
+}
 1294.2.18 = {
 	holder = 217269 # Temür Khan
 }

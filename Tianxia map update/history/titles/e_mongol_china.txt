@@ -20,7 +20,7 @@
 }
 #Yuan Dynasty
 1279.3.19={
-	holder = 0
+	holder = 0 # Title switches to e_china
 	name = ""
 	adjective = ""
 	effect = {

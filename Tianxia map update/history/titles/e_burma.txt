@@ -37,7 +37,7 @@
 }
 1287.12.1 = {
 	liege = 0 # De facto
-	set_tribute_suzerain = { who = e_mongol_empire percentage = 0.35 }
+	set_tribute_suzerain = { who = e_china percentage = 0.35 }
 }
 1287.12.1 = {
 	holder=1000080190 #Kyawswa
