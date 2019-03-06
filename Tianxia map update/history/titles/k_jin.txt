@@ -3,7 +3,7 @@
 	#liege="k_liao"
 	set_tribute_suzerain = { who = k_mongolia percentage = 0.40 }
 	law = agnatic_succession
-	law = succ_primogeniture
+	law = succ_primogeniture # Will probably revert to Elective Gavelkind due to government and religion...
 }
 941.1.1 = {
 	holder=1000202536 #Hanpu
@@ -22,6 +22,8 @@
 }
 1021.1.1 = {
 	holder=1000076444 #Wugunai
+	law = agnatic_succession
+	law = succ_primogeniture # Will probably revert to Gavelkind due to government
 }
 1074.1.1 = {
 	holder=217729 #Helibo

@@ -951,7 +951,7 @@ e_china = {
 			color = { 143 236 45 }
 			color2 = { 181 6 0 }
 	
-			capital = 2180 # Liuzhou
+			capital = 2758 # Liuzhou
 			
 			c_liuzhou = {
 				color = { 155 216 40 }
@@ -1374,7 +1374,7 @@ e_china = {
 			color = { 255 156 20 }
 			color2 = { 181 6 0 }
 	
-			capital = 1842 # Zunyi
+			capital = 2793 # Zunyi
 			
 			c_zunyi = {
 				color = { 255 156 10 }

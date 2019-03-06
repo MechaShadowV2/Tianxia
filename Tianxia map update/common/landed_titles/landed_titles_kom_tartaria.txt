@@ -136,7 +136,7 @@ e_tartaria = {
 		color = { 76 43 12 }
 		color2={ 120 120 120 }
 
-		capital = 1756 # Aihom (should technically be further south, but that's de jure Balhae...
+		capital = 3010 # Aihom (should technically be further south, but that's de jure Balhae...
 		
 		culture = jurchen
 		
@@ -144,15 +144,18 @@ e_tartaria = {
 			hidden_tooltip = {
 				OR = {
 					ai = no
-					culture=jurchen
-					NOT = { has_landed_title = k_dongxia }
-					AND = {
+					NOR = {
 						has_landed_title = k_dongxia
+						has_landed_title = k_balhae
+					}
+					AND = {
 						any_demesne_title = {
 							tier = king
 							NOT = { title = k_dongxia }
+							NOT = { title = k_balhae }
 						}
 					}
+					tier = emperor
 				}
 			}
 		}
@@ -1355,15 +1358,18 @@ e_tartaria = {
 			hidden_tooltip = {
 				OR = {
 					ai = no
-					culture=jurchen
-					NOT = { has_landed_title = k_jin }
-					AND = {
+					NOR = {
 						has_landed_title = k_jin
+						has_landed_title = k_balhae
+					}
+					AND = {
 						any_demesne_title = {
 							tier = king
 							NOT = { title = k_jin }
+							NOT = { title = k_balhae }
 						}
 					}
+					tier = emperor
 				}
 			}
 		}
@@ -1524,7 +1530,7 @@ e_tartaria = {
 	}
 }
 
-e_jurchen = { # Jurchen Jin
+e_jurchen = { # Jurchen Jin, once it becomes an empire
 	color = { 100 100 250 } # TODO
 	color2={ 113 157 108 } # TODO
 	
@@ -1549,7 +1555,7 @@ e_jurchen = { # Jurchen Jin
 		}
 	}
 }
-e_mongol_china = { # Yuan dynasty
+e_mongol_china = { # Yuan dynasty, before defeating the Song
 	color = { 100 100 250 } # TODO
 	color2={ 113 157 108 } # TODO
 	

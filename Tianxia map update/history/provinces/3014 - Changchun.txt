@@ -10,7 +10,7 @@ b_changchun = tribal
 # Needs baronies!
 
 # Misc
-culture = jurchen
+culture = khitan
 religion = tengri_pagan
 
 # History

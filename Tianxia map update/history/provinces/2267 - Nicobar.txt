@@ -6,7 +6,7 @@ title = c_nicobar
 # Settlements
 max_settlements = 1
 
-b_naggadipa = tribal
+b_naggadipa = castle
 #b_tranquebar
 # Needs baronies
 

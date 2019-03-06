@@ -213,14 +213,11 @@
 1000076444 = {
 	name="Wugunai"
 	dynasty=1051153 #Wanyan
-	religion="tengri_pagan"
+	religion="taoist" # For gameplay reasons, he shouldn't be Tengri
 	culture="jurchen"
 	father=1000202544
 	1000.1.1={
 		birth="1000.1.1"
-	}
-	1050.1.1={
-		culture="jurchen"
 	}
 	1074.1.1={
 		death="1074.1.1"
@@ -236,9 +233,6 @@
 	1020.1.1={
 		birth="1020.1.1"
 	}
-	1050.1.1={
-		culture="jurchen"
-	}
 	1070.1.1={
 		death="1070.1.1"
 	}
@@ -247,14 +241,11 @@
 1000202546 = {
 	name="Hezhe"
 	dynasty=1051153 #Wanyan
-	religion="tengri_pagan"
+	religion="taoist"
 	culture="jurchen"
 	father=1000076444
 	1040.1.1={
 		birth="1040.1.1"
-	}
-	1050.1.1={
-		culture="jurchen"
 	}
 	1080.1.1={
 		death="1080.1.1"
@@ -264,14 +255,11 @@
 1000202568 = {
 	name="Polashu"
 	dynasty=1051153 #Wanyan
-	religion="tengri_pagan"
+	religion="taoist"
 	culture="jurchen"
 	father=1000076444
 	1041.1.1={
 		birth="1041.1.1"
-	}
-	1050.1.1={
-		culture="jurchen"
 	}
 	1094.1.1={
 		death="1094.1.1"
@@ -281,14 +269,11 @@
 1000202569 = {
 	name="Yingge"
 	dynasty=1051153 #Wanyan
-	religion="tengri_pagan"
+	religion="taoist"
 	culture="jurchen"
 	father=1000076444
 	1042.1.1={
 		birth="1042.1.1"
-	}
-	1050.1.1={
-		culture="jurchen"
 	}
 	1104.1.1={
 		death="1104.1.1"
@@ -298,7 +283,7 @@
 1000202548 = {
 	name="Sagai"
 	dynasty=1051153 #Wanyan
-	religion="tengri_pagan"
+	religion="taoist"
 	culture="jurchen"
 	father=1000202546
 	1060.1.1={

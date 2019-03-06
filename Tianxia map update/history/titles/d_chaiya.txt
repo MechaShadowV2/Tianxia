@@ -48,7 +48,7 @@
 	holder=1000080872 #Wira
 }
 1066.1.1={
-	liege=e_nusantara
+	liege=0
 }
 1080.1.1={
 	holder=1000080873 #Hijau

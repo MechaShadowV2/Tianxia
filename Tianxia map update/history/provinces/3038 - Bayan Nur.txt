@@ -10,7 +10,7 @@ b_bayan_nur = tribal
 # Needs baronies!
 
 # Misc
-culture = khitan
+culture = mongol
 religion = nestorian
 
 # History

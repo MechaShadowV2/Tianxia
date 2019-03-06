@@ -10,7 +10,7 @@ b_duldurga = tribal
 # Needs baronies!
 
 # Misc
-culture = khitan
+culture = mongol
 religion = nestorian
 
 # History

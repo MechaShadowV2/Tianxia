@@ -1733,7 +1733,7 @@ e_nusantara = {
 			color = { 255 224 89 }
 			color2 = { 90 90 90 }
 
-			capital = 1622 # Pattani
+			capital = 2547 # Pattani
 			
 			c_pattani = {
 				color = { 235 244 159 }

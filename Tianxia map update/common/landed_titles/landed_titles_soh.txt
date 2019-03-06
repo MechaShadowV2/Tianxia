@@ -460,7 +460,7 @@ d_viet_company = {
 	color = { 24 95 50 }
 	color2 = { 255 255 255 }
 
-	capital = 1706 # Than Hoa
+	capital = 2677 # Than Hoa
 	
 	# Parent Religion 
 	religion = viet_pagan

@@ -1,5 +1,10 @@
+1.1.1 = {
+	active = no
+}
+
 #Jin (Wanyan) Dynasty
 1127.1.9 = {
+	active = yes
 	name = "Jin Empire"
 	adjective = "Jin"
 	effect = {
@@ -27,6 +32,11 @@
 1213.9.11 = {
 	holder = 217738 #Wudubu
 }
+1214.1.1 = {
+	effect = {
+		set_preferred_capital = 2882 # Kaifeng (Nanjing)
+	}
+}
 1224.1.14 = {
 	holder = 217739 #Ningjiasu
 }
@@ -40,4 +50,5 @@
 		clr_title_flag = jin_china
 		clr_global_flag = pretender_jin_china_exists
 	}
+	active = no
 }

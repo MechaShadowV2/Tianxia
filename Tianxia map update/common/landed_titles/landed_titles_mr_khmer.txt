@@ -149,7 +149,7 @@ e_khmer = {
 			color = { 160 180 60 }
 			color2 = { 255 255 255 }
 	
-			capital = 2318 # Ratchaburi
+			capital = 2553 # Ratchaburi
 			
 			c_ratchaburi = {
 				color = { 160 180 20 }
@@ -617,7 +617,7 @@ e_khmer = {
 			color = { 70 255 30 }
 			color2 = { 255 255 255 }
 	
-			capital = 2313 # Champassak
+			capital = 2596 # Champassak
 			
 			c_champassak = {
 				color = { 70 240 40 }

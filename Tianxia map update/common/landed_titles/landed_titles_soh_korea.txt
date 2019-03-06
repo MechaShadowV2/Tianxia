@@ -35,23 +35,24 @@ e_korea = {
 			hidden_tooltip = {
 				OR = {
 					ai = no
-					culture_group=koreanic
 					NOR = {
 						has_landed_title = k_baekje
 						has_landed_title = k_goryeo
 						has_landed_title = k_silla
+						has_landed_title = k_jin # Should prevent the Jin from creating this title and suffering for it
+						has_landed_title = k_dongxia
 					}
 					AND = {
-						has_landed_title = k_baekje
-						has_landed_title = k_goryeo
-						has_landed_title = k_silla
 						any_demesne_title = {
 							tier = king
 							NOT = { title = k_baekje }
 							NOT = { title = k_goryeo }
 							NOT = { title = k_silla }
+							NOT = { title = k_jin }
+							NOT = { title = k_balhae }
 						}
 					}
+					tier = emperor
 				}
 			}
 		}
@@ -314,16 +315,12 @@ e_korea = {
 			hidden_tooltip = {
 				OR = {
 					ai = no
-					culture_group=koreanic
 					NOR = {
 						has_landed_title = k_balhae
 						has_landed_title = k_goryeo
 						has_landed_title = k_silla
 					}
 					AND = {
-						has_landed_title = k_balhae
-						has_landed_title = k_goryeo
-						has_landed_title = k_silla
 						any_demesne_title = {
 							tier = king
 							NOT = { title = k_balhae }
@@ -331,6 +328,7 @@ e_korea = {
 							NOT = { title = k_silla }
 						}
 					}
+					tier = emperor
 				}
 			}
 		}
@@ -498,23 +496,20 @@ e_korea = {
 			hidden_tooltip = {
 				OR = {
 					ai = no
-					culture_group=koreanic
 					NOR = {
 						has_landed_title = k_baekje
 						has_landed_title = k_silla
 						has_landed_title = k_balhae
 					}
 					AND = {
-						has_landed_title = k_baekje
-						has_landed_title = k_silla
-						has_landed_title = k_balhae
 						any_demesne_title = {
 							tier = king
 							NOT = { title = k_baekje }
-							NOT = { title = k_silla }
 							NOT = { title = k_balhae }
+							NOT = { title = k_silla }
 						}
 					}
+					tier = emperor
 				}
 			}
 		}
@@ -846,16 +841,12 @@ e_korea = {
 			hidden_tooltip = {
 				OR = {
 					ai = no
-					culture_group=koreanic
 					NOR = {
 						has_landed_title = k_baekje
 						has_landed_title = k_goryeo	
 						has_landed_title = k_balhae	
 					}
 					AND = {
-						has_landed_title = k_baekje
-						has_landed_title = k_goryeo
-						has_landed_title = k_balhae
 						any_demesne_title = {
 							tier = king
 							NOT = { title = k_baekje }
@@ -863,6 +854,7 @@ e_korea = {
 							NOT = { title = k_balhae }
 						}
 					}
+					tier = emperor
 				}
 			}
 		}
