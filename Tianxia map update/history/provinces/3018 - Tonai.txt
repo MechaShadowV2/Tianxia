@@ -6,13 +6,8 @@ title = c_tonai
 # Settlements
 max_settlements = 1
 
-b_tonai_puyu = tribal
-#b_tonai_kulian = tribal
-#b_tonai_nian = tribal
-#b_tonai_yaci = tribal
-#b_tonai_naiyan = tribal
-#b_tonai_suwen = tribal
-#b_tonai_zhaozhou = tribal
+b_tonai = tribal
+# Needs baronies!
 
 # Misc
 culture = khitan
